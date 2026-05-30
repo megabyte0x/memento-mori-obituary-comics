@@ -24,3 +24,21 @@ python scripts/add_comic.py /path/to/generated-output \
 ```
 
 The site is intentionally boring infrastructure: static HTML, static images, static PDFs. No database. No auth. No build step.
+
+## Paid agent PDF endpoint
+
+Agents can request the latest comic PDF at:
+
+```text
+GET /api/latest-pdf
+```
+
+The endpoint uses x402 and requires an exact 0.1 USDC payment on Base mainnet (`eip155:8453`) before returning the PDF bytes.
+
+Production deployments must set:
+
+```text
+X402_PAY_TO=0xYourReceivingWallet
+CDP_API_KEY_ID=your-cdp-key-id
+CDP_API_KEY_SECRET=your-cdp-key-secret
+```

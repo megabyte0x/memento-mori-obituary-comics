@@ -1,4 +1,9 @@
 {
   "cleanUrls": true,
+  "functions": {
+    "api/latest-pdf.js": {
+      "includeFiles": "{comics.json,comics/**}"
+    }
+  },
   "trailingSlash": true
 }
