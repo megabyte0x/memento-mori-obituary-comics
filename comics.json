@@ -1,0 +1,36 @@
+[
+  {
+    "slug": "dostoyevsky-borrowed-time",
+    "title": "Borrowed Time",
+    "person": "Fyodor Mikhailovich Dostoyevsky",
+    "years": "1821–1881",
+    "dek": "Russian novelist. Survivor of a staged execution.",
+    "mortality_event": "1849 staged execution / mock firing squad at Semyonovsky Square",
+    "published_at": "2026-05-30",
+    "pages": [
+      "pages/01-fyodor-dostoyevsky-borrowed-time.jpg",
+      "pages/02-born-near-suffering.jpg",
+      "pages/03-against-the-uniform.jpg",
+      "pages/04-poor-folk-opens.jpg",
+      "pages/05-rooms-with-ears.jpg",
+      "pages/06-the-arrest.jpg",
+      "pages/07-the-square.jpg",
+      "pages/08-the-guns-lowered.jpg",
+      "pages/09-life-inside.jpg",
+      "pages/10-omsk.jpg",
+      "pages/11-books-from-the-furnace.jpg",
+      "pages/12-the-soul-on-trial.jpg",
+      "pages/13-st-petersburg-1881.jpg",
+      "pages/14-what-remains.jpg"
+    ],
+    "pdf": "fyodor-dostoyevsky-borrowed-time.pdf",
+    "contact_sheet": "contact-sheet.jpg",
+    "sources": [
+      "Britannica",
+      "The Marginalian",
+      "Public Domain Review",
+      "Literary Hub"
+    ],
+    "closing_line": "The reprieve was one moment. The work was the rest of his life."
+  }
+]
