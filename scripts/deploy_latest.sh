@@ -15,10 +15,7 @@ if ! git diff --quiet || [ -n "$(git status --porcelain)" ]; then
   git push origin main
 fi
 
-# Production deploy from the committed tree. Vercel CLI prints the deployment URL.
+# Production deploy from the committed tree. Use the stable production alias for user-facing links.
 pnpm dlx vercel deploy --prod --yes | tee /tmp/memento-mori-vercel-deploy.log
-site_url=$(grep -Eo 'https://[^ ]+\.vercel\.app' /tmp/memento-mori-vercel-deploy.log | tail -1 | tr -d '\r')
-if [ -z "$site_url" ]; then
-  site_url="https://memento-mori-obituary-comics.vercel.app"
-fi
+site_url="https://memento-mori-obituary-comics.vercel.app"
 printf '%s%s\n' "${site_url%/}" "$comic_path"
