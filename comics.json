@@ -1,5 +1,33 @@
 [
   {
+    "slug": "frida-kahlo-broken-mirror",
+    "title": "The Broken Mirror",
+    "person": "Frida Kahlo",
+    "years": "1907–1954",
+    "dek": "Mexican painter whose self-portraits made pain, identity, the body, and death modern art's evidence.",
+    "mortality_event": "1925 bus-trolley crash in Mexico City that shattered her body and led to a long recovery in which she began painting.",
+    "published_at": "2026-05-30",
+    "pages": [
+      "pages/01-frida-kahlo-broken-mirror.jpg",
+      "pages/02-frida-kahlo-broken-mirror.jpg",
+      "pages/03-frida-kahlo-broken-mirror.jpg",
+      "pages/04-frida-kahlo-broken-mirror.jpg",
+      "pages/05-frida-kahlo-broken-mirror.jpg",
+      "pages/06-frida-kahlo-broken-mirror.jpg",
+      "pages/07-frida-kahlo-broken-mirror.jpg",
+      "pages/08-frida-kahlo-broken-mirror.jpg"
+    ],
+    "pdf": "frida-kahlo-broken-mirror.pdf",
+    "contact_sheet": "contact-sheet.jpg",
+    "sources": [
+      "Britannica",
+      "National Museum of Women in the Arts",
+      "FridaKahlo.org",
+      "The Guardian"
+    ],
+    "closing_line": "The crash broke the plan. The mirror helped build the work that remains."
+  },
+  {
     "slug": "viktor-frankl-meaning-under-ash",
     "title": "Meaning Under Ash",
     "person": "Viktor Emil Frankl",
