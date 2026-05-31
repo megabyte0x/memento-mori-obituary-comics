@@ -14,4 +14,23 @@
       }
     }
   ]
-}</script><script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments);};window.si=window.si||function(){(window.siq=window.siq||[]).push(arguments);};</script><script defer src="/_vercel/insights/script.js"></script><script defer src="/_vercel/speed-insights/script.js"></script><script defer src="https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"></script><script defer src="/assets/analytics.js"></script></head><body data-page-type="newsletter"><div class="bg-particles" id="particles-js"></div><main class="wrap section newsletter-page"><div class="newsletter-hero"><div class="kicker">Newsletter</div><h1>Borrowed Time Dispatch</h1><p>Get the next obituary comic by email, plus short source notes and one useful reflection for the week.</p><div class="newsletter-page-actions"><a class="btn primary" href="/">Back to archive</a><a class="btn" href="https://finalnotes.substack.com" target="_blank" rel="noopener noreferrer">Open Substack</a></div></div><div class="newsletter-embed-wrap"><iframe class="newsletter-embed" src="https://finalnotes.substack.com/embed" title="Borrowed Time Dispatch Substack signup" loading="lazy"></iframe></div></main><footer>Clean comics, verified lives, no motivational slop. <a href="/">Archive</a>.</footer></body></html>
+}</script><script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments);};window.si=window.si||function(){(window.siq=window.siq||[]).push(arguments);};</script><script defer src="/_vercel/insights/script.js"></script><script defer src="/_vercel/speed-insights/script.js"></script><script defer src="https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"></script><script defer src="/assets/analytics.js"></script></head><body data-page-type="newsletter"><div class="bg-particles" id="particles-js"></div><main class="wrap section newsletter-page"><div class="newsletter-hero"><div class="kicker">Newsletter</div><h1>Borrowed Time Dispatch</h1><p>Get the next obituary comic by email, plus short source notes and one useful reflection for the week.</p><div class="newsletter-page-actions"><a class="btn primary" href="/">Back to archive</a></div></div><div class="newsletter-panel"><form class="newsletter-form" action="https://finalnotes.substack.com/api/v1/free?nojs=true" method="post" target="substack-newsletter-frame" onsubmit="return handleNewsletterSignup(this)"><input type="hidden" name="source" value="embed"><label class="sr-only" for="newsletter-page-email">Email address</label><div class="newsletter-input-row"><input class="newsletter-input" id="newsletter-page-email" name="email" type="email" autocomplete="email" required placeholder="you@example.com" aria-describedby="newsletter-page-email-status"><button class="newsletter-submit" type="submit">Subscribe</button></div><p class="newsletter-fine-print">One quiet dispatch when a new comic or source note is ready.</p><p class="newsletter-status" id="newsletter-page-email-status" aria-live="polite"></p><iframe class="newsletter-post-target" name="substack-newsletter-frame" title="Newsletter signup response" hidden></iframe></form></div></main><footer>Clean comics, verified lives, no motivational slop. <a href="/">Archive</a>.</footer><script>
+function handleNewsletterSignup(form) {
+  const input = form.querySelector('input[name="email"]');
+  const status = form.querySelector('.newsletter-status');
+  const button = form.querySelector('.newsletter-submit');
+  if (!input || !input.checkValidity()) {
+    if (status) status.textContent = 'Enter a valid email address.';
+    if (input) input.reportValidity();
+    return false;
+  }
+  if (status) status.textContent = 'Sending your note to Substack...';
+  if (button) button.disabled = true;
+  window.setTimeout(() => {
+    if (status) status.textContent = 'Check your inbox for the Substack confirmation.';
+    if (button) button.disabled = false;
+    form.reset();
+  }, 1400);
+  return true;
+}
+</script></body></html>

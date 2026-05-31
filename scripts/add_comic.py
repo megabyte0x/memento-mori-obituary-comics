@@ -148,15 +148,55 @@ def newsletter_href() -> str:
     return configured if configured else "/newsletter/"
 
 
-def newsletter_link_attrs() -> str:
-    if newsletter_href() == "/newsletter/":
-        return 'href="/newsletter/"'
-    return f'href="{esc(newsletter_href())}" target="_blank" rel="noopener noreferrer"'
-
-
-def substack_embed_url() -> str:
+def substack_signup_action() -> str:
     href = newsletter_href()
-    return f"{href}/embed" if href != "/newsletter/" else ""
+    return f"{href}/api/v1/free?nojs=true" if href != "/newsletter/" else ""
+
+
+def newsletter_signup_script() -> str:
+    return """
+function handleNewsletterSignup(form) {
+  const input = form.querySelector('input[name="email"]');
+  const status = form.querySelector('.newsletter-status');
+  const button = form.querySelector('.newsletter-submit');
+  if (!input || !input.checkValidity()) {
+    if (status) status.textContent = 'Enter a valid email address.';
+    if (input) input.reportValidity();
+    return false;
+  }
+  if (status) status.textContent = 'Sending your note to Substack...';
+  if (button) button.disabled = true;
+  window.setTimeout(() => {
+    if (status) status.textContent = 'Check your inbox for the Substack confirmation.';
+    if (button) button.disabled = false;
+    form.reset();
+  }, 1400);
+  return true;
+}
+"""
+
+
+def newsletter_form(input_id: str = "newsletter-email") -> str:
+    action = substack_signup_action()
+    if not action:
+        return '<a class="mini-btn primary" href="/newsletter/">Join the newsletter</a>'
+
+    return (
+        '<div class="newsletter-panel">'
+        f'<form class="newsletter-form" action="{esc(action)}" method="post" target="substack-newsletter-frame" onsubmit="return handleNewsletterSignup(this)">'
+        '<input type="hidden" name="source" value="embed">'
+        f'<label class="sr-only" for="{esc(input_id)}">Email address</label>'
+        '<div class="newsletter-input-row">'
+        f'<input class="newsletter-input" id="{esc(input_id)}" name="email" type="email" autocomplete="email" required '
+        f'placeholder="you@example.com" aria-describedby="{esc(input_id)}-status">'
+        '<button class="newsletter-submit" type="submit">Subscribe</button>'
+        '</div>'
+        '<p class="newsletter-fine-print">One quiet dispatch when a new comic or source note is ready.</p>'
+        f'<p class="newsletter-status" id="{esc(input_id)}-status" aria-live="polite"></p>'
+        '<iframe class="newsletter-post-target" name="substack-newsletter-frame" title="Newsletter signup response" hidden></iframe>'
+        '</form>'
+        '</div>'
+    )
 
 
 def newsletter_signup(css_class: str = "newsletter-signup") -> str:
@@ -167,7 +207,7 @@ def newsletter_signup(css_class: str = "newsletter-signup") -> str:
         f'<h2>{esc(NEWSLETTER_NAME)}</h2>'
         '<p>Get the next obituary comic by email.</p>'
         '</div>'
-        f'<a class="mini-btn primary newsletter-link" {newsletter_link_attrs()}>Start with Substack</a>'
+        f'{newsletter_form()}'
         '</section>'
     )
 
@@ -1326,7 +1366,7 @@ def render_index(comics: list[dict[str, Any]]) -> str:
         '</div>'
         '</div>'
         '</section>'
-        f'<footer>Built for the morning death-reminder ritual. Clean comics, verified lives, no motivational slop. <a href="/about/">Editorial method</a>.</footer>{support_modal()}{pdf_support_modal()}<script>{home_script()}</script></body></html>'
+        f'<footer>Built for the morning death-reminder ritual. Clean comics, verified lives, no motivational slop. <a href="/about/">Editorial method</a>.</footer>{support_modal()}{pdf_support_modal()}<script>{newsletter_signup_script()}{home_script()}</script></body></html>'
     )
 
 
@@ -1437,20 +1477,15 @@ def render_comic(comic: dict[str, Any], next_comic: dict[str, Any] | None = None
         '<div class="hotkey-row"><span class="hotkey-key">Z</span> <span class="hotkey-action">Toggle sound</span></div>'
         '<div class="hotkey-row"><span class="hotkey-key">F</span> <span class="hotkey-action">Fullscreen</span></div>'
         '<button class="mini-btn ghost" type="button" onclick="toggleHotkeysPanel()" style="width:100%; margin-top:10px; font-size:9px;">Close</button>'
-        f'</div>{support_modal()}{pdf_support_modal()}<script>window.comicData = {comic_json_escaped};</script><script>{reader_script()}</script></body></html>'
+        f'</div>{support_modal()}{pdf_support_modal()}<script>window.comicData = {comic_json_escaped};</script><script>{newsletter_signup_script()}{reader_script()}</script></body></html>'
     )
 
 
 def render_newsletter(comics: list[dict[str, Any]]) -> str:
     latest = comics[0] if comics else None
-    embed_url = substack_embed_url()
-    open_substack_link = f'<a class="btn" {newsletter_link_attrs()}>Open Substack</a>' if embed_url else ""
-    if embed_url:
-        signup_panel = (
-            '<div class="newsletter-embed-wrap">'
-            f'<iframe class="newsletter-embed" src="{esc(embed_url)}" title="{esc(NEWSLETTER_NAME)} Substack signup" loading="lazy"></iframe>'
-            '</div>'
-        )
+    signup_action = substack_signup_action()
+    if signup_action:
+        signup_panel = newsletter_form("newsletter-page-email")
     else:
         signup_panel = (
             '<div class="newsletter-placeholder">'
@@ -1479,13 +1514,12 @@ def render_newsletter(comics: list[dict[str, Any]]) -> str:
         '<p>Get the next obituary comic by email, plus short source notes and one useful reflection for the week.</p>'
         '<div class="newsletter-page-actions">'
         '<a class="btn primary" href="/">Back to archive</a>'
-        f'{open_substack_link}'
         '</div>'
         '</div>'
         f'{signup_panel}'
         '</main>'
         '<footer>Clean comics, verified lives, no motivational slop. <a href="/">Archive</a>.</footer>'
-        '</body></html>'
+        f'<script>{newsletter_signup_script()}</script></body></html>'
     )
 
 

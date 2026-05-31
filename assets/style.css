@@ -562,11 +562,11 @@ h1 {
 .newsletter-signup {
   width: min(1120px, calc(100% - (var(--page-gutter) * 2)));
   margin: 0 auto;
-  padding: 30px 0;
+  padding: 32px 0;
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
   display: grid;
-  grid-template-columns: minmax(0, 1fr) max-content;
+  grid-template-columns: minmax(0, 0.9fr) minmax(320px, 480px);
   gap: 24px;
   align-items: center;
 }
@@ -585,10 +585,89 @@ h1 {
   color: var(--muted);
   font: 15px/1.6 var(--font-sans);
 }
-.newsletter-link {
-  flex-grow: 0;
-  min-width: 210px;
-  text-align: center;
+.newsletter-panel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid rgba(223, 177, 91, 0.32);
+  border-radius: 12px;
+  background:
+    linear-gradient(135deg, rgba(223, 177, 91, 0.12), rgba(192, 75, 63, 0.08)),
+    rgba(14, 11, 8, 0.92);
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.32);
+}
+.newsletter-panel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: inherit;
+  box-shadow: inset 0 1px 0 rgba(235, 220, 185, 0.08);
+}
+.newsletter-form {
+  position: relative;
+  z-index: 1;
+  padding: 18px;
+}
+.newsletter-input-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  min-height: 52px;
+}
+.newsletter-input {
+  width: 100%;
+  min-width: 0;
+  border: 1px solid rgba(223, 177, 91, 0.36);
+  border-right: 0;
+  border-radius: 8px 0 0 8px;
+  background: rgba(7, 6, 5, 0.72);
+  color: var(--paper);
+  font: 600 16px/1 var(--font-sans);
+  padding: 0 16px;
+  outline: none;
+}
+.newsletter-input::placeholder {
+  color: rgba(235, 220, 185, 0.48);
+}
+.newsletter-input:focus {
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px rgba(223, 177, 91, 0.14);
+}
+.newsletter-submit {
+  min-width: 132px;
+  min-height: 52px;
+  border: 1px solid var(--gold);
+  border-radius: 0 8px 8px 0;
+  background: var(--gold);
+  color: #090705;
+  cursor: pointer;
+  font: 900 11px/1 var(--font-sans);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  transition: var(--transition);
+}
+.newsletter-submit:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.06);
+}
+.newsletter-submit:disabled {
+  cursor: wait;
+  opacity: 0.7;
+  transform: none;
+}
+.newsletter-fine-print,
+.newsletter-status {
+  margin: 10px 0 0;
+  color: var(--muted);
+  font: 12px/1.5 var(--font-sans);
+}
+.newsletter-status {
+  min-height: 18px;
+  color: var(--gold);
+  font-weight: 700;
+}
+.newsletter-post-target {
+  display: none;
 }
 
 /* Sections */
@@ -858,7 +937,7 @@ footer {
   margin-top: 24px;
 }
 .newsletter-placeholder,
-.newsletter-embed-wrap {
+.newsletter-page .newsletter-panel {
   border: 1px solid var(--line);
   border-radius: var(--border-radius);
   background: var(--panel);
@@ -876,16 +955,9 @@ footer {
   color: var(--muted);
   font: 15px/1.7 var(--font-sans);
 }
-.newsletter-embed-wrap {
-  overflow: hidden;
+.newsletter-page .newsletter-panel {
+  max-width: 720px;
   padding: 0;
-}
-.newsletter-embed {
-  display: block;
-  width: 100%;
-  min-height: 320px;
-  border: 0;
-  background: var(--panel-solid);
 }
 
 /* ==========================================================================
@@ -1649,6 +1721,7 @@ body.theme-stark .reader-footer {
   width: 100%;
   margin: 34px 0 0;
   padding: 24px 0 0;
+  grid-template-columns: 1fr;
 }
 .reader-newsletter .newsletter-copy h2 {
   font-size: 24px;
@@ -1709,9 +1782,6 @@ body.theme-stark .reader-footer {
     width: calc(100% - (var(--page-gutter) * 2));
     gap: 18px;
   }
-  .newsletter-link {
-    width: 100%;
-  }
   .newsletter-hero h1 {
     font-size: 40px;
   }
@@ -1723,6 +1793,21 @@ body.theme-stark .reader-footer {
   }
   .hero-content {
     max-width: 100%;
+  }
+  .newsletter-form {
+    padding: 16px;
+  }
+  .newsletter-input-row {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .newsletter-input,
+  .newsletter-submit {
+    border: 1px solid rgba(223, 177, 91, 0.36);
+    border-radius: 8px;
+  }
+  .newsletter-submit {
+    width: 100%;
   }
   .latest-specimen {
     grid-template-columns: 64px 1fr 32px;

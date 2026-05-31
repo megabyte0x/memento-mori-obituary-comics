@@ -62,7 +62,7 @@ python scripts/verify_substack_launch.py --url https://finalnotes.substack.com
 pnpm test
 ```
 
-The generator also accepts `SUBSTACK_URL=...` as an override for staging or future publication changes. When the URL is configured, `/newsletter/` embeds the Substack signup iframe and the newsletter buttons open the publication URL. Substack's native embed code can be found in the publication settings under Growth features.
+The generator also accepts `SUBSTACK_URL=...` as an override for staging or future publication changes. When the URL is configured, `/newsletter/`, the homepage newsletter block, and reader-page newsletter blocks render a native themed email form that posts to Substack's free-subscribe endpoint in a hidden frame, so visitors can enter their email on the site without seeing the raw Substack iframe UI.
 
 Launch copy and first-issue materials live in:
 

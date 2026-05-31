@@ -80,6 +80,17 @@ class SeoRenderingTests(unittest.TestCase):
         self.assertIn('href="/newsletter/"', html)
         self.assertIn('Borrowed Time Dispatch', html)
         self.assertIn('Get the next obituary comic by email.', html)
+        self.assertIn('class="newsletter-form"', html)
+        self.assertIn('action="https://finalnotes.substack.com/api/v1/free?nojs=true"', html)
+        self.assertIn('name="email"', html)
+        self.assertIn('type="email"', html)
+        self.assertIn('class="newsletter-submit"', html)
+        self.assertIn('target="substack-newsletter-frame"', html)
+        self.assertIn('handleNewsletterSignup(this)', html)
+        self.assertNotIn('class="newsletter-embed newsletter-inline-embed"', html)
+        self.assertNotIn('src="https://finalnotes.substack.com/embed"', html)
+        self.assertNotIn('class="mini-btn primary newsletter-link"', html)
+        self.assertNotIn('Start with Substack', html)
         self.assertNotIn('<a class="btn" href="/about/">About</a>', html)
 
         latest_index = html.index('class="latest-specimen"')
@@ -157,22 +168,36 @@ class SeoRenderingTests(unittest.TestCase):
         self.assertIn('Read next', html)
         self.assertLess(html.index('class="reader-continue-strip"'), html.index('<footer class="reader-footer">'))
 
-    def test_comic_page_includes_substack_newsletter_cta_after_download(self):
+    def test_comic_page_uses_themed_substack_newsletter_form_after_download(self):
         html = add_comic.render_comic(SAMPLE_COMIC)
 
         self.assertIn('class="newsletter-signup reader-newsletter"', html)
         self.assertIn('Borrowed Time Dispatch', html)
-        self.assertIn('href="https://finalnotes.substack.com"', html)
-        self.assertIn('target="_blank"', html)
+        self.assertIn('class="newsletter-form"', html)
+        self.assertIn('action="https://finalnotes.substack.com/api/v1/free?nojs=true"', html)
+        self.assertIn('name="email"', html)
+        self.assertIn('type="email"', html)
+        self.assertIn('class="newsletter-submit"', html)
+        self.assertIn('target="substack-newsletter-frame"', html)
+        self.assertNotIn('class="newsletter-embed newsletter-inline-embed"', html)
+        self.assertNotIn('src="https://finalnotes.substack.com/embed"', html)
+        self.assertNotIn('class="mini-btn primary newsletter-link"', html)
+        self.assertNotIn('Start with Substack', html)
         self.assertLess(html.index('<h2>Download PDF</h2>'), html.index('class="newsletter-signup reader-newsletter"'))
 
     def test_newsletter_page_uses_configured_substack_url_by_default(self):
         html = add_comic.render_newsletter([SAMPLE_COMIC])
 
         self.assertIn('<h1>Borrowed Time Dispatch</h1>', html)
-        self.assertIn('src="https://finalnotes.substack.com/embed"', html)
-        self.assertIn('href="https://finalnotes.substack.com"', html)
-        self.assertIn('target="_blank"', html)
+        self.assertIn('class="newsletter-form"', html)
+        self.assertIn('action="https://finalnotes.substack.com/api/v1/free?nojs=true"', html)
+        self.assertIn('name="email"', html)
+        self.assertIn('type="email"', html)
+        self.assertIn('class="newsletter-submit"', html)
+        self.assertNotIn('class="newsletter-embed"', html)
+        self.assertNotIn('src="https://finalnotes.substack.com/embed"', html)
+        self.assertNotIn('href="https://finalnotes.substack.com"', html)
+        self.assertNotIn('Open Substack', html)
         self.assertNotIn('Substack is ready to connect', html)
         self.assertIn('href="/"', html)
         self.assertIn(f'<link rel="canonical" href="{SITE_URL}/newsletter/">', html)
@@ -190,9 +215,11 @@ class SeoRenderingTests(unittest.TestCase):
         with mock.patch.dict(os.environ, {"SUBSTACK_URL": "https://borrowedtime.substack.com/"}, clear=False):
             html = add_comic.render_newsletter([SAMPLE_COMIC])
 
-        self.assertIn('src="https://borrowedtime.substack.com/embed"', html)
-        self.assertIn('href="https://borrowedtime.substack.com"', html)
-        self.assertIn('target="_blank"', html)
+        self.assertIn('action="https://borrowedtime.substack.com/api/v1/free?nojs=true"', html)
+        self.assertIn('class="newsletter-form"', html)
+        self.assertNotIn('src="https://borrowedtime.substack.com/embed"', html)
+        self.assertNotIn('href="https://borrowedtime.substack.com"', html)
+        self.assertNotIn('Open Substack', html)
         self.assertNotIn('Substack is ready to connect', html)
 
     def test_public_discovery_files_reference_canonical_pages(self):
@@ -231,17 +258,27 @@ class SeoRenderingTests(unittest.TestCase):
             (root / "newsletter").mkdir()
             (root / "comics" / "sample-comic").mkdir(parents=True)
             (root / "newsletter" / "index.html").write_text(
-                '<iframe class="newsletter-embed" src="https://borrowedtime.substack.com/embed"></iframe>'
-                '<a class="btn" href="https://borrowedtime.substack.com" target="_blank">Open Substack</a>',
+                '<form class="newsletter-form" action="https://borrowedtime.substack.com/api/v1/free?nojs=true" method="post" target="substack-newsletter-frame">'
+                '<input name="email" type="email">'
+                '<button class="newsletter-submit">Subscribe</button>'
+                '</form>',
                 encoding="utf-8",
             )
             (root / "index.html").write_text(
-                '<a class="mini-btn primary newsletter-link" href="https://borrowedtime.substack.com" target="_blank">Start with Substack</a>',
+                '<section class="newsletter-signup">'
+                '<form class="newsletter-form" action="https://borrowedtime.substack.com/api/v1/free?nojs=true" method="post" target="substack-newsletter-frame">'
+                '<input name="email" type="email">'
+                '<button class="newsletter-submit">Subscribe</button>'
+                '</form>'
+                '</section>',
                 encoding="utf-8",
             )
             (root / "comics" / "sample-comic" / "index.html").write_text(
                 '<section class="newsletter-signup reader-newsletter">'
-                '<a class="mini-btn primary newsletter-link" href="https://borrowedtime.substack.com" target="_blank">Start with Substack</a>'
+                '<form class="newsletter-form" action="https://borrowedtime.substack.com/api/v1/free?nojs=true" method="post" target="substack-newsletter-frame">'
+                '<input name="email" type="email">'
+                '<button class="newsletter-submit">Subscribe</button>'
+                '</form>'
                 '</section>',
                 encoding="utf-8",
             )
@@ -273,7 +310,7 @@ class SeoRenderingTests(unittest.TestCase):
 
         self.assertGreaterEqual(len(result.errors), 4)
         self.assertTrue(any("placeholder" in error for error in result.errors))
-        self.assertTrue(any("newsletter embed" in error for error in result.errors))
+        self.assertTrue(any("newsletter form" in error for error in result.errors))
 
     def test_vercel_image_optimization_is_enabled_for_media_cdn_paths(self):
         config = json.loads((add_comic.ROOT / "vercel.json").read_text(encoding="utf-8"))

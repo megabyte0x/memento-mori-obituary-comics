@@ -17,7 +17,7 @@ except ModuleNotFoundError:  # pragma: no cover - direct script execution fallba
 @dataclass
 class LaunchVerification:
     substack_url: str
-    embed_url: str
+    action_url: str
     checked_comic_pages: int
     errors: list[str]
 
@@ -62,22 +62,33 @@ def verify_substack_launch(root: Path | str = ROOT, substack_url: str | None = N
         normalized_url = ""
         errors.append(str(exc))
 
-    embed_url = f"{normalized_url}/embed" if normalized_url else ""
+    action_url = f"{normalized_url}/api/v1/free?nojs=true" if normalized_url else ""
 
     newsletter_html = read_text(project_root / "newsletter" / "index.html", errors)
     if newsletter_html:
         if "Substack is ready to connect" in newsletter_html or "Add your Substack URL" in newsletter_html:
             errors.append("newsletter/index.html still contains the Substack placeholder.")
-        if embed_url:
-            require_contains(newsletter_html, f'src="{embed_url}"', "newsletter embed", errors)
-            require_contains(newsletter_html, f'href="{normalized_url}"', "newsletter page Substack link", errors)
-            require_contains(newsletter_html, 'target="_blank"', "newsletter page Substack link", errors)
+        if action_url:
+            require_contains(newsletter_html, 'class="newsletter-form"', "newsletter form", errors)
+            require_contains(newsletter_html, f'action="{action_url}"', "newsletter form", errors)
+            require_contains(newsletter_html, 'name="email"', "newsletter form", errors)
+            require_contains(newsletter_html, 'type="email"', "newsletter form", errors)
+            if f'href="{normalized_url}"' in newsletter_html or "Open Substack" in newsletter_html:
+                errors.append("newsletter/index.html still offers an external Substack redirect instead of relying on the embedded form.")
+            if f'src="{normalized_url}/embed"' in newsletter_html or 'class="newsletter-embed"' in newsletter_html:
+                errors.append("newsletter/index.html still uses the raw Substack embed as the visible signup UI.")
 
     homepage_html = read_text(project_root / "index.html", errors)
     if homepage_html and normalized_url:
-        require_contains(homepage_html, 'class="mini-btn primary newsletter-link"', "homepage newsletter CTA", errors)
-        require_contains(homepage_html, f'href="{normalized_url}"', "homepage newsletter CTA", errors)
-        require_contains(homepage_html, 'target="_blank"', "homepage newsletter CTA", errors)
+        require_contains(homepage_html, 'class="newsletter-signup"', "homepage newsletter signup", errors)
+        require_contains(homepage_html, 'class="newsletter-form"', "homepage newsletter signup", errors)
+        require_contains(homepage_html, f'action="{action_url}"', "homepage newsletter signup", errors)
+        require_contains(homepage_html, 'name="email"', "homepage newsletter signup", errors)
+        require_contains(homepage_html, 'type="email"', "homepage newsletter signup", errors)
+        if 'class="mini-btn primary newsletter-link"' in homepage_html:
+            errors.append("homepage newsletter signup still uses an external Substack CTA instead of the embedded form.")
+        if f'src="{normalized_url}/embed"' in homepage_html or 'class="newsletter-embed' in homepage_html:
+            errors.append("homepage newsletter signup still uses the raw Substack embed as the visible signup UI.")
 
     comic_pages = sorted((project_root / "comics").glob("*/index.html"))
     if not comic_pages:
@@ -87,8 +98,14 @@ def verify_substack_launch(root: Path | str = ROOT, substack_url: str | None = N
         if not html or not normalized_url:
             continue
         require_contains(html, 'class="newsletter-signup reader-newsletter"', str(page), errors)
-        require_contains(html, f'href="{normalized_url}"', str(page), errors)
-        require_contains(html, 'target="_blank"', str(page), errors)
+        require_contains(html, 'class="newsletter-form"', str(page), errors)
+        require_contains(html, f'action="{action_url}"', str(page), errors)
+        require_contains(html, 'name="email"', str(page), errors)
+        require_contains(html, 'type="email"', str(page), errors)
+        if 'class="mini-btn primary newsletter-link"' in html:
+            errors.append(f"{page} still uses an external Substack CTA instead of the embedded form.")
+        if f'src="{normalized_url}/embed"' in html or 'class="newsletter-embed' in html:
+            errors.append(f"{page} still uses the raw Substack embed as the visible signup UI.")
 
     sitemap = read_text(project_root / "sitemap.xml", errors)
     if sitemap:
@@ -96,7 +113,7 @@ def verify_substack_launch(root: Path | str = ROOT, substack_url: str | None = N
 
     return LaunchVerification(
         substack_url=normalized_url,
-        embed_url=embed_url,
+        action_url=action_url,
         checked_comic_pages=len(comic_pages),
         errors=errors,
     )
@@ -116,7 +133,7 @@ def main(argv: list[str] | None = None) -> int:
         return 1
 
     print(f"Substack launch verification passed for {result.substack_url}")
-    print(f"Embed URL: {result.embed_url}")
+    print(f"Signup action: {result.action_url}")
     print(f"Checked comic pages: {result.checked_comic_pages}")
     return 0
 
