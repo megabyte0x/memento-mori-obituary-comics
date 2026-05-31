@@ -2,6 +2,10 @@
 
 A static archive for daily obituary comics about deceased people who faced death and made significant work afterward.
 
+Live site: https://obit.agentcortex.space/
+
+Fallback Vercel URL: https://memento-mori-obituary-comics.vercel.app/
+
 Each comic gets a durable permalink:
 
 ```text
