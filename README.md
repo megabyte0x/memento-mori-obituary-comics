@@ -2,9 +2,7 @@
 
 A static archive for daily obituary comics about deceased people who faced death and made significant work afterward.
 
-Live site: https://finalnotes.page/
-
-Fallback Vercel URL: https://memento-mori-obituary-comics.vercel.app/
+Production site: https://finalnotes.page/
 
 Each comic gets a durable permalink:
 
