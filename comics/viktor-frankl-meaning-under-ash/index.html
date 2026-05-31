@@ -497,10 +497,14 @@ document.addEventListener('click', (event) => {
   const modal = document.getElementById('pdfSupportModal');
   if (modal && event.target === modal) closePdfSupportModal();
   
-  // Dynamic event delegation to intercept all PDF download clicks globally
-  const link = event.target.closest('a[href$=".pdf"]');
-  if (link && link.id !== 'pdfSkipBtn') {
-    triggerPdfSupportModal(event, link.getAttribute('href'));
+  // Dynamic event delegation to intercept all PDF download clicks globally and case-insensitively
+  const link = event.target.closest('a');
+  if (link) {
+    const href = link.getAttribute('href') || '';
+    const cleanHref = href.toLowerCase().split('?')[0].split('#')[0];
+    if (cleanHref.endsWith('.pdf') && link.id !== 'pdfSkipBtn') {
+      triggerPdfSupportModal(event, link.getAttribute('href'));
+    }
   }
 });
 </script></body></html>
