@@ -727,9 +727,16 @@ function setLayout(layout) {
   if (!pagesContainer) return;
   pagesContainer.classList.remove('layout-vertical', 'layout-spread', 'layout-slide', 'layout-split', 'reader-split-layout');
   pagesContainer.classList.add(`layout-${layout}`);
+  
+  // Update active state on class-matched option-btn layout selectors (both inline and dropdown-embedded)
+  document.querySelectorAll('.reader-layout-group .option-btn').forEach(btn => btn.classList.remove('active'));
+  document.querySelectorAll(`.layout-btn-${layout}`).forEach(btn => btn.classList.add('active'));
+  
+  // Backward compatibility for standard IDs
   document.querySelectorAll('[id^="layout-btn-"]').forEach(btn => btn.classList.remove('active'));
   const activeBtn = document.getElementById(`layout-btn-${layout}`);
   if (activeBtn) activeBtn.classList.add('active');
+  
   const pages = pagesContainer.querySelectorAll('.reader-page');
   
   if (layout === 'slide') {
@@ -1164,21 +1171,42 @@ def render_comic(comic: dict[str, Any], next_comic: dict[str, Any] | None = None
     return (
         f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">{head}</head>'
         f'<body class="reader-mode" data-page-type="reader" data-comic-slug="{esc(comic["slug"])}" data-person="{esc(comic["person"])}" data-title="{esc(comic["title"])}">'
-        '<nav class="reader-toolbar" aria-label="Reader controls" id="readerToolbar"><a class="reader-btn" href="/">← Archive</a>'
+        '<nav class="reader-toolbar" aria-label="Reader controls" id="readerToolbar"><a class="reader-btn reader-back" href="/">← Archive</a>'
         f'<div class="reader-title">{esc(comic["person"])} · {esc(comic["title"])}</div>'
-        '<div class="reader-actions"><div class="option-group" aria-label="Theme selector">'
+        '<div class="reader-actions">'
+        '<div class="option-group reader-layout-group main-toolbar-only" aria-label="Layout selector">'
+        '<button class="option-btn layout-btn-vertical active" id="layout-btn-vertical" onclick="setLayout(\'vertical\')" title="Continuous scroll layout">Scroll</button>'
+        '<button class="option-btn layout-btn-spread" id="layout-btn-spread" onclick="setLayout(\'spread\')" title="Dual page spread layout">Book</button>'
+        '<button class="option-btn layout-btn-slide" id="layout-btn-slide" onclick="setLayout(\'slide\')" title="Slideshow layout">Slide</button>'
+        '</div>'
+        f'{pdf_button}'
+        '<details class="reader-more">'
+        '<summary class="reader-btn reader-more-summary">More</summary>'
+        '<div class="reader-more-menu">'
+        '<div class="reader-menu-label mobile-only">Layout</div>'
+        '<div class="option-group reader-layout-group mobile-only" aria-label="Layout selector">'
+        '<button class="option-btn layout-btn-vertical active" onclick="setLayout(\'vertical\')" title="Continuous scroll layout">Scroll</button>'
+        '<button class="option-btn layout-btn-spread" onclick="setLayout(\'spread\')" title="Dual page spread layout">Book</button>'
+        '<button class="option-btn layout-btn-slide" onclick="setLayout(\'slide\')" title="Slideshow layout">Slide</button>'
+        '</div>'
+        '<div class="reader-menu-label">Theme</div>'
+        '<div class="option-group reader-theme-group" aria-label="Theme selector">'
         '<button class="option-btn active" id="theme-btn-obsidian" onclick="setTheme(\'obsidian\')" title="Obsidian Ashes theme">Obsidian</button>'
         '<button class="option-btn" id="theme-btn-sepia" onclick="setTheme(\'sepia\')" title="Sepia Dust theme">Sepia</button>'
-        '<button class="option-btn" id="theme-btn-stark" onclick="setTheme(\'stark\')" title="Stark Grave theme">OLED</button></div>'
-        '<div class="option-group" aria-label="Layout selector">'
-        '<button class="option-btn active" id="layout-btn-vertical" onclick="setLayout(\'vertical\')" title="Continuous scroll layout">Scroll</button>'
-        '<button class="option-btn" id="layout-btn-spread" onclick="setLayout(\'spread\')" title="Dual page spread layout">Book</button>'
-        '<button class="option-btn" id="layout-btn-slide" onclick="setLayout(\'slide\')" title="Slideshow layout">Slide</button></div>'
-        '<div class="option-group" aria-label="Text size adjuster">'
-        '<button class="option-btn" onclick="adjustTextSize(-1)" title="Decrease text size">A-</button>'
-        '<button class="option-btn" onclick="adjustTextSize(1)" title="Increase text size">A+</button></div>'
-        '<button class="reader-btn" id="zenBtn" type="button" onclick="toggleZenMode()">🔇 Zen Mode</button>'
-        f'{fullscreen_button}{pdf_button}{contact_button}{support_button("reader-btn")}</div></nav>'
+        '<button class="option-btn" id="theme-btn-stark" onclick="setTheme(\'stark\')" title="Stark Grave theme">OLED</button>'
+        '</div>'
+        '<div class="reader-menu-label">Reading</div>'
+        '<div class="reader-menu-row">'
+        '<button class="reader-btn" type="button" onclick="adjustTextSize(-1)" title="Decrease text size">A-</button>'
+        '<button class="reader-btn" type="button" onclick="adjustTextSize(1)" title="Increase text size">A+</button>'
+        '<button class="reader-btn" id="zenBtn" type="button" onclick="toggleZenMode()">Zen</button>'
+        '</div>'
+        '<div class="reader-menu-row">'
+        f'{fullscreen_button}{contact_button}{support_button("reader-btn")}'
+        '</div>'
+        '</div>'
+        '</details>'
+        '</div></nav>'
         '<div class="reader-progress-container"><div class="reader-progress-bar" id="readerProgressBar"></div></div>'
         f'<div class="sr-only"><h1>{esc(comic["person"])} - {esc(comic["title"])}</h1></div>'
         f'<main id="read" class="reader-pages layout-vertical" aria-label="Fullscreen scrollable comic pages">{pages}<aside class="reader-sidebar" id="readerSidebar"></aside></main>'

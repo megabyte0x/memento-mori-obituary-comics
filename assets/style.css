@@ -771,6 +771,19 @@ body.reader-mode.theme-stark {
   box-shadow: 0 18px 48px rgba(0, 0, 0, 0.58);
   backdrop-filter: blur(18px);
 }
+@keyframes menuFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+.reader-more[open] .reader-more-menu {
+  animation: menuFadeIn 0.22s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
 .reader-menu-label {
   margin: 2px 0 7px;
   color: var(--muted);
@@ -856,6 +869,12 @@ body.reader-mode.theme-stark {
   background: var(--gold);
   color: #120d06;
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08) inset;
+}
+.mobile-only {
+  display: none !important;
+}
+.main-toolbar-only {
+  display: flex !important;
 }
 
 /* Comic Layout Containers */
@@ -1201,50 +1220,107 @@ body.theme-stark .reader-footer {
   .reader-pages.layout-spread .reader-page:first-child {
     width: min(840px, 94vw) !important;
   }
+  
+  /* Mobile Single-Row pill-shaped Glassmorphic Toolbar */
   .reader-toolbar {
-    grid-template-columns: 1fr;
-    justify-items: center;
-    border-radius: 18px;
-    gap: 6px;
-    padding: 9px 10px;
-    top: 8px;
-    width: calc(100vw - 20px);
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: center;
+    border-radius: 99px;
+    gap: 8px;
+    padding: 6px 12px;
+    top: 10px;
+    width: calc(100vw - 24px);
+    max-width: 480px;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
   }
-  .reader-toolbar .reader-title {
-    order: -1;
-    max-width: 100%;
-    font-size: 11px;
-    margin-bottom: 0;
-  }
-  .reader-toolbar .reader-actions {
-    width: 100%;
+  
+  .reader-toolbar .reader-back {
+    font-size: 0 !important;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    overflow: visible;
-    padding: 0 2px 3px;
-    scrollbar-width: none;
+    border-radius: 50%;
+    flex-shrink: 0;
   }
-  .reader-toolbar .reader-actions::-webkit-scrollbar {
+  .reader-toolbar .reader-back::before {
+    content: "←";
+    font-size: 14px;
+  }
+
+  .reader-toolbar .reader-title {
+    order: 0;
+    text-align: center;
+    font-size: 11px;
+    padding: 6px 10px;
+    border: none;
+    background: rgba(255, 255, 255, 0.035);
+    border-radius: 99px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 220px;
+  }
+
+  .reader-toolbar .reader-actions {
+    grid-column: auto;
+    width: auto;
+    justify-content: flex-end;
+    gap: 6px;
+    flex-shrink: 0;
+  }
+  
+  .reader-toolbar .reader-actions .reader-btn.primary {
+    order: 0;
+  }
+
+  /* Responsive Display Rules */
+  .mobile-only {
+    display: flex !important;
+  }
+  .main-toolbar-only {
+    display: none !important;
+  }
+  .reader-toolbar .reader-layout-group.main-toolbar-only {
     display: none;
   }
-  .reader-toolbar .reader-actions > * {
-    flex: 0 0 auto;
+
+  .reader-layout-group.mobile-only {
+    display: flex;
+    width: 100%;
+    margin-bottom: 8px;
   }
-  .reader-toolbar .reader-actions .reader-btn.primary {
-    order: -2;
+  .reader-layout-group.mobile-only .option-btn {
+    flex: 1;
+    text-align: center;
   }
+
   .reader-more {
     position: static;
   }
+  
+  /* Dropdown Menu Styling & Placement below mobile pill bar */
   .reader-more-menu {
     position: fixed;
-    top: 118px;
-    right: 10px;
-    left: 10px;
+    top: 62px;
+    right: 12px;
+    left: 12px;
     width: auto;
-    max-height: calc(100vh - 140px);
+    max-height: calc(100vh - 80px);
     overflow-y: auto;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7);
+    padding: 16px;
+    border: 1px solid rgba(223, 177, 91, 0.3);
   }
+  
   .option-group {
     margin-top: 0;
   }
@@ -1255,8 +1331,10 @@ body.theme-stark .reader-footer {
   .option-btn {
     padding: 6px 10px;
   }
+  
+  /* Reduced Vertical Padding since toolbar is now extremely compact */
   .reader-pages {
-    padding-top: 126px;
+    padding-top: 76px;
   }
   .slide-nav-overlay {
     width: 42px;
