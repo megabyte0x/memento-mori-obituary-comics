@@ -8,6 +8,7 @@ import {
   collectComicAssets,
   comicAssetBlobPath,
   loadEnvFile,
+  uploadComicAssets,
 } from "../scripts/upload_comics_to_blob.js";
 
 test("comicAssetBlobPath preserves the comics-relative pathname for Blob", () => {
@@ -38,6 +39,42 @@ test("collectComicAssets finds uploadable comic binaries only", async () => {
       "comics/sample/pages/01.jpg",
       "comics/sample/sample.pdf",
     ],
+  );
+});
+
+test("collectComicAssets can scope uploads to one new comic slug", async () => {
+  const root = await mkdtemp(path.join(os.tmpdir(), "memento-blob-assets-slug-"));
+  await mkdir(path.join(root, "comics", "old-comic", "pages"), { recursive: true });
+  await mkdir(path.join(root, "comics", "new-comic", "pages"), { recursive: true });
+  await writeFile(path.join(root, "comics", "old-comic", "pages", "01-old-comic.jpg"), "old-jpg");
+  await writeFile(path.join(root, "comics", "new-comic", "pages", "01-new-comic.jpg"), "new-jpg");
+  await writeFile(path.join(root, "comics", "new-comic", "new-comic.pdf"), "new-pdf");
+
+  const assets = await collectComicAssets(root, { slug: "new-comic" });
+
+  assert.deepEqual(
+    assets.map(asset => asset.blobPath),
+    [
+      "comics/new-comic/new-comic.pdf",
+      "comics/new-comic/pages/01-new-comic.jpg",
+    ],
+  );
+});
+
+test("requireAssets fails fast when a slug has no local binaries", async () => {
+  const root = await mkdtemp(path.join(os.tmpdir(), "memento-blob-assets-required-"));
+  await mkdir(path.join(root, "comics", "empty-comic"), { recursive: true });
+  await writeFile(path.join(root, "comics", "empty-comic", "comic.json"), "{}");
+
+  await assert.rejects(
+    uploadComicAssets({
+      blobClient: { put: async () => { throw new Error("should not upload"); } },
+      dryRun: true,
+      requireAssets: true,
+      rootDir: root,
+      slug: "empty-comic",
+    }),
+    /No uploadable comic assets found for slug: empty-comic/,
   );
 });
 

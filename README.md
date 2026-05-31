@@ -14,18 +14,31 @@ Each comic gets a durable permalink:
 
 ## Add a generated comic
 
+The repo is now a staging + metadata workflow. `scripts/add_comic.py` still creates `comics/<slug>/comic.json`, `index.html`, and local JPG/PDF assets, but new binary comic assets are ignored by git and must be uploaded to private Vercel Blob before deploy.
+
 ```bash
 python scripts/add_comic.py /path/to/generated-output \
-  --slug dostoyevsky-borrowed-time \
-  --person "Fyodor Mikhailovich Dostoyevsky" \
-  --title "Borrowed Time" \
-  --years "1821–1881" \
-  --dek "Russian novelist. Survivor of a staged execution." \
-  --event "1849 staged execution / mock firing squad" \
-  --sources "Britannica; The Marginalian; Public Domain Review; Literary Hub"
+  --slug new-comic-slug \
+  --person "Name" \
+  --title "Title" \
+  --years "1900–2000" \
+  --dek "Short description" \
+  --event "Mortality event" \
+  --sources "Source A; Source B"
 
-./scripts/deploy_latest.sh /comics/dostoyevsky-borrowed-time/ "publish: Dostoyevsky comic"
+# Upload only this comic's local binaries into private Blob.
+pnpm run blob:dry-run -- --slug new-comic-slug --require-assets
+pnpm run blob:upload -- --slug new-comic-slug --require-assets
+
+# Regenerate static metadata/pages and verify.
+python scripts/add_comic.py --render-only
+pnpm test
+
+# Commit, push, and deploy.
+./scripts/deploy_latest.sh /comics/new-comic-slug/ "publish: New Comic"
 ```
+
+On this machine, older ignored binaries may still exist locally. If you omit `--slug`, `blob:dry-run` scans every local JPG/PNG/PDF under `comics/`; on a fresh clone that usually means only newly generated local assets.
 
 The site is intentionally boring infrastructure: static HTML and Vercel Functions. Comic binaries live in private Vercel Blob storage and are served through stable `/media/comics/...` site URLs with CDN cache headers. No database. No auth for the public reader.
 
@@ -46,6 +59,13 @@ python scripts/add_comic.py --render-only
 pnpm test
 ```
 
+To avoid re-listing old ignored binaries on a working tree that has historical local assets, scope the upload to the new comic:
+
+```bash
+pnpm run blob:dry-run -- --slug <slug> --require-assets
+pnpm run blob:upload -- --slug <slug> --require-assets
+```
+
 Blob pathnames mirror the old repo layout, for example:
 
 ```text
@@ -60,6 +80,8 @@ The browser loads those assets from:
 ```
 
 The `/media/*` rewrite sends requests to `api/blob-media.js`, which reads the private Blob object and returns a cacheable response. New binary comic assets are ignored by git; keep `comic.json`, `index.html`, and archive metadata in the repo.
+
+For Vercel CLI compatibility, use the checked-in deploy script or run ad-hoc Vercel commands through `pnpm dlx vercel@latest ...` rather than relying on an old global `vercel` binary.
 
 ## Paid agent PDF endpoint
 

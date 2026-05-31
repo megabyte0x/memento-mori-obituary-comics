@@ -70,11 +70,19 @@ async function walkFiles(dir) {
   return files;
 }
 
-export async function collectComicAssets(rootDir = ROOT_DIR) {
+export async function collectComicAssets(rootDir = ROOT_DIR, { slug = null } = {}) {
   const comicsDir = path.join(rootDir, "comics");
+  const scanDir = slug ? path.join(comicsDir, slug) : comicsDir;
+
+  if (!existsSync(scanDir)) {
+    throw new Error(slug
+      ? `Comic slug not found: ${path.join("comics", slug)}`
+      : `Comics directory not found: ${comicsDir}`);
+  }
+
   const assets = [];
 
-  for (const filePath of await walkFiles(comicsDir)) {
+  for (const filePath of await walkFiles(scanDir)) {
     if (!isUploadableComicAsset(filePath)) continue;
 
     const blobPath = comicAssetBlobPath(rootDir, filePath);
@@ -94,9 +102,17 @@ export async function uploadComicAssets({
   allowOverwrite = true,
   blobClient = { put: putBlob },
   dryRun = false,
+  requireAssets = false,
   rootDir = ROOT_DIR,
+  slug = null,
 } = {}) {
-  const assets = await collectComicAssets(rootDir);
+  const assets = await collectComicAssets(rootDir, { slug });
+
+  if (requireAssets && assets.length === 0) {
+    throw new Error(slug
+      ? `No uploadable comic assets found for slug: ${slug}`
+      : "No uploadable comic assets found");
+  }
 
   for (const asset of assets) {
     if (dryRun) {
@@ -118,9 +134,18 @@ export async function uploadComicAssets({
 }
 
 function parseArgs(argv) {
+  const slugIndex = argv.indexOf("--slug");
+  const slug = slugIndex === -1 ? null : argv[slugIndex + 1];
+
+  if (slugIndex !== -1 && (!slug || slug.startsWith("--"))) {
+    throw new Error("--slug requires a comic slug, e.g. --slug frida-kahlo-broken-mirror");
+  }
+
   return {
     allowOverwrite: !argv.includes("--no-overwrite"),
     dryRun: argv.includes("--dry-run"),
+    requireAssets: argv.includes("--require-assets"),
+    slug,
   };
 }
 

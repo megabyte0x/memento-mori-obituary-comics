@@ -286,6 +286,9 @@ def meta_head(
         f'<meta name="twitter:title" content="{esc(title)}">'
         f'<meta name="twitter:description" content="{esc(description)}">'
         '<link rel="stylesheet" href="/assets/style.css">'
+        '<link rel="icon" type="image/x-icon" href="/favicon.ico">'
+        '<link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">'
+        '<link rel="apple-touch-icon" href="/apple-touch-icon.png">'
         f'{json_script({"@context": "https://schema.org", "@graph": schema})}'
         f"{analytics_head()}"
     )
