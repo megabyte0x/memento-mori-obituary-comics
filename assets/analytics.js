@@ -7,11 +7,114 @@
   const person = body?.dataset.person || '';
   const title = body?.dataset.title || document.title || '';
   const sent = new Set();
+  const ATTRIBUTION_STORAGE_KEY = 'memento_attribution';
+  const UTM_KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'];
 
   function hasPrivacySignal() {
     const dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
     return window.globalPrivacyControl === true || dnt === '1' || dnt === 'yes';
   }
+
+  function safeUrl(rawUrl) {
+    try {
+      return new URL(rawUrl, location.href);
+    } catch (_error) {
+      return null;
+    }
+  }
+
+  function cleanString(value, max = 120) {
+    return String(value || '').trim().slice(0, max);
+  }
+
+  function isInternalReferrer(referrerUrl) {
+    return referrerUrl && referrerUrl.host === location.host;
+  }
+
+  function classifyChannel(source, medium) {
+    const src = cleanString(source).toLowerCase();
+    const med = cleanString(medium).toLowerCase();
+    if (!src && !med) return 'direct';
+    if (['cpc', 'ppc', 'paid', 'paid_search', 'sem'].includes(med)) return 'paid_search';
+    if (['paid_social', 'social_paid'].includes(med)) return 'paid_social';
+    if (['email', 'newsletter'].includes(med) || src.includes('newsletter')) return 'email';
+    if (['social', 'organic_social'].includes(med)) return 'organic_social';
+    if (['referral', 'partner'].includes(med)) return 'referral';
+    if (src.includes('google') || src.includes('bing') || src.includes('duckduckgo')) return med.includes('paid') ? 'paid_search' : 'organic_search';
+    if (src.includes('twitter') || src.includes('x.com') || src.includes('facebook') || src.includes('instagram') || src.includes('linkedin') || src.includes('reddit')) return med.includes('paid') ? 'paid_social' : 'organic_social';
+    return 'referral';
+  }
+
+  function getStoredAttribution() {
+    try {
+      return JSON.parse(localStorage.getItem(ATTRIBUTION_STORAGE_KEY) || '{}') || {};
+    } catch (_error) {
+      return {};
+    }
+  }
+
+  function persistAttribution(data) {
+    try {
+      localStorage.setItem(ATTRIBUTION_STORAGE_KEY, JSON.stringify(data));
+    } catch (_error) {
+      // Ignore storage failures; events still carry current-page attribution.
+    }
+  }
+
+  function getAttribution() {
+    const params = new URLSearchParams(location.search);
+    const current = {
+      landing_page: location.pathname,
+      landing_hash: location.hash,
+    };
+    for (const key of UTM_KEYS) {
+      const value = cleanString(params.get(key));
+      if (value) current[key] = value;
+    }
+
+    const referrerUrl = safeUrl(document.referrer);
+    if (referrerUrl && !isInternalReferrer(referrerUrl)) {
+      current.referrer = referrerUrl.origin + referrerUrl.pathname;
+      current.referrer_host = referrerUrl.hostname;
+    }
+
+    current.source = current.utm_source || current.referrer_host || 'Direct';
+    current.channel = classifyChannel(current.source, current.utm_medium);
+
+    const stored = getStoredAttribution();
+    const hasCampaignSignal = UTM_KEYS.some((key) => current[key]) || current.referrer_host;
+    const firstTouch = stored.first_touch || (hasCampaignSignal ? {
+      ...current,
+      first_seen_at: new Date().toISOString(),
+    } : null);
+    const lastTouch = hasCampaignSignal ? {
+      ...current,
+      last_seen_at: new Date().toISOString(),
+    } : stored.last_touch;
+
+    const merged = { first_touch: firstTouch, last_touch: lastTouch };
+    if (hasCampaignSignal || (!stored.first_touch && !stored.last_touch)) persistAttribution(merged);
+
+    const first = firstTouch || {};
+    const last = lastTouch || {};
+    return {
+      ...current,
+      first_utm_source: first.utm_source,
+      first_utm_medium: first.utm_medium,
+      first_utm_campaign: first.utm_campaign,
+      first_referrer_host: first.referrer_host,
+      first_source: first.source,
+      first_channel: first.channel,
+      last_utm_source: last.utm_source,
+      last_utm_medium: last.utm_medium,
+      last_utm_campaign: last.utm_campaign,
+      last_referrer_host: last.referrer_host,
+      last_source: last.source,
+      last_channel: last.channel,
+    };
+  }
+
+  const attribution = getAttribution();
 
   function initMixpanel() {
     if (hasPrivacySignal()) return false;
@@ -28,6 +131,7 @@
       site: 'memento_mori_obituary_comics',
       page_type: pageType,
       value_moment_event: 'reader_finished',
+      ...attribution,
     });
     window.__mementoMixpanelInitialized = true;
     return true;
@@ -74,14 +178,14 @@
   }
 
   function cleanData(data = {}) {
-    const out = { page_type: pageType };
+    const out = { page_type: pageType, ...attribution };
     if (slug) out.slug = slug;
     if (person) out.person = person;
     if (title) out.title = title;
     for (const [key, value] of Object.entries(data)) {
       if (value === undefined || value === null || value === '') continue;
       if (typeof value === 'number' || typeof value === 'boolean') out[key] = value;
-      else out[key] = String(value).slice(0, 120);
+      else out[key] = cleanString(value);
     }
     return out;
   }
@@ -113,14 +217,38 @@
     if (!link) return;
     const label = (link.textContent || link.getAttribute('aria-label') || '').trim().replace(/\s+/g, ' ').slice(0, 80);
     const href = link.getAttribute('href') || '';
+    const onclick = link.getAttribute('onclick') || '';
+    const url = safeUrl(href);
+    const clickData = { label, href };
+
+    if (link.classList.contains('support-open-btn') || onclick.includes('openSupportModal')) {
+      track('support_modal_opened', { label }, 'support_modal_opened');
+      return;
+    }
+    if (onclick.includes('copySupportAddress') || onclick.includes('copyPdfSupportAddress')) {
+      track('support_address_copied', { label, surface: onclick.includes('Pdf') ? 'pdf_modal' : 'support_modal' });
+      return;
+    }
+    if (href.startsWith('mailto:') || href.startsWith('sms:') || href.includes('wa.me') || href.includes('whatsapp') || href.includes('twitter.com/intent') || href.includes('x.com/intent') || href.includes('telegram.me/share')) {
+      track('share_clicked', clickData);
+      return;
+    }
+    if (href.includes('newsletter') || label.toLowerCase().includes('newsletter') || label.toLowerCase().includes('subscribe')) {
+      track('newsletter_clicked', clickData);
+      return;
+    }
+    if (url && url.host && url.host !== location.host) {
+      track('outbound_link_clicked', { ...clickData, outbound_host: url.hostname });
+      return;
+    }
     if (link.id === 'fullscreenBtn') {
       track('reader_fullscreen_clicked', { label }, 'fullscreen_clicked');
       return;
     }
-    if (href.includes('#read')) track('comic_read_clicked', { label, href });
-    else if (href.toLowerCase().endsWith('.pdf')) track('comic_pdf_clicked', { label, href });
-    else if (href.includes('contact-sheet')) track('comic_contact_sheet_clicked', { label, href });
-    else if (href === '/' || href === '/#archive') track('navigation_clicked', { label, href });
+    if (href.includes('#read')) track('comic_read_clicked', clickData);
+    else if (href.toLowerCase().endsWith('.pdf')) track('comic_pdf_clicked', clickData);
+    else if (href.includes('contact-sheet')) track('comic_contact_sheet_clicked', clickData);
+    else if (href === '/' || href === '/#archive') track('navigation_clicked', clickData);
   }, { passive: true });
 
   document.addEventListener('fullscreenchange', () => {
