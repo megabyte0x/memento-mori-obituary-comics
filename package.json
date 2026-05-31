@@ -6,10 +6,10 @@
     "test": "node --test tests/*.test.js && python3 -m unittest tests/test_seo_rendering.py"
   },
   "dependencies": {
-    "@coinbase/x402": "^2.1.0",
-    "@x402/core": "^2.14.0",
-    "@x402/evm": "^2.14.0",
-    "@x402/hono": "^2.14.0",
-    "hono": "^4.12.23"
+    "@coinbase/x402": "2.1.0",
+    "@x402/core": "2.13.0",
+    "@x402/evm": "2.13.0",
+    "@x402/hono": "2.13.0",
+    "hono": "4.12.21"
   }
 }

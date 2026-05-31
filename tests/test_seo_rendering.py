@@ -46,6 +46,16 @@ class SeoRenderingTests(unittest.TestCase):
         self.assertIn('Support development', html)
         self.assertIn(ZEC_ADDRESS, html)
         self.assertIn('copySupportAddress()', html)
+        self.assertIn('cdn.mxpnl.com/libs/mixpanel-2-latest.min.js', html)
+        self.assertIn('/assets/analytics.js', html)
+
+    def test_custom_analytics_forwards_events_to_mixpanel_eu(self):
+        script = (add_comic.ROOT / "assets" / "analytics.js").read_text(encoding="utf-8")
+
+        self.assertIn("api-eu.mixpanel.com", script)
+        self.assertIn("mixpanel.init", script)
+        self.assertIn("mixpanel.track(name, payload)", script)
+        self.assertNotIn("reflectionText", script)
 
     def test_comic_page_includes_semantic_headings_schema_and_crawlable_sources(self):
         html = add_comic.render_comic(SAMPLE_COMIC)

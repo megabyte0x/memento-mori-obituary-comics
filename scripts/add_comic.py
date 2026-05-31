@@ -73,6 +73,7 @@ def analytics_head() -> str:
         "window.si=window.si||function(){(window.siq=window.siq||[]).push(arguments);};</script>"
         '<script defer src="/_vercel/insights/script.js"></script>'
         '<script defer src="/_vercel/speed-insights/script.js"></script>'
+        '<script defer src="https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"></script>'
         '<script defer src="/assets/analytics.js"></script>'
     )
 

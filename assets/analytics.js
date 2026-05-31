@@ -1,10 +1,68 @@
 (() => {
+  const MIXPANEL_TOKEN = '58f4842ea22684a5a216331baa25a213';
+  const MIXPANEL_API_HOST = 'https://api-eu.mixpanel.com';
   const body = document.body;
   const pageType = body?.dataset.pageType || 'unknown';
   const slug = body?.dataset.comicSlug || '';
   const person = body?.dataset.person || '';
   const title = body?.dataset.title || document.title || '';
   const sent = new Set();
+
+  function initMixpanel() {
+    if (typeof window.mixpanel?.init !== 'function') return false;
+    if (window.__mementoMixpanelInitialized) return true;
+    window.mixpanel.init(MIXPANEL_TOKEN, {
+      api_host: MIXPANEL_API_HOST,
+      persistence: 'localStorage',
+      debug: false,
+      ignore_dnt: false,
+    });
+    window.mixpanel.register({
+      site: 'memento_mori_obituary_comics',
+      page_type: pageType,
+    });
+    window.__mementoMixpanelInitialized = true;
+    return true;
+  }
+
+  function getDistinctId() {
+    const key = 'memento_mixpanel_distinct_id';
+    try {
+      const existing = localStorage.getItem(key);
+      if (existing) return existing;
+      const generated = crypto?.randomUUID?.() || `anon_${Date.now()}_${Math.random().toString(36).slice(2)}`;
+      localStorage.setItem(key, generated);
+      return generated;
+    } catch (_error) {
+      return 'anonymous';
+    }
+  }
+
+  function base64Json(value) {
+    const json = JSON.stringify(value);
+    const bytes = new TextEncoder().encode(json);
+    let binary = '';
+    bytes.forEach((byte) => { binary += String.fromCharCode(byte); });
+    return btoa(binary);
+  }
+
+  function sendMixpanelFallback(name, payload) {
+    const event = {
+      event: name,
+      properties: {
+        ...payload,
+        token: MIXPANEL_TOKEN,
+        distinct_id: getDistinctId(),
+        $current_url: location.href,
+        $pathname: location.pathname,
+        mp_lib: 'memento_static_fallback',
+        time: Math.floor(Date.now() / 1000),
+      },
+    };
+    const url = `${MIXPANEL_API_HOST}/track/?data=${encodeURIComponent(base64Json(event))}&ip=1`;
+    const beacon = new Image();
+    beacon.src = url;
+  }
 
   function cleanData(data = {}) {
     const out = { page_type: pageType };
@@ -29,6 +87,11 @@
     window.__mementoLastEvent = { name, data: payload, at: new Date().toISOString() };
     if (typeof window.va === 'function') {
       window.va('event', { name, data: payload });
+    }
+    if (initMixpanel() && typeof window.mixpanel?.track === 'function') {
+      window.mixpanel.track(name, payload);
+    } else {
+      sendMixpanelFallback(name, payload);
     }
   }
 
