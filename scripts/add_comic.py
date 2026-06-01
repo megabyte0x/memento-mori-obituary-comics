@@ -1207,12 +1207,6 @@ function toggleZenMode() {
   }
 }
 
-// Hotkey Panel Control
-function toggleHotkeysPanel() {
-  const panel = document.getElementById('hotkeysPanel');
-  if (panel) panel.hidden = !panel.hidden;
-}
-
 // Keyboard shortcuts mapping
 document.addEventListener('keydown', (e) => {
   if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
@@ -1243,10 +1237,6 @@ document.addEventListener('keydown', (e) => {
   if (key === 'F') {
     const btn = document.getElementById('fullscreenBtn');
     if (btn) btn.click();
-  }
-  if (e.key === 'Escape') {
-    const panel = document.getElementById('hotkeysPanel');
-    if (panel && !panel.hidden) panel.hidden = true;
   }
 });
 
@@ -1481,17 +1471,7 @@ def render_comic(comic: dict[str, Any], next_comic: dict[str, Any] | None = None
         f'{contact_download}'
         f'{newsletter_signup("newsletter-signup reader-newsletter")}'
         f'</section>{next_teaser}</footer>'
-        f'<button class="hotkeys-helper-btn" type="button" onclick="toggleHotkeysPanel()" title="Keyboard shortcuts" aria-label="Keyboard shortcuts"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align: middle;"><rect x="2" y="4" width="20" height="16" rx="2" ry="2"></rect><line x1="6" y1="8" x2="6.01" y2="8"></line><line x1="10" y1="8" x2="10.01" y2="8"></line><line x1="14" y1="8" x2="14.01" y2="8"></line><line x1="18" y1="8" x2="18.01" y2="8"></line><line x1="6" y1="12" x2="6.01" y2="12"></line><line x1="18" y1="12" x2="18.01" y2="12"></line><line x1="7" y1="16" x2="17" y2="16"></line><line x1="10" y1="12" x2="14" y2="12"></line></svg></button>'
-        '<div class="hotkeys-hud-panel" id="hotkeysPanel" hidden>'
-        '<h4>Keyboard Shortcuts</h4>'
-        '<div class="hotkey-row"><span class="hotkey-key">←</span> <span class="hotkey-action">Prev slide</span></div>'
-        '<div class="hotkey-row"><span class="hotkey-key">→</span> <span class="hotkey-action">Next slide</span></div>'
-        '<div class="hotkey-row"><span class="hotkey-key">T</span> <span class="hotkey-action">Cycle theme</span></div>'
-        '<div class="hotkey-row"><span class="hotkey-key">L</span> <span class="hotkey-action">Cycle layout</span></div>'
-        '<div class="hotkey-row"><span class="hotkey-key">Z</span> <span class="hotkey-action">Toggle sound</span></div>'
-        '<div class="hotkey-row"><span class="hotkey-key">F</span> <span class="hotkey-action">Fullscreen</span></div>'
-        '<button class="mini-btn ghost" type="button" onclick="toggleHotkeysPanel()" style="width:100%; margin-top:10px; font-size:9px;">Close</button>'
-        f'</div>{support_modal()}{pdf_support_modal()}<script>window.comicData = {comic_json_escaped};</script><script>{newsletter_signup_script()}{reader_script()}</script></body></html>'
+        f'{support_modal()}{pdf_support_modal()}<script>window.comicData = {comic_json_escaped};</script><script>{newsletter_signup_script()}{reader_script()}</script></body></html>'
     )
 
 
