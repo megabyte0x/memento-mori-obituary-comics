@@ -1616,11 +1616,6 @@ body.theme-stark .reader-footer {
     border-radius: 50%;
     flex-shrink: 0;
   }
-  .reader-toolbar .reader-back::before {
-    content: "←";
-    font-size: 14px;
-  }
-
   .reader-toolbar .reader-title {
     order: 0;
     text-align: center;

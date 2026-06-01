@@ -347,6 +347,7 @@ class SeoRenderingTests(unittest.TestCase):
 
         self.assertIn(".reader-btn, .toolbar-select-btn {\n  min-height: 44px;", css)
         self.assertIn(".option-group {\n  display: flex;\n  min-height: 44px;", css)
+        self.assertNotIn(".reader-toolbar .reader-back::before", css)
         self.assertNotIn("hotkeys-helper-btn", css)
         self.assertNotIn("hotkeys-hud-panel", css)
         self.assertIn("prefers-reduced-motion: reduce", css)
