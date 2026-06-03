@@ -535,57 +535,6 @@ h1 {
   45%, 90% { border-bottom-width: 18px; }
 }
 
-/* Philosophical Quotes Widget */
-.quote-widget {
-  background: var(--panel);
-  backdrop-filter: blur(12px);
-  border: 1px solid var(--line);
-  padding: 16px 28px;
-  border-radius: var(--border-radius);
-  max-width: 600px;
-  margin: 20px auto 10px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-  transition: var(--transition);
-  position: relative;
-  overflow: hidden;
-}
-.quote-widget:hover {
-  border-color: var(--gold);
-  transform: translateY(-2px);
-  box-shadow: 0 12px 40px var(--gold-glow);
-}
-.quote-text {
-  font-size: 16px;
-  line-height: 1.5;
-  font-style: italic;
-  margin: 0 0 6px;
-  color: var(--paper);
-  transition: opacity 0.3s ease;
-}
-.quote-author {
-  font-family: var(--font-sans);
-  font-size: 11px;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: var(--gold);
-  letter-spacing: 0.1em;
-  margin: 0;
-}
-.quote-tip {
-  position: absolute;
-  bottom: 4px;
-  right: 12px;
-  font-family: var(--font-sans);
-  font-size: 8px;
-  color: var(--muted);
-  opacity: 0;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  transition: opacity 0.3s ease;
-}
-.quote-widget:hover .quote-tip { opacity: 0.6; }
-
 /* Buttons */
 .btns {
   display: flex;
@@ -1040,29 +989,6 @@ h1 {
   box-shadow: 0 22px 80px rgba(0, 0, 0, 0.32);
 }
 
-.ritual-grid {
-  display: grid;
-  grid-template-columns: .9fr 1.1fr .9fr;
-  gap: 18px;
-  align-items: stretch;
-}
-
-.ritual-grid .quote-widget,
-.ritual-grid .reflection-widget,
-.ritual-grid .breathing-widget {
-  width: 100%;
-  max-width: none;
-  height: 100%;
-  margin: 0;
-}
-
-.ritual-grid .quote-widget {
-  display: flex;
-  min-height: 250px;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .empty {
   border: 1px dashed var(--line);
   border-radius: var(--border-radius);
@@ -1154,83 +1080,6 @@ body.reader-mode.theme-stark {
   align-items: center;
   min-width: 0;
 }
-.reader-more {
-  position: relative;
-}
-.reader-more > summary {
-  list-style: none;
-}
-.reader-more > summary::-webkit-details-marker {
-  display: none;
-}
-.reader-more-summary::after {
-  content: "";
-  width: 6px;
-  height: 6px;
-  border-right: 1.5px solid currentColor;
-  border-bottom: 1.5px solid currentColor;
-  transform: rotate(45deg) translateY(-1px);
-  opacity: .8;
-}
-.reader-more[open] .reader-more-summary {
-  background: rgba(244, 235, 214, 0.12);
-  border-color: var(--gold);
-}
-.reader-more[open] .reader-more-summary::after {
-  transform: rotate(225deg) translate(-1px, -1px);
-}
-.reader-more-menu {
-  position: absolute;
-  right: 0;
-  top: calc(100% + 10px);
-  width: min(360px, calc(100vw - 32px));
-  padding: 12px;
-  border: 1px solid rgba(223, 177, 91, 0.28);
-  border-radius: 16px;
-  background:
-    linear-gradient(180deg, rgba(25, 20, 15, 0.97), rgba(7, 7, 6, 0.96)),
-    rgba(9, 8, 6, 0.96);
-  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.58);
-  backdrop-filter: blur(18px);
-}
-@keyframes menuFadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(10px) scale(0.96);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
-}
-.reader-more[open] .reader-more-menu {
-  animation: menuFadeIn 0.22s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-}
-.reader-menu-label {
-  margin: 2px 0 7px;
-  color: var(--muted);
-  font: 800 9px var(--font-sans);
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-.reader-menu-label:not(:first-child) {
-  margin-top: 12px;
-}
-.reader-theme-group {
-  width: 100%;
-}
-.reader-theme-group .option-btn {
-  flex: 1;
-}
-.reader-menu-row {
-  display: flex;
-  gap: 7px;
-  flex-wrap: wrap;
-}
-.reader-menu-row .reader-btn {
-  flex: 1 1 auto;
-  justify-content: center;
-}
 
 /* Control Selectors/Buttons */
 .reader-btn, .toolbar-select-btn {
@@ -1260,44 +1109,6 @@ body.reader-mode.theme-stark {
 .reader-btn.primary:hover {
   background: var(--paper);
   color: #000;
-}
-
-/* Advanced Option Selector Widgets */
-.option-group {
-  display: flex;
-  min-height: 34px;
-  background: rgba(0, 0, 0, 0.3);
-  border: 1px solid rgba(223, 177, 91, 0.2);
-  padding: 2px;
-  border-radius: 999px;
-  gap: 2px;
-}
-.option-btn {
-  border: none;
-  background: transparent;
-  color: var(--muted);
-  border-radius: 999px;
-  padding: 6px 11px;
-  font: 800 9px var(--font-sans);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  cursor: pointer;
-  transition: var(--transition);
-}
-.option-btn:hover {
-  color: var(--paper);
-}
-.option-btn.active,
-.option-btn[data-state="on"] {
-  background: var(--gold);
-  color: #120d06;
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08) inset;
-}
-.mobile-only {
-  display: none !important;
-}
-.main-toolbar-only {
-  display: flex !important;
 }
 
 /* Comic Layout Containers */
@@ -1644,9 +1455,6 @@ body.theme-stark .reader-footer {
     grid-template-columns: minmax(190px, 320px) minmax(0, 1fr);
   }
 
-  .ritual-grid {
-    grid-template-columns: 1fr;
-  }
 }
 
 @media (max-width: 1080px) and (min-width: 901px) {
@@ -1740,55 +1548,9 @@ body.theme-stark .reader-footer {
     order: 0;
   }
 
-  /* Responsive Display Rules */
-  .mobile-only {
-    display: flex !important;
-  }
-  .main-toolbar-only {
-    display: none !important;
-  }
-  .reader-toolbar .reader-layout-group.main-toolbar-only {
-    display: none;
-  }
-
-  .reader-layout-group.mobile-only {
-    display: flex;
-    width: 100%;
-    margin-bottom: 8px;
-  }
-  .reader-layout-group.mobile-only .option-btn {
-    flex: 1;
-    text-align: center;
-  }
-
-  .reader-more {
-    position: static;
-  }
-  
-  /* Dropdown Menu Styling & Placement below mobile pill bar */
-  .reader-more-menu {
-    position: fixed;
-    top: 62px;
-    right: 12px;
-    left: 12px;
-    width: auto;
-    max-height: calc(100vh - 80px);
-    overflow-y: auto;
-    border-radius: 20px;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7);
-    padding: 16px;
-    border: 1px solid rgba(223, 177, 91, 0.3);
-  }
-  
-  .option-group {
-    margin-top: 0;
-  }
   .reader-btn,
   .toolbar-select-btn {
     padding: 7px 11px;
-  }
-  .option-btn {
-    padding: 6px 10px;
   }
   
   /* Reduced Vertical Padding since toolbar is now extremely compact */
@@ -2066,7 +1828,7 @@ body.theme-stark .reader-footer {
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .archive-card, .archive-cover img, .btn, .next-comic-link, .option-btn {
+  .archive-card, .archive-cover img, .btn, .next-comic-link {
     transition: none !important;
   }
   .archive-card:hover {
@@ -2092,136 +1854,6 @@ body.theme-stark .reader-footer {
 @keyframes spin-full {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
-}
-
-/* Gold-Shifting Quote Widget Border Animation */
-@keyframes border-glow-shift {
-  0% { border-color: rgba(223, 177, 91, 0.2); box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2), 0 0 10px rgba(223, 177, 91, 0.05); }
-  50% { border-color: rgba(223, 177, 91, 0.7); box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25), 0 0 20px rgba(223, 177, 91, 0.25); }
-  100% { border-color: rgba(223, 177, 91, 0.2); box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2), 0 0 10px rgba(223, 177, 91, 0.05); }
-}
-.quote-widget {
-  animation: border-glow-shift 6s infinite ease-in-out;
-}
-.quote-text {
-  transition: opacity 0.25s cubic-bezier(0.25, 0.8, 0.25, 1), transform 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
-}
-.quote-text.switching {
-  opacity: 0;
-  transform: translateY(-8px);
-}
-
-/* Daily Reflection Log Widget */
-.reflection-widget {
-  background: var(--panel);
-  backdrop-filter: blur(12px);
-  border: 1px solid var(--line);
-  padding: 24px;
-  border-radius: var(--border-radius);
-  max-width: 600px;
-  margin: 32px auto 0;
-  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.25);
-  text-align: left;
-  transition: var(--transition);
-}
-.reflection-widget:hover {
-  border-color: rgba(223, 177, 91, 0.35);
-  box-shadow: 0 20px 56px rgba(0, 0, 0, 0.3);
-}
-.reflection-title {
-  font-family: var(--font-display);
-  font-size: 18px;
-  color: var(--gold);
-  text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 8px;
-  letter-spacing: 0.05em;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-.reflection-widget p.reflection-prompt {
-  font-size: 14px;
-  color: var(--muted);
-  margin: 0 0 16px;
-  font-family: var(--font-sans);
-}
-.reflection-input-container {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-.reflection-textarea {
-  width: 100%;
-  min-height: 80px;
-  background: rgba(0, 0, 0, 0.3);
-  border: 1px solid var(--line);
-  border-radius: 10px;
-  color: var(--paper);
-  padding: 12px;
-  font-family: var(--font-serif);
-  font-size: 16px;
-  resize: vertical;
-  transition: var(--transition);
-}
-.reflection-textarea:focus {
-  outline: none;
-  border-color: var(--gold);
-  background: rgba(0, 0, 0, 0.45);
-  box-shadow: 0 0 12px var(--gold-glow);
-}
-.reflection-submit-btn {
-  align-self: flex-end;
-}
-.reflection-log-list {
-  margin-top: 24px;
-  border-top: 1px solid var(--line);
-  padding-top: 20px;
-  max-height: 250px;
-  overflow-y: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  padding-right: 8px;
-}
-.reflection-log-list::-webkit-scrollbar {
-  width: 6px;
-}
-.reflection-log-list::-webkit-scrollbar-track {
-  background: transparent;
-}
-.reflection-log-list::-webkit-scrollbar-thumb {
-  background: var(--line);
-  border-radius: 99px;
-}
-.reflection-log-list::-webkit-scrollbar-thumb:hover {
-  background: var(--gold);
-}
-.reflection-log-item {
-  animation: fade-in 0.4s ease-out;
-  border-left: 2px solid var(--gold);
-  padding-left: 12px;
-}
-.reflection-log-meta {
-  font-family: var(--font-sans);
-  font-size: 10px;
-  color: var(--gold);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin-bottom: 4px;
-}
-.reflection-log-text {
-  font-size: 15px;
-  color: var(--paper);
-  margin: 0;
-  font-style: italic;
-}
-.reflection-log-quote {
-  font-family: var(--font-sans);
-  font-size: 10px;
-  color: var(--muted);
-  margin-top: 4px;
-  display: block;
 }
 
 /* Slideshow dots pagination */
@@ -2571,135 +2203,6 @@ body::before {
 .reader-btn#zenBtn.active {
   animation: zen-breath 6s infinite ease-in-out;
   color: var(--gold) !important;
-}
-
-/* Vintage Diary Reflection Log deletion features */
-.reflection-log-item {
-  position: relative;
-  transition: var(--transition);
-  border-radius: 8px;
-  padding: 12px 38px 12px 14px;
-  background: rgba(255, 255, 255, 0.01);
-  margin-bottom: 8px;
-}
-.reflection-log-item:hover {
-  background: rgba(255, 255, 255, 0.03);
-}
-.delete-reflection-btn {
-  position: absolute;
-  top: 50%;
-  right: 12px;
-  transform: translateY(-50%);
-  background: transparent;
-  border: none;
-  color: var(--muted);
-  cursor: pointer;
-  font-size: 16px;
-  opacity: 0;
-  transition: var(--transition);
-  padding: 6px;
-  border-radius: 50%;
-  line-height: 1;
-}
-.reflection-log-item:hover .delete-reflection-btn {
-  opacity: 0.6;
-}
-.delete-reflection-btn:hover {
-  color: var(--red);
-  opacity: 1 !important;
-  background: rgba(192, 75, 63, 0.12);
-}
-
-/* Breathing Ritual Widget Styles */
-.breathing-widget {
-  background: var(--panel);
-  backdrop-filter: blur(16px);
-  border: 1px solid var(--line);
-  padding: 28px;
-  border-radius: var(--border-radius);
-  max-width: 600px;
-  margin: 32px auto 0;
-  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.3);
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 18px;
-  transition: var(--transition);
-}
-.breathing-widget:hover {
-  border-color: rgba(223, 177, 91, 0.3);
-  box-shadow: 0 20px 56px rgba(0, 0, 0, 0.35);
-}
-.breathing-widget-header {
-  font-family: var(--font-display);
-  font-size: 18px;
-  color: var(--gold);
-  text-transform: uppercase;
-  margin: 0;
-  letter-spacing: 0.05em;
-}
-.breathing-prompt {
-  font-size: 14px;
-  color: var(--muted);
-  margin: 0;
-  font-family: var(--font-sans);
-}
-.breathing-circle-container {
-  position: relative;
-  width: 140px;
-  height: 140px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 12px 0;
-}
-.breathing-circle-bg {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  border: 1px dashed var(--line);
-  border-radius: 50%;
-  opacity: 0.5;
-}
-.breathing-circle-active {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  background: radial-gradient(circle, var(--gold) 0%, rgba(223, 177, 91, 0.3) 70%, transparent 100%);
-  border-radius: 50%;
-  box-shadow: 0 0 24px var(--gold-glow);
-  transform: scale(1);
-  transition: transform 0.1s linear, background 0.5s ease, box-shadow 0.5s ease;
-}
-.breathing-circle-active.hold {
-  background: radial-gradient(circle, var(--paper) 0%, rgba(244, 235, 214, 0.25) 70%, transparent 100%);
-  box-shadow: 0 0 24px rgba(244, 235, 214, 0.15);
-}
-.breathing-circle-active.exhale {
-  background: radial-gradient(circle, var(--red) 0%, rgba(192, 75, 63, 0.25) 70%, transparent 100%);
-  box-shadow: 0 0 24px rgba(192, 75, 63, 0.15);
-}
-.breathing-instruction {
-  font-family: var(--font-display);
-  font-size: 20px;
-  color: var(--gold);
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  min-height: 1.2em;
-  margin: 0;
-}
-.breathing-timer {
-  font-family: var(--font-sans);
-  font-size: 11px;
-  color: var(--muted);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  margin: 0;
-}
-.breathing-controls {
-  display: flex;
-  gap: 12px;
 }
 
 /* Editorial Drop Caps for Story Notes & About */

@@ -2,7 +2,6 @@ import Link from "next/link";
 
 import { ArchiveCard } from "@/components/archive-card";
 import { LatestPanel } from "@/components/latest-panel";
-import { RitualTools } from "@/components/ritual-tools";
 import { SiteNav } from "@/components/site-nav";
 import { SubstackSubscribe } from "@/components/substack-subscribe";
 import { Button } from "@/components/ui/button";
@@ -93,17 +92,6 @@ export default function HomePage() {
       </section>
 
       <SubstackSubscribe />
-
-      <section className="wrap section ritual-section" aria-label="Daily ritual tools">
-        <div className="section-head">
-          <div>
-            <div className="kicker">Reader ritual</div>
-            <h2>Pause Before Reading</h2>
-          </div>
-          <p>A small set of optional tools for the morning death-reminder ritual.</p>
-        </div>
-        <RitualTools />
-      </section>
 
       <footer>
         Built for the morning death-reminder ritual. Clean comics, verified lives, no motivational slop. <Link href="/about/">Editorial method</Link>.
