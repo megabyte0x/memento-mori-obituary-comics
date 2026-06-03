@@ -22,16 +22,16 @@ if [ ! -d "comics/$slug" ]; then
 fi
 
 # New comic binaries are intentionally gitignored. Upload them before committing
-# HTML that references /media/comics/<slug>/... through the private Blob route.
+# metadata that references /media/comics/<slug>/... through the Blob-backed route.
 pnpm run blob:dry-run -- --slug "$slug" --require-assets
 pnpm run blob:upload -- --slug "$slug" --require-assets
 python scripts/add_comic.py --render-only
 pnpm test
+pnpm build
 
 if ! git diff --quiet || [ -n "$(git status --porcelain)" ]; then
-  git add index.html comics.json comics assets scripts README.md vercel.json .github .gitignore \
-    about llms.txt sitemap.xml robots.txt api tests docs package.json
-  [ -f pnpm-lock.yaml ] && git add pnpm-lock.yaml
+  git add app components lib scripts README.md vercel.json next.config.mjs .github .gitignore .vercelignore \
+    tests docs package.json pnpm-lock.yaml pnpm-workspace.yaml comics.json comics
   git commit -m "$commit_message"
   git push origin main
 fi

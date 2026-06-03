@@ -6,7 +6,7 @@ import { fileURLToPath } from "node:url";
 
 import { put as putBlob } from "@vercel/blob";
 
-import { contentTypeForBlobPath } from "../api/blob-media.helpers.js";
+import { contentTypeForBlobPath } from "../lib/blob-media.js";
 
 const ROOT_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const ONE_YEAR = 31536000;
@@ -163,7 +163,7 @@ async function main() {
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
-  main().catch(error => {
+  main().catch((error) => {
     console.error(error.message);
     process.exit(1);
   });

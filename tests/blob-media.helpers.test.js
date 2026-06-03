@@ -5,7 +5,7 @@ import {
   buildBlobMediaHeaders,
   contentTypeForBlobPath,
   requestPathToBlobPath,
-} from "../api/blob-media.helpers.js";
+} from "../lib/blob-media.js";
 
 test("requestPathToBlobPath maps public media URLs to private Blob pathnames", () => {
   const url = new URL("https://example.com/media/comics/sample-comic/pages/01-sample-comic.jpg");
@@ -56,6 +56,6 @@ test("buildBlobMediaHeaders makes site media cacheable at the CDN layer", () => 
   assert.equal(headers["Content-Length"], "123");
   assert.equal(headers.ETag, "etag-123");
   assert.match(headers["Cache-Control"], /public/);
-  assert.match(headers["Cache-Control"], /s-maxage=31536000/);
   assert.match(headers["CDN-Cache-Control"], /max-age=31536000/);
+  assert.match(headers["Vercel-CDN-Cache-Control"], /s-maxage=31536000/);
 });
