@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
+import { ComicShareButton } from "@/components/comic-share-button";
 import { Button } from "@/components/ui/button";
 import { firstImagePath, imageSize, mediaPath } from "@/lib/comic-presenters";
 
@@ -33,6 +34,7 @@ export function ArchiveCard({ comic, priority = false }) {
           <Button asChild variant="miniPrimary">
             <Link href={`/comics/${comic.slug}/#read`}>Read</Link>
           </Button>
+          <ComicShareButton comic={comic} surface="archive_card" />
           {comic.pdf ? (
             <Button asChild variant="miniGhost">
               <a href={mediaPath(comic, comic.pdf)}>PDF</a>

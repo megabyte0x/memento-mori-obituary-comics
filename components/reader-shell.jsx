@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
+import { ComicShareButton } from "@/components/comic-share-button";
 import { ComicSubscribeDialog } from "@/components/comic-subscribe-dialog";
 import { trackActivity } from "@/components/mixpanel-analytics";
 import { Button } from "@/components/ui/button";
@@ -38,13 +39,14 @@ export function ReaderShell({ comic, nextComic }) {
         <div className="reader-title">
           {comic.person} · {comic.title}
         </div>
-        {comic.pdf ? (
-          <div className="reader-actions">
+        <div className="reader-actions">
+          <ComicShareButton comic={comic} surface="reader_toolbar" text="Share" titlePrefix="Share this comic" variant="reader" />
+          {comic.pdf ? (
             <Button asChild variant="readerPrimary">
               <a href={mediaPath(comic, comic.pdf)}>PDF</a>
             </Button>
-          </div>
-        ) : null}
+          ) : null}
+        </div>
       </nav>
 
       <div className="sr-only">
@@ -136,6 +138,13 @@ function ReaderFooter({ comic, nextComic }) {
             </p>
           </>
         ) : null}
+        <h2>Share This Story</h2>
+        <p>
+          Pass the canonical reader link into a group chat, Reddit thread, or note-taking tool without making people hunt through raw image URLs.
+        </p>
+        <p>
+          <ComicShareButton comic={comic} surface="reader_footer" text="Share the reader link" titlePrefix="Share this comic" variant="miniPrimary" />
+        </p>
       </section>
       <ComicSubscribeDialog comic={comic} />
       {nextComic ? (
