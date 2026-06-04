@@ -8,6 +8,8 @@ Educator/library link target: https://www.finalnotes.page/educators-libraries/
 
 This tracker is for editorial, review, resource, and guest-essay outreach only. Do not use paid link insertion, link exchanges, generic guest-post marketplaces, automated directories, or exact-match anchor pressure.
 
+Execution queue: `docs/seo/backlink-send-queue.md`
+
 ## Priority Queue
 
 | Priority | Target | Contact path | Best ask | Best link target | Natural anchor |
