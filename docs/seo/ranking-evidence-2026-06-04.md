@@ -2,7 +2,7 @@
 
 Date checked: 2026-06-04
 Canonical host: https://www.finalnotes.page/
-Goal: first-page visibility for relevant obituary searches, especially obituary stories, obituary articles, obituary-writing, and obituary worksheet/resource queries.
+Goal: first-page visibility for relevant obituary searches, especially obituary stories, obituary articles, obituary-writing, obituary research, and obituary worksheet/resource queries.
 
 ## Current Evidence
 
@@ -25,6 +25,7 @@ Prompt and legacy-interview searches surfaced a separate opportunity: families, 
 Template searches surfaced another gap: high-ranking pages mostly offer generic fill-in-the-blank obituary templates or design/program templates, while few separate life-story structure, source checks, and family privacy decisions. That supports using `https://www.finalnotes.page/life-story-obituary-template/` for template roundups, memorial-program resources, editable template sites, and funeral-home pages that already help families draft obituary text.
 Obituary article and journalism searches surfaced a separate editorial lane: Poynter, ASJA, Northeastern, JEA, and CJR-style pages treat obituaries as reporting, feature writing, classroom material, and media craft. That supports using `https://www.finalnotes.page/obituary-articles/` for journalism lessons, article-writing resources, feature-obituary discussions, and media criticism pitches.
 Obituary lesson-plan searches surfaced an education lane: SchoolJournalism, JEA, Share My Lesson, PBS, Scholastic, and teacher-resource pages already publish obituary-writing assignments and classroom activities. That supports using `https://www.finalnotes.page/obituary-lesson-plan/` for journalism curriculum lists, ELA writing lessons, lesson-plan repositories, and classroom resource pages.
+Obituary search and genealogy searches surfaced another lane: Cyndi's List, FamilySearch, The Ancestor Hunt, Family Tree Magazine, and public-library genealogy guides already organize obituary lookup workflows around indexes, unindexed images, local newspapers, and microfilm. That supports using `https://www.finalnotes.page/obituary-research-guide/` for genealogy resource lists, library research guides, obituary search directories, and local-history society pages.
 
 ## High-Fit Sources Found In This Pass
 
@@ -61,6 +62,11 @@ Obituary lesson-plan searches surfaced an education lane: SchoolJournalism, JEA,
 | Share My Lesson | Teacher-resource platform with upload/contact paths and obituary/media-writing lesson relevance. | `/obituary-lesson-plan/` | Pitch added |
 | PBS LearningMedia | Publishes classroom-ready educational resources and evidence-based writing activities. | `/obituary-lesson-plan/` | Pitch added |
 | Scholastic Upfront | Published an obituary research/writing lesson around "Overlooked No More." | `/obituary-lesson-plan/` | Pitch added |
+| Cyndi's List | Has an obituary category and a genealogy-only link submission path. | `/obituary-research-guide/` | Pitch added |
+| FamilySearch Research Wiki | FamilySearch's obituary help page points researchers to the Research Wiki for outside obituary sources. | `/obituary-research-guide/` | Compliance-gated pitch added |
+| The Ancestor Hunt | Publishes obituary search FAQs and resource guidance for newspapers, libraries, and genealogy societies. | `/obituary-research-guide/` | Pitch added |
+| Family Tree Magazine | Publishes genealogy obituary research guidance and search-term advice. | `/obituary-research-guide/` | Pitch added |
+| Rochester Public Library | Genealogy guide includes obituary finder, online search, local newspaper, index, and microfilm workflow. | `/obituary-research-guide/` | Pitch added |
 
 ## Completion Rule
 

@@ -27,6 +27,7 @@ Primary goal: earn relevant editorial links that help the obituary comics archiv
 | Obituary story keywords | https://www.finalnotes.page/obituary-stories/ | obituary stories and articles |
 | Journalism and obituary article keywords | https://www.finalnotes.page/obituary-articles/ | obituary articles |
 | Lesson-plan and classroom keywords | https://www.finalnotes.page/obituary-lesson-plan/ | obituary lesson plan |
+| Obituary search, genealogy, and library research keywords | https://www.finalnotes.page/obituary-research-guide/ | obituary research guide |
 | Obituary writing and family-history how-to keywords | https://www.finalnotes.page/how-to-write-an-obituary-story/ | how to write an obituary story |
 | Obituary prompt and legacy interview links | https://www.finalnotes.page/obituary-writing-prompts/ | obituary writing prompts |
 | Obituary examples and wording-example links | https://www.finalnotes.page/obituary-examples/ | obituary examples |
@@ -133,6 +134,16 @@ Primary goal: earn relevant editorial links that help the obituary comics archiv
 | PBS LearningMedia | Publishes classroom-ready educational materials and has History Detectives evidence-writing resources. | Suggest the lesson as an evidence-based visual obituary writing supplement. | `/obituary-lesson-plan/` |
 | Scholastic Upfront | Published an obituary research/writing lesson around "Overlooked No More." | Suggest the lesson as a visual obituary and source-backed extension resource. | `/obituary-lesson-plan/` |
 
+## Tier 2H Genealogy, Obituary Search, and Library Research Resources
+
+| Target | Why it fits | Ask | Target URL |
+| --- | --- | --- | --- |
+| Cyndi's List | A high-recognition genealogy directory with an obituary category and a genealogy-only link submission path. | Submit the research guide as a genealogy resource for finding obituary records and turning them into sourced family-history stories. | `/obituary-research-guide/` |
+| FamilySearch Research Wiki | FamilySearch's obituary help page points users to the Research Wiki for obituary locations outside FamilySearch. | Only suggest or add the guide where it materially helps a relevant wiki page; avoid promotional edits. | `/obituary-research-guide/` |
+| The Ancestor Hunt | Publishes obituary search FAQs and resource collections for newspaper, library, and genealogy researchers. | Suggest the guide as a story-and-citation companion to obituary search resources. | `/obituary-research-guide/` |
+| Family Tree Magazine | Publishes genealogy obituary research guidance for historical obituaries and alternate records. | Pitch a practical contributor/resource angle on turning obituary records into source-backed life stories. | `/obituary-research-guide/` |
+| Rochester Public Library genealogy guide | Public-library guide shows a clear obituary-finder, local newspaper, index, and microfilm workflow. | Suggest the guide as an optional post-search writing and citation resource for patrons. | `/obituary-research-guide/` |
+
 ## Tier 3 Obituary, Deathcare, and Genealogy Targets
 
 | Target | Why it fits | Ask | Target URL |
@@ -161,7 +172,7 @@ Primary goal: earn relevant editorial links that help the obituary comics archiv
 4. Send the second batch: Graphic Medicine, Bradley University Graphic Medicine guide, UCLA Comics Studies guide, and Comics Beat.
 5. Send the obituary/deathcare/genealogy batch: Grief Collective, Family History Fanatics, Free UK Genealogy, TalkDeath, Order of the Good Death, Remembering A Life, and NGS Magazine where compliance requirements are met.
 6. If the art is not generative AI, send Broken Frontier a review request with 2-3 interior pages. If it is generative AI, skip them.
-7. Use `/how-to-write-an-obituary-story/` as the primary link target for obituary-writing, deathcare, and genealogy how-to links; use `/obituary-articles/` for newsroom resources and feature-obituary article asks; use `/obituary-lesson-plan/` for journalism lessons, ELA writing lessons, lesson-plan repositories, and classroom resource pages; use `/obituary-writing-prompts/` for prompt lists, legacy interview questions, and hospice legacy projects; use `/obituary-examples/` for obituary example and wording-example asks; use `/life-story-obituary-template/` for template roundups and memorial-program template resources; use `/obituary-story-worksheet/` for worksheet/resource-list asks; use `/obituary-stories/` for story roundups and `/what-are-obituary-comics/` for form definitions.
+7. Use `/how-to-write-an-obituary-story/` as the primary link target for obituary-writing, deathcare, and family-history how-to links; use `/obituary-research-guide/` for obituary search, genealogy, local-history, and library research links; use `/obituary-articles/` for newsroom resources and feature-obituary article asks; use `/obituary-lesson-plan/` for journalism lessons, ELA writing lessons, lesson-plan repositories, and classroom resource pages; use `/obituary-writing-prompts/` for prompt lists, legacy interview questions, and hospice legacy projects; use `/obituary-examples/` for obituary example and wording-example asks; use `/life-story-obituary-template/` for template roundups and memorial-program template resources; use `/obituary-story-worksheet/` for worksheet/resource-list asks; use `/obituary-stories/` for story roundups and `/what-are-obituary-comics/` for form definitions.
 8. Keep Modern Loss on hold until its Submittable page reopens; do not send to closed calls.
 9. Send the consumer/resource-hub batch after the worksheet batch: ObituariesHelp, Funeral Consumers Alliance, FCA Connecticut, FCA Finger Lakes, Funeral Cost Analyzer, and Brown's Cremation.
 10. Send the obituary examples batch after the resource-hub batch: Farewelling, US Urns Online, Obit Options, OBITUARe, and Brattleboro Area Hospice.
@@ -169,7 +180,8 @@ Primary goal: earn relevant editorial links that help the obituary comics archiv
 12. Send the template/resource batch after the prompts batch: FuneralFolio, CreateMemorial, obituary.design, Allen Funeral Home, and Bateman-Allen Funeral Home.
 13. Send the journalism/article-writing batch after the template batch: Poynter, Columbia Journalism Review, JEA, ASJA, and Northeastern CAMD.
 14. Send the lesson-plan/classroom batch after the journalism batch: SchoolJournalism.org, JEA, Share My Lesson, PBS LearningMedia, and Scholastic Upfront.
-15. Track every outreach in a spreadsheet: target, contact URL/email, date sent, pitch angle, linked URL, reply, live URL, anchor text, follow/nofollow, notes.
+15. Send the genealogy/research batch after the lesson-plan batch: Cyndi's List, FamilySearch Research Wiki where appropriate, The Ancestor Hunt, Family Tree Magazine, and Rochester Public Library.
+16. Track every outreach in a spreadsheet: target, contact URL/email, date sent, pitch angle, linked URL, reply, live URL, anchor text, follow/nofollow, notes.
 
 ## Pitch Templates
 

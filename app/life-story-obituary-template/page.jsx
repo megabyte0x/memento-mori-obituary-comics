@@ -206,6 +206,9 @@ export default function LifeStoryObituaryTemplatePage() {
                 <Link href="/obituary-story-worksheet/">Printable worksheet</Link>
               </Button>
               <Button asChild>
+                <Link href="/obituary-research-guide/">Research guide</Link>
+              </Button>
+              <Button asChild>
                 <Link href="/obituary-examples/">Obituary examples</Link>
               </Button>
             </div>
@@ -217,7 +220,7 @@ export default function LifeStoryObituaryTemplatePage() {
               A life story obituary template gives structure without flattening the person into a form. Use it after collecting the public facts, then add one specific scene, object, relationship, or source-backed detail that makes the life recognizable.
             </p>
             <p>
-              If you only need a basic death notice, keep the obituary short. If you have room online, use the fuller template and bring in the story material from the <Link href="/obituary-writing-prompts/">obituary writing prompts</Link> and <Link href="/obituary-story-worksheet/">worksheet</Link>.
+              If you only need a basic death notice, keep the obituary short. If you have room online, use the fuller template and bring in the story material from the <Link href="/obituary-research-guide/">obituary research guide</Link>, <Link href="/obituary-writing-prompts/">obituary writing prompts</Link>, and <Link href="/obituary-story-worksheet/">worksheet</Link>.
             </p>
           </section>
 

@@ -114,6 +114,9 @@ export default function EducatorsLibrariesPage() {
             <Button asChild>
               <Link href="/obituary-lesson-plan/">Lesson plan</Link>
             </Button>
+            <Button asChild>
+              <Link href="/obituary-research-guide/">Research guide</Link>
+            </Button>
           </div>
         </div>
 
@@ -139,7 +142,7 @@ export default function EducatorsLibrariesPage() {
           <div>
             <h2 id="library-link-target">Best Link Target</h2>
             <p>
-              For LibGuides, course pages, classroom handouts, reading lists, and resource roundups, use this page with natural anchors such as graphic medicine resources, grief comics, visual biography examples, or obituary comics for educators. For journalism and ELA lesson repositories, use the <Link href="/obituary-lesson-plan/">obituary lesson plan</Link>.
+              For LibGuides, course pages, classroom handouts, reading lists, and resource roundups, use this page with natural anchors such as graphic medicine resources, grief comics, visual biography examples, or obituary comics for educators. For journalism and ELA lesson repositories, use the <Link href="/obituary-lesson-plan/">obituary lesson plan</Link>. For genealogy and local-history research guides, use the <Link href="/obituary-research-guide/">obituary research guide</Link>.
             </p>
           </div>
           <Link href="/educators-libraries/">{absoluteUrl("/educators-libraries/")}</Link>

@@ -200,6 +200,9 @@ export default function ObituaryLessonPlanPage() {
                 <Link href="/obituary-examples/">Examples</Link>
               </Button>
               <Button asChild>
+                <Link href="/obituary-research-guide/">Research guide</Link>
+              </Button>
+              <Button asChild>
                 <Link href="/obituary-story-worksheet/">Worksheet</Link>
               </Button>
             </div>

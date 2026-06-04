@@ -5,6 +5,7 @@ Canonical host: https://www.finalnotes.page/
 Primary link target for obituary-story keywords: https://www.finalnotes.page/obituary-stories/
 Primary link target for obituary article and journalism keywords: https://www.finalnotes.page/obituary-articles/
 Primary link target for obituary lesson-plan and classroom keywords: https://www.finalnotes.page/obituary-lesson-plan/
+Primary link target for obituary research, genealogy, and library search keywords: https://www.finalnotes.page/obituary-research-guide/
 Primary link target for obituary-writing and family-history how-to keywords: https://www.finalnotes.page/how-to-write-an-obituary-story/
 Primary link target for obituary prompts and legacy interview keywords: https://www.finalnotes.page/obituary-writing-prompts/
 Primary link target for obituary examples and wording-example keywords: https://www.finalnotes.page/obituary-examples/
@@ -76,6 +77,11 @@ Execution queue: `docs/seo/backlink-send-queue.md`
 | P2 | Share My Lesson | https://sharemylesson.com/contact-us | Teacher-resource suggestion or upload path for obituary writing lesson plans. | https://www.finalnotes.page/obituary-lesson-plan/ | obituary writing lesson plan |
 | P2 | PBS LearningMedia | https://www.pbs.org/education/contact-us/ or pbslm.editorial@pbs.org | Evidence-based visual obituary writing supplement for history/ELA/media literacy teachers. | https://www.finalnotes.page/obituary-lesson-plan/ | visual obituary lesson plan |
 | P2 | Scholastic Upfront | https://upfront.scholastic.com/pages/help-and-how-tos.html | Supplemental visual obituary lesson resource for obituary research/writing lessons. | https://www.finalnotes.page/obituary-lesson-plan/ | obituary lesson plan |
+| P1 | Cyndi's List | https://www.cyndislist.com/submit/ | Genealogy-only link submission for an obituary research guide. | https://www.finalnotes.page/obituary-research-guide/ | obituary research guide |
+| P1 | FamilySearch Research Wiki | https://www.familysearch.org/wiki/en/FamilySearch_Wiki:Submit_Wiki_Content | Compliant wiki/resource suggestion only where it materially improves a relevant obituary research page. | https://www.finalnotes.page/obituary-research-guide/ | obituary research guide |
+| P2 | The Ancestor Hunt | https://theancestorhunt.com/about.html | Resource suggestion for obituary search FAQ and newspaper lookup readers; confirm current contact path before sending. | https://www.finalnotes.page/obituary-research-guide/ | obituary search guide |
+| P2 | Family Tree Magazine | https://familytreemagazine.com/faq/ | Contributor/resource angle on turning obituary records into sourced family-history stories. | https://www.finalnotes.page/obituary-research-guide/ | obituary records into stories |
+| P2 | Rochester Public Library genealogy guide | https://www.rplmn.org/contacts-directory/ | Supplemental post-search citation and writing resource for obituary finder patrons. | https://www.finalnotes.page/obituary-research-guide/ | obituary research guide |
 | Hold | Chronic Joy | https://chronic-joy.org/write-for-us/ | Human-written grief/lament post only if invited. | https://www.finalnotes.page/obituary-story-worksheet/ | obituary reflection worksheet |
 
 ## Send Log
@@ -131,6 +137,11 @@ Execution queue: `docs/seo/backlink-send-queue.md`
 |  | Share My Lesson | `docs/seo/pitches/48-share-my-lesson-obituary-lesson-plan-resource.md` | /obituary-lesson-plan/ |  |  |  |  | Teacher-resource upload/contact target |
 |  | PBS LearningMedia | `docs/seo/pitches/49-pbs-learningmedia-obituary-lesson-resource.md` | /obituary-lesson-plan/ |  |  |  |  | PBS education resource target |
 |  | Scholastic Upfront | `docs/seo/pitches/50-scholastic-upfront-obituary-lesson-resource.md` | /obituary-lesson-plan/ |  |  |  |  | Classroom magazine lesson target |
+|  | Cyndi's List | `docs/seo/pitches/51-cyndis-list-obituary-research-guide.md` | /obituary-research-guide/ |  |  |  |  | Genealogy directory submission |
+|  | FamilySearch Research Wiki | `docs/seo/pitches/52-familysearch-wiki-obituary-research-guide.md` | /obituary-research-guide/ |  |  |  |  | Wiki-compliance required |
+|  | The Ancestor Hunt | `docs/seo/pitches/53-ancestor-hunt-obituary-research-guide.md` | /obituary-research-guide/ |  |  |  |  | Obituary search FAQ/resource target |
+|  | Family Tree Magazine | `docs/seo/pitches/54-family-tree-magazine-obituary-research-guide.md` | /obituary-research-guide/ |  |  |  |  | Genealogy publication resource/article pitch |
+|  | Rochester Public Library genealogy guide | `docs/seo/pitches/55-rochester-library-obituary-research-guide.md` | /obituary-research-guide/ |  |  |  |  | Public-library obituary finder target |
 |  | Chronic Joy | `docs/seo/pitches/19-chronic-joy-obituary-reflection-post.md` | /obituary-story-worksheet/ | Hold unless invited |  |  |  | Human-written only |
 |  | Modern Loss | Hold until submissions reopen | /obituary-stories/ | No open calls on 2026-06-04 |  |  |  | Check weekly |
 

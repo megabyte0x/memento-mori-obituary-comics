@@ -54,6 +54,11 @@ const linkTargets = [
     note: "Best canonical link for journalism curriculum lists, ELA writing lessons, lesson-plan repositories, and classroom resource pages.",
   },
   {
+    label: "Obituary research guide",
+    href: "/obituary-research-guide/",
+    note: "Best canonical link for genealogy resource lists, public-library research guides, obituary search directories, family-history newsletters, and local-history society pages.",
+  },
+  {
     label: "How to write an obituary story",
     href: "/how-to-write-an-obituary-story/",
     note: "Best canonical link for obituary-writing guides, grief-writing essays, family-history resources, and deathcare article references.",

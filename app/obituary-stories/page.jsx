@@ -112,6 +112,9 @@ export default function ObituaryStoriesPage() {
               <Link href="/obituary-articles/">Article guide</Link>
             </Button>
             <Button asChild>
+              <Link href="/obituary-research-guide/">Research guide</Link>
+            </Button>
+            <Button asChild>
               <Link href="/obituary-writing-prompts/">Writing prompts</Link>
             </Button>
             <Button asChild>
@@ -149,7 +152,7 @@ export default function ObituaryStoriesPage() {
             <h2 id="how-to-link">Best Link Target</h2>
             <p>
               For roundups, resource pages, newsletters, and classroom reading lists, link to this page with natural anchors such as obituary stories, obituary articles, visual obituaries, or Memento Mori Obituary Comics.
-              For journalism lessons and article-writing resources, use the <Link href="/obituary-articles/">obituary articles page</Link>. For obituary-writing resources, use the <Link href="/how-to-write-an-obituary-story/">guide to writing an obituary story</Link>. For prompt lists and legacy interview questions, use the <Link href="/obituary-writing-prompts/">obituary writing prompts page</Link>. For template links, use the <Link href="/life-story-obituary-template/">life story obituary template</Link>. For example roundups, use the <Link href="/obituary-examples/">obituary examples page</Link>. For definitions of the format itself, use the <Link href="/what-are-obituary-comics/">obituary comics explainer</Link>.
+              For journalism lessons and article-writing resources, use the <Link href="/obituary-articles/">obituary articles page</Link>. For genealogy, library, and obituary-search resources, use the <Link href="/obituary-research-guide/">obituary research guide</Link>. For obituary-writing resources, use the <Link href="/how-to-write-an-obituary-story/">guide to writing an obituary story</Link>. For prompt lists and legacy interview questions, use the <Link href="/obituary-writing-prompts/">obituary writing prompts page</Link>. For template links, use the <Link href="/life-story-obituary-template/">life story obituary template</Link>. For example roundups, use the <Link href="/obituary-examples/">obituary examples page</Link>. For definitions of the format itself, use the <Link href="/what-are-obituary-comics/">obituary comics explainer</Link>.
             </p>
           </div>
           <Link href="/obituary-stories/">{absoluteUrl("/obituary-stories/")}</Link>
