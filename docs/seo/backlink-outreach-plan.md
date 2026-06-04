@@ -28,6 +28,7 @@ Primary goal: earn relevant editorial links that help the obituary comics archiv
 | Journalism and obituary article keywords | https://www.finalnotes.page/obituary-articles/ | obituary articles |
 | Lesson-plan and classroom keywords | https://www.finalnotes.page/obituary-lesson-plan/ | obituary lesson plan |
 | Obituary search, genealogy, and library research keywords | https://www.finalnotes.page/obituary-research-guide/ | obituary research guide |
+| Obituary vs death notice and funeral-notice keywords | https://www.finalnotes.page/obituary-vs-death-notice/ | obituary vs death notice |
 | Obituary writing and family-history how-to keywords | https://www.finalnotes.page/how-to-write-an-obituary-story/ | how to write an obituary story |
 | Obituary prompt and legacy interview links | https://www.finalnotes.page/obituary-writing-prompts/ | obituary writing prompts |
 | Obituary examples and wording-example links | https://www.finalnotes.page/obituary-examples/ | obituary examples |
@@ -144,6 +145,16 @@ Primary goal: earn relevant editorial links that help the obituary comics archiv
 | Family Tree Magazine | Publishes genealogy obituary research guidance for historical obituaries and alternate records. | Pitch a practical contributor/resource angle on turning obituary records into source-backed life stories. | `/obituary-research-guide/` |
 | Rochester Public Library genealogy guide | Public-library guide shows a clear obituary-finder, local newspaper, index, and microfilm workflow. | Suggest the guide as an optional post-search writing and citation resource for patrons. | `/obituary-research-guide/` |
 
+## Tier 2I Death Notice, Funeral Notice, and Newspaper Explanation Resources
+
+| Target | Why it fits | Ask | Target URL |
+| --- | --- | --- | --- |
+| NewspaperArchive | Publishes current guides comparing obituary, death notice, and funeral notice formats for historical newspaper researchers. | Suggest the explainer as a source-backed companion for families and genealogy readers deciding what kind of notice they found or need to write. | `/obituary-vs-death-notice/` |
+| MERI | Publishes family-facing resources on how to write death notices and obituaries, tied to whole-body donation and memorial planning. | Suggest the explainer as a supplemental resource for families choosing between a short notice and a fuller story. | `/obituary-vs-death-notice/` |
+| Milwaukee Public Library | Maintains an obituaries and death notices genealogy page that clearly defines the two formats. | Suggest the explainer as an optional plain-language follow-up for patrons interpreting obituary and death-notice records. | `/obituary-vs-death-notice/` |
+| Funeral.com | Publishes a current obituary-vs-death-notice article and family-facing funeral resources. | Suggest a reciprocal editorial/resource citation, not an SEO link exchange. | `/obituary-vs-death-notice/` |
+| Evermore Directory | Publishes funeral-home directory content and an obituary-vs-death-notice explainer with a live contact email. | Suggest the explainer as a source-backed companion for families choosing between directory, notice, and obituary formats. | `/obituary-vs-death-notice/` |
+
 ## Tier 3 Obituary, Deathcare, and Genealogy Targets
 
 | Target | Why it fits | Ask | Target URL |
@@ -172,7 +183,7 @@ Primary goal: earn relevant editorial links that help the obituary comics archiv
 4. Send the second batch: Graphic Medicine, Bradley University Graphic Medicine guide, UCLA Comics Studies guide, and Comics Beat.
 5. Send the obituary/deathcare/genealogy batch: Grief Collective, Family History Fanatics, Free UK Genealogy, TalkDeath, Order of the Good Death, Remembering A Life, and NGS Magazine where compliance requirements are met.
 6. If the art is not generative AI, send Broken Frontier a review request with 2-3 interior pages. If it is generative AI, skip them.
-7. Use `/how-to-write-an-obituary-story/` as the primary link target for obituary-writing, deathcare, and family-history how-to links; use `/obituary-research-guide/` for obituary search, genealogy, local-history, and library research links; use `/obituary-articles/` for newsroom resources and feature-obituary article asks; use `/obituary-lesson-plan/` for journalism lessons, ELA writing lessons, lesson-plan repositories, and classroom resource pages; use `/obituary-writing-prompts/` for prompt lists, legacy interview questions, and hospice legacy projects; use `/obituary-examples/` for obituary example and wording-example asks; use `/life-story-obituary-template/` for template roundups and memorial-program template resources; use `/obituary-story-worksheet/` for worksheet/resource-list asks; use `/obituary-stories/` for story roundups and `/what-are-obituary-comics/` for form definitions.
+7. Use `/how-to-write-an-obituary-story/` as the primary link target for obituary-writing, deathcare, and family-history how-to links; use `/obituary-research-guide/` for obituary search, genealogy, local-history, and library research links; use `/obituary-vs-death-notice/` for newspaper help pages, funeral-home resources, death-notice explainers, and library obituary-index pages; use `/obituary-articles/` for newsroom resources and feature-obituary article asks; use `/obituary-lesson-plan/` for journalism lessons, ELA writing lessons, lesson-plan repositories, and classroom resource pages; use `/obituary-writing-prompts/` for prompt lists, legacy interview questions, and hospice legacy projects; use `/obituary-examples/` for obituary example and wording-example asks; use `/life-story-obituary-template/` for template roundups and memorial-program template resources; use `/obituary-story-worksheet/` for worksheet/resource-list asks; use `/obituary-stories/` for story roundups and `/what-are-obituary-comics/` for form definitions.
 8. Keep Modern Loss on hold until its Submittable page reopens; do not send to closed calls.
 9. Send the consumer/resource-hub batch after the worksheet batch: ObituariesHelp, Funeral Consumers Alliance, FCA Connecticut, FCA Finger Lakes, Funeral Cost Analyzer, and Brown's Cremation.
 10. Send the obituary examples batch after the resource-hub batch: Farewelling, US Urns Online, Obit Options, OBITUARe, and Brattleboro Area Hospice.
@@ -181,7 +192,8 @@ Primary goal: earn relevant editorial links that help the obituary comics archiv
 13. Send the journalism/article-writing batch after the template batch: Poynter, Columbia Journalism Review, JEA, ASJA, and Northeastern CAMD.
 14. Send the lesson-plan/classroom batch after the journalism batch: SchoolJournalism.org, JEA, Share My Lesson, PBS LearningMedia, and Scholastic Upfront.
 15. Send the genealogy/research batch after the lesson-plan batch: Cyndi's List, FamilySearch Research Wiki where appropriate, The Ancestor Hunt, Family Tree Magazine, and Rochester Public Library.
-16. Track every outreach in a spreadsheet: target, contact URL/email, date sent, pitch angle, linked URL, reply, live URL, anchor text, follow/nofollow, notes.
+16. Send the death-notice/explainer batch after the genealogy/research batch: NewspaperArchive, MERI, Milwaukee Public Library, Funeral.com, and Evermore Directory.
+17. Track every outreach in a spreadsheet: target, contact URL/email, date sent, pitch angle, linked URL, reply, live URL, anchor text, follow/nofollow, notes.
 
 ## Pitch Templates
 

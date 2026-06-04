@@ -26,6 +26,7 @@ Template searches surfaced another gap: high-ranking pages mostly offer generic 
 Obituary article and journalism searches surfaced a separate editorial lane: Poynter, ASJA, Northeastern, JEA, and CJR-style pages treat obituaries as reporting, feature writing, classroom material, and media craft. That supports using `https://www.finalnotes.page/obituary-articles/` for journalism lessons, article-writing resources, feature-obituary discussions, and media criticism pitches.
 Obituary lesson-plan searches surfaced an education lane: SchoolJournalism, JEA, Share My Lesson, PBS, Scholastic, and teacher-resource pages already publish obituary-writing assignments and classroom activities. That supports using `https://www.finalnotes.page/obituary-lesson-plan/` for journalism curriculum lists, ELA writing lessons, lesson-plan repositories, and classroom resource pages.
 Obituary search and genealogy searches surfaced another lane: Cyndi's List, FamilySearch, The Ancestor Hunt, Family Tree Magazine, and public-library genealogy guides already organize obituary lookup workflows around indexes, unindexed images, local newspapers, and microfilm. That supports using `https://www.finalnotes.page/obituary-research-guide/` for genealogy resource lists, library research guides, obituary search directories, and local-history society pages.
+Obituary-vs-death-notice searches surfaced a separate newspaper and funeral-resource lane: Legacy, Empathy, NewspaperArchive, Washington Post, Funeral.com, MERI, and library genealogy pages all distinguish short public announcements from longer life-story obituaries. That supports using `https://www.finalnotes.page/obituary-vs-death-notice/` for newspaper help pages, funeral-home resources, library obituary indexes, and death-notice explainers.
 
 ## High-Fit Sources Found In This Pass
 
@@ -67,6 +68,11 @@ Obituary search and genealogy searches surfaced another lane: Cyndi's List, Fami
 | The Ancestor Hunt | Publishes obituary search FAQs and resource guidance for newspapers, libraries, and genealogy societies. | `/obituary-research-guide/` | Pitch added |
 | Family Tree Magazine | Publishes genealogy obituary research guidance and search-term advice. | `/obituary-research-guide/` | Pitch added |
 | Rochester Public Library | Genealogy guide includes obituary finder, online search, local newspaper, index, and microfilm workflow. | `/obituary-research-guide/` | Pitch added |
+| NewspaperArchive | Published current guidance comparing obituary, funeral notice, and death notice labels for newspaper researchers. | `/obituary-vs-death-notice/` | Pitch added |
+| MERI | Publishes family-facing death notice and obituary writing guidance. | `/obituary-vs-death-notice/` | Pitch added |
+| Milwaukee Public Library | Defines obituaries and death notices on a genealogy research page with indexes and databases. | `/obituary-vs-death-notice/` | Pitch added |
+| Funeral.com | Publishes current obituary-vs-death-notice guidance for families. | `/obituary-vs-death-notice/` | Pitch added |
+| Evermore Directory | Funeral-home directory with contact path and current obituary-vs-death-notice content. | `/obituary-vs-death-notice/` | Pitch added |
 
 ## Completion Rule
 

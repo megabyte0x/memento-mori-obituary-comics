@@ -59,6 +59,11 @@ const linkTargets = [
     note: "Best canonical link for genealogy resource lists, public-library research guides, obituary search directories, family-history newsletters, and local-history society pages.",
   },
   {
+    label: "Obituary vs death notice",
+    href: "/obituary-vs-death-notice/",
+    note: "Best canonical link for newspaper help pages, funeral-home resources, genealogy guides, library obituary indexes, and death-notice explainers.",
+  },
+  {
     label: "How to write an obituary story",
     href: "/how-to-write-an-obituary-story/",
     note: "Best canonical link for obituary-writing guides, grief-writing essays, family-history resources, and deathcare article references.",

@@ -66,6 +66,11 @@ Use this file as the next execution list. Send manually, one by one, after check
 | 55 | The Ancestor Hunt | https://theancestorhunt.com/about.html | `docs/seo/pitches/53-ancestor-hunt-obituary-research-guide.md` | Resource suggestion for obituary search FAQ readers | https://www.finalnotes.page/obituary-research-guide/ | Their obituary search FAQ and newspaper-resource audience align with search, citation, and local-library workflows; confirm current contact path before sending. |
 | 56 | Family Tree Magazine | https://familytreemagazine.com/faq/ | `docs/seo/pitches/54-family-tree-magazine-obituary-research-guide.md` | Article idea: turning obituary records into sourced life stories | https://www.finalnotes.page/obituary-research-guide/ | Major genealogy publication with obituary research content; best framed as contributor or resource angle, not a link request. |
 | 57 | Rochester Public Library genealogy guide | https://www.rplmn.org/contacts-directory/ | `docs/seo/pitches/55-rochester-library-obituary-research-guide.md` | Supplemental obituary research and writing resource | https://www.finalnotes.page/obituary-research-guide/ | Public-library guide already explains obituary finder, local newspapers, indexes, and microfilm; the guide is a post-search citation/story resource. |
+| 58 | NewspaperArchive | https://newspaperarchive.com/contactus/ | `docs/seo/pitches/56-newspaperarchive-obituary-vs-death-notice.md` | Resource suggestion for obituary, death notice, and funeral notice readers | https://www.finalnotes.page/obituary-vs-death-notice/ | Current newspaper-archive blog coverage directly compares the formats and has genealogy/search-reader overlap. |
+| 59 | MERI | https://www.meri.org/contact | `docs/seo/pitches/57-meri-obituary-vs-death-notice-resource.md` | Supplemental death notice vs obituary resource | https://www.finalnotes.page/obituary-vs-death-notice/ | MERI publishes death-notice and obituary guidance for families connected to whole-body donation and memorial planning. |
+| 60 | Milwaukee Public Library | https://www.mpl.org/contact/ | `docs/seo/pitches/58-milwaukee-public-library-obituary-vs-death-notice.md` | Supplemental obituary and death notice explainer | https://www.finalnotes.page/obituary-vs-death-notice/ | MPL has a high-fit obituaries and death notices genealogy page with definitions and index guidance. |
+| 61 | Funeral.com | https://funeral.com/pages/contact-us | `docs/seo/pitches/59-funeralcom-obituary-vs-death-notice-resource.md` | Source-backed companion for obituary vs death notice readers | https://www.finalnotes.page/obituary-vs-death-notice/ | Funeral.com publishes current family-facing obituary-vs-death-notice guidance and related obituary resources. |
+| 62 | Evermore Directory | listings@funeralhomedirectories.com or https://funeralhomedirectories.com/contact | `docs/seo/pitches/60-evermore-directory-obituary-vs-death-notice-resource.md` | Supplemental obituary vs death notice resource | https://www.finalnotes.page/obituary-vs-death-notice/ | Funeral-home directory with a live obituary-vs-death-notice article and contact email. |
 | Hold | Chronic Joy | https://chronic-joy.org/write-for-us/ | `docs/seo/pitches/19-chronic-joy-obituary-reflection-post.md` | Human-written grief/lament reflection post only if invited | https://www.finalnotes.page/obituary-story-worksheet/ | Submission page is by invitation and rejects AI-generated content, so hold unless a human-written personal essay is invited. |
 
 ## Hold / Monitor
@@ -84,6 +89,7 @@ Use this file as the next execution list. Send manually, one by one, after check
   - Newsroom resources and feature-obituary article discussions: `https://www.finalnotes.page/obituary-articles/`
   - Journalism lessons, ELA writing lessons, lesson-plan repositories, and classroom resource pages: `https://www.finalnotes.page/obituary-lesson-plan/`
   - Genealogy resource lists, public-library research guides, obituary search directories, family-history newsletters, and local-history society pages: `https://www.finalnotes.page/obituary-research-guide/`
+  - Newspaper help pages, funeral-home resources, death-notice explainers, and library obituary-index pages: `https://www.finalnotes.page/obituary-vs-death-notice/`
   - Obituary-writing and family-history how-to articles: `https://www.finalnotes.page/how-to-write-an-obituary-story/`
   - Prompt lists, legacy interview questions, and hospice legacy projects: `https://www.finalnotes.page/obituary-writing-prompts/`
   - Obituary example and wording-example pages: `https://www.finalnotes.page/obituary-examples/`
@@ -202,6 +208,16 @@ Send these after the lesson-plan/classroom batch. Use `/obituary-research-guide/
 3. The Ancestor Hunt: resource suggestion for obituary search and local-library lookup readers.
 4. Family Tree Magazine: practical article/resource pitch on turning obituary records into sourced life stories.
 5. Rochester Public Library: optional post-search citation and writing resource for obituary finder and microfilm patrons.
+
+## Twelfth Batch: Death Notice, Funeral Notice, and Newspaper Explainers
+
+Send these after the genealogy/research batch. Use `/obituary-vs-death-notice/` for newspaper help pages, funeral-home resources, death-notice explainers, and library obituary-index pages:
+
+1. NewspaperArchive: resource suggestion for readers comparing obituary, funeral notice, and death notice labels in newspaper archives.
+2. MERI: supplemental family-facing resource for death notice and obituary writing guidance.
+3. Milwaukee Public Library: optional plain-language supplement for obituary and death notice genealogy pages.
+4. Funeral.com: source-backed companion resource for their current obituary-vs-death-notice guide.
+5. Evermore Directory: supplemental family-facing resource for funeral-home directory and obituary-format readers.
 
 ## Follow-Up Timing
 
