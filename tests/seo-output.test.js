@@ -37,6 +37,7 @@ test("sitemap includes canonical public routes and comic permalinks", () => {
 
   assert.ok(urls.includes(absoluteUrl("/")));
   assert.ok(urls.includes(absoluteUrl("/about/")));
+  assert.ok(urls.includes(absoluteUrl("/press/")));
   assert.ok(urls.includes(absoluteUrl("/newsletter/")));
 
   for (const comic of getComics()) {
@@ -52,6 +53,7 @@ test("llms.txt describes canonical routes and citation policy", async () => {
   assert.match(body, new RegExp(`# ${SITE_NAME}`));
   assert.match(body, /## Main pages/);
   assert.match(body, /## AI crawler access/);
+  assert.match(body, new RegExp(absoluteUrl("/press/").replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
   assert.match(body, /Prefer the canonical comic reader URL/);
   assert.match(body, /Do not treat panel art as a primary historical source/);
   assert.match(body, new RegExp(absoluteUrl("/newsletter/").replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));

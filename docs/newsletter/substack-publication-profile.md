@@ -10,10 +10,10 @@ Use this as the paste-ready profile and onboarding copy when creating the Substa
 - Short description: `Obituary comics, source notes, and memento mori reading for people making work under a deadline.`
 - From name: `Memento Mori Obituary Comics`
 - Reply prompt: `Reply with a name you think belongs in the archive.`
-- Public site: `https://finalnotes.page/`
-- Newsletter landing page: `https://finalnotes.page/newsletter/`
+- Public site: `https://www.finalnotes.page/`
+- Newsletter landing page: `https://www.finalnotes.page/newsletter/`
 - Substack signup: `https://finalnotes.substack.com`
-- Editorial method: `https://finalnotes.page/about/`
+- Editorial method: `https://www.finalnotes.page/about/`
 
 ## About Page
 
@@ -32,11 +32,11 @@ Each dispatch points back to a permanent comic page with image pages, a PDF, sto
 
 Start with the public archive:
 
-https://finalnotes.page/
+https://www.finalnotes.page/
 
 Read the editorial method:
 
-https://finalnotes.page/about/
+https://www.finalnotes.page/about/
 ```
 
 ## Welcome Email
@@ -60,7 +60,7 @@ What did someone make after death, illness, captivity, accident, or ruin made th
 
 Start here:
 
-https://finalnotes.page/
+https://www.finalnotes.page/
 
 Then reply with a name you think belongs in the archive. The strongest suggestions are deceased people with a clear mortality event and significant work afterward.
 ```

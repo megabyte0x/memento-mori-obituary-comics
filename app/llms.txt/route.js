@@ -1,6 +1,9 @@
 import { getComics, sourceItems } from "../../lib/comics.js";
 import { absoluteUrl, SITE_DESCRIPTION, SITE_NAME, SUBSTACK_URL } from "../../lib/site.js";
 
+export const runtime = "nodejs";
+export const dynamic = "force-static";
+
 export function GET() {
   const comics = getComics();
   const latest = comics[0];
@@ -17,6 +20,7 @@ export function GET() {
 ## Main pages
 - [Archive](${absoluteUrl("/")}): Current comic archive, latest issue, and definition of obituary comics.
 - [Editorial method](${absoluteUrl("/about/")}): Source standards, subject selection, publisher notes, and AI-readable format policy.
+- [Press and review resources](${absoluteUrl("/press/")}): Link targets, story angles, subject list, and citation notes for editors, reviewers, educators, and librarians.
 - [Newsletter](${absoluteUrl("/newsletter/")}): Borrowed Time Dispatch signup for new comics and source notes.
 - [Substack](${SUBSTACK_URL}): External newsletter home.
 

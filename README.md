@@ -2,7 +2,7 @@
 
 A Next.js archive for daily obituary comics about deceased people who faced death and made significant work afterward.
 
-Production site: https://finalnotes.page/
+Production site: https://www.finalnotes.page/
 
 Fallback Vercel URL: https://memento-mori-obituary-comics.vercel.app/
 
@@ -44,6 +44,7 @@ The app uses the Next.js App Router. Route and UI ownership is:
 - `app/comics/[slug]/page.jsx` and `components/reader-shell.jsx` for the reader.
 - `app/media/[...path]/route.js` for private Vercel Blob media delivery through stable `/media/comics/...` URLs.
 - `app/about/page.jsx` for editorial method.
+- `app/press/page.jsx` for editors, reviewers, backlink outreach, and citation resources.
 - `app/api/latest-pdf/route.js` for the paid agent PDF endpoint.
 - `app/robots.js`, `app/sitemap.js`, and `app/llms.txt/route.js` for discovery files.
 - `app/globals.css` for design tokens and component styling.

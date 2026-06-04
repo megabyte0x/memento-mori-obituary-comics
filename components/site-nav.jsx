@@ -11,6 +11,7 @@ export function SiteNav() {
       <div className="site-nav-links">
         <Link href="/#archive">Archive</Link>
         <Link href="/about/">Method</Link>
+        <Link href="/press/">Press</Link>
         <Link href="/newsletter/">Newsletter</Link>
         <SupportDialog />
       </div>
