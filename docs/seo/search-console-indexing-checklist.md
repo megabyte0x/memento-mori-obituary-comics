@@ -19,13 +19,14 @@ Use URL Inspection in Google Search Console and request indexing for these pages
 
 1. `https://www.finalnotes.page/obituary-stories/`
 2. `https://www.finalnotes.page/how-to-write-an-obituary-story/`
-3. `https://www.finalnotes.page/what-are-obituary-comics/`
-4. `https://www.finalnotes.page/educators-libraries/`
-5. `https://www.finalnotes.page/press/`
-6. `https://www.finalnotes.page/`
-7. `https://www.finalnotes.page/comics/solzhenitsyn-gulag-witness/`
-8. `https://www.finalnotes.page/comics/primo-levi/`
-9. `https://www.finalnotes.page/comics/henri-matisse-second-life/`
+3. `https://www.finalnotes.page/obituary-story-worksheet/`
+4. `https://www.finalnotes.page/what-are-obituary-comics/`
+5. `https://www.finalnotes.page/educators-libraries/`
+6. `https://www.finalnotes.page/press/`
+7. `https://www.finalnotes.page/`
+8. `https://www.finalnotes.page/comics/solzhenitsyn-gulag-witness/`
+9. `https://www.finalnotes.page/comics/primo-levi/`
+10. `https://www.finalnotes.page/comics/henri-matisse-second-life/`
 
 ## What To Check
 
@@ -35,6 +36,7 @@ For each URL, record:
 | --- | --- | --- | --- | --- |
 | /obituary-stories/ |  |  |  |  |
 | /how-to-write-an-obituary-story/ |  |  |  |  |
+| /obituary-story-worksheet/ |  |  |  |  |
 | /what-are-obituary-comics/ |  |  |  |  |
 | /educators-libraries/ |  |  |  |  |
 | /press/ |  |  |  |  |
@@ -50,11 +52,13 @@ Check these queries after indexing starts:
 ```text
 site:finalnotes.page obituary stories
 site:finalnotes.page how to write an obituary story
+site:finalnotes.page obituary story worksheet
 site:finalnotes.page obituary comics
 "Memento Mori Obituary Comics"
 "www.finalnotes.page" "obituary"
 "what are obituary comics"
 "how to write an obituary story" "finalnotes"
+"obituary story worksheet" "finalnotes"
 "obituary stories" "finalnotes"
 ```
 

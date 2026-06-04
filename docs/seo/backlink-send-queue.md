@@ -26,6 +26,11 @@ Use this file as the next execution list. Send manually, one by one, after check
 | 15 | Order of the Good Death | https://www.orderofthegooddeath.com/pitch-guide | `docs/seo/pitches/11-order-good-death-obituary-art-pitch.md` | Pitch: What visual obituaries reveal about how we remember the dead | https://www.finalnotes.page/what-are-obituary-comics/ | Strong death-culture authority; only viable as a genuinely original essay, not a product pitch. |
 | 16 | Remembering A Life | https://www.rememberingalife.com/pages/blog-guidelines | `docs/seo/pitches/08-remembering-a-life-tribute-article.md` | Blog submission: How to turn an obituary into a life story | https://www.finalnotes.page/how-to-write-an-obituary-story/ | NFDA-backed remembrance audience and obituary-writing relevance, but requires a complete original article rather than a pitch. |
 | 17 | NGS Magazine | https://www.ngsgenealogy.org/magazine/ | `docs/seo/pitches/13-ngs-magazine-obituary-record-query.md` | Query: Using obituary records to build sourced life-story narratives | https://www.finalnotes.page/how-to-write-an-obituary-story/ | High-authority genealogy route if a qualified author can write a technique-focused article with evidence standards. |
+| 18 | ObituaryGuide | https://www.obituaryguide.com/contact.php | `docs/seo/pitches/15-obituaryguide-worksheet-resource.md` | Resource suggestion: printable obituary story worksheet | https://www.finalnotes.page/obituary-story-worksheet/ | Exact topical match: their Resources and Links page lists obituary-writing resources and examples. |
+| 19 | aCremation | https://www.acremation.com/contact-us/ | `docs/seo/pitches/16-acremation-obituary-worksheet-resource.md` | Resource suggestion for obituary planning page | https://www.finalnotes.page/obituary-story-worksheet/ | Their obituary guidelines and templates already serve families writing obituaries; worksheet is a natural companion. |
+| 20 | LAPL History & Genealogy | https://www.lapl.org/branches/central-library/departments/history-genealogy | `docs/seo/pitches/17-lapl-obituary-research-worksheet.md` | Resource suggestion for obituary research follow-up writing | https://www.finalnotes.page/obituary-story-worksheet/ | High-authority library/genealogy fit; frame as post-research writing aid after patrons find obituary records. |
+| 21 | Patchogue-Medford Library | https://pmlib.org/contact-form/ | `docs/seo/pitches/18-patchogue-medford-obituary-research-worksheet.md` | Resource suggestion for obituary research and family-history writing | https://www.finalnotes.page/obituary-story-worksheet/ | Their genealogy page includes obituary research guidance and a live library contact path. |
+| Hold | Chronic Joy | https://chronic-joy.org/write-for-us/ | `docs/seo/pitches/19-chronic-joy-obituary-reflection-post.md` | Human-written grief/lament reflection post only if invited | https://www.finalnotes.page/obituary-story-worksheet/ | Submission page is by invitation and rejects AI-generated content, so hold unless a human-written personal essay is invited. |
 
 ## Hold / Monitor
 
@@ -41,6 +46,7 @@ Use this file as the next execution list. Send manually, one by one, after check
 - Use the target page that best fits the editor's audience:
   - Definition/form essays: `https://www.finalnotes.page/what-are-obituary-comics/`
   - Obituary-writing and family-history how-to articles: `https://www.finalnotes.page/how-to-write-an-obituary-story/`
+  - Worksheet and planning-resource pages: `https://www.finalnotes.page/obituary-story-worksheet/`
   - Obituary-story roundups: `https://www.finalnotes.page/obituary-stories/`
   - Library/course resources: `https://www.finalnotes.page/educators-libraries/`
   - Press/review context: `https://www.finalnotes.page/press/`
@@ -73,6 +79,16 @@ Send these after the first two batches. They are higher-compliance opportunities
 5. Order of the Good Death: human-written death-culture essay pitch.
 6. Remembering A Life: complete human-written Word doc, not a pitch.
 7. NGS Magazine: query only if the author can credibly write a genealogy technique article.
+
+## Fourth Batch: Worksheet and Resource Pages
+
+Send these after the obituary/deathcare/genealogy batch. They are resource-inclusion asks, not guest-post requests:
+
+1. ObituaryGuide: resource suggestion for the Resources and Links page.
+2. aCremation: worksheet companion suggestion for obituary guidelines/templates.
+3. LAPL History & Genealogy: post-research writing resource suggestion.
+4. Patchogue-Medford Library: obituary research follow-up worksheet suggestion.
+5. Chronic Joy: hold unless there is a human-written invited submission.
 
 ## Follow-Up Timing
 

@@ -26,6 +26,7 @@ Primary goal: earn relevant editorial links that help the obituary comics archiv
 | Broad coverage | https://www.finalnotes.page/ | Memento Mori Obituary Comics |
 | Obituary story keywords | https://www.finalnotes.page/obituary-stories/ | obituary stories and articles |
 | Obituary writing and family-history how-to keywords | https://www.finalnotes.page/how-to-write-an-obituary-story/ | how to write an obituary story |
+| Worksheet and planning-resource links | https://www.finalnotes.page/obituary-story-worksheet/ | obituary story worksheet |
 | Press, reviewers, educators | https://www.finalnotes.page/press/ | obituary comics resource page |
 | Source standards | https://www.finalnotes.page/about/ | editorial method |
 | Latest issue | https://www.finalnotes.page/comics/solzhenitsyn-gulag-witness/ | Aleksandr Solzhenitsyn obituary comic |
@@ -56,6 +57,16 @@ Primary goal: earn relevant editorial links that help the obituary comics archiv
 | Substack writers on grief, deathcare, biographies, and comics | Relevant audience, easier editorial access, natural newsletter links. | Offer a concise guest note or interview using `/press/` as the reference URL. |
 | Reddit communities | Good discovery, usually nofollow, not a ranking-link play. | Continue careful feedback posts in relevant threads only when allowed and not promotional. |
 
+## Tier 2A Worksheet Resource Targets
+
+| Target | Why it fits | Ask | Target URL |
+| --- | --- | --- | --- |
+| ObituaryGuide | Maintains a Resources and Links page for obituary-writing resources, examples, books, and sites. | Suggest the worksheet as a practical planning resource for people writing their own obituaries or life stories. | `/obituary-story-worksheet/` |
+| aCremation | Publishes obituary guidelines, templates, sample obituaries, and obituary submission guidance for families. | Suggest the worksheet as a companion resource before families fill in the obituary template. | `/obituary-story-worksheet/` |
+| LAPL History & Genealogy | High-authority library genealogy department; guide points patrons toward obituary research. | Suggest the worksheet as a post-research family-history writing aid, not a replacement for local research guidance. | `/obituary-story-worksheet/` |
+| Patchogue-Medford Library | Genealogy page includes obituary research guidance and a reference contact path. | Suggest the worksheet as an optional family-history writing resource after patrons locate obituary records. | `/obituary-story-worksheet/` |
+| Chronic Joy | Covers grief/lament and practical reflection posts, but submissions are invitation-only and reject AI-generated content. | Hold unless a human-written personal reflection is invited. | `/obituary-story-worksheet/` |
+
 ## Tier 3 Obituary, Deathcare, and Genealogy Targets
 
 | Target | Why it fits | Ask | Target URL |
@@ -84,7 +95,7 @@ Primary goal: earn relevant editorial links that help the obituary comics archiv
 4. Send the second batch: Graphic Medicine, Bradley University Graphic Medicine guide, UCLA Comics Studies guide, and Comics Beat.
 5. Send the obituary/deathcare/genealogy batch: Grief Collective, Family History Fanatics, Free UK Genealogy, TalkDeath, Order of the Good Death, Remembering A Life, and NGS Magazine where compliance requirements are met.
 6. If the art is not generative AI, send Broken Frontier a review request with 2-3 interior pages. If it is generative AI, skip them.
-7. Use `/how-to-write-an-obituary-story/` as the primary link target for obituary-writing, deathcare, and genealogy how-to links; use `/obituary-stories/` for story roundups and `/what-are-obituary-comics/` for form definitions.
+7. Use `/how-to-write-an-obituary-story/` as the primary link target for obituary-writing, deathcare, and genealogy how-to links; use `/obituary-story-worksheet/` for worksheet/resource-list asks; use `/obituary-stories/` for story roundups and `/what-are-obituary-comics/` for form definitions.
 8. Keep Modern Loss on hold until its Submittable page reopens; do not send to closed calls.
 9. Track every outreach in a spreadsheet: target, contact URL/email, date sent, pitch angle, linked URL, reply, live URL, anchor text, follow/nofollow, notes.
 

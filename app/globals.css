@@ -2614,6 +2614,63 @@ body::before {
 .writing-guide-prompts .stories-intent-list li + li {
   margin-top: 8px;
 }
+.worksheet-page .explainer-header-section h1 {
+  max-width: 14ch;
+}
+.worksheet-grid {
+  display: grid;
+  grid-template-columns: minmax(0, .75fr) minmax(0, 1.25fr);
+  gap: clamp(24px, 5vw, 42px);
+  margin: 32px 0;
+  padding: 28px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.worksheet-grid h2 {
+  margin: 6px 0 0;
+  color: var(--gold);
+  font: 900 clamp(22px, 4vw, 34px)/1.1 var(--font-display);
+  text-transform: uppercase;
+}
+.worksheet-fields {
+  display: grid;
+  gap: 14px;
+}
+.worksheet-box {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(244, 235, 214, 0.035);
+}
+.worksheet-box h3 {
+  margin: 0 0 10px;
+  color: var(--gold);
+  font: 900 13px/1.25 var(--font-sans);
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+.worksheet-box ul {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--paper);
+  font: 15px/1.6 var(--font-sans);
+}
+.worksheet-box li + li {
+  margin-top: 8px;
+}
+.worksheet-lines {
+  display: grid;
+  gap: 14px;
+  margin-top: 18px;
+}
+.worksheet-lines span {
+  display: block;
+  height: 1px;
+  background: rgba(244, 235, 214, 0.26);
+}
+.worksheet-link-box {
+  margin-top: 24px;
+}
 .educator-prompts {
   display: grid;
   grid-template-columns: minmax(0, .75fr) minmax(0, 1.25fr);
@@ -2652,6 +2709,7 @@ body::before {
   .stories-intent-grid,
   .stories-link-box,
   .explainer-principles,
+  .worksheet-grid,
   .educator-prompts {
     grid-template-columns: 1fr;
   }
@@ -2662,5 +2720,31 @@ body::before {
   .press-subjects-head {
     align-items: flex-start;
     flex-direction: column;
+  }
+}
+
+@media print {
+  .site-nav,
+  footer,
+  .worksheet-actions,
+  .worksheet-link-box {
+    display: none;
+  }
+  body {
+    background: #fff;
+    color: #111;
+  }
+  .worksheet-page {
+    max-width: none;
+    padding: 0;
+  }
+  .worksheet-grid,
+  .worksheet-box {
+    border-color: #999;
+    background: transparent;
+    box-shadow: none;
+  }
+  .worksheet-lines span {
+    background: #999;
   }
 }

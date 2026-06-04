@@ -158,6 +158,9 @@ export default function HowToWriteObituaryStoryPage() {
                 <Link href="/obituary-stories/">Read obituary stories</Link>
               </Button>
               <Button asChild>
+                <Link href="/obituary-story-worksheet/">Printable worksheet</Link>
+              </Button>
+              <Button asChild>
                 <Link href="/what-are-obituary-comics/">Obituary comics explainer</Link>
               </Button>
               {latest ? (
@@ -196,7 +199,7 @@ export default function HowToWriteObituaryStoryPage() {
           <section className="explainer-body" aria-labelledby="story-frame">
             <h2 id="story-frame">A Simple Obituary Story Frame</h2>
             <p>
-              Use this frame when the page, newspaper, funeral home, or memorial site allows enough room for a narrative. Keep the order if you need clarity; rearrange it if the defining scene deserves to come first.
+              Use this frame when the page, newspaper, funeral home, or memorial site allows enough room for a narrative. If you need a printable planning page, use the <Link href="/obituary-story-worksheet/">obituary story worksheet</Link> before drafting. Keep the order if you need clarity; rearrange it if the defining scene deserves to come first.
             </p>
             <ol className="writing-guide-list">
               {storyFrame.map((item) => (

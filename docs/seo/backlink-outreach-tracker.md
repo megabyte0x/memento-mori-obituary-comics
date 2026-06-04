@@ -4,6 +4,7 @@ Date: 2026-06-04
 Canonical host: https://www.finalnotes.page/
 Primary link target for obituary-story keywords: https://www.finalnotes.page/obituary-stories/
 Primary link target for obituary-writing and family-history how-to keywords: https://www.finalnotes.page/how-to-write-an-obituary-story/
+Primary link target for worksheet/resource-page backlinks: https://www.finalnotes.page/obituary-story-worksheet/
 Definition/explainer link target: https://www.finalnotes.page/what-are-obituary-comics/
 Educator/library link target: https://www.finalnotes.page/educators-libraries/
 
@@ -35,6 +36,11 @@ Execution queue: `docs/seo/backlink-send-queue.md`
 | P2 | Free UK Genealogy | https://www.freeukgenealogy.org.uk/contact/guest-post-2/ | Guest post query about turning obituary records into sourced family-history stories. | https://www.finalnotes.page/how-to-write-an-obituary-story/ | obituary records into stories |
 | P2 | NGS Magazine | https://www.ngsgenealogy.org/magazine/ | Query for technique article on using obituary records in sourced life-story narratives. | https://www.finalnotes.page/how-to-write-an-obituary-story/ | obituary records |
 | P2 | Family History Fanatics | https://www.familyhistoryfanatics.com/contact | Resource/video idea on turning obituaries into visual family stories. | https://www.finalnotes.page/how-to-write-an-obituary-story/ | visual family stories |
+| P2 | ObituaryGuide | https://www.obituaryguide.com/contact.php | Resource suggestion for obituary-writing Resources and Links page. | https://www.finalnotes.page/obituary-story-worksheet/ | obituary story worksheet |
+| P2 | aCremation | https://www.acremation.com/contact-us/ | Resource suggestion for obituary guidelines/templates companion. | https://www.finalnotes.page/obituary-story-worksheet/ | obituary writing worksheet |
+| P2 | LAPL History & Genealogy | https://www.lapl.org/branches/central-library/departments/history-genealogy | Resource suggestion for patrons after obituary research. | https://www.finalnotes.page/obituary-story-worksheet/ | obituary story worksheet |
+| P2 | Patchogue-Medford Library | https://pmlib.org/contact-form/ | Resource suggestion for obituary research and family-history writing. | https://www.finalnotes.page/obituary-story-worksheet/ | family-history obituary worksheet |
+| Hold | Chronic Joy | https://chronic-joy.org/write-for-us/ | Human-written grief/lament post only if invited. | https://www.finalnotes.page/obituary-story-worksheet/ | obituary reflection worksheet |
 
 ## Send Log
 
@@ -54,6 +60,11 @@ Execution queue: `docs/seo/backlink-send-queue.md`
 |  | Free UK Genealogy | `docs/seo/pitches/12-freeuk-genealogy-obit-to-story.md` | /how-to-write-an-obituary-story/ |  |  |  |  | Query before drafting full article |
 |  | NGS Magazine | `docs/seo/pitches/13-ngs-magazine-obituary-record-query.md` | /how-to-write-an-obituary-story/ |  |  |  |  | Only with qualified genealogy author |
 |  | Family History Fanatics | `docs/seo/pitches/14-family-history-fanatics-visual-story.md` | /how-to-write-an-obituary-story/ |  |  |  |  |  |
+|  | ObituaryGuide | `docs/seo/pitches/15-obituaryguide-worksheet-resource.md` | /obituary-story-worksheet/ |  |  |  |  | Resource page suggestion |
+|  | aCremation | `docs/seo/pitches/16-acremation-obituary-worksheet-resource.md` | /obituary-story-worksheet/ |  |  |  |  | Resource page suggestion |
+|  | LAPL History & Genealogy | `docs/seo/pitches/17-lapl-obituary-research-worksheet.md` | /obituary-story-worksheet/ |  |  |  |  | Library resource suggestion |
+|  | Patchogue-Medford Library | `docs/seo/pitches/18-patchogue-medford-obituary-research-worksheet.md` | /obituary-story-worksheet/ |  |  |  |  | Library resource suggestion |
+|  | Chronic Joy | `docs/seo/pitches/19-chronic-joy-obituary-reflection-post.md` | /obituary-story-worksheet/ | Hold unless invited |  |  |  | Human-written only |
 |  | Modern Loss | Hold until submissions reopen | /obituary-stories/ | No open calls on 2026-06-04 |  |  |  | Check weekly |
 
 ## Pitch Drafts

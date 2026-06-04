@@ -8,6 +8,7 @@ export default function sitemap() {
     { url: absoluteUrl("/"), lastModified: latest, changeFrequency: "daily", priority: 1 },
     { url: absoluteUrl("/obituary-stories/"), lastModified: latest, changeFrequency: "weekly", priority: 0.9 },
     { url: absoluteUrl("/how-to-write-an-obituary-story/"), lastModified: latest, changeFrequency: "monthly", priority: 0.88 },
+    { url: absoluteUrl("/obituary-story-worksheet/"), lastModified: latest, changeFrequency: "monthly", priority: 0.84 },
     { url: absoluteUrl("/what-are-obituary-comics/"), lastModified: latest, changeFrequency: "monthly", priority: 0.85 },
     { url: absoluteUrl("/educators-libraries/"), lastModified: latest, changeFrequency: "monthly", priority: 0.82 },
     { url: absoluteUrl("/about/"), lastModified: latest, changeFrequency: "monthly", priority: 0.7 },
