@@ -26,6 +26,7 @@ Primary goal: earn relevant editorial links that help the obituary comics archiv
 | Broad coverage | https://www.finalnotes.page/ | Memento Mori Obituary Comics |
 | Obituary story keywords | https://www.finalnotes.page/obituary-stories/ | obituary stories and articles |
 | Obituary writing and family-history how-to keywords | https://www.finalnotes.page/how-to-write-an-obituary-story/ | how to write an obituary story |
+| Obituary examples and wording-example links | https://www.finalnotes.page/obituary-examples/ | obituary examples |
 | Worksheet and planning-resource links | https://www.finalnotes.page/obituary-story-worksheet/ | obituary story worksheet |
 | Press, reviewers, educators | https://www.finalnotes.page/press/ | obituary comics resource page |
 | Source standards | https://www.finalnotes.page/about/ | editorial method |
@@ -78,6 +79,16 @@ Primary goal: earn relevant editorial links that help the obituary comics archiv
 | Funeral Cost Analyzer | A current obituary-writing guide surfaced in SERP checks and lists a contact email. | Secondary resource suggestion for the worksheet as a preparation aid. | `/obituary-story-worksheet/` |
 | Brown's Cremation | Has an obituary-writing resource and a community partnerships/outside-link surface. | Lower-priority local resource suggestion for families writing obituaries. | `/obituary-story-worksheet/` |
 
+## Tier 2C Obituary Examples and Wording Resources
+
+| Target | Why it fits | Ask | Target URL |
+| --- | --- | --- | --- |
+| Farewelling | Publishes funeral planning, remembering, memorial website, and obituary-writing resources. | Suggest the examples page as a story-pattern supplement for memorial and obituary-writing readers. | `/obituary-examples/` |
+| US Urns Online | Funeral planning resource section includes obituary examples and related memorial planning content. | Suggest the examples page as a supplemental resource for choosing specific life-story details. | `/obituary-examples/` |
+| Obit Options | Human obituary-writing service with tribute/example surfaces and a strong non-template writing angle. | Suggest the examples page as a source-backed story-pattern reference. | `/obituary-examples/` |
+| OBITUARe | Maintains a resource center for obituary writing, templates, and online memorial guidance. | Suggest the examples page as a resource-center supplement. | `/obituary-examples/` |
+| Brattleboro Area Hospice | Has an obituary worksheet for reflection and a direct hospice contact path. | Suggest the worksheet and examples page as supplemental writing prompts. | `/obituary-story-worksheet/` |
+
 ## Tier 3 Obituary, Deathcare, and Genealogy Targets
 
 | Target | Why it fits | Ask | Target URL |
@@ -106,10 +117,11 @@ Primary goal: earn relevant editorial links that help the obituary comics archiv
 4. Send the second batch: Graphic Medicine, Bradley University Graphic Medicine guide, UCLA Comics Studies guide, and Comics Beat.
 5. Send the obituary/deathcare/genealogy batch: Grief Collective, Family History Fanatics, Free UK Genealogy, TalkDeath, Order of the Good Death, Remembering A Life, and NGS Magazine where compliance requirements are met.
 6. If the art is not generative AI, send Broken Frontier a review request with 2-3 interior pages. If it is generative AI, skip them.
-7. Use `/how-to-write-an-obituary-story/` as the primary link target for obituary-writing, deathcare, and genealogy how-to links; use `/obituary-story-worksheet/` for worksheet/resource-list asks; use `/obituary-stories/` for story roundups and `/what-are-obituary-comics/` for form definitions.
+7. Use `/how-to-write-an-obituary-story/` as the primary link target for obituary-writing, deathcare, and genealogy how-to links; use `/obituary-examples/` for obituary example and wording-example asks; use `/obituary-story-worksheet/` for worksheet/resource-list asks; use `/obituary-stories/` for story roundups and `/what-are-obituary-comics/` for form definitions.
 8. Keep Modern Loss on hold until its Submittable page reopens; do not send to closed calls.
 9. Send the consumer/resource-hub batch after the worksheet batch: ObituariesHelp, Funeral Consumers Alliance, FCA Connecticut, FCA Finger Lakes, Funeral Cost Analyzer, and Brown's Cremation.
-10. Track every outreach in a spreadsheet: target, contact URL/email, date sent, pitch angle, linked URL, reply, live URL, anchor text, follow/nofollow, notes.
+10. Send the obituary examples batch after the resource-hub batch: Farewelling, US Urns Online, Obit Options, OBITUARe, and Brattleboro Area Hospice.
+11. Track every outreach in a spreadsheet: target, contact URL/email, date sent, pitch angle, linked URL, reply, live URL, anchor text, follow/nofollow, notes.
 
 ## Pitch Templates
 

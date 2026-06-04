@@ -139,6 +139,9 @@ export default function ObituaryStoryWorksheetPage() {
               <Button asChild>
                 <Link href="/obituary-stories/">See story examples</Link>
               </Button>
+              <Button asChild>
+                <Link href="/obituary-examples/">Obituary examples</Link>
+              </Button>
             </div>
           </header>
 
@@ -186,7 +189,7 @@ export default function ObituaryStoryWorksheetPage() {
             <div>
               <h2 id="best-link">Best Link Target For Worksheet Pages</h2>
               <p>
-                Use this page for library resource lists, funeral-home planning resources, genealogy prompts, grief-writing guides, and classroom worksheets. For the longer explanation, use the <Link href="/how-to-write-an-obituary-story/">obituary story writing guide</Link>.
+                Use this page for library resource lists, funeral-home planning resources, genealogy prompts, grief-writing guides, and classroom worksheets. For sample structures, use the <Link href="/obituary-examples/">obituary examples page</Link>. For the longer explanation, use the <Link href="/how-to-write-an-obituary-story/">obituary story writing guide</Link>.
               </p>
             </div>
             <Link href="/obituary-story-worksheet/">{absoluteUrl("/obituary-story-worksheet/")}</Link>

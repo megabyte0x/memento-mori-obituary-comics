@@ -49,6 +49,11 @@ const linkTargets = [
     note: "Best canonical link for obituary-writing guides, grief-writing essays, family-history resources, and deathcare article references.",
   },
   {
+    label: "Obituary examples and story patterns",
+    href: "/obituary-examples/",
+    note: "Best canonical link for obituary example roundups, obituary wording resources, and sample-story structures.",
+  },
+  {
     label: "Printable obituary story worksheet",
     href: "/obituary-story-worksheet/",
     note: "Best canonical link for funeral-home planning pages, library worksheets, family-history prompts, and resource lists.",

@@ -2596,6 +2596,9 @@ body::before {
 .writing-guide-page .explainer-header-section h1 {
   max-width: 16ch;
 }
+.examples-page .explainer-header-section h1 {
+  max-width: 12ch;
+}
 .writing-guide-list {
   margin: 18px 0 0;
   padding-left: 24px;
@@ -2613,6 +2616,15 @@ body::before {
 }
 .writing-guide-prompts .stories-intent-list li + li {
   margin-top: 8px;
+}
+.examples-frame-list {
+  display: grid;
+  gap: 14px;
+  margin-top: 18px;
+}
+.examples-frame-list p {
+  color: var(--paper);
+  font: 15px/1.65 var(--font-sans);
 }
 .worksheet-page .explainer-header-section h1 {
   max-width: 14ch;

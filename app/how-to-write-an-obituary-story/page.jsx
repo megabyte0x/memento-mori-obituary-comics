@@ -161,6 +161,9 @@ export default function HowToWriteObituaryStoryPage() {
                 <Link href="/obituary-story-worksheet/">Printable worksheet</Link>
               </Button>
               <Button asChild>
+                <Link href="/obituary-examples/">Obituary examples</Link>
+              </Button>
+              <Button asChild>
                 <Link href="/what-are-obituary-comics/">Obituary comics explainer</Link>
               </Button>
               {latest ? (
@@ -234,7 +237,7 @@ export default function HowToWriteObituaryStoryPage() {
             <div>
               <h2 id="best-link">Best Link Target For Obituary Writing Articles</h2>
               <p>
-                Use this page for articles, resource lists, family-history guides, grief-writing essays, and newsletters about how to turn an obituary into a sourced life story. For examples of the finished visual form, link to the <Link href="/obituary-stories/">obituary stories index</Link>.
+                Use this page for articles, resource lists, family-history guides, grief-writing essays, and newsletters about how to turn an obituary into a sourced life story. For example roundups and sample-structure posts, link to the <Link href="/obituary-examples/">obituary examples page</Link>. For examples of the finished visual form, link to the <Link href="/obituary-stories/">obituary stories index</Link>.
               </p>
             </div>
             <Link href="/how-to-write-an-obituary-story/">{absoluteUrl("/how-to-write-an-obituary-story/")}</Link>

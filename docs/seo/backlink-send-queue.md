@@ -36,6 +36,11 @@ Use this file as the next execution list. Send manually, one by one, after check
 | 25 | Funeral Consumers Alliance of the Finger Lakes | info@fingerlakesfunerals.org | `docs/seo/pitches/23-fca-finger-lakes-obituary-worksheet.md` | Supplemental worksheet for obituary-writing guidelines | https://www.finalnotes.page/obituary-story-worksheet/ | Their obituary-writing guideline already uses a factual checklist; the worksheet adds evidence, story, and privacy prompts. |
 | 26 | Funeral Cost Analyzer | contact@funeralcostanalyzer.com | `docs/seo/pitches/24-funeral-cost-analyzer-obituary-guide-resource.md` | Resource suggestion for obituary writing guide | https://www.finalnotes.page/obituary-story-worksheet/ | Visible obituary-writing SERP competitor with a live contact email and related guide sections; useful as a secondary resource-link target. |
 | 27 | Brown's Cremation | https://www.brownscremationservice.com/contact-us | `docs/seo/pitches/25-browns-cremation-obituary-resource.md` | Resource suggestion for obituary-writing families | https://www.finalnotes.page/obituary-story-worksheet/ | Local funeral-home resource page with an obituary-writing guide and outside-link/community partnership surface. |
+| 28 | Farewelling | info@myfarewelling.com | `docs/seo/pitches/26-myfarewelling-obituary-examples-resource.md` | Resource suggestion for obituary examples and story patterns | https://www.finalnotes.page/obituary-examples/ | Their memorial website and obituary resources emphasize personal tributes, stories, and practical planning. |
+| 29 | US Urns Online | info@usurnsonline.com or https://www.usurnsonline.com/contact/ | `docs/seo/pitches/27-us-urns-obituary-examples-resource.md` | Resource suggestion for obituary examples page | https://www.finalnotes.page/obituary-examples/ | Their funeral planning resource section includes obituary examples and related memorial planning content. |
+| 30 | Obit Options | obitoptions@gmail.com | `docs/seo/pitches/28-obit-options-obituary-examples-resource.md` | Obituary story examples resource | https://www.finalnotes.page/obituary-examples/ | Human obituary-writing service with tribute/example surfaces and strong fit for non-template story examples. |
+| 31 | OBITUARe | https://www.obituare.com/help/ or live chat | `docs/seo/pitches/29-obituare-examples-resource.md` | Resource suggestion for obituary examples | https://www.finalnotes.page/obituary-examples/ | Their resource center includes obituary writing, obituary templates, and online memorial guidance. |
+| 32 | Brattleboro Area Hospice | info@brattleborohospice.org | `docs/seo/pitches/30-brattleboro-hospice-obituary-examples-worksheet.md` | Supplemental obituary story worksheet resource | https://www.finalnotes.page/obituary-story-worksheet/ | Hospice worksheet target with a direct obituary reflection worksheet and contact path. |
 | Hold | Chronic Joy | https://chronic-joy.org/write-for-us/ | `docs/seo/pitches/19-chronic-joy-obituary-reflection-post.md` | Human-written grief/lament reflection post only if invited | https://www.finalnotes.page/obituary-story-worksheet/ | Submission page is by invitation and rejects AI-generated content, so hold unless a human-written personal essay is invited. |
 
 ## Hold / Monitor
@@ -52,6 +57,7 @@ Use this file as the next execution list. Send manually, one by one, after check
 - Use the target page that best fits the editor's audience:
   - Definition/form essays: `https://www.finalnotes.page/what-are-obituary-comics/`
   - Obituary-writing and family-history how-to articles: `https://www.finalnotes.page/how-to-write-an-obituary-story/`
+  - Obituary example and wording-example pages: `https://www.finalnotes.page/obituary-examples/`
   - Worksheet and planning-resource pages: `https://www.finalnotes.page/obituary-story-worksheet/`
   - Obituary-story roundups: `https://www.finalnotes.page/obituary-stories/`
   - Library/course resources: `https://www.finalnotes.page/educators-libraries/`
@@ -106,6 +112,16 @@ Send these after the worksheet/resource-page batch. The first four are stronger 
 4. Funeral Consumers Alliance of the Finger Lakes: worksheet supplement for their factual checklist.
 5. Funeral Cost Analyzer: secondary resource suggestion for its obituary-writing guide.
 6. Brown's Cremation: lower-priority local funeral-home resource suggestion.
+
+## Sixth Batch: Obituary Examples and Wording Resources
+
+Send these after the consumer/resource-hub batch. Use `/obituary-examples/` for example and wording resources, and use `/obituary-story-worksheet/` when the target already has a worksheet:
+
+1. Farewelling: obituary examples and story-pattern resource suggestion.
+2. US Urns Online: obituary examples supplement.
+3. Obit Options: human obituary-writing examples/resource suggestion.
+4. OBITUARe: resource-center suggestion via help/live chat.
+5. Brattleboro Area Hospice: supplemental worksheet/examples suggestion.
 
 ## Follow-Up Timing
 

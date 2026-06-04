@@ -10,15 +10,17 @@ The ranking goal is not complete. Current web search samples did not surface can
 
 ## Search Landscape Observed
 
-SERP samples for obituary-writing and worksheet queries are dominated by:
+SERP samples for obituary-writing, examples, and worksheet queries are dominated by:
 
 - Obituary writing guides and template pages.
+- Obituary examples and wording-example pages.
 - Funeral-home resource pages.
 - Obituary resource hubs with downloadable forms.
 - Library and genealogy pages that help patrons find obituary records.
 - Funeral consumer advocacy pages that explain planning and obituary writing.
 
 This supports using `https://www.finalnotes.page/obituary-story-worksheet/` and `https://www.finalnotes.page/how-to-write-an-obituary-story/` as resource-list link targets, rather than asking for generic homepage links.
+It also supports using `https://www.finalnotes.page/obituary-examples/` for example roundups, wording resources, and sample-story pages.
 
 ## High-Fit Sources Found In This Pass
 
@@ -30,6 +32,11 @@ This supports using `https://www.finalnotes.page/obituary-story-worksheet/` and 
 | FCA Finger Lakes | Has obituary-writing guidelines with a factual checklist. | `/obituary-story-worksheet/` | Pitch added |
 | Funeral Cost Analyzer | Current obituary-writing guide surfaced in search; contact email is visible. | `/obituary-story-worksheet/` | Secondary pitch added |
 | Brown's Cremation | Has a detailed obituary-writing guide and a community partnerships/resource-link surface. | `/obituary-story-worksheet/` | Secondary pitch added |
+| Farewelling | Publishes memorial website, personal tribute, and obituary-writing resources with contact emails. | `/obituary-examples/` | Pitch added |
+| US Urns Online | Publishes obituary examples and funeral planning resources with contact form/email. | `/obituary-examples/` | Pitch added |
+| Obit Options | Human obituary-writing service with examples/tribute context and a direct email. | `/obituary-examples/` | Pitch added |
+| OBITUARe | Has an obituary resource center for writing, templates, and online memorial help. | `/obituary-examples/` | Pitch added |
+| Brattleboro Area Hospice | Has an obituary worksheet and direct hospice contact path. | `/obituary-story-worksheet/` | Pitch added |
 
 ## Completion Rule
 

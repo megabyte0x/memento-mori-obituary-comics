@@ -4,6 +4,7 @@ Date: 2026-06-04
 Canonical host: https://www.finalnotes.page/
 Primary link target for obituary-story keywords: https://www.finalnotes.page/obituary-stories/
 Primary link target for obituary-writing and family-history how-to keywords: https://www.finalnotes.page/how-to-write-an-obituary-story/
+Primary link target for obituary examples and wording-example keywords: https://www.finalnotes.page/obituary-examples/
 Primary link target for worksheet/resource-page backlinks: https://www.finalnotes.page/obituary-story-worksheet/
 Definition/explainer link target: https://www.finalnotes.page/what-are-obituary-comics/
 Educator/library link target: https://www.finalnotes.page/educators-libraries/
@@ -46,6 +47,11 @@ Execution queue: `docs/seo/backlink-send-queue.md`
 | P2 | Funeral Consumers Alliance of the Finger Lakes | info@fingerlakesfunerals.org | Supplemental worksheet for obituary-writing guidelines. | https://www.finalnotes.page/obituary-story-worksheet/ | obituary writing worksheet |
 | P3 | Funeral Cost Analyzer | contact@funeralcostanalyzer.com | Secondary resource suggestion for current obituary-writing guide. | https://www.finalnotes.page/obituary-story-worksheet/ | printable obituary worksheet |
 | P3 | Brown's Cremation | https://www.brownscremationservice.com/contact-us | Local funeral-home resource suggestion for families writing obituaries. | https://www.finalnotes.page/obituary-story-worksheet/ | obituary story worksheet |
+| P2 | Farewelling | info@myfarewelling.com | Obituary examples/story-pattern resource suggestion for memorial planning readers. | https://www.finalnotes.page/obituary-examples/ | obituary examples |
+| P2 | US Urns Online | info@usurnsonline.com or https://www.usurnsonline.com/contact/ | Supplemental obituary examples resource for funeral planning readers. | https://www.finalnotes.page/obituary-examples/ | obituary examples |
+| P2 | Obit Options | obitoptions@gmail.com | Human obituary-writing story-pattern reference. | https://www.finalnotes.page/obituary-examples/ | obituary story examples |
+| P3 | OBITUARe | https://www.obituare.com/help/ or live chat | Resource-center suggestion for obituary examples and worksheet. | https://www.finalnotes.page/obituary-examples/ | obituary story patterns |
+| P2 | Brattleboro Area Hospice | info@brattleborohospice.org | Supplemental worksheet/examples resource for obituary reflection worksheet. | https://www.finalnotes.page/obituary-story-worksheet/ | obituary story worksheet |
 | Hold | Chronic Joy | https://chronic-joy.org/write-for-us/ | Human-written grief/lament post only if invited. | https://www.finalnotes.page/obituary-story-worksheet/ | obituary reflection worksheet |
 
 ## Send Log
@@ -76,6 +82,11 @@ Execution queue: `docs/seo/backlink-send-queue.md`
 |  | Funeral Consumers Alliance of the Finger Lakes | `docs/seo/pitches/23-fca-finger-lakes-obituary-worksheet.md` | /obituary-story-worksheet/ |  |  |  |  | Worksheet supplement |
 |  | Funeral Cost Analyzer | `docs/seo/pitches/24-funeral-cost-analyzer-obituary-guide-resource.md` | /obituary-story-worksheet/ |  |  |  |  | Secondary commercial resource target |
 |  | Brown's Cremation | `docs/seo/pitches/25-browns-cremation-obituary-resource.md` | /obituary-story-worksheet/ |  |  |  |  | Lower-priority local funeral-home target |
+|  | Farewelling | `docs/seo/pitches/26-myfarewelling-obituary-examples-resource.md` | /obituary-examples/ |  |  |  |  | Obituary examples resource target |
+|  | US Urns Online | `docs/seo/pitches/27-us-urns-obituary-examples-resource.md` | /obituary-examples/ |  |  |  |  | Obituary examples resource target |
+|  | Obit Options | `docs/seo/pitches/28-obit-options-obituary-examples-resource.md` | /obituary-examples/ |  |  |  |  | Human-writing examples target |
+|  | OBITUARe | `docs/seo/pitches/29-obituare-examples-resource.md` | /obituary-examples/ |  |  |  |  | Resource-center target |
+|  | Brattleboro Area Hospice | `docs/seo/pitches/30-brattleboro-hospice-obituary-examples-worksheet.md` | /obituary-story-worksheet/ |  |  |  |  | Hospice worksheet target |
 |  | Chronic Joy | `docs/seo/pitches/19-chronic-joy-obituary-reflection-post.md` | /obituary-story-worksheet/ | Hold unless invited |  |  |  | Human-written only |
 |  | Modern Loss | Hold until submissions reopen | /obituary-stories/ | No open calls on 2026-06-04 |  |  |  | Check weekly |
 
