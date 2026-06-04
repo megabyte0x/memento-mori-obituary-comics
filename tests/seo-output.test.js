@@ -37,6 +37,7 @@ test("sitemap includes canonical public routes and comic permalinks", () => {
 
   assert.ok(urls.includes(absoluteUrl("/")));
   assert.ok(urls.includes(absoluteUrl("/obituary-stories/")));
+  assert.ok(urls.includes(absoluteUrl("/how-to-write-an-obituary-story/")));
   assert.ok(urls.includes(absoluteUrl("/what-are-obituary-comics/")));
   assert.ok(urls.includes(absoluteUrl("/educators-libraries/")));
   assert.ok(urls.includes(absoluteUrl("/about/")));
@@ -57,6 +58,7 @@ test("llms.txt describes canonical routes and citation policy", async () => {
   assert.match(body, /## Main pages/);
   assert.match(body, /## AI crawler access/);
   assert.match(body, new RegExp(absoluteUrl("/obituary-stories/").replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
+  assert.match(body, new RegExp(absoluteUrl("/how-to-write-an-obituary-story/").replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
   assert.match(body, new RegExp(absoluteUrl("/what-are-obituary-comics/").replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
   assert.match(body, new RegExp(absoluteUrl("/educators-libraries/").replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
   assert.match(body, new RegExp(absoluteUrl("/press/").replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));

@@ -3,7 +3,7 @@
 Status: ready to send through contact form
 Send path: https://beyondthedash.com/about/
 Source checked: https://beyondthedash.com/about/
-Recommended link target: https://www.finalnotes.page/what-are-obituary-comics/
+Recommended link target: https://www.finalnotes.page/how-to-write-an-obituary-story/
 
 ## Contact Form Category
 
@@ -24,6 +24,7 @@ The article would be practical and reader-facing. It would show obituary writers
 The piece would fit your obituary-writing and life-story audience because it is not about publishing comics for their own sake. It is about helping people think more clearly about what makes an obituary meaningful: sequence, turning point, evidence, voice, and the difference between a notice and a story.
 
 Reference pages:
+https://www.finalnotes.page/how-to-write-an-obituary-story/
 https://www.finalnotes.page/what-are-obituary-comics/
 https://www.finalnotes.page/obituary-stories/
 

@@ -25,6 +25,7 @@ Primary goal: earn relevant editorial links that help the obituary comics archiv
 | --- | --- | --- |
 | Broad coverage | https://www.finalnotes.page/ | Memento Mori Obituary Comics |
 | Obituary story keywords | https://www.finalnotes.page/obituary-stories/ | obituary stories and articles |
+| Obituary writing and family-history how-to keywords | https://www.finalnotes.page/how-to-write-an-obituary-story/ | how to write an obituary story |
 | Press, reviewers, educators | https://www.finalnotes.page/press/ | obituary comics resource page |
 | Source standards | https://www.finalnotes.page/about/ | editorial method |
 | Latest issue | https://www.finalnotes.page/comics/solzhenitsyn-gulag-witness/ | Aleksandr Solzhenitsyn obituary comic |
@@ -37,7 +38,7 @@ Primary goal: earn relevant editorial links that help the obituary comics archiv
 | Target | Why it fits | Ask | Target URL |
 | --- | --- | --- | --- |
 | Modern Loss | Accepts pitches about death, loss, grief, and multimedia including cartoons/illustrations. | Pitch a 700-800 word reported/personal essay about what changes when an obituary becomes a comic. | `/press/` or a subject page |
-| Beyond the Dash | Obituary writing and life-story platform that invites original guest blog posts. | Guest article: "How to Turn an Obituary Into a Visual Life Story." | `/` and `/about/` |
+| Beyond the Dash | Obituary writing and life-story platform that invites original guest blog posts. | Guest article: "How to Turn an Obituary Into a Visual Life Story." | `/how-to-write-an-obituary-story/` |
 | The Comics Journal | Comics-first criticism with formal pitch path and PDF review acceptance. | Essay pitch about the obituary as a comics form, or review/news tip if the project is editorially relevant. | `/press/` |
 | SOLRAD | Literary comics publication focused on criticism, essays, interviews, and small press work. | Essay/interview pitch on source-backed obituary comics as visual biography. | `/press/` |
 | Graphic Medicine | Covers comics around illness, care, death, grief, and medical narratives. | Ask for review/spotlight consideration, especially around illness, mortality, and source trails. | Subject pages |
@@ -51,7 +52,7 @@ Primary goal: earn relevant editorial links that help the obituary comics archiv
 | --- | --- | --- |
 | Sequential Artists Workshop | Runs grief, graphic memoir, graphic medicine, and death-in-comics programming. | Share `/press/` as a resource and offer a short prompt/case study for students. |
 | Library and university comics guides | Often maintain graphic medicine, biography comics, and grief comics resource lists. | Ask for resource inclusion after building a longer educator note or PDF. |
-| Genealogy and obituary-writing newsletters | Users care about life-story preservation and memorable obituary forms. | Offer a practical article with examples and link to `/about/` for source standards. |
+| Genealogy and obituary-writing newsletters | Users care about life-story preservation and memorable obituary forms. | Offer a practical article with examples and link to `/how-to-write-an-obituary-story/` for writing prompts and source standards. |
 | Substack writers on grief, deathcare, biographies, and comics | Relevant audience, easier editorial access, natural newsletter links. | Offer a concise guest note or interview using `/press/` as the reference URL. |
 | Reddit communities | Good discovery, usually nofollow, not a ranking-link play. | Continue careful feedback posts in relevant threads only when allowed and not promotional. |
 
@@ -59,13 +60,13 @@ Primary goal: earn relevant editorial links that help the obituary comics archiv
 
 | Target | Why it fits | Ask | Target URL |
 | --- | --- | --- | --- |
-| Remembering A Life | NFDA-backed remembrance audience with explicit blog guidelines for tribute, grief, and honoring loved ones. | Submit a complete human-written article, not a pitch. Use the author bio link if accepted. | `/obituary-stories/` |
-| Grief Collective | Guest posts and interview posts can include a credit blurb linking to the author's site. | Pitch a guest post or interview about choosing the memory that turns an obituary into a story. | `/obituary-stories/` |
-| TalkDeath | Death-positive editorial audience covering grief, funerary issues, death culture, history, and art. | Pitch a human-written essay about visual obituaries and remembering the dead; avoid SEO framing. | `/obituary-stories/` |
+| Remembering A Life | NFDA-backed remembrance audience with explicit blog guidelines for tribute, grief, and honoring loved ones. | Submit a complete human-written article, not a pitch. Use the author bio link if accepted. | `/how-to-write-an-obituary-story/` |
+| Grief Collective | Guest posts and interview posts can include a credit blurb linking to the author's site. | Pitch a guest post or interview about choosing the memory that turns an obituary into a story. | `/how-to-write-an-obituary-story/` |
+| TalkDeath | Death-positive editorial audience covering grief, funerary issues, death culture, history, and art. | Pitch a human-written essay about visual obituaries and remembering the dead; avoid SEO framing. | `/how-to-write-an-obituary-story/` |
 | Order of the Good Death | High-authority death-culture publication with formal pitch guide. | Pitch an original death-culture essay about art, memory, and what visual obituaries reveal. | `/what-are-obituary-comics/` |
-| Free UK Genealogy | Guest-post guidance fits evidence-first articles about obituary records and family-history storytelling. | Query a practical article about turning obituary records into sourced family-history stories. | `/obituary-stories/` |
-| NGS Magazine | Genealogy authority that accepts queries for technique-focused articles. | Query only if a qualified author can write a third-person, footnoted article on obituary records. | `/obituary-stories/` |
-| Family History Fanatics | Direct topical overlap with their "Turn an Obit Into A Story" writing challenge. | Suggest a resource/video idea about visual family-history stories from obituary records. | `/obituary-stories/` |
+| Free UK Genealogy | Guest-post guidance fits evidence-first articles about obituary records and family-history storytelling. | Query a practical article about turning obituary records into sourced family-history stories. | `/how-to-write-an-obituary-story/` |
+| NGS Magazine | Genealogy authority that accepts queries for technique-focused articles. | Query only if a qualified author can write a third-person, footnoted article on obituary records. | `/how-to-write-an-obituary-story/` |
+| Family History Fanatics | Direct topical overlap with their "Turn an Obit Into A Story" writing challenge. | Suggest a resource/video idea about visual family-history stories from obituary records. | `/how-to-write-an-obituary-story/` |
 
 ## Avoid
 
@@ -83,7 +84,7 @@ Primary goal: earn relevant editorial links that help the obituary comics archiv
 4. Send the second batch: Graphic Medicine, Bradley University Graphic Medicine guide, UCLA Comics Studies guide, and Comics Beat.
 5. Send the obituary/deathcare/genealogy batch: Grief Collective, Family History Fanatics, Free UK Genealogy, TalkDeath, Order of the Good Death, Remembering A Life, and NGS Magazine where compliance requirements are met.
 6. If the art is not generative AI, send Broken Frontier a review request with 2-3 interior pages. If it is generative AI, skip them.
-7. Use `/obituary-stories/` as the primary link target for obituary-stories and obituary-articles searches; create one longer linkable essay if pitches still need a stronger asset: "What Are Obituary Comics?"
+7. Use `/how-to-write-an-obituary-story/` as the primary link target for obituary-writing, deathcare, and genealogy how-to links; use `/obituary-stories/` for story roundups and `/what-are-obituary-comics/` for form definitions.
 8. Keep Modern Loss on hold until its Submittable page reopens; do not send to closed calls.
 9. Track every outreach in a spreadsheet: target, contact URL/email, date sent, pitch angle, linked URL, reply, live URL, anchor text, follow/nofollow, notes.
 

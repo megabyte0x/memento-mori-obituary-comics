@@ -2593,6 +2593,27 @@ body::before {
 .explainer-next {
   padding-top: 18px;
 }
+.writing-guide-page .explainer-header-section h1 {
+  max-width: 16ch;
+}
+.writing-guide-list {
+  margin: 18px 0 0;
+  padding-left: 24px;
+  color: #d8c9ae;
+  font: 16px/1.7 var(--font-sans);
+}
+.writing-guide-list li + li {
+  margin-top: 10px;
+}
+.writing-guide-prompts .stories-intent-list ul {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--paper);
+  font: 15px/1.6 var(--font-sans);
+}
+.writing-guide-prompts .stories-intent-list li + li {
+  margin-top: 8px;
+}
 .educator-prompts {
   display: grid;
   grid-template-columns: minmax(0, .75fr) minmax(0, 1.25fr);

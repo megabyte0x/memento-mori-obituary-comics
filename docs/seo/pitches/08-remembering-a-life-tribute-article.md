@@ -3,7 +3,7 @@
 Status: requires a complete human-written Word doc before sending
 Send path: `info@rememberingalife.com`
 Source checked: https://www.rememberingalife.com/pages/blog-guidelines
-Recommended link target: author bio link to https://www.finalnotes.page/obituary-stories/
+Recommended link target: author bio link to https://www.finalnotes.page/how-to-write-an-obituary-story/
 
 ## Submission Fit
 
@@ -25,7 +25,7 @@ Core sections:
 5. Keep the tribute useful for family, friends, and future readers.
 
 Suggested bio link:
-Memento Mori Obituary Comics publishes source-backed visual obituary stories at https://www.finalnotes.page/obituary-stories/
+Memento Mori Obituary Comics publishes an obituary story writing guide and source-backed visual obituary stories at https://www.finalnotes.page/how-to-write-an-obituary-story/
 
 ## Email Cover Note
 

@@ -3,7 +3,7 @@
 Status: ready to personalize and send
 Send path: `hello@griefcollective.com` or contact form at https://griefcollective.com/contact
 Source checked: https://griefcollective.com/contact
-Recommended link target: https://www.finalnotes.page/obituary-stories/
+Recommended link target: https://www.finalnotes.page/how-to-write-an-obituary-story/
 
 ## Subject
 
@@ -21,7 +21,7 @@ Possible title:
 "When an Obituary Becomes a Story: Choosing the Moment That Carries a Life"
 
 Reference page:
-https://www.finalnotes.page/obituary-stories/
+https://www.finalnotes.page/how-to-write-an-obituary-story/
 
 If a guest post is not the right fit, I would also be open to an interview about visual memory, grief writing, and why documented life stories can help readers sit with loss without flattening the person into a notice.
 

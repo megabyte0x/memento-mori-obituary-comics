@@ -18,6 +18,10 @@ const searchIntents = [
     text: "Crawlable summaries, dates, source links, and editorial notes that make each visual biography usable for search and research.",
   },
   {
+    title: "Obituary writing guide",
+    text: "A practical resource for readers who want to turn a death notice, memory, record, or photograph into a sourced life story.",
+  },
+  {
     title: "Visual obituaries",
     text: "Comic pages that turn a documented encounter with mortality into a compact, readable biographical sequence.",
   },
@@ -102,6 +106,9 @@ export default function ObituaryStoriesPage() {
               <Link href="/press/">Link and press resources</Link>
             </Button>
             <Button asChild>
+              <Link href="/how-to-write-an-obituary-story/">Writing guide</Link>
+            </Button>
+            <Button asChild>
               <Link href="/what-are-obituary-comics/">What are obituary comics?</Link>
             </Button>
           </div>
@@ -130,7 +137,7 @@ export default function ObituaryStoriesPage() {
             <h2 id="how-to-link">Best Link Target</h2>
             <p>
               For roundups, resource pages, newsletters, and classroom reading lists, link to this page with natural anchors such as obituary stories, obituary articles, visual obituaries, or Memento Mori Obituary Comics.
-              For definitions of the format itself, use the <Link href="/what-are-obituary-comics/">obituary comics explainer</Link>.
+              For obituary-writing resources, use the <Link href="/how-to-write-an-obituary-story/">guide to writing an obituary story</Link>. For definitions of the format itself, use the <Link href="/what-are-obituary-comics/">obituary comics explainer</Link>.
             </p>
           </div>
           <Link href="/obituary-stories/">{absoluteUrl("/obituary-stories/")}</Link>

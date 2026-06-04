@@ -4,7 +4,7 @@ Status: ready to query, full post must be original and human-written
 Send path: contact form at https://www.freeukgenealogy.org.uk/contact/guest-post-2/
 Source checked: https://www.freeukgenealogy.org.uk/contact/guest-post/
 Secondary source: https://www.freeukgenealogy.org.uk/contact/guest-post-2/
-Recommended link target: author bio or contextual source link to https://www.finalnotes.page/obituary-stories/
+Recommended link target: author bio or contextual source link to https://www.finalnotes.page/how-to-write-an-obituary-story/
 
 ## Proposed Article
 
@@ -36,7 +36,7 @@ Working title:
 The article would be a practical genealogy piece about turning an obituary or death notice into a sourced family-history story without inventing details. It would cover transcription, separating fact from interpretation, finding missing context in public records, preserving citations, and deciding what can responsibly be turned into narrative or visual memory.
 
 The idea connects with my current work on source-backed visual obituary stories:
-https://www.finalnotes.page/obituary-stories/
+https://www.finalnotes.page/how-to-write-an-obituary-story/
 
 If this sounds like a fit, I can draft an original post in your preferred style, with a practical case-study structure and no promotional framing.
 
