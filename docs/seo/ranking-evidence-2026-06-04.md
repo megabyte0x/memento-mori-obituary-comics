@@ -12,19 +12,21 @@ The ranking goal is not complete. Current web search samples did not surface can
 
 2026-06-05 post-deploy check: after `https://www.finalnotes.page/obituary-mistakes-to-avoid/` returned `200` on the canonical domain and appeared in live `sitemap.xml` and `/llms.txt`, sampled searches for `site:finalnotes.page "obituary mistakes to avoid"`, `"finalnotes.page/obituary-mistakes-to-avoid"`, `"obituary mistakes to avoid" "finalnotes"`, and `"common obituary mistakes" "finalnotes"` returned no results in the sampled web search result set. This confirms deployment, but not indexing or first-page ranking.
 
+2026-06-05 continuation check: searches for `obituary wording examples`, `obituary announcement wording`, `death announcement wording`, `survived by wording`, and `preceded in death wording` surfaced a distinct phrase-bank lane. This is separate from the existing `/obituary-examples/` and `/memorial-donation-wording-obituary/` targets because searchers need copyable opening lines, family-list wording, service wording, privacy-safe cause-of-death wording, and proof-review language.
+
 ## Search Landscape Observed
 
 SERP samples for obituary-writing, examples, and worksheet queries are dominated by:
 
 - Obituary writing guides and template pages.
-- Obituary examples and wording-example pages.
+- Obituary examples, wording examples, and phrase-bank pages.
 - Funeral-home resource pages.
 - Obituary resource hubs with downloadable forms.
 - Library and genealogy pages that help patrons find obituary records.
 - Funeral consumer advocacy pages that explain planning and obituary writing.
 
 This supports using `https://www.finalnotes.page/obituary-story-worksheet/` and `https://www.finalnotes.page/how-to-write-an-obituary-story/` as resource-list link targets, rather than asking for generic homepage links.
-It also supports using `https://www.finalnotes.page/obituary-examples/` for example roundups, wording resources, and sample-story pages.
+It also supports using `https://www.finalnotes.page/obituary-examples/` for example roundups and sample-story pages, while the phrase-bank lane now points to `https://www.finalnotes.page/obituary-wording/`.
 Prompt and legacy-interview searches surfaced a separate opportunity: families, funeral homes, hospice teams, and memory-preservation services need question banks before they draft. That supports using `https://www.finalnotes.page/obituary-writing-prompts/` for prompt-list, legacy interview, hospice legacy activity, and family-history interview resources.
 Template searches surfaced another gap: high-ranking pages mostly offer generic fill-in-the-blank obituary templates or design/program templates, while few separate life-story structure, source checks, and family privacy decisions. That supports using `https://www.finalnotes.page/life-story-obituary-template/` for template roundups, memorial-program resources, editable template sites, and funeral-home pages that already help families draft obituary text.
 Obituary article and journalism searches surfaced a separate editorial lane: Poynter, ASJA, Northeastern, JEA, and CJR-style pages treat obituaries as reporting, feature writing, classroom material, and media craft. That supports using `https://www.finalnotes.page/obituary-articles/` for journalism lessons, article-writing resources, feature-obituary discussions, and media criticism pitches.
@@ -38,6 +40,7 @@ Newspaper obituary submission searches surfaced a separate placement lane: Legac
 Memorial donation and in-lieu-of-flowers searches surfaced another obituary-wording lane: Funeral Basics, Emily Post, American Cancer Society, American Heart Association, Alzheimer's Association, Funeral.com, Farewelling, and similar resources cover charity requests, memorial-gift designation, donation links, family notification, and thank-you tracking. That supports using `https://www.finalnotes.page/memorial-donation-wording-obituary/` for funeral-home obituary guides, charity memorial-giving pages, hospice resources, etiquette articles, and family planning pages.
 Obituary cost and newspaper obituary pricing searches surfaced a cost-transparency lane: Legacy, Funeral.com, Trustworthy, obituary.design, FTC Funeral Rule materials, and official newspaper rate cards all cover line fees, photo fees, publication route, print-plus-online packages, and funeral-home third-party/cash-advance handling. That supports using `https://www.finalnotes.page/obituary-cost/` for funeral-cost articles, newspaper obituary pricing pages, funeral-home planning guides, consumer-advocacy resources, and family budgeting pages.
 Obituary mistakes and correction searches surfaced a proofing lane: Legacy, ObituaryGuide, Best Care Cremation, All Veterans - All Families Cremations, Indiana Funeral Care, and Legacy Help Center cover common obituary mistakes, writing pitfalls, inaccurate obituaries, final review, private details, and link-use rules. That supports using `https://www.finalnotes.page/obituary-mistakes-to-avoid/` for funeral-home writing guides, obituary-proofing resources, newspaper obituary desks, memorial-site help articles, family planning pages, and resource lists about common obituary errors or corrections.
+Obituary wording and death-announcement searches surfaced a phrase-bank lane: Legacy, OfficialObituary, Ever Loved, Everplans, Dignity Memorial, US Urns Online, FuneralFolio, Funeral.com, and related funeral-resource pages cover opening lines, family lists, survived-by wording, preceded-in-death wording, service details, private-service language, death announcement wording, and difficult cause-of-death phrasing. That supports using `https://www.finalnotes.page/obituary-wording/` for obituary wording examples, death announcement wording, survived-by wording, preceded-in-death wording, service wording, and phrase-bank resource links.
 
 ## High-Fit Sources Found In This Pass
 
@@ -131,6 +134,12 @@ Obituary mistakes and correction searches surfaced a proofing lane: Legacy, Obit
 | Best Care Cremation | Current guide on common obituary mistakes, fact checks, final review, and privacy details. | `/obituary-mistakes-to-avoid/` | Pitch added |
 | All Veterans - All Families Cremations | Family-facing guide to mistakes to avoid when writing an obituary. | `/obituary-mistakes-to-avoid/` | Pitch added |
 | Legacy Help Center | Help article explains that links should supplement the obituary, not replace complete core content. | `/obituary-mistakes-to-avoid/` | Pitch added |
+| Legacy.com | Obituary examples and memorial-writing pages cover core components, examples, family members, and memorial-service details. | `/obituary-wording/` | Pitch added |
+| OfficialObituary | Current obituary wording guide covers opening lines, life-story phrasing, family lists, service details, memorial requests, and difficult situations. | `/obituary-wording/` | Pitch added |
+| Ever Loved | Short obituary templates and examples include survivor, predeceased-family, service, and private-service wording. | `/obituary-wording/` | Pitch added |
+| Everplans | Death notice and obituary templates cover announcement, survivor/predeceased-family, service, and donation fields. | `/obituary-wording/` | Pitch added |
+| Dignity Memorial | Death announcement guidance covers ways families share public news after a death. | `/obituary-wording/` | Pitch added |
+| US Urns Online | Death announcement guide covers examples, channels, timing, and wording for public announcements. | `/obituary-wording/` | Pitch added |
 
 ## Completion Rule
 

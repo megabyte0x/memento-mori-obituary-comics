@@ -14,10 +14,11 @@ Primary link target for newspaper obituary submission and placement keywords: ht
 Primary link target for obituary cost, newspaper price, and paid notice budgeting keywords: https://www.finalnotes.page/obituary-cost/
 Primary link target for obituary checklist, information gathering, and pre-publication planning keywords: https://www.finalnotes.page/obituary-checklist/
 Primary link target for obituary mistakes, proof review, and correction keywords: https://www.finalnotes.page/obituary-mistakes-to-avoid/
+Primary link target for obituary wording, phrases, and death announcement wording keywords: https://www.finalnotes.page/obituary-wording/
 Primary link target for memorial donation, in-lieu-of-flowers, and contribution wording keywords: https://www.finalnotes.page/memorial-donation-wording-obituary/
 Primary link target for obituary-writing and family-history how-to keywords: https://www.finalnotes.page/how-to-write-an-obituary-story/
 Primary link target for obituary prompts and legacy interview keywords: https://www.finalnotes.page/obituary-writing-prompts/
-Primary link target for obituary examples and wording-example keywords: https://www.finalnotes.page/obituary-examples/
+Primary link target for obituary examples and story-pattern keywords: https://www.finalnotes.page/obituary-examples/
 Primary link target for life story obituary template keywords: https://www.finalnotes.page/life-story-obituary-template/
 Primary link target for worksheet/resource-page backlinks: https://www.finalnotes.page/obituary-story-worksheet/
 Definition/explainer link target: https://www.finalnotes.page/what-are-obituary-comics/
@@ -143,6 +144,12 @@ Execution queue: `docs/seo/backlink-send-queue.md`
 | P3 | Best Care Cremation | https://www.bestcarecremation.com/contact-us/ or current site contact path | Supplemental family checklist for common obituary mistakes. | https://www.finalnotes.page/obituary-mistakes-to-avoid/ | common obituary mistakes |
 | P3 | All Veterans - All Families Cremations | https://allvetscremations.com/contact-us/ or current site contact path | Companion for families approving a final obituary draft. | https://www.finalnotes.page/obituary-mistakes-to-avoid/ | mistakes to avoid when writing an obituary |
 | P2 | Legacy Help Center | https://www.legacy.com/contact/ or current help/editorial contact path | Link-use and proofing companion for obituary notices with memorial links. | https://www.finalnotes.page/obituary-mistakes-to-avoid/ | obituary proofing checklist |
+| P1 | Legacy.com | https://www.legacy.com/contact/ or current help/editorial contact path | Phrase-bank companion for readers moving from examples to final obituary copy. | https://www.finalnotes.page/obituary-wording/ | obituary wording examples |
+| P2 | OfficialObituary | Confirm current OfficialObituary editorial, guide, or site contact path | Supplemental final-review and proofing companion for obituary wording readers. | https://www.finalnotes.page/obituary-wording/ | obituary wording examples |
+| P2 | Ever Loved | Confirm current Ever Loved editorial, help, or partner-content contact path | Companion for families adapting short obituary templates. | https://www.finalnotes.page/obituary-wording/ | obituary wording examples |
+| P2 | Everplans | Confirm current Everplans editorial/contact path | Phrase-level companion for death notice and obituary template readers. | https://www.finalnotes.page/obituary-wording/ | death announcement and obituary wording |
+| P2 | Dignity Memorial | Confirm current Dignity Memorial editorial, help, or site contact path | Companion for families moving from death announcement to obituary wording. | https://www.finalnotes.page/obituary-wording/ | death announcement wording |
+| P2 | US Urns Online | info@usurnsonline.com or https://www.usurnsonline.com/contact/ | Supplemental phrase bank for death announcement and obituary readers. | https://www.finalnotes.page/obituary-wording/ | obituary wording examples |
 | Hold | Chronic Joy | https://chronic-joy.org/write-for-us/ | Human-written grief/lament post only if invited. | https://www.finalnotes.page/obituary-story-worksheet/ | obituary reflection worksheet |
 
 ## Send Log
@@ -255,6 +262,12 @@ Execution queue: `docs/seo/backlink-send-queue.md`
 |  | Best Care Cremation | `docs/seo/pitches/105-best-care-cremation-obituary-mistakes.md` | /obituary-mistakes-to-avoid/ |  |  |  |  | Current common mistakes guide target |
 |  | All Veterans - All Families Cremations | `docs/seo/pitches/106-allvets-obituary-mistakes.md` | /obituary-mistakes-to-avoid/ |  |  |  |  | Obituary mistakes guide target |
 |  | Legacy Help Center | `docs/seo/pitches/107-legacy-help-obituary-links.md` | /obituary-mistakes-to-avoid/ |  |  |  |  | Obituary link guidance target |
+|  | Legacy.com | `docs/seo/pitches/108-legacy-obituary-wording.md` | /obituary-wording/ |  |  |  |  | Obituary wording examples target |
+|  | OfficialObituary | `docs/seo/pitches/109-officialobituary-wording-resource.md` | /obituary-wording/ |  |  |  |  | Phrase-bank guide target |
+|  | Ever Loved | `docs/seo/pitches/110-ever-loved-obituary-wording.md` | /obituary-wording/ |  |  |  |  | Short obituary template target |
+|  | Everplans | `docs/seo/pitches/111-everplans-death-notice-wording.md` | /obituary-wording/ |  |  |  |  | Death notice template target |
+|  | Dignity Memorial | `docs/seo/pitches/112-dignity-death-announcement-wording.md` | /obituary-wording/ |  |  |  |  | Death announcement wording target |
+|  | US Urns Online | `docs/seo/pitches/113-us-urns-death-announcement-wording.md` | /obituary-wording/ |  |  |  |  | Death announcement guide target |
 |  | Chronic Joy | `docs/seo/pitches/19-chronic-joy-obituary-reflection-post.md` | /obituary-story-worksheet/ | Hold unless invited |  |  |  | Human-written only |
 |  | Modern Loss | Hold until submissions reopen | /obituary-stories/ | No open calls on 2026-06-04 |  |  |  | Check weekly |
 

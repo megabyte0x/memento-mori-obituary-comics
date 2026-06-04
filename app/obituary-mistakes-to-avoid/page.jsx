@@ -223,6 +223,9 @@ export default function ObituaryMistakesToAvoidPage() {
                 <Link href="/obituary-cost/">Cost guide</Link>
               </Button>
               <Button asChild>
+                <Link href="/obituary-wording/">Wording</Link>
+              </Button>
+              <Button asChild>
                 <Link href="/how-to-submit-an-obituary-to-a-newspaper/">Submission checklist</Link>
               </Button>
               <Button asChild>
@@ -280,7 +283,7 @@ export default function ObituaryMistakesToAvoidPage() {
             <div>
               <h2 id="best-link">Best Link Target For Obituary Mistake Resources</h2>
               <p>
-                Use this page for funeral-home writing guides, obituary-proofing resources, newspaper obituary desks, memorial-site help articles, family planning pages, and resource lists about common obituary mistakes. For a full pre-publication fact list, use the <Link href="/obituary-checklist/">obituary checklist</Link>. For sensitive details to leave out, use the <Link href="/what-not-to-include-in-an-obituary/">privacy checklist</Link>. For post-publication scams or copied pages, use the <Link href="/fake-obituary-sites/">fake obituary sites checklist</Link>. For cost and proof approval questions, use the <Link href="/obituary-cost/">obituary cost guide</Link>.
+                Use this page for funeral-home writing guides, obituary-proofing resources, newspaper obituary desks, memorial-site help articles, family planning pages, and resource lists about common obituary mistakes. For a full pre-publication fact list, use the <Link href="/obituary-checklist/">obituary checklist</Link>. For phrase-bank help with opening lines, survivor lists, preceded-in-death wording, and service wording, use the <Link href="/obituary-wording/">obituary wording examples</Link>. For sensitive details to leave out, use the <Link href="/what-not-to-include-in-an-obituary/">privacy checklist</Link>. For post-publication scams or copied pages, use the <Link href="/fake-obituary-sites/">fake obituary sites checklist</Link>. For cost and proof approval questions, use the <Link href="/obituary-cost/">obituary cost guide</Link>.
               </p>
             </div>
             <Link href="/obituary-mistakes-to-avoid/">{absoluteUrl("/obituary-mistakes-to-avoid/")}</Link>

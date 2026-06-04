@@ -96,7 +96,12 @@ const linkTargets = [
   {
     label: "Obituary examples and story patterns",
     href: "/obituary-examples/",
-    note: "Best canonical link for obituary example roundups, obituary wording resources, and sample-story structures.",
+    note: "Best canonical link for obituary example roundups, sample-story structures, and story-pattern resources.",
+  },
+  {
+    label: "Obituary wording examples",
+    href: "/obituary-wording/",
+    note: "Best canonical link for obituary wording examples, death announcement wording, family-list phrases, service wording, and phrase-bank resources.",
   },
   {
     label: "Printable obituary story worksheet",

@@ -118,6 +118,12 @@ Use this file as the next execution list. Send manually, one by one, after check
 | 107 | Best Care Cremation | https://www.bestcarecremation.com/contact-us/ or current site contact path | `docs/seo/pitches/105-best-care-cremation-obituary-mistakes.md` | Supplemental checklist for common obituary mistakes | https://www.finalnotes.page/obituary-mistakes-to-avoid/ | Current guide on common obituary mistakes, fact checks, final review, and privacy. |
 | 108 | All Veterans - All Families Cremations | https://allvetscremations.com/contact-us/ or current site contact path | `docs/seo/pitches/106-allvets-obituary-mistakes.md` | Companion checklist for obituary-writing mistakes | https://www.finalnotes.page/obituary-mistakes-to-avoid/ | Family-facing guide to mistakes to avoid when writing an obituary. |
 | 109 | Legacy Help Center | https://www.legacy.com/contact/ or current help/editorial contact path | `docs/seo/pitches/107-legacy-help-obituary-links.md` | Companion resource for obituary notices with links | https://www.finalnotes.page/obituary-mistakes-to-avoid/ | Help article explains obituary links should supplement, not replace, complete notice content. |
+| 110 | Legacy.com | https://www.legacy.com/contact/ or current help/editorial contact path | `docs/seo/pitches/108-legacy-obituary-wording.md` | Companion phrase guide for obituary wording readers | https://www.finalnotes.page/obituary-wording/ | High-authority obituary platform with examples, templates, and memorial-writing guidance. |
+| 111 | OfficialObituary | Confirm current OfficialObituary editorial, guide, or site contact path | `docs/seo/pitches/109-officialobituary-wording-resource.md` | Supplemental obituary wording checklist | https://www.finalnotes.page/obituary-wording/ | Current wording guide with phrase-level sections for opening lines, family lists, services, and difficult situations. |
+| 112 | Ever Loved | Confirm current Ever Loved editorial, help, or partner-content contact path | `docs/seo/pitches/110-ever-loved-obituary-wording.md` | Companion wording guide for short obituary templates | https://www.finalnotes.page/obituary-wording/ | Short obituary templates and examples already include survivor, predeceased-family, service, and private-service language. |
+| 113 | Everplans | Confirm current Everplans editorial/contact path | `docs/seo/pitches/111-everplans-death-notice-wording.md` | Supplemental wording resource for death notice templates | https://www.finalnotes.page/obituary-wording/ | End-of-life planning templates for death notices and obituaries. |
+| 114 | Dignity Memorial | Confirm current Dignity Memorial editorial, help, or site contact path | `docs/seo/pitches/112-dignity-death-announcement-wording.md` | Companion wording guide for death announcement readers | https://www.finalnotes.page/obituary-wording/ | Death announcement guide for families sharing public news after a death. |
+| 115 | US Urns Online | info@usurnsonline.com or https://www.usurnsonline.com/contact/ | `docs/seo/pitches/113-us-urns-death-announcement-wording.md` | Supplemental wording resource for death announcement readers | https://www.finalnotes.page/obituary-wording/ | Death announcement examples, tips, and funeral-resource guidance. |
 | Hold | Chronic Joy | https://chronic-joy.org/write-for-us/ | `docs/seo/pitches/19-chronic-joy-obituary-reflection-post.md` | Human-written grief/lament reflection post only if invited | https://www.finalnotes.page/obituary-story-worksheet/ | Submission page is by invitation and rejects AI-generated content, so hold unless a human-written personal essay is invited. |
 
 ## Hold / Monitor
@@ -141,13 +147,14 @@ Use this file as the next execution list. Send manually, one by one, after check
   - Obituary cost, newspaper pricing, line fees, photo fees, print-plus-online packages, and funeral-home cash advances: `https://www.finalnotes.page/obituary-cost/`
   - Obituary checklists, obituary information gathering, family review, pre-publication planning, and funeral-planning checklist resources: `https://www.finalnotes.page/obituary-checklist/`
   - Obituary mistakes, obituary errors, proof review, family corrections, missing details, and memorial-link misuse resources: `https://www.finalnotes.page/obituary-mistakes-to-avoid/`
+  - Obituary wording examples, death announcement wording, survived-by wording, preceded-in-death wording, service wording, and phrase-bank resources: `https://www.finalnotes.page/obituary-wording/`
   - Memorial donation wording, in-lieu-of-flowers examples, charity-link safety, family-support language, and contribution wording: `https://www.finalnotes.page/memorial-donation-wording-obituary/`
   - Funeral-home planning pages, bereavement resources, eulogy-writing articles, memorial-program guides, and obituary/eulogy comparison pages: `https://www.finalnotes.page/obituary-vs-eulogy/`
   - Obituary privacy, identity-theft, consumer-safety, and bereavement scam-safety pages: `https://www.finalnotes.page/what-not-to-include-in-an-obituary/`
   - Fake obituary sites, obituary piracy, copied death notices, fake donation links, and suspicious obituary verification: `https://www.finalnotes.page/fake-obituary-sites/`
   - Obituary-writing and family-history how-to articles: `https://www.finalnotes.page/how-to-write-an-obituary-story/`
   - Prompt lists, legacy interview questions, and hospice legacy projects: `https://www.finalnotes.page/obituary-writing-prompts/`
-  - Obituary example and wording-example pages: `https://www.finalnotes.page/obituary-examples/`
+  - Obituary example, sample-story, and story-pattern pages: `https://www.finalnotes.page/obituary-examples/`
   - Template roundups and memorial-program template resources: `https://www.finalnotes.page/life-story-obituary-template/`
   - Worksheet and planning-resource pages: `https://www.finalnotes.page/obituary-story-worksheet/`
   - Obituary-story roundups: `https://www.finalnotes.page/obituary-stories/`
@@ -206,7 +213,7 @@ Send these after the worksheet/resource-page batch. The first four are stronger 
 
 ## Sixth Batch: Obituary Examples and Wording Resources
 
-Send these after the consumer/resource-hub batch. Use `/obituary-examples/` for example and wording resources, and use `/obituary-story-worksheet/` when the target already has a worksheet:
+Send these after the consumer/resource-hub batch. Use `/obituary-examples/` for example, story-pattern, and sample-structure resources, and use `/obituary-story-worksheet/` when the target already has a worksheet:
 
 1. Farewelling: obituary examples and story-pattern resource suggestion.
 2. US Urns Online: obituary examples supplement.
@@ -360,6 +367,17 @@ Send these after the checklist batch. Use `/obituary-mistakes-to-avoid/` for obi
 4. Best Care Cremation: supplemental family checklist for common obituary mistakes.
 5. All Veterans - All Families Cremations: companion for families approving a final obituary draft.
 6. Legacy Help Center: link-use and proofing companion for obituary notices with memorial links.
+
+## Twenty-First Batch: Obituary Wording, Phrases, and Announcement Resources
+
+Send these after the mistakes/proofing batch. Use `/obituary-wording/` for obituary wording examples, death announcement wording, survived-by wording, preceded-in-death wording, service wording, cause-of-death privacy wording, and phrase-bank resources:
+
+1. Legacy.com: phrase-guide companion for readers moving from obituary examples to final copy.
+2. OfficialObituary: supplemental final-review and proofing companion for its wording guide.
+3. Ever Loved: companion for families adapting short obituary templates.
+4. Everplans: phrase-level companion for readers filling in death notice or obituary templates.
+5. Dignity Memorial: companion for families moving from death announcement to obituary wording.
+6. US Urns Online: supplemental phrase bank for death announcement and obituary readers.
 
 ## Follow-Up Timing
 

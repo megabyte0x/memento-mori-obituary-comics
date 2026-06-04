@@ -29,19 +29,20 @@ Use URL Inspection in Google Search Console and request indexing for these pages
 10. `https://www.finalnotes.page/obituary-cost/`
 11. `https://www.finalnotes.page/obituary-checklist/`
 12. `https://www.finalnotes.page/obituary-mistakes-to-avoid/`
-13. `https://www.finalnotes.page/memorial-donation-wording-obituary/`
-14. `https://www.finalnotes.page/how-to-write-an-obituary-story/`
-15. `https://www.finalnotes.page/obituary-writing-prompts/`
-16. `https://www.finalnotes.page/obituary-examples/`
-17. `https://www.finalnotes.page/life-story-obituary-template/`
-18. `https://www.finalnotes.page/obituary-story-worksheet/`
-19. `https://www.finalnotes.page/what-are-obituary-comics/`
-20. `https://www.finalnotes.page/educators-libraries/`
-21. `https://www.finalnotes.page/press/`
-22. `https://www.finalnotes.page/`
-23. `https://www.finalnotes.page/comics/solzhenitsyn-gulag-witness/`
-24. `https://www.finalnotes.page/comics/primo-levi/`
-25. `https://www.finalnotes.page/comics/henri-matisse-second-life/`
+13. `https://www.finalnotes.page/obituary-wording/`
+14. `https://www.finalnotes.page/memorial-donation-wording-obituary/`
+15. `https://www.finalnotes.page/how-to-write-an-obituary-story/`
+16. `https://www.finalnotes.page/obituary-writing-prompts/`
+17. `https://www.finalnotes.page/obituary-examples/`
+18. `https://www.finalnotes.page/life-story-obituary-template/`
+19. `https://www.finalnotes.page/obituary-story-worksheet/`
+20. `https://www.finalnotes.page/what-are-obituary-comics/`
+21. `https://www.finalnotes.page/educators-libraries/`
+22. `https://www.finalnotes.page/press/`
+23. `https://www.finalnotes.page/`
+24. `https://www.finalnotes.page/comics/solzhenitsyn-gulag-witness/`
+25. `https://www.finalnotes.page/comics/primo-levi/`
+26. `https://www.finalnotes.page/comics/henri-matisse-second-life/`
 
 ## What To Check
 
@@ -61,6 +62,7 @@ For each URL, record:
 | /obituary-cost/ |  |  |  |  |
 | /obituary-checklist/ |  |  |  |  |
 | /obituary-mistakes-to-avoid/ |  |  |  |  |
+| /obituary-wording/ |  |  |  |  |
 | /memorial-donation-wording-obituary/ |  |  |  |  |
 | /how-to-write-an-obituary-story/ |  |  |  |  |
 | /obituary-writing-prompts/ |  |  |  |  |
@@ -92,6 +94,7 @@ site:finalnotes.page how to submit an obituary to a newspaper
 site:finalnotes.page obituary cost
 site:finalnotes.page obituary checklist
 site:finalnotes.page obituary mistakes to avoid
+site:finalnotes.page obituary wording
 site:finalnotes.page memorial donation wording obituary
 site:finalnotes.page how to write an obituary story
 site:finalnotes.page obituary writing prompts
@@ -148,6 +151,12 @@ site:finalnotes.page obituary comics
 "obituary errors" "finalnotes"
 "obituary proof review" "finalnotes"
 "obituary correction" "finalnotes"
+"obituary wording" "finalnotes"
+"obituary wording examples" "finalnotes"
+"death announcement wording" "finalnotes"
+"survived by wording" "finalnotes"
+"preceded in death wording" "finalnotes"
+"obituary phrases" "finalnotes"
 "memorial donation wording obituary" "finalnotes"
 "in lieu of flowers wording" "finalnotes"
 "obituary donation wording" "finalnotes"
