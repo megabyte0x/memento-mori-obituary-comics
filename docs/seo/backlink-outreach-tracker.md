@@ -3,6 +3,7 @@
 Date: 2026-06-04
 Canonical host: https://www.finalnotes.page/
 Primary link target for obituary-story keywords: https://www.finalnotes.page/obituary-stories/
+Definition/explainer link target: https://www.finalnotes.page/what-are-obituary-comics/
 
 This tracker is for editorial, review, resource, and guest-essay outreach only. Do not use paid link insertion, link exchanges, generic guest-post marketplaces, automated directories, or exact-match anchor pressure.
 
@@ -11,9 +12,9 @@ This tracker is for editorial, review, resource, and guest-essay outreach only. 
 | Priority | Target | Contact path | Best ask | Best link target | Natural anchor |
 | --- | --- | --- | --- | --- | --- |
 | P1 | Modern Loss | https://modernloss.submittable.com/submit | Essay pitch about obituary comics as a grief/story form. | https://www.finalnotes.page/obituary-stories/ | obituary stories |
-| P1 | Beyond the Dash | https://beyondthedash.com/blog/guest-bloggers/become-a-beyond-the-dash-guest-blogger/7456 | Guest post on turning obituary writing into visual life stories. | https://www.finalnotes.page/about/ | editorial method |
-| P1 | The Comics Journal | https://www.tcj.com/submissions/ | Criticism/news pitch on obituary as a comics form. | https://www.finalnotes.page/press/ | obituary comics resource page |
-| P1 | SOLRAD | https://solrad.co/submissions | Essay or interview pitch on source-backed visual biography. | https://www.finalnotes.page/press/ | visual biography comics |
+| P1 | Beyond the Dash | https://beyondthedash.com/blog/guest-bloggers/become-a-beyond-the-dash-guest-blogger/7456 | Guest post on turning obituary writing into visual life stories. | https://www.finalnotes.page/what-are-obituary-comics/ | visual obituary stories |
+| P1 | The Comics Journal | https://www.tcj.com/submissions/ | Criticism/news pitch on obituary as a comics form. | https://www.finalnotes.page/what-are-obituary-comics/ | obituary comics |
+| P1 | SOLRAD | https://solrad.co/submissions | Essay or interview pitch on source-backed visual biography. | https://www.finalnotes.page/what-are-obituary-comics/ | visual biography comics |
 | P1 | Graphic Medicine | https://www.graphicmedicine.org/ | Review/resource suggestion around illness, mortality, grief, and comics. | https://www.finalnotes.page/obituary-stories/ | visual obituaries |
 | P2 | Comics Beat | https://www.comicsbeat.com/contact/ | News tip for a daily source-backed obituary-comics archive. | https://www.finalnotes.page/ | Memento Mori Obituary Comics |
 | P2 | The Nib | https://thenib.com/ | Original-comic pitch if submissions are open; link only if editorially allowed. | https://www.finalnotes.page/press/ | source-backed obituary comics |
@@ -25,9 +26,9 @@ This tracker is for editorial, review, resource, and guest-essay outreach only. 
 | Date sent | Target | Pitch file/subject | URL requested | Reply | Live URL | Anchor | Follow/nofollow | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |  | Modern Loss | Pitch: How an obituary becomes a visual biography | /obituary-stories/ |  |  |  |  |  |
-|  | Beyond the Dash | Guest post: How to turn an obituary into a visual life story | /about/ |  |  |  |  |  |
-|  | SOLRAD | Pitch: Obituary comics as source-backed visual biography | /press/ |  |  |  |  |  |
-|  | The Comics Journal | News/essay tip: obituary as comics form | /press/ |  |  |  |  |  |
+|  | Beyond the Dash | Guest post: How to turn an obituary into a visual life story | /what-are-obituary-comics/ |  |  |  |  |  |
+|  | SOLRAD | Pitch: Obituary comics as source-backed visual biography | /what-are-obituary-comics/ |  |  |  |  |  |
+|  | The Comics Journal | News/essay tip: obituary as comics form | /what-are-obituary-comics/ |  |  |  |  |  |
 |  | Graphic Medicine | Resource/review suggestion: visual obituaries and mortality comics | /obituary-stories/ |  |  |  |  |  |
 
 ## Pitch Drafts
@@ -42,7 +43,9 @@ I would like to pitch a concise essay for Modern Loss about what changes when an
 
 The piece would use Memento Mori Obituary Comics as the working example, but the focus is broader: how grief writing changes when images carry memory, text carries evidence, and the obituary becomes a story rather than a notice. The archive pairs comic pages with crawlable summaries, source trails, citations, PDF access, and stable reader URLs.
 
-Relevant reference: https://www.finalnotes.page/obituary-stories/
+Relevant references:
+https://www.finalnotes.page/obituary-stories/
+https://www.finalnotes.page/what-are-obituary-comics/
 
 Would this fit your editorial calendar?
 
@@ -59,7 +62,7 @@ I would like to submit a guest post for Beyond the Dash: "How to Turn an Obituar
 
 The post would be practical and reader-facing: choosing the life-shaping moment, preserving evidence, avoiding generic praise, and using images to make the story memorable without losing accuracy. The working example is Memento Mori Obituary Comics, a source-backed archive of visual obituary stories.
 
-Reference: https://www.finalnotes.page/about/
+Reference: https://www.finalnotes.page/what-are-obituary-comics/
 
 Would this be a fit?
 
@@ -78,6 +81,7 @@ Each reader page includes comic pages, crawlable summaries, source notes, image 
 
 Press/review resources: https://www.finalnotes.page/press/
 Story index: https://www.finalnotes.page/obituary-stories/
+Explainer: https://www.finalnotes.page/what-are-obituary-comics/
 
 Would this be a fit for review consideration, a short news item, or an essay on obituary as a comics form?
 

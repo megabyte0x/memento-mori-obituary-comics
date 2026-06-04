@@ -7,6 +7,7 @@ export default function sitemap() {
   return [
     { url: absoluteUrl("/"), lastModified: latest, changeFrequency: "daily", priority: 1 },
     { url: absoluteUrl("/obituary-stories/"), lastModified: latest, changeFrequency: "weekly", priority: 0.9 },
+    { url: absoluteUrl("/what-are-obituary-comics/"), lastModified: latest, changeFrequency: "monthly", priority: 0.85 },
     { url: absoluteUrl("/about/"), lastModified: latest, changeFrequency: "monthly", priority: 0.7 },
     { url: absoluteUrl("/press/"), lastModified: latest, changeFrequency: "monthly", priority: 0.8 },
     { url: absoluteUrl("/newsletter/"), lastModified: latest, changeFrequency: "weekly", priority: 0.6 },

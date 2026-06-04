@@ -29,6 +29,11 @@ const storyAngles = [
 
 const linkTargets = [
   {
+    label: "What are obituary comics?",
+    href: "/what-are-obituary-comics/",
+    note: "Best canonical link for explainers, classroom resources, and articles defining visual obituaries.",
+  },
+  {
     label: "Obituary stories and articles",
     href: "/obituary-stories/",
     note: "Best canonical link for obituary stories, obituary articles, visual obituaries, and keyword-focused roundups.",

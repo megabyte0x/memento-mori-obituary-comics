@@ -101,6 +101,9 @@ export default function ObituaryStoriesPage() {
             <Button asChild>
               <Link href="/press/">Link and press resources</Link>
             </Button>
+            <Button asChild>
+              <Link href="/what-are-obituary-comics/">What are obituary comics?</Link>
+            </Button>
           </div>
         </div>
 
@@ -127,6 +130,7 @@ export default function ObituaryStoriesPage() {
             <h2 id="how-to-link">Best Link Target</h2>
             <p>
               For roundups, resource pages, newsletters, and classroom reading lists, link to this page with natural anchors such as obituary stories, obituary articles, visual obituaries, or Memento Mori Obituary Comics.
+              For definitions of the format itself, use the <Link href="/what-are-obituary-comics/">obituary comics explainer</Link>.
             </p>
           </div>
           <Link href="/obituary-stories/">{absoluteUrl("/obituary-stories/")}</Link>

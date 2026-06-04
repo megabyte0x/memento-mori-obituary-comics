@@ -20,6 +20,7 @@ export function GET() {
 ## Main pages
 - [Archive](${absoluteUrl("/")}): Current comic archive, latest issue, and definition of obituary comics.
 - [Obituary stories and articles](${absoluteUrl("/obituary-stories/")}): Keyword-aligned collection page for source-backed obituary stories, obituary articles, visual obituaries, and canonical story links.
+- [What are obituary comics?](${absoluteUrl("/what-are-obituary-comics/")}): Long-form explainer defining obituary comics, visual obituaries, and how this format differs from death notices and memorial listings.
 - [Editorial method](${absoluteUrl("/about/")}): Source standards, subject selection, publisher notes, and AI-readable format policy.
 - [Press and review resources](${absoluteUrl("/press/")}): Link targets, story angles, subject list, and citation notes for editors, reviewers, educators, and librarians.
 - [Newsletter](${absoluteUrl("/newsletter/")}): Borrowed Time Dispatch signup for new comics and source notes.
