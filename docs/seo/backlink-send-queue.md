@@ -94,6 +94,12 @@ Use this file as the next execution list. Send manually, one by one, after check
 | 83 | The Dominion Post | Current obituary typist/contact path on the submission page | `docs/seo/pitches/81-dominion-post-obituary-submission-resource.md` | Supplemental obituary submission checklist for families | https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/ | Newspaper policy covers funeral-home submission, family authorization, proof of death, deadlines, pricing, and photos. |
 | 84 | Anchorage Daily News | obituary@adn.com or current obituary/contact path | `docs/seo/pitches/82-anchorage-daily-news-obituary-submission-resource.md` | Supplemental checklist for obituary placement readers | https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/ | Obituary information page covers online/email submission, funeral-home recommendation, verification, pricing, schedule, and photos. |
 | 85 | The Martha's Vineyard Times | editor@mvtimes.com or current obituary/contact path | `docs/seo/pitches/83-mv-times-obituary-submission-resource.md` | Supplemental obituary submission checklist for families | https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/ | Community-newspaper policy covers minimum info, verification contacts, deadlines, editing, and submission paths. |
+| 86 | Funeral Basics | https://la.funeraldirectorslife.com/contact/ or current Funeral Basics contact path | `docs/seo/pitches/84-funeral-basics-memorial-donation-wording.md` | Supplemental memorial donation wording guide | https://www.finalnotes.page/memorial-donation-wording-obituary/ | Current in-lieu-of-flowers etiquette article explains obituary donation requests, donor notes, and family notification. |
+| 87 | Emily Post Institute | https://emilypost.com/contact/ or current editorial/contact path | `docs/seo/pitches/85-emily-post-memorial-donation-wording.md` | Obituary-writer companion for donation etiquette readers | https://www.finalnotes.page/memorial-donation-wording-obituary/ | High-authority etiquette page covers in-lieu-of-flowers notices, memorial gift notes, family acknowledgement, and exceptions. |
+| 88 | American Cancer Society | https://www.cancer.org/about-us/contact-us.html or current memorial-giving contact path | `docs/seo/pitches/86-acs-memorial-donation-obituary-wording.md` | Family-facing obituary wording companion for memorial gifts | https://www.finalnotes.page/memorial-donation-wording-obituary/ | Memorial-giving page includes tribute fundraisers, memorial gift envelopes, and funeral director resources. |
+| 89 | American Heart Association | https://www.heart.org/en/about-us/contact-us or current donor-support path | `docs/seo/pitches/87-aha-memorial-donation-obituary-wording.md` | Supplemental obituary wording guide for honor and memorial gifts | https://www.finalnotes.page/memorial-donation-wording-obituary/ | Honor/memorial page lets donors dedicate a gift in memory of someone and send family notification. |
+| 90 | Alzheimer's Association | https://www.alz.org/help-support/resources/contact_us or chapter memorial-donation contact path | `docs/seo/pitches/88-alzheimers-memorial-donation-obituary-wording.md` | Companion wording guide for obituary memorial donations | https://www.finalnotes.page/memorial-donation-wording-obituary/ | Memorial donations page includes obituary verbiage, online/mail instructions, and funeral-home director contact details. |
+| 91 | Funeral.com | https://funeral.com/pages/contact-us or current editorial/contact path | `docs/seo/pitches/89-funeralcom-memorial-donation-wording.md` | Source-backed companion for memorial donation wording readers | https://www.finalnotes.page/memorial-donation-wording-obituary/ | Current memorial donation guide covers charity choice, sample obituary wording, funds, tracking, and thank-you notes. |
 | Hold | Chronic Joy | https://chronic-joy.org/write-for-us/ | `docs/seo/pitches/19-chronic-joy-obituary-reflection-post.md` | Human-written grief/lament reflection post only if invited | https://www.finalnotes.page/obituary-story-worksheet/ | Submission page is by invitation and rejects AI-generated content, so hold unless a human-written personal essay is invited. |
 
 ## Hold / Monitor
@@ -114,6 +120,7 @@ Use this file as the next execution list. Send manually, one by one, after check
   - Genealogy resource lists, public-library research guides, obituary search directories, family-history newsletters, and local-history society pages: `https://www.finalnotes.page/obituary-research-guide/`
   - Newspaper help pages, funeral-home resources, death-notice explainers, and library obituary-index pages: `https://www.finalnotes.page/obituary-vs-death-notice/`
   - Newspaper obituary submission, placement, proof-of-death, deadline, price, and photo-rule pages: `https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/`
+  - Memorial donation wording, in-lieu-of-flowers examples, charity-link safety, family-support language, and contribution wording: `https://www.finalnotes.page/memorial-donation-wording-obituary/`
   - Funeral-home planning pages, bereavement resources, eulogy-writing articles, memorial-program guides, and obituary/eulogy comparison pages: `https://www.finalnotes.page/obituary-vs-eulogy/`
   - Obituary privacy, identity-theft, consumer-safety, and bereavement scam-safety pages: `https://www.finalnotes.page/what-not-to-include-in-an-obituary/`
   - Fake obituary sites, obituary piracy, copied death notices, fake donation links, and suspicious obituary verification: `https://www.finalnotes.page/fake-obituary-sites/`
@@ -288,6 +295,17 @@ Send these after the fake-obituary batch. Use `/how-to-submit-an-obituary-to-a-n
 4. The Dominion Post: family-facing preparation aid before contacting the obituary desk.
 5. Anchorage Daily News: supplemental resource for families preparing a newspaper obituary.
 6. The Martha's Vineyard Times: plain-language companion for community-newspaper obituary submission readers.
+
+## Seventeenth Batch: Memorial Donation, In-Lieu-Of-Flowers, and Charity Wording
+
+Send these after the newspaper submission batch. Use `/memorial-donation-wording-obituary/` for funeral-home obituary guides, charity memorial-giving pages, hospice resources, etiquette articles, and family planning pages that mention in lieu of flowers wording, memorial contributions, donation-link safety, or family-support language:
+
+1. Funeral Basics: practical wording companion for families preparing an in-lieu-of-flowers request before publication.
+2. Emily Post Institute: obituary-writer companion for readers who need clear donation language before mourners respond.
+3. American Cancer Society: family-facing supplement for people naming ACS memorial gifts in an obituary.
+4. American Heart Association: supplemental wording resource for families adding AHA honor/memorial gifts.
+5. Alzheimer's Association: companion for families comparing official obituary verbiage, memorial gift designation, and mailing/online instructions.
+6. Funeral.com: source-backed supplement with privacy, family-support, link-verification, and thank-you tracking checks.
 
 ## Follow-Up Timing
 

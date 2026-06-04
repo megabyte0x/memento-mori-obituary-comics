@@ -214,6 +214,9 @@ export default function LifeStoryObituaryTemplatePage() {
               <Button asChild>
                 <Link href="/how-to-submit-an-obituary-to-a-newspaper/">Newspaper submission</Link>
               </Button>
+              <Button asChild>
+                <Link href="/memorial-donation-wording-obituary/">Donation wording</Link>
+              </Button>
             </div>
           </header>
 
@@ -308,7 +311,7 @@ export default function LifeStoryObituaryTemplatePage() {
             <div>
               <h2 id="best-link">Best Link Target For Template Pages</h2>
               <p>
-                Use this page for obituary template roundups, funeral-home writing resources, family-history forms, memorial program resources, and classroom writing assignments that need a story-focused template. For question banks, use the <Link href="/obituary-writing-prompts/">obituary writing prompts page</Link>. For newspaper placement requirements after the draft is ready, use the <Link href="/how-to-submit-an-obituary-to-a-newspaper/">newspaper obituary submission checklist</Link>.
+                Use this page for obituary template roundups, funeral-home writing resources, family-history forms, memorial program resources, and classroom writing assignments that need a story-focused template. For question banks, use the <Link href="/obituary-writing-prompts/">obituary writing prompts page</Link>. For memorial contributions and in-lieu-of-flowers examples, use the <Link href="/memorial-donation-wording-obituary/">memorial donation wording guide</Link>. For newspaper placement requirements after the draft is ready, use the <Link href="/how-to-submit-an-obituary-to-a-newspaper/">newspaper obituary submission checklist</Link>.
               </p>
             </div>
             <Link href="/life-story-obituary-template/">{absoluteUrl("/life-story-obituary-template/")}</Link>

@@ -184,6 +184,9 @@ export default function ObituaryVsEulogyPage() {
               <Button asChild>
                 <Link href="/obituary-story-worksheet/">Worksheet</Link>
               </Button>
+              <Button asChild>
+                <Link href="/memorial-donation-wording-obituary/">Donation wording</Link>
+              </Button>
             </div>
           </header>
 
@@ -242,7 +245,7 @@ export default function ObituaryVsEulogyPage() {
             <div>
               <h2 id="best-link">Best Link Target For Obituary And Eulogy Resources</h2>
               <p>
-                Use this page for funeral-home planning pages, bereavement resources, eulogy-writing articles, memorial-program guides, and pages explaining the difference between an obituary and a eulogy. For short public announcements, use the <Link href="/obituary-vs-death-notice/">obituary vs death notice explainer</Link>. For a fuller written story, use the <Link href="/how-to-write-an-obituary-story/">obituary story writing guide</Link>. For questions that help gather memories, use the <Link href="/obituary-writing-prompts/">obituary writing prompts page</Link>.
+                Use this page for funeral-home planning pages, bereavement resources, eulogy-writing articles, memorial-program guides, and pages explaining the difference between an obituary and a eulogy. For short public announcements, use the <Link href="/obituary-vs-death-notice/">obituary vs death notice explainer</Link>. For memorial contribution wording that may appear at the end of an obituary or program, use the <Link href="/memorial-donation-wording-obituary/">memorial donation wording guide</Link>. For a fuller written story, use the <Link href="/how-to-write-an-obituary-story/">obituary story writing guide</Link>. For questions that help gather memories, use the <Link href="/obituary-writing-prompts/">obituary writing prompts page</Link>.
               </p>
             </div>
             <Link href="/obituary-vs-eulogy/">{absoluteUrl("/obituary-vs-eulogy/")}</Link>

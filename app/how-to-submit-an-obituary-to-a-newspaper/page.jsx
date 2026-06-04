@@ -202,6 +202,9 @@ export default function NewspaperObituarySubmissionPage() {
                 <Link href="/what-not-to-include-in-an-obituary/">Privacy checklist</Link>
               </Button>
               <Button asChild>
+                <Link href="/memorial-donation-wording-obituary/">Donation wording</Link>
+              </Button>
+              <Button asChild>
                 <Link href="/fake-obituary-sites/">Fake site checklist</Link>
               </Button>
               <Button asChild>
@@ -263,7 +266,7 @@ export default function NewspaperObituarySubmissionPage() {
             <div>
               <h2 id="best-link">Best Link Target For Newspaper Obituary Submission Pages</h2>
               <p>
-                Use this page for newspaper help pages, funeral-home planning pages, community-newspaper instructions, obituary cost explainers, and articles about how to place or submit an obituary. For the difference between a paid notice and a fuller life story, use the <Link href="/obituary-vs-death-notice/">obituary vs death notice explainer</Link>. For safer wording before publication, use the <Link href="/what-not-to-include-in-an-obituary/">obituary privacy checklist</Link>. For suspicious obituary results after publication, use the <Link href="/fake-obituary-sites/">fake obituary sites checklist</Link>. For a fuller draft, use the <Link href="/life-story-obituary-template/">life story obituary template</Link> and <Link href="/how-to-write-an-obituary-story/">obituary story writing guide</Link>.
+                Use this page for newspaper help pages, funeral-home planning pages, community-newspaper instructions, obituary cost explainers, and articles about how to place or submit an obituary. For the difference between a paid notice and a fuller life story, use the <Link href="/obituary-vs-death-notice/">obituary vs death notice explainer</Link>. For memorial contribution language before submission, use the <Link href="/memorial-donation-wording-obituary/">memorial donation wording guide</Link>. For safer wording before publication, use the <Link href="/what-not-to-include-in-an-obituary/">obituary privacy checklist</Link>. For suspicious obituary results after publication, use the <Link href="/fake-obituary-sites/">fake obituary sites checklist</Link>. For a fuller draft, use the <Link href="/life-story-obituary-template/">life story obituary template</Link> and <Link href="/how-to-write-an-obituary-story/">obituary story writing guide</Link>.
               </p>
             </div>
             <Link href="/how-to-submit-an-obituary-to-a-newspaper/">{absoluteUrl("/how-to-submit-an-obituary-to-a-newspaper/")}</Link>

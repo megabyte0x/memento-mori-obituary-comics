@@ -11,6 +11,7 @@ Primary link target for obituary vs eulogy and spoken-tribute keywords: https://
 Primary link target for obituary privacy, identity-theft, and scam-safety keywords: https://www.finalnotes.page/what-not-to-include-in-an-obituary/
 Primary link target for fake obituary sites, obituary piracy, and scam-verification keywords: https://www.finalnotes.page/fake-obituary-sites/
 Primary link target for newspaper obituary submission and placement keywords: https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/
+Primary link target for memorial donation, in-lieu-of-flowers, and contribution wording keywords: https://www.finalnotes.page/memorial-donation-wording-obituary/
 Primary link target for obituary-writing and family-history how-to keywords: https://www.finalnotes.page/how-to-write-an-obituary-story/
 Primary link target for obituary prompts and legacy interview keywords: https://www.finalnotes.page/obituary-writing-prompts/
 Primary link target for obituary examples and wording-example keywords: https://www.finalnotes.page/obituary-examples/
@@ -115,6 +116,12 @@ Execution queue: `docs/seo/backlink-send-queue.md`
 | P3 | The Dominion Post | Current obituary typist/contact path on the submission page | Family-facing preparation aid before contacting the obituary desk. | https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/ | newspaper obituary submission checklist |
 | P3 | Anchorage Daily News | obituary@adn.com or current obituary/contact path | Supplemental resource for families preparing a newspaper obituary. | https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/ | obituary placement checklist |
 | P3 | The Martha's Vineyard Times | editor@mvtimes.com or current obituary/contact path | Plain-language companion for community-newspaper obituary submission readers. | https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/ | obituary submission checklist |
+| P2 | Funeral Basics | https://la.funeraldirectorslife.com/contact/ or current Funeral Basics contact path | Practical companion for families writing in-lieu-of-flowers and memorial donation requests before publication. | https://www.finalnotes.page/memorial-donation-wording-obituary/ | memorial donation wording |
+| P2 | Emily Post Institute | https://emilypost.com/contact/ or current editorial/contact path | Obituary-writer companion for donation etiquette readers. | https://www.finalnotes.page/memorial-donation-wording-obituary/ | in lieu of flowers wording |
+| P2 | American Cancer Society | https://www.cancer.org/about-us/contact-us.html or current memorial-giving contact path | Family-facing obituary wording companion for memorial gifts and tribute fundraiser readers. | https://www.finalnotes.page/memorial-donation-wording-obituary/ | obituary donation wording |
+| P2 | American Heart Association | https://www.heart.org/en/about-us/contact-us or current donor-support path | Supplemental obituary wording guide for honor and memorial gift requests. | https://www.finalnotes.page/memorial-donation-wording-obituary/ | memorial contribution wording |
+| P2 | Alzheimer's Association | https://www.alz.org/help-support/resources/contact_us or chapter memorial-donation contact path | Companion guide for families using official obituary verbiage and memorial-donation instructions. | https://www.finalnotes.page/memorial-donation-wording-obituary/ | memorial donation wording |
+| P2 | Funeral.com | https://funeral.com/pages/contact-us or current editorial/contact path | Source-backed companion for memorial donation wording, link-verification, family-support, and thank-you tracking readers. | https://www.finalnotes.page/memorial-donation-wording-obituary/ | memorial donations in lieu of flowers |
 | Hold | Chronic Joy | https://chronic-joy.org/write-for-us/ | Human-written grief/lament post only if invited. | https://www.finalnotes.page/obituary-story-worksheet/ | obituary reflection worksheet |
 
 ## Send Log
@@ -203,6 +210,12 @@ Execution queue: `docs/seo/backlink-send-queue.md`
 |  | The Dominion Post | `docs/seo/pitches/81-dominion-post-obituary-submission-resource.md` | /how-to-submit-an-obituary-to-a-newspaper/ |  |  |  |  | Newspaper submission-policy target |
 |  | Anchorage Daily News | `docs/seo/pitches/82-anchorage-daily-news-obituary-submission-resource.md` | /how-to-submit-an-obituary-to-a-newspaper/ |  |  |  |  | Newspaper submission-policy target |
 |  | The Martha's Vineyard Times | `docs/seo/pitches/83-mv-times-obituary-submission-resource.md` | /how-to-submit-an-obituary-to-a-newspaper/ |  |  |  |  | Community-newspaper submission target |
+|  | Funeral Basics | `docs/seo/pitches/84-funeral-basics-memorial-donation-wording.md` | /memorial-donation-wording-obituary/ |  |  |  |  | Memorial donation wording target |
+|  | Emily Post Institute | `docs/seo/pitches/85-emily-post-memorial-donation-wording.md` | /memorial-donation-wording-obituary/ |  |  |  |  | Etiquette resource target |
+|  | American Cancer Society | `docs/seo/pitches/86-acs-memorial-donation-obituary-wording.md` | /memorial-donation-wording-obituary/ |  |  |  |  | Memorial-giving resource target |
+|  | American Heart Association | `docs/seo/pitches/87-aha-memorial-donation-obituary-wording.md` | /memorial-donation-wording-obituary/ |  |  |  |  | Honor/memorial giving target |
+|  | Alzheimer's Association | `docs/seo/pitches/88-alzheimers-memorial-donation-obituary-wording.md` | /memorial-donation-wording-obituary/ |  |  |  |  | Memorial donation verbiage target |
+|  | Funeral.com | `docs/seo/pitches/89-funeralcom-memorial-donation-wording.md` | /memorial-donation-wording-obituary/ |  |  |  |  | Family-facing memorial donation guide target |
 |  | Chronic Joy | `docs/seo/pitches/19-chronic-joy-obituary-reflection-post.md` | /obituary-story-worksheet/ | Hold unless invited |  |  |  | Human-written only |
 |  | Modern Loss | Hold until submissions reopen | /obituary-stories/ | No open calls on 2026-06-04 |  |  |  | Check weekly |
 
