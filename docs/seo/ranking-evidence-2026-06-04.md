@@ -24,6 +24,7 @@ It also supports using `https://www.finalnotes.page/obituary-examples/` for exam
 Prompt and legacy-interview searches surfaced a separate opportunity: families, funeral homes, hospice teams, and memory-preservation services need question banks before they draft. That supports using `https://www.finalnotes.page/obituary-writing-prompts/` for prompt-list, legacy interview, hospice legacy activity, and family-history interview resources.
 Template searches surfaced another gap: high-ranking pages mostly offer generic fill-in-the-blank obituary templates or design/program templates, while few separate life-story structure, source checks, and family privacy decisions. That supports using `https://www.finalnotes.page/life-story-obituary-template/` for template roundups, memorial-program resources, editable template sites, and funeral-home pages that already help families draft obituary text.
 Obituary article and journalism searches surfaced a separate editorial lane: Poynter, ASJA, Northeastern, JEA, and CJR-style pages treat obituaries as reporting, feature writing, classroom material, and media craft. That supports using `https://www.finalnotes.page/obituary-articles/` for journalism lessons, article-writing resources, feature-obituary discussions, and media criticism pitches.
+Obituary lesson-plan searches surfaced an education lane: SchoolJournalism, JEA, Share My Lesson, PBS, Scholastic, and teacher-resource pages already publish obituary-writing assignments and classroom activities. That supports using `https://www.finalnotes.page/obituary-lesson-plan/` for journalism curriculum lists, ELA writing lessons, lesson-plan repositories, and classroom resource pages.
 
 ## High-Fit Sources Found In This Pass
 
@@ -55,6 +56,11 @@ Obituary article and journalism searches surfaced a separate editorial lane: Poy
 | Journalism Education Association | Maintains journalism curriculum and writing resources for teachers/advisers. | `/obituary-articles/` | Pitch added |
 | American Society of Journalists and Authors | Published a current obituary-writing craft article for professional writers. | `/obituary-articles/` | Pitch added |
 | Northeastern School of Journalism / CAMD | Published an obituary-writing craft article and has a journalism-student audience. | `/obituary-articles/` | Pitch added |
+| SchoolJournalism.org | Publishes journalism lesson plans and ASNE lesson-plan archives for teachers. | `/obituary-lesson-plan/` | Pitch added |
+| Journalism Education Association | Supports scholastic journalism teachers and curriculum resources. | `/obituary-lesson-plan/` | Pitch added |
+| Share My Lesson | Teacher-resource platform with upload/contact paths and obituary/media-writing lesson relevance. | `/obituary-lesson-plan/` | Pitch added |
+| PBS LearningMedia | Publishes classroom-ready educational resources and evidence-based writing activities. | `/obituary-lesson-plan/` | Pitch added |
+| Scholastic Upfront | Published an obituary research/writing lesson around "Overlooked No More." | `/obituary-lesson-plan/` | Pitch added |
 
 ## Completion Rule
 

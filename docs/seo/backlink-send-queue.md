@@ -56,6 +56,11 @@ Use this file as the next execution list. Send manually, one by one, after check
 | 45 | Journalism Education Association | staff@jea.org or https://jea.org/contact/ | `docs/seo/pitches/43-jea-obituary-article-lesson-resource.md` | Resource suggestion for obituary article and feature-writing lessons | https://www.finalnotes.page/obituary-articles/ | JEA's curriculum and writing resources make classroom article examples a natural fit. |
 | 46 | American Society of Journalists and Authors | asjaoffice@asja.org | `docs/seo/pitches/44-asja-obituary-article-resource.md` | Supplemental obituary article resource for writers | https://www.finalnotes.page/obituary-articles/ | ASJA has a current obituary-writing craft article and professional nonfiction writer audience. |
 | 47 | Northeastern School of Journalism / CAMD | https://camd.northeastern.edu/contact/ or media@northeastern.edu | `docs/seo/pitches/45-northeastern-obituary-article-resource.md` | Supplemental obituary article examples for journalism students | https://www.finalnotes.page/obituary-articles/ | Northeastern published a journalism-school article on obituary-writing craft and importance. |
+| 48 | SchoolJournalism.org | https://www.schooljournalism.org/contact-us-2/ or contributor contact on https://www.schooljournalism.org/about/ | `docs/seo/pitches/46-schooljournalism-obituary-lesson-plan-resource.md` | Resource suggestion: obituary lesson plan for journalism classes | https://www.finalnotes.page/obituary-lesson-plan/ | SchoolJournalism publishes journalism lesson plans and is a direct classroom-resource fit. |
+| 49 | Journalism Education Association | staff@jea.org or https://jea.org/contact/ | `docs/seo/pitches/47-jea-obituary-lesson-plan-resource.md` | Supplemental obituary lesson plan for journalism writing resources | https://www.finalnotes.page/obituary-lesson-plan/ | JEA is a strong scholastic journalism curriculum target for the lesson-plan version. |
+| 50 | Share My Lesson | https://sharemylesson.com/contact-us | `docs/seo/pitches/48-share-my-lesson-obituary-lesson-plan-resource.md` | Resource suggestion for obituary writing lesson plans | https://www.finalnotes.page/obituary-lesson-plan/ | Teacher-resource platform with existing obituary/media-writing lesson relevance. |
+| 51 | PBS LearningMedia | https://www.pbs.org/education/contact-us/ or pbslm.editorial@pbs.org | `docs/seo/pitches/49-pbs-learningmedia-obituary-lesson-resource.md` | Supplemental obituary lesson plan for evidence-based life-story writing | https://www.finalnotes.page/obituary-lesson-plan/ | PBS education resources include evidence-based classroom writing and History Detectives obituary activity context. |
+| 52 | Scholastic Upfront | https://upfront.scholastic.com/pages/help-and-how-tos.html | `docs/seo/pitches/50-scholastic-upfront-obituary-lesson-resource.md` | Supplemental visual obituary lesson resource | https://www.finalnotes.page/obituary-lesson-plan/ | Upfront has an obituary research/writing lesson where a visual-obituary extension is relevant. |
 | Hold | Chronic Joy | https://chronic-joy.org/write-for-us/ | `docs/seo/pitches/19-chronic-joy-obituary-reflection-post.md` | Human-written grief/lament reflection post only if invited | https://www.finalnotes.page/obituary-story-worksheet/ | Submission page is by invitation and rejects AI-generated content, so hold unless a human-written personal essay is invited. |
 
 ## Hold / Monitor
@@ -71,7 +76,8 @@ Use this file as the next execution list. Send manually, one by one, after check
 - Ask for editorial consideration, review consideration, guest post placement, or resource inclusion. Do not ask for SEO value.
 - Use the target page that best fits the editor's audience:
   - Definition/form essays: `https://www.finalnotes.page/what-are-obituary-comics/`
-  - Journalism lessons, newsroom resources, and feature-obituary article discussions: `https://www.finalnotes.page/obituary-articles/`
+  - Newsroom resources and feature-obituary article discussions: `https://www.finalnotes.page/obituary-articles/`
+  - Journalism lessons, ELA writing lessons, lesson-plan repositories, and classroom resource pages: `https://www.finalnotes.page/obituary-lesson-plan/`
   - Obituary-writing and family-history how-to articles: `https://www.finalnotes.page/how-to-write-an-obituary-story/`
   - Prompt lists, legacy interview questions, and hospice legacy projects: `https://www.finalnotes.page/obituary-writing-prompts/`
   - Obituary example and wording-example pages: `https://www.finalnotes.page/obituary-examples/`
@@ -170,6 +176,16 @@ Send these after the template/resource batch. Use `/obituary-articles/` for jour
 3. Journalism Education Association: resource suggestion for obituary article, feature-writing, and sensitive reporting lessons.
 4. ASJA: supplemental obituary article craft resource or member-led publication idea.
 5. Northeastern School of Journalism / CAMD: supplemental teaching/example resource for obituary-writing craft.
+
+## Tenth Batch: Lesson Plan and Classroom Resource Sites
+
+Send these after the journalism/article-writing batch. Use `/obituary-lesson-plan/` for journalism curriculum lists, ELA writing lessons, lesson-plan repositories, classroom resource pages, and teacher-resource upload platforms:
+
+1. SchoolJournalism.org: obituary lesson plan resource suggestion.
+2. Journalism Education Association: lesson-plan-specific resource suggestion.
+3. Share My Lesson: resource suggestion or direct lesson upload path.
+4. PBS LearningMedia: evidence-based visual obituary writing supplement.
+5. Scholastic Upfront: visual obituary extension for obituary research/writing lessons.
 
 ## Follow-Up Timing
 

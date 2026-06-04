@@ -146,6 +146,9 @@ export default function ObituaryExamplesPage() {
                 <Link href="/obituary-articles/">Article guide</Link>
               </Button>
               <Button asChild>
+                <Link href="/obituary-lesson-plan/">Lesson plan</Link>
+              </Button>
+              <Button asChild>
                 <Link href="/obituary-writing-prompts/">Writing prompts</Link>
               </Button>
               <Button asChild>
@@ -223,7 +226,7 @@ export default function ObituaryExamplesPage() {
             <div>
               <h2 id="best-link">Best Link Target For Obituary Example Pages</h2>
               <p>
-                Use this page for obituary example roundups, obituary wording resources, writing classes, funeral-home planning pages, and genealogy posts that need examples beyond a template. For journalism lessons and feature-obituary resources, use the <Link href="/obituary-articles/">obituary articles page</Link>. For template roundups, use the <Link href="/life-story-obituary-template/">life story obituary template</Link>. For interview questions and prompt lists, use the <Link href="/obituary-writing-prompts/">obituary writing prompts page</Link>. For the planning sheet, use the <Link href="/obituary-story-worksheet/">obituary story worksheet</Link>.
+                Use this page for obituary example roundups, obituary wording resources, writing classes, funeral-home planning pages, and genealogy posts that need examples beyond a template. For journalism lessons and feature-obituary resources, use the <Link href="/obituary-articles/">obituary articles page</Link>. For classroom steps and assessment prompts, use the <Link href="/obituary-lesson-plan/">obituary lesson plan</Link>. For template roundups, use the <Link href="/life-story-obituary-template/">life story obituary template</Link>. For interview questions and prompt lists, use the <Link href="/obituary-writing-prompts/">obituary writing prompts page</Link>. For the planning sheet, use the <Link href="/obituary-story-worksheet/">obituary story worksheet</Link>.
               </p>
             </div>
             <Link href="/obituary-examples/">{absoluteUrl("/obituary-examples/")}</Link>

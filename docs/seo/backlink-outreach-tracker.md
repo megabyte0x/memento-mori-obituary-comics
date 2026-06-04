@@ -4,6 +4,7 @@ Date: 2026-06-04
 Canonical host: https://www.finalnotes.page/
 Primary link target for obituary-story keywords: https://www.finalnotes.page/obituary-stories/
 Primary link target for obituary article and journalism keywords: https://www.finalnotes.page/obituary-articles/
+Primary link target for obituary lesson-plan and classroom keywords: https://www.finalnotes.page/obituary-lesson-plan/
 Primary link target for obituary-writing and family-history how-to keywords: https://www.finalnotes.page/how-to-write-an-obituary-story/
 Primary link target for obituary prompts and legacy interview keywords: https://www.finalnotes.page/obituary-writing-prompts/
 Primary link target for obituary examples and wording-example keywords: https://www.finalnotes.page/obituary-examples/
@@ -70,6 +71,11 @@ Execution queue: `docs/seo/backlink-send-queue.md`
 | P2 | Journalism Education Association | staff@jea.org or https://jea.org/contact/ | Classroom resource suggestion for obituary article, feature-writing, and sensitive reporting lessons. | https://www.finalnotes.page/obituary-articles/ | obituary article lesson |
 | P2 | American Society of Journalists and Authors | asjaoffice@asja.org | Supplemental obituary article resource or member-led craft pitch. | https://www.finalnotes.page/obituary-articles/ | obituary article resource |
 | P2 | Northeastern School of Journalism / CAMD | https://camd.northeastern.edu/contact/ or media@northeastern.edu | Supplemental journalism-student examples for obituary writing craft. | https://www.finalnotes.page/obituary-articles/ | obituary articles |
+| P1 | SchoolJournalism.org | https://www.schooljournalism.org/contact-us-2/ or contributor contact on https://www.schooljournalism.org/about/ | Classroom lesson-plan resource suggestion for journalism obituary writing. | https://www.finalnotes.page/obituary-lesson-plan/ | obituary lesson plan |
+| P1 | Journalism Education Association | staff@jea.org or https://jea.org/contact/ | Lesson-plan-specific classroom resource suggestion for scholastic journalism advisers. | https://www.finalnotes.page/obituary-lesson-plan/ | obituary lesson plan |
+| P2 | Share My Lesson | https://sharemylesson.com/contact-us | Teacher-resource suggestion or upload path for obituary writing lesson plans. | https://www.finalnotes.page/obituary-lesson-plan/ | obituary writing lesson plan |
+| P2 | PBS LearningMedia | https://www.pbs.org/education/contact-us/ or pbslm.editorial@pbs.org | Evidence-based visual obituary writing supplement for history/ELA/media literacy teachers. | https://www.finalnotes.page/obituary-lesson-plan/ | visual obituary lesson plan |
+| P2 | Scholastic Upfront | https://upfront.scholastic.com/pages/help-and-how-tos.html | Supplemental visual obituary lesson resource for obituary research/writing lessons. | https://www.finalnotes.page/obituary-lesson-plan/ | obituary lesson plan |
 | Hold | Chronic Joy | https://chronic-joy.org/write-for-us/ | Human-written grief/lament post only if invited. | https://www.finalnotes.page/obituary-story-worksheet/ | obituary reflection worksheet |
 
 ## Send Log
@@ -120,6 +126,11 @@ Execution queue: `docs/seo/backlink-send-queue.md`
 |  | Journalism Education Association | `docs/seo/pitches/43-jea-obituary-article-lesson-resource.md` | /obituary-articles/ |  |  |  |  | Classroom resource target |
 |  | American Society of Journalists and Authors | `docs/seo/pitches/44-asja-obituary-article-resource.md` | /obituary-articles/ |  |  |  |  | Professional writer resource target |
 |  | Northeastern School of Journalism / CAMD | `docs/seo/pitches/45-northeastern-obituary-article-resource.md` | /obituary-articles/ |  |  |  |  | Journalism-school resource target |
+|  | SchoolJournalism.org | `docs/seo/pitches/46-schooljournalism-obituary-lesson-plan-resource.md` | /obituary-lesson-plan/ |  |  |  |  | Journalism lesson-plan target |
+|  | Journalism Education Association | `docs/seo/pitches/47-jea-obituary-lesson-plan-resource.md` | /obituary-lesson-plan/ |  |  |  |  | Lesson-plan-specific classroom target |
+|  | Share My Lesson | `docs/seo/pitches/48-share-my-lesson-obituary-lesson-plan-resource.md` | /obituary-lesson-plan/ |  |  |  |  | Teacher-resource upload/contact target |
+|  | PBS LearningMedia | `docs/seo/pitches/49-pbs-learningmedia-obituary-lesson-resource.md` | /obituary-lesson-plan/ |  |  |  |  | PBS education resource target |
+|  | Scholastic Upfront | `docs/seo/pitches/50-scholastic-upfront-obituary-lesson-resource.md` | /obituary-lesson-plan/ |  |  |  |  | Classroom magazine lesson target |
 |  | Chronic Joy | `docs/seo/pitches/19-chronic-joy-obituary-reflection-post.md` | /obituary-story-worksheet/ | Hold unless invited |  |  |  | Human-written only |
 |  | Modern Loss | Hold until submissions reopen | /obituary-stories/ | No open calls on 2026-06-04 |  |  |  | Check weekly |
 

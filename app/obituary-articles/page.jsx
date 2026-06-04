@@ -200,6 +200,9 @@ export default function ObituaryArticlesPage() {
                 <Link href="/obituary-examples/">Article examples</Link>
               </Button>
               <Button asChild>
+                <Link href="/obituary-lesson-plan/">Lesson plan</Link>
+              </Button>
+              <Button asChild>
                 <Link href="/how-to-write-an-obituary-story/">Writing guide</Link>
               </Button>
               <Button asChild>
@@ -302,7 +305,7 @@ export default function ObituaryArticlesPage() {
             <div>
               <h2 id="best-link">Best Link Target For Obituary Article Pages</h2>
               <p>
-                Use this page for journalism lessons, article-writing resources, obituary-writing essays, classroom reading lists, and media criticism about obituaries as reported life stories. For the full story archive, link to <Link href="/obituary-stories/">obituary stories and articles</Link>. For copyable forms, link to the <Link href="/life-story-obituary-template/">life story obituary template</Link>.
+                Use this page for journalism lessons, article-writing resources, obituary-writing essays, classroom reading lists, and media criticism about obituaries as reported life stories. For classroom-ready steps, link to the <Link href="/obituary-lesson-plan/">obituary lesson plan</Link>. For the full story archive, link to <Link href="/obituary-stories/">obituary stories and articles</Link>. For copyable forms, link to the <Link href="/life-story-obituary-template/">life story obituary template</Link>.
               </p>
             </div>
             <Link href="/obituary-articles/">{absoluteUrl("/obituary-articles/")}</Link>
