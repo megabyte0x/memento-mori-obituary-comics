@@ -10,6 +10,8 @@ The ranking goal is not complete. Current web search samples did not surface can
 
 2026-06-05 continuation check: sampled web searches for `site:finalnotes.page "obituary stories"`, `site:finalnotes.page "obituary articles"`, `site:finalnotes.page "obituary checklist"`, and `"finalnotes.page/obituary-stories"` still did not surface canonical FinalNotes pages in the returned result set. Searches for `obituary mistakes to avoid`, `common obituary mistakes`, and related proofing/correction queries surfaced a distinct opportunity around fact review, missing service details, generic wording, privacy, memorial links, and post-publication corrections.
 
+2026-06-05 post-deploy check: after `https://www.finalnotes.page/obituary-mistakes-to-avoid/` returned `200` on the canonical domain and appeared in live `sitemap.xml` and `/llms.txt`, sampled searches for `site:finalnotes.page "obituary mistakes to avoid"`, `"finalnotes.page/obituary-mistakes-to-avoid"`, `"obituary mistakes to avoid" "finalnotes"`, and `"common obituary mistakes" "finalnotes"` returned no results in the sampled web search result set. This confirms deployment, but not indexing or first-page ranking.
+
 ## Search Landscape Observed
 
 SERP samples for obituary-writing, examples, and worksheet queries are dominated by:
