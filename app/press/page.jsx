@@ -49,6 +49,11 @@ const linkTargets = [
     note: "Best canonical link for obituary-writing guides, grief-writing essays, family-history resources, and deathcare article references.",
   },
   {
+    label: "Obituary writing prompts and legacy questions",
+    href: "/obituary-writing-prompts/",
+    note: "Best canonical link for prompt lists, legacy interview questions, hospice legacy projects, genealogy interviews, and writing classes.",
+  },
+  {
     label: "Obituary examples and story patterns",
     href: "/obituary-examples/",
     note: "Best canonical link for obituary example roundups, obituary wording resources, and sample-story structures.",

@@ -2596,6 +2596,9 @@ body::before {
 .writing-guide-page .explainer-header-section h1 {
   max-width: 16ch;
 }
+.prompts-page .explainer-header-section h1 {
+  max-width: 14ch;
+}
 .examples-page .explainer-header-section h1 {
   max-width: 12ch;
 }

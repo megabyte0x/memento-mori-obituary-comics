@@ -41,6 +41,11 @@ Use this file as the next execution list. Send manually, one by one, after check
 | 30 | Obit Options | obitoptions@gmail.com | `docs/seo/pitches/28-obit-options-obituary-examples-resource.md` | Obituary story examples resource | https://www.finalnotes.page/obituary-examples/ | Human obituary-writing service with tribute/example surfaces and strong fit for non-template story examples. |
 | 31 | OBITUARe | https://www.obituare.com/help/ or live chat | `docs/seo/pitches/29-obituare-examples-resource.md` | Resource suggestion for obituary examples | https://www.finalnotes.page/obituary-examples/ | Their resource center includes obituary writing, obituary templates, and online memorial guidance. |
 | 32 | Brattleboro Area Hospice | info@brattleborohospice.org | `docs/seo/pitches/30-brattleboro-hospice-obituary-examples-worksheet.md` | Supplemental obituary story worksheet resource | https://www.finalnotes.page/obituary-story-worksheet/ | Hospice worksheet target with a direct obituary reflection worksheet and contact path. |
+| 33 | Obit DIY | https://obitdiy.com/ message/contact link | `docs/seo/pitches/31-obit-diy-obituary-prompts-resource.md` | Resource suggestion for obituary writing prompts | https://www.finalnotes.page/obituary-writing-prompts/ | Obit DIY says it curates resources at the intersection of death and writing. |
+| 34 | Cooperative Memorial Society | https://www.coopmemorial.org/contact-us.html | `docs/seo/pitches/32-cooperative-memorial-society-obituary-prompts-resource.md` | Supplemental obituary prompts resource | https://www.finalnotes.page/obituary-writing-prompts/ | Their forms/resources page includes obituary submission guidance, privacy notes, and draft prompts. |
+| 35 | Horan & McConaty | https://www.horancares.com/contact-us | `docs/seo/pitches/33-horan-mcconaty-obituary-prompts-resource.md` | Supplemental obituary writing prompts for families | https://www.finalnotes.page/obituary-writing-prompts/ | Their obituary tips page emphasizes story, personality, shared memories, research, and prompts. |
+| 36 | LifeEcho | https://lifeecho.org/contact | `docs/seo/pitches/34-lifeecho-legacy-interview-obituary-prompts.md` | Resource suggestion for obituary and legacy interview prompts | https://www.finalnotes.page/obituary-writing-prompts/ | Legacy interview guidance is adjacent to turning recorded memories into written obituary stories. |
+| 37 | Hospice Waterloo Region | https://www.hospicewaterloo.ca/contact/ | `docs/seo/pitches/35-hospice-waterloo-legacy-obituary-prompts.md` | Supplemental obituary prompts for legacy activities | https://www.finalnotes.page/obituary-writing-prompts/ | Hospice legacy activities are a strong fit for prompts that turn memories into written tributes. |
 | Hold | Chronic Joy | https://chronic-joy.org/write-for-us/ | `docs/seo/pitches/19-chronic-joy-obituary-reflection-post.md` | Human-written grief/lament reflection post only if invited | https://www.finalnotes.page/obituary-story-worksheet/ | Submission page is by invitation and rejects AI-generated content, so hold unless a human-written personal essay is invited. |
 
 ## Hold / Monitor
@@ -57,6 +62,7 @@ Use this file as the next execution list. Send manually, one by one, after check
 - Use the target page that best fits the editor's audience:
   - Definition/form essays: `https://www.finalnotes.page/what-are-obituary-comics/`
   - Obituary-writing and family-history how-to articles: `https://www.finalnotes.page/how-to-write-an-obituary-story/`
+  - Prompt lists, legacy interview questions, and hospice legacy projects: `https://www.finalnotes.page/obituary-writing-prompts/`
   - Obituary example and wording-example pages: `https://www.finalnotes.page/obituary-examples/`
   - Worksheet and planning-resource pages: `https://www.finalnotes.page/obituary-story-worksheet/`
   - Obituary-story roundups: `https://www.finalnotes.page/obituary-stories/`
@@ -122,6 +128,16 @@ Send these after the consumer/resource-hub batch. Use `/obituary-examples/` for 
 3. Obit Options: human obituary-writing examples/resource suggestion.
 4. OBITUARe: resource-center suggestion via help/live chat.
 5. Brattleboro Area Hospice: supplemental worksheet/examples suggestion.
+
+## Seventh Batch: Prompts, Legacy Interview, and Hospice Resources
+
+Send these after the obituary examples batch. Use `/obituary-writing-prompts/` for prompt banks, legacy interview question lists, hospice legacy activities, and family story resources:
+
+1. Obit DIY: obituary prompts resource suggestion.
+2. Cooperative Memorial Society: obituary prompt bank supplement for forms/resources.
+3. Horan & McConaty: supplemental prompt resource for family-written obituaries.
+4. LifeEcho: companion link for turning legacy interviews into written tributes.
+5. Hospice Waterloo Region: supplemental writing prompts for legacy activities.
 
 ## Follow-Up Timing
 

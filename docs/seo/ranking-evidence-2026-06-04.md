@@ -21,6 +21,7 @@ SERP samples for obituary-writing, examples, and worksheet queries are dominated
 
 This supports using `https://www.finalnotes.page/obituary-story-worksheet/` and `https://www.finalnotes.page/how-to-write-an-obituary-story/` as resource-list link targets, rather than asking for generic homepage links.
 It also supports using `https://www.finalnotes.page/obituary-examples/` for example roundups, wording resources, and sample-story pages.
+Prompt and legacy-interview searches surfaced a separate opportunity: families, funeral homes, hospice teams, and memory-preservation services need question banks before they draft. That supports using `https://www.finalnotes.page/obituary-writing-prompts/` for prompt-list, legacy interview, hospice legacy activity, and family-history interview resources.
 
 ## High-Fit Sources Found In This Pass
 
@@ -37,6 +38,11 @@ It also supports using `https://www.finalnotes.page/obituary-examples/` for exam
 | Obit Options | Human obituary-writing service with examples/tribute context and a direct email. | `/obituary-examples/` | Pitch added |
 | OBITUARe | Has an obituary resource center for writing, templates, and online memorial help. | `/obituary-examples/` | Pitch added |
 | Brattleboro Area Hospice | Has an obituary worksheet and direct hospice contact path. | `/obituary-story-worksheet/` | Pitch added |
+| Obit DIY | Curates resources at the intersection of death, writing, self-obituary, and legacy reflection. | `/obituary-writing-prompts/` | Pitch added |
+| Cooperative Memorial Society | Publishes funeral-planning forms/resources, including obituary submission guidance, privacy notes, and draft prompts. | `/obituary-writing-prompts/` | Pitch added |
+| Horan & McConaty | Obituary tips page emphasizes story, personality, shared memories, research, and writing prompts. | `/obituary-writing-prompts/` | Pitch added |
+| LifeEcho | Publishes legacy interview question guidance for richer recorded memories. | `/obituary-writing-prompts/` | Pitch added |
+| Hospice Waterloo Region | Publishes hospice legacy activities and has a direct contact path. | `/obituary-writing-prompts/` | Pitch added |
 
 ## Completion Rule
 

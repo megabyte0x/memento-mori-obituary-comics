@@ -4,6 +4,7 @@ Date: 2026-06-04
 Canonical host: https://www.finalnotes.page/
 Primary link target for obituary-story keywords: https://www.finalnotes.page/obituary-stories/
 Primary link target for obituary-writing and family-history how-to keywords: https://www.finalnotes.page/how-to-write-an-obituary-story/
+Primary link target for obituary prompts and legacy interview keywords: https://www.finalnotes.page/obituary-writing-prompts/
 Primary link target for obituary examples and wording-example keywords: https://www.finalnotes.page/obituary-examples/
 Primary link target for worksheet/resource-page backlinks: https://www.finalnotes.page/obituary-story-worksheet/
 Definition/explainer link target: https://www.finalnotes.page/what-are-obituary-comics/
@@ -52,6 +53,11 @@ Execution queue: `docs/seo/backlink-send-queue.md`
 | P2 | Obit Options | obitoptions@gmail.com | Human obituary-writing story-pattern reference. | https://www.finalnotes.page/obituary-examples/ | obituary story examples |
 | P3 | OBITUARe | https://www.obituare.com/help/ or live chat | Resource-center suggestion for obituary examples and worksheet. | https://www.finalnotes.page/obituary-examples/ | obituary story patterns |
 | P2 | Brattleboro Area Hospice | info@brattleborohospice.org | Supplemental worksheet/examples resource for obituary reflection worksheet. | https://www.finalnotes.page/obituary-story-worksheet/ | obituary story worksheet |
+| P2 | Obit DIY | https://obitdiy.com/ message/contact link | Resource suggestion for people writing their own obituary or legacy notes. | https://www.finalnotes.page/obituary-writing-prompts/ | obituary writing prompts |
+| P2 | Cooperative Memorial Society | https://www.coopmemorial.org/contact-us.html | Supplemental prompt bank for obituary forms/resources and privacy-aware drafting. | https://www.finalnotes.page/obituary-writing-prompts/ | obituary writing prompts |
+| P3 | Horan & McConaty | https://www.horancares.com/contact-us | Supplemental family-writing prompts for obituary tips page. | https://www.finalnotes.page/obituary-writing-prompts/ | obituary writing prompts |
+| P2 | LifeEcho | https://lifeecho.org/contact | Companion resource for turning legacy interview recordings into written obituary or memorial articles. | https://www.finalnotes.page/obituary-writing-prompts/ | legacy interview questions |
+| P2 | Hospice Waterloo Region | https://www.hospicewaterloo.ca/contact/ | Supplemental writing prompts for hospice legacy activities. | https://www.finalnotes.page/obituary-writing-prompts/ | obituary writing prompts |
 | Hold | Chronic Joy | https://chronic-joy.org/write-for-us/ | Human-written grief/lament post only if invited. | https://www.finalnotes.page/obituary-story-worksheet/ | obituary reflection worksheet |
 
 ## Send Log
@@ -87,6 +93,11 @@ Execution queue: `docs/seo/backlink-send-queue.md`
 |  | Obit Options | `docs/seo/pitches/28-obit-options-obituary-examples-resource.md` | /obituary-examples/ |  |  |  |  | Human-writing examples target |
 |  | OBITUARe | `docs/seo/pitches/29-obituare-examples-resource.md` | /obituary-examples/ |  |  |  |  | Resource-center target |
 |  | Brattleboro Area Hospice | `docs/seo/pitches/30-brattleboro-hospice-obituary-examples-worksheet.md` | /obituary-story-worksheet/ |  |  |  |  | Hospice worksheet target |
+|  | Obit DIY | `docs/seo/pitches/31-obit-diy-obituary-prompts-resource.md` | /obituary-writing-prompts/ |  |  |  |  | Obituary prompts resource target |
+|  | Cooperative Memorial Society | `docs/seo/pitches/32-cooperative-memorial-society-obituary-prompts-resource.md` | /obituary-writing-prompts/ |  |  |  |  | Funeral planning forms/resources target |
+|  | Horan & McConaty | `docs/seo/pitches/33-horan-mcconaty-obituary-prompts-resource.md` | /obituary-writing-prompts/ |  |  |  |  | Funeral-home obituary tips target |
+|  | LifeEcho | `docs/seo/pitches/34-lifeecho-legacy-interview-obituary-prompts.md` | /obituary-writing-prompts/ |  |  |  |  | Legacy interview target |
+|  | Hospice Waterloo Region | `docs/seo/pitches/35-hospice-waterloo-legacy-obituary-prompts.md` | /obituary-writing-prompts/ |  |  |  |  | Hospice legacy activities target |
 |  | Chronic Joy | `docs/seo/pitches/19-chronic-joy-obituary-reflection-post.md` | /obituary-story-worksheet/ | Hold unless invited |  |  |  | Human-written only |
 |  | Modern Loss | Hold until submissions reopen | /obituary-stories/ | No open calls on 2026-06-04 |  |  |  | Check weekly |
 
