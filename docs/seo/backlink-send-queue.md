@@ -51,6 +51,11 @@ Use this file as the next execution list. Send manually, one by one, after check
 | 40 | obituary.design | mail@obituary.design | `docs/seo/pitches/38-obituary-design-template-resource.md` | Story-focused obituary template resource | https://www.finalnotes.page/life-story-obituary-template/ | Editable obituary template/design resource where a story-first companion link is natural. |
 | 41 | Allen Funeral Home | https://www.allenfuneralhome.us/contact-us | `docs/seo/pitches/39-allen-funeral-home-template-supplement.md` | Supplemental life story obituary template | https://www.finalnotes.page/life-story-obituary-template/ | Funeral-home family resources and forms make a practical template supplement relevant. |
 | 42 | Bateman-Allen Funeral Home | https://www.batemanallenfuneralhome.com/contact-us/ | `docs/seo/pitches/40-bateman-allen-obituary-template-supplement.md` | Supplemental story-focused obituary template | https://www.finalnotes.page/life-story-obituary-template/ | Existing obituary-writing page makes this a direct template/resource fit. |
+| 43 | Poynter | pitch@poynter.org or https://www.poynter.org/contact-us/ | `docs/seo/pitches/41-poynter-obituary-articles-feature-pitch.md` | Pitch: What visual obituary articles can teach reporters | https://www.finalnotes.page/obituary-articles/ | Poynter already covers obituary reporting and feature obituary craft; best as a journalism pitch, not a link request. |
+| 44 | Columbia Journalism Review | editors@cjr.org | `docs/seo/pitches/42-cjr-obituary-journalism-pitch.md` | Pitch: What obituary articles reveal about local-news memory work | https://www.finalnotes.page/obituary-articles/ | CJR fits a media criticism/reporting angle about obituary articles, local news, and visual formats. |
+| 45 | Journalism Education Association | staff@jea.org or https://jea.org/contact/ | `docs/seo/pitches/43-jea-obituary-article-lesson-resource.md` | Resource suggestion for obituary article and feature-writing lessons | https://www.finalnotes.page/obituary-articles/ | JEA's curriculum and writing resources make classroom article examples a natural fit. |
+| 46 | American Society of Journalists and Authors | asjaoffice@asja.org | `docs/seo/pitches/44-asja-obituary-article-resource.md` | Supplemental obituary article resource for writers | https://www.finalnotes.page/obituary-articles/ | ASJA has a current obituary-writing craft article and professional nonfiction writer audience. |
+| 47 | Northeastern School of Journalism / CAMD | https://camd.northeastern.edu/contact/ or media@northeastern.edu | `docs/seo/pitches/45-northeastern-obituary-article-resource.md` | Supplemental obituary article examples for journalism students | https://www.finalnotes.page/obituary-articles/ | Northeastern published a journalism-school article on obituary-writing craft and importance. |
 | Hold | Chronic Joy | https://chronic-joy.org/write-for-us/ | `docs/seo/pitches/19-chronic-joy-obituary-reflection-post.md` | Human-written grief/lament reflection post only if invited | https://www.finalnotes.page/obituary-story-worksheet/ | Submission page is by invitation and rejects AI-generated content, so hold unless a human-written personal essay is invited. |
 
 ## Hold / Monitor
@@ -66,6 +71,7 @@ Use this file as the next execution list. Send manually, one by one, after check
 - Ask for editorial consideration, review consideration, guest post placement, or resource inclusion. Do not ask for SEO value.
 - Use the target page that best fits the editor's audience:
   - Definition/form essays: `https://www.finalnotes.page/what-are-obituary-comics/`
+  - Journalism lessons, newsroom resources, and feature-obituary article discussions: `https://www.finalnotes.page/obituary-articles/`
   - Obituary-writing and family-history how-to articles: `https://www.finalnotes.page/how-to-write-an-obituary-story/`
   - Prompt lists, legacy interview questions, and hospice legacy projects: `https://www.finalnotes.page/obituary-writing-prompts/`
   - Obituary example and wording-example pages: `https://www.finalnotes.page/obituary-examples/`
@@ -154,6 +160,16 @@ Send these after the prompts/legacy-interview batch. Use `/life-story-obituary-t
 3. obituary.design: story-focused companion to editable obituary templates.
 4. Allen Funeral Home: supplemental family obituary template resource.
 5. Bateman-Allen Funeral Home: supplemental story-first obituary template.
+
+## Ninth Batch: Journalism and Article-Writing Resources
+
+Send these after the template/resource batch. Use `/obituary-articles/` for journalism lessons, newsroom resources, feature-obituary discussions, article-writing resources, and media criticism pitches:
+
+1. Poynter: reported journalism craft pitch, not a resource-link ask.
+2. Columbia Journalism Review: media criticism/reporting pitch about obituary articles and local-news memory work.
+3. Journalism Education Association: resource suggestion for obituary article, feature-writing, and sensitive reporting lessons.
+4. ASJA: supplemental obituary article craft resource or member-led publication idea.
+5. Northeastern School of Journalism / CAMD: supplemental teaching/example resource for obituary-writing craft.
 
 ## Follow-Up Timing
 

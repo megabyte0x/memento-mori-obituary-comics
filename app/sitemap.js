@@ -7,6 +7,7 @@ export default function sitemap() {
   return [
     { url: absoluteUrl("/"), lastModified: latest, changeFrequency: "daily", priority: 1 },
     { url: absoluteUrl("/obituary-stories/"), lastModified: latest, changeFrequency: "weekly", priority: 0.9 },
+    { url: absoluteUrl("/obituary-articles/"), lastModified: latest, changeFrequency: "monthly", priority: 0.875 },
     { url: absoluteUrl("/how-to-write-an-obituary-story/"), lastModified: latest, changeFrequency: "monthly", priority: 0.88 },
     { url: absoluteUrl("/obituary-writing-prompts/"), lastModified: latest, changeFrequency: "monthly", priority: 0.87 },
     { url: absoluteUrl("/life-story-obituary-template/"), lastModified: latest, changeFrequency: "monthly", priority: 0.865 },

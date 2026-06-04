@@ -44,6 +44,11 @@ const linkTargets = [
     note: "Best canonical link for obituary stories, obituary articles, visual obituaries, and keyword-focused roundups.",
   },
   {
+    label: "Obituary articles and visual life stories",
+    href: "/obituary-articles/",
+    note: "Best canonical link for journalism lessons, article-writing resources, feature-obituary discussions, and newsroom/classroom links.",
+  },
+  {
     label: "How to write an obituary story",
     href: "/how-to-write-an-obituary-story/",
     note: "Best canonical link for obituary-writing guides, grief-writing essays, family-history resources, and deathcare article references.",

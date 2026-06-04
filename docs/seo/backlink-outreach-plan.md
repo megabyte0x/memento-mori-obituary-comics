@@ -25,6 +25,7 @@ Primary goal: earn relevant editorial links that help the obituary comics archiv
 | --- | --- | --- |
 | Broad coverage | https://www.finalnotes.page/ | Memento Mori Obituary Comics |
 | Obituary story keywords | https://www.finalnotes.page/obituary-stories/ | obituary stories and articles |
+| Journalism and obituary article keywords | https://www.finalnotes.page/obituary-articles/ | obituary articles |
 | Obituary writing and family-history how-to keywords | https://www.finalnotes.page/how-to-write-an-obituary-story/ | how to write an obituary story |
 | Obituary prompt and legacy interview links | https://www.finalnotes.page/obituary-writing-prompts/ | obituary writing prompts |
 | Obituary examples and wording-example links | https://www.finalnotes.page/obituary-examples/ | obituary examples |
@@ -111,6 +112,16 @@ Primary goal: earn relevant editorial links that help the obituary comics archiv
 | Allen Funeral Home | Maintains commonly used forms and family resource surfaces. | Suggest the life story template as a supplemental worksheet-style resource for families preparing obituary information. | `/life-story-obituary-template/` |
 | Bateman-Allen Funeral Home | Publishes an obituary-writing resource page with family-facing instructions. | Suggest the template page as an additional story-first obituary-writing resource. | `/life-story-obituary-template/` |
 
+## Tier 2F Journalism and Obituary Article Resources
+
+| Target | Why it fits | Ask | Target URL |
+| --- | --- | --- | --- |
+| Poynter | Publishes obituary reporting guidance and feature-obituary journalism coverage. | Pitch a reported journalism craft essay on visual obituary articles, not a resource-link request. | `/obituary-articles/` |
+| Columbia Journalism Review | Covers the media industry, journalism standards, and reporting forms. | Pitch a media criticism/reporting piece about obituary articles, local news, and visual life-story formats. | `/obituary-articles/` |
+| Journalism Education Association | Publishes curriculum and writing resources for journalism teachers and advisers. | Suggest the page as a classroom resource for obituary article, feature writing, and sensitive reporting lessons. | `/obituary-articles/` |
+| American Society of Journalists and Authors | Published a current obituary-writing craft article for professional nonfiction writers. | Suggest the page as a supplemental writer resource or member-led ASJA Confidential craft idea. | `/obituary-articles/` |
+| Northeastern School of Journalism / CAMD | Published a journalism-school article on the craft and importance of obituary writing. | Suggest the page as a supplemental teaching/example resource for journalism students. | `/obituary-articles/` |
+
 ## Tier 3 Obituary, Deathcare, and Genealogy Targets
 
 | Target | Why it fits | Ask | Target URL |
@@ -139,13 +150,14 @@ Primary goal: earn relevant editorial links that help the obituary comics archiv
 4. Send the second batch: Graphic Medicine, Bradley University Graphic Medicine guide, UCLA Comics Studies guide, and Comics Beat.
 5. Send the obituary/deathcare/genealogy batch: Grief Collective, Family History Fanatics, Free UK Genealogy, TalkDeath, Order of the Good Death, Remembering A Life, and NGS Magazine where compliance requirements are met.
 6. If the art is not generative AI, send Broken Frontier a review request with 2-3 interior pages. If it is generative AI, skip them.
-7. Use `/how-to-write-an-obituary-story/` as the primary link target for obituary-writing, deathcare, and genealogy how-to links; use `/obituary-writing-prompts/` for prompt lists, legacy interview questions, and hospice legacy projects; use `/obituary-examples/` for obituary example and wording-example asks; use `/life-story-obituary-template/` for template roundups and memorial-program template resources; use `/obituary-story-worksheet/` for worksheet/resource-list asks; use `/obituary-stories/` for story roundups and `/what-are-obituary-comics/` for form definitions.
+7. Use `/how-to-write-an-obituary-story/` as the primary link target for obituary-writing, deathcare, and genealogy how-to links; use `/obituary-articles/` for journalism lessons, newsroom resources, and feature-obituary article asks; use `/obituary-writing-prompts/` for prompt lists, legacy interview questions, and hospice legacy projects; use `/obituary-examples/` for obituary example and wording-example asks; use `/life-story-obituary-template/` for template roundups and memorial-program template resources; use `/obituary-story-worksheet/` for worksheet/resource-list asks; use `/obituary-stories/` for story roundups and `/what-are-obituary-comics/` for form definitions.
 8. Keep Modern Loss on hold until its Submittable page reopens; do not send to closed calls.
 9. Send the consumer/resource-hub batch after the worksheet batch: ObituariesHelp, Funeral Consumers Alliance, FCA Connecticut, FCA Finger Lakes, Funeral Cost Analyzer, and Brown's Cremation.
 10. Send the obituary examples batch after the resource-hub batch: Farewelling, US Urns Online, Obit Options, OBITUARe, and Brattleboro Area Hospice.
 11. Send the prompts/legacy-interview batch after the examples batch: Obit DIY, Cooperative Memorial Society, Horan & McConaty, LifeEcho, and Hospice Waterloo Region.
 12. Send the template/resource batch after the prompts batch: FuneralFolio, CreateMemorial, obituary.design, Allen Funeral Home, and Bateman-Allen Funeral Home.
-13. Track every outreach in a spreadsheet: target, contact URL/email, date sent, pitch angle, linked URL, reply, live URL, anchor text, follow/nofollow, notes.
+13. Send the journalism/article-writing batch after the template batch: Poynter, Columbia Journalism Review, JEA, ASJA, and Northeastern CAMD.
+14. Track every outreach in a spreadsheet: target, contact URL/email, date sent, pitch angle, linked URL, reply, live URL, anchor text, follow/nofollow, notes.
 
 ## Pitch Templates
 

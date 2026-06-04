@@ -16,6 +16,7 @@ test("Mixpanel event taxonomy covers core site activity", () => {
 test("pageTypeFromPath classifies public routes", () => {
   assert.equal(pageTypeFromPath("/"), "home");
   assert.equal(pageTypeFromPath("/obituary-stories/"), "obituary_stories");
+  assert.equal(pageTypeFromPath("/obituary-articles/"), "obituary_articles");
   assert.equal(pageTypeFromPath("/how-to-write-an-obituary-story/"), "obituary_writing_guide");
   assert.equal(pageTypeFromPath("/obituary-writing-prompts/"), "obituary_writing_prompts");
   assert.equal(pageTypeFromPath("/life-story-obituary-template/"), "life_story_obituary_template");

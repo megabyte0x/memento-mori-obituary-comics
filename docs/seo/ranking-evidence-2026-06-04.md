@@ -23,6 +23,7 @@ This supports using `https://www.finalnotes.page/obituary-story-worksheet/` and 
 It also supports using `https://www.finalnotes.page/obituary-examples/` for example roundups, wording resources, and sample-story pages.
 Prompt and legacy-interview searches surfaced a separate opportunity: families, funeral homes, hospice teams, and memory-preservation services need question banks before they draft. That supports using `https://www.finalnotes.page/obituary-writing-prompts/` for prompt-list, legacy interview, hospice legacy activity, and family-history interview resources.
 Template searches surfaced another gap: high-ranking pages mostly offer generic fill-in-the-blank obituary templates or design/program templates, while few separate life-story structure, source checks, and family privacy decisions. That supports using `https://www.finalnotes.page/life-story-obituary-template/` for template roundups, memorial-program resources, editable template sites, and funeral-home pages that already help families draft obituary text.
+Obituary article and journalism searches surfaced a separate editorial lane: Poynter, ASJA, Northeastern, JEA, and CJR-style pages treat obituaries as reporting, feature writing, classroom material, and media craft. That supports using `https://www.finalnotes.page/obituary-articles/` for journalism lessons, article-writing resources, feature-obituary discussions, and media criticism pitches.
 
 ## High-Fit Sources Found In This Pass
 
@@ -49,6 +50,11 @@ Template searches surfaced another gap: high-ranking pages mostly offer generic 
 | obituary.design | Publishes editable obituary template resources and design-focused memorial content. | `/life-story-obituary-template/` | Pitch added |
 | Allen Funeral Home | Maintains family forms/resources that can support obituary drafting. | `/life-story-obituary-template/` | Pitch added |
 | Bateman-Allen Funeral Home | Publishes an obituary-writing guide with direct family-facing relevance. | `/life-story-obituary-template/` | Pitch added |
+| Poynter | Publishes obituary reporting and feature-obituary journalism guidance. | `/obituary-articles/` | Pitch added |
+| Columbia Journalism Review | Accepts pitches about contemporary concerns in journalism and media practice. | `/obituary-articles/` | Pitch added |
+| Journalism Education Association | Maintains journalism curriculum and writing resources for teachers/advisers. | `/obituary-articles/` | Pitch added |
+| American Society of Journalists and Authors | Published a current obituary-writing craft article for professional writers. | `/obituary-articles/` | Pitch added |
+| Northeastern School of Journalism / CAMD | Published an obituary-writing craft article and has a journalism-student audience. | `/obituary-articles/` | Pitch added |
 
 ## Completion Rule
 

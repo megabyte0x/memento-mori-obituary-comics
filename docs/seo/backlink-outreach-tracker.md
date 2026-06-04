@@ -3,6 +3,7 @@
 Date: 2026-06-04
 Canonical host: https://www.finalnotes.page/
 Primary link target for obituary-story keywords: https://www.finalnotes.page/obituary-stories/
+Primary link target for obituary article and journalism keywords: https://www.finalnotes.page/obituary-articles/
 Primary link target for obituary-writing and family-history how-to keywords: https://www.finalnotes.page/how-to-write-an-obituary-story/
 Primary link target for obituary prompts and legacy interview keywords: https://www.finalnotes.page/obituary-writing-prompts/
 Primary link target for obituary examples and wording-example keywords: https://www.finalnotes.page/obituary-examples/
@@ -64,6 +65,11 @@ Execution queue: `docs/seo/backlink-send-queue.md`
 | P3 | obituary.design | mail@obituary.design | Story-focused companion resource for editable obituary template users. | https://www.finalnotes.page/life-story-obituary-template/ | obituary story template |
 | P3 | Allen Funeral Home | https://www.allenfuneralhome.us/contact-us | Supplemental family obituary template resource. | https://www.finalnotes.page/life-story-obituary-template/ | obituary template |
 | P3 | Bateman-Allen Funeral Home | https://www.batemanallenfuneralhome.com/contact-us/ | Supplemental story-first obituary template for its obituary-writing guide. | https://www.finalnotes.page/life-story-obituary-template/ | life story obituary template |
+| P1 | Poynter | pitch@poynter.org or https://www.poynter.org/contact-us/ | Reported journalism craft pitch about visual obituary articles and obituary reporting. | https://www.finalnotes.page/obituary-articles/ | obituary articles |
+| P1 | Columbia Journalism Review | editors@cjr.org | Media criticism/reporting pitch about obituary articles, local news, and visual life-story formats. | https://www.finalnotes.page/obituary-articles/ | obituary articles |
+| P2 | Journalism Education Association | staff@jea.org or https://jea.org/contact/ | Classroom resource suggestion for obituary article, feature-writing, and sensitive reporting lessons. | https://www.finalnotes.page/obituary-articles/ | obituary article lesson |
+| P2 | American Society of Journalists and Authors | asjaoffice@asja.org | Supplemental obituary article resource or member-led craft pitch. | https://www.finalnotes.page/obituary-articles/ | obituary article resource |
+| P2 | Northeastern School of Journalism / CAMD | https://camd.northeastern.edu/contact/ or media@northeastern.edu | Supplemental journalism-student examples for obituary writing craft. | https://www.finalnotes.page/obituary-articles/ | obituary articles |
 | Hold | Chronic Joy | https://chronic-joy.org/write-for-us/ | Human-written grief/lament post only if invited. | https://www.finalnotes.page/obituary-story-worksheet/ | obituary reflection worksheet |
 
 ## Send Log
@@ -109,6 +115,11 @@ Execution queue: `docs/seo/backlink-send-queue.md`
 |  | obituary.design | `docs/seo/pitches/38-obituary-design-template-resource.md` | /life-story-obituary-template/ |  |  |  |  | Editable template target |
 |  | Allen Funeral Home | `docs/seo/pitches/39-allen-funeral-home-template-supplement.md` | /life-story-obituary-template/ |  |  |  |  | Funeral-home forms/resource target |
 |  | Bateman-Allen Funeral Home | `docs/seo/pitches/40-bateman-allen-obituary-template-supplement.md` | /life-story-obituary-template/ |  |  |  |  | Funeral-home obituary guide target |
+|  | Poynter | `docs/seo/pitches/41-poynter-obituary-articles-feature-pitch.md` | /obituary-articles/ |  |  |  |  | Journalism craft pitch |
+|  | Columbia Journalism Review | `docs/seo/pitches/42-cjr-obituary-journalism-pitch.md` | /obituary-articles/ |  |  |  |  | Media criticism pitch |
+|  | Journalism Education Association | `docs/seo/pitches/43-jea-obituary-article-lesson-resource.md` | /obituary-articles/ |  |  |  |  | Classroom resource target |
+|  | American Society of Journalists and Authors | `docs/seo/pitches/44-asja-obituary-article-resource.md` | /obituary-articles/ |  |  |  |  | Professional writer resource target |
+|  | Northeastern School of Journalism / CAMD | `docs/seo/pitches/45-northeastern-obituary-article-resource.md` | /obituary-articles/ |  |  |  |  | Journalism-school resource target |
 |  | Chronic Joy | `docs/seo/pitches/19-chronic-joy-obituary-reflection-post.md` | /obituary-story-worksheet/ | Hold unless invited |  |  |  | Human-written only |
 |  | Modern Loss | Hold until submissions reopen | /obituary-stories/ | No open calls on 2026-06-04 |  |  |  | Check weekly |
 
