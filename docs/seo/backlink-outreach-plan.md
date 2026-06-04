@@ -8,7 +8,7 @@ Primary goal: earn relevant editorial links that help the obituary comics archiv
 
 - Live non-www host redirects to `https://www.finalnotes.page/`.
 - This pass normalizes the app default canonical URL to `https://www.finalnotes.page/`.
-- Live sitemap and robots were reachable during the check, but live `/llms.txt` returned a production 500 before this pass.
+- Live sitemap, robots, and `/llms.txt` are reachable on the canonical `www.finalnotes.page` host after the latest Vercel verification.
 - Web search checks surfaced the Reddit post about FinalNotes, but did not surface canonical `finalnotes.page` pages for exact brand/site queries in the sampled results.
 
 ## Link Rules
@@ -67,11 +67,12 @@ Primary goal: earn relevant editorial links that help the obituary comics archiv
 
 1. Deploy the `/press/` page and verify sitemap, robots, canonical, and `/llms.txt` on production.
 2. Submit the current sitemap in Google Search Console and request indexing for `/`, `/press/`, `/about/`, and the latest three comic pages.
-3. Send five Tier 1 pitches from `docs/seo/backlink-outreach-tracker.md`: Modern Loss, Beyond the Dash, SOLRAD, The Comics Journal, and Graphic Medicine.
-4. Send two news/review tips: Comics Beat and The Nib.
+3. Send the first-day Tier 1 pitches from `docs/seo/backlink-send-queue.md`: SOLRAD, The Comics Journal, and Beyond the Dash.
+4. Send the second batch: Graphic Medicine, Bradley University Graphic Medicine guide, UCLA Comics Studies guide, and Comics Beat.
 5. If the art is not generative AI, send Broken Frontier a review request with 2-3 interior pages. If it is generative AI, skip them.
 6. Use `/obituary-stories/` as the primary link target for obituary-stories and obituary-articles searches; create one longer linkable essay if pitches still need a stronger asset: "What Are Obituary Comics?"
-7. Track every outreach in a spreadsheet: target, contact URL/email, date sent, pitch angle, linked URL, reply, live URL, anchor text, follow/nofollow, notes.
+7. Keep Modern Loss on hold until its Submittable page reopens; do not send to closed calls.
+8. Track every outreach in a spreadsheet: target, contact URL/email, date sent, pitch angle, linked URL, reply, live URL, anchor text, follow/nofollow, notes.
 
 ## Pitch Templates
 
