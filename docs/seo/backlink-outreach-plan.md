@@ -31,6 +31,7 @@ Primary goal: earn relevant editorial links that help the obituary comics archiv
 | Obituary vs death notice and funeral-notice keywords | https://www.finalnotes.page/obituary-vs-death-notice/ | obituary vs death notice |
 | Obituary vs eulogy and spoken tribute keywords | https://www.finalnotes.page/obituary-vs-eulogy/ | obituary vs eulogy |
 | Obituary privacy, identity-theft, and scam-safety keywords | https://www.finalnotes.page/what-not-to-include-in-an-obituary/ | what not to include in an obituary |
+| Fake obituary sites, obituary piracy, and scam-verification keywords | https://www.finalnotes.page/fake-obituary-sites/ | fake obituary sites |
 | Obituary writing and family-history how-to keywords | https://www.finalnotes.page/how-to-write-an-obituary-story/ | how to write an obituary story |
 | Obituary prompt and legacy interview links | https://www.finalnotes.page/obituary-writing-prompts/ | obituary writing prompts |
 | Obituary examples and wording-example links | https://www.finalnotes.page/obituary-examples/ | obituary examples |
@@ -178,6 +179,17 @@ Primary goal: earn relevant editorial links that help the obituary comics archiv
 | Cornwell Funeral Homes | Maintains an identity-theft protection page tied to obituaries and genealogy sites. | Suggest the checklist as a family-facing resource for obituary details to leave out or generalize. | `/what-not-to-include-in-an-obituary/` |
 | Hospice Fredericton | Publishes obituary scam and fraudulent-call guidance for families. | Suggest the checklist as a pre-publication companion to reduce fake memorial and payment-scam exposure. | `/what-not-to-include-in-an-obituary/` |
 
+## Tier 2L Fake Obituary Sites, Obituary Piracy, and Scam-Verification Resources
+
+| Target | Why it fits | Ask | Target URL |
+| --- | --- | --- | --- |
+| Michigan Attorney General Consumer Protection Team | State consumer alert specifically warns about obituary pirates, fake donation risk, and verification of online obituary activity. | Suggest the fake-obituary checklist as a plain-language companion for families who need to verify a suspicious obituary result before donating or sharing. | `/fake-obituary-sites/` |
+| Consumer Protection BC | Funeral-sector regulator warning about copied obituaries, donation requests, funeral-home licensing checks, and fraud reporting. | Suggest the checklist as a family-facing follow-up resource for readers outside BC and for obituary-result verification steps. | `/fake-obituary-sites/` |
+| Bereavement Authority of Ontario | Regulator notice warns consumers to verify obituary or death-notice pages and donation/gift links. | Suggest the checklist as a practical companion for readers checking unfamiliar obituary hosts and donation links. | `/fake-obituary-sites/` |
+| Funeralwise | Publishes a current guide on fake obituaries, suspicious sources, inconsistent details, unverified fundraising, and fake obituary warning signs. | Suggest the checklist as a concise verification workflow that complements its fake-obituary warning signs. | `/fake-obituary-sites/` |
+| Sophos Counter Threat Unit | Security research covers AI-generated fake obituary sites, redirects, fake virus warnings, and SEO abuse. | Suggest the checklist as a consumer-facing companion for nontechnical readers who find suspicious obituary results. | `/fake-obituary-sites/` |
+| WKYT Investigates | Local-news investigation provides practical monitoring, documentation, reporting, and verified-link sharing steps after fake obituaries appear. | Suggest the checklist as an evergreen family-facing resource for readers handling fake obituary search results. | `/fake-obituary-sites/` |
+
 ## Tier 3 Obituary, Deathcare, and Genealogy Targets
 
 | Target | Why it fits | Ask | Target URL |
@@ -206,7 +218,7 @@ Primary goal: earn relevant editorial links that help the obituary comics archiv
 4. Send the second batch: Graphic Medicine, Bradley University Graphic Medicine guide, UCLA Comics Studies guide, and Comics Beat.
 5. Send the obituary/deathcare/genealogy batch: Grief Collective, Family History Fanatics, Free UK Genealogy, TalkDeath, Order of the Good Death, Remembering A Life, and NGS Magazine where compliance requirements are met.
 6. If the art is not generative AI, send Broken Frontier a review request with 2-3 interior pages. If it is generative AI, skip them.
-7. Use `/how-to-write-an-obituary-story/` as the primary link target for obituary-writing, deathcare, and family-history how-to links; use `/obituary-research-guide/` for obituary search, genealogy, local-history, and library research links; use `/obituary-vs-death-notice/` for newspaper help pages, funeral-home resources, death-notice explainers, and library obituary-index pages; use `/obituary-vs-eulogy/` for funeral-home planning pages, bereavement resources, eulogy-writing articles, memorial-program guides, and obituary/eulogy comparison pages; use `/what-not-to-include-in-an-obituary/` for obituary privacy, identity-theft, consumer-safety, and bereavement scam-safety pages; use `/obituary-articles/` for newsroom resources and feature-obituary article asks; use `/obituary-lesson-plan/` for journalism lessons, ELA writing lessons, lesson-plan repositories, and classroom resource pages; use `/obituary-writing-prompts/` for prompt lists, legacy interview questions, and hospice legacy projects; use `/obituary-examples/` for obituary example and wording-example asks; use `/life-story-obituary-template/` for template roundups and memorial-program template resources; use `/obituary-story-worksheet/` for worksheet/resource-list asks; use `/obituary-stories/` for story roundups and `/what-are-obituary-comics/` for form definitions.
+7. Use `/how-to-write-an-obituary-story/` as the primary link target for obituary-writing, deathcare, and family-history how-to links; use `/obituary-research-guide/` for obituary search, genealogy, local-history, and library research links; use `/obituary-vs-death-notice/` for newspaper help pages, funeral-home resources, death-notice explainers, and library obituary-index pages; use `/obituary-vs-eulogy/` for funeral-home planning pages, bereavement resources, eulogy-writing articles, memorial-program guides, and obituary/eulogy comparison pages; use `/what-not-to-include-in-an-obituary/` for obituary privacy, identity-theft, consumer-safety, and bereavement scam-safety pages; use `/fake-obituary-sites/` for fake obituary sites, obituary piracy, copied death notices, fake donation links, and suspicious obituary verification; use `/obituary-articles/` for newsroom resources and feature-obituary article asks; use `/obituary-lesson-plan/` for journalism lessons, ELA writing lessons, lesson-plan repositories, and classroom resource pages; use `/obituary-writing-prompts/` for prompt lists, legacy interview questions, and hospice legacy projects; use `/obituary-examples/` for obituary example and wording-example asks; use `/life-story-obituary-template/` for template roundups and memorial-program template resources; use `/obituary-story-worksheet/` for worksheet/resource-list asks; use `/obituary-stories/` for story roundups and `/what-are-obituary-comics/` for form definitions.
 8. Keep Modern Loss on hold until its Submittable page reopens; do not send to closed calls.
 9. Send the consumer/resource-hub batch after the worksheet batch: ObituariesHelp, Funeral Consumers Alliance, FCA Connecticut, FCA Finger Lakes, Funeral Cost Analyzer, and Brown's Cremation.
 10. Send the obituary examples batch after the resource-hub batch: Farewelling, US Urns Online, Obit Options, OBITUARe, and Brattleboro Area Hospice.
@@ -218,7 +230,8 @@ Primary goal: earn relevant editorial links that help the obituary comics archiv
 16. Send the death-notice/explainer batch after the genealogy/research batch: NewspaperArchive, MERI, Milwaukee Public Library, Funeral.com, and Evermore Directory.
 17. Send the eulogy/spoken-tribute batch after the death-notice batch: Funeral Basics, Dignity Bereavement Support, In Tribute Eulogy Services, Grace Memorial Chapel, and Jones Funeral Home.
 18. Send the obituary privacy/scam-safety batch after the eulogy batch: AARP Fraud Watch Network, Experian, Trustworthy, Green Cremation Texas, Cornwell Funeral Homes, and Hospice Fredericton.
-19. Track every outreach in a spreadsheet: target, contact URL/email, date sent, pitch angle, linked URL, reply, live URL, anchor text, follow/nofollow, notes.
+19. Send the fake-obituary/obituary-piracy batch after the privacy batch: Michigan AG Consumer Protection Team, Consumer Protection BC, Bereavement Authority of Ontario, Funeralwise, Sophos Counter Threat Unit, and WKYT Investigates.
+20. Track every outreach in a spreadsheet: target, contact URL/email, date sent, pitch angle, linked URL, reply, live URL, anchor text, follow/nofollow, notes.
 
 ## Pitch Templates
 

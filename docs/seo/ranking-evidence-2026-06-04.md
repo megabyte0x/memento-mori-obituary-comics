@@ -29,6 +29,7 @@ Obituary search and genealogy searches surfaced another lane: Cyndi's List, Fami
 Obituary-vs-death-notice searches surfaced a separate newspaper and funeral-resource lane: Legacy, Empathy, NewspaperArchive, Washington Post, Funeral.com, MERI, and library genealogy pages all distinguish short public announcements from longer life-story obituaries. That supports using `https://www.finalnotes.page/obituary-vs-death-notice/` for newspaper help pages, funeral-home resources, library obituary indexes, and death-notice explainers.
 Obituary-vs-eulogy searches surfaced another funeral-home and bereavement-writing lane: Funeral Basics, Dignity Bereavement Support, In Tribute Eulogy Services, Grace Memorial Chapel, Hartford Funeral Home, and Jones Funeral Home all compare written obituaries with spoken eulogies or maintain resources for both. That supports using `https://www.finalnotes.page/obituary-vs-eulogy/` for funeral-home planning pages, bereavement resources, eulogy-writing articles, memorial-program guides, and obituary/eulogy comparison pages.
 What-not-to-include and obituary privacy searches surfaced a consumer-safety lane: AARP, Experian, Trustworthy, Green Cremation Texas, Cornwell Funeral Homes, Hospice Fredericton, CFPB, and FBI materials connect public obituary details to identity theft, debt-collector scams, fake memorial pages, funeral-home impostors, and empty-house risk. That supports using `https://www.finalnotes.page/what-not-to-include-in-an-obituary/` for funeral-home writing guides, consumer-safety pages, identity-theft explainers, obituary privacy resources, and bereavement scam-safety pages.
+Fake-obituary and obituary-piracy searches surfaced a related but distinct verification lane: Michigan AG, Consumer Protection BC, Bereavement Authority of Ontario, Funeralwise, Sophos CTU, and WKYT all cover copied obituaries, fake donation or gift links, AI-generated fake obituary pages, suspicious popups, and ways families can verify or report bad results. That supports using `https://www.finalnotes.page/fake-obituary-sites/` for consumer-protection notices, funeral-home scam warnings, cybersecurity explainers, media-literacy resources, and obituary-piracy references.
 
 ## High-Fit Sources Found In This Pass
 
@@ -86,6 +87,12 @@ What-not-to-include and obituary privacy searches surfaced a consumer-safety lan
 | Green Cremation Texas | Funeral-home obituary guide warns about identity-theft and empty-house risks. | `/what-not-to-include-in-an-obituary/` | Pitch added |
 | Cornwell Funeral Homes | Identity-theft protection page ties risk to obituary pages and genealogy sites. | `/what-not-to-include-in-an-obituary/` | Pitch added |
 | Hospice Fredericton | Family-facing obituary scam and fraudulent-call resource. | `/what-not-to-include-in-an-obituary/` | Pitch added |
+| Michigan AG Consumer Protection Team | State consumer alert warns about obituary pirates, fake donation risk, and suspicious online activity after a loved one's death. | `/fake-obituary-sites/` | Pitch added |
+| Consumer Protection BC | Funeral-sector regulator warning about copied obituaries, donation requests, licensing checks, and fraud reporting. | `/fake-obituary-sites/` | Pitch added |
+| Bereavement Authority of Ontario | Regulator notice warns consumers to verify obituary/death-notice hosts, funeral homes, and donation or gift links. | `/fake-obituary-sites/` | Pitch added |
+| Funeralwise | Current family-facing guide to fake obituaries, suspicious sources, inconsistent details, and unverified fundraising. | `/fake-obituary-sites/` | Pitch added |
+| Sophos Counter Threat Unit | Security research covers AI-generated fake obituary sites, suspicious redirects, browser-notification traps, and SEO abuse. | `/fake-obituary-sites/` | Pitch added |
+| WKYT Investigates | Local-news investigation gives practical monitoring, documentation, reporting, and verified-link sharing steps for fake obituaries. | `/fake-obituary-sites/` | Pitch added |
 
 ## Completion Rule
 

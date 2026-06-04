@@ -82,6 +82,12 @@ Use this file as the next execution list. Send manually, one by one, after check
 | 71 | Green Cremation Texas | https://www.cremation.green/contact/ or current funeral-home contact path | `docs/seo/pitches/69-green-cremation-obituary-privacy-resource.md` | Supplemental privacy checklist for obituary-writing families | https://www.finalnotes.page/what-not-to-include-in-an-obituary/ | Funeral-home obituary guide already warns about identity-theft and empty-house risks. |
 | 72 | Cornwell Funeral Homes | https://www.cornwellfuneralhomes.com/contact-us or current site contact path | `docs/seo/pitches/70-cornwell-funeral-home-identity-theft-resource.md` | Resource suggestion for obituary identity-theft protection page | https://www.finalnotes.page/what-not-to-include-in-an-obituary/ | Funeral-home identity-theft page explicitly ties risk to obituary pages and genealogy sites. |
 | 73 | Hospice Fredericton | https://hospicefredericton.ca/contact/ or current site contact path | `docs/seo/pitches/71-hospice-fredericton-obituary-scam-resource.md` | Supplemental obituary scam-safety checklist | https://www.finalnotes.page/what-not-to-include-in-an-obituary/ | Hospice family resource already warns about obituary scams and fraudulent calls. |
+| 74 | Michigan AG Consumer Protection Team | https://www.michigan.gov/ag/about/contact-us or Consumer Protection Team complaint/contact path | `docs/seo/pitches/72-michigan-ag-obituary-piracy-resource.md` | Supplemental fake-obituary checklist for obituary-piracy readers | https://www.finalnotes.page/fake-obituary-sites/ | State consumer alert specifically warns about obituary pirates, fake donation risk, and verification. |
+| 75 | Consumer Protection BC | https://www.consumerprotectionbc.ca/contact-us/ or media contact on current release | `docs/seo/pitches/73-consumer-protection-bc-obituary-piracy-resource.md` | Family-facing fake-obituary checklist for obituary scam readers | https://www.finalnotes.page/fake-obituary-sites/ | Funeral-sector regulator warning about copied obituaries, donation requests, licensing checks, and fraud reporting. |
+| 76 | Bereavement Authority of Ontario | https://thebao.ca/contact-us/ or licensing/contact path on the notice | `docs/seo/pitches/74-bao-obituary-piracy-resource.md` | Supplemental fake-obituary verification checklist | https://www.finalnotes.page/fake-obituary-sites/ | Regulator notice warns consumers to verify obituary pages, funeral homes, and donation/gift links. |
+| 77 | Funeralwise | https://www.funeralwise.com/contact-us/ or current editorial/contact path | `docs/seo/pitches/75-funeralwise-fake-obituary-resource.md` | Companion checklist for fake obituary warning signs | https://www.finalnotes.page/fake-obituary-sites/ | Current family-facing fake-obituary guide already covers suspicious sources and unverified fundraising. |
+| 78 | Sophos Counter Threat Unit | https://www.sophos.com/en-us/contact-us or current blog/security research contact path | `docs/seo/pitches/76-sophos-fake-obituary-sites-resource.md` | Consumer companion for fake obituary site research | https://www.finalnotes.page/fake-obituary-sites/ | Security research covers AI-generated fake obituary sites, redirects, fake virus warnings, and SEO abuse. |
+| 79 | WKYT Investigates | https://www.wkyt.com/about-us/contact-us/ or reporter contact on the article | `docs/seo/pitches/77-wkyt-fake-obituary-resource.md` | Evergreen fake-obituary checklist for families | https://www.finalnotes.page/fake-obituary-sites/ | Local-news investigation provides practical monitoring, documentation, reporting, and verified-link sharing steps. |
 | Hold | Chronic Joy | https://chronic-joy.org/write-for-us/ | `docs/seo/pitches/19-chronic-joy-obituary-reflection-post.md` | Human-written grief/lament reflection post only if invited | https://www.finalnotes.page/obituary-story-worksheet/ | Submission page is by invitation and rejects AI-generated content, so hold unless a human-written personal essay is invited. |
 
 ## Hold / Monitor
@@ -103,6 +109,7 @@ Use this file as the next execution list. Send manually, one by one, after check
   - Newspaper help pages, funeral-home resources, death-notice explainers, and library obituary-index pages: `https://www.finalnotes.page/obituary-vs-death-notice/`
   - Funeral-home planning pages, bereavement resources, eulogy-writing articles, memorial-program guides, and obituary/eulogy comparison pages: `https://www.finalnotes.page/obituary-vs-eulogy/`
   - Obituary privacy, identity-theft, consumer-safety, and bereavement scam-safety pages: `https://www.finalnotes.page/what-not-to-include-in-an-obituary/`
+  - Fake obituary sites, obituary piracy, copied death notices, fake donation links, and suspicious obituary verification: `https://www.finalnotes.page/fake-obituary-sites/`
   - Obituary-writing and family-history how-to articles: `https://www.finalnotes.page/how-to-write-an-obituary-story/`
   - Prompt lists, legacy interview questions, and hospice legacy projects: `https://www.finalnotes.page/obituary-writing-prompts/`
   - Obituary example and wording-example pages: `https://www.finalnotes.page/obituary-examples/`
@@ -252,6 +259,17 @@ Send these after the eulogy/spoken-tribute batch. Use `/what-not-to-include-in-a
 4. Green Cremation Texas: funeral-home privacy pass for obituary-writing families.
 5. Cornwell Funeral Homes: practical checklist for identity-theft protection readers.
 6. Hospice Fredericton: family-facing scam-safety supplement for obituary scam guidance.
+
+## Fifteenth Batch: Fake Obituary Sites, Obituary Piracy, and Scam Verification
+
+Send these after the privacy/scam-safety batch. Use `/fake-obituary-sites/` for fake obituary sites, obituary piracy, copied death notices, fake donation links, fake memorial pages, and suspicious obituary verification:
+
+1. Michigan AG Consumer Protection Team: supplemental checklist for readers of the obituary-piracy consumer alert.
+2. Consumer Protection BC: family-facing verification checklist for copied obituary and donation-scam warnings.
+3. Bereavement Authority of Ontario: companion resource for verifying obituary pages, funeral homes, and donation/gift links.
+4. Funeralwise: concise verification workflow for readers checking fake obituary warning signs.
+5. Sophos Counter Threat Unit: consumer-facing companion for security research on fake obituary domains and popups.
+6. WKYT Investigates: evergreen checklist for families handling fake obituary search results.
 
 ## Follow-Up Timing
 

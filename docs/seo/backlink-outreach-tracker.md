@@ -9,6 +9,7 @@ Primary link target for obituary research, genealogy, and library search keyword
 Primary link target for obituary vs death notice and funeral-notice keywords: https://www.finalnotes.page/obituary-vs-death-notice/
 Primary link target for obituary vs eulogy and spoken-tribute keywords: https://www.finalnotes.page/obituary-vs-eulogy/
 Primary link target for obituary privacy, identity-theft, and scam-safety keywords: https://www.finalnotes.page/what-not-to-include-in-an-obituary/
+Primary link target for fake obituary sites, obituary piracy, and scam-verification keywords: https://www.finalnotes.page/fake-obituary-sites/
 Primary link target for obituary-writing and family-history how-to keywords: https://www.finalnotes.page/how-to-write-an-obituary-story/
 Primary link target for obituary prompts and legacy interview keywords: https://www.finalnotes.page/obituary-writing-prompts/
 Primary link target for obituary examples and wording-example keywords: https://www.finalnotes.page/obituary-examples/
@@ -101,6 +102,12 @@ Execution queue: `docs/seo/backlink-send-queue.md`
 | P3 | Green Cremation Texas | https://www.cremation.green/contact/ or current funeral-home contact path | Funeral-home privacy pass for obituary-writing families. | https://www.finalnotes.page/what-not-to-include-in-an-obituary/ | obituary privacy checklist |
 | P3 | Cornwell Funeral Homes | https://www.cornwellfuneralhomes.com/contact-us or current site contact path | Practical checklist for identity-theft protection readers. | https://www.finalnotes.page/what-not-to-include-in-an-obituary/ | obituary identity theft checklist |
 | P2 | Hospice Fredericton | https://hospicefredericton.ca/contact/ or current site contact path | Family-facing scam-safety supplement for obituary scam guidance. | https://www.finalnotes.page/what-not-to-include-in-an-obituary/ | obituary scam safety |
+| P1 | Michigan AG Consumer Protection Team | https://www.michigan.gov/ag/about/contact-us or Consumer Protection Team contact path | Supplemental checklist for obituary-piracy consumer-alert readers. | https://www.finalnotes.page/fake-obituary-sites/ | fake obituary sites |
+| P1 | Consumer Protection BC | https://www.consumerprotectionbc.ca/contact-us/ or media contact on current release | Family-facing checklist for copied obituary and donation-scam readers. | https://www.finalnotes.page/fake-obituary-sites/ | obituary piracy checklist |
+| P1 | Bereavement Authority of Ontario | https://thebao.ca/contact-us/ or licensing/contact path on the notice | Verification checklist for obituary pages, funeral homes, and donation/gift links. | https://www.finalnotes.page/fake-obituary-sites/ | fake obituary checklist |
+| P2 | Funeralwise | https://www.funeralwise.com/contact-us/ or current editorial/contact path | Companion workflow for fake obituary warning signs. | https://www.finalnotes.page/fake-obituary-sites/ | fake obituary sites |
+| P2 | Sophos Counter Threat Unit | https://www.sophos.com/en-us/contact-us or current blog/security research contact path | Consumer-facing companion for fake obituary site security research. | https://www.finalnotes.page/fake-obituary-sites/ | fake obituary sites |
+| P2 | WKYT Investigates | https://www.wkyt.com/about-us/contact-us/ or reporter contact on the article | Evergreen checklist for families handling fake obituary search results. | https://www.finalnotes.page/fake-obituary-sites/ | fake obituary checklist |
 | Hold | Chronic Joy | https://chronic-joy.org/write-for-us/ | Human-written grief/lament post only if invited. | https://www.finalnotes.page/obituary-story-worksheet/ | obituary reflection worksheet |
 
 ## Send Log
@@ -177,6 +184,12 @@ Execution queue: `docs/seo/backlink-send-queue.md`
 |  | Green Cremation Texas | `docs/seo/pitches/69-green-cremation-obituary-privacy-resource.md` | /what-not-to-include-in-an-obituary/ |  |  |  |  | Funeral-home obituary privacy target |
 |  | Cornwell Funeral Homes | `docs/seo/pitches/70-cornwell-funeral-home-identity-theft-resource.md` | /what-not-to-include-in-an-obituary/ |  |  |  |  | Funeral-home identity-theft protection target |
 |  | Hospice Fredericton | `docs/seo/pitches/71-hospice-fredericton-obituary-scam-resource.md` | /what-not-to-include-in-an-obituary/ |  |  |  |  | Hospice obituary scam-safety target |
+|  | Michigan AG Consumer Protection Team | `docs/seo/pitches/72-michigan-ag-obituary-piracy-resource.md` | /fake-obituary-sites/ |  |  |  |  | Obituary-piracy consumer-alert target |
+|  | Consumer Protection BC | `docs/seo/pitches/73-consumer-protection-bc-obituary-piracy-resource.md` | /fake-obituary-sites/ |  |  |  |  | Funeral-sector regulator obituary-scam target |
+|  | Bereavement Authority of Ontario | `docs/seo/pitches/74-bao-obituary-piracy-resource.md` | /fake-obituary-sites/ |  |  |  |  | Obituary-piracy donation/gift verification target |
+|  | Funeralwise | `docs/seo/pitches/75-funeralwise-fake-obituary-resource.md` | /fake-obituary-sites/ |  |  |  |  | Fake-obituary warning-sign target |
+|  | Sophos Counter Threat Unit | `docs/seo/pitches/76-sophos-fake-obituary-sites-resource.md` | /fake-obituary-sites/ |  |  |  |  | Fake obituary security research companion |
+|  | WKYT Investigates | `docs/seo/pitches/77-wkyt-fake-obituary-resource.md` | /fake-obituary-sites/ |  |  |  |  | Local-news fake-obituary investigation target |
 |  | Chronic Joy | `docs/seo/pitches/19-chronic-joy-obituary-reflection-post.md` | /obituary-story-worksheet/ | Hold unless invited |  |  |  | Human-written only |
 |  | Modern Loss | Hold until submissions reopen | /obituary-stories/ | No open calls on 2026-06-04 |  |  |  | Check weekly |
 

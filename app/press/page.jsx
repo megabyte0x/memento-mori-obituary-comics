@@ -74,6 +74,11 @@ const linkTargets = [
     note: "Best canonical link for funeral-home writing guides, consumer-safety pages, identity-theft explainers, obituary privacy resources, and bereavement scam-safety pages.",
   },
   {
+    label: "Fake obituary sites",
+    href: "/fake-obituary-sites/",
+    note: "Best canonical link for consumer-protection notices, funeral-home scam warnings, cybersecurity explainers, media-literacy resources, obituary piracy references, and fake obituary checks.",
+  },
+  {
     label: "How to write an obituary story",
     href: "/how-to-write-an-obituary-story/",
     note: "Best canonical link for obituary-writing guides, grief-writing essays, family-history resources, and deathcare article references.",

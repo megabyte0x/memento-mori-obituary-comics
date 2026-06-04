@@ -275,7 +275,7 @@ export default function ObituaryResearchGuidePage() {
             <div>
               <h2 id="best-link">Best Link Target For Obituary Research Pages</h2>
               <p>
-                Use this page for genealogy resource lists, public-library research guides, obituary search directories, family-history newsletters, and local-history society pages. For drafting after research, use the <Link href="/how-to-write-an-obituary-story/">obituary story writing guide</Link> and <Link href="/obituary-story-worksheet/">obituary story worksheet</Link>. For finished source-backed examples, link to the <Link href="/obituary-stories/">obituary stories archive</Link>.
+                Use this page for genealogy resource lists, public-library research guides, obituary search directories, family-history newsletters, and local-history society pages. For checking whether a recent obituary result is copied, fabricated, or tied to a scam donation link, use the <Link href="/fake-obituary-sites/">fake obituary sites checklist</Link>. For drafting after research, use the <Link href="/how-to-write-an-obituary-story/">obituary story writing guide</Link> and <Link href="/obituary-story-worksheet/">obituary story worksheet</Link>. For finished source-backed examples, link to the <Link href="/obituary-stories/">obituary stories archive</Link>.
               </p>
             </div>
             <Link href="/obituary-research-guide/">{absoluteUrl("/obituary-research-guide/")}</Link>
