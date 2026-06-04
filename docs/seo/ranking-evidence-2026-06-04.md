@@ -22,6 +22,8 @@ The ranking goal is not complete. Current web search samples did not surface can
 
 2026-06-05 continuation check: searches for `free obituary generator`, `obituary generator`, `AI obituary generator`, `obituary creator`, and `obituary template generator` surfaced a distinct tool lane. Results were dominated by CreateMemorial, AI Written Obituary, aiwriter.ai, FuneralFolio, Gather, After, OBITUARe, Typli, Repixify, Rephrasely, memorial platforms, and funeral-home software/help pages. This supports adding `https://www.finalnotes.page/free-obituary-generator/` as a separate link target for private in-browser drafting, obituary creator resources, AI obituary writer comparisons, and draft-review workflows.
 
+2026-06-05 post-deploy check: after `https://www.finalnotes.page/free-obituary-generator/` returned `200` on the canonical domain and appeared in live `sitemap.xml` and `/llms.txt`, sampled searches for `site:finalnotes.page "free obituary generator"`, `"finalnotes.page/free-obituary-generator"`, `"free obituary generator" "finalnotes"`, and `"obituary generator" "finalnotes"` returned no results in the sampled web search result set. This confirms deployment and crawl-surface availability, but not indexing or first-page ranking.
+
 ## Search Landscape Observed
 
 SERP samples for obituary-writing, examples, and worksheet queries are dominated by:
