@@ -71,6 +71,11 @@ Use this file as the next execution list. Send manually, one by one, after check
 | 60 | Milwaukee Public Library | https://www.mpl.org/contact/ | `docs/seo/pitches/58-milwaukee-public-library-obituary-vs-death-notice.md` | Supplemental obituary and death notice explainer | https://www.finalnotes.page/obituary-vs-death-notice/ | MPL has a high-fit obituaries and death notices genealogy page with definitions and index guidance. |
 | 61 | Funeral.com | https://funeral.com/pages/contact-us | `docs/seo/pitches/59-funeralcom-obituary-vs-death-notice-resource.md` | Source-backed companion for obituary vs death notice readers | https://www.finalnotes.page/obituary-vs-death-notice/ | Funeral.com publishes current family-facing obituary-vs-death-notice guidance and related obituary resources. |
 | 62 | Evermore Directory | listings@funeralhomedirectories.com or https://funeralhomedirectories.com/contact | `docs/seo/pitches/60-evermore-directory-obituary-vs-death-notice-resource.md` | Supplemental obituary vs death notice resource | https://www.finalnotes.page/obituary-vs-death-notice/ | Funeral-home directory with a live obituary-vs-death-notice article and contact email. |
+| 63 | Funeral Basics | https://la.funeraldirectorslife.com/contact/ | `docs/seo/pitches/61-funeral-basics-obituary-vs-eulogy.md` | Supplemental obituary vs eulogy resource | https://www.finalnotes.page/obituary-vs-eulogy/ | Funeral Basics publishes a high-fit obituary/eulogy explainer and eulogy planning resources for funeral-home audiences. |
+| 64 | Dignity Bereavement Support | https://www.dignitybereavementsupport.com/contact or homepage contact path | `docs/seo/pitches/62-dignity-bereavement-obituary-vs-eulogy.md` | Supplemental obituary and eulogy comparison | https://www.finalnotes.page/obituary-vs-eulogy/ | Current bereavement-writing site with an obituary-vs-eulogy guide and family-facing writing support. |
+| 65 | In Tribute Eulogy Services | https://www.intributeeulogyservices.com/contact or site contact path | `docs/seo/pitches/63-in-tribute-obituary-vs-eulogy.md` | Resource suggestion for obituary and eulogy readers | https://www.finalnotes.page/obituary-vs-eulogy/ | Tribute-writing service with a live article comparing obituaries and eulogies. |
+| 66 | Grace Memorial Chapel | https://gracemortuary.com/resources/writing-a-eulogy-and-obituary/ | `docs/seo/pitches/64-grace-memorial-obituary-vs-eulogy.md` | Supplemental writing resource for eulogies and obituaries | https://www.finalnotes.page/obituary-vs-eulogy/ | Funeral-home resource page already helps families prepare both obituary and eulogy text. |
+| 67 | Jones Funeral Home | info@jonesfuneralhome.co or https://jonesfuneralhome.co/eulogies-obituaries/ | `docs/seo/pitches/65-jones-funeral-home-obituary-vs-eulogy.md` | Supplemental obituary and eulogy comparison resource | https://www.finalnotes.page/obituary-vs-eulogy/ | Funeral-home resource page explains eulogies and obituary notices and has a direct family-facing contact path. |
 | Hold | Chronic Joy | https://chronic-joy.org/write-for-us/ | `docs/seo/pitches/19-chronic-joy-obituary-reflection-post.md` | Human-written grief/lament reflection post only if invited | https://www.finalnotes.page/obituary-story-worksheet/ | Submission page is by invitation and rejects AI-generated content, so hold unless a human-written personal essay is invited. |
 
 ## Hold / Monitor
@@ -90,6 +95,7 @@ Use this file as the next execution list. Send manually, one by one, after check
   - Journalism lessons, ELA writing lessons, lesson-plan repositories, and classroom resource pages: `https://www.finalnotes.page/obituary-lesson-plan/`
   - Genealogy resource lists, public-library research guides, obituary search directories, family-history newsletters, and local-history society pages: `https://www.finalnotes.page/obituary-research-guide/`
   - Newspaper help pages, funeral-home resources, death-notice explainers, and library obituary-index pages: `https://www.finalnotes.page/obituary-vs-death-notice/`
+  - Funeral-home planning pages, bereavement resources, eulogy-writing articles, memorial-program guides, and obituary/eulogy comparison pages: `https://www.finalnotes.page/obituary-vs-eulogy/`
   - Obituary-writing and family-history how-to articles: `https://www.finalnotes.page/how-to-write-an-obituary-story/`
   - Prompt lists, legacy interview questions, and hospice legacy projects: `https://www.finalnotes.page/obituary-writing-prompts/`
   - Obituary example and wording-example pages: `https://www.finalnotes.page/obituary-examples/`
@@ -218,6 +224,16 @@ Send these after the genealogy/research batch. Use `/obituary-vs-death-notice/` 
 3. Milwaukee Public Library: optional plain-language supplement for obituary and death notice genealogy pages.
 4. Funeral.com: source-backed companion resource for their current obituary-vs-death-notice guide.
 5. Evermore Directory: supplemental family-facing resource for funeral-home directory and obituary-format readers.
+
+## Thirteenth Batch: Eulogy, Spoken Tribute, and Memorial-Writing Explainers
+
+Send these after the death-notice/explainer batch. Use `/obituary-vs-eulogy/` for funeral-home planning pages, bereavement resources, eulogy-writing articles, memorial-program guides, and obituary/eulogy comparison pages:
+
+1. Funeral Basics: supplemental comparison resource for families preparing both written obituaries and spoken tributes.
+2. Dignity Bereavement Support: companion resource for obituary/eulogy readers who need to decide what comes first.
+3. In Tribute Eulogy Services: source-backed companion for adapting obituary facts into eulogy stories.
+4. Grace Memorial Chapel: optional companion for its writing-a-eulogy-and-obituary family resource.
+5. Jones Funeral Home: family-facing resource suggestion for eulogies and obituary notices.
 
 ## Follow-Up Timing
 

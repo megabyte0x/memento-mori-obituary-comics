@@ -27,6 +27,7 @@ Obituary article and journalism searches surfaced a separate editorial lane: Poy
 Obituary lesson-plan searches surfaced an education lane: SchoolJournalism, JEA, Share My Lesson, PBS, Scholastic, and teacher-resource pages already publish obituary-writing assignments and classroom activities. That supports using `https://www.finalnotes.page/obituary-lesson-plan/` for journalism curriculum lists, ELA writing lessons, lesson-plan repositories, and classroom resource pages.
 Obituary search and genealogy searches surfaced another lane: Cyndi's List, FamilySearch, The Ancestor Hunt, Family Tree Magazine, and public-library genealogy guides already organize obituary lookup workflows around indexes, unindexed images, local newspapers, and microfilm. That supports using `https://www.finalnotes.page/obituary-research-guide/` for genealogy resource lists, library research guides, obituary search directories, and local-history society pages.
 Obituary-vs-death-notice searches surfaced a separate newspaper and funeral-resource lane: Legacy, Empathy, NewspaperArchive, Washington Post, Funeral.com, MERI, and library genealogy pages all distinguish short public announcements from longer life-story obituaries. That supports using `https://www.finalnotes.page/obituary-vs-death-notice/` for newspaper help pages, funeral-home resources, library obituary indexes, and death-notice explainers.
+Obituary-vs-eulogy searches surfaced another funeral-home and bereavement-writing lane: Funeral Basics, Dignity Bereavement Support, In Tribute Eulogy Services, Grace Memorial Chapel, Hartford Funeral Home, and Jones Funeral Home all compare written obituaries with spoken eulogies or maintain resources for both. That supports using `https://www.finalnotes.page/obituary-vs-eulogy/` for funeral-home planning pages, bereavement resources, eulogy-writing articles, memorial-program guides, and obituary/eulogy comparison pages.
 
 ## High-Fit Sources Found In This Pass
 
@@ -73,6 +74,11 @@ Obituary-vs-death-notice searches surfaced a separate newspaper and funeral-reso
 | Milwaukee Public Library | Defines obituaries and death notices on a genealogy research page with indexes and databases. | `/obituary-vs-death-notice/` | Pitch added |
 | Funeral.com | Publishes current obituary-vs-death-notice guidance for families. | `/obituary-vs-death-notice/` | Pitch added |
 | Evermore Directory | Funeral-home directory with contact path and current obituary-vs-death-notice content. | `/obituary-vs-death-notice/` | Pitch added |
+| Funeral Basics | Publishes a current guide on the difference between a eulogy and an obituary, plus related eulogy resources. | `/obituary-vs-eulogy/` | Pitch added |
+| Dignity Bereavement Support | Current bereavement-writing site with obituary-vs-eulogy and obituary-writing guidance. | `/obituary-vs-eulogy/` | Pitch added |
+| In Tribute Eulogy Services | Tribute-writing service with a live article comparing obituaries and eulogies. | `/obituary-vs-eulogy/` | Pitch added |
+| Grace Memorial Chapel | Funeral-home resource page covers writing both a eulogy and obituary. | `/obituary-vs-eulogy/` | Pitch added |
+| Jones Funeral Home | Funeral-home resource page explains eulogies and obituary notices with direct contact details. | `/obituary-vs-eulogy/` | Pitch added |
 
 ## Completion Rule
 

@@ -64,6 +64,11 @@ const linkTargets = [
     note: "Best canonical link for newspaper help pages, funeral-home resources, genealogy guides, library obituary indexes, and death-notice explainers.",
   },
   {
+    label: "Obituary vs eulogy",
+    href: "/obituary-vs-eulogy/",
+    note: "Best canonical link for funeral-home planning pages, bereavement resources, eulogy-writing articles, memorial-program guides, and obituary/eulogy comparison pages.",
+  },
+  {
     label: "How to write an obituary story",
     href: "/how-to-write-an-obituary-story/",
     note: "Best canonical link for obituary-writing guides, grief-writing essays, family-history resources, and deathcare article references.",

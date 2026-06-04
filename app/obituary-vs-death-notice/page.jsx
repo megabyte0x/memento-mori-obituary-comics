@@ -182,6 +182,9 @@ export default function ObituaryVsDeathNoticePage() {
                 <Link href="/obituary-articles/">Article guide</Link>
               </Button>
               <Button asChild>
+                <Link href="/obituary-vs-eulogy/">Eulogy explainer</Link>
+              </Button>
+              <Button asChild>
                 <Link href="/obituary-story-worksheet/">Worksheet</Link>
               </Button>
             </div>
@@ -242,7 +245,7 @@ export default function ObituaryVsDeathNoticePage() {
             <div>
               <h2 id="best-link">Best Link Target For Death Notice Explainers</h2>
               <p>
-                Use this page for newspaper help pages, funeral-home resources, genealogy guides, library obituary indexes, and articles explaining the difference between an obituary, death notice, and funeral notice. For drafting a fuller life story, use the <Link href="/how-to-write-an-obituary-story/">obituary story writing guide</Link>. For source lookups and citations, use the <Link href="/obituary-research-guide/">obituary research guide</Link>. For reported examples, use the <Link href="/obituary-articles/">obituary articles page</Link>.
+                Use this page for newspaper help pages, funeral-home resources, genealogy guides, library obituary indexes, and articles explaining the difference between an obituary, death notice, and funeral notice. For obituary/eulogy comparison pages, use the <Link href="/obituary-vs-eulogy/">obituary vs eulogy explainer</Link>. For drafting a fuller life story, use the <Link href="/how-to-write-an-obituary-story/">obituary story writing guide</Link>. For source lookups and citations, use the <Link href="/obituary-research-guide/">obituary research guide</Link>. For reported examples, use the <Link href="/obituary-articles/">obituary articles page</Link>.
               </p>
             </div>
             <Link href="/obituary-vs-death-notice/">{absoluteUrl("/obituary-vs-death-notice/")}</Link>

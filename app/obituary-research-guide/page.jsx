@@ -198,6 +198,9 @@ export default function ObituaryResearchGuidePage() {
                 <Link href="/obituary-vs-death-notice/">Notice explainer</Link>
               </Button>
               <Button asChild>
+                <Link href="/obituary-vs-eulogy/">Eulogy explainer</Link>
+              </Button>
+              <Button asChild>
                 <Link href="/obituary-examples/">Obituary examples</Link>
               </Button>
               <Button asChild>

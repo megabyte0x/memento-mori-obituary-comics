@@ -22,18 +22,19 @@ Use URL Inspection in Google Search Console and request indexing for these pages
 3. `https://www.finalnotes.page/obituary-lesson-plan/`
 4. `https://www.finalnotes.page/obituary-research-guide/`
 5. `https://www.finalnotes.page/obituary-vs-death-notice/`
-6. `https://www.finalnotes.page/how-to-write-an-obituary-story/`
-7. `https://www.finalnotes.page/obituary-writing-prompts/`
-8. `https://www.finalnotes.page/obituary-examples/`
-9. `https://www.finalnotes.page/life-story-obituary-template/`
-10. `https://www.finalnotes.page/obituary-story-worksheet/`
-11. `https://www.finalnotes.page/what-are-obituary-comics/`
-12. `https://www.finalnotes.page/educators-libraries/`
-13. `https://www.finalnotes.page/press/`
-14. `https://www.finalnotes.page/`
-15. `https://www.finalnotes.page/comics/solzhenitsyn-gulag-witness/`
-16. `https://www.finalnotes.page/comics/primo-levi/`
-17. `https://www.finalnotes.page/comics/henri-matisse-second-life/`
+6. `https://www.finalnotes.page/obituary-vs-eulogy/`
+7. `https://www.finalnotes.page/how-to-write-an-obituary-story/`
+8. `https://www.finalnotes.page/obituary-writing-prompts/`
+9. `https://www.finalnotes.page/obituary-examples/`
+10. `https://www.finalnotes.page/life-story-obituary-template/`
+11. `https://www.finalnotes.page/obituary-story-worksheet/`
+12. `https://www.finalnotes.page/what-are-obituary-comics/`
+13. `https://www.finalnotes.page/educators-libraries/`
+14. `https://www.finalnotes.page/press/`
+15. `https://www.finalnotes.page/`
+16. `https://www.finalnotes.page/comics/solzhenitsyn-gulag-witness/`
+17. `https://www.finalnotes.page/comics/primo-levi/`
+18. `https://www.finalnotes.page/comics/henri-matisse-second-life/`
 
 ## What To Check
 
@@ -46,6 +47,7 @@ For each URL, record:
 | /obituary-lesson-plan/ |  |  |  |  |
 | /obituary-research-guide/ |  |  |  |  |
 | /obituary-vs-death-notice/ |  |  |  |  |
+| /obituary-vs-eulogy/ |  |  |  |  |
 | /how-to-write-an-obituary-story/ |  |  |  |  |
 | /obituary-writing-prompts/ |  |  |  |  |
 | /obituary-examples/ |  |  |  |  |
@@ -69,6 +71,7 @@ site:finalnotes.page obituary articles
 site:finalnotes.page obituary lesson plan
 site:finalnotes.page obituary research guide
 site:finalnotes.page obituary vs death notice
+site:finalnotes.page obituary vs eulogy
 site:finalnotes.page how to write an obituary story
 site:finalnotes.page obituary writing prompts
 site:finalnotes.page obituary examples
@@ -96,6 +99,9 @@ site:finalnotes.page obituary comics
 "obituary vs death notice" "finalnotes"
 "death notice vs obituary" "finalnotes"
 "funeral notice vs obituary" "finalnotes"
+"obituary vs eulogy" "finalnotes"
+"eulogy vs obituary" "finalnotes"
+"difference between obituary and eulogy" "finalnotes"
 ```
 
 Record each check in `docs/seo/ranking-evidence-2026-06-04.md` or a newer dated ranking-evidence snapshot. Use exact date, query, search source, observed position/page, and target URL.
