@@ -12,6 +12,7 @@ export default function sitemap() {
     { url: absoluteUrl("/obituary-research-guide/"), lastModified: latest, changeFrequency: "monthly", priority: 0.872 },
     { url: absoluteUrl("/obituary-vs-death-notice/"), lastModified: latest, changeFrequency: "monthly", priority: 0.868 },
     { url: absoluteUrl("/obituary-vs-eulogy/"), lastModified: latest, changeFrequency: "monthly", priority: 0.866 },
+    { url: absoluteUrl("/what-not-to-include-in-an-obituary/"), lastModified: latest, changeFrequency: "monthly", priority: 0.864 },
     { url: absoluteUrl("/how-to-write-an-obituary-story/"), lastModified: latest, changeFrequency: "monthly", priority: 0.88 },
     { url: absoluteUrl("/obituary-writing-prompts/"), lastModified: latest, changeFrequency: "monthly", priority: 0.87 },
     { url: absoluteUrl("/life-story-obituary-template/"), lastModified: latest, changeFrequency: "monthly", priority: 0.865 },

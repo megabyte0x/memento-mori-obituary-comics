@@ -28,6 +28,7 @@ Obituary lesson-plan searches surfaced an education lane: SchoolJournalism, JEA,
 Obituary search and genealogy searches surfaced another lane: Cyndi's List, FamilySearch, The Ancestor Hunt, Family Tree Magazine, and public-library genealogy guides already organize obituary lookup workflows around indexes, unindexed images, local newspapers, and microfilm. That supports using `https://www.finalnotes.page/obituary-research-guide/` for genealogy resource lists, library research guides, obituary search directories, and local-history society pages.
 Obituary-vs-death-notice searches surfaced a separate newspaper and funeral-resource lane: Legacy, Empathy, NewspaperArchive, Washington Post, Funeral.com, MERI, and library genealogy pages all distinguish short public announcements from longer life-story obituaries. That supports using `https://www.finalnotes.page/obituary-vs-death-notice/` for newspaper help pages, funeral-home resources, library obituary indexes, and death-notice explainers.
 Obituary-vs-eulogy searches surfaced another funeral-home and bereavement-writing lane: Funeral Basics, Dignity Bereavement Support, In Tribute Eulogy Services, Grace Memorial Chapel, Hartford Funeral Home, and Jones Funeral Home all compare written obituaries with spoken eulogies or maintain resources for both. That supports using `https://www.finalnotes.page/obituary-vs-eulogy/` for funeral-home planning pages, bereavement resources, eulogy-writing articles, memorial-program guides, and obituary/eulogy comparison pages.
+What-not-to-include and obituary privacy searches surfaced a consumer-safety lane: AARP, Experian, Trustworthy, Green Cremation Texas, Cornwell Funeral Homes, Hospice Fredericton, CFPB, and FBI materials connect public obituary details to identity theft, debt-collector scams, fake memorial pages, funeral-home impostors, and empty-house risk. That supports using `https://www.finalnotes.page/what-not-to-include-in-an-obituary/` for funeral-home writing guides, consumer-safety pages, identity-theft explainers, obituary privacy resources, and bereavement scam-safety pages.
 
 ## High-Fit Sources Found In This Pass
 
@@ -79,6 +80,12 @@ Obituary-vs-eulogy searches surfaced another funeral-home and bereavement-writin
 | In Tribute Eulogy Services | Tribute-writing service with a live article comparing obituaries and eulogies. | `/obituary-vs-eulogy/` | Pitch added |
 | Grace Memorial Chapel | Funeral-home resource page covers writing both a eulogy and obituary. | `/obituary-vs-eulogy/` | Pitch added |
 | Jones Funeral Home | Funeral-home resource page explains eulogies and obituary notices with direct contact details. | `/obituary-vs-eulogy/` | Pitch added |
+| AARP Fraud Watch Network | Current bereavement scam guidance tied to obituary and online memorial details. | `/what-not-to-include-in-an-obituary/` | Pitch added |
+| Experian | Consumer-credit guidance on obituaries and identity theft after death. | `/what-not-to-include-in-an-obituary/` | Pitch added |
+| Trustworthy | Current guide on details to avoid including in an obituary. | `/what-not-to-include-in-an-obituary/` | Pitch added |
+| Green Cremation Texas | Funeral-home obituary guide warns about identity-theft and empty-house risks. | `/what-not-to-include-in-an-obituary/` | Pitch added |
+| Cornwell Funeral Homes | Identity-theft protection page ties risk to obituary pages and genealogy sites. | `/what-not-to-include-in-an-obituary/` | Pitch added |
+| Hospice Fredericton | Family-facing obituary scam and fraudulent-call resource. | `/what-not-to-include-in-an-obituary/` | Pitch added |
 
 ## Completion Rule
 

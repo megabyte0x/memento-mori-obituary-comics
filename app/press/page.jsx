@@ -69,6 +69,11 @@ const linkTargets = [
     note: "Best canonical link for funeral-home planning pages, bereavement resources, eulogy-writing articles, memorial-program guides, and obituary/eulogy comparison pages.",
   },
   {
+    label: "What not to include in an obituary",
+    href: "/what-not-to-include-in-an-obituary/",
+    note: "Best canonical link for funeral-home writing guides, consumer-safety pages, identity-theft explainers, obituary privacy resources, and bereavement scam-safety pages.",
+  },
+  {
     label: "How to write an obituary story",
     href: "/how-to-write-an-obituary-story/",
     note: "Best canonical link for obituary-writing guides, grief-writing essays, family-history resources, and deathcare article references.",

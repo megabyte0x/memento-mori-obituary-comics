@@ -76,6 +76,12 @@ Use this file as the next execution list. Send manually, one by one, after check
 | 65 | In Tribute Eulogy Services | https://www.intributeeulogyservices.com/contact or site contact path | `docs/seo/pitches/63-in-tribute-obituary-vs-eulogy.md` | Resource suggestion for obituary and eulogy readers | https://www.finalnotes.page/obituary-vs-eulogy/ | Tribute-writing service with a live article comparing obituaries and eulogies. |
 | 66 | Grace Memorial Chapel | https://gracemortuary.com/resources/writing-a-eulogy-and-obituary/ | `docs/seo/pitches/64-grace-memorial-obituary-vs-eulogy.md` | Supplemental writing resource for eulogies and obituaries | https://www.finalnotes.page/obituary-vs-eulogy/ | Funeral-home resource page already helps families prepare both obituary and eulogy text. |
 | 67 | Jones Funeral Home | info@jonesfuneralhome.co or https://jonesfuneralhome.co/eulogies-obituaries/ | `docs/seo/pitches/65-jones-funeral-home-obituary-vs-eulogy.md` | Supplemental obituary and eulogy comparison resource | https://www.finalnotes.page/obituary-vs-eulogy/ | Funeral-home resource page explains eulogies and obituary notices and has a direct family-facing contact path. |
+| 68 | AARP Fraud Watch Network | https://www.aarp.org/about-aarp/contact-us/ or current Fraud Watch Network contact path | `docs/seo/pitches/66-aarp-obituary-privacy-resource.md` | Resource suggestion for obituary scam-safety readers | https://www.finalnotes.page/what-not-to-include-in-an-obituary/ | High-authority consumer-safety lane with current bereavement scam guidance tied to obituary and online memorial details. |
+| 69 | Experian | https://www.experian.com/contact-us/ or current editorial contact path | `docs/seo/pitches/67-experian-obituary-identity-theft-resource.md` | Supplemental obituary privacy checklist | https://www.finalnotes.page/what-not-to-include-in-an-obituary/ | Consumer-credit authority with obituary identity-theft guidance. |
+| 70 | Trustworthy | https://www.trustworthy.com/contact or current site contact path | `docs/seo/pitches/68-trustworthy-obituary-privacy-resource.md` | Companion checklist for obituary details to avoid | https://www.finalnotes.page/what-not-to-include-in-an-obituary/ | Current article directly covers details to avoid including in an obituary. |
+| 71 | Green Cremation Texas | https://www.cremation.green/contact/ or current funeral-home contact path | `docs/seo/pitches/69-green-cremation-obituary-privacy-resource.md` | Supplemental privacy checklist for obituary-writing families | https://www.finalnotes.page/what-not-to-include-in-an-obituary/ | Funeral-home obituary guide already warns about identity-theft and empty-house risks. |
+| 72 | Cornwell Funeral Homes | https://www.cornwellfuneralhomes.com/contact-us or current site contact path | `docs/seo/pitches/70-cornwell-funeral-home-identity-theft-resource.md` | Resource suggestion for obituary identity-theft protection page | https://www.finalnotes.page/what-not-to-include-in-an-obituary/ | Funeral-home identity-theft page explicitly ties risk to obituary pages and genealogy sites. |
+| 73 | Hospice Fredericton | https://hospicefredericton.ca/contact/ or current site contact path | `docs/seo/pitches/71-hospice-fredericton-obituary-scam-resource.md` | Supplemental obituary scam-safety checklist | https://www.finalnotes.page/what-not-to-include-in-an-obituary/ | Hospice family resource already warns about obituary scams and fraudulent calls. |
 | Hold | Chronic Joy | https://chronic-joy.org/write-for-us/ | `docs/seo/pitches/19-chronic-joy-obituary-reflection-post.md` | Human-written grief/lament reflection post only if invited | https://www.finalnotes.page/obituary-story-worksheet/ | Submission page is by invitation and rejects AI-generated content, so hold unless a human-written personal essay is invited. |
 
 ## Hold / Monitor
@@ -96,6 +102,7 @@ Use this file as the next execution list. Send manually, one by one, after check
   - Genealogy resource lists, public-library research guides, obituary search directories, family-history newsletters, and local-history society pages: `https://www.finalnotes.page/obituary-research-guide/`
   - Newspaper help pages, funeral-home resources, death-notice explainers, and library obituary-index pages: `https://www.finalnotes.page/obituary-vs-death-notice/`
   - Funeral-home planning pages, bereavement resources, eulogy-writing articles, memorial-program guides, and obituary/eulogy comparison pages: `https://www.finalnotes.page/obituary-vs-eulogy/`
+  - Obituary privacy, identity-theft, consumer-safety, and bereavement scam-safety pages: `https://www.finalnotes.page/what-not-to-include-in-an-obituary/`
   - Obituary-writing and family-history how-to articles: `https://www.finalnotes.page/how-to-write-an-obituary-story/`
   - Prompt lists, legacy interview questions, and hospice legacy projects: `https://www.finalnotes.page/obituary-writing-prompts/`
   - Obituary example and wording-example pages: `https://www.finalnotes.page/obituary-examples/`
@@ -234,6 +241,17 @@ Send these after the death-notice/explainer batch. Use `/obituary-vs-eulogy/` fo
 3. In Tribute Eulogy Services: source-backed companion for adapting obituary facts into eulogy stories.
 4. Grace Memorial Chapel: optional companion for its writing-a-eulogy-and-obituary family resource.
 5. Jones Funeral Home: family-facing resource suggestion for eulogies and obituary notices.
+
+## Fourteenth Batch: Obituary Privacy, Identity-Theft, and Scam-Safety Resources
+
+Send these after the eulogy/spoken-tribute batch. Use `/what-not-to-include-in-an-obituary/` for obituary privacy, identity-theft, consumer-safety, and bereavement scam-safety pages:
+
+1. AARP Fraud Watch Network: high-authority consumer-safety resource suggestion for bereavement scam readers.
+2. Experian: identity-theft companion checklist for obituary privacy readers.
+3. Trustworthy: concise companion checklist for details-to-avoid guidance.
+4. Green Cremation Texas: funeral-home privacy pass for obituary-writing families.
+5. Cornwell Funeral Homes: practical checklist for identity-theft protection readers.
+6. Hospice Fredericton: family-facing scam-safety supplement for obituary scam guidance.
 
 ## Follow-Up Timing
 

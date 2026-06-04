@@ -8,6 +8,7 @@ Primary link target for obituary lesson-plan and classroom keywords: https://www
 Primary link target for obituary research, genealogy, and library search keywords: https://www.finalnotes.page/obituary-research-guide/
 Primary link target for obituary vs death notice and funeral-notice keywords: https://www.finalnotes.page/obituary-vs-death-notice/
 Primary link target for obituary vs eulogy and spoken-tribute keywords: https://www.finalnotes.page/obituary-vs-eulogy/
+Primary link target for obituary privacy, identity-theft, and scam-safety keywords: https://www.finalnotes.page/what-not-to-include-in-an-obituary/
 Primary link target for obituary-writing and family-history how-to keywords: https://www.finalnotes.page/how-to-write-an-obituary-story/
 Primary link target for obituary prompts and legacy interview keywords: https://www.finalnotes.page/obituary-writing-prompts/
 Primary link target for obituary examples and wording-example keywords: https://www.finalnotes.page/obituary-examples/
@@ -94,6 +95,12 @@ Execution queue: `docs/seo/backlink-send-queue.md`
 | P2 | In Tribute Eulogy Services | https://www.intributeeulogyservices.com/contact or site contact path | Companion resource for adapting obituary facts into eulogy memories. | https://www.finalnotes.page/obituary-vs-eulogy/ | eulogy vs obituary |
 | P3 | Grace Memorial Chapel | https://gracemortuary.com/resources/writing-a-eulogy-and-obituary/ | Supplemental resource for writing a eulogy and obituary. | https://www.finalnotes.page/obituary-vs-eulogy/ | obituary and eulogy resource |
 | P3 | Jones Funeral Home | info@jonesfuneralhome.co or https://jonesfuneralhome.co/eulogies-obituaries/ | Supplemental resource for eulogies and obituary notices. | https://www.finalnotes.page/obituary-vs-eulogy/ | obituary vs eulogy |
+| P1 | AARP Fraud Watch Network | https://www.aarp.org/about-aarp/contact-us/ or current Fraud Watch Network contact path | Consumer-safety resource suggestion for bereavement scam readers. | https://www.finalnotes.page/what-not-to-include-in-an-obituary/ | what not to include in an obituary |
+| P1 | Experian | https://www.experian.com/contact-us/ or current editorial contact path | Identity-theft companion checklist for obituary privacy readers. | https://www.finalnotes.page/what-not-to-include-in-an-obituary/ | obituary privacy checklist |
+| P2 | Trustworthy | https://www.trustworthy.com/contact or current site contact path | Companion checklist for details-to-avoid guidance. | https://www.finalnotes.page/what-not-to-include-in-an-obituary/ | obituary details to avoid |
+| P3 | Green Cremation Texas | https://www.cremation.green/contact/ or current funeral-home contact path | Funeral-home privacy pass for obituary-writing families. | https://www.finalnotes.page/what-not-to-include-in-an-obituary/ | obituary privacy checklist |
+| P3 | Cornwell Funeral Homes | https://www.cornwellfuneralhomes.com/contact-us or current site contact path | Practical checklist for identity-theft protection readers. | https://www.finalnotes.page/what-not-to-include-in-an-obituary/ | obituary identity theft checklist |
+| P2 | Hospice Fredericton | https://hospicefredericton.ca/contact/ or current site contact path | Family-facing scam-safety supplement for obituary scam guidance. | https://www.finalnotes.page/what-not-to-include-in-an-obituary/ | obituary scam safety |
 | Hold | Chronic Joy | https://chronic-joy.org/write-for-us/ | Human-written grief/lament post only if invited. | https://www.finalnotes.page/obituary-story-worksheet/ | obituary reflection worksheet |
 
 ## Send Log
@@ -164,6 +171,12 @@ Execution queue: `docs/seo/backlink-send-queue.md`
 |  | In Tribute Eulogy Services | `docs/seo/pitches/63-in-tribute-obituary-vs-eulogy.md` | /obituary-vs-eulogy/ |  |  |  |  | Tribute-writing comparison target |
 |  | Grace Memorial Chapel | `docs/seo/pitches/64-grace-memorial-obituary-vs-eulogy.md` | /obituary-vs-eulogy/ |  |  |  |  | Funeral-home eulogy and obituary resource target |
 |  | Jones Funeral Home | `docs/seo/pitches/65-jones-funeral-home-obituary-vs-eulogy.md` | /obituary-vs-eulogy/ |  |  |  |  | Funeral-home eulogy and obituary resource target |
+|  | AARP Fraud Watch Network | `docs/seo/pitches/66-aarp-obituary-privacy-resource.md` | /what-not-to-include-in-an-obituary/ |  |  |  |  | Bereavement scam-safety target |
+|  | Experian | `docs/seo/pitches/67-experian-obituary-identity-theft-resource.md` | /what-not-to-include-in-an-obituary/ |  |  |  |  | Obituary identity-theft target |
+|  | Trustworthy | `docs/seo/pitches/68-trustworthy-obituary-privacy-resource.md` | /what-not-to-include-in-an-obituary/ |  |  |  |  | Details-to-avoid companion target |
+|  | Green Cremation Texas | `docs/seo/pitches/69-green-cremation-obituary-privacy-resource.md` | /what-not-to-include-in-an-obituary/ |  |  |  |  | Funeral-home obituary privacy target |
+|  | Cornwell Funeral Homes | `docs/seo/pitches/70-cornwell-funeral-home-identity-theft-resource.md` | /what-not-to-include-in-an-obituary/ |  |  |  |  | Funeral-home identity-theft protection target |
+|  | Hospice Fredericton | `docs/seo/pitches/71-hospice-fredericton-obituary-scam-resource.md` | /what-not-to-include-in-an-obituary/ |  |  |  |  | Hospice obituary scam-safety target |
 |  | Chronic Joy | `docs/seo/pitches/19-chronic-joy-obituary-reflection-post.md` | /obituary-story-worksheet/ | Hold unless invited |  |  |  | Human-written only |
 |  | Modern Loss | Hold until submissions reopen | /obituary-stories/ | No open calls on 2026-06-04 |  |  |  | Check weekly |
 
