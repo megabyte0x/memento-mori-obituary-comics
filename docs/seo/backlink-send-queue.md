@@ -88,6 +88,12 @@ Use this file as the next execution list. Send manually, one by one, after check
 | 77 | Funeralwise | https://www.funeralwise.com/contact-us/ or current editorial/contact path | `docs/seo/pitches/75-funeralwise-fake-obituary-resource.md` | Companion checklist for fake obituary warning signs | https://www.finalnotes.page/fake-obituary-sites/ | Current family-facing fake-obituary guide already covers suspicious sources and unverified fundraising. |
 | 78 | Sophos Counter Threat Unit | https://www.sophos.com/en-us/contact-us or current blog/security research contact path | `docs/seo/pitches/76-sophos-fake-obituary-sites-resource.md` | Consumer companion for fake obituary site research | https://www.finalnotes.page/fake-obituary-sites/ | Security research covers AI-generated fake obituary sites, redirects, fake virus warnings, and SEO abuse. |
 | 79 | WKYT Investigates | https://www.wkyt.com/about-us/contact-us/ or reporter contact on the article | `docs/seo/pitches/77-wkyt-fake-obituary-resource.md` | Evergreen fake-obituary checklist for families | https://www.finalnotes.page/fake-obituary-sites/ | Local-news investigation provides practical monitoring, documentation, reporting, and verified-link sharing steps. |
+| 80 | Legacy.com | Confirm current Legacy editorial, help, or partner-content contact path | `docs/seo/pitches/78-legacy-newspaper-obituary-submission-resource.md` | Supplemental checklist for newspaper obituary submission readers | https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/ | High-authority obituary platform with guidance on submitting obituaries online, to newspapers, and through funeral homes. |
+| 81 | Everplans | Confirm current Everplans editorial/contact path | `docs/seo/pitches/79-everplans-newspaper-obituary-submission-resource.md` | Supplemental newspaper obituary submission checklist | https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/ | End-of-life planning site explains newspaper, website, and funeral-home submission paths. |
+| 82 | The Gazette | customercare@thegazette.com or current obituary/contact path | `docs/seo/pitches/80-gazette-newspaper-obituary-submission-resource.md` | Supplemental checklist for families submitting obituaries | https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/ | Newspaper policy covers submission path, payment, deadlines, funeral-home verification, required info, and photos. |
+| 83 | The Dominion Post | Current obituary typist/contact path on the submission page | `docs/seo/pitches/81-dominion-post-obituary-submission-resource.md` | Supplemental obituary submission checklist for families | https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/ | Newspaper policy covers funeral-home submission, family authorization, proof of death, deadlines, pricing, and photos. |
+| 84 | Anchorage Daily News | obituary@adn.com or current obituary/contact path | `docs/seo/pitches/82-anchorage-daily-news-obituary-submission-resource.md` | Supplemental checklist for obituary placement readers | https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/ | Obituary information page covers online/email submission, funeral-home recommendation, verification, pricing, schedule, and photos. |
+| 85 | The Martha's Vineyard Times | editor@mvtimes.com or current obituary/contact path | `docs/seo/pitches/83-mv-times-obituary-submission-resource.md` | Supplemental obituary submission checklist for families | https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/ | Community-newspaper policy covers minimum info, verification contacts, deadlines, editing, and submission paths. |
 | Hold | Chronic Joy | https://chronic-joy.org/write-for-us/ | `docs/seo/pitches/19-chronic-joy-obituary-reflection-post.md` | Human-written grief/lament reflection post only if invited | https://www.finalnotes.page/obituary-story-worksheet/ | Submission page is by invitation and rejects AI-generated content, so hold unless a human-written personal essay is invited. |
 
 ## Hold / Monitor
@@ -107,6 +113,7 @@ Use this file as the next execution list. Send manually, one by one, after check
   - Journalism lessons, ELA writing lessons, lesson-plan repositories, and classroom resource pages: `https://www.finalnotes.page/obituary-lesson-plan/`
   - Genealogy resource lists, public-library research guides, obituary search directories, family-history newsletters, and local-history society pages: `https://www.finalnotes.page/obituary-research-guide/`
   - Newspaper help pages, funeral-home resources, death-notice explainers, and library obituary-index pages: `https://www.finalnotes.page/obituary-vs-death-notice/`
+  - Newspaper obituary submission, placement, proof-of-death, deadline, price, and photo-rule pages: `https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/`
   - Funeral-home planning pages, bereavement resources, eulogy-writing articles, memorial-program guides, and obituary/eulogy comparison pages: `https://www.finalnotes.page/obituary-vs-eulogy/`
   - Obituary privacy, identity-theft, consumer-safety, and bereavement scam-safety pages: `https://www.finalnotes.page/what-not-to-include-in-an-obituary/`
   - Fake obituary sites, obituary piracy, copied death notices, fake donation links, and suspicious obituary verification: `https://www.finalnotes.page/fake-obituary-sites/`
@@ -270,6 +277,17 @@ Send these after the privacy/scam-safety batch. Use `/fake-obituary-sites/` for 
 4. Funeralwise: concise verification workflow for readers checking fake obituary warning signs.
 5. Sophos Counter Threat Unit: consumer-facing companion for security research on fake obituary domains and popups.
 6. WKYT Investigates: evergreen checklist for families handling fake obituary search results.
+
+## Sixteenth Batch: Newspaper Obituary Submission and Placement
+
+Send these after the fake-obituary batch. Use `/how-to-submit-an-obituary-to-a-newspaper/` for newspaper submission pages, obituary placement guides, proof-of-death explainers, deadline/cost/photo rule pages, and funeral-home resources that help families place notices:
+
+1. Legacy.com: supplemental checklist for readers submitting obituaries online, to newspapers, or through funeral homes.
+2. Everplans: family-preparation companion for readers submitting a death notice or obituary to a newspaper or website.
+3. The Gazette: general pre-submission checklist for families gathering required obituary placement information.
+4. The Dominion Post: family-facing preparation aid before contacting the obituary desk.
+5. Anchorage Daily News: supplemental resource for families preparing a newspaper obituary.
+6. The Martha's Vineyard Times: plain-language companion for community-newspaper obituary submission readers.
 
 ## Follow-Up Timing
 

@@ -44,6 +44,7 @@ test("sitemap includes canonical public routes and comic permalinks", () => {
   assert.ok(urls.includes(absoluteUrl("/obituary-vs-eulogy/")));
   assert.ok(urls.includes(absoluteUrl("/what-not-to-include-in-an-obituary/")));
   assert.ok(urls.includes(absoluteUrl("/fake-obituary-sites/")));
+  assert.ok(urls.includes(absoluteUrl("/how-to-submit-an-obituary-to-a-newspaper/")));
   assert.ok(urls.includes(absoluteUrl("/how-to-write-an-obituary-story/")));
   assert.ok(urls.includes(absoluteUrl("/obituary-writing-prompts/")));
   assert.ok(urls.includes(absoluteUrl("/life-story-obituary-template/")));
@@ -76,6 +77,7 @@ test("llms.txt describes canonical routes and citation policy", async () => {
   assert.match(body, new RegExp(absoluteUrl("/obituary-vs-eulogy/").replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
   assert.match(body, new RegExp(absoluteUrl("/what-not-to-include-in-an-obituary/").replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
   assert.match(body, new RegExp(absoluteUrl("/fake-obituary-sites/").replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
+  assert.match(body, new RegExp(absoluteUrl("/how-to-submit-an-obituary-to-a-newspaper/").replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
   assert.match(body, new RegExp(absoluteUrl("/how-to-write-an-obituary-story/").replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
   assert.match(body, new RegExp(absoluteUrl("/obituary-writing-prompts/").replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
   assert.match(body, new RegExp(absoluteUrl("/life-story-obituary-template/").replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));

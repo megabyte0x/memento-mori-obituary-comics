@@ -118,6 +118,9 @@ export default function ObituaryStoriesPage() {
               <Link href="/obituary-vs-death-notice/">Notice explainer</Link>
             </Button>
             <Button asChild>
+              <Link href="/how-to-submit-an-obituary-to-a-newspaper/">Newspaper submission</Link>
+            </Button>
+            <Button asChild>
               <Link href="/obituary-writing-prompts/">Writing prompts</Link>
             </Button>
             <Button asChild>
@@ -155,7 +158,7 @@ export default function ObituaryStoriesPage() {
             <h2 id="how-to-link">Best Link Target</h2>
             <p>
               For roundups, resource pages, newsletters, and classroom reading lists, link to this page with natural anchors such as obituary stories, obituary articles, visual obituaries, or Memento Mori Obituary Comics.
-              For journalism lessons and article-writing resources, use the <Link href="/obituary-articles/">obituary articles page</Link>. For genealogy, library, and obituary-search resources, use the <Link href="/obituary-research-guide/">obituary research guide</Link>. For newspaper and funeral-home explainers about notices, use the <Link href="/obituary-vs-death-notice/">obituary vs death notice page</Link>. For fake obituary sites, copied death notices, and obituary piracy resources, use the <Link href="/fake-obituary-sites/">fake obituary sites checklist</Link>. For funeral-home and bereavement resources about spoken tributes, use the <Link href="/obituary-vs-eulogy/">obituary vs eulogy page</Link>. For obituary-writing resources, use the <Link href="/how-to-write-an-obituary-story/">guide to writing an obituary story</Link>. For prompt lists and legacy interview questions, use the <Link href="/obituary-writing-prompts/">obituary writing prompts page</Link>. For template links, use the <Link href="/life-story-obituary-template/">life story obituary template</Link>. For example roundups, use the <Link href="/obituary-examples/">obituary examples page</Link>. For definitions of the format itself, use the <Link href="/what-are-obituary-comics/">obituary comics explainer</Link>.
+              For journalism lessons and article-writing resources, use the <Link href="/obituary-articles/">obituary articles page</Link>. For genealogy, library, and obituary-search resources, use the <Link href="/obituary-research-guide/">obituary research guide</Link>. For newspaper and funeral-home explainers about notices, use the <Link href="/obituary-vs-death-notice/">obituary vs death notice page</Link>. For newspaper placement, proof-of-death, deadline, price, and photo rules, use the <Link href="/how-to-submit-an-obituary-to-a-newspaper/">newspaper obituary submission checklist</Link>. For fake obituary sites, copied death notices, and obituary piracy resources, use the <Link href="/fake-obituary-sites/">fake obituary sites checklist</Link>. For funeral-home and bereavement resources about spoken tributes, use the <Link href="/obituary-vs-eulogy/">obituary vs eulogy page</Link>. For obituary-writing resources, use the <Link href="/how-to-write-an-obituary-story/">guide to writing an obituary story</Link>. For prompt lists and legacy interview questions, use the <Link href="/obituary-writing-prompts/">obituary writing prompts page</Link>. For template links, use the <Link href="/life-story-obituary-template/">life story obituary template</Link>. For example roundups, use the <Link href="/obituary-examples/">obituary examples page</Link>. For definitions of the format itself, use the <Link href="/what-are-obituary-comics/">obituary comics explainer</Link>.
             </p>
           </div>
           <Link href="/obituary-stories/">{absoluteUrl("/obituary-stories/")}</Link>

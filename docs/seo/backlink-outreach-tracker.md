@@ -10,6 +10,7 @@ Primary link target for obituary vs death notice and funeral-notice keywords: ht
 Primary link target for obituary vs eulogy and spoken-tribute keywords: https://www.finalnotes.page/obituary-vs-eulogy/
 Primary link target for obituary privacy, identity-theft, and scam-safety keywords: https://www.finalnotes.page/what-not-to-include-in-an-obituary/
 Primary link target for fake obituary sites, obituary piracy, and scam-verification keywords: https://www.finalnotes.page/fake-obituary-sites/
+Primary link target for newspaper obituary submission and placement keywords: https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/
 Primary link target for obituary-writing and family-history how-to keywords: https://www.finalnotes.page/how-to-write-an-obituary-story/
 Primary link target for obituary prompts and legacy interview keywords: https://www.finalnotes.page/obituary-writing-prompts/
 Primary link target for obituary examples and wording-example keywords: https://www.finalnotes.page/obituary-examples/
@@ -108,6 +109,12 @@ Execution queue: `docs/seo/backlink-send-queue.md`
 | P2 | Funeralwise | https://www.funeralwise.com/contact-us/ or current editorial/contact path | Companion workflow for fake obituary warning signs. | https://www.finalnotes.page/fake-obituary-sites/ | fake obituary sites |
 | P2 | Sophos Counter Threat Unit | https://www.sophos.com/en-us/contact-us or current blog/security research contact path | Consumer-facing companion for fake obituary site security research. | https://www.finalnotes.page/fake-obituary-sites/ | fake obituary sites |
 | P2 | WKYT Investigates | https://www.wkyt.com/about-us/contact-us/ or reporter contact on the article | Evergreen checklist for families handling fake obituary search results. | https://www.finalnotes.page/fake-obituary-sites/ | fake obituary checklist |
+| P1 | Legacy.com | Confirm current Legacy editorial, help, or partner-content contact path | Supplemental checklist for readers submitting obituaries online, to newspapers, or through funeral homes. | https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/ | newspaper obituary submission checklist |
+| P2 | Everplans | Confirm current Everplans editorial/contact path | Family-preparation companion for readers submitting a death notice or obituary to a newspaper or website. | https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/ | how to submit an obituary to a newspaper |
+| P3 | The Gazette | customercare@thegazette.com or current obituary/contact path | General pre-submission checklist for families gathering required obituary placement information. | https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/ | obituary submission checklist |
+| P3 | The Dominion Post | Current obituary typist/contact path on the submission page | Family-facing preparation aid before contacting the obituary desk. | https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/ | newspaper obituary submission checklist |
+| P3 | Anchorage Daily News | obituary@adn.com or current obituary/contact path | Supplemental resource for families preparing a newspaper obituary. | https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/ | obituary placement checklist |
+| P3 | The Martha's Vineyard Times | editor@mvtimes.com or current obituary/contact path | Plain-language companion for community-newspaper obituary submission readers. | https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/ | obituary submission checklist |
 | Hold | Chronic Joy | https://chronic-joy.org/write-for-us/ | Human-written grief/lament post only if invited. | https://www.finalnotes.page/obituary-story-worksheet/ | obituary reflection worksheet |
 
 ## Send Log
@@ -190,6 +197,12 @@ Execution queue: `docs/seo/backlink-send-queue.md`
 |  | Funeralwise | `docs/seo/pitches/75-funeralwise-fake-obituary-resource.md` | /fake-obituary-sites/ |  |  |  |  | Fake-obituary warning-sign target |
 |  | Sophos Counter Threat Unit | `docs/seo/pitches/76-sophos-fake-obituary-sites-resource.md` | /fake-obituary-sites/ |  |  |  |  | Fake obituary security research companion |
 |  | WKYT Investigates | `docs/seo/pitches/77-wkyt-fake-obituary-resource.md` | /fake-obituary-sites/ |  |  |  |  | Local-news fake-obituary investigation target |
+|  | Legacy.com | `docs/seo/pitches/78-legacy-newspaper-obituary-submission-resource.md` | /how-to-submit-an-obituary-to-a-newspaper/ |  |  |  |  | Newspaper obituary submission target |
+|  | Everplans | `docs/seo/pitches/79-everplans-newspaper-obituary-submission-resource.md` | /how-to-submit-an-obituary-to-a-newspaper/ |  |  |  |  | End-of-life planning submission target |
+|  | The Gazette | `docs/seo/pitches/80-gazette-newspaper-obituary-submission-resource.md` | /how-to-submit-an-obituary-to-a-newspaper/ |  |  |  |  | Newspaper submission-policy target |
+|  | The Dominion Post | `docs/seo/pitches/81-dominion-post-obituary-submission-resource.md` | /how-to-submit-an-obituary-to-a-newspaper/ |  |  |  |  | Newspaper submission-policy target |
+|  | Anchorage Daily News | `docs/seo/pitches/82-anchorage-daily-news-obituary-submission-resource.md` | /how-to-submit-an-obituary-to-a-newspaper/ |  |  |  |  | Newspaper submission-policy target |
+|  | The Martha's Vineyard Times | `docs/seo/pitches/83-mv-times-obituary-submission-resource.md` | /how-to-submit-an-obituary-to-a-newspaper/ |  |  |  |  | Community-newspaper submission target |
 |  | Chronic Joy | `docs/seo/pitches/19-chronic-joy-obituary-reflection-post.md` | /obituary-story-worksheet/ | Hold unless invited |  |  |  | Human-written only |
 |  | Modern Loss | Hold until submissions reopen | /obituary-stories/ | No open calls on 2026-06-04 |  |  |  | Check weekly |
 
