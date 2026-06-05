@@ -1,4 +1,5 @@
 Subject: Supplemental obituary checklist for your writing guide
+Submission package: docs/seo/submissions/memorials-obituary-checklist-resource.md
 
 Hi [name],
 

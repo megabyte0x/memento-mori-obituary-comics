@@ -5,6 +5,7 @@ Send path: https://obitdiy.com/ message/contact link
 Source checked:
 - https://obitdiy.com/
 Recommended link target: https://www.finalnotes.page/obituary-writing-prompts/
+Submission package: `docs/seo/submissions/obit-diy-obituary-writing-prompts-resource.md`
 
 ## Why This Fits
 

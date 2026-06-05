@@ -4,6 +4,7 @@ Status: ready to personalize and send
 Send path: contact@funeralcostanalyzer.com
 Source checked: https://funeralcostanalyzer.com/obituary-writing-guide.html
 Recommended link target: https://www.finalnotes.page/obituary-story-worksheet/
+Submission package: `docs/seo/submissions/funeral-cost-analyzer-obituary-writing-resource.md`
 
 ## Why This Fits
 

@@ -4,6 +4,7 @@ Target: ObituaryGuide
 Contact path: https://www.obituaryguide.com/contact.php
 Link target: https://www.finalnotes.page/obituary-mistakes-to-avoid/
 Natural anchor: obituary mistakes checklist
+Submission package: `docs/seo/submissions/obituaryguide-obituary-mistakes-checklist-resource.md`
 
 ## Subject
 

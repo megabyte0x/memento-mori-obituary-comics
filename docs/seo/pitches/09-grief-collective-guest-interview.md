@@ -4,6 +4,7 @@ Status: ready to personalize and send
 Send path: `hello@griefcollective.com` or contact form at https://griefcollective.com/contact
 Source checked: https://griefcollective.com/contact
 Recommended link target: https://www.finalnotes.page/how-to-write-an-obituary-story/
+Submission package: `docs/seo/submissions/grief-collective-visual-obituary-story-interview.md`
 
 ## Subject
 

@@ -4,6 +4,7 @@ Target: Ever Loved
 Contact path: Confirm current Ever Loved editorial, help, or partner-content contact path
 Link target: https://www.finalnotes.page/obituary-wording/
 Natural anchor: obituary wording examples
+Submission package: `docs/seo/submissions/ever-loved-obituary-wording-resource.md`
 
 ## Subject
 

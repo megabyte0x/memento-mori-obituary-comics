@@ -3,6 +3,7 @@
 Target: The Gazette
 Send path: customercare@thegazette.com or current obituary/contact path on the submission page
 Link target: https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/
+Submission package: `docs/seo/submissions/gazette-newspaper-obituary-submission-resource.md`
 Subject: Supplemental checklist for families submitting obituaries
 
 ## Why this target fits

@@ -1,4 +1,5 @@
 Subject: Companion checklist for obituary template readers
+Submission package: docs/seo/submissions/obitsarchive-obituary-checklist-resource.md
 
 Hi [name],
 

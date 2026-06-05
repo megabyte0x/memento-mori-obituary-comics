@@ -5,6 +5,7 @@ Send path: https://www.batemanallenfuneralhome.com/contact-us/
 Source checked:
 - https://www.batemanallenfuneralhome.com/resources/write-an-obituary/
 - https://www.batemanallenfuneralhome.com/contact-us/
+Submission package: `docs/seo/submissions/bateman-allen-obituary-template-resource.md`
 Recommended link target: https://www.finalnotes.page/life-story-obituary-template/
 
 ## Why This Fits

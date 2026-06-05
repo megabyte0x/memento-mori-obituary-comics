@@ -4,6 +4,7 @@ Target: https://www.intributeeulogyservices.com/contact or site contact path
 Link target: https://www.finalnotes.page/obituary-vs-eulogy/
 Recommended anchor: eulogy vs obituary
 Status: ready for manual outreach; confirm current contact path before sending
+Submission package: `docs/seo/submissions/in-tribute-obituary-vs-eulogy-resource.md`
 
 ## Subject
 

@@ -1,4 +1,5 @@
 Subject: Obituary pricing companion resource
+Submission package: docs/seo/submissions/funeral-cost-analyzer-obituary-cost-resource.md
 
 Hi [name],
 

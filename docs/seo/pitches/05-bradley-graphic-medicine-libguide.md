@@ -1,9 +1,10 @@
 # Bradley University Graphic Medicine LibGuide Pitch
 
-Status: ready to send
+Status: package prepared; needs sender name, email, and role before sending
 Send path: `reference@bradley.edu`
 Source checked: https://bradley.libguides.com/graphicmedicine/start
 Recommended link target: https://www.finalnotes.page/educators-libraries/
+Submission package: `docs/seo/submissions/bradley-graphic-medicine-libguide-resource.md`
 
 ## Subject
 

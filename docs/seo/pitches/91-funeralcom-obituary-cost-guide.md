@@ -1,4 +1,5 @@
 Subject: Companion guide for digital and newspaper obituary costs
+Submission package: docs/seo/submissions/funeralcom-obituary-cost-guide-resource.md
 
 Hi [name],
 

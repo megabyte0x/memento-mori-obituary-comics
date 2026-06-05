@@ -1,8 +1,9 @@
 # Legacy Newspaper Obituary Submission Resource
 
 Target: Legacy.com
-Send path: current Legacy editorial, help, or partner-content contact path after confirming the latest instructions
+Send path: https://www.legacy.com/contact/en/ or current Legacy support/editorial contact path after confirming the latest instructions
 Link target: https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/
+Submission package: `docs/seo/submissions/legacy-newspaper-obituary-submission-resource.md`
 Subject: Supplemental checklist for newspaper obituary submission readers
 
 ## Why this target fits

@@ -3,6 +3,7 @@
 Target: Alzheimer's Association
 Send path: https://www.alz.org/help-support/resources/contact_us or current chapter memorial-donation contact path
 Link target: https://www.finalnotes.page/memorial-donation-wording-obituary/
+Submission package: docs/seo/submissions/alzheimers-association-memorial-donation-wording-resource.md
 Subject: Companion wording guide for obituary memorial donations
 
 Hi [name],

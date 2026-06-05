@@ -1,6 +1,6 @@
 # Beyond the Dash Pitch
 
-Status: ready to send through contact form
+Status: complete article draft and contact-form payload prepared; needs submitter name/email before sending
 Send path: https://beyondthedash.com/about/
 Source checked: https://beyondthedash.com/about/
 Recommended link target: https://www.finalnotes.page/how-to-write-an-obituary-story/
@@ -43,3 +43,9 @@ I wanted to follow up once on the guest-post pitch below. The proposed article i
 
 Best,
 [name]
+
+## Prepared Submission Payload
+
+- Contact-form payload: `docs/seo/submissions/beyond-the-dash-visual-life-story-contact-payload.md`
+- Full article draft: `docs/seo/submissions/beyond-the-dash-how-to-turn-an-obituary-into-a-visual-life-story.md`
+- Current article body word count: 1,013 words.

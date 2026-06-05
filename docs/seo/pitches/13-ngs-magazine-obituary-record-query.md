@@ -5,6 +5,7 @@ Send path: `magazine@ngsgenealogy.org`
 Source checked: https://www.ngsgenealogy.org/magazine/
 Secondary source: https://www.ngsgenealogy.org/wp-content/uploads/NGS-Magazine/Guidelines_for_NGS_Magazine_Authors_2016.pdf
 Recommended link target if accepted: citation or author bio reference to https://www.finalnotes.page/how-to-write-an-obituary-story/
+Submission package: `docs/seo/submissions/ngs-magazine-obituary-record-life-story-query.md`
 
 ## Compliance Note
 

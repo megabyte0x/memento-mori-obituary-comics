@@ -1,6 +1,6 @@
 # Remembering A Life Article Package
 
-Status: requires a complete human-written Word doc before sending
+Status: complete DOCX package prepared; needs real contributor details/headshot before sending
 Send path: `info@rememberingalife.com`
 Source checked: https://www.rememberingalife.com/pages/blog-guidelines
 Recommended link target: author bio link to https://www.finalnotes.page/how-to-write-an-obituary-story/
@@ -45,5 +45,9 @@ Best,
 ## Compliance Notes
 
 - Do not submit this file as the article.
-- Write the final article manually in a human voice.
-- Include name, title/company if applicable, city/state/country, email, phone, author bio, and optional headshot as required by the guidelines.
+- Prepared article source: `docs/seo/submissions/remembering-a-life-how-to-turn-an-obituary-into-a-life-story.md`
+- Prepared Word doc: `docs/seo/submissions/remembering-a-life-how-to-turn-an-obituary-into-a-life-story.docx`
+- Prepared cover note: `docs/seo/submissions/remembering-a-life-cover-note.md`
+- Current article body word count: 1,244 words, within the 1,000-1,500 word guideline range.
+- Visual render QA completed on all four pages of the generated DOCX.
+- Before sending, replace all bracketed contributor placeholders and include name, title/company if applicable, city/state/country, email, phone, author bio, and optional headshot as required by the guidelines.

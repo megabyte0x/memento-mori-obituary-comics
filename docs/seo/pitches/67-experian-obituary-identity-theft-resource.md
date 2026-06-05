@@ -3,6 +3,7 @@
 Target: Experian Ask Experian / identity theft education
 Send path: https://www.experian.com/contact-us/ or current editorial/contact path
 Link target: https://www.finalnotes.page/what-not-to-include-in-an-obituary/
+Submission package: `docs/seo/submissions/experian-obituary-identity-theft-resource.md`
 
 Subject: Supplemental obituary privacy checklist for identity-theft readers
 

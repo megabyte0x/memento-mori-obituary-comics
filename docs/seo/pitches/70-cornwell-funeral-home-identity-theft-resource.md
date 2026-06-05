@@ -3,6 +3,7 @@
 Target: Cornwell Funeral Homes
 Send path: https://www.cornwellfuneralhomes.com/contact-us or current site contact path
 Link target: https://www.finalnotes.page/what-not-to-include-in-an-obituary/
+Submission package: `docs/seo/submissions/cornwell-funeral-home-obituary-identity-theft-resource.md`
 
 Subject: Resource suggestion for obituary identity-theft protection page
 

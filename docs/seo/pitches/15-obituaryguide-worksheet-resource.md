@@ -1,8 +1,10 @@
 # ObituaryGuide Resource Suggestion
 
-Status: ready to personalize and send
-Send path: https://www.obituaryguide.com/contact.php
-Source checked: https://www.obituaryguide.com/resources.php
+Status: package prepared; needs sender name/email before sending
+Send path: info@obituaryguide.com
+Source checked:
+- https://www.obituaryguide.com/contact.php
+- https://www.obituaryguide.com/resources.php
 Recommended link target: https://www.finalnotes.page/obituary-story-worksheet/
 
 ## Why This Fits
@@ -33,3 +35,7 @@ Best,
 ## Follow-Up
 
 Send one follow-up after 14 days if there is no response.
+
+## Prepared Submission Package
+
+Use `docs/seo/submissions/obituaryguide-obituary-story-worksheet-resource.md`.

@@ -3,6 +3,7 @@
 Target: Bereavement Authority of Ontario
 Contact path: https://thebao.ca/contact-us/ or licensing/contact path on the notice
 Link target: https://www.finalnotes.page/fake-obituary-sites/
+Submission package: `docs/seo/submissions/bao-obituary-piracy-verification-resource.md`
 
 Subject: Supplemental fake-obituary verification checklist
 

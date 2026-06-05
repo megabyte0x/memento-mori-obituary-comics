@@ -1,8 +1,9 @@
 # Sophos CTU: Fake Obituary Sites Resource
 
 Target: Sophos Counter Threat Unit / Sophos blog
-Contact path: https://www.sophos.com/en-us/contact-us or current blog/security research contact path
+Contact path: https://www.sophos.com/en-us/company/contact or current blog/security research contact path
 Link target: https://www.finalnotes.page/fake-obituary-sites/
+Submission package: `docs/seo/submissions/sophos-fake-obituary-sites-consumer-resource.md`
 
 Subject: Consumer companion for fake obituary site research
 

@@ -1,4 +1,5 @@
 Subject: Supplemental obituary checklist for families
+Submission package: docs/seo/submissions/american-heritage-obituary-checklist-resource.md
 
 Hi [name],
 

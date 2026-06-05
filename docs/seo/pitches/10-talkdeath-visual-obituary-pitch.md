@@ -5,6 +5,7 @@ Send path: TalkDeath contact form at https://talkdeath.com/write-for-us/
 Source checked: https://talkdeath.com/write-for-us/
 Secondary source: https://talkdeath.com/wp-content/uploads/2020/10/Submission-Guidelines-for-TalkDeath-Guest-Writers.pdf
 Recommended link target: author bio link to https://www.finalnotes.page/how-to-write-an-obituary-story/
+Submission package: `docs/seo/submissions/talkdeath-visual-obituary-death-culture-pitch.md`
 
 ## Compliance Note
 

@@ -5,6 +5,7 @@ Send path: contact form at https://www.freeukgenealogy.org.uk/contact/guest-post
 Source checked: https://www.freeukgenealogy.org.uk/contact/guest-post/
 Secondary source: https://www.freeukgenealogy.org.uk/contact/guest-post-2/
 Recommended link target: author bio or contextual source link to https://www.finalnotes.page/how-to-write-an-obituary-story/
+Submission package: `docs/seo/submissions/freeuk-genealogy-obituary-record-to-family-story-query.md`
 
 ## Proposed Article
 

@@ -3,6 +3,7 @@
 Target: AARP Fraud Watch Network / bereavement scams coverage
 Send path: https://www.aarp.org/about-aarp/contact-us/ or current Fraud Watch Network editorial/contact path
 Link target: https://www.finalnotes.page/what-not-to-include-in-an-obituary/
+Submission package: `docs/seo/submissions/aarp-obituary-privacy-scam-safety-resource.md`
 
 Subject: Resource suggestion for obituary scam-safety readers
 

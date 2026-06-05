@@ -1,4 +1,5 @@
 Subject: Consumer resource for obituary notice costs
+Submission package: docs/seo/submissions/funeral-consumers-alliance-obituary-cost-resource.md
 
 Hi [name],
 

@@ -4,6 +4,7 @@ Target: https://www.familysearch.org/wiki/en/FamilySearch_Wiki:Submit_Wiki_Conte
 Link target: https://www.finalnotes.page/obituary-research-guide/
 Recommended anchor: obituary research guide
 Status: compliance-gated; use only where the wiki edit improves a relevant page
+Submission package: `docs/seo/submissions/familysearch-wiki-obituary-research-guide-suggestion.md`
 
 ## Important Guardrails
 

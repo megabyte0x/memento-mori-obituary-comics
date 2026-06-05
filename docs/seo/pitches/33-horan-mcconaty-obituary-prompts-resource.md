@@ -5,6 +5,7 @@ Send path: https://www.horancares.com/contact-us
 Source checked:
 - https://www.horancares.com/funeral-services/helpful-tips-for-writing-an-obituary
 Recommended link target: https://www.finalnotes.page/obituary-writing-prompts/
+Submission package: `docs/seo/submissions/horan-mcconaty-obituary-writing-prompts-resource.md`
 
 ## Why This Fits
 

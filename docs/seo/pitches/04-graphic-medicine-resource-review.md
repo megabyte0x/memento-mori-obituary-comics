@@ -1,9 +1,10 @@
 # Graphic Medicine Pitch
 
-Status: ready to send
+Status: package prepared; needs sender role/contact before sending
 Send path: `reviews@graphicmedicine.org` or `wolfkevs at gmail.com`
 Source checked: https://www.graphicmedicine.org/get-involved/
 Secondary source: https://www.graphicmedicine.org/comic-type/unreviewed/
+Resource source: https://www.graphicmedicine.org/graphic-medicine-resources/
 Recommended link target: https://www.finalnotes.page/educators-libraries/
 
 ## Subject
@@ -31,6 +32,10 @@ It may fit Graphic Medicine readers because the archive sits near graphic medici
 
 Best,
 [name]
+
+## Prepared Submission Package
+
+Use `docs/seo/submissions/graphic-medicine-visual-obituaries-resource-review.md`.
 
 ## Follow-Up
 

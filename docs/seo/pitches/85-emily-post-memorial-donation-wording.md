@@ -3,6 +3,7 @@
 Target: Emily Post Institute
 Send path: https://emilypost.com/contact/ or current editorial/contact path
 Link target: https://www.finalnotes.page/memorial-donation-wording-obituary/
+Submission package: docs/seo/submissions/emily-post-memorial-donation-wording-resource.md
 Subject: Obituary wording companion for donations in lieu of flowers
 
 Hi [name],

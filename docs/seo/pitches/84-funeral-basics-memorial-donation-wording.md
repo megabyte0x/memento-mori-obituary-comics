@@ -3,6 +3,7 @@
 Target: Funeral Basics
 Send path: https://la.funeraldirectorslife.com/contact/ or current Funeral Basics contact path
 Link target: https://www.finalnotes.page/memorial-donation-wording-obituary/
+Submission package: docs/seo/submissions/funeral-basics-memorial-donation-wording-resource.md
 Subject: Supplemental wording guide for in-lieu-of-flowers obituary requests
 
 Hi [name],

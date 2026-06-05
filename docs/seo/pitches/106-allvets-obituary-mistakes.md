@@ -4,6 +4,7 @@ Target: All Veterans - All Families Cremations
 Contact path: https://allvetscremations.com/contact-us/ or current site contact path
 Link target: https://www.finalnotes.page/obituary-mistakes-to-avoid/
 Natural anchor: mistakes to avoid when writing an obituary
+Submission package: `docs/seo/submissions/allvets-obituary-mistakes-resource.md`
 
 ## Subject
 

@@ -3,6 +3,7 @@
 Target: Anchorage Daily News
 Send path: obituary@adn.com or current obituary/contact path on the pricing page
 Link target: https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/
+Submission package: `docs/seo/submissions/anchorage-daily-news-obituary-submission-resource.md`
 Subject: Supplemental checklist for obituary placement readers
 
 ## Why this target fits

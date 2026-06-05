@@ -4,6 +4,7 @@ Target: https://www.mpl.org/contact/
 Link target: https://www.finalnotes.page/obituary-vs-death-notice/
 Recommended anchor: obituary vs death notice
 Status: ready for manual outreach
+Submission package: `docs/seo/submissions/milwaukee-public-library-obituary-death-notice-resource.md`
 
 ## Subject
 

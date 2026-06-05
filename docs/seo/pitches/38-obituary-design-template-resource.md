@@ -6,6 +6,7 @@ Source checked:
 - https://www.obituary.design/editable-obituary-templates-word/
 - https://www.obituary.design/
 - https://obituary.design/es/imprenta-proteccin-de-datos/
+Submission package: `docs/seo/submissions/obituary-design-life-story-template-resource.md`
 Recommended link target: https://www.finalnotes.page/life-story-obituary-template/
 
 ## Why This Fits

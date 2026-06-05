@@ -6,6 +6,7 @@ Source checked:
 - https://www.acremation.com/obituary-guidelines/
 - https://www.acremation.com/contact-us/
 Recommended link target: https://www.finalnotes.page/obituary-story-worksheet/
+Submission package: `docs/seo/submissions/acremation-obituary-story-worksheet-resource.md`
 
 ## Why This Fits
 

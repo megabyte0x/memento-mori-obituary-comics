@@ -4,6 +4,7 @@ Target: OfficialObituary
 Contact path: Confirm current OfficialObituary editorial, guide, or site contact path
 Link target: https://www.finalnotes.page/obituary-wording/
 Natural anchor: obituary wording examples
+Submission package: `docs/seo/submissions/officialobituary-wording-resource.md`
 
 ## Subject
 

@@ -4,6 +4,7 @@ Target: Best Care Cremation
 Contact path: https://www.bestcarecremation.com/contact-us/ or current site contact path
 Link target: https://www.finalnotes.page/obituary-mistakes-to-avoid/
 Natural anchor: common obituary mistakes
+Submission package: `docs/seo/submissions/best-care-cremation-obituary-mistakes-resource.md`
 
 ## Subject
 

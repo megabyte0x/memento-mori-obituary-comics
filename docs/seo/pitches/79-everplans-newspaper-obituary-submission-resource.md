@@ -1,8 +1,9 @@
 # Everplans Newspaper Obituary Submission Resource
 
 Target: Everplans
-Send path: current Everplans editorial/contact path after confirming the latest instructions
+Send path: https://help.everplans.com/customer/portal/emails/new or contactus@everplans.com after confirming the latest instructions
 Link target: https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/
+Submission package: `docs/seo/submissions/everplans-newspaper-obituary-submission-resource.md`
 Subject: Supplemental newspaper obituary submission checklist
 
 ## Why this target fits

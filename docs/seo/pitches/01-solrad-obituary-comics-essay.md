@@ -1,6 +1,6 @@
 # SOLRAD Pitch
 
-Status: ready to send
+Status: pitch package prepared; needs sender bio/samples before sending
 Send path: `pitch@solrad.co`
 Source checked: https://solrad.co/submissions
 Recommended link target: https://www.finalnotes.page/what-are-obituary-comics/
@@ -45,3 +45,7 @@ Happy to reshape the angle if there is a better fit for SOLRAD.
 
 Best,
 [name]
+
+## Prepared Submission Package
+
+Use `docs/seo/submissions/solrad-obituary-comics-visual-biography-pitch-package.md`.

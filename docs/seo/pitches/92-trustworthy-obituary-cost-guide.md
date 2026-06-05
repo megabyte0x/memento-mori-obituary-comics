@@ -1,4 +1,5 @@
 Subject: Supplemental obituary cost checklist for families
+Submission package: docs/seo/submissions/trustworthy-obituary-cost-guide-resource.md
 
 Hi [name],
 

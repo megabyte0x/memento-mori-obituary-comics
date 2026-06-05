@@ -3,6 +3,7 @@
 Target: Hospice Fredericton
 Send path: https://hospicefredericton.ca/contact/ or current site contact path
 Link target: https://www.finalnotes.page/what-not-to-include-in-an-obituary/
+Submission package: `docs/seo/submissions/hospice-fredericton-obituary-scam-safety-resource.md`
 
 Subject: Supplemental obituary scam-safety checklist
 

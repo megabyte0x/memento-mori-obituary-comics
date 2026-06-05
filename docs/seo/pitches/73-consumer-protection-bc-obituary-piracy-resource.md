@@ -3,6 +3,7 @@
 Target: Consumer Protection BC
 Contact path: https://www.consumerprotectionbc.ca/contact-us/ or media contact on current release
 Link target: https://www.finalnotes.page/fake-obituary-sites/
+Submission package: `docs/seo/submissions/consumer-protection-bc-obituary-piracy-resource.md`
 
 Subject: Family-facing fake-obituary checklist for obituary scam readers
 

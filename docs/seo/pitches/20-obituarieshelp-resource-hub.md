@@ -6,6 +6,7 @@ Source checked:
 - https://obituarieshelp.org/obituaries_hub.html
 - https://obituarieshelp.org/articles/what_do_i_write_in_an_obituary.html
 Recommended link target: https://www.finalnotes.page/obituary-story-worksheet/
+Submission package: `docs/seo/submissions/obituarieshelp-obituary-writing-forms-resource.md`
 
 ## Why This Fits
 

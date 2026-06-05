@@ -3,6 +3,7 @@
 Target: American Cancer Society
 Send path: https://www.cancer.org/about-us/contact-us.html or current memorial-giving contact path
 Link target: https://www.finalnotes.page/memorial-donation-wording-obituary/
+Submission package: docs/seo/submissions/acs-memorial-donation-obituary-wording-resource.md
 Subject: Family-facing obituary wording companion for ACS memorial gifts
 
 Hi [name],

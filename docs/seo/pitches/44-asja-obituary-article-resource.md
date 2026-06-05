@@ -6,6 +6,7 @@ Source checked:
 - https://www.asja.org/how-to-write-obituaries/
 - https://www.asja.org/how-to-write-for-asja-confidential/
 - https://www.asja.org/who-we-are/media-inquiries/
+Submission package: `docs/seo/submissions/asja-obituary-articles-resource.md`
 Recommended link target: https://www.finalnotes.page/obituary-articles/
 
 ## Why This Fits

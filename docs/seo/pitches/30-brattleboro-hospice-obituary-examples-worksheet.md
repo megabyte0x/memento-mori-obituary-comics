@@ -6,6 +6,7 @@ Source checked:
 - https://brattleborohospice.org/wp-content/uploads/2018/04/OBITUARY-WORKSHEET.pdf
 - https://brattleborohospice.org/contact-us
 Recommended link target: https://www.finalnotes.page/obituary-story-worksheet/
+Submission package: `docs/seo/submissions/brattleboro-hospice-obituary-story-worksheet-resource.md`
 
 ## Why This Fits
 

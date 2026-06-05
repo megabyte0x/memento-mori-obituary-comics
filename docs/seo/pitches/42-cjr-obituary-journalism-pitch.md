@@ -1,9 +1,11 @@
 # CJR Obituary Journalism Pitch
 
-Status: ready to personalize and send
+Status: pitch package prepared; needs sender bio/clips before sending
 Send path: editors@cjr.org
 Source checked:
 - https://www.cjr.org/about_us/submission-guidelines.php
+- https://www.cjr.org/about_us/contact.php
+- https://www.cjr.org/analysis/breathing-new-life-into-obituaries-obit-project-jad-abumrad-montana.php
 - https://www.finalnotes.page/obituary-articles/
 Recommended link target: https://www.finalnotes.page/obituary-articles/
 
@@ -36,3 +38,7 @@ Best,
 ## Follow-Up
 
 CJR asks that pitches include "Pitch" in the subject. Follow up once after 14 days if there is no response.
+
+## Prepared Submission Package
+
+Use `docs/seo/submissions/cjr-obituary-articles-local-news-memory-work-pitch-package.md`.

@@ -4,6 +4,7 @@ Target: Eduyush
 Contact path: Current Eduyush contact/editorial path
 Link target: https://www.finalnotes.page/short-obituary-examples/
 Natural anchor: short obituary examples
+Submission package: `docs/seo/submissions/eduyush-short-obituary-examples-resource.md`
 
 ## Subject
 

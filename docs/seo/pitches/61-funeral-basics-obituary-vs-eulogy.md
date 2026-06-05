@@ -4,6 +4,7 @@ Target: https://la.funeraldirectorslife.com/contact/
 Link target: https://www.finalnotes.page/obituary-vs-eulogy/
 Recommended anchor: obituary vs eulogy
 Status: ready for manual outreach; confirm Funeral Basics editorial contact before sending
+Submission package: `docs/seo/submissions/funeral-basics-obituary-vs-eulogy-resource.md`
 
 ## Subject
 

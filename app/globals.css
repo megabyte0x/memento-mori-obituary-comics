@@ -2405,6 +2405,12 @@ body::before {
 .press-facts li + li {
   margin-top: 10px;
 }
+.press-source-requests {
+  margin-bottom: 24px;
+}
+.press-source-requests > p {
+  margin-bottom: 18px;
+}
 .press-subjects {
   margin-top: 0;
 }

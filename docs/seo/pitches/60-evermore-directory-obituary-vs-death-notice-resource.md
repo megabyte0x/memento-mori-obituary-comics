@@ -4,6 +4,7 @@ Target: listings@funeralhomedirectories.com or https://funeralhomedirectories.co
 Link target: https://www.finalnotes.page/obituary-vs-death-notice/
 Recommended anchor: obituary vs death notice
 Status: ready for manual outreach
+Submission package: `docs/seo/submissions/evermore-directory-obituary-vs-death-notice-resource.md`
 
 ## Subject
 

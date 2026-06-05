@@ -1,6 +1,6 @@
 # The Comics Journal Pitch
 
-Status: ready to send
+Status: pitch package prepared; needs sender bio/insight/samples before sending
 Send path: `editorial (at) tcj (dot) com`
 Source checked: https://www.tcj.com/faq/
 Recommended link target: https://www.finalnotes.page/what-are-obituary-comics/
@@ -32,6 +32,10 @@ I can send a tighter outline or draft if this sounds like a fit.
 
 Best,
 [name]
+
+## Prepared Submission Package
+
+Use `docs/seo/submissions/tcj-obituary-comics-form-submission-inquiry-package.md`.
 
 ## Follow-Up
 

@@ -4,6 +4,7 @@ Target: Everplans
 Contact path: Confirm current Everplans editorial/contact path
 Link target: https://www.finalnotes.page/obituary-wording/
 Natural anchor: death announcement and obituary wording
+Submission package: `docs/seo/submissions/everplans-death-notice-wording-resource.md`
 
 ## Subject
 

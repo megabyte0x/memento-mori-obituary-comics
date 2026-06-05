@@ -4,6 +4,7 @@ Status: ready to personalize and send
 Send path: obitoptions@gmail.com
 Source checked: https://www.obitoptions.com/
 Recommended link target: https://www.finalnotes.page/obituary-examples/
+Submission package: `docs/seo/submissions/obit-options-obituary-story-examples-resource.md`
 
 ## Why This Fits
 

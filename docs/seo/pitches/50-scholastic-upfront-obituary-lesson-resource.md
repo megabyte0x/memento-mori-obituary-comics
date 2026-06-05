@@ -6,6 +6,7 @@ Source checked:
 - https://upfront.scholastic.com/issues/2023-24/012924/overlooked-no-more/lesson-plan-overlooked-no-more.html
 - https://upfront.scholastic.com/pages/help-and-how-tos.html
 - https://upfront.scholastic.com/pages/frequently-asked-questions.html
+Submission package: `docs/seo/submissions/scholastic-upfront-obituary-lesson-resource.md`
 Recommended link target: https://www.finalnotes.page/obituary-lesson-plan/
 
 ## Why This Fits

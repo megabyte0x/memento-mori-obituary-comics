@@ -4,6 +4,7 @@ Target: Legacy.com Help Center
 Contact path: https://www.legacy.com/contact/ or current help/editorial contact path
 Link target: https://www.finalnotes.page/obituary-mistakes-to-avoid/
 Natural anchor: obituary proofing checklist
+Submission package: `docs/seo/submissions/legacy-help-obituary-links-proofing-resource.md`
 
 ## Subject
 

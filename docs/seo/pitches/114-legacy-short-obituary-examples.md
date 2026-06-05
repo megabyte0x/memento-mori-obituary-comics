@@ -4,6 +4,7 @@ Target: Legacy.com
 Contact path: https://www.legacy.com/contact/ or current help/editorial contact path
 Link target: https://www.finalnotes.page/short-obituary-examples/
 Natural anchor: short obituary examples
+Submission package: `docs/seo/submissions/legacy-short-obituary-examples-resource.md`
 
 ## Subject
 

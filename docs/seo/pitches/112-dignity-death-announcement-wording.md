@@ -4,6 +4,7 @@ Target: Dignity Memorial
 Contact path: Confirm current Dignity Memorial editorial, help, or site contact path
 Link target: https://www.finalnotes.page/obituary-wording/
 Natural anchor: death announcement wording
+Submission package: `docs/seo/submissions/dignity-death-announcement-wording-resource.md`
 
 ## Subject
 

@@ -4,6 +4,7 @@ Target: https://funeral.com/pages/contact-us
 Link target: https://www.finalnotes.page/obituary-vs-death-notice/
 Recommended anchor: obituary vs death notice
 Status: ready for manual outreach
+Submission package: `docs/seo/submissions/funeralcom-obituary-vs-death-notice-resource.md`
 
 ## Subject
 

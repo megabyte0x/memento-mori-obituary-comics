@@ -6,6 +6,7 @@ Source checked:
 - https://www.allenfuneralhome.us/commonly-used-forms
 - https://www.allenfuneralhome.us/contact-us
 - https://www.allenfuneralhome.us/frequent-questions
+Submission package: `docs/seo/submissions/allen-funeral-home-life-story-template-resource.md`
 Recommended link target: https://www.finalnotes.page/life-story-obituary-template/
 
 ## Why This Fits

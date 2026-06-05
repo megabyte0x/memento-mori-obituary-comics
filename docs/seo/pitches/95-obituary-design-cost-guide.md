@@ -1,4 +1,5 @@
 Subject: Source-backed companion for obituary cost readers
+Submission package: docs/seo/submissions/obituary-design-cost-guide-resource.md
 
 Hi [name],
 

@@ -4,6 +4,7 @@ Target: US Urns Online
 Contact path: info@usurnsonline.com or https://www.usurnsonline.com/contact/
 Link target: https://www.finalnotes.page/obituary-wording/
 Natural anchor: obituary wording examples
+Submission package: `docs/seo/submissions/us-urns-death-announcement-wording-resource.md`
 
 ## Subject
 

@@ -6,6 +6,7 @@ Source checked:
 - https://www.pbs.org/education/contact-us/
 - https://docs.pbs.org/space/DLM/3584546
 - https://www.pbs.org/opb/historydetectives/educators/technique-guide/written-in-stone/index.html
+Submission package: `docs/seo/submissions/pbs-learningmedia-obituary-lesson-plan-resource.md`
 Recommended link target: https://www.finalnotes.page/obituary-lesson-plan/
 
 ## Why This Fits

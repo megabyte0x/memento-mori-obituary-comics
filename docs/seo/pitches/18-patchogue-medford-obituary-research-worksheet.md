@@ -6,6 +6,7 @@ Source checked:
 - https://pmlib.org/genealogy/
 - https://pmlib.org/contact-form/
 Recommended link target: https://www.finalnotes.page/obituary-story-worksheet/
+Submission package: `docs/seo/submissions/patchogue-medford-obituary-research-writing-resource.md`
 
 ## Why This Fits
 

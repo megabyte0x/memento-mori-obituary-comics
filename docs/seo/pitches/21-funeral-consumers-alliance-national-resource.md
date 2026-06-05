@@ -1,6 +1,6 @@
 # Funeral Consumers Alliance National Resource Suggestion
 
-Status: ready to personalize and send
+Status: package prepared; needs sender role/contact before sending
 Send path: fca@funerals.org
 Source checked:
 - https://www.funerals.org/about/
@@ -37,3 +37,7 @@ Best,
 ## Follow-Up
 
 Send one follow-up after 14 days if there is no response.
+
+## Prepared Submission Package
+
+Use `docs/seo/submissions/funeral-consumers-alliance-obituary-story-resource.md`.

@@ -6,6 +6,7 @@ Source checked:
 - https://jea.org/
 - https://jea.org/contact/
 - https://jea.org/curriculum-library/writing/
+Submission package: `docs/seo/submissions/jea-obituary-articles-resource.md`
 Recommended link target: https://www.finalnotes.page/obituary-articles/
 
 ## Why This Fits

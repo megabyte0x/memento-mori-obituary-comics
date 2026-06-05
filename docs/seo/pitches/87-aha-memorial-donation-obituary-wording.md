@@ -3,6 +3,7 @@
 Target: American Heart Association
 Send path: https://www.heart.org/en/about-us/contact-us or current donor-support path
 Link target: https://www.finalnotes.page/memorial-donation-wording-obituary/
+Submission package: docs/seo/submissions/aha-memorial-donation-obituary-wording-resource.md
 Subject: Supplemental obituary wording guide for honor and memorial gifts
 
 Hi [name],

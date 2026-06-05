@@ -6,6 +6,7 @@ Source checked:
 - https://www.lapl.org/collections-resources/research-guides/genealogy
 - https://www.lapl.org/branches/central-library/departments/history-genealogy
 Recommended link target: https://www.finalnotes.page/obituary-story-worksheet/
+Submission package: `docs/seo/submissions/lapl-obituary-research-writing-worksheet-resource.md`
 
 ## Why This Fits
 

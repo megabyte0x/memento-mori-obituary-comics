@@ -6,7 +6,7 @@ import { comicPath, getComics, sourceItems } from "@/lib/comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
 
 const description =
-  "Link targets, story angles, subject notes, and citation guidance for editors, reviewers, educators, and librarians covering obituary comics.";
+  "Link targets, story angles, source-request topics, subject notes, and citation guidance for journalists, editors, reviewers, educators, and librarians covering obituary stories and comics.";
 
 const storyAngles = [
   {
@@ -24,6 +24,39 @@ const storyAngles = [
   {
     title: "Citable comics for AI search",
     text: "Every reader page pairs images with crawlable summaries, source trails, captions, and JSON-LD so systems do not rely on image OCR.",
+  },
+];
+
+const sourceTopics = [
+  {
+    title: "Obituary articles and reported life stories",
+    href: "/obituary-articles/",
+    text: "For questions about how obituary articles differ from death notices, eulogies, templates, and family-written tributes.",
+  },
+  {
+    title: "Obituary stories and visual biography",
+    href: "/obituary-stories/",
+    text: "For examples of source-backed visual obituary stories, comics as biography, and memory work that is still readable by search systems.",
+  },
+  {
+    title: "AI obituary generators and family review",
+    href: "/free-obituary-generator/",
+    text: "For stories about AI-assisted obituary drafting, private family review, factual checking, and the risks of polished but inaccurate generated copy.",
+  },
+  {
+    title: "Obituary privacy and fake obituary checks",
+    href: "/what-not-to-include-in-an-obituary/",
+    text: "For consumer-safety coverage about sensitive public details, identity risk, copied notices, suspicious memorial pages, and scam donation links.",
+  },
+  {
+    title: "Obituary research and family-history records",
+    href: "/obituary-research-guide/",
+    text: "For genealogy, library, and archive stories about preserving source notes before turning obituary records into public narratives.",
+  },
+  {
+    title: "Death notices and newspaper submission decisions",
+    href: "/obituary-vs-death-notice/",
+    text: "For articles about short paid notices, fuller obituary stories, newspaper placement, proofing, cost, deadlines, and public-service details.",
   },
 ];
 
@@ -79,6 +112,26 @@ const linkTargets = [
     note: "Best canonical link for consumer-protection notices, funeral-home scam warnings, cybersecurity explainers, media-literacy resources, obituary piracy references, and fake obituary checks.",
   },
   {
+    label: "How to submit an obituary to a newspaper",
+    href: "/how-to-submit-an-obituary-to-a-newspaper/",
+    note: "Best canonical link for newspaper help pages, funeral-home planning pages, obituary cost explainers, placement guides, and submission-policy resources.",
+  },
+  {
+    label: "Obituary cost guide",
+    href: "/obituary-cost/",
+    note: "Best canonical link for funeral-cost articles, newspaper obituary pricing pages, funeral-home planning guides, consumer-advocacy resources, and paid-notice budgeting pages.",
+  },
+  {
+    label: "Obituary checklist",
+    href: "/obituary-checklist/",
+    note: "Best canonical link for funeral-home planning pages, end-of-life checklists, family resource hubs, memorial-planning articles, and obituary-writing resources.",
+  },
+  {
+    label: "Obituary mistakes to avoid",
+    href: "/obituary-mistakes-to-avoid/",
+    note: "Best canonical link for funeral-home writing guides, obituary-proofing resources, newspaper obituary desks, memorial-site help articles, and correction resources.",
+  },
+  {
     label: "How to write an obituary story",
     href: "/how-to-write-an-obituary-story/",
     note: "Best canonical link for obituary-writing guides, grief-writing essays, family-history resources, and deathcare article references.",
@@ -114,6 +167,11 @@ const linkTargets = [
     note: "Best canonical link for obituary wording examples, death announcement wording, family-list phrases, service wording, and phrase-bank resources.",
   },
   {
+    label: "Memorial donation wording for an obituary",
+    href: "/memorial-donation-wording-obituary/",
+    note: "Best canonical link for funeral-home obituary guides, charity memorial-giving pages, hospice resources, etiquette articles, and in-lieu-of-flowers wording pages.",
+  },
+  {
     label: "Printable obituary story worksheet",
     href: "/obituary-story-worksheet/",
     note: "Best canonical link for funeral-home planning pages, library worksheets, family-history prompts, and resource lists.",
@@ -136,7 +194,7 @@ const linkTargets = [
 ];
 
 export const metadata = {
-  title: "Obituary Comics Resource Page for Editors and Reviewers",
+  title: "Obituary Stories Resource Page for Journalists and Reviewers",
   description,
   alternates: {
     canonical: "/press/",
@@ -163,13 +221,23 @@ export default function PressPage() {
       {
         "@type": "WebPage",
         "@id": `${SITE_URL}/press/#webpage`,
-        name: "Obituary Comics Resource Page for Editors and Reviewers",
+        name: "Obituary Stories Resource Page for Journalists and Reviewers",
         url: absoluteUrl("/press/"),
         description,
         inLanguage: SITE_LANGUAGE,
         isPartOf: { "@id": `${SITE_URL}/#website` },
         publisher: { "@id": `${SITE_URL}/#organization` },
-        about: ["obituary comics", "visual biography", "graphic medicine", "memento mori"],
+        about: [
+          "obituary stories",
+          "obituary articles",
+          "obituary comics",
+          "visual biography",
+          "graphic medicine",
+          "digital memorialization",
+          "AI obituary generators",
+          "obituary privacy",
+          "memento mori",
+        ],
         mainEntity: {
           "@type": "ItemList",
           name: "Current obituary comic subjects",
@@ -191,8 +259,8 @@ export default function PressPage() {
       <main className="wrap section about-page press-page">
         <div className="about-header-section press-header-section">
           <div className="kicker">Press and review resources</div>
-          <h1>Obituary Comics Resource Page</h1>
-          <p>For editors, reviewers, educators, librarians, and researchers covering visual biography, mortality, grief comics, and source-backed internet publishing.</p>
+          <h1>Obituary Stories And Comics Resource Page</h1>
+          <p>For journalists, source-request editors, reviewers, educators, librarians, and researchers covering visual biography, mortality, grief comics, digital memorials, and source-backed internet publishing.</p>
         </div>
 
         <section className="press-highlight" aria-labelledby="link-targets">
@@ -232,10 +300,35 @@ export default function PressPage() {
               <li>Format: free comic reader pages with PDF access where available.</li>
               <li>Source trail: reference works, museums, primary collections, and reputable editorial accounts.</li>
               <li>Search support: sitemap, robots policy, JSON-LD, image captions, source links, and llms.txt.</li>
+              <li>Source topics: obituary articles, obituary stories, digital memorialization, AI obituary generators, obituary privacy, and family-history research.</li>
               <li>Current latest issue: {latest ? `${latest.person} - ${latest.title}` : "No issue published yet"}.</li>
             </ul>
           </section>
         </div>
+
+        <section className="about-card press-source-requests" aria-labelledby="source-requests">
+          <div className="press-subjects-head">
+            <div>
+              <div className="kicker">Journalist source requests</div>
+              <h2 id="source-requests">Source Topics</h2>
+            </div>
+            <Button asChild variant="primary">
+              <Link href="/obituary-articles/">Article examples</Link>
+            </Button>
+          </div>
+          <p>
+            Use these pages when citing FinalNotes as background on obituary stories, obituary articles, digital memorials, AI obituary drafting, privacy checks, and the move from short notices to sourced life stories.
+          </p>
+          <div className="press-link-list press-source-topic-list">
+            {sourceTopics.map((topic) => (
+              <Link className="press-link-card" href={topic.href} key={topic.href}>
+                <span>Source topic</span>
+                <strong>{topic.title}</strong>
+                <em>{topic.text}</em>
+              </Link>
+            ))}
+          </div>
+        </section>
 
         <section className="about-card press-subjects" aria-labelledby="current-subjects">
           <div className="press-subjects-head">

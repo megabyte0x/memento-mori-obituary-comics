@@ -4,6 +4,7 @@ Status: ready to personalize and send
 Send path: info@funeralsct.org
 Source checked: https://funeralsct.org/plan-a-funeral-or-memorial-service-write-an-obituary/
 Recommended link target: https://www.finalnotes.page/how-to-write-an-obituary-story/
+Submission package: `docs/seo/submissions/fca-connecticut-obituary-writing-resource.md`
 
 ## Why This Fits
 

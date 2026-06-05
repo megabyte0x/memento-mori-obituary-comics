@@ -4,6 +4,7 @@ Status: ready to personalize and send
 Send path: info@fingerlakesfunerals.org
 Source checked: https://www.fingerlakesfunerals.org/writing-obituaries
 Recommended link target: https://www.finalnotes.page/obituary-story-worksheet/
+Submission package: `docs/seo/submissions/fca-finger-lakes-obituary-worksheet-resource.md`
 
 ## Why This Fits
 

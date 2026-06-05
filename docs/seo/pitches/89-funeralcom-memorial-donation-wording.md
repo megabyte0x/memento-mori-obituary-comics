@@ -3,6 +3,7 @@
 Target: Funeral.com
 Send path: https://funeral.com/pages/contact-us or current editorial/contact path
 Link target: https://www.finalnotes.page/memorial-donation-wording-obituary/
+Submission package: docs/seo/submissions/funeralcom-memorial-donation-wording-resource.md
 Subject: Source-backed companion for memorial donation wording readers
 
 Hi [name],

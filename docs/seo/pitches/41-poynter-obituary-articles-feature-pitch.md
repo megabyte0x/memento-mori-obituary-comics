@@ -1,6 +1,6 @@
 # Poynter Obituary Articles Feature Pitch
 
-Status: ready to personalize and send
+Status: pitch package prepared; needs sender bio/clips before sending
 Send path: pitch@poynter.org or https://www.poynter.org/contact-us/
 Source checked:
 - https://www.poynter.org/pitch-freelance-media-news/
@@ -37,3 +37,7 @@ Best,
 ## Follow-Up
 
 Follow Poynter's pitch guidance. Send one follow-up after 10 business days if there is no response.
+
+## Prepared Submission Package
+
+Use `docs/seo/submissions/poynter-visual-obituary-articles-pitch-package.md`.

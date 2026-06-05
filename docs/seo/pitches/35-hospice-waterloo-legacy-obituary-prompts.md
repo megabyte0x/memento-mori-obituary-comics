@@ -6,6 +6,7 @@ Source checked:
 - https://www.hospicewaterloo.ca/legacy-activities/
 - https://www.hospicewaterloo.ca/contact/
 Recommended link target: https://www.finalnotes.page/obituary-writing-prompts/
+Submission package: `docs/seo/submissions/hospice-waterloo-legacy-obituary-prompts-resource.md`
 
 ## Why This Fits
 

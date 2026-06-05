@@ -1,8 +1,9 @@
 # Funeralwise: Fake Obituary Resource
 
 Target: Funeralwise
-Contact path: https://www.funeralwise.com/contact-us/ or current editorial/contact path
+Contact path: https://www.funeralwise.com/contact/ or current editorial/contact path
 Link target: https://www.finalnotes.page/fake-obituary-sites/
+Submission package: `docs/seo/submissions/funeralwise-fake-obituary-checklist-resource.md`
 
 Subject: Companion checklist for fake obituary warning signs
 

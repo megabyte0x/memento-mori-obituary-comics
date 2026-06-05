@@ -4,6 +4,7 @@ Target: QuickFuneral
 Contact path: Current QuickFuneral contact/support path
 Link target: https://www.finalnotes.page/short-obituary-examples/
 Natural anchor: short obituary examples
+Submission package: `docs/seo/submissions/quickfuneral-short-obituary-examples-resource.md`
 
 ## Subject
 

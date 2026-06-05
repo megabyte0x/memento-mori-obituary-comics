@@ -7,6 +7,7 @@ Source checked:
 - https://www.myfarewelling.com/memorial-websites
 - https://www.myfarewelling.com/about
 Recommended link target: https://www.finalnotes.page/obituary-examples/
+Submission package: `docs/seo/submissions/farewelling-obituary-examples-story-patterns.md`
 
 ## Why This Fits
 

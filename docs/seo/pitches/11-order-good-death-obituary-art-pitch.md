@@ -4,6 +4,7 @@ Status: human rewrite required before sending
 Send path: `submissions@orderofthegooddeath.com`
 Source checked: https://www.orderofthegooddeath.com/pitch-guide
 Recommended link target: contextual citation or bio link to https://www.finalnotes.page/what-are-obituary-comics/
+Submission package: `docs/seo/submissions/order-good-death-visual-obituaries-death-education-pitch.md`
 
 ## Compliance Note
 

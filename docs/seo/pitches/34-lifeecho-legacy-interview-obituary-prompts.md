@@ -6,6 +6,7 @@ Source checked:
 - https://lifeecho.org/blog/what-are-good-questions-for-legacy-interview
 - https://lifeecho.org/about
 Recommended link target: https://www.finalnotes.page/obituary-writing-prompts/
+Submission package: `docs/seo/submissions/lifeecho-legacy-interview-obituary-prompts-resource.md`
 
 ## Why This Fits
 

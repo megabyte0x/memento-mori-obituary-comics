@@ -3,6 +3,7 @@
 Target: Trustworthy
 Send path: https://www.trustworthy.com/contact or current site contact path
 Link target: https://www.finalnotes.page/what-not-to-include-in-an-obituary/
+Submission package: `docs/seo/submissions/trustworthy-obituary-privacy-resource.md`
 
 Subject: Companion checklist for obituary details to avoid
 

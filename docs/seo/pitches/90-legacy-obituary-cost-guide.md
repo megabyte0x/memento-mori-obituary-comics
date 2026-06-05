@@ -1,4 +1,5 @@
 Subject: Supplemental obituary cost quote checklist
+Submission package: docs/seo/submissions/legacy-obituary-cost-guide-resource.md
 
 Hi [name],
 

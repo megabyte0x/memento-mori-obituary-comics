@@ -1,8 +1,9 @@
 # Green Cremation Texas - Obituary Privacy Resource
 
 Target: Green Cremation Texas
-Send path: https://www.cremation.green/contact/ or current funeral-home contact path
+Send path: https://www.cremation.green/contact-us/ or current funeral-home contact path
 Link target: https://www.finalnotes.page/what-not-to-include-in-an-obituary/
+Submission package: `docs/seo/submissions/green-cremation-obituary-privacy-resource.md`
 
 Subject: Supplemental privacy checklist for obituary-writing families
 

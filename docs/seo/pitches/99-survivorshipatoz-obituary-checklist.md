@@ -1,4 +1,5 @@
 Subject: Resource suggestion for obituary planning readers
+Submission package: docs/seo/submissions/survivorshipatoz-obituary-checklist-resource.md
 
 Hi [name],
 

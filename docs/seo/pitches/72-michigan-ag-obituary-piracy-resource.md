@@ -3,6 +3,7 @@
 Target: Michigan AG Consumer Protection Team
 Contact path: https://www.michigan.gov/ag/about/contact-us or current Consumer Protection Team path
 Link target: https://www.finalnotes.page/fake-obituary-sites/
+Submission package: `docs/seo/submissions/michigan-ag-obituary-piracy-resource.md`
 
 Subject: Supplemental checklist for obituary-piracy readers
 

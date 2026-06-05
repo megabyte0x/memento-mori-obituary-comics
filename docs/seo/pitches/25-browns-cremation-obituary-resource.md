@@ -6,6 +6,7 @@ Source checked:
 - https://www.brownscremationservice.com/resources/how-to-write-an-obituary
 - https://www.brownscremationservice.com/community-partnerships
 Recommended link target: https://www.finalnotes.page/obituary-story-worksheet/
+Submission package: `docs/seo/submissions/browns-cremation-obituary-writing-resource.md`
 
 ## Why This Fits
 

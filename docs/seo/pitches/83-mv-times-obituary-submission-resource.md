@@ -3,6 +3,7 @@
 Target: The Martha's Vineyard Times
 Send path: editor@mvtimes.com or current obituary/contact path on the submission page
 Link target: https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/
+Submission package: `docs/seo/submissions/mv-times-obituary-submission-resource.md`
 Subject: Supplemental obituary submission checklist for families
 
 ## Why this target fits

@@ -1,9 +1,10 @@
 # Comics Beat News Tip
 
-Status: ready to send
+Status: package prepared; needs sender name, email, and role before sending
 Send path: `info@comicsbeat.com`
 Source checked: https://www.comicsbeat.com/contact/
 Recommended link target: https://www.finalnotes.page/press/
+Submission package: `docs/seo/submissions/comics-beat-news-tip-package.md`
 
 ## Subject
 
@@ -30,6 +31,7 @@ This may fit as a short news item, review mention, or pointer for a writer inter
 
 Best,
 [name]
+[role/contact]
 
 ## Follow-Up
 

@@ -6,6 +6,7 @@ Source checked:
 - https://www.funeralfolio.com/obituary-template
 - https://www.funeralfolio.com/contact
 - https://www.funeralfolio.com/about
+Submission package: `docs/seo/submissions/funeralfolio-life-story-template-resource.md`
 Recommended link target: https://www.finalnotes.page/life-story-obituary-template/
 
 ## Why This Fits

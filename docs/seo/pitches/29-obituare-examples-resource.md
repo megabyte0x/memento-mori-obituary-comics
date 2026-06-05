@@ -6,6 +6,7 @@ Source checked:
 - https://www.obituare.com/help/resources/
 - https://www.obituare.com/help/
 Recommended link target: https://www.finalnotes.page/obituary-examples/
+Submission package: `docs/seo/submissions/obituare-obituary-examples-resource.md`
 
 ## Why This Fits
 

@@ -4,6 +4,7 @@ Target: FuneralFolio
 Contact path: support@funeralfolio.com or https://www.funeralfolio.com/contact
 Link target: https://www.finalnotes.page/short-obituary-examples/
 Natural anchor: short obituary examples
+Submission package: `docs/seo/submissions/funeralfolio-short-obituary-examples-resource.md`
 
 ## Subject
 

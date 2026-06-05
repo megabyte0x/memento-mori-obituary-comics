@@ -4,6 +4,7 @@ Target: Indiana Funeral Care
 Contact path: https://www.indianafuneralcare.com/contact-us or current site contact path
 Link target: https://www.finalnotes.page/obituary-mistakes-to-avoid/
 Natural anchor: obituary mistakes and corrections
+Submission package: `docs/seo/submissions/indiana-funeral-care-obituary-corrections-resource.md`
 
 ## Subject
 

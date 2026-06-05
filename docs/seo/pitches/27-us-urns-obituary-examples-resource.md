@@ -6,6 +6,7 @@ Source checked:
 - https://www.usurnsonline.com/funerals/obituary/
 - https://www.usurnsonline.com/contact/
 Recommended link target: https://www.finalnotes.page/obituary-examples/
+Submission package: `docs/seo/submissions/us-urns-obituary-examples-story-pattern-resource.md`
 
 ## Why This Fits
 

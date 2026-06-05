@@ -6,6 +6,7 @@ Source checked:
 - https://news.northeastern.edu/2016/12/14/the-craft-essence-and-importance-of-obituary-writing/
 - https://camd.northeastern.edu/journalism/
 - https://camd.northeastern.edu/contact/
+Submission package: `docs/seo/submissions/northeastern-obituary-article-examples-resource.md`
 Recommended link target: https://www.finalnotes.page/obituary-articles/
 
 ## Why This Fits

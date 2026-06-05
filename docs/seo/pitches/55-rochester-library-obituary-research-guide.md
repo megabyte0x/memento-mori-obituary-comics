@@ -1,9 +1,10 @@
 # Rochester Public Library - Obituary Research Guide
 
-Target: https://www.rplmn.org/contacts-directory/
+Target: https://www.rplmn.org/about-rpl/contact-us/
 Link target: https://www.finalnotes.page/obituary-research-guide/
 Recommended anchor: obituary research guide
 Status: ready for manual outreach
+Submission package: `docs/seo/submissions/rochester-public-library-mn-obituary-research-resource.md`
 
 ## Subject
 

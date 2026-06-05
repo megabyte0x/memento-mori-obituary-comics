@@ -1,9 +1,10 @@
 # The Ancestor Hunt - Obituary Research Guide
 
-Target: https://theancestorhunt.com/about.html
+Target: https://theancestorhunt.com/contact.html
 Link target: https://www.finalnotes.page/obituary-research-guide/
 Recommended anchor: obituary research guide
 Status: ready for manual outreach
+Submission package: `docs/seo/submissions/ancestor-hunt-obituary-research-guide-resource.md`
 
 ## Subject
 
@@ -22,7 +23,7 @@ It focuses on the step after search: preserving the citation, separating verifie
 
 If it is useful for an obituary search, newspaper, or genealogy resource roundup, the natural anchor would be "obituary research guide."
 
-Note before sending: confirm the current contact or submission path from the About page or newsletter route.
+Note before sending: use the current contact form or direct email from the Contact page.
 
 Best,
 [name]

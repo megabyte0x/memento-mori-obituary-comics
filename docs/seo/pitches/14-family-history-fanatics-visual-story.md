@@ -5,6 +5,7 @@ Send path: contact form at https://www.familyhistoryfanatics.com/contact
 Source checked: https://www.familyhistoryfanatics.com/obit-into-a-story-writing-challenge
 Secondary source: https://www.familyhistoryfanatics.com/contact
 Recommended link target: https://www.finalnotes.page/how-to-write-an-obituary-story/
+Submission package: `docs/seo/submissions/family-history-fanatics-visual-obituary-story-resource.md`
 
 ## Subject
 

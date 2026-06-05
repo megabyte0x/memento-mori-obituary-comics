@@ -1,9 +1,10 @@
 # Family Tree Magazine - Obituary Research Guide
 
-Target: https://familytreemagazine.com/faq/
+Target: https://familytreemagazine.com/frequently-asked-questions-get-involved-family-tree/
 Link target: https://www.finalnotes.page/obituary-research-guide/
 Recommended anchor: obituary records into stories
 Status: ready for manual outreach
+Submission package: `docs/seo/submissions/family-tree-magazine-obituary-record-life-story-query.md`
 
 ## Subject
 

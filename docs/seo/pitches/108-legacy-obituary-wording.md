@@ -4,6 +4,7 @@ Target: Legacy.com
 Contact path: https://www.legacy.com/contact/ or current help/editorial contact path
 Link target: https://www.finalnotes.page/obituary-wording/
 Natural anchor: obituary wording examples
+Submission package: `docs/seo/submissions/legacy-obituary-wording-resource.md`
 
 ## Subject
 

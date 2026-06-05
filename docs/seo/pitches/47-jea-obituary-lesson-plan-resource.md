@@ -1,6 +1,6 @@
 # JEA Obituary Lesson Plan Resource Suggestion
 
-Status: ready to personalize and send
+Status: contact form/email payload prepared; needs submitter name/email before sending
 Send path: staff@jea.org or https://jea.org/contact/
 Source checked:
 - https://jea.org/
@@ -36,3 +36,7 @@ Best,
 ## Follow-Up
 
 Send one follow-up after 14 days if there is no response.
+
+## Prepared Submission Payload
+
+Use `docs/seo/submissions/jea-obituary-lesson-plan-resource.md`.

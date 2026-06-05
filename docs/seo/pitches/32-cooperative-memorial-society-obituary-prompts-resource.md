@@ -6,6 +6,7 @@ Source checked:
 - https://www.coopmemorial.org/forms-and-resources.html
 - https://www.coopmemorial.org/contact-us.html
 Recommended link target: https://www.finalnotes.page/obituary-writing-prompts/
+Submission package: `docs/seo/submissions/cooperative-memorial-society-obituary-prompts-resource.md`
 
 ## Why This Fits
 

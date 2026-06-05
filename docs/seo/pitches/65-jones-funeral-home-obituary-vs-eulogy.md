@@ -4,6 +4,7 @@ Target: info@jonesfuneralhome.co or https://jonesfuneralhome.co/eulogies-obituar
 Link target: https://www.finalnotes.page/obituary-vs-eulogy/
 Recommended anchor: obituary vs eulogy
 Status: ready for manual outreach
+Submission package: `docs/seo/submissions/jones-funeral-home-obituary-vs-eulogy-resource.md`
 
 ## Subject
 

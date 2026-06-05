@@ -4,6 +4,7 @@ Target: https://gracemortuary.com/resources/writing-a-eulogy-and-obituary/
 Link target: https://www.finalnotes.page/obituary-vs-eulogy/
 Recommended anchor: obituary vs eulogy
 Status: ready for manual outreach
+Submission package: `docs/seo/submissions/grace-memorial-obituary-vs-eulogy-resource.md`
 
 ## Subject
 

@@ -1,4 +1,5 @@
 Subject: Obituary companion for funeral planning checklist readers
+Submission package: docs/seo/submissions/checklistcom-obituary-checklist-resource.md
 
 Hi [name],
 

@@ -4,6 +4,7 @@ Target: Memorials.com
 Contact path: Current Memorials.com contact or editorial/resource path
 Link target: https://www.finalnotes.page/short-obituary-examples/
 Natural anchor: short obituary examples
+Submission package: `docs/seo/submissions/memorials-short-obituary-examples-resource.md`
 
 ## Subject
 

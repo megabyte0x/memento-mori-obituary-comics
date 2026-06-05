@@ -5,6 +5,7 @@ Send path: https://creatememorial.com/contact or support email listed there
 Source checked:
 - https://creatememorial.com/obituary-template
 - https://creatememorial.com/contact
+Submission package: `docs/seo/submissions/creatememorial-life-story-template-resource.md`
 Recommended link target: https://www.finalnotes.page/life-story-obituary-template/
 
 ## Why This Fits

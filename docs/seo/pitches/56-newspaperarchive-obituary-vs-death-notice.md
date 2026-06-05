@@ -4,6 +4,7 @@ Target: https://newspaperarchive.com/contactus/
 Link target: https://www.finalnotes.page/obituary-vs-death-notice/
 Recommended anchor: obituary vs death notice
 Status: ready for manual outreach
+Submission package: `docs/seo/submissions/newspaperarchive-obituary-vs-death-notice-resource.md`
 
 ## Subject
 

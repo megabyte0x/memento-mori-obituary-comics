@@ -1,8 +1,9 @@
 # WKYT Investigates: Fake Obituary Resource
 
 Target: WKYT Investigates
-Contact path: https://www.wkyt.com/about-us/contact-us/ or reporter contact on the article
+Contact path: https://www.wkyt.com/about-us/ or reporter contact on the article
 Link target: https://www.finalnotes.page/fake-obituary-sites/
+Submission package: `docs/seo/submissions/wkyt-fake-obituary-checklist-resource.md`
 
 Subject: Evergreen checklist for families handling fake obituaries
 

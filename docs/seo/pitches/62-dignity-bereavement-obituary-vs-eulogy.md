@@ -4,6 +4,7 @@ Target: https://www.dignitybereavementsupport.com/contact or homepage contact pa
 Link target: https://www.finalnotes.page/obituary-vs-eulogy/
 Recommended anchor: obituary vs eulogy
 Status: ready for manual outreach; confirm current contact path before sending
+Submission package: `docs/seo/submissions/dignity-bereavement-obituary-vs-eulogy-resource.md`
 
 ## Subject
 

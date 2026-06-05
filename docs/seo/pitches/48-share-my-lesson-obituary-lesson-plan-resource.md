@@ -6,6 +6,7 @@ Source checked:
 - https://sharemylesson.com/contact-us
 - https://sharemylesson.com/teaching-resource/celebrity-obituary-media-writing-and-vocabulary-164009
 - https://www.aft.org/share-my-lesson
+Submission package: `docs/seo/submissions/share-my-lesson-obituary-lesson-plan-resource.md`
 Recommended link target: https://www.finalnotes.page/obituary-lesson-plan/
 
 ## Why This Fits

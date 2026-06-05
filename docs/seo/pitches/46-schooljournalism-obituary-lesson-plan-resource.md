@@ -1,6 +1,6 @@
 # SchoolJournalism Obituary Lesson Plan Resource Suggestion
 
-Status: ready to personalize and send
+Status: submission payload prepared; needs submitter name/email before sending
 Send path: https://www.schooljournalism.org/contact-us-2/ or contributor contact listed on https://www.schooljournalism.org/about/
 Source checked:
 - https://www.schooljournalism.org/lesson-plans-4/
@@ -36,3 +36,7 @@ Best,
 ## Follow-Up
 
 Send one follow-up after 14 days if there is no response.
+
+## Prepared Submission Payload
+
+Use `docs/seo/submissions/schooljournalism-obituary-lesson-plan-resource.md`.
