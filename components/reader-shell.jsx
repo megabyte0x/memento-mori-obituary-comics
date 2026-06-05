@@ -7,6 +7,7 @@ import Image from "next/image";
 import { ComicShareButton } from "@/components/comic-share-button";
 import { ComicSubscribeDialog } from "@/components/comic-subscribe-dialog";
 import { trackActivity } from "@/components/mixpanel-analytics";
+import { PdfSupportGate } from "@/components/pdf-support-gate";
 import { Button } from "@/components/ui/button";
 import { citableSummary, comicDescription, firstImagePath, imageSize, mediaPath, pageSummary, sourceItems, storyNotes } from "@/lib/comic-presenters";
 
@@ -42,9 +43,7 @@ export function ReaderShell({ comic, nextComic }) {
         <div className="reader-actions">
           <ComicShareButton comic={comic} surface="reader_toolbar" text="Share" titlePrefix="Share this comic" variant="reader" />
           {comic.pdf ? (
-            <Button asChild variant="readerPrimary">
-              <a href={mediaPath(comic, comic.pdf)}>PDF</a>
-            </Button>
+            <PdfSupportGate href={mediaPath(comic, comic.pdf)} comic={comic} surface="reader_toolbar_pdf" variant="readerPrimary" />
           ) : null}
         </div>
       </nav>
@@ -132,9 +131,7 @@ function ReaderFooter({ comic, nextComic }) {
           <>
             <h2>Download PDF</h2>
             <p>
-              <Button asChild variant="miniPrimary">
-                <a href={mediaPath(comic, comic.pdf)}>Download the PDF</a>
-              </Button>
+              <PdfSupportGate href={mediaPath(comic, comic.pdf)} comic={comic} surface="reader_footer_pdf" variant="miniPrimary" label="Download the PDF" />
             </p>
           </>
         ) : null}
