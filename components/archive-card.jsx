@@ -2,17 +2,20 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { ComicShareButton } from "@/components/comic-share-button";
-import { Button } from "@/components/ui/button";
+import { PdfSupportGate } from "@/components/pdf-support-gate";
 import { firstImagePath, imageSize, mediaPath } from "@/lib/comic-presenters";
 
 export function ArchiveCard({ comic, priority = false }) {
   const cover = firstImagePath(comic);
   const image = comic.pages?.[0] || "";
   const size = imageSize(comic, image);
+  const titleLength = comic.person.length;
+  const titleSizeClass = titleLength > 28 ? "archive-card--very-long-name" : titleLength > 22 ? "archive-card--long-name" : "";
 
   return (
-    <article className="archive-card" data-comic-slug={comic.slug}>
-      <Link className="archive-cover" href={`/comics/${comic.slug}/`} aria-label={`Open ${comic.person} obituary comic`}>
+    <article className={`archive-card ${titleSizeClass}`.trim()} data-comic-slug={comic.slug}>
+      <Link className="archive-card-link" href={`/comics/${comic.slug}/#read`} aria-label={`Read ${comic.person} obituary comic`} />
+      <div className="archive-cover" aria-hidden="true">
         <Image
           src={cover}
           alt={`${comic.person} obituary comic cover`}
@@ -23,7 +26,7 @@ export function ArchiveCard({ comic, priority = false }) {
           loading={priority ? undefined : "lazy"}
           fetchPriority={priority ? "high" : undefined}
         />
-      </Link>
+      </div>
       <div className="archive-copy">
         <div className="meta">
           {comic.published_at} · {comic.years}
@@ -31,14 +34,9 @@ export function ArchiveCard({ comic, priority = false }) {
         <h3>{comic.person}</h3>
         <p>{comic.dek}</p>
         <div className="archive-actions">
-          <Button asChild variant="miniPrimary">
-            <Link href={`/comics/${comic.slug}/#read`}>Read</Link>
-          </Button>
           <ComicShareButton comic={comic} surface="archive_card" />
           {comic.pdf ? (
-            <Button asChild variant="miniGhost">
-              <a href={mediaPath(comic, comic.pdf)}>PDF</a>
-            </Button>
+            <PdfSupportGate href={mediaPath(comic, comic.pdf)} comic={comic} surface="archive_card_pdf" />
           ) : null}
         </div>
       </div>

@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Share2 } from "lucide-react";
 
 import { trackActivity } from "@/components/mixpanel-analytics";
 import { Button } from "@/components/ui/button";
@@ -60,7 +59,6 @@ export function ComicShareButton({
 
   return (
     <Button type="button" variant={variant} className={className} onClick={handleClick}>
-      <Share2 size={14} aria-hidden="true" />
       {status === "copied" ? "Link copied" : text}
     </Button>
   );
