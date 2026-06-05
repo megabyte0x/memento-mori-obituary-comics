@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { SiteNav } from "@/components/site-nav";
+import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, getLatestComic, sourceItems } from "@/lib/comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
@@ -88,51 +88,18 @@ export default function ObituaryStoriesPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-      <SiteNav />
-      <main className="wrap section about-page stories-page">
-        <div className="about-header-section stories-header-section">
-          <div className="kicker">Obituary stories and articles</div>
-          <h1>Obituary Stories</h1>
-          <p>
-            A source-backed archive of obituary articles told as short visual biographies. Each story pairs comic pages with crawlable text, citations, PDF access, and editorial notes.
-          </p>
-          <div className="stories-actions">
-            {latest ? (
-              <Button asChild variant="primary">
-                <Link href={comicPath(latest)}>Read latest story</Link>
-              </Button>
-            ) : null}
-            <Button asChild>
-              <Link href="/press/">Link and press resources</Link>
+      <ResourceLayout
+        currentPath="/obituary-stories/"
+        kicker="Obituary stories and articles"
+        title="Obituary Stories"
+        description={description}
+      >
+        <div className="stories-actions" style={{ marginBottom: "32px" }}>
+          {latest ? (
+            <Button asChild variant="primary">
+              <Link href={comicPath(latest)}>Read latest story</Link>
             </Button>
-            <Button asChild>
-              <Link href="/how-to-write-an-obituary-story/">Writing guide</Link>
-            </Button>
-            <Button asChild>
-              <Link href="/obituary-articles/">Article guide</Link>
-            </Button>
-            <Button asChild>
-              <Link href="/obituary-research-guide/">Research guide</Link>
-            </Button>
-            <Button asChild>
-              <Link href="/obituary-vs-death-notice/">Notice explainer</Link>
-            </Button>
-            <Button asChild>
-              <Link href="/how-to-submit-an-obituary-to-a-newspaper/">Newspaper submission</Link>
-            </Button>
-            <Button asChild>
-              <Link href="/obituary-writing-prompts/">Writing prompts</Link>
-            </Button>
-            <Button asChild>
-              <Link href="/life-story-obituary-template/">Template</Link>
-            </Button>
-            <Button asChild>
-              <Link href="/obituary-examples/">Obituary examples</Link>
-            </Button>
-            <Button asChild>
-              <Link href="/what-are-obituary-comics/">What are obituary comics?</Link>
-            </Button>
-          </div>
+          ) : null}
         </div>
 
         <section className="stories-intent-grid" aria-labelledby="search-intents">
@@ -153,16 +120,7 @@ export default function ObituaryStoriesPage() {
           </div>
         </section>
 
-        <section className="about-card stories-link-box" aria-labelledby="how-to-link">
-          <div>
-            <h2 id="how-to-link">Best Link Target</h2>
-            <p>
-              For roundups, resource pages, newsletters, and classroom reading lists, link to this page with natural anchors such as obituary stories, obituary articles, visual obituaries, or Memento Mori Obituary Comics.
-              For journalism lessons and article-writing resources, use the <Link href="/obituary-articles/">obituary articles page</Link>. For genealogy, library, and obituary-search resources, use the <Link href="/obituary-research-guide/">obituary research guide</Link>. For newspaper and funeral-home explainers about notices, use the <Link href="/obituary-vs-death-notice/">obituary vs death notice page</Link>. For newspaper placement, proof-of-death, deadline, price, and photo rules, use the <Link href="/how-to-submit-an-obituary-to-a-newspaper/">newspaper obituary submission checklist</Link>. For fake obituary sites, copied death notices, and obituary piracy resources, use the <Link href="/fake-obituary-sites/">fake obituary sites checklist</Link>. For funeral-home and bereavement resources about spoken tributes, use the <Link href="/obituary-vs-eulogy/">obituary vs eulogy page</Link>. For obituary-writing resources, use the <Link href="/how-to-write-an-obituary-story/">guide to writing an obituary story</Link>. For prompt lists and legacy interview questions, use the <Link href="/obituary-writing-prompts/">obituary writing prompts page</Link>. For template links, use the <Link href="/life-story-obituary-template/">life story obituary template</Link>. For example roundups, use the <Link href="/obituary-examples/">obituary examples page</Link>. For definitions of the format itself, use the <Link href="/what-are-obituary-comics/">obituary comics explainer</Link>.
-            </p>
-          </div>
-          <Link href="/obituary-stories/">{absoluteUrl("/obituary-stories/")}</Link>
-        </section>
+        
 
         <section className="stories-index" aria-labelledby="story-index">
           <div className="press-subjects-head">
@@ -187,10 +145,7 @@ export default function ObituaryStoriesPage() {
             })}
           </ul>
         </section>
-      </main>
-      <footer>
-        Obituary stories as visual biography. <Link href="/about/">Read the editorial method</Link>.
-      </footer>
+      </ResourceLayout>
     </>
   );
 }

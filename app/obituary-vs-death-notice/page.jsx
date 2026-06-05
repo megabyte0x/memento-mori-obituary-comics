@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { SiteNav } from "@/components/site-nav";
+import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
@@ -164,40 +164,12 @@ export default function ObituaryVsDeathNoticePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-      <SiteNav />
-      <main className="wrap section about-page explainer-page notice-page">
-        <article>
-          <header className="about-header-section explainer-header-section">
-            <div className="kicker">Obituary vs death notice</div>
-            <h1>Obituary vs Death Notice</h1>
-            <p>{description}</p>
-            <div className="stories-actions">
-              <Button asChild variant="primary">
-                <Link href="/how-to-write-an-obituary-story/">Writing guide</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-research-guide/">Research guide</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-articles/">Article guide</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-vs-eulogy/">Eulogy explainer</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-story-worksheet/">Worksheet</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-cost/">Cost guide</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/fake-obituary-sites/">Fake site checklist</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/how-to-submit-an-obituary-to-a-newspaper/">Newspaper submission</Link>
-              </Button>
-            </div>
-          </header>
+      <ResourceLayout
+        currentPath="/obituary-vs-death-notice/"
+        kicker="Obituary vs death notice"
+        title="Obituary vs Death Notice"
+        description={description}
+      >
 
           <section className="explainer-body" aria-labelledby="quick-answer">
             <h2 id="quick-answer">Quick Answer</h2>
@@ -250,15 +222,7 @@ export default function ObituaryVsDeathNoticePage() {
             </ul>
           </section>
 
-          <section className="about-card stories-link-box" aria-labelledby="best-link">
-            <div>
-              <h2 id="best-link">Best Link Target For Death Notice Explainers</h2>
-              <p>
-                Use this page for newspaper help pages, funeral-home resources, genealogy guides, library obituary indexes, and articles explaining the difference between an obituary, death notice, and funeral notice. For paid notice price drivers, line fees, photo fees, and quote questions, use the <Link href="/obituary-cost/">obituary cost guide</Link>. For submission deadlines, proof of death, photo, and funeral-home verification rules, use the <Link href="/how-to-submit-an-obituary-to-a-newspaper/">newspaper obituary submission checklist</Link>. For obituary/eulogy comparison pages, use the <Link href="/obituary-vs-eulogy/">obituary vs eulogy explainer</Link>. For privacy and scam-safety guidance before publishing a public notice, use the <Link href="/what-not-to-include-in-an-obituary/">what not to include in an obituary checklist</Link>. For unfamiliar sites, copied notices, and fake donation links, use the <Link href="/fake-obituary-sites/">fake obituary sites checklist</Link>. For drafting a fuller life story, use the <Link href="/how-to-write-an-obituary-story/">obituary story writing guide</Link>. For source lookups and citations, use the <Link href="/obituary-research-guide/">obituary research guide</Link>. For reported examples, use the <Link href="/obituary-articles/">obituary articles page</Link>.
-              </p>
-            </div>
-            <Link href="/obituary-vs-death-notice/">{absoluteUrl("/obituary-vs-death-notice/")}</Link>
-          </section>
+          
 
           <section className="explainer-next" aria-labelledby="references">
             <div>
@@ -296,11 +260,7 @@ export default function ObituaryVsDeathNoticePage() {
               })}
             </ul>
           </section>
-        </article>
-      </main>
-      <footer>
-        Death notices are announcements; obituaries can become stories. <Link href="/press/">Press and review resources</Link>.
-      </footer>
+        </ResourceLayout>
     </>
   );
 }

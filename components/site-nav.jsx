@@ -6,16 +6,9 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigge
 
 const moreLinks = [
   { href: "/obituary-stories/", label: "Stories" },
-  { href: "/obituary-articles/", label: "Articles" },
-  { href: "/obituary-examples/", label: "Examples" },
   { href: "/free-obituary-generator/", label: "Generator" },
   { href: "/obituary-checklist/", label: "Checklist" },
-  { href: "/obituary-wording/", label: "Wording" },
-  { href: "/obituary-writing-prompts/", label: "Prompts" },
-  { href: "/what-are-obituary-comics/", label: "Obituary Comics" },
   { href: "/educators-libraries/", label: "Educators" },
-  { href: "/about/", label: "Method" },
-  { href: "/press/", label: "Press" },
 ];
 
 export function SiteNav() {

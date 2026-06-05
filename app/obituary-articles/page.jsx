@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { SiteNav } from "@/components/site-nav";
+import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
@@ -185,40 +185,12 @@ export default function ObituaryArticlesPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-      <SiteNav />
-      <main className="wrap section about-page explainer-page articles-page">
-        <article>
-          <header className="about-header-section explainer-header-section">
-            <div className="kicker">Obituary articles</div>
-            <h1>Obituary Articles</h1>
-            <p>{description}</p>
-            <div className="stories-actions">
-              <Button asChild variant="primary">
-                <Link href="/obituary-stories/">Read obituary stories</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-examples/">Article examples</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-lesson-plan/">Lesson plan</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-research-guide/">Research guide</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-vs-death-notice/">Notice explainer</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/how-to-submit-an-obituary-to-a-newspaper/">Newspaper submission</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/how-to-write-an-obituary-story/">Writing guide</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/life-story-obituary-template/">Template</Link>
-              </Button>
-            </div>
-          </header>
+      <ResourceLayout
+        currentPath="/obituary-articles/"
+        kicker="Obituary articles"
+        title="Obituary Articles"
+        description={description}
+      >
 
           <section className="explainer-body" aria-labelledby="what-is-an-obituary-article">
             <h2 id="what-is-an-obituary-article">What Is An Obituary Article?</h2>
@@ -310,20 +282,8 @@ export default function ObituaryArticlesPage() {
             </div>
           </section>
 
-          <section className="about-card stories-link-box" aria-labelledby="best-link">
-            <div>
-              <h2 id="best-link">Best Link Target For Obituary Article Pages</h2>
-              <p>
-                Use this page for journalism lessons, article-writing resources, obituary-writing essays, classroom reading lists, and media criticism about obituaries as reported life stories. For classroom-ready steps, link to the <Link href="/obituary-lesson-plan/">obituary lesson plan</Link>. For genealogy research and obituary search resources, link to the <Link href="/obituary-research-guide/">obituary research guide</Link>. For newspaper/funeral-home pages explaining notice formats, link to the <Link href="/obituary-vs-death-notice/">obituary vs death notice explainer</Link>. For newspaper submission, placement, proofing, deadline, cost, and photo rules, link to the <Link href="/how-to-submit-an-obituary-to-a-newspaper/">newspaper obituary submission checklist</Link>. For fake obituary sites, obituary piracy, and copied death notice resources, link to the <Link href="/fake-obituary-sites/">fake obituary sites checklist</Link>. For pages comparing written obituaries with spoken tributes, link to the <Link href="/obituary-vs-eulogy/">obituary vs eulogy explainer</Link>. For the full story archive, link to <Link href="/obituary-stories/">obituary stories and articles</Link>. For copyable forms, link to the <Link href="/life-story-obituary-template/">life story obituary template</Link>.
-              </p>
-            </div>
-            <Link href="/obituary-articles/">{absoluteUrl("/obituary-articles/")}</Link>
-          </section>
-        </article>
-      </main>
-      <footer>
-        Obituary articles as source-backed visual biography. <Link href="/about/">Read the editorial method</Link>.
-      </footer>
+          
+        </ResourceLayout>
     </>
   );
 }

@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { SiteNav } from "@/components/site-nav";
+import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, getLatestComic, sourceItems } from "@/lib/comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
@@ -98,27 +98,12 @@ export default function EducatorsLibrariesPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-      <SiteNav />
-      <main className="wrap section about-page educator-page">
-        <div className="about-header-section educator-header-section">
-          <div className="kicker">Educators and libraries</div>
-          <h1>Obituary Comics for Educators and Libraries</h1>
-          <p>{description}</p>
-          <div className="stories-actions">
-            <Button asChild variant="primary">
-              <Link href="/obituary-stories/">Browse obituary stories</Link>
-            </Button>
-            <Button asChild>
-              <Link href="/what-are-obituary-comics/">Read the explainer</Link>
-            </Button>
-            <Button asChild>
-              <Link href="/obituary-lesson-plan/">Lesson plan</Link>
-            </Button>
-            <Button asChild>
-              <Link href="/obituary-research-guide/">Research guide</Link>
-            </Button>
-          </div>
-        </div>
+      <ResourceLayout
+        currentPath="/educators-libraries/"
+        kicker="Educators and libraries"
+        title="Obituary Comics for Educators and Libraries"
+        description={description}
+      >
 
         <section className="stories-intent-grid educator-use-grid" aria-labelledby="resource-fit">
           <div className="stories-intro">
@@ -138,15 +123,7 @@ export default function EducatorsLibrariesPage() {
           </div>
         </section>
 
-        <section className="about-card stories-link-box" aria-labelledby="library-link-target">
-          <div>
-            <h2 id="library-link-target">Best Link Target</h2>
-            <p>
-              For LibGuides, course pages, classroom handouts, reading lists, and resource roundups, use this page with natural anchors such as graphic medicine resources, grief comics, visual biography examples, or obituary comics for educators. For journalism and ELA lesson repositories, use the <Link href="/obituary-lesson-plan/">obituary lesson plan</Link>. For genealogy and local-history research guides, use the <Link href="/obituary-research-guide/">obituary research guide</Link>.
-            </p>
-          </div>
-          <Link href="/educators-libraries/">{absoluteUrl("/educators-libraries/")}</Link>
-        </section>
+        
 
         <section className="educator-prompts" aria-labelledby="discussion-prompts">
           <div>
@@ -190,10 +167,7 @@ export default function EducatorsLibrariesPage() {
             </p>
           </section>
         ) : null}
-      </main>
-      <footer>
-        Built for short, source-backed visual biography sessions. <Link href="/press/">Press resources</Link>.
-      </footer>
+      </ResourceLayout>
     </>
   );
 }

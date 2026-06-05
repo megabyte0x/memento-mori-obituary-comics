@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { SiteNav } from "@/components/site-nav";
+import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
@@ -185,34 +185,12 @@ export default function MemorialDonationWordingObituaryPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-      <SiteNav />
-      <main className="wrap section about-page explainer-page memorial-donation-page">
-        <article>
-          <header className="about-header-section explainer-header-section">
-            <div className="kicker">Memorial donation wording</div>
-            <h1>Memorial Donation Wording For An Obituary</h1>
-            <p>{description}</p>
-            <div className="stories-actions">
-              <Button asChild variant="primary">
-                <Link href="/life-story-obituary-template/">Template</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/how-to-write-an-obituary-story/">Writing guide</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/what-not-to-include-in-an-obituary/">Privacy checklist</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/how-to-submit-an-obituary-to-a-newspaper/">Newspaper submission</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-cost/">Cost guide</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-wording/">General wording</Link>
-              </Button>
-            </div>
-          </header>
+      <ResourceLayout
+        currentPath="/memorial-donation-wording-obituary/"
+        kicker="Memorial donation wording"
+        title="Memorial Donation Wording For An Obituary"
+        description={description}
+      >
 
           <section className="explainer-body" aria-labelledby="quick-answer">
             <h2 id="quick-answer">Quick Answer</h2>
@@ -264,15 +242,7 @@ export default function MemorialDonationWordingObituaryPage() {
             </ul>
           </section>
 
-          <section className="about-card stories-link-box" aria-labelledby="best-link">
-            <div>
-              <h2 id="best-link">Best Link Target For Memorial Donation Wording Resources</h2>
-              <p>
-                Use this page for funeral-home obituary guides, charity memorial-giving pages, hospice resources, etiquette articles, and family planning pages that mention in lieu of flowers wording or memorial contributions. For general opening lines, survived-by wording, preceded-in-death wording, and service phrases, use the <Link href="/obituary-wording/">obituary wording examples</Link>. For a full draft structure, use the <Link href="/life-story-obituary-template/">life story obituary template</Link>. For sensitive public details, use the <Link href="/what-not-to-include-in-an-obituary/">obituary privacy checklist</Link>. For newspaper placement, use the <Link href="/how-to-submit-an-obituary-to-a-newspaper/">newspaper obituary submission checklist</Link>. For price, line-fee, and short-print-notice decisions, use the <Link href="/obituary-cost/">obituary cost guide</Link>.
-              </p>
-            </div>
-            <Link href="/memorial-donation-wording-obituary/">{absoluteUrl("/memorial-donation-wording-obituary/")}</Link>
-          </section>
+          
 
           <section className="explainer-next" aria-labelledby="references">
             <div>
@@ -304,11 +274,7 @@ export default function MemorialDonationWordingObituaryPage() {
               ))}
             </ul>
           </section>
-        </article>
-      </main>
-      <footer>
-        Verify donation links before publishing an obituary. <Link href="/press/">Press and review resources</Link>.
-      </footer>
+        </ResourceLayout>
     </>
   );
 }

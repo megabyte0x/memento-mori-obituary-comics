@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { SiteNav } from "@/components/site-nav";
+import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
@@ -182,28 +182,12 @@ export default function FakeObituarySitesPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-      <SiteNav />
-      <main className="wrap section about-page explainer-page fake-obituary-sites-page">
-        <article>
-          <header className="about-header-section explainer-header-section">
-            <div className="kicker">Obituary scam checklist</div>
-            <h1>Fake Obituary Sites</h1>
-            <p>{description}</p>
-            <div className="stories-actions">
-              <Button asChild variant="primary">
-                <Link href="/what-not-to-include-in-an-obituary/">Privacy checklist</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-vs-death-notice/">Notice explainer</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-research-guide/">Research guide</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/how-to-write-an-obituary-story/">Writing guide</Link>
-              </Button>
-            </div>
-          </header>
+      <ResourceLayout
+        currentPath="/fake-obituary-sites/"
+        kicker="Obituary scam checklist"
+        title="Fake Obituary Sites"
+        description={description}
+      >
 
           <section className="explainer-body" aria-labelledby="quick-answer">
             <h2 id="quick-answer">Quick Answer</h2>
@@ -255,15 +239,7 @@ export default function FakeObituarySitesPage() {
             </ul>
           </section>
 
-          <section className="about-card stories-link-box" aria-labelledby="best-link">
-            <div>
-              <h2 id="best-link">Best Link Target For Fake Obituary And Obituary Piracy Resources</h2>
-              <p>
-                Use this page for consumer-protection notices, funeral-home scam warnings, cybersecurity explainers, media-literacy resources, and articles about fake obituary sites or obituary piracy. For sensitive details to leave out before publication, use the <Link href="/what-not-to-include-in-an-obituary/">obituary privacy checklist</Link>. For researching whether a notice is real, use the <Link href="/obituary-research-guide/">obituary research guide</Link>. For format definitions, use the <Link href="/obituary-vs-death-notice/">obituary vs death notice explainer</Link>.
-              </p>
-            </div>
-            <Link href="/fake-obituary-sites/">{absoluteUrl("/fake-obituary-sites/")}</Link>
-          </section>
+          
 
           <section className="explainer-next" aria-labelledby="references">
             <div>
@@ -301,11 +277,7 @@ export default function FakeObituarySitesPage() {
               })}
             </ul>
           </section>
-        </article>
-      </main>
-      <footer>
-        Verify the notice before sharing the link. <Link href="/press/">Press and review resources</Link>.
-      </footer>
+        </ResourceLayout>
     </>
   );
 }

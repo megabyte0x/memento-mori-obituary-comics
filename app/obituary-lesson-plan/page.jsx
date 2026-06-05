@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { SiteNav } from "@/components/site-nav";
+import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
@@ -182,31 +182,12 @@ export default function ObituaryLessonPlanPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-      <SiteNav />
-      <main className="wrap section about-page explainer-page lesson-page">
-        <article>
-          <header className="about-header-section explainer-header-section">
-            <div className="kicker">Obituary lesson plan</div>
-            <h1>Obituary Lesson Plan</h1>
-            <p>{description}</p>
-            <div className="stories-actions">
-              <Button asChild variant="primary">
-                <Link href="/obituary-articles/">Article guide</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-stories/">Source-backed stories</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-examples/">Examples</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-research-guide/">Research guide</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-story-worksheet/">Worksheet</Link>
-              </Button>
-            </div>
-          </header>
+      <ResourceLayout
+        currentPath="/obituary-lesson-plan/"
+        kicker="Obituary lesson plan"
+        title="Obituary Lesson Plan"
+        description={description}
+      >
 
           <section className="explainer-body" aria-labelledby="lesson-purpose">
             <h2 id="lesson-purpose">Lesson Purpose</h2>
@@ -296,20 +277,8 @@ export default function ObituaryLessonPlanPage() {
             </div>
           </section>
 
-          <section className="about-card stories-link-box" aria-labelledby="best-link">
-            <div>
-              <h2 id="best-link">Best Link Target For Lesson Plans</h2>
-              <p>
-                Use this page for journalism curriculum lists, ELA writing lessons, media-writing resources, lesson-plan repositories, and classroom resource pages about obituary writing. For newsroom and media-writing context, use the <Link href="/obituary-articles/">obituary articles page</Link>. For handouts, use the <Link href="/obituary-story-worksheet/">obituary story worksheet</Link>.
-              </p>
-            </div>
-            <Link href="/obituary-lesson-plan/">{absoluteUrl("/obituary-lesson-plan/")}</Link>
-          </section>
-        </article>
-      </main>
-      <footer>
-        Obituary lesson plan for source-backed life stories. <Link href="/about/">Read the editorial method</Link>.
-      </footer>
+          
+        </ResourceLayout>
     </>
   );
 }

@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { SiteNav } from "@/components/site-nav";
+import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
 
@@ -125,46 +125,17 @@ export default function ObituaryStoryWorksheetPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-      <SiteNav />
-      <main className="wrap section about-page explainer-page worksheet-page">
-        <article>
-          <header className="about-header-section explainer-header-section">
-            <div className="kicker">Printable worksheet</div>
-            <h1>Obituary Story Worksheet</h1>
-            <p>{description}</p>
-            <div className="stories-actions worksheet-actions">
-              <Button asChild variant="primary">
-                <Link href="/how-to-write-an-obituary-story/">Read the writing guide</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-checklist/">Obituary checklist</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-writing-prompts/">Writing prompts</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-research-guide/">Research guide</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-vs-death-notice/">Notice explainer</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/life-story-obituary-template/">Template</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-articles/">Article guide</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-lesson-plan/">Lesson plan</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-stories/">See story examples</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-examples/">Obituary examples</Link>
-              </Button>
-            </div>
-          </header>
+      <ResourceLayout
+        currentPath="/obituary-story-worksheet/"
+        kicker="Printable worksheet"
+        title="Obituary Story Worksheet"
+        description={description}
+      >
+        <div className="stories-actions" style={{ marginBottom: "32px" }}>
+          <Button asChild variant="primary">
+            <Link href="/obituary-story-worksheet/#worksheet-pdf">Print worksheet</Link>
+          </Button>
+        </div>
 
           <section className="explainer-body" aria-labelledby="worksheet-purpose">
             <h2 id="worksheet-purpose">Before Writing</h2>
@@ -215,11 +186,7 @@ export default function ObituaryStoryWorksheetPage() {
             </div>
             <Link href="/obituary-story-worksheet/">{absoluteUrl("/obituary-story-worksheet/")}</Link>
           </section>
-        </article>
-      </main>
-      <footer>
-        Practical obituary writing resources. <Link href="/press/">Press and review resources</Link>.
-      </footer>
+        </ResourceLayout>
     </>
   );
 }

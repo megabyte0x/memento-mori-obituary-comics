@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { SiteNav } from "@/components/site-nav";
+import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
@@ -208,34 +208,12 @@ export default function ObituaryWritingPromptsPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-      <SiteNav />
-      <main className="wrap section about-page explainer-page prompts-page">
-        <article>
-          <header className="about-header-section explainer-header-section">
-            <div className="kicker">Obituary writing prompts</div>
-            <h1>Obituary Writing Prompts</h1>
-            <p>{description}</p>
-            <div className="stories-actions">
-              <Button asChild variant="primary">
-                <Link href="/obituary-story-worksheet/">Printable worksheet</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/life-story-obituary-template/">Template</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-research-guide/">Research guide</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-articles/">Article guide</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/how-to-write-an-obituary-story/">Writing guide</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-examples/">Obituary examples</Link>
-              </Button>
-            </div>
-          </header>
+      <ResourceLayout
+        currentPath="/obituary-writing-prompts/"
+        kicker="Obituary writing prompts"
+        title="Obituary Writing Prompts"
+        description={description}
+      >
 
           <section className="explainer-body" aria-labelledby="how-to-use-prompts">
             <h2 id="how-to-use-prompts">How To Use These Prompts</h2>
@@ -319,20 +297,8 @@ export default function ObituaryWritingPromptsPage() {
             </div>
           </section>
 
-          <section className="about-card stories-link-box" aria-labelledby="best-link">
-            <div>
-              <h2 id="best-link">Best Link Target For Prompt And Interview Pages</h2>
-              <p>
-                Use this page for obituary writing prompt lists, legacy interview resources, hospice legacy projects, genealogy interviews, writing classes, and funeral-home planning pages. For obituary privacy, identity-theft, and scam-safety resources, use the <Link href="/what-not-to-include-in-an-obituary/">what not to include in an obituary checklist</Link>. For obituary search, citation, and genealogy-record resources, use the <Link href="/obituary-research-guide/">obituary research guide</Link>. For journalism lessons and reported obituary article resources, use the <Link href="/obituary-articles/">obituary articles page</Link>. For reusable obituary formats, use the <Link href="/life-story-obituary-template/">life story obituary template</Link>. For a fillable planning page, use the <Link href="/obituary-story-worksheet/">obituary story worksheet</Link>.
-              </p>
-            </div>
-            <Link href="/obituary-writing-prompts/">{absoluteUrl("/obituary-writing-prompts/")}</Link>
-          </section>
-        </article>
-      </main>
-      <footer>
-        Obituary prompts for specific, sourced life stories. <Link href="/about/">Read the editorial method</Link>.
-      </footer>
+          
+        </ResourceLayout>
     </>
   );
 }

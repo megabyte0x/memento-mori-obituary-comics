@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { SiteNav } from "@/components/site-nav";
+import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, getLatestComic } from "@/lib/comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
@@ -92,97 +92,64 @@ export default function WhatAreObituaryComicsPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-      <SiteNav />
-      <main className="wrap section about-page explainer-page">
-        <article>
-          <header className="about-header-section explainer-header-section">
-            <div className="kicker">Explainer</div>
-            <h1>What Are Obituary Comics?</h1>
-            <p>{description}</p>
-            <div className="stories-actions">
-              <Button asChild variant="primary">
-                <Link href="/obituary-stories/">Read obituary stories</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/how-to-write-an-obituary-story/">Writing guide</Link>
-              </Button>
-              {latest ? (
-                <Button asChild>
-                  <Link href={comicPath(latest)}>Latest comic</Link>
-                </Button>
-              ) : null}
-              <Button asChild>
-                <Link href="/educators-libraries/">Educator resources</Link>
-              </Button>
-            </div>
-          </header>
+      <ResourceLayout
+        currentPath="/what-are-obituary-comics/"
+        kicker="Explainer"
+        title="What Are Obituary Comics?"
+        description={description}
+      >
+        <section className="explainer-body" aria-labelledby="definition" style={{ margin: "0 0 34px" }}>
+          <h2 id="definition">Definition</h2>
+          <p>
+            Obituary comics are visual obituary stories. They use sequential art to tell a source-backed life story around death, illness, exile, violence, grief, or another encounter with mortality. The format sits between an obituary article, a short biography comic, and a grief comic: it remembers a life, but it also shows the pressure point that made the life legible.
+          </p>
+          <p>
+            A conventional obituary often moves quickly through birth, education, work, family, survivors, and services. That structure can be useful, but it can also flatten the person into a list. An obituary comic has a different job. It chooses a meaningful moment, gives it visual rhythm, and lets the reader feel the shape of a decision, wound, recovery, or final work.
+          </p>
+        </section>
 
-          <section className="explainer-body" aria-labelledby="definition">
-            <h2 id="definition">Definition</h2>
-            <p>
-              Obituary comics are visual obituary stories. They use sequential art to tell a source-backed life story around death, illness, exile, violence, grief, or another encounter with mortality. The format sits between an obituary article, a short biography comic, and a grief comic: it remembers a life, but it also shows the pressure point that made the life legible.
-            </p>
-            <p>
-              A conventional obituary often moves quickly through birth, education, work, family, survivors, and services. That structure can be useful, but it can also flatten the person into a list. An obituary comic has a different job. It chooses a meaningful moment, gives it visual rhythm, and lets the reader feel the shape of a decision, wound, recovery, or final work.
-            </p>
-          </section>
+        <section className="explainer-principles" aria-labelledby="principles">
+          <div>
+            <div className="kicker">Principles</div>
+            <h2 id="principles">What Makes The Form Work</h2>
+          </div>
+          <div className="stories-intent-list">
+            {sections.map((section) => (
+              <article key={section.title}>
+                <h3>{section.title}</h3>
+                <p>{section.text}</p>
+              </article>
+            ))}
+          </div>
+        </section>
 
-          <section className="explainer-principles" aria-labelledby="principles">
-            <div>
-              <div className="kicker">Principles</div>
-              <h2 id="principles">What Makes The Form Work</h2>
-            </div>
-            <div className="stories-intent-list">
-              {sections.map((section) => (
-                <article key={section.title}>
-                  <h3>{section.title}</h3>
-                  <p>{section.text}</p>
-                </article>
-              ))}
-            </div>
-          </section>
+        <section className="explainer-body" aria-labelledby="why-search" style={{ margin: "34px 0" }}>
+          <h2 id="why-search">Why It Matters For Search And Citation</h2>
+          <p>
+            Obituary comics can fail online when the artwork carries all the meaning and the page gives search engines only a title and a gallery. A useful reader page needs both: image-first storytelling for humans, and text-first evidence for crawlers, researchers, AI search, teachers, and editors.
+          </p>
+          <p>
+            Memento Mori Obituary Comics uses stable reader URLs, citable summaries, source trails, captions, PDF access, sitemap entries, canonical metadata, and structured data. That gives each visual obituary a better chance of being understood as an obituary story rather than a loose image post.
+          </p>
+        </section>
 
-          <section className="explainer-body" aria-labelledby="why-search">
-            <h2 id="why-search">Why It Matters For Search And Citation</h2>
-            <p>
-              Obituary comics can fail online when the artwork carries all the meaning and the page gives search engines only a title and a gallery. A useful reader page needs both: image-first storytelling for humans, and text-first evidence for crawlers, researchers, AI search, teachers, and editors.
-            </p>
-            <p>
-              Memento Mori Obituary Comics uses stable reader URLs, citable summaries, source trails, captions, PDF access, sitemap entries, canonical metadata, and structured data. That gives each visual obituary a better chance of being understood as an obituary story rather than a loose image post.
-            </p>
-          </section>
-
-          <section className="about-card stories-link-box" aria-labelledby="best-link">
-            <div>
-              <h2 id="best-link">Best Link Target For This Explainer</h2>
-              <p>
-                Use this page for essays, classroom resources, newsletter mentions, and article references that define the form. Use the story index for broader obituary-story roundups.
-                For obituary-writing articles, use the <Link href="/how-to-write-an-obituary-story/">obituary story writing guide</Link>. For course pages and library guides, use the <Link href="/educators-libraries/">educator and library resource page</Link>.
-              </p>
-            </div>
-            <Link href="/what-are-obituary-comics/">{absoluteUrl("/what-are-obituary-comics/")}</Link>
-          </section>
-
-          <section className="explainer-next" aria-labelledby="next-reading">
-            <div>
-              <div className="kicker">Next reading</div>
-              <h2 id="next-reading">Start With The Archive</h2>
-            </div>
-            <ul className="press-subject-list">
-              {comics.slice(0, 5).map((comic) => (
-                <li key={comic.slug}>
-                  <Link href={comicPath(comic)}>{comic.person}: {comic.title}</Link>
-                  <p>{comic.dek}</p>
-                  <span>{comic.published_at || "Undated"} - {comic.mortality_event || "Visual obituary"}</span>
-                </li>
-              ))}
-            </ul>
-          </section>
-        </article>
-      </main>
-      <footer>
-        Source-backed visual obituaries. <Link href="/press/">Press and review resources</Link>.
-      </footer>
+        <section className="explainer-next" aria-labelledby="next-reading">
+          <div>
+            <div className="kicker">Next reading</div>
+            <h2 id="next-reading">Start With The Archive</h2>
+          </div>
+          <ul className="press-subject-list">
+            {comics.slice(0, 5).map((comic) => (
+              <li key={comic.slug}>
+                <Link href={comicPath(comic)}>{comic.person}: {comic.title}</Link>
+                <p>{comic.dek}</p>
+                <span>{comic.published_at || "Undated"} - {comic.mortality_event || "Visual obituary"}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      </ResourceLayout>
     </>
   );
 }
+

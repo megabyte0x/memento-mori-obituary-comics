@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { SiteNav } from "@/components/site-nav";
+import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
@@ -184,46 +184,12 @@ export default function NewspaperObituarySubmissionPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-      <SiteNav />
-      <main className="wrap section about-page explainer-page newspaper-submission-page">
-        <article>
-          <header className="about-header-section explainer-header-section">
-            <div className="kicker">Newspaper obituary submission</div>
-            <h1>How To Submit An Obituary To A Newspaper</h1>
-            <p>{description}</p>
-            <div className="stories-actions">
-              <Button asChild variant="primary">
-                <Link href="/obituary-vs-death-notice/">Notice explainer</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-cost/">Cost guide</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-checklist/">Checklist</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-mistakes-to-avoid/">Mistakes to avoid</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/life-story-obituary-template/">Template</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/short-obituary-examples/">Short examples</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/what-not-to-include-in-an-obituary/">Privacy checklist</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/memorial-donation-wording-obituary/">Donation wording</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/fake-obituary-sites/">Fake site checklist</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/how-to-write-an-obituary-story/">Writing guide</Link>
-              </Button>
-            </div>
-          </header>
+      <ResourceLayout
+        currentPath="/how-to-submit-an-obituary-to-a-newspaper/"
+        kicker="Newspaper obituary submission"
+        title="How To Submit An Obituary To A Newspaper"
+        description={description}
+      >
 
           <section className="explainer-body" aria-labelledby="quick-answer">
             <h2 id="quick-answer">Quick Answer</h2>
@@ -274,15 +240,7 @@ export default function NewspaperObituarySubmissionPage() {
             </ul>
           </section>
 
-          <section className="about-card stories-link-box" aria-labelledby="best-link">
-            <div>
-              <h2 id="best-link">Best Link Target For Newspaper Obituary Submission Pages</h2>
-              <p>
-                Use this page for newspaper help pages, funeral-home planning pages, community-newspaper instructions, obituary cost explainers, and articles about how to place or submit an obituary. For general information gathering before publication, use the <Link href="/obituary-checklist/">obituary checklist</Link>. For proofing errors, missing details, and correction steps, use the <Link href="/obituary-mistakes-to-avoid/">obituary mistakes checklist</Link>. For line fees, photos, print-plus-online packages, and funeral-home cash advances, use the <Link href="/obituary-cost/">obituary cost guide</Link>. For the difference between a paid notice and a fuller life story, use the <Link href="/obituary-vs-death-notice/">obituary vs death notice explainer</Link>. For short newspaper-ready copy, use the <Link href="/short-obituary-examples/">short obituary examples</Link>. For memorial contribution language before submission, use the <Link href="/memorial-donation-wording-obituary/">memorial donation wording guide</Link>. For safer wording before publication, use the <Link href="/what-not-to-include-in-an-obituary/">obituary privacy checklist</Link>. For suspicious obituary results after publication, use the <Link href="/fake-obituary-sites/">fake obituary sites checklist</Link>. For a fuller draft, use the <Link href="/life-story-obituary-template/">life story obituary template</Link> and <Link href="/how-to-write-an-obituary-story/">obituary story writing guide</Link>.
-              </p>
-            </div>
-            <Link href="/how-to-submit-an-obituary-to-a-newspaper/">{absoluteUrl("/how-to-submit-an-obituary-to-a-newspaper/")}</Link>
-          </section>
+          
 
           <section className="explainer-next" aria-labelledby="references">
             <div>
@@ -320,11 +278,7 @@ export default function NewspaperObituarySubmissionPage() {
               })}
             </ul>
           </section>
-        </article>
-      </main>
-      <footer>
-        Check the newspaper's rules before approving publication. <Link href="/press/">Press and review resources</Link>.
-      </footer>
+        </ResourceLayout>
     </>
   );
 }

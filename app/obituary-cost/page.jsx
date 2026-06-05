@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { SiteNav } from "@/components/site-nav";
+import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
@@ -196,37 +196,12 @@ export default function ObituaryCostPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-      <SiteNav />
-      <main className="wrap section about-page explainer-page obituary-cost-page">
-        <article>
-          <header className="about-header-section explainer-header-section">
-            <div className="kicker">Obituary cost guide</div>
-            <h1>Obituary Cost Guide</h1>
-            <p>{description}</p>
-            <div className="stories-actions">
-              <Button asChild variant="primary">
-                <Link href="/how-to-submit-an-obituary-to-a-newspaper/">Newspaper submission</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-vs-death-notice/">Notice explainer</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/life-story-obituary-template/">Template</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/short-obituary-examples/">Short examples</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/memorial-donation-wording-obituary/">Donation wording</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-checklist/">Checklist</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/what-not-to-include-in-an-obituary/">Privacy checklist</Link>
-              </Button>
-            </div>
-          </header>
+      <ResourceLayout
+        currentPath="/obituary-cost/"
+        kicker="Obituary cost guide"
+        title="Obituary Cost Guide"
+        description={description}
+      >
 
           <section className="explainer-body" aria-labelledby="quick-answer">
             <h2 id="quick-answer">Quick Answer</h2>
@@ -292,15 +267,7 @@ export default function ObituaryCostPage() {
             </ul>
           </section>
 
-          <section className="about-card stories-link-box" aria-labelledby="best-link">
-            <div>
-              <h2 id="best-link">Best Link Target For Obituary Cost Resources</h2>
-              <p>
-                Use this page for funeral-cost articles, newspaper obituary pricing pages, funeral-home planning guides, consumer-advocacy resources, and family budgeting pages that explain paid obituaries or death notice costs. For a general pre-publication information checklist, use the <Link href="/obituary-checklist/">obituary checklist</Link>. For placement deadlines and proof-of-death rules, use the <Link href="/how-to-submit-an-obituary-to-a-newspaper/">newspaper obituary submission checklist</Link>. For short notice versus full obituary decisions, use the <Link href="/obituary-vs-death-notice/">obituary vs death notice explainer</Link>. For a short print draft, use the <Link href="/short-obituary-examples/">short obituary examples</Link>; for a fuller draft, use the <Link href="/life-story-obituary-template/">life story obituary template</Link>. For donation language before publication, use the <Link href="/memorial-donation-wording-obituary/">memorial donation wording guide</Link>. For public-detail review, use the <Link href="/what-not-to-include-in-an-obituary/">obituary privacy checklist</Link>.
-              </p>
-            </div>
-            <Link href="/obituary-cost/">{absoluteUrl("/obituary-cost/")}</Link>
-          </section>
+          
 
           <section className="explainer-next" aria-labelledby="references">
             <div>
@@ -338,11 +305,7 @@ export default function ObituaryCostPage() {
               })}
             </ul>
           </section>
-        </article>
-      </main>
-      <footer>
-        Confirm the final quote before approving a paid obituary. <Link href="/press/">Press and review resources</Link>.
-      </footer>
+        </ResourceLayout>
     </>
   );
 }

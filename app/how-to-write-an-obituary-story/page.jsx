@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { SiteNav } from "@/components/site-nav";
+import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, getLatestComic, sourceItems } from "@/lib/comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
@@ -146,69 +146,12 @@ export default function HowToWriteObituaryStoryPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-      <SiteNav />
-      <main className="wrap section about-page explainer-page writing-guide-page">
-        <article>
-          <header className="about-header-section explainer-header-section">
-            <div className="kicker">Obituary writing guide</div>
-            <h1>How to Write an Obituary Story</h1>
-            <p>{description}</p>
-            <div className="stories-actions">
-              <Button asChild variant="primary">
-                <Link href="/free-obituary-generator/">Generator</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-stories/">Read obituary stories</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-story-worksheet/">Printable worksheet</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-checklist/">Checklist</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-mistakes-to-avoid/">Mistakes to avoid</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-research-guide/">Research guide</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-vs-death-notice/">Notice explainer</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-writing-prompts/">Writing prompts</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-articles/">Article guide</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-lesson-plan/">Lesson plan</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/life-story-obituary-template/">Template</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-examples/">Obituary examples</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-wording/">Wording</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/memorial-donation-wording-obituary/">Donation wording</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-cost/">Cost guide</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/what-are-obituary-comics/">Obituary comics explainer</Link>
-              </Button>
-              {latest ? (
-                <Button asChild>
-                  <Link href={comicPath(latest)}>Latest example</Link>
-                </Button>
-              ) : null}
-            </div>
-          </header>
+      <ResourceLayout
+        currentPath="/how-to-write-an-obituary-story/"
+        kicker="Obituary writing guide"
+        title="How to Write an Obituary Story"
+        description={description}
+      >
 
           <section className="explainer-body" aria-labelledby="obituary-story-definition">
             <h2 id="obituary-story-definition">What Makes It A Story</h2>
@@ -269,15 +212,7 @@ export default function HowToWriteObituaryStoryPage() {
             </div>
           </section>
 
-          <section className="about-card stories-link-box" aria-labelledby="best-link">
-            <div>
-              <h2 id="best-link">Best Link Target For Obituary Writing Articles</h2>
-              <p>
-                Use this page for articles, resource lists, family-history guides, grief-writing essays, and newsletters about how to turn an obituary into a sourced life story. For a private first draft, use the <Link href="/free-obituary-generator/">free obituary generator</Link>. For general information-gathering checklists, use the <Link href="/obituary-checklist/">obituary checklist</Link>. For opening lines, survived-by wording, preceded-in-death wording, and phrase-bank resources, use the <Link href="/obituary-wording/">obituary wording examples</Link>. For common proofing errors, missing details, and correction workflows, use the <Link href="/obituary-mistakes-to-avoid/">obituary mistakes checklist</Link>. For genealogy, library, and obituary-search links, use the <Link href="/obituary-research-guide/">obituary research guide</Link>. For newspaper and funeral-home pages comparing notice formats, use the <Link href="/obituary-vs-death-notice/">obituary vs death notice explainer</Link>. For pages about where, when, and how to place the obituary in a newspaper, use the <Link href="/how-to-submit-an-obituary-to-a-newspaper/">newspaper obituary submission checklist</Link>. For obituary price, line-fee, photo-fee, and short-print-notice decisions, use the <Link href="/obituary-cost/">obituary cost guide</Link>. For charity requests and in-lieu-of-flowers language, use the <Link href="/memorial-donation-wording-obituary/">memorial donation wording guide</Link>. For funeral-home and bereavement pages comparing written obituaries with spoken tributes, use the <Link href="/obituary-vs-eulogy/">obituary vs eulogy explainer</Link>. For privacy, identity-theft, and scam-safety resources, use the <Link href="/what-not-to-include-in-an-obituary/">what not to include in an obituary checklist</Link>. For copied notices, fake donation links, and obituary piracy, use the <Link href="/fake-obituary-sites/">fake obituary sites checklist</Link>. For journalism lessons, newsroom resources, and feature-obituary writing links, use the <Link href="/obituary-articles/">obituary articles page</Link>. For classroom teaching resources, use the <Link href="/obituary-lesson-plan/">obituary lesson plan</Link>. For prompt lists and legacy interview questions, link to the <Link href="/obituary-writing-prompts/">obituary writing prompts page</Link>. For template roundups and reusable formats, link to the <Link href="/life-story-obituary-template/">life story obituary template</Link>. For example roundups and sample-structure posts, link to the <Link href="/obituary-examples/">obituary examples page</Link>. For examples of the finished visual form, link to the <Link href="/obituary-stories/">obituary stories index</Link>.
-              </p>
-            </div>
-            <Link href="/how-to-write-an-obituary-story/">{absoluteUrl("/how-to-write-an-obituary-story/")}</Link>
-          </section>
+          
 
           <section className="explainer-next" aria-labelledby="examples">
             <div>
@@ -300,11 +235,7 @@ export default function HowToWriteObituaryStoryPage() {
               })}
             </ul>
           </section>
-        </article>
-      </main>
-      <footer>
-        Evidence-first obituary stories. <Link href="/press/">Press and review resources</Link>.
-      </footer>
+        </ResourceLayout>
     </>
   );
 }

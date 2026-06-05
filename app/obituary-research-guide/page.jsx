@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { SiteNav } from "@/components/site-nav";
+import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
@@ -180,34 +180,12 @@ export default function ObituaryResearchGuidePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-      <SiteNav />
-      <main className="wrap section about-page explainer-page research-guide-page">
-        <article>
-          <header className="about-header-section explainer-header-section">
-            <div className="kicker">Obituary research guide</div>
-            <h1>Obituary Research Guide</h1>
-            <p>{description}</p>
-            <div className="stories-actions">
-              <Button asChild variant="primary">
-                <Link href="/how-to-write-an-obituary-story/">Writing guide</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-story-worksheet/">Research worksheet</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-vs-death-notice/">Notice explainer</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-vs-eulogy/">Eulogy explainer</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-examples/">Obituary examples</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-stories/">Story archive</Link>
-              </Button>
-            </div>
-          </header>
+      <ResourceLayout
+        currentPath="/obituary-research-guide/"
+        kicker="Obituary research guide"
+        title="Obituary Research Guide"
+        description={description}
+      >
 
           <section className="explainer-body" aria-labelledby="research-purpose">
             <h2 id="research-purpose">What Obituary Research Can Prove</h2>
@@ -271,15 +249,7 @@ export default function ObituaryResearchGuidePage() {
             </p>
           </section>
 
-          <section className="about-card stories-link-box" aria-labelledby="best-link">
-            <div>
-              <h2 id="best-link">Best Link Target For Obituary Research Pages</h2>
-              <p>
-                Use this page for genealogy resource lists, public-library research guides, obituary search directories, family-history newsletters, and local-history society pages. For checking whether a recent obituary result is copied, fabricated, or tied to a scam donation link, use the <Link href="/fake-obituary-sites/">fake obituary sites checklist</Link>. For drafting after research, use the <Link href="/how-to-write-an-obituary-story/">obituary story writing guide</Link> and <Link href="/obituary-story-worksheet/">obituary story worksheet</Link>. For finished source-backed examples, link to the <Link href="/obituary-stories/">obituary stories archive</Link>.
-              </p>
-            </div>
-            <Link href="/obituary-research-guide/">{absoluteUrl("/obituary-research-guide/")}</Link>
-          </section>
+          
 
           <section className="explainer-next" aria-labelledby="reference-links">
             <div>
@@ -317,11 +287,7 @@ export default function ObituaryResearchGuidePage() {
               })}
             </ul>
           </section>
-        </article>
-      </main>
-      <footer>
-        Obituary research with source trails. <Link href="/press/">Press and review resources</Link>.
-      </footer>
+        </ResourceLayout>
     </>
   );
 }

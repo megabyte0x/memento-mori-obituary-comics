@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { SiteNav } from "@/components/site-nav";
+import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
@@ -189,43 +189,12 @@ export default function ObituaryWordingPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-      <SiteNav />
-      <main className="wrap section about-page explainer-page obituary-wording-page">
-        <article>
-          <header className="about-header-section explainer-header-section">
-            <div className="kicker">Obituary wording</div>
-            <h1>Obituary Wording Examples</h1>
-            <p>{description}</p>
-            <div className="stories-actions">
-              <Button asChild variant="primary">
-                <Link href="/free-obituary-generator/">Generator</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/life-story-obituary-template/">Template</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/short-obituary-examples/">Short examples</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-examples/">Examples</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-checklist/">Checklist</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-mistakes-to-avoid/">Mistakes to avoid</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/memorial-donation-wording-obituary/">Donation wording</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/how-to-submit-an-obituary-to-a-newspaper/">Newspaper submission</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/what-not-to-include-in-an-obituary/">Privacy checklist</Link>
-              </Button>
-            </div>
-          </header>
+      <ResourceLayout
+        currentPath="/obituary-wording/"
+        kicker="Obituary wording"
+        title="Obituary Wording Examples"
+        description={description}
+      >
 
           <section className="explainer-body" aria-labelledby="quick-answer">
             <h2 id="quick-answer">Quick Answer</h2>
@@ -280,15 +249,7 @@ export default function ObituaryWordingPage() {
             </ol>
           </section>
 
-          <section className="about-card stories-link-box" aria-labelledby="best-link">
-            <div>
-              <h2 id="best-link">Best Link Target For Obituary Wording Resources</h2>
-              <p>
-                Use this page for obituary wording examples, death announcement wording, survived-by wording, preceded-in-death wording, family-list guidance, service wording, and general phrase-bank resources. For a private copyable draft, use the <Link href="/free-obituary-generator/">free obituary generator</Link>. For concise newspaper notices and brief death announcements, use the <Link href="/short-obituary-examples/">short obituary examples</Link>. For full obituary structures, use the <Link href="/life-story-obituary-template/">life story obituary template</Link>. For sample story patterns, use the <Link href="/obituary-examples/">obituary examples page</Link>. For in-lieu-of-flowers and memorial contribution language, use the <Link href="/memorial-donation-wording-obituary/">memorial donation wording guide</Link>. For a pre-publication fact check, use the <Link href="/obituary-checklist/">obituary checklist</Link>. For common wording and proofing errors, use the <Link href="/obituary-mistakes-to-avoid/">obituary mistakes checklist</Link>.
-              </p>
-            </div>
-            <Link href="/obituary-wording/">{absoluteUrl("/obituary-wording/")}</Link>
-          </section>
+          
 
           <section className="explainer-next" aria-labelledby="references">
             <div>
@@ -326,11 +287,7 @@ export default function ObituaryWordingPage() {
               })}
             </ul>
           </section>
-        </article>
-      </main>
-      <footer>
-        Clear obituary wording, checked before publication. <Link href="/press/">Press and review resources</Link>.
-      </footer>
+        </ResourceLayout>
     </>
   );
 }

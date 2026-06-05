@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { SiteNav } from "@/components/site-nav";
+import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
@@ -202,31 +202,17 @@ export default function FreeObituaryGeneratorPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-      <SiteNav />
-      <main className="wrap section about-page explainer-page generator-page">
-        <article>
-          <header className="about-header-section explainer-header-section">
-            <div className="kicker">Free obituary generator</div>
-            <h1>Free Obituary Generator</h1>
-            <p>{description}</p>
-            <div className="stories-actions">
-              <Button asChild variant="primary">
-                <Link href="#generator-tool-heading">Start draft</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/short-obituary-examples/">Short examples</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-wording/">Wording</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/life-story-obituary-template/">Template</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-checklist/">Checklist</Link>
-              </Button>
-            </div>
-          </header>
+      <ResourceLayout
+        currentPath="/free-obituary-generator/"
+        kicker="Free obituary generator"
+        title="Free Obituary Generator"
+        description={description}
+      >
+        <div className="stories-actions" style={{ marginBottom: "32px" }}>
+          <Button asChild variant="primary">
+            <Link href="#generator-tool-heading">Start draft</Link>
+          </Button>
+        </div>
 
           <ObituaryDraftBuilder />
 
@@ -287,15 +273,7 @@ export default function FreeObituaryGeneratorPage() {
             </div>
           </section>
 
-          <section className="about-card stories-link-box" aria-labelledby="best-link">
-            <div>
-              <h2 id="best-link">Best Link Target For Obituary Generator Resources</h2>
-              <p>
-                Use this page for free obituary generator, obituary generator, obituary creator, AI obituary generator, obituary writer, and obituary template generator resource links. For shorter copy-ready examples, use the <Link href="/short-obituary-examples/">short obituary examples</Link>. For phrase-bank language, use the <Link href="/obituary-wording/">obituary wording guide</Link>. For family review, use the <Link href="/obituary-checklist/">obituary checklist</Link>.
-              </p>
-            </div>
-            <Link href="/free-obituary-generator/">{absoluteUrl("/free-obituary-generator/")}</Link>
-          </section>
+          
 
           <section className="explainer-next" aria-labelledby="references">
             <div>
@@ -333,11 +311,7 @@ export default function FreeObituaryGeneratorPage() {
               })}
             </ul>
           </section>
-        </article>
-      </main>
-      <footer>
-        Free obituary generator and source-backed obituary story resources. <Link href="/about/">Read the editorial method</Link>.
-      </footer>
+        </ResourceLayout>
     </>
   );
 }

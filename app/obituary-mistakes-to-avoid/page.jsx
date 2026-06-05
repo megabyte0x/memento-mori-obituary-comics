@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { SiteNav } from "@/components/site-nav";
+import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
@@ -199,40 +199,12 @@ export default function ObituaryMistakesToAvoidPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-      <SiteNav />
-      <main className="wrap section about-page explainer-page obituary-mistakes-page">
-        <article>
-          <header className="about-header-section explainer-header-section">
-            <div className="kicker">Obituary mistakes</div>
-            <h1>Obituary Mistakes To Avoid</h1>
-            <p>{description}</p>
-            <div className="stories-actions">
-              <Button asChild variant="primary">
-                <Link href="/obituary-checklist/">Checklist</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/how-to-write-an-obituary-story/">Writing guide</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-examples/">Examples</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/what-not-to-include-in-an-obituary/">Privacy checklist</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-cost/">Cost guide</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-wording/">Wording</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/how-to-submit-an-obituary-to-a-newspaper/">Submission checklist</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/fake-obituary-sites/">Fake obituary checks</Link>
-              </Button>
-            </div>
-          </header>
+      <ResourceLayout
+        currentPath="/obituary-mistakes-to-avoid/"
+        kicker="Obituary mistakes"
+        title="Obituary Mistakes To Avoid"
+        description={description}
+      >
 
           <section className="explainer-body" aria-labelledby="why-mistakes-happen">
             <h2 id="why-mistakes-happen">Why Obituary Mistakes Happen</h2>
@@ -279,15 +251,7 @@ export default function ObituaryMistakesToAvoidPage() {
             </ol>
           </section>
 
-          <section className="about-card stories-link-box" aria-labelledby="best-link">
-            <div>
-              <h2 id="best-link">Best Link Target For Obituary Mistake Resources</h2>
-              <p>
-                Use this page for funeral-home writing guides, obituary-proofing resources, newspaper obituary desks, memorial-site help articles, family planning pages, and resource lists about common obituary mistakes. For a full pre-publication fact list, use the <Link href="/obituary-checklist/">obituary checklist</Link>. For phrase-bank help with opening lines, survivor lists, preceded-in-death wording, and service wording, use the <Link href="/obituary-wording/">obituary wording examples</Link>. For sensitive details to leave out, use the <Link href="/what-not-to-include-in-an-obituary/">privacy checklist</Link>. For post-publication scams or copied pages, use the <Link href="/fake-obituary-sites/">fake obituary sites checklist</Link>. For cost and proof approval questions, use the <Link href="/obituary-cost/">obituary cost guide</Link>.
-              </p>
-            </div>
-            <Link href="/obituary-mistakes-to-avoid/">{absoluteUrl("/obituary-mistakes-to-avoid/")}</Link>
-          </section>
+          
 
           <section className="explainer-next" aria-labelledby="references">
             <div>
@@ -325,11 +289,7 @@ export default function ObituaryMistakesToAvoidPage() {
               })}
             </ul>
           </section>
-        </article>
-      </main>
-      <footer>
-        Check facts before publication. <Link href="/press/">Press and review resources</Link>.
-      </footer>
+        </ResourceLayout>
     </>
   );
 }

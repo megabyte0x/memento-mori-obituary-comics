@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { SiteNav } from "@/components/site-nav";
+import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
@@ -185,40 +185,12 @@ export default function ShortObituaryExamplesPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-      <SiteNav />
-      <main className="wrap section about-page explainer-page short-obituary-page">
-        <article>
-          <header className="about-header-section explainer-header-section">
-            <div className="kicker">Short obituary examples</div>
-            <h1>Short Obituary Examples</h1>
-            <p>{description}</p>
-            <div className="stories-actions">
-              <Button asChild variant="primary">
-                <Link href="/free-obituary-generator/">Generator</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/life-story-obituary-template/">Template</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-wording/">Wording</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-examples/">Story examples</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-checklist/">Checklist</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-cost/">Cost guide</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/how-to-submit-an-obituary-to-a-newspaper/">Newspaper submission</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/memorial-donation-wording-obituary/">Donation wording</Link>
-              </Button>
-            </div>
-          </header>
+      <ResourceLayout
+        currentPath="/short-obituary-examples/"
+        kicker="Short obituary examples"
+        title="Short Obituary Examples"
+        description={description}
+      >
 
           <section className="explainer-body" aria-labelledby="quick-answer">
             <h2 id="quick-answer">Quick Answer</h2>
@@ -274,15 +246,7 @@ export default function ShortObituaryExamplesPage() {
             </ol>
           </section>
 
-          <section className="about-card stories-link-box" aria-labelledby="best-link">
-            <div>
-              <h2 id="best-link">Best Link Target For Short Obituary Resources</h2>
-              <p>
-                Use this page for short obituary examples, short obituary templates, simple obituary examples, brief death notices, newspaper word-limit resources, and funeral-home pages that help families write a concise notice. For a private draft builder, use the <Link href="/free-obituary-generator/">free obituary generator</Link>. For phrase-bank language, use the <Link href="/obituary-wording/">obituary wording examples</Link>. For a full story structure, use the <Link href="/life-story-obituary-template/">life story obituary template</Link>. For narrative examples, use the <Link href="/obituary-examples/">obituary examples page</Link>. For paid print decisions, use the <Link href="/obituary-cost/">obituary cost guide</Link>.
-              </p>
-            </div>
-            <Link href="/short-obituary-examples/">{absoluteUrl("/short-obituary-examples/")}</Link>
-          </section>
+          
 
           <section className="explainer-next" aria-labelledby="references">
             <div>
@@ -320,11 +284,7 @@ export default function ShortObituaryExamplesPage() {
               })}
             </ul>
           </section>
-        </article>
-      </main>
-      <footer>
-        Short obituary examples with a path to fuller stories. <Link href="/about/">Read the editorial method</Link>.
-      </footer>
+        </ResourceLayout>
     </>
   );
 }

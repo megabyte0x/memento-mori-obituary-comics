@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { SiteNav } from "@/components/site-nav";
+import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
@@ -164,31 +164,12 @@ export default function ObituaryVsEulogyPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-      <SiteNav />
-      <main className="wrap section about-page explainer-page eulogy-page">
-        <article>
-          <header className="about-header-section explainer-header-section">
-            <div className="kicker">Obituary vs eulogy</div>
-            <h1>Obituary vs Eulogy</h1>
-            <p>{description}</p>
-            <div className="stories-actions">
-              <Button asChild variant="primary">
-                <Link href="/how-to-write-an-obituary-story/">Writing guide</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-vs-death-notice/">Notice explainer</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-writing-prompts/">Prompts</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-story-worksheet/">Worksheet</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/memorial-donation-wording-obituary/">Donation wording</Link>
-              </Button>
-            </div>
-          </header>
+      <ResourceLayout
+        currentPath="/obituary-vs-eulogy/"
+        kicker="Obituary vs eulogy"
+        title="Obituary vs Eulogy"
+        description={description}
+      >
 
           <section className="explainer-body" aria-labelledby="quick-answer">
             <h2 id="quick-answer">Quick Answer</h2>
@@ -241,15 +222,7 @@ export default function ObituaryVsEulogyPage() {
             </ul>
           </section>
 
-          <section className="about-card stories-link-box" aria-labelledby="best-link">
-            <div>
-              <h2 id="best-link">Best Link Target For Obituary And Eulogy Resources</h2>
-              <p>
-                Use this page for funeral-home planning pages, bereavement resources, eulogy-writing articles, memorial-program guides, and pages explaining the difference between an obituary and a eulogy. For short public announcements, use the <Link href="/obituary-vs-death-notice/">obituary vs death notice explainer</Link>. For memorial contribution wording that may appear at the end of an obituary or program, use the <Link href="/memorial-donation-wording-obituary/">memorial donation wording guide</Link>. For a fuller written story, use the <Link href="/how-to-write-an-obituary-story/">obituary story writing guide</Link>. For questions that help gather memories, use the <Link href="/obituary-writing-prompts/">obituary writing prompts page</Link>.
-              </p>
-            </div>
-            <Link href="/obituary-vs-eulogy/">{absoluteUrl("/obituary-vs-eulogy/")}</Link>
-          </section>
+          
 
           <section className="explainer-next" aria-labelledby="references">
             <div>
@@ -287,11 +260,7 @@ export default function ObituaryVsEulogyPage() {
               })}
             </ul>
           </section>
-        </article>
-      </main>
-      <footer>
-        Obituaries are written records; eulogies are spoken remembrance. <Link href="/press/">Press and review resources</Link>.
-      </footer>
+        </ResourceLayout>
     </>
   );
 }

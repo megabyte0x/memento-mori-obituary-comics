@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { SiteNav } from "@/components/site-nav";
+import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
@@ -255,13 +255,12 @@ export default function PressPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-      <SiteNav />
-      <main className="wrap section about-page press-page">
-        <div className="about-header-section press-header-section">
-          <div className="kicker">Press and review resources</div>
-          <h1>Obituary Stories And Comics Resource Page</h1>
-          <p>For journalists, source-request editors, reviewers, educators, librarians, and researchers covering visual biography, mortality, grief comics, digital memorials, and source-backed internet publishing.</p>
-        </div>
+      <ResourceLayout
+        currentPath="/press/"
+        kicker="Press and review resources"
+        title="Obituary Stories And Comics Resource Page"
+        description={description}
+      >
 
         <section className="press-highlight" aria-labelledby="link-targets">
           <div>
@@ -358,10 +357,7 @@ export default function PressPage() {
             })}
           </ul>
         </section>
-      </main>
-      <footer>
-        Clean comics, verified lives, no motivational slop. <Link href="/about/">Editorial method</Link>.
-      </footer>
+      </ResourceLayout>
     </>
   );
 }

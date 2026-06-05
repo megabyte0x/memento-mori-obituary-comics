@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { SiteNav } from "@/components/site-nav";
+import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
@@ -182,37 +182,12 @@ export default function WhatNotToIncludeInAnObituaryPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-      <SiteNav />
-      <main className="wrap section about-page explainer-page obituary-privacy-page">
-        <article>
-          <header className="about-header-section explainer-header-section">
-            <div className="kicker">Obituary privacy checklist</div>
-            <h1>What Not to Include in an Obituary</h1>
-            <p>{description}</p>
-            <div className="stories-actions">
-              <Button asChild variant="primary">
-                <Link href="/how-to-write-an-obituary-story/">Writing guide</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-story-worksheet/">Worksheet</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-vs-death-notice/">Notice explainer</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/fake-obituary-sites/">Fake site checklist</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-mistakes-to-avoid/">Mistakes to avoid</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/memorial-donation-wording-obituary/">Donation wording</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/obituary-research-guide/">Research guide</Link>
-              </Button>
-            </div>
-          </header>
+      <ResourceLayout
+        currentPath="/what-not-to-include-in-an-obituary/"
+        kicker="Obituary privacy checklist"
+        title="What Not to Include in an Obituary"
+        description={description}
+      >
 
           <section className="explainer-body" aria-labelledby="quick-answer">
             <h2 id="quick-answer">Quick Answer</h2>
@@ -264,15 +239,7 @@ export default function WhatNotToIncludeInAnObituaryPage() {
             </ul>
           </section>
 
-          <section className="about-card stories-link-box" aria-labelledby="best-link">
-            <div>
-              <h2 id="best-link">Best Link Target For Obituary Privacy And Scam-Safety Resources</h2>
-              <p>
-                Use this page for funeral-home writing guides, consumer-safety pages, identity-theft explainers, estate-planning resources, hospice family guides, and articles about what not to include in an obituary. For broader proofing mistakes, missed facts, and correction steps, use the <Link href="/obituary-mistakes-to-avoid/">obituary mistakes checklist</Link>. For charity requests, memorial contributions, and in-lieu-of-flowers links, use the <Link href="/memorial-donation-wording-obituary/">memorial donation wording guide</Link>. For fake memorial pages, copied death notices, obituary piracy, and donation-link checks, use the <Link href="/fake-obituary-sites/">fake obituary sites checklist</Link>. For a fuller story draft, use the <Link href="/how-to-write-an-obituary-story/">obituary story writing guide</Link>. For source lookup and citation work, use the <Link href="/obituary-research-guide/">obituary research guide</Link>. For short public announcements, use the <Link href="/obituary-vs-death-notice/">obituary vs death notice explainer</Link>.
-              </p>
-            </div>
-            <Link href="/what-not-to-include-in-an-obituary/">{absoluteUrl("/what-not-to-include-in-an-obituary/")}</Link>
-          </section>
+          
 
           <section className="explainer-next" aria-labelledby="references">
             <div>
@@ -310,11 +277,7 @@ export default function WhatNotToIncludeInAnObituaryPage() {
               })}
             </ul>
           </section>
-        </article>
-      </main>
-      <footer>
-        Publish the story, not every private fact. <Link href="/press/">Press and review resources</Link>.
-      </footer>
+        </ResourceLayout>
     </>
   );
 }

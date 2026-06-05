@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { SiteNav } from "@/components/site-nav";
+import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicImageMetadata, getLatestComic } from "@/lib/comics";
 import { publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
@@ -49,12 +49,12 @@ export default function AboutPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-      <SiteNav />
-      <main className="wrap section about-page">
-        <div className="about-header-section">
-          <div className="kicker">Editorial method</div>
-          <h1>About Memento Mori Obituary Comics</h1>
-        </div>
+      <ResourceLayout
+        currentPath="/about/"
+        kicker="Editorial method"
+        title="About Memento Mori Obituary Comics"
+        description={description}
+      >
         <div className="about-grid">
           <div className="about-column">
             <p>Memento Mori Obituary Comics is a static visual archive of short biographical comics about people who faced death, illness, violence, exile, or loss and still made work that survived them.</p>
@@ -83,8 +83,7 @@ export default function AboutPage() {
             </p>
           </div>
         </div>
-      </main>
-      <footer>Clean comics, verified lives, no motivational slop.</footer>
+      </ResourceLayout>
     </>
   );
 }
