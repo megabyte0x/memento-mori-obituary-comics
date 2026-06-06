@@ -83,24 +83,27 @@ export function ReaderShell({ comic, nextComic }) {
 
 function ReaderFooter({ comic, nextComic }) {
   const sources = sourceItems(comic);
+  const closingLine = String(comic.closing_line || "").trim();
   return (
     <footer className="reader-footer">
-      <div className="epilogue-card">
-        <div className="epilogue-quote">“{comic.closing_line || ""}”</div>
-        <div className="epilogue-sources">
-          {sources.map((source) => (
-            source.url ? (
-              <a className="source-chip" href={source.url} rel="noopener noreferrer" target="_blank" key={source.name}>
-                {source.name}
-              </a>
-            ) : (
-              <span className="source-chip" key={source.name}>
-                {source.name}
-              </span>
-            )
-          ))}
+      {closingLine ? (
+        <div className="epilogue-card">
+          <div className="epilogue-quote">“{closingLine}”</div>
+          <div className="epilogue-sources">
+            {sources.map((source) => (
+              source.url ? (
+                <a className="source-chip" href={source.url} rel="noopener noreferrer" target="_blank" key={source.name}>
+                  {source.name}
+                </a>
+              ) : (
+                <span className="source-chip" key={source.name}>
+                  {source.name}
+                </span>
+              )
+            ))}
+          </div>
         </div>
-      </div>
+      ) : null}
       <section className="reader-context" aria-label="Comic notes and sources">
         <p className="reader-source-line">{comicDescription(comic)}</p>
         <h2>Citable Summary</h2>
