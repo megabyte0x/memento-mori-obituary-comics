@@ -1,0 +1,57 @@
+{
+  "slug": "elie-wiesel-night-witness",
+  "title": "The Night That Kept Speaking",
+  "person": "Elie Wiesel",
+  "years": "1928–2016",
+  "dek": "Romanian-born Jewish writer, Holocaust survivor, professor, and Nobel Peace Prize laureate whose Night made survivor testimony impossible to ignore.",
+  "mortality_event": "Survived deportation as a teenager to Auschwitz and Buchenwald before writing Night and becoming a public witness against genocide.",
+  "published_at": "2026-06-06",
+  "pages": [
+    "pages/01-elie-wiesel-night-witness.jpg",
+    "pages/02-elie-wiesel-night-witness.jpg",
+    "pages/03-elie-wiesel-night-witness.jpg",
+    "pages/04-elie-wiesel-night-witness.jpg",
+    "pages/05-elie-wiesel-night-witness.jpg",
+    "pages/06-elie-wiesel-night-witness.jpg",
+    "pages/07-elie-wiesel-night-witness.jpg"
+  ],
+  "page_dimensions": {
+    "pages/01-elie-wiesel-night-witness.jpg": [
+      768,
+      1408
+    ],
+    "pages/02-elie-wiesel-night-witness.jpg": [
+      768,
+      1408
+    ],
+    "pages/03-elie-wiesel-night-witness.jpg": [
+      768,
+      1408
+    ],
+    "pages/04-elie-wiesel-night-witness.jpg": [
+      768,
+      1408
+    ],
+    "pages/05-elie-wiesel-night-witness.jpg": [
+      768,
+      1408
+    ],
+    "pages/06-elie-wiesel-night-witness.jpg": [
+      768,
+      1408
+    ],
+    "pages/07-elie-wiesel-night-witness.jpg": [
+      768,
+      1408
+    ]
+  },
+  "sources": [
+    "United States Holocaust Memorial Museum: https://encyclopedia.ushmm.org/content/en/article/elie-wiesel",
+    "Nobel Prize: https://www.nobelprize.org/prizes/peace/1986/wiesel/biographical/",
+    "Encyclopaedia Britannica: https://www.britannica.com/biography/Elie-Wiesel",
+    "The Guardian obituary: https://www.theguardian.com/world/2016/jul/03/elie-wiesel-obituary",
+    "The Elie Wiesel Foundation: https://eliewieselfoundation.org/about-elie-wiesel/"
+  ],
+  "pdf": "elie-wiesel-night-witness.pdf",
+  "contact_sheet": "contact-sheet.jpg"
+}
