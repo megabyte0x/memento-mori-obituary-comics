@@ -1,62 +1,66 @@
 [
   {
-    "slug": "niki-lauda-fire-and-return",
-    "title": "Niki Lauda: Fire and Return",
-    "person": "Niki Lauda",
-    "years": "1949–2019",
-    "dek": "The Formula One champion who walked away from death, then returned with clearer courage.",
-    "mortality_event": "Survived the 1976 Nürburgring fire, received last rites, returned to racing weeks later, and won two more Formula One world championships.",
+    "slug": "rachel-carson-silent-spring",
+    "title": "Rachel Carson: Silent Spring Under Shadow",
+    "person": "Rachel Carson",
+    "years": "1907–1964",
+    "dek": "The marine biologist who wrote through illness and changed environmental history.",
+    "mortality_event": "While privately ill with metastasizing breast cancer, Carson finished and defended Silent Spring, turning pesticide danger into a public environmental reckoning before her death in 1964.",
     "published_at": "2026-06-12",
     "pages": [
-      "pages/01-niki-lauda-fire-and-return.jpg",
-      "pages/02-niki-lauda-fire-and-return.jpg",
-      "pages/03-niki-lauda-fire-and-return.jpg",
-      "pages/04-niki-lauda-fire-and-return.jpg",
-      "pages/05-niki-lauda-fire-and-return.jpg",
-      "pages/06-niki-lauda-fire-and-return.jpg",
-      "pages/07-niki-lauda-fire-and-return.jpg"
+      "pages/01-rachel-carson-silent-spring.jpg",
+      "pages/02-rachel-carson-silent-spring.jpg",
+      "pages/03-rachel-carson-silent-spring.jpg",
+      "pages/04-rachel-carson-silent-spring.jpg",
+      "pages/05-rachel-carson-silent-spring.jpg",
+      "pages/06-rachel-carson-silent-spring.jpg",
+      "pages/07-rachel-carson-silent-spring.jpg"
     ],
     "page_dimensions": {
-      "pages/01-niki-lauda-fire-and-return.jpg": [
-        1200,
-        1800
+      "pages/01-rachel-carson-silent-spring.jpg": [
+        1440,
+        2560
       ],
-      "pages/02-niki-lauda-fire-and-return.jpg": [
-        1200,
-        1800
+      "pages/02-rachel-carson-silent-spring.jpg": [
+        1440,
+        2560
       ],
-      "pages/03-niki-lauda-fire-and-return.jpg": [
-        1200,
-        1800
+      "pages/03-rachel-carson-silent-spring.jpg": [
+        1440,
+        2560
       ],
-      "pages/04-niki-lauda-fire-and-return.jpg": [
-        1200,
-        1800
+      "pages/04-rachel-carson-silent-spring.jpg": [
+        1440,
+        2560
       ],
-      "pages/05-niki-lauda-fire-and-return.jpg": [
-        1200,
-        1800
+      "pages/05-rachel-carson-silent-spring.jpg": [
+        1440,
+        2560
       ],
-      "pages/06-niki-lauda-fire-and-return.jpg": [
-        1200,
-        1800
+      "pages/06-rachel-carson-silent-spring.jpg": [
+        1440,
+        2560
       ],
-      "pages/07-niki-lauda-fire-and-return.jpg": [
-        1200,
-        1800
+      "pages/07-rachel-carson-silent-spring.jpg": [
+        1440,
+        2560
       ]
     },
     "sources": [
       {
-        "name": "Formula 1 Hall of Fame",
-        "url": "https://www.formula1.com/en/information/drivers-hall-of-fame-niki-lauda.2Ye7VYWdXwhb97ZqLyxvX"
+        "name": "Rachel Carson obituary / The New York Times via rachelcarson.org",
+        "url": "https://www.rachelcarson.org/obituary"
       },
       {
-        "name": "Britannica",
-        "url": "https://www.britannica.com/biography/Niki-Lauda"
+        "name": "National Women’s History Museum biography",
+        "url": "https://www.womenshistory.org/education-resources/biographies/rachel-carson"
+      },
+      {
+        "name": "Silent Spring Institute legacy page",
+        "url": "https://silentspring.org/about-us/our-story/legacy-rachel-carson-0"
       }
     ],
-    "pdf": "niki-lauda-fire-and-return.pdf",
+    "pdf": "rachel-carson-silent-spring.pdf",
     "contact_sheet": "contact-sheet.jpg"
   },
   {

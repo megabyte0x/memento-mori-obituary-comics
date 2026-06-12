@@ -1,0 +1,64 @@
+{
+  "slug": "rachel-carson-silent-spring",
+  "title": "Rachel Carson: Silent Spring Under Shadow",
+  "person": "Rachel Carson",
+  "years": "1907–1964",
+  "dek": "The marine biologist who wrote through illness and changed environmental history.",
+  "mortality_event": "While privately ill with metastasizing breast cancer, Carson finished and defended Silent Spring, turning pesticide danger into a public environmental reckoning before her death in 1964.",
+  "published_at": "2026-06-12",
+  "pages": [
+    "pages/01-rachel-carson-silent-spring.jpg",
+    "pages/02-rachel-carson-silent-spring.jpg",
+    "pages/03-rachel-carson-silent-spring.jpg",
+    "pages/04-rachel-carson-silent-spring.jpg",
+    "pages/05-rachel-carson-silent-spring.jpg",
+    "pages/06-rachel-carson-silent-spring.jpg",
+    "pages/07-rachel-carson-silent-spring.jpg"
+  ],
+  "page_dimensions": {
+    "pages/01-rachel-carson-silent-spring.jpg": [
+      1440,
+      2560
+    ],
+    "pages/02-rachel-carson-silent-spring.jpg": [
+      1440,
+      2560
+    ],
+    "pages/03-rachel-carson-silent-spring.jpg": [
+      1440,
+      2560
+    ],
+    "pages/04-rachel-carson-silent-spring.jpg": [
+      1440,
+      2560
+    ],
+    "pages/05-rachel-carson-silent-spring.jpg": [
+      1440,
+      2560
+    ],
+    "pages/06-rachel-carson-silent-spring.jpg": [
+      1440,
+      2560
+    ],
+    "pages/07-rachel-carson-silent-spring.jpg": [
+      1440,
+      2560
+    ]
+  },
+  "sources": [
+    {
+      "name": "Rachel Carson obituary / The New York Times via rachelcarson.org",
+      "url": "https://www.rachelcarson.org/obituary"
+    },
+    {
+      "name": "National Women’s History Museum biography",
+      "url": "https://www.womenshistory.org/education-resources/biographies/rachel-carson"
+    },
+    {
+      "name": "Silent Spring Institute legacy page",
+      "url": "https://silentspring.org/about-us/our-story/legacy-rachel-carson-0"
+    }
+  ],
+  "pdf": "rachel-carson-silent-spring.pdf",
+  "contact_sheet": "contact-sheet.jpg"
+}
