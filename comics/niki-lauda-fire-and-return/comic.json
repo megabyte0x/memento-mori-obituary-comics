@@ -1,0 +1,60 @@
+{
+  "slug": "niki-lauda-fire-and-return",
+  "title": "Niki Lauda: Fire and Return",
+  "person": "Niki Lauda",
+  "years": "1949–2019",
+  "dek": "The Formula One champion who walked away from death, then returned with clearer courage.",
+  "mortality_event": "Survived the 1976 Nürburgring fire, received last rites, returned to racing weeks later, and won two more Formula One world championships.",
+  "published_at": "2026-06-12",
+  "pages": [
+    "pages/01-niki-lauda-fire-and-return.jpg",
+    "pages/02-niki-lauda-fire-and-return.jpg",
+    "pages/03-niki-lauda-fire-and-return.jpg",
+    "pages/04-niki-lauda-fire-and-return.jpg",
+    "pages/05-niki-lauda-fire-and-return.jpg",
+    "pages/06-niki-lauda-fire-and-return.jpg",
+    "pages/07-niki-lauda-fire-and-return.jpg"
+  ],
+  "page_dimensions": {
+    "pages/01-niki-lauda-fire-and-return.jpg": [
+      1200,
+      1800
+    ],
+    "pages/02-niki-lauda-fire-and-return.jpg": [
+      1200,
+      1800
+    ],
+    "pages/03-niki-lauda-fire-and-return.jpg": [
+      1200,
+      1800
+    ],
+    "pages/04-niki-lauda-fire-and-return.jpg": [
+      1200,
+      1800
+    ],
+    "pages/05-niki-lauda-fire-and-return.jpg": [
+      1200,
+      1800
+    ],
+    "pages/06-niki-lauda-fire-and-return.jpg": [
+      1200,
+      1800
+    ],
+    "pages/07-niki-lauda-fire-and-return.jpg": [
+      1200,
+      1800
+    ]
+  },
+  "sources": [
+    {
+      "name": "Formula 1 Hall of Fame",
+      "url": "https://www.formula1.com/en/information/drivers-hall-of-fame-niki-lauda.2Ye7VYWdXwhb97ZqLyxvX"
+    },
+    {
+      "name": "Britannica",
+      "url": "https://www.britannica.com/biography/Niki-Lauda"
+    }
+  ],
+  "pdf": "niki-lauda-fire-and-return.pdf",
+  "contact_sheet": "contact-sheet.jpg"
+}
