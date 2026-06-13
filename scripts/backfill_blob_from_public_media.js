@@ -41,9 +41,9 @@ function hasBlobCredentials() {
 }
 
 function shouldRunOnBuild() {
-  if (process.env.BLOB_BACKFILL_ON_BUILD === "0") return false;
   if (process.env.BLOB_BACKFILL_FORCE === "1") return true;
-  return process.env.VERCEL === "1" && process.env.VERCEL_ENV === "production";
+  if (process.env.BLOB_BACKFILL_ON_BUILD === "1") return true;
+  return false;
 }
 
 function loadComics(rootDir = ROOT_DIR) {
