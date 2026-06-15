@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { FaqSection } from "@/components/faq-section";
 import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
@@ -7,6 +8,29 @@ import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from
 
 const description =
   "A life story obituary template for writing a warmer obituary: short, full-length, family-history, and visual obituary structures with privacy and source checks.";
+
+const faqs = [
+  {
+    question: "What is a life story obituary template?",
+    answer:
+      "A life story obituary template is a reusable structure that turns the facts of a death into a shaped narrative about the life. Instead of only listing name, dates, and survivors, it adds a defining scene, the places and work that shaped the person, and a closing line about what remains, so the obituary reads as a story rather than a notice.",
+  },
+  {
+    question: "How do you structure a life story obituary?",
+    answer:
+      "Open with the verified death-notice facts: full name, age, place, and date. Next give the life frame of family, place, work, faith, or service. Then add one concrete defining scene that shows character in action. List surviving and predeceased family in the publication's required style, and close with service details, donation preferences, and one sentence on the person's legacy.",
+  },
+  {
+    question: "What is the standard format for an obituary?",
+    answer:
+      "The standard obituary format follows five parts: an announcement of the death with name and date, biographical background, a list of surviving and predeceased family members, service or memorial details, and donation or charity preferences. A life story version keeps this order but expands the biography into a narrative with a specific, memorable detail.",
+  },
+  {
+    question: "Can you use an obituary template for a newspaper?",
+    answer:
+      "Yes. A template helps you gather the required facts, but newspapers charge by the line or word, so trim the narrative to fit the space and budget. Use the short template for the paid print notice and a longer life story template for the free online or funeral-home version, which usually has no length limit.",
+  },
+];
 
 const templates = [
   {
@@ -285,7 +309,11 @@ export default function LifeStoryObituaryTemplatePage() {
             </div>
           </section>
 
-          
+          <FaqSection
+            heading="Life Story Obituary Template FAQ"
+            path="/life-story-obituary-template/"
+            items={faqs}
+          />
         </ResourceLayout>
     </>
   );

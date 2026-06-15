@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { FaqSection } from "@/components/faq-section";
 import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
@@ -284,6 +285,17 @@ export default function ShortObituaryExamplesPage() {
               })}
             </ul>
           </section>
+          <FaqSection
+            heading="Short Obituary Examples FAQ"
+            path="/short-obituary-examples/"
+            items={[
+              { question: "What is a short obituary example?", answer: "A short obituary example is a 30-to-100 word notice that states the essentials: \"[Name], [age], of [city], died [date]. He is survived by [family]. A service will be held [date] at [place]. In lieu of flowers, donations may be made to [charity].\" It covers who, when, and where without a long life narrative." },
+              { question: "How do you write a short obituary?", answer: "Write a short obituary by keeping only the facts that readers need: full name, age, city, date of death, immediate survivors, one line about the life or work, and the service details. Cut adjectives and background stories, since paid print notices charge by the line. A longer narrative version can run free online." },
+              { question: "How many words is a short obituary?", answer: "A short obituary is typically 30 to 100 words \u2014 often just two or three sentences. Newspapers usually set a minimum charge that covers roughly 40 to 50 words, so many families keep the print notice short and publish a fuller story on a funeral-home or memorial page." },
+              { question: "What is the difference between a short obituary and a death notice?", answer: "A death notice is the briefest form \u2014 name, date, and service details, often written by the funeral home. A short obituary adds a small amount of life context, such as survivors and one line about who the person was. Both are concise; the obituary simply carries a little more story." },
+            ]}
+          />
+
         </ResourceLayout>
     </>
   );

@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { FaqSection } from "@/components/faq-section";
 import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
@@ -7,6 +8,24 @@ import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from
 
 const description =
   "Obituary writing prompts and legacy interview questions for gathering facts, scenes, memories, records, and privacy notes before writing a life story.";
+
+const faqs = [
+  {
+    question: "What are good obituary writing prompts?",
+    answer:
+      "Strong prompts ask for specific scenes rather than adjectives: What did this person keep doing when life got hard? What room changed when they walked in? What object, recipe, route, or phrase do people still quote? What did they make, repair, protect, or teach? Concrete answers give an obituary the detail that makes a life recognizable.",
+  },
+  {
+    question: "What questions should you ask when writing an obituary?",
+    answer:
+      "Ask for the verified facts first: full name, dates, places, family, education, work, and service. Then ask story questions, such as the person's defining moment, a habit family members remember, and what they were proud of. Finish with privacy questions about which details should stay out of a public obituary.",
+  },
+  {
+    question: "How do you write an obituary for someone you did not know well?",
+    answer:
+      "Interview the people who knew them and gather documents: photos, letters, records, and prior notices. Use prompts to collect two or three concrete scenes, then confirm names, dates, and spellings against records. Build the obituary around one verified, defining detail so the writing stays accurate and specific even without your own memories.",
+  },
+];
 
 const promptGroups = [
   {
@@ -297,7 +316,11 @@ export default function ObituaryWritingPromptsPage() {
             </div>
           </section>
 
-          
+          <FaqSection
+            heading="Obituary Writing Prompts FAQ"
+            path="/obituary-writing-prompts/"
+            items={faqs}
+          />
         </ResourceLayout>
     </>
   );

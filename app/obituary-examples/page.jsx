@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { FaqSection } from "@/components/faq-section";
 import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
@@ -198,6 +199,17 @@ export default function ObituaryExamplesPage() {
           </section>
 
           
+          <FaqSection
+            heading="Obituary Examples FAQ"
+            path="/obituary-examples/"
+            items={[
+              { question: "What is an example of a good obituary?", answer: "A good obituary opens with the essential facts \u2014 \"[Full name], [age], of [city], died [date]\" \u2014 then tells one shaped life story instead of a list of adjectives. It names the family, the work, and at least one specific scene or detail that makes the person recognizable, and it closes with service information and any memorial or donation requests." },
+              { question: "What is the basic format of an obituary?", answer: "Most obituaries follow five parts: (1) the announcement of death with name, age, city, and date; (2) biographical background such as birth, family, education, and career; (3) a narrative of the life, accomplishments, and character; (4) the list of survivors and those who preceded them in death; and (5) service details plus donation or flower preferences." },
+              { question: "What are good first words of an obituary?", answer: "Common, respectful openings include \"[Name] passed away peacefully on [date],\" \"[Name], [age], of [city], died [date] surrounded by family,\" or a more narrative line such as \"[Name] spent [number] years doing [defining work].\" Keep the first sentence factual and accurate; save the story for the paragraphs that follow." },
+              { question: "Can I copy an obituary template or example?", answer: "You can use a template or example as a structure, but never copy another family's wording or facts. Templates and examples are best used as a frame \u2014 swap in the real names, dates, places, and scenes so the obituary is accurate and unique to the person it honors." },
+            ]}
+          />
+
         </ResourceLayout>
     </>
   );

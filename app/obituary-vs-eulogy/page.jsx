@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { FaqSection } from "@/components/faq-section";
 import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
@@ -181,6 +182,54 @@ export default function ObituaryVsEulogyPage() {
             </p>
           </section>
 
+          <section className="explainer-body" aria-labelledby="comparison-table-heading">
+            <h2 id="comparison-table-heading">Obituary vs Eulogy: Side-by-Side</h2>
+            <div className="comparison-table-wrap">
+              <table className="comparison-table">
+                <caption>How an obituary and a eulogy differ across the details families ask about most.</caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Aspect</th>
+                    <th scope="col">Obituary</th>
+                    <th scope="col">Eulogy</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Format</th>
+                    <td>Written and published</td>
+                    <td>Spoken aloud</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Where it appears</th>
+                    <td>Newspaper, online, or funeral-home page</td>
+                    <td>At the funeral or memorial service</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Audience</th>
+                    <td>The public and wider community</td>
+                    <td>People gathered at the service</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Main purpose</th>
+                    <td>Announce the death, preserve facts, share service details</td>
+                    <td>Personally honor the person through stories and memory</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Typical length</th>
+                    <td>About 200–500 words</td>
+                    <td>About 3–5 minutes spoken</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Timing</th>
+                    <td>Published before the service</td>
+                    <td>Delivered during the service</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
           <section className="worksheet-grid" aria-labelledby="comparison">
             <div>
               <div className="kicker">Comparison</div>
@@ -260,6 +309,17 @@ export default function ObituaryVsEulogyPage() {
               })}
             </ul>
           </section>
+          <FaqSection
+            heading="Obituary vs Eulogy FAQ"
+            path="/obituary-vs-eulogy/"
+            items={[
+              { question: "What is the difference between an obituary and a eulogy?", answer: "An obituary is a written death notice and life summary published in a newspaper or online, including facts, survivors, and service details. A eulogy is a speech delivered aloud at a funeral or memorial that personally honors the person. The obituary informs the public; the eulogy speaks to those gathered." },
+              { question: "Is a eulogy written or spoken?", answer: "A eulogy is written to be spoken. It is usually drafted in advance and then read or performed aloud at the service by a family member, friend, or officiant. Its tone is personal and conversational, unlike the more factual, permanent record of an obituary." },
+              { question: "Can you use an obituary as a eulogy?", answer: "You can use the obituary as a starting point, but a eulogy needs more warmth, stories, and direct address to the audience. Read the obituary for the facts and timeline, then add the personal memories, humor, and meaning that work better spoken aloud than in a printed notice." },
+              { question: "Which comes first, the obituary or the eulogy?", answer: "The obituary usually comes first, because it is published in the days before the service to announce the death and share the service details. The eulogy is delivered later, during the funeral or memorial itself, and often draws on the same biographical facts the obituary established." },
+            ]}
+          />
+
         </ResourceLayout>
     </>
   );

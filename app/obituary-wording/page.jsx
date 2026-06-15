@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { FaqSection } from "@/components/faq-section";
 import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
@@ -287,6 +288,17 @@ export default function ObituaryWordingPage() {
               })}
             </ul>
           </section>
+          <FaqSection
+            heading="Obituary Wording FAQ"
+            path="/obituary-wording/"
+            items={[
+              { question: "How do you word \"survived by\" in an obituary?", answer: "List survivors from closest relationship outward, usually spouse first, then children, grandchildren, and siblings: \"He is survived by his wife, Mary; his children, John (Sarah) and Anne; and four grandchildren.\" Put a spouse's or child's partner in parentheses, and use \"of [city]\" when survivors live elsewhere." },
+              { question: "How do you word \"preceded in death\"?", answer: "Use a phrase such as \"He was preceded in death by his parents, [names], and his sister, [name].\" This appears before or after the list of survivors and names the close family members who died before the person. \"Predeceased by\" is an acceptable, slightly more formal alternative." },
+              { question: "How do you announce a death respectfully?", answer: "Respectful announcements favor plain, gentle phrasing: \"passed away,\" \"died peacefully,\" \"entered eternal rest,\" or simply \"died on [date].\" Lead with the name and date, avoid clinical detail, and match the tone to the family's wishes and beliefs rather than to euphemism for its own sake." },
+              { question: "What is good wording for the cause of death?", answer: "Cause of death is optional. Families who include it often use brief, dignified wording such as \"after a long illness,\" \"following a brief battle with cancer,\" or \"unexpectedly.\" If the cause is sensitive or private, it is entirely acceptable to omit it and write only the date of death." },
+            ]}
+          />
+
         </ResourceLayout>
     </>
   );

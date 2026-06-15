@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { FaqSection } from "@/components/faq-section";
 import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
@@ -7,6 +8,29 @@ import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from
 
 const description =
   "Common obituary mistakes to avoid before publishing: wrong names, missing service details, generic wording, unsafe private details, broken donation links, price surprises, and skipped proof review.";
+
+const faqs = [
+  {
+    question: "What are the most common obituary mistakes to avoid?",
+    answer:
+      "The most common mistakes are misspelled names, wrong dates, omitted or mislisted family members, and missing service details. Others include generic praise that could describe anyone, unverified claims about awards or service, and publishing unsafe private information. Always proofread against records and have a second family member review the obituary before it is submitted.",
+  },
+  {
+    question: "What should you not include in an obituary?",
+    answer:
+      "Leave out the home address, full birth date, mother's maiden name, and other details that enable identity theft or burglary during the funeral. Avoid medical specifics, family conflict, and anything a living relative has not consented to share. Cause of death is optional, so include it only if the family is comfortable making it public.",
+  },
+  {
+    question: "How do you avoid obituary scams and identity theft?",
+    answer:
+      "Publish only what the public needs: name, age, city, and service details. Omit the deceased's full date of birth, home address, and mother's maiden name, since scammers combine these to open accounts. Be wary of unfamiliar sites copying the notice, and verify any donation link goes to the charity's official page before sharing it.",
+  },
+  {
+    question: "Can you correct a mistake in a published obituary?",
+    answer:
+      "Yes. Contact the newspaper or website that published it as soon as possible. Print papers can run a correction in a later edition, and online obituaries can usually be edited directly. Corrections may carry a fee for print. Funeral-home and memorial pages typically update quickly, so report errors in names, dates, or service details right away.",
+  },
+];
 
 const mistakeGroups = [
   {
@@ -251,7 +275,11 @@ export default function ObituaryMistakesToAvoidPage() {
             </ol>
           </section>
 
-          
+          <FaqSection
+            heading="Obituary Mistakes FAQ"
+            path="/obituary-mistakes-to-avoid/"
+            items={faqs}
+          />
 
           <section className="explainer-next" aria-labelledby="references">
             <div>

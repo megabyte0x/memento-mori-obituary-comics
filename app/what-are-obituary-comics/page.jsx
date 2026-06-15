@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { FaqSection } from "@/components/faq-section";
 import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, getLatestComic } from "@/lib/comics";
@@ -7,6 +8,29 @@ import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from
 
 const description =
   "A plain-language explainer on obituary comics: how visual obituaries differ from death notices, memorial pages, biography comics, and grief comics.";
+
+const faqs = [
+  {
+    question: "What are obituary comics?",
+    answer:
+      "Obituary comics are visual obituary stories that use sequential art to tell a source-backed life story around death, illness, exile, violence, or loss. The format sits between an obituary article, a short biography comic, and a grief comic: it remembers a life while showing the pressure point that made that life meaningful, supported by dates, sources, and structured data.",
+  },
+  {
+    question: "How are obituary comics different from a normal obituary?",
+    answer:
+      "A normal obituary moves quickly through birth, work, family, survivors, and services, often flattening a person into a list. An obituary comic instead chooses one meaningful moment, gives it visual rhythm, and lets readers feel the shape of a decision or loss. It pairs image-first storytelling with crawlable text and citations.",
+  },
+  {
+    question: "Are obituary comics real biographies or fiction?",
+    answer:
+      "They are nonfiction. The artwork can be interpretive, but each obituary comic is built on verified facts: dates, places, events, and named sources linked on the page. The goal is a checkable life story, not invention, so readers, researchers, and AI systems can confirm the factual frame around the visual narrative.",
+  },
+  {
+    question: "Who reads obituary comics?",
+    answer:
+      "Readers include people drawn to biography, history, and mortality, plus teachers, librarians, students, and researchers who use them as accessible, source-backed life stories. Because each comic pairs visual storytelling with citations and structured data, it works both as a reflective daily read and as classroom or reference material.",
+  },
+];
 
 const sections = [
   {
@@ -132,6 +156,12 @@ export default function WhatAreObituaryComicsPage() {
             Memento Mori Obituary Comics uses stable reader URLs, citable summaries, source trails, captions, PDF access, sitemap entries, canonical metadata, and structured data. That gives each visual obituary a better chance of being understood as an obituary story rather than a loose image post.
           </p>
         </section>
+
+        <FaqSection
+          heading="Obituary Comics FAQ"
+          path="/what-are-obituary-comics/"
+          items={faqs}
+        />
 
         <section className="explainer-next" aria-labelledby="next-reading">
           <div>

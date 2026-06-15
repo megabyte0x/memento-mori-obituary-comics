@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { FaqSection } from "@/components/faq-section";
 import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
@@ -7,6 +8,34 @@ import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from
 
 const description =
   "A practical checklist for submitting or placing an obituary in a newspaper: where to send it, proof of death, deadlines, costs, photos, funeral-home verification, and final proof review.";
+
+const faqs = [
+  {
+    question: "How do you submit an obituary to a newspaper?",
+    answer:
+      "Contact the newspaper's obituary or classified desk, or submit through its online obituary portal. You provide the written obituary text, any photo, and proof of death, which is usually verified through the funeral home. The paper sends a cost estimate and a proof to approve, then schedules the notice for a chosen publication date.",
+  },
+  {
+    question: "How much does it cost to put an obituary in a newspaper?",
+    answer:
+      "Newspaper obituaries typically cost between $200 and $600, though large metro papers can charge $1,000 or more. Pricing is usually per line, per word, or per column inch, and adding a photo or running on weekends costs extra. Small-town papers are cheaper, and some print short death notices at little or no charge.",
+  },
+  {
+    question: "Can you submit an obituary yourself, or must a funeral home do it?",
+    answer:
+      "You can submit an obituary yourself directly to the newspaper, but many papers require the funeral home to verify the death first. Funeral homes routinely handle submission as part of their services. If you write and place it yourself, expect to provide proof of death, such as the funeral home's name or a death certificate.",
+  },
+  {
+    question: "How long does it take for an obituary to be published?",
+    answer:
+      "Most newspapers publish an obituary one to three days after submission, provided it meets the deadline and the death is verified. Deadlines are often 24 to 48 hours before the print date, and weekend or Sunday editions usually close earlier. Online obituaries can appear within hours once the paper confirms payment and proof of death.",
+  },
+  {
+    question: "What information do newspapers require to publish an obituary?",
+    answer:
+      "Newspapers require the full name of the deceased, the date of death, and verification through a funeral home or death certificate. The obituary text, contact details for the person submitting, billing information, and any photo are also needed. Confirm the word limit, photo rules, and submission deadline before sending the final version.",
+  },
+];
 
 const submissionSteps = [
   {
@@ -240,7 +269,11 @@ export default function NewspaperObituarySubmissionPage() {
             </ul>
           </section>
 
-          
+          <FaqSection
+            heading="Submitting an Obituary FAQ"
+            path="/how-to-submit-an-obituary-to-a-newspaper/"
+            items={faqs}
+          />
 
           <section className="explainer-next" aria-labelledby="references">
             <div>

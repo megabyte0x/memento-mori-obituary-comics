@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { FaqSection } from "@/components/faq-section";
 import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
@@ -7,6 +8,29 @@ import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from
 
 const description =
   "A practical checklist for spotting fake obituary sites, obituary piracy, copied death notices, fake donation links, and scam memorial pages before you share or click.";
+
+const faqs = [
+  {
+    question: "How do you tell if an obituary is real or fake?",
+    answer:
+      "Confirm it through an official source: the funeral home, a local newspaper, or a recognized memorial platform. A real obituary names the funeral home and matches the person's age, location, and relatives. Treat a page as fake if details are wrong or copied, it appeared before any official notice, or it pushes donations, popups, or virus warnings.",
+  },
+  {
+    question: "Why do fake obituary sites exist?",
+    answer:
+      "Fake obituary sites exist to make money from grief. They copy or fabricate death notices to earn ad clicks, collect donations that never reach the family, sell memorial products, charge for fake funeral livestreams, or redirect readers to scams. Because they start with a real name and a real loss, the pages feel believable even when the facts are invented.",
+  },
+  {
+    question: "Are fake obituary livestream links a scam?",
+    answer:
+      "Often, yes. Scam pages post fake funeral livestream links that demand a credit card, subscription, or app download to watch. A genuine livestream comes from the funeral home or family and does not ask for payment details on a strange site. Verify the link directly with the funeral home before entering any information.",
+  },
+  {
+    question: "What should you do if you find a fake obituary?",
+    answer:
+      "Do not share, donate, or click further. Save the URL and screenshots, since scam pages change or vanish. Report it to the hosting platform, the domain registrar's abuse contact, and a consumer-protection office if money or impersonation is involved. Then share the verified obituary link so others reach the official notice instead.",
+  },
+];
 
 const redFlags = [
   {
@@ -239,7 +263,11 @@ export default function FakeObituarySitesPage() {
             </ul>
           </section>
 
-          
+          <FaqSection
+            heading="Fake Obituary Sites FAQ"
+            path="/fake-obituary-sites/"
+            items={faqs}
+          />
 
           <section className="explainer-next" aria-labelledby="references">
             <div>

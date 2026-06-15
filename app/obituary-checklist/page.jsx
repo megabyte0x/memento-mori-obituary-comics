@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { FaqSection } from "@/components/faq-section";
 import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
@@ -269,6 +270,16 @@ export default function ObituaryChecklistPage() {
               })}
             </ul>
           </section>
+          <FaqSection
+            heading="Obituary Checklist FAQ"
+            path="/obituary-checklist/"
+            items={[
+              { question: "What information do you need to write an obituary?", answer: "You need the full legal name and any nickname or maiden name, dates and places of birth and death, the names of survivors and predeceased family, education and career history, military or community service, hobbies and accomplishments, service and burial details, and any donation preferences. Gathering these before drafting prevents missing facts and last-minute corrections." },
+              { question: "What should you check before publishing an obituary?", answer: "Before publishing, verify the spelling of every name, confirm all dates, double-check the service time and location, have at least one other family member proofread, confirm the newspaper's word limit and deadline, test any donation links, and review for private details that should be removed for safety." },
+              { question: "What facts are most often wrong in obituaries?", answer: "The most common obituary errors are misspelled names, wrong or omitted survivors, incorrect service times, and the wrong date or age. Because obituaries become a permanent public record, a second proofreader and a final read against source documents catch most of these before publication." },
+            ]}
+          />
+
         </ResourceLayout>
     </>
   );

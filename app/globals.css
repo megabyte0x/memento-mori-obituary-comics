@@ -3560,3 +3560,102 @@ body::before {
     background: #999;
   }
 }
+
+/* FAQ section — shared across resource pages */
+.faq-section {
+  margin: 56px 0 8px;
+}
+.faq-section > h2 {
+  margin-top: 6px;
+}
+.faq-list {
+  margin-top: 24px;
+  border-top: 1px solid var(--line);
+}
+.faq-item {
+  border-bottom: 1px solid var(--line);
+  padding: 4px 0;
+}
+.faq-item > summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 18px 36px 18px 4px;
+  position: relative;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 1.45;
+  color: var(--paper);
+  transition: var(--transition);
+}
+.faq-item > summary::-webkit-details-marker { display: none; }
+.faq-item > summary:hover { color: var(--gold); }
+.faq-item > summary::after {
+  content: "+";
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--font-sans);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1;
+  color: var(--gold);
+  transition: var(--transition);
+}
+.faq-item[open] > summary::after {
+  transform: translateY(-50%) rotate(45deg);
+}
+.faq-item > p {
+  margin: 0 0 18px;
+  padding-right: 36px;
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Comparison table — shared across resource pages */
+.comparison-table-wrap {
+  margin: 28px 0 8px;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+}
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-sans);
+  font-size: 16px;
+  min-width: 520px;
+}
+.comparison-table caption {
+  text-align: left;
+  padding: 14px 16px;
+  color: var(--muted);
+  font-size: 14px;
+  border-bottom: 1px solid var(--line);
+}
+.comparison-table th,
+.comparison-table td {
+  text-align: left;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+  line-height: 1.5;
+}
+.comparison-table thead th {
+  color: var(--gold);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+.comparison-table tbody th {
+  color: var(--paper);
+  font-weight: 600;
+  white-space: nowrap;
+}
+.comparison-table tbody td {
+  color: var(--muted);
+}
+.comparison-table tbody tr:last-child th,
+.comparison-table tbody tr:last-child td {
+  border-bottom: none;
+}

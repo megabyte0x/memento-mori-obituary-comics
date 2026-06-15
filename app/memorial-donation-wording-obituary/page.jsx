@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { FaqSection } from "@/components/faq-section";
 import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
@@ -7,6 +8,29 @@ import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from
 
 const description =
   "Practical memorial donation wording for an obituary: in lieu of flowers examples, charity details to verify, donation-link safety, family-support language, and thank-you tracking.";
+
+const faqs = [
+  {
+    question: "How do you word memorial donations in an obituary?",
+    answer:
+      "A clear line names the charity and how to give: \"In lieu of flowers, the family requests that memorial donations be made to [charity name], [address or website].\" Add the program or fund if the gift is for a specific cause, and confirm the charity's exact legal name and donation page so readers reach the right organization.",
+  },
+  {
+    question: "What is the proper wording for in lieu of flowers?",
+    answer:
+      "Common phrasings include \"In lieu of flowers, memorial contributions may be made to [charity],\" or the softer \"The family suggests donations to [charity] in [name]'s memory.\" Use \"in lieu of flowers\" when you want to redirect gifts entirely, or \"in addition to flowers\" if some floral tributes are still welcome.",
+  },
+  {
+    question: "How do you ask for donations instead of flowers?",
+    answer:
+      "Phrase it as a gentle request rather than a demand: \"In lieu of flowers, please consider a gift to [charity].\" Name a cause connected to the person's life or illness so the request feels meaningful. Include the charity's website or mailing address, and note if donations can be made in the deceased's name.",
+  },
+  {
+    question: "Can you suggest donations to more than one charity?",
+    answer:
+      "Yes. List two or three options so readers can choose: \"Memorial donations may be made to [charity one], [charity two], or a charity of the donor's choice.\" Keep the list short to avoid confusion, verify each organization's name and donation link, and consider naming a single cause if you want to concentrate the impact.",
+  },
+];
 
 const wordingOptions = [
   {
@@ -242,7 +266,11 @@ export default function MemorialDonationWordingObituaryPage() {
             </ul>
           </section>
 
-          
+          <FaqSection
+            heading="Memorial Donation Wording FAQ"
+            path="/memorial-donation-wording-obituary/"
+            items={faqs}
+          />
 
           <section className="explainer-next" aria-labelledby="references">
             <div>

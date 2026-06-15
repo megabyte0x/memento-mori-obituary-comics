@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { FaqSection } from "@/components/faq-section";
 import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
@@ -7,6 +8,29 @@ import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from
 
 const description =
   "An obituary research guide for genealogy, library, and family-history searches: where to look, what facts to verify, and how to turn an obituary record into a sourced life story.";
+
+const faqs = [
+  {
+    question: "How do you research an obituary?",
+    answer:
+      "Start with the full name, an approximate death date, and a location. Search newspaper archives, funeral-home sites, and obituary databases, then confirm details against public records such as death indexes, cemetery listings, and census data. Note the publication, date, and URL for every record so the obituary can be cited and verified later.",
+  },
+  {
+    question: "Where can you find old obituaries for free?",
+    answer:
+      "Free sources include public library newspaper archives, Chronicling America from the Library of Congress, FamilySearch, Find a Grave, and many local genealogical society indexes. Public libraries often provide free in-branch access to paid databases like NewspaperArchive or GenealogyBank, so a library card can unlock obituaries that are otherwise behind a paywall.",
+  },
+  {
+    question: "How do you find an obituary when you only know a name?",
+    answer:
+      "Add any detail you have, such as an approximate age, city, or relative's name, to narrow results. Search obituary databases and newspaper archives by name plus location, then cross-check candidates against cemetery records and death indexes. Family trees on FamilySearch or Ancestry can confirm dates that point you to the correct obituary.",
+  },
+  {
+    question: "How do you cite an obituary as a genealogy source?",
+    answer:
+      "Record the deceased's name, the publication or website, the publication date, and the URL or page and image number. Add the access date for online sources. A citation like \"Obituary, [Name], [Newspaper], [date], [URL], accessed [date]\" lets other researchers locate the same record and judge its reliability.",
+  },
+];
 
 const researchSteps = [
   {
@@ -249,7 +273,11 @@ export default function ObituaryResearchGuidePage() {
             </p>
           </section>
 
-          
+          <FaqSection
+            heading="Obituary Research FAQ"
+            path="/obituary-research-guide/"
+            items={faqs}
+          />
 
           <section className="explainer-next" aria-labelledby="reference-links">
             <div>

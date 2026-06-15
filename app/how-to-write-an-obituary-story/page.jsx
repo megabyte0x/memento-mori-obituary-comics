@@ -1,9 +1,38 @@
 import Link from "next/link";
 
+import { FaqSection } from "@/components/faq-section";
 import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, getLatestComic, sourceItems } from "@/lib/comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
+
+const faqs = [
+  {
+    question: "How do you start an obituary?",
+    answer:
+      "Start with the essential facts in the first sentence: the full name, age, city, and the date of death. A common opening is \"[Full name], [age], of [city], died on [date].\" Once the factual line is set, the next paragraph can open the life story with the place, family, or defining work that the rest of the obituary will explain.",
+  },
+  {
+    question: "What should an obituary include?",
+    answer:
+      "A complete obituary usually includes the full name (and nickname or maiden name), age, dates and places of birth and death, surviving and predeceased family members, education and work history, military or community service, hobbies and accomplishments, service or memorial details, and any donation or charity preferences. The strongest obituaries also include one specific scene or detail that shows who the person actually was.",
+  },
+  {
+    question: "How long should an obituary be?",
+    answer:
+      "Most newspaper obituaries run 200 to 500 words because papers charge by the line or word. Funeral-home and online memorial pages have no length limit, so a fuller life story of 500 to 1,000 words is common there. A practical approach is to write a short, accurate notice for paid print and a longer narrative obituary story for the free online version.",
+  },
+  {
+    question: "How do you write an obituary that does not sound generic?",
+    answer:
+      "Replace broad praise with one or two specific scenes. Instead of \"she loved her family,\" name what she actually did: the Sunday phone calls, the garden she rebuilt, the recipe everyone still makes. Choose a single life-shaping moment as the spine of the story, confirm the facts around it, and let concrete detail carry the meaning rather than adjectives.",
+  },
+  {
+    question: "Who writes the obituary?",
+    answer:
+      "An obituary is usually written by a close family member, sometimes with help from the funeral home, or by a friend the family asks. A paid death notice can be submitted by anyone the newspaper accepts as next of kin or an authorized representative, and most newspapers require the funeral home or family to verify the death before publication.",
+  },
+];
 
 const description =
   "A practical guide to writing an obituary story: gather evidence, choose the life-shaping moment, avoid generic praise, and turn a death notice into a sourced life story.";
@@ -213,6 +242,12 @@ export default function HowToWriteObituaryStoryPage() {
           </section>
 
           
+
+          <FaqSection
+            heading="Obituary Writing FAQ"
+            path="/how-to-write-an-obituary-story/"
+            items={faqs}
+          />
 
           <section className="explainer-next" aria-labelledby="examples">
             <div>

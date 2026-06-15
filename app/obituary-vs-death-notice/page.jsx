@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { FaqSection } from "@/components/faq-section";
 import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
@@ -7,6 +8,34 @@ import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from
 
 const description =
   "A practical comparison of obituary, death notice, and funeral notice formats: what each one does, what to include, and when a family should use a short notice or a fuller life story.";
+
+const faqs = [
+  {
+    question: "What is the difference between an obituary and a death notice?",
+    answer:
+      "A death notice is a short, factual announcement that someone died, usually listing the name, age, date of death, and service details. An obituary is a fuller life story that announces the death and also explains who the person was, what shaped their life, and why they are remembered. A death notice informs; an obituary commemorates.",
+  },
+  {
+    question: "Is a death notice the same as an obituary?",
+    answer:
+      "No. A death notice is a brief paid announcement, often only a few lines, that newspapers and funeral homes use to confirm a death and share funeral arrangements. An obituary is longer narrative writing about the life itself. Some publications use the words loosely, so always check whether the paper means a paid notice or a staff-written article.",
+  },
+  {
+    question: "Which is cheaper, an obituary or a death notice?",
+    answer:
+      "A death notice is almost always cheaper because it is shorter and priced by the line or word. A full obituary costs more in paid print since it runs longer and may include a photo. Many families place a short, low-cost death notice in the newspaper and publish a longer obituary for free on a funeral-home or memorial website.",
+  },
+  {
+    question: "Do you have to publish an obituary when someone dies?",
+    answer:
+      "No. Publishing an obituary or death notice is optional and is not legally required in the United States. Families choose to publish to inform the community, share service details, and create a lasting record. Some families publish only a brief death notice, post on social media, or keep arrangements entirely private.",
+  },
+  {
+    question: "What is a funeral notice?",
+    answer:
+      "A funeral notice focuses on the service rather than the life story. It tells people when and where the visitation, funeral, burial, or memorial will take place, along with details like the officiant, cemetery, livestream link, or guest instructions. Families use a funeral notice when they want to keep biography private but still invite people to attend.",
+  },
+];
 
 const comparisonRows = [
   {
@@ -181,6 +210,55 @@ export default function ObituaryVsDeathNoticePage() {
             </p>
           </section>
 
+          <section className="explainer-body" aria-labelledby="comparison-table-heading">
+            <h2 id="comparison-table-heading">Obituary vs Death Notice: Side-by-Side</h2>
+            <div className="comparison-table-wrap">
+              <table className="comparison-table">
+                <caption>How a death notice, an obituary, and a funeral notice differ across the details families weigh first.</caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Aspect</th>
+                    <th scope="col">Death notice</th>
+                    <th scope="col">Obituary</th>
+                    <th scope="col">Funeral notice</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">What it is</th>
+                    <td>Short factual announcement of a death</td>
+                    <td>Fuller life story plus the death announcement</td>
+                    <td>Notice focused on service logistics</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Main purpose</th>
+                    <td>Confirm the death and share service details fast</td>
+                    <td>Explain who the person was and why they are remembered</td>
+                    <td>Tell people when and where to gather</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Typical length</th>
+                    <td>A few lines</td>
+                    <td>About 200–500 words, or longer online</td>
+                    <td>A short logistics paragraph</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Cost</th>
+                    <td>Lowest; sometimes free</td>
+                    <td>Higher; priced per line or word</td>
+                    <td>Low to moderate</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Best for</th>
+                    <td>Speed and quick public notice</td>
+                    <td>Preserving a life story and public record</td>
+                    <td>Privacy with an open invitation to attend</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
           <section className="worksheet-grid" aria-labelledby="comparison">
             <div>
               <div className="kicker">Comparison</div>
@@ -222,7 +300,11 @@ export default function ObituaryVsDeathNoticePage() {
             </ul>
           </section>
 
-          
+          <FaqSection
+            heading="Obituary vs Death Notice FAQ"
+            path="/obituary-vs-death-notice/"
+            items={faqs}
+          />
 
           <section className="explainer-next" aria-labelledby="references">
             <div>

@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { FaqSection } from "@/components/faq-section";
 import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
@@ -9,6 +10,29 @@ import { ObituaryDraftBuilder } from "./obituary-draft-builder";
 
 const description =
   "A free obituary generator that turns verified facts, family names, service details, memorial donation wording, and one life-story detail into a private draft you can edit before publication.";
+
+const faqs = [
+  {
+    question: "Is there a free obituary generator?",
+    answer:
+      "Yes. This free obituary generator builds a draft from the facts you enter: name, dates, places, family members, service details, and one life-story detail. It runs in your browser, requires no account or payment, and produces editable text you can refine before sending it to a newspaper, funeral home, or memorial website.",
+  },
+  {
+    question: "How does an obituary generator work?",
+    answer:
+      "An obituary generator collects structured details through a form, then assembles them into a standard obituary format: the death announcement, biography, surviving family, service information, and donation wording. You review and edit the generated draft, adding a specific personal scene so the obituary sounds like the individual rather than a template.",
+  },
+  {
+    question: "Is it safe to use an online obituary generator?",
+    answer:
+      "It is safe when the tool processes your details privately rather than storing or publishing them. This generator builds the draft locally in your browser, so the family information you type is not uploaded or saved on a server. Always review the final text and remove sensitive details, such as a home address, before publishing.",
+  },
+  {
+    question: "Can AI write an obituary?",
+    answer:
+      "AI can draft an obituary from facts you provide, which speeds up structure and wording, but it cannot verify dates, names, or relationships. Treat any generated draft as a starting point: confirm every fact, add a genuine personal memory, and edit out generic praise so the obituary is accurate and recognizable to family and friends.",
+  },
+];
 
 const generatorIncludes = [
   {
@@ -273,7 +297,11 @@ export default function FreeObituaryGeneratorPage() {
             </div>
           </section>
 
-          
+          <FaqSection
+            heading="Free Obituary Generator FAQ"
+            path="/free-obituary-generator/"
+            items={faqs}
+          />
 
           <section className="explainer-next" aria-labelledby="references">
             <div>

@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { FaqSection } from "@/components/faq-section";
 import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
@@ -277,6 +278,17 @@ export default function WhatNotToIncludeInAnObituaryPage() {
               })}
             </ul>
           </section>
+          <FaqSection
+            heading="Obituary Privacy FAQ"
+            path="/what-not-to-include-in-an-obituary/"
+            items={[
+              { question: "What should you not put in an obituary?", answer: "Leave out the deceased's full date of birth combined with mother's maiden name, home address, daily routines of surviving relatives, financial details, and exact times when the family home will be empty during the service. These details are commonly used in identity theft and burglary targeting grieving families." },
+              { question: "Should you include the cause of death in an obituary?", answer: "The cause of death is optional and never required. Many families include it for closure or public-health reasons, but it is acceptable to omit it entirely \u2014 especially for sensitive causes. You can simply state the date of death, or use general phrasing like \"after a long illness.\"" },
+              { question: "Is it safe to list the home address in an obituary?", answer: "No. Listing a home address \u2014 the deceased's or a survivor's \u2014 is a known safety risk, because obituaries publicly signal when a home may be empty during services. Direct condolences to the funeral home, a P.O. box, or an online memorial page instead of a residential address." },
+              { question: "Can obituaries be used for identity theft?", answer: "Yes. Scammers combine an obituary's full name, birth date, mother's maiden name, and hometown with public records to open accounts or file fraudulent tax returns. Reduce the risk by omitting the full birth date and maiden name, and notify credit bureaus and the Social Security Administration promptly." },
+            ]}
+          />
+
         </ResourceLayout>
     </>
   );

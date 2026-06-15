@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { FaqSection } from "@/components/faq-section";
 import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
@@ -305,6 +306,17 @@ export default function ObituaryCostPage() {
               })}
             </ul>
           </section>
+          <FaqSection
+            heading="Obituary Cost FAQ"
+            path="/obituary-cost/"
+            items={[
+              { question: "How much does an obituary cost?", answer: "A paid newspaper obituary typically costs between $200 and $1,000, depending on the publication's size and the length of the notice. Major metro papers can charge $450 or more for a standard obituary, while small local papers may run under $100. Photos, logos, and extra days each add to the price." },
+              { question: "Why are newspaper obituaries so expensive?", answer: "Newspapers charge for obituaries by the line, word, or column inch, the same way they price classified advertising, and rates are highest at large metro dailies. A long narrative, a photograph, special formatting, and running the notice for multiple days each raise the cost, which is why many families keep print short and publish the full story online." },
+              { question: "Are online obituaries free?", answer: "Funeral-home websites and many memorial platforms host obituaries at no extra charge as part of their services, so the online version is often effectively free. Some standalone memorial sites charge a fee or upsell guest books and keepsakes, so confirm what is included before you publish." },
+              { question: "Who pays for the obituary?", answer: "The family of the deceased usually pays for the obituary, often through the funeral home, which places the notice and adds the newspaper's charge to the final bill as a \"cash advance\" item. Always ask for the per-line rate and a total estimate before approving, since funeral-home markups vary." },
+            ]}
+          />
+
         </ResourceLayout>
     </>
   );

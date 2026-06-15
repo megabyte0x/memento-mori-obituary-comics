@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { ChevronRight, Menu, X, BookOpen } from "lucide-react";
 import { SiteNav } from "@/components/site-nav";
+import { absoluteUrl, SITE_URL } from "@/lib/site";
 
 export const RESOURCE_CATEGORIES = [
   {
@@ -74,8 +75,25 @@ export function ResourceLayout({ currentPath, kicker, title, description, childr
     ? activeCategory.links.filter(link => link.href !== currentPath)
     : [];
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "@id": `${absoluteUrl(currentPath || "/")}#breadcrumb`,
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+      ...(activeCategory ? [{ "@type": "ListItem", position: 2, name: activeCategory.label }] : []),
+      {
+        "@type": "ListItem",
+        position: activeCategory ? 3 : 2,
+        name: title,
+        item: absoluteUrl(currentPath || "/"),
+      },
+    ],
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <SiteNav />
       <div className="resource-page-wrapper">
         {/* Mobile Sidebar Toggle Button */}

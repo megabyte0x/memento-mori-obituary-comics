@@ -61,7 +61,11 @@
       }
     ],
     "pdf": "helen-keller-water-pump.pdf",
-    "contact_sheet": "contact-sheet.jpg"
+    "contact_sheet": "contact-sheet.jpg",
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Helen_Keller",
+      "https://www.wikidata.org/wiki/Q38203"
+    ]
   },
   {
     "slug": "roald-dahl-crash-and-chocolate",
@@ -129,7 +133,11 @@
       }
     ],
     "pdf": "roald-dahl-crash-and-chocolate.pdf",
-    "contact_sheet": "contact-sheet.jpg"
+    "contact_sheet": "contact-sheet.jpg",
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Roald_Dahl",
+      "https://www.wikidata.org/wiki/Q25161"
+    ]
   },
   {
     "slug": "george-orwell-throat-of-truth",
@@ -193,7 +201,11 @@
       }
     ],
     "pdf": "george-orwell-throat-of-truth.pdf",
-    "contact_sheet": "contact-sheet.jpg"
+    "contact_sheet": "contact-sheet.jpg",
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/George_Orwell",
+      "https://www.wikidata.org/wiki/Q3335"
+    ]
   },
   {
     "slug": "alfred-nobel-merchant-of-death",
@@ -262,7 +274,11 @@
       }
     ],
     "pdf": "alfred-nobel-merchant-of-death.pdf",
-    "contact_sheet": "contact-sheet.jpg"
+    "contact_sheet": "contact-sheet.jpg",
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Alfred_Nobel",
+      "https://www.wikidata.org/wiki/Q23810"
+    ]
   },
   {
     "slug": "jean-dominique-bauby-blink-manuscript",
@@ -326,7 +342,11 @@
       }
     ],
     "pdf": "jean-dominique-bauby-blink-manuscript.pdf",
-    "contact_sheet": "contact-sheet.jpg"
+    "contact_sheet": "contact-sheet.jpg",
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Jean-Dominique_Bauby",
+      "https://www.wikidata.org/wiki/Q317730"
+    ]
   },
   {
     "slug": "elie-wiesel-night-witness",
@@ -383,7 +403,11 @@
       "The Elie Wiesel Foundation: https://eliewieselfoundation.org/about-elie-wiesel/"
     ],
     "pdf": "elie-wiesel-night-witness.pdf",
-    "contact_sheet": "contact-sheet.jpg"
+    "contact_sheet": "contact-sheet.jpg",
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Elie_Wiesel",
+      "https://www.wikidata.org/wiki/Q18391"
+    ]
   },
   {
     "slug": "cervantes-captive-knight",
@@ -456,7 +480,11 @@
       }
     ],
     "pdf": "cervantes-captive-knight.pdf",
-    "contact_sheet": "contact-sheet.jpg"
+    "contact_sheet": "contact-sheet.jpg",
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+      "https://www.wikidata.org/wiki/Q5682"
+    ]
   },
   {
     "slug": "solzhenitsyn-gulag-witness",
@@ -529,7 +557,11 @@
       }
     ],
     "pdf": "solzhenitsyn-gulag-witness.pdf",
-    "contact_sheet": "contact-sheet.jpg"
+    "contact_sheet": "contact-sheet.jpg",
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Aleksandr_Solzhenitsyn",
+      "https://www.wikidata.org/wiki/Q34474"
+    ]
   },
   {
     "slug": "primo-levi",
@@ -593,7 +625,11 @@
       "LA Times",
       "NY Review of Books"
     ],
-    "closing_line": "The reprieve was one moment. The work was the rest of his life."
+    "closing_line": "The reprieve was one moment. The work was the rest of his life.",
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Primo_Levi",
+      "https://www.wikidata.org/wiki/Q153670"
+    ]
   },
   {
     "slug": "henri-matisse-second-life",
@@ -655,7 +691,11 @@
       "Centre Pompidou",
       "Saint Louis Art Museum"
     ],
-    "closing_line": "The reprieve was one moment. The work was the rest of his life."
+    "closing_line": "The reprieve was one moment. The work was the rest of his life.",
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Henri_Matisse",
+      "https://www.wikidata.org/wiki/Q5589"
+    ]
   },
   {
     "slug": "harriet-tubman-road-back",
@@ -717,7 +757,11 @@
       "National Women’s History Museum",
       "National Park Service — Harriet Tubman National Historical Park"
     ],
-    "closing_line": "The reprieve was one moment. The work was the rest of his life."
+    "closing_line": "The reprieve was one moment. The work was the rest of his life.",
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Harriet_Tubman",
+      "https://www.wikidata.org/wiki/Q102870"
+    ]
   },
   {
     "slug": "stephen-hawking-time-under-shadow",
@@ -773,7 +817,11 @@
       "Encyclopaedia Britannica",
       "Space.com"
     ],
-    "closing_line": "The reprieve was one moment. The work was the rest of his life."
+    "closing_line": "The reprieve was one moment. The work was the rest of his life.",
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Stephen_Hawking",
+      "https://www.wikidata.org/wiki/Q17714"
+    ]
   },
   {
     "slug": "louis-zamperini-after-the-raft",
@@ -835,7 +883,11 @@
       "U.S. Air Force Veterans in Blue",
       "Legacy/AP obituary mirror"
     ],
-    "closing_line": "The reprieve was one moment. The work was the rest of his life."
+    "closing_line": "The reprieve was one moment. The work was the rest of his life.",
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Louis_Zamperini",
+      "https://www.wikidata.org/wiki/Q11762840"
+    ]
   },
   {
     "slug": "frida-kahlo-broken-mirror",
@@ -929,7 +981,11 @@
         1440,
         1920
       ]
-    }
+    },
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Frida_Kahlo",
+      "https://www.wikidata.org/wiki/Q5588"
+    ]
   },
   {
     "slug": "viktor-frankl-meaning-under-ash",
@@ -1019,7 +1075,11 @@
         768,
         1408
       ]
-    }
+    },
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Viktor_Frankl",
+      "https://www.wikidata.org/wiki/Q154723"
+    ]
   },
   {
     "slug": "dostoyevsky-borrowed-time",
@@ -1149,6 +1209,10 @@
         768,
         1408
       ]
-    }
+    },
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "https://www.wikidata.org/wiki/Q991"
+    ]
   }
 ]
