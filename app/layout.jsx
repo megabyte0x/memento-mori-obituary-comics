@@ -32,6 +32,9 @@ export const metadata = {
   creator: SITE_NAME,
   publisher: SITE_NAME,
   category: SITE_CATEGORY,
+  ...(process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+    ? { verification: { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION } }
+    : {}),
   robots: {
     index: true,
     follow: true,
