@@ -1,0 +1,59 @@
+{
+  "slug": "christopher-reeve",
+  "title": "The Man Who Moved After Stillness",
+  "person": "Christopher Reeve",
+  "years": "1952–2004",
+  "dek": "American actor and disability advocate who turned life after a 1995 spinal-cord injury into a public fight for paralysis research, access, and dignity.",
+  "mortality_event": "1995 equestrian accident causing paralysis from the neck down; afterward he used celebrity to build spinal-cord research and quality-of-life advocacy before his death in 2004.",
+  "published_at": "2026-06-18",
+  "pages": [
+    "pages/01-cover-the-body-that-seemed-to-fly.jpg",
+    "pages/02-page-the-fall.jpg",
+    "pages/03-page-the-new-stillness.jpg",
+    "pages/04-page-the-voice-at-the-microphone.jpg",
+    "pages/05-page-the-foundation-becomes-motion.jpg",
+    "pages/06-page-what-remained-moving.jpg"
+  ],
+  "page_dimensions": {
+    "pages/01-cover-the-body-that-seemed-to-fly.jpg": [
+      720,
+      1280
+    ],
+    "pages/02-page-the-fall.jpg": [
+      720,
+      1280
+    ],
+    "pages/03-page-the-new-stillness.jpg": [
+      720,
+      1280
+    ],
+    "pages/04-page-the-voice-at-the-microphone.jpg": [
+      720,
+      1280
+    ],
+    "pages/05-page-the-foundation-becomes-motion.jpg": [
+      720,
+      1280
+    ],
+    "pages/06-page-what-remained-moving.jpg": [
+      720,
+      1280
+    ]
+  },
+  "sources": [
+    {
+      "name": "Christopher & Dana Reeve Foundation",
+      "url": "https://www.christopherreeve.org/community/about-us/about-christopher-reeve/"
+    },
+    {
+      "name": "Britannica",
+      "url": "https://www.britannica.com/biography/Christopher-Reeve"
+    },
+    {
+      "name": "People",
+      "url": "https://people.com/christopher-reeve-death-legacy-what-to-know-11984108"
+    }
+  ],
+  "pdf": "christopher-reeve-the-man-who-moved-after-stillness.pdf",
+  "contact_sheet": "contact-sheet.jpg"
+}
