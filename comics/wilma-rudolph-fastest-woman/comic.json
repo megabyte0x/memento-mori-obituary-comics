@@ -1,0 +1,60 @@
+{
+  "slug": "wilma-rudolph-fastest-woman",
+  "title": "Wilma Rudolph: The Girl Who Outran the Brace",
+  "person": "Wilma Glodean Rudolph",
+  "years": "1940–1994",
+  "dek": "A child marked by polio became the first American woman to win three track-and-field gold medals at one Olympics.",
+  "mortality_event": "Childhood polio and illness impaired her left leg before she learned to walk, run, and win three gold medals at Rome 1960.",
+  "published_at": "2026-06-21",
+  "pages": [
+    "pages/01-wilma-rudolph-fastest-woman.jpg",
+    "pages/02-wilma-rudolph-fastest-woman.jpg",
+    "pages/03-wilma-rudolph-fastest-woman.jpg",
+    "pages/04-wilma-rudolph-fastest-woman.jpg",
+    "pages/05-wilma-rudolph-fastest-woman.jpg",
+    "pages/06-wilma-rudolph-fastest-woman.jpg",
+    "pages/07-wilma-rudolph-fastest-woman.jpg"
+  ],
+  "page_dimensions": {
+    "pages/01-wilma-rudolph-fastest-woman.jpg": [
+      720,
+      1280
+    ],
+    "pages/02-wilma-rudolph-fastest-woman.jpg": [
+      720,
+      1280
+    ],
+    "pages/03-wilma-rudolph-fastest-woman.jpg": [
+      720,
+      1280
+    ],
+    "pages/04-wilma-rudolph-fastest-woman.jpg": [
+      720,
+      1280
+    ],
+    "pages/05-wilma-rudolph-fastest-woman.jpg": [
+      720,
+      1280
+    ],
+    "pages/06-wilma-rudolph-fastest-woman.jpg": [
+      720,
+      1280
+    ],
+    "pages/07-wilma-rudolph-fastest-woman.jpg": [
+      720,
+      1280
+    ]
+  },
+  "sources": [
+    {
+      "name": "Britannica",
+      "url": "https://www.britannica.com/biography/Wilma-Rudolph"
+    },
+    {
+      "name": "New York Times obituary",
+      "url": "https://www.nytimes.com/1994/11/13/obituaries/wilma-rudolph-star-of-the-1960-olympics-dies-at-54.html"
+    }
+  ],
+  "pdf": "wilma-rudolph-fastest-woman.pdf",
+  "contact_sheet": "contact-sheet.jpg"
+}
