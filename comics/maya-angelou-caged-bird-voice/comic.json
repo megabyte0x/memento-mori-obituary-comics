@@ -1,0 +1,68 @@
+{
+  "slug": "maya-angelou-caged-bird-voice",
+  "title": "Maya Angelou: Caged Bird Voice",
+  "person": "Maya Angelou",
+  "years": "1928–2014",
+  "dek": "The poet who turned years of silence into a public language of survival.",
+  "mortality_event": "Childhood trauma and years of mutism before literature, mentorship, memoir, and civil-rights witness returned her voice to the world.",
+  "published_at": "2026-06-22",
+  "pages": [
+    "pages/01-maya-angelou-caged-bird-voice.jpg",
+    "pages/02-maya-angelou-caged-bird-voice.jpg",
+    "pages/03-maya-angelou-caged-bird-voice.jpg",
+    "pages/04-maya-angelou-caged-bird-voice.jpg",
+    "pages/05-maya-angelou-caged-bird-voice.jpg",
+    "pages/06-maya-angelou-caged-bird-voice.jpg",
+    "pages/07-maya-angelou-caged-bird-voice.jpg"
+  ],
+  "page_dimensions": {
+    "pages/01-maya-angelou-caged-bird-voice.jpg": [
+      720,
+      1280
+    ],
+    "pages/02-maya-angelou-caged-bird-voice.jpg": [
+      720,
+      1280
+    ],
+    "pages/03-maya-angelou-caged-bird-voice.jpg": [
+      720,
+      1280
+    ],
+    "pages/04-maya-angelou-caged-bird-voice.jpg": [
+      720,
+      1280
+    ],
+    "pages/05-maya-angelou-caged-bird-voice.jpg": [
+      720,
+      1280
+    ],
+    "pages/06-maya-angelou-caged-bird-voice.jpg": [
+      720,
+      1280
+    ],
+    "pages/07-maya-angelou-caged-bird-voice.jpg": [
+      720,
+      1280
+    ]
+  },
+  "sources": [
+    {
+      "name": "Wake Forest family obituary",
+      "url": "https://mayaangelou.wfu.edu/story/family-obituary/"
+    },
+    {
+      "name": "BBC obituary",
+      "url": "https://www.bbc.com/news/entertainment-arts-23514894"
+    },
+    {
+      "name": "Britannica",
+      "url": "https://www.britannica.com/biography/Maya-Angelou"
+    },
+    {
+      "name": "National Women’s History Museum",
+      "url": "https://www.womenshistory.org/education-resources/biographies/maya-angelou"
+    }
+  ],
+  "pdf": "maya-angelou-caged-bird-voice.pdf",
+  "contact_sheet": "contact-sheet.jpg"
+}
