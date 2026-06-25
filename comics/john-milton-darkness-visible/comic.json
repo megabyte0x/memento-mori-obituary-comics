@@ -1,0 +1,69 @@
+{
+  "slug": "john-milton-darkness-visible",
+  "title": "John Milton: Darkness Visible",
+  "person": "John Milton",
+  "years": "1608–1674",
+  "dek": "The blind poet who dictated Paradise Lost after sight failed.",
+  "mortality_event": "Became totally blind by about 1652, then dictated Paradise Lost and other late works.",
+  "published_at": "2026-06-25",
+  "pages": [
+    "pages/01-john-milton-darkness-visible.jpg",
+    "pages/02-john-milton-darkness-visible.jpg",
+    "pages/03-john-milton-darkness-visible.jpg",
+    "pages/04-john-milton-darkness-visible.jpg",
+    "pages/05-john-milton-darkness-visible.jpg",
+    "pages/06-john-milton-darkness-visible.jpg",
+    "pages/07-john-milton-darkness-visible.jpg",
+    "pages/08-john-milton-darkness-visible.jpg"
+  ],
+  "page_dimensions": {
+    "pages/01-john-milton-darkness-visible.jpg": [
+      1024,
+      1792
+    ],
+    "pages/02-john-milton-darkness-visible.jpg": [
+      1024,
+      1792
+    ],
+    "pages/03-john-milton-darkness-visible.jpg": [
+      1024,
+      1792
+    ],
+    "pages/04-john-milton-darkness-visible.jpg": [
+      1024,
+      1792
+    ],
+    "pages/05-john-milton-darkness-visible.jpg": [
+      1024,
+      1792
+    ],
+    "pages/06-john-milton-darkness-visible.jpg": [
+      1024,
+      1792
+    ],
+    "pages/07-john-milton-darkness-visible.jpg": [
+      1024,
+      1792
+    ],
+    "pages/08-john-milton-darkness-visible.jpg": [
+      1024,
+      1792
+    ]
+  },
+  "sources": [
+    {
+      "name": "Britannica",
+      "url": "https://www.britannica.com/biography/John-Milton"
+    },
+    {
+      "name": "Poetry Foundation",
+      "url": "https://www.poetryfoundation.org/poets/john-milton"
+    },
+    {
+      "name": "HistoryExtra",
+      "url": "https://www.historyextra.com/period/stuart/john-milton-life-guide-paradise-lost/"
+    }
+  ],
+  "pdf": "john-milton-darkness-visible.pdf",
+  "contact_sheet": "contact-sheet.jpg"
+}
