@@ -1,5 +1,74 @@
 [
   {
+    "slug": "mary-anning-stone-and-light",
+    "title": "Mary Anning: Stone and Light",
+    "person": "Mary Anning",
+    "years": "1799–1847",
+    "dek": "The fossil hunter who survived lightning and taught science to read deep time.",
+    "mortality_event": "Survived a lightning strike as an infant, then spent a short life uncovering extinct worlds from the Lyme Regis cliffs before dying of breast cancer at 47.",
+    "published_at": "2026-06-26",
+    "pages": [
+      "pages/01-mary-anning-stone-and-light.jpg",
+      "pages/02-mary-anning-stone-and-light.jpg",
+      "pages/03-mary-anning-stone-and-light.jpg",
+      "pages/04-mary-anning-stone-and-light.jpg",
+      "pages/05-mary-anning-stone-and-light.jpg",
+      "pages/06-mary-anning-stone-and-light.jpg",
+      "pages/07-mary-anning-stone-and-light.jpg",
+      "pages/08-mary-anning-stone-and-light.jpg"
+    ],
+    "page_dimensions": {
+      "pages/01-mary-anning-stone-and-light.jpg": [
+        1024,
+        1792
+      ],
+      "pages/02-mary-anning-stone-and-light.jpg": [
+        1024,
+        1792
+      ],
+      "pages/03-mary-anning-stone-and-light.jpg": [
+        1024,
+        1792
+      ],
+      "pages/04-mary-anning-stone-and-light.jpg": [
+        1024,
+        1792
+      ],
+      "pages/05-mary-anning-stone-and-light.jpg": [
+        1024,
+        1792
+      ],
+      "pages/06-mary-anning-stone-and-light.jpg": [
+        1024,
+        1792
+      ],
+      "pages/07-mary-anning-stone-and-light.jpg": [
+        1024,
+        1792
+      ],
+      "pages/08-mary-anning-stone-and-light.jpg": [
+        1024,
+        1792
+      ]
+    },
+    "sources": [
+      {
+        "name": "Natural History Museum",
+        "url": "https://www.nhm.ac.uk/discover/mary-anning-unsung-hero.html"
+      },
+      {
+        "name": "Britannica",
+        "url": "https://www.britannica.com/biography/Mary-Anning"
+      },
+      {
+        "name": "Lyme Regis Museum",
+        "url": "https://www.lymeregismuseum.co.uk/collection/mary-anning/"
+      }
+    ],
+    "pdf": "mary-anning-stone-and-light.pdf",
+    "contact_sheet": "contact-sheet.jpg"
+  },
+  {
     "slug": "john-milton-darkness-visible",
     "title": "John Milton: Darkness Visible",
     "person": "John Milton",
