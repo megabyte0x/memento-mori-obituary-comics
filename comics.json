@@ -1,5 +1,69 @@
 [
   {
+    "slug": "ernest-shackleton-endurance-after-ice",
+    "title": "Ernest Shackleton: Endurance After Ice",
+    "person": "Ernest Shackleton",
+    "years": "1874–1922",
+    "dek": "The Antarctic explorer whose failed crossing became one of history’s clearest studies in leadership: when Endurance sank, he brought every man home alive.",
+    "mortality_event": "Endurance was trapped, crushed, and sank in Antarctic pack ice; Shackleton led the survival effort through Elephant Island, the James Caird crossing, and rescue of the crew.",
+    "published_at": "2026-06-29",
+    "pages": [
+      "pages/01-ernest-shackleton-endurance-after-ice.jpg",
+      "pages/02-ernest-shackleton-endurance-after-ice.jpg",
+      "pages/03-ernest-shackleton-endurance-after-ice.jpg",
+      "pages/04-ernest-shackleton-endurance-after-ice.jpg",
+      "pages/05-ernest-shackleton-endurance-after-ice.jpg",
+      "pages/06-ernest-shackleton-endurance-after-ice.jpg",
+      "pages/07-ernest-shackleton-endurance-after-ice.jpg"
+    ],
+    "page_dimensions": {
+      "pages/01-ernest-shackleton-endurance-after-ice.jpg": [
+        720,
+        1280
+      ],
+      "pages/02-ernest-shackleton-endurance-after-ice.jpg": [
+        720,
+        1280
+      ],
+      "pages/03-ernest-shackleton-endurance-after-ice.jpg": [
+        720,
+        1280
+      ],
+      "pages/04-ernest-shackleton-endurance-after-ice.jpg": [
+        720,
+        1280
+      ],
+      "pages/05-ernest-shackleton-endurance-after-ice.jpg": [
+        720,
+        1280
+      ],
+      "pages/06-ernest-shackleton-endurance-after-ice.jpg": [
+        720,
+        1280
+      ],
+      "pages/07-ernest-shackleton-endurance-after-ice.jpg": [
+        720,
+        1280
+      ]
+    },
+    "sources": [
+      {
+        "name": "Britannica",
+        "url": "https://www.britannica.com/biography/Ernest-Henry-Shackleton"
+      },
+      {
+        "name": "Royal Museums Greenwich",
+        "url": "https://www.rmg.co.uk/stories/maritime-history/sir-ernest-shackleton"
+      },
+      {
+        "name": "Royal Museums Greenwich Death and Legacy",
+        "url": "https://www.rmg.co.uk/stories/maritime-history/shackletons-death-legacy"
+      }
+    ],
+    "pdf": "ernest-shackleton-endurance-after-ice.pdf",
+    "contact_sheet": "contact-sheet.jpg"
+  },
+  {
     "slug": "paul-kalanithi-breath-becomes-air",
     "title": "Paul Kalanithi: Breath Becomes Air",
     "person": "Paul Kalanithi",
