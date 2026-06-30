@@ -1,5 +1,69 @@
 [
   {
+    "slug": "irena-sendler-jars-of-names",
+    "title": "Irena Sendler: Jars of Names",
+    "person": "Irena Sendler",
+    "years": "1910–2008",
+    "dek": "The Polish social worker who helped smuggle children from the Warsaw ghetto — and hid their real names in jars.",
+    "mortality_event": "Gestapo arrest, torture, and death sentence in 1943 before Żegota bribed a guard and she survived underground.",
+    "published_at": "2026-06-30",
+    "pages": [
+      "pages/01-irena-sendler-jars-of-names.jpg",
+      "pages/02-irena-sendler-jars-of-names.jpg",
+      "pages/03-irena-sendler-jars-of-names.jpg",
+      "pages/04-irena-sendler-jars-of-names.jpg",
+      "pages/05-irena-sendler-jars-of-names.jpg",
+      "pages/06-irena-sendler-jars-of-names.jpg",
+      "pages/07-irena-sendler-jars-of-names.jpg"
+    ],
+    "page_dimensions": {
+      "pages/01-irena-sendler-jars-of-names.jpg": [
+        720,
+        1280
+      ],
+      "pages/02-irena-sendler-jars-of-names.jpg": [
+        720,
+        1280
+      ],
+      "pages/03-irena-sendler-jars-of-names.jpg": [
+        720,
+        1280
+      ],
+      "pages/04-irena-sendler-jars-of-names.jpg": [
+        720,
+        1280
+      ],
+      "pages/05-irena-sendler-jars-of-names.jpg": [
+        720,
+        1280
+      ],
+      "pages/06-irena-sendler-jars-of-names.jpg": [
+        720,
+        1280
+      ],
+      "pages/07-irena-sendler-jars-of-names.jpg": [
+        720,
+        1280
+      ]
+    },
+    "sources": [
+      {
+        "name": "United States Holocaust Memorial Museum",
+        "url": "https://www.ushmm.org/information/press/in-memoriam/irena-sendler-1910-2008"
+      },
+      {
+        "name": "Jewish Women’s Archive",
+        "url": "https://jwa.org/thisweek/oct/20/1943/this-week-in-history-irena-sendler-saves-jewish-children-from-warsaw-ghetto"
+      },
+      {
+        "name": "New York Times",
+        "url": "https://www.nytimes.com/2008/05/13/world/europe/13sendler.html"
+      }
+    ],
+    "pdf": "irena-sendler-jars-of-names.pdf",
+    "contact_sheet": "contact-sheet.jpg"
+  },
+  {
     "slug": "ernest-shackleton-endurance-after-ice",
     "title": "Ernest Shackleton: Endurance After Ice",
     "person": "Ernest Shackleton",
