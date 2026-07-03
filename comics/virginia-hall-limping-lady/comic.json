@@ -1,0 +1,68 @@
+{
+  "slug": "virginia-hall-limping-lady",
+  "title": "Virginia Hall: The Limping Lady",
+  "person": "Virginia Hall",
+  "years": "1906–1982",
+  "dek": "The spy who turned a wooden leg, a radio, and a network into Allied resistance.",
+  "mortality_event": "After losing her lower left leg in a hunting accident, Virginia Hall used a wooden prosthetic named Cuthbert while serving with SOE and OSS in occupied France, evading the Gestapo and organizing Resistance networks.",
+  "published_at": "2026-07-03",
+  "pages": [
+    "pages/01-virginia-hall-limping-lady.jpg",
+    "pages/02-virginia-hall-limping-lady.jpg",
+    "pages/03-virginia-hall-limping-lady.jpg",
+    "pages/04-virginia-hall-limping-lady.jpg",
+    "pages/05-virginia-hall-limping-lady.jpg",
+    "pages/06-virginia-hall-limping-lady.jpg",
+    "pages/07-virginia-hall-limping-lady.jpg"
+  ],
+  "page_dimensions": {
+    "pages/01-virginia-hall-limping-lady.jpg": [
+      720,
+      1280
+    ],
+    "pages/02-virginia-hall-limping-lady.jpg": [
+      720,
+      1280
+    ],
+    "pages/03-virginia-hall-limping-lady.jpg": [
+      720,
+      1280
+    ],
+    "pages/04-virginia-hall-limping-lady.jpg": [
+      720,
+      1280
+    ],
+    "pages/05-virginia-hall-limping-lady.jpg": [
+      720,
+      1280
+    ],
+    "pages/06-virginia-hall-limping-lady.jpg": [
+      720,
+      1280
+    ],
+    "pages/07-virginia-hall-limping-lady.jpg": [
+      720,
+      1280
+    ]
+  },
+  "sources": [
+    {
+      "name": "CIA",
+      "url": "https://www.cia.gov/stories/story/virginia-hall-the-courage-and-daring-of-the-limping-lady/"
+    },
+    {
+      "name": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/explore-the-collection/stories/virginia-hall/"
+    },
+    {
+      "name": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/history/wanted-the-limping-lady-146541513/"
+    },
+    {
+      "name": "New York Times",
+      "url": "https://www.nytimes.com/1982/07/14/obituaries/virginia-goillot-dead-agent-in-world-war-ii.html"
+    }
+  ],
+  "pdf": "virginia-hall-limping-lady.pdf",
+  "contact_sheet": "contact-sheet.jpg"
+}
