@@ -1,0 +1,64 @@
+{
+  "slug": "terry-fox-marathon-of-hope",
+  "title": "Terry Fox: Marathon of Hope",
+  "person": "Terry Fox",
+  "years": "1958–1981",
+  "dek": "The young runner who turned an amputated leg and an unfinished road into a living cancer-research movement.",
+  "mortality_event": "Diagnosed with osteosarcoma at 18, Terry Fox lost his right leg, ran the 1980 Marathon of Hope across Canada, and stopped near Thunder Bay after cancer spread to his lungs before his death in 1981.",
+  "published_at": "2026-07-04",
+  "pages": [
+    "pages/01-terry-fox-marathon-of-hope.jpg",
+    "pages/02-terry-fox-marathon-of-hope.jpg",
+    "pages/03-terry-fox-marathon-of-hope.jpg",
+    "pages/04-terry-fox-marathon-of-hope.jpg",
+    "pages/05-terry-fox-marathon-of-hope.jpg",
+    "pages/06-terry-fox-marathon-of-hope.jpg",
+    "pages/07-terry-fox-marathon-of-hope.jpg"
+  ],
+  "page_dimensions": {
+    "pages/01-terry-fox-marathon-of-hope.jpg": [
+      720,
+      1280
+    ],
+    "pages/02-terry-fox-marathon-of-hope.jpg": [
+      720,
+      1280
+    ],
+    "pages/03-terry-fox-marathon-of-hope.jpg": [
+      720,
+      1280
+    ],
+    "pages/04-terry-fox-marathon-of-hope.jpg": [
+      720,
+      1280
+    ],
+    "pages/05-terry-fox-marathon-of-hope.jpg": [
+      720,
+      1280
+    ],
+    "pages/06-terry-fox-marathon-of-hope.jpg": [
+      720,
+      1280
+    ],
+    "pages/07-terry-fox-marathon-of-hope.jpg": [
+      720,
+      1280
+    ]
+  },
+  "sources": [
+    {
+      "name": "Terry Fox Foundation",
+      "url": "https://terryfox.org/terrys-story/"
+    },
+    {
+      "name": "The Canadian Encyclopedia",
+      "url": "https://thecanadianencyclopedia.ca/en/article/terry-fox"
+    },
+    {
+      "name": "Britannica",
+      "url": "https://www.britannica.com/biography/Terry-Fox"
+    }
+  ],
+  "pdf": "terry-fox-marathon-of-hope.pdf",
+  "contact_sheet": "contact-sheet.jpg"
+}
