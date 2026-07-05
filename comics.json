@@ -1,5 +1,69 @@
 [
   {
+    "slug": "django-reinhardt-two-finger-fire",
+    "title": "Django Reinhardt: Two-Finger Fire",
+    "person": "Django Reinhardt",
+    "years": "1910–1953",
+    "dek": "The guitarist whose burned hand helped invent jazz manouche.",
+    "mortality_event": "A 1928 caravan fire severely burned his left hand; he rebuilt his guitar technique around two working fingers and changed jazz guitar.",
+    "published_at": "2026-07-05",
+    "pages": [
+      "pages/01-django-reinhardt-two-finger-fire.jpg",
+      "pages/02-django-reinhardt-two-finger-fire.jpg",
+      "pages/03-django-reinhardt-two-finger-fire.jpg",
+      "pages/04-django-reinhardt-two-finger-fire.jpg",
+      "pages/05-django-reinhardt-two-finger-fire.jpg",
+      "pages/06-django-reinhardt-two-finger-fire.jpg",
+      "pages/07-django-reinhardt-two-finger-fire.jpg"
+    ],
+    "page_dimensions": {
+      "pages/01-django-reinhardt-two-finger-fire.jpg": [
+        720,
+        1280
+      ],
+      "pages/02-django-reinhardt-two-finger-fire.jpg": [
+        720,
+        1280
+      ],
+      "pages/03-django-reinhardt-two-finger-fire.jpg": [
+        720,
+        1280
+      ],
+      "pages/04-django-reinhardt-two-finger-fire.jpg": [
+        720,
+        1280
+      ],
+      "pages/05-django-reinhardt-two-finger-fire.jpg": [
+        720,
+        1280
+      ],
+      "pages/06-django-reinhardt-two-finger-fire.jpg": [
+        720,
+        1280
+      ],
+      "pages/07-django-reinhardt-two-finger-fire.jpg": [
+        720,
+        1280
+      ]
+    },
+    "sources": [
+      {
+        "name": "Britannica",
+        "url": "https://www.britannica.com/biography/Django-Reinhardt"
+      },
+      {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/music/2011/jun/17/django-reinhardts-caravan-catches-fire"
+      },
+      {
+        "name": "Fretboard Journal",
+        "url": "https://www.fretboardjournal.com/features/django-reinhardt-life-record/"
+      }
+    ],
+    "pdf": "django-reinhardt-two-finger-fire.pdf",
+    "contact_sheet": "contact-sheet.jpg"
+  },
+  {
     "slug": "terry-fox-marathon-of-hope",
     "title": "Terry Fox: Marathon of Hope",
     "person": "Terry Fox",
