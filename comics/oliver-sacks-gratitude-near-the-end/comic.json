@@ -1,0 +1,68 @@
+{
+  "slug": "oliver-sacks-gratitude-near-the-end",
+  "title": "Oliver Sacks: Gratitude Near the End",
+  "person": "Oliver Sacks",
+  "years": "1933–2015",
+  "dek": "The neurologist who made case histories human, then met terminal cancer with attention and gratitude.",
+  "mortality_event": "Terminal metastatic ocular/uveal melanoma in 2015, after a 2006 eye tumor, before his final essays collected as Gratitude.",
+  "published_at": "2026-07-06",
+  "pages": [
+    "pages/01-oliver-sacks-gratitude-near-the-end.jpg",
+    "pages/02-oliver-sacks-gratitude-near-the-end.jpg",
+    "pages/03-oliver-sacks-gratitude-near-the-end.jpg",
+    "pages/04-oliver-sacks-gratitude-near-the-end.jpg",
+    "pages/05-oliver-sacks-gratitude-near-the-end.jpg",
+    "pages/06-oliver-sacks-gratitude-near-the-end.jpg",
+    "pages/07-oliver-sacks-gratitude-near-the-end.jpg"
+  ],
+  "page_dimensions": {
+    "pages/01-oliver-sacks-gratitude-near-the-end.jpg": [
+      720,
+      1280
+    ],
+    "pages/02-oliver-sacks-gratitude-near-the-end.jpg": [
+      720,
+      1280
+    ],
+    "pages/03-oliver-sacks-gratitude-near-the-end.jpg": [
+      720,
+      1280
+    ],
+    "pages/04-oliver-sacks-gratitude-near-the-end.jpg": [
+      720,
+      1280
+    ],
+    "pages/05-oliver-sacks-gratitude-near-the-end.jpg": [
+      720,
+      1280
+    ],
+    "pages/06-oliver-sacks-gratitude-near-the-end.jpg": [
+      720,
+      1280
+    ],
+    "pages/07-oliver-sacks-gratitude-near-the-end.jpg": [
+      720,
+      1280
+    ]
+  },
+  "sources": [
+    {
+      "name": "Official Oliver Sacks biography",
+      "url": "https://www.oliversacks.com/about-oliver-sacks/"
+    },
+    {
+      "name": "Official Gratitude page",
+      "url": "https://www.oliversacks.com/oliver-sacks-books/gratitude/"
+    },
+    {
+      "name": "The Guardian obituary",
+      "url": "https://www.theguardian.com/books/2015/aug/30/oliver-sacks"
+    },
+    {
+      "name": "New York Times obituary",
+      "url": "https://www.nytimes.com/2015/08/31/science/oliver-sacks-dies-at-82-neurologist-and-author-explored-the-brains-quirks.html"
+    }
+  ],
+  "pdf": "oliver-sacks-gratitude-near-the-end.pdf",
+  "contact_sheet": "contact-sheet.jpg"
+}
