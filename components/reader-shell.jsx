@@ -9,10 +9,12 @@ import { ComicSubscribeDialog } from "@/components/comic-subscribe-dialog";
 import { trackActivity } from "@/components/mixpanel-analytics";
 import { PdfSupportGate } from "@/components/pdf-support-gate";
 import { Button } from "@/components/ui/button";
-import { citableSummary, comicDescription, firstImagePath, imageSize, mediaPath, pageSummary, sourceItems, storyNotes } from "@/lib/comic-presenters";
+import { citationPassage, citableSummary, comicDescription, firstImagePath, imageSize, mediaPath, pageSummary, sourceItems, storyNotes } from "@/lib/comic-presenters";
 
 export function ReaderShell({ comic, nextComic }) {
   const pages = comic.pages || [];
+  const passage = citationPassage(comic);
+  const sources = sourceItems(comic);
 
   useEffect(() => {
     trackActivity("comic_reader_loaded", {
@@ -48,13 +50,39 @@ export function ReaderShell({ comic, nextComic }) {
         </div>
       </nav>
 
-      <div className="sr-only">
-        <h1>
-          {comic.person} - {comic.title}
-        </h1>
-      </div>
+      {passage ? (
+        <section className="reader-introduction" aria-labelledby="reader-introduction-title">
+          <p className="reader-introduction-kicker">
+            <time dateTime={comic.published_at}>Published {comic.published_at}</time>
+          </p>
+          <h1 id="reader-introduction-title">Who was {comic.person}, and what is this comic about?</h1>
+          <p className="reader-introduction-passage">{passage}</p>
+          <div className="reader-introduction-sources">
+            <span>Sources</span>
+            <ul>
+              {sources.map((source) => (
+                <li key={source.name}>
+                  {source.url ? (
+                    <a href={source.url} rel="noopener noreferrer" target="_blank">
+                      {source.name}
+                    </a>
+                  ) : (
+                    source.name
+                  )}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      ) : (
+        <div className="sr-only">
+          <h1>
+            {comic.person} - {comic.title}
+          </h1>
+        </div>
+      )}
 
-      <main id="read" className="reader-pages layout-vertical" aria-label="Comic pages">
+      <main id="read" className={`reader-pages layout-vertical${passage ? " has-introduction" : ""}`} aria-label="Comic pages">
         {pages.map((src, index) => {
           const summary = pageSummary(comic, index + 1);
           const size = imageSize(comic, src);
