@@ -14,6 +14,7 @@ import json
 import re
 import shutil
 import struct
+import urllib.parse
 from pathlib import Path
 from typing import Any
 
@@ -23,6 +24,7 @@ COMICS_DIR = ROOT / "comics"
 
 IMAGE_EXTENSIONS = {".avif", ".gif", ".jpeg", ".jpg", ".png", ".webp"}
 PDF_EXTENSION = ".pdf"
+ENRICHMENT_FIELDS = {"citation_passage", "page_summaries", "sameAs"}
 
 
 def slugify(text: str) -> str:
@@ -63,6 +65,63 @@ def parse_sources(value: str | None) -> list[str | dict[str, str]]:
                 continue
         sources.append(item)
     return sources
+
+
+def load_enrichment(path_value: str | None) -> dict[str, Any]:
+    if not path_value:
+        return {}
+    path = Path(path_value).expanduser().resolve()
+    try:
+        value = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise SystemExit(f"invalid enrichment metadata {path}: {exc}") from exc
+    if not isinstance(value, dict):
+        raise SystemExit(f"invalid enrichment metadata {path}: expected a JSON object")
+    return {key: value[key] for key in ENRICHMENT_FIELDS if key in value}
+
+
+def is_https_url(value: Any) -> bool:
+    parsed = urllib.parse.urlparse(str(value or ""))
+    return parsed.scheme == "https" and bool(parsed.netloc)
+
+
+def validate_enrichment(comic: dict[str, Any]) -> None:
+    slug = comic.get("slug") or "comic"
+    errors: list[str] = []
+
+    citation_passage = str(comic.get("citation_passage") or "").strip()
+    word_count = len(citation_passage.split())
+    if word_count < 134 or word_count > 167:
+        errors.append(f"citation_passage must contain 134 to 167 words; found {word_count}")
+
+    pages = comic.get("pages") or []
+    page_summaries = comic.get("page_summaries")
+    if (
+        not isinstance(page_summaries, list)
+        or len(page_summaries) != len(pages)
+        or any(not str(summary).strip() for summary in page_summaries)
+    ):
+        errors.append(f"page_summaries must contain one page summary per page; expected {len(pages)}")
+
+    same_as = comic.get("sameAs")
+    if not isinstance(same_as, list) or not same_as or any(not is_https_url(url) for url in same_as):
+        errors.append("sameAs must contain absolute HTTPS URLs")
+
+    sources = comic.get("sources")
+    if (
+        not isinstance(sources, list)
+        or not sources
+        or any(
+            not isinstance(source, dict)
+            or not str(source.get("name") or "").strip()
+            or not is_https_url(source.get("url"))
+            for source in sources
+        )
+    ):
+        errors.append("sources must contain named absolute HTTPS URLs")
+
+    if errors:
+        raise SystemExit(f"invalid GEO metadata for {slug}:\n" + "\n".join(errors))
 
 
 def image_size(path: Path) -> tuple[int, int] | None:
@@ -163,11 +222,6 @@ def build_comic(args: argparse.Namespace, existing: dict[str, Any] | None) -> di
         raise SystemExit(f"source directory does not exist: {source_dir}")
 
     slug = args.slug or slugify(args.person or source_dir.name)
-    target_dir = COMICS_DIR / slug
-    if target_dir.exists():
-        shutil.rmtree(target_dir)
-    target_dir.mkdir(parents=True, exist_ok=True)
-
     pages = find_pages(source_dir)
     if not pages:
         raise SystemExit("no comic page images found; expected source/pages/*.jpg or similar")
@@ -177,8 +231,6 @@ def build_comic(args: argparse.Namespace, existing: dict[str, Any] | None) -> di
     page_dimensions: dict[str, list[int]] = {}
     for page in pages:
         relative = page.relative_to(page_root)
-        target = target_dir / "pages" / relative
-        copy_file(page, target)
         ref = f"pages/{relative.as_posix()}"
         page_refs.append(ref)
         size = image_size(page)
@@ -191,20 +243,15 @@ def build_comic(args: argparse.Namespace, existing: dict[str, Any] | None) -> di
     pdf_name = ""
     if pdf_path:
         pdf_name = pdf_path.name
-        copy_file(pdf_path, target_dir / pdf_name)
 
     contact_name = ""
     if contact_path:
         contact_name = contact_path.name
-        copy_file(contact_path, target_dir / contact_name)
-
-    reel_dir = source_dir / "reel"
-    if reel_dir.exists():
-        shutil.copytree(reel_dir, target_dir / "reel")
 
     sources = parse_sources(args.sources)
     if not sources and existing:
         sources = existing.get("sources", [])
+    enrichment = load_enrichment(args.metadata_json)
 
     comic = {
         **(existing or {}),
@@ -218,11 +265,29 @@ def build_comic(args: argparse.Namespace, existing: dict[str, Any] | None) -> di
         "pages": page_refs,
         "page_dimensions": page_dimensions or (existing or {}).get("page_dimensions", {}),
         "sources": sources,
+        **enrichment,
     }
     if pdf_name:
         comic["pdf"] = pdf_name
     if contact_name:
         comic["contact_sheet"] = contact_name
+
+    validate_enrichment(comic)
+
+    target_dir = COMICS_DIR / slug
+    if target_dir.exists():
+        shutil.rmtree(target_dir)
+    target_dir.mkdir(parents=True, exist_ok=True)
+    for page, ref in zip(pages, page_refs, strict=True):
+        copy_file(page, target_dir / ref)
+    if pdf_path:
+        copy_file(pdf_path, target_dir / pdf_name)
+    if contact_path:
+        copy_file(contact_path, target_dir / contact_name)
+    reel_dir = source_dir / "reel"
+    if reel_dir.exists():
+        shutil.copytree(reel_dir, target_dir / "reel")
+
     return comic
 
 
@@ -272,6 +337,7 @@ def main() -> None:
     parser.add_argument("--published-at")
     parser.add_argument("--pdf", help="PDF path relative to source_dir")
     parser.add_argument("--contact-sheet", help="contact sheet path relative to source_dir")
+    parser.add_argument("--metadata-json", help="UTF-8 JSON with citation_passage, page_summaries, and sameAs")
     args = parser.parse_args()
 
     comics = load_comics()
