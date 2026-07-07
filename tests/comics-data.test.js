@@ -15,6 +15,21 @@ test("comic archive data is ordered newest first", () => {
   }
 });
 
+test("latest three comics satisfy the GEO publishing contract in both metadata stores", () => {
+  for (const comic of comics.slice(0, 3)) {
+    const wordCount = String(comic.citation_passage || "").trim().split(/\s+/).filter(Boolean).length;
+    assert.ok(wordCount >= 134 && wordCount <= 167, `${comic.slug} citation passage has ${wordCount} words`);
+    assert.equal(comic.page_summaries?.length, comic.pages.length, `${comic.slug} needs one caption per page`);
+    assert.ok(
+      comic.sameAs?.length > 0 && comic.sameAs.every((url) => URL.canParse(url) && new URL(url).protocol === "https:"),
+      `${comic.slug} needs absolute HTTPS entity links`,
+    );
+
+    const perComic = JSON.parse(readFileSync(path.join(ROOT, "comics", comic.slug, "comic.json"), "utf8"));
+    assert.deepEqual(perComic, comic, `${comic.slug} metadata stores must stay synchronized`);
+  }
+});
+
 test("comic data has required metadata and stable Blob-backed media paths", () => {
   for (const comic of comics) {
     assert.ok(comic.slug, "comic slug is required");

@@ -65,7 +65,20 @@
       }
     ],
     "pdf": "audre-lorde-cancer-journals.pdf",
-    "contact_sheet": "contact-sheet.jpg"
+    "contact_sheet": "contact-sheet.jpg",
+    "citation_passage": "Audre Lorde (1934–1992) was an American poet, essayist, librarian, and feminist whose work confronted racism, sexism, homophobia, illness, and silence. After a breast-cancer diagnosis and mastectomy in 1977, she recorded the treatment, fear, anger, and isolation surrounding the experience, especially for a Black lesbian woman. Those reflections became The Cancer Journals in 1980, an illness narrative that challenged expectations that women conceal bodily loss or make recovery comfortable for others. This obituary comic follows Lorde from the public voice she built before cancer through diagnosis, surgery, writing, community, and her continuing insistence that difference could be a source of knowledge and power. It closes with her death from cancer in 1992 and the survival of her words. The account is grounded in biographies and records from the National Women’s History Museum, Smithsonian NMAAHC, Poetry Foundation, and her New York Times obituary.",
+    "page_summaries": [
+      "Audre Lorde grows from a young writer into a poet and public speaker who turns survival into language.",
+      "Lorde’s poetry confronts racism, sexism, homophobia, and enforced silence before her cancer diagnosis.",
+      "A 1977 breast-cancer diagnosis brings Lorde into treatment and makes the body part of her written record.",
+      "After mastectomy, Lorde rejects pressure to conceal loss behind a prosthesis and continues writing.",
+      "The Cancer Journals transforms private treatment and pain into a public resource for women excluded from conventional illness narratives.",
+      "Lorde teaches and speaks about difference as a source of freedom, community, and political knowledge.",
+      "After Lorde’s 1992 death from cancer, readers carry forward her insistence that survival must be spoken."
+    ],
+    "sameAs": [
+      "https://www.wikidata.org/wiki/Q463319"
+    ]
   },
   {
     "slug": "oliver-sacks-gratitude-near-the-end",
@@ -133,7 +146,20 @@
       }
     ],
     "pdf": "oliver-sacks-gratitude-near-the-end.pdf",
-    "contact_sheet": "contact-sheet.jpg"
+    "contact_sheet": "contact-sheet.jpg",
+    "citation_passage": "Oliver Sacks (1933–2015) was a neurologist and writer who turned clinical case histories into portraits of individual lives. His 1973 book Awakenings described patients who had survived the encephalitis lethargica epidemic and later received L-Dopa, establishing the humane narrative method that shaped his wider work. Sacks had a retinal melanoma that cost him vision in one eye; when cancer later spread, he announced in 2015 that his remaining time was limited. This obituary comic traces his habits of close attention, his refusal to reduce patients to diagnoses, the reach of Awakenings and later books, and his response to terminal illness. His final essays, collected as Gratitude, considered friendship, work, beauty, mortality, and the value of a singular life. The account draws on the official Oliver Sacks biography and Gratitude pages, plus obituaries from The Guardian and The New York Times.",
+    "page_summaries": [
+      "Oliver Sacks develops the close attention that will shape his work as a neurologist and writer.",
+      "In the hospital ward, Sacks treats each patient as a person whose life exceeds any diagnosis.",
+      "Awakenings brings Sacks to a wide audience by showing illness as a story about lost and recovered time.",
+      "Sacks’s books give neurology a humane voice through accounts of memory, music, perception, and individual lives.",
+      "After cancer returns as a terminal illness in 2015, Sacks responds through the discipline of attention.",
+      "Sacks writes his final essays about friendship, work, beauty, mortality, and gratitude.",
+      "Sacks leaves readers a method: see the person rather than the label and keep the world vivid."
+    ],
+    "sameAs": [
+      "https://www.wikidata.org/wiki/Q258662"
+    ]
   },
   {
     "slug": "django-reinhardt-two-finger-fire",
@@ -197,7 +223,20 @@
       }
     ],
     "pdf": "django-reinhardt-two-finger-fire.pdf",
-    "contact_sheet": "contact-sheet.jpg"
+    "contact_sheet": "contact-sheet.jpg",
+    "citation_passage": "Django Reinhardt (1910–1953) was a Belgian-born Romani jazz guitarist and composer whose damaged left hand helped shape a new musical language. In October 1928, a fire swept through his caravan and badly burned him. He lost the use of the third and fourth fingers of his fretting hand, but during convalescence he relearned guitar around the two fingers that still moved freely. The resulting speed, phrasing, and chord technique became central to his unmistakable style. This obituary comic follows his caravan childhood, the fire, the hospital prognosis, the physical work of rebuilding his playing, and his later partnership with violinist Stéphane Grappelli. Together they led the all-string Quintette du Hot Club de France and helped establish the style now called gypsy jazz or jazz manouche. Reinhardt died in 1953 at forty-three. The account is grounded in Britannica, The Guardian’s history of the fire, and Fretboard Journal’s recording history.",
+    "page_summaries": [
+      "Young Django Reinhardt grows up around caravans, dances, and string music, learning to play before settling anywhere.",
+      "A 1928 caravan fire badly burns Reinhardt’s left hand and threatens his future as a musician.",
+      "During convalescence, Reinhardt faces a damaged fretting hand and a medical prognosis that his guitar playing is finished.",
+      "Reinhardt rebuilds his technique around the two fretting fingers that still move freely.",
+      "In Paris, Reinhardt and violinist Stéphane Grappelli turn the new technique into the sound of the Quintette du Hot Club de France.",
+      "Reinhardt carries his guitar through wartime danger, continuing to compose and perform amid smoke and uncertainty.",
+      "After Reinhardt’s death at forty-three, jazz manouche guitarists continue learning from the technique forged after the fire."
+    ],
+    "sameAs": [
+      "https://www.wikidata.org/wiki/Q44122"
+    ]
   },
   {
     "slug": "terry-fox-marathon-of-hope",
