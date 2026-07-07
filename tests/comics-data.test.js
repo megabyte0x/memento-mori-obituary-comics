@@ -3,8 +3,10 @@ import { readFileSync } from "node:fs";
 import path from "node:path";
 import test from "node:test";
 
-import { sourceItems } from "../lib/comics.js";
+import * as comicsModule from "../lib/comics.js";
 import { comicAssetBlobPath, comicMediaPath } from "../lib/media-paths.js";
+
+const { sourceItems } = comicsModule;
 
 const ROOT = process.cwd();
 const comics = JSON.parse(readFileSync(path.join(ROOT, "comics.json"), "utf8"));
@@ -75,4 +77,50 @@ test("sourceItems extracts embedded URLs from malformed source labels", () => {
       url: "https://www.britannica.com/biography/Elie-Wiesel",
     },
   ]);
+});
+
+test("selectResearchGuideComics chooses a fixed case study, a distinct latest story, and four remaining stories", () => {
+  assert.equal(typeof comicsModule.selectResearchGuideComics, "function");
+
+  const items = [
+    { slug: "latest" },
+    { slug: "featured" },
+    { slug: "third" },
+    { slug: "fourth" },
+    { slug: "fifth" },
+    { slug: "sixth" },
+    { slug: "seventh" },
+  ];
+  const selection = comicsModule.selectResearchGuideComics(items, "featured");
+
+  assert.equal(selection.featured.slug, "featured");
+  assert.equal(selection.latest.slug, "latest");
+  assert.deepEqual(selection.remaining.map((item) => item.slug), ["third", "fourth", "fifth", "sixth"]);
+});
+
+test("selectResearchGuideComics falls back to the first story when the featured slug is missing", () => {
+  const items = [{ slug: "latest" }, { slug: "second" }, { slug: "third" }];
+  const selection = comicsModule.selectResearchGuideComics(items, "missing");
+
+  assert.equal(selection.featured.slug, "latest");
+  assert.equal(selection.latest.slug, "second");
+  assert.deepEqual(selection.remaining.map((item) => item.slug), ["third"]);
+});
+
+test("selectResearchGuideComics omits a duplicate latest card when only one story exists", () => {
+  const only = { slug: "only" };
+
+  assert.deepEqual(comicsModule.selectResearchGuideComics([only], "only"), {
+    featured: only,
+    latest: null,
+    remaining: [],
+  });
+});
+
+test("selectResearchGuideComics returns an empty selection for an empty archive", () => {
+  assert.deepEqual(comicsModule.selectResearchGuideComics([], "featured"), {
+    featured: null,
+    latest: null,
+    remaining: [],
+  });
 });

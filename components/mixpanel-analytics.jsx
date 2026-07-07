@@ -227,6 +227,7 @@ function surfaceForElement(element) {
     [".home-hero", "home_hero"],
     [".latest-panel", "latest_panel"],
     [".archive-card", "archive_card"],
+    [".resource-story-bridge", "resource_story_bridge"],
     [".reader-toolbar", "reader_toolbar"],
     [".reader-pages", "reader_pages"],
     [".reader-footer", "reader_footer"],

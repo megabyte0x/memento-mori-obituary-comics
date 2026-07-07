@@ -6,6 +6,7 @@ import { MIXPANEL_EVENT_NAMES, MIXPANEL_SCROLL_DEPTHS, attributionProperties, co
 test("Mixpanel event taxonomy covers core site activity", () => {
   assert.deepEqual(MIXPANEL_SCROLL_DEPTHS, [25, 50, 75, 90]);
   assert.ok(MIXPANEL_EVENT_NAMES.includes("page_viewed"));
+  assert.ok(MIXPANEL_EVENT_NAMES.includes("resource_story_clicked"));
   assert.ok(MIXPANEL_EVENT_NAMES.includes("comic_pdf_clicked"));
   assert.ok(MIXPANEL_EVENT_NAMES.includes("comic_share_clicked"));
   assert.ok(MIXPANEL_EVENT_NAMES.includes("reader_setting_changed"));

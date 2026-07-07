@@ -2,8 +2,8 @@ import Link from "next/link";
 
 import { FaqSection } from "@/components/faq-section";
 import { ResourceLayout } from "@/components/resource-layout";
-import { Button } from "@/components/ui/button";
-import { comicPath, getComics, sourceItems } from "@/lib/comics";
+import { ResourceStoryBridge } from "@/components/resource-story-bridge";
+import { comicPath, getComics, selectResearchGuideComics, sourceItems } from "@/lib/comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
 
 const description =
@@ -157,6 +157,7 @@ export const metadata = {
 
 export default function ObituaryResearchGuidePage() {
   const comics = getComics();
+  const { featured, latest, remaining } = selectResearchGuideComics(comics, "virginia-hall-limping-lady");
   const latestDate = comics.reduce((max, comic) => (comic.published_at > max ? comic.published_at : max), "2026-06-04");
   const schema = {
     "@context": "https://schema.org",
@@ -220,6 +221,8 @@ export default function ObituaryResearchGuidePage() {
               It can also mislead if treated as a perfect record. Names may be misspelled, dates may be rounded, relatives may be omitted, and online indexes may classify unrelated articles as obituaries. Treat the obituary as a strong clue, then compare it with death certificates, cemetery records, census entries, directories, letters, photographs, and local newspapers.
             </p>
           </section>
+
+          <ResourceStoryBridge featuredComic={featured} latestComic={latest} />
 
           <section className="explainer-principles" aria-labelledby="research-steps">
             <div>
@@ -300,7 +303,7 @@ export default function ObituaryResearchGuidePage() {
               <h2 id="story-examples">Turn Records Into Obituary Stories</h2>
             </div>
             <ul className="press-subject-list">
-              {comics.slice(0, 4).map((comic) => {
+              {remaining.map((comic) => {
                 const sources = sourceItems(comic)
                   .map((source) => source.name)
                   .slice(0, 3)
