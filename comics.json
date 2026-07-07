@@ -1,5 +1,73 @@
 [
   {
+    "slug": "audre-lorde-cancer-journals",
+    "title": "Audre Lorde: Cancer Journals",
+    "person": "Audre Lorde",
+    "years": "1934–1992",
+    "dek": "The poet who made illness, identity, and survival impossible to keep private.",
+    "mortality_event": "1977 breast-cancer diagnosis and mastectomy; later liver cancer before her death in 1992, after The Cancer Journals turned illness into public witness.",
+    "published_at": "2026-07-07",
+    "pages": [
+      "pages/01-page-name-the-life.jpg",
+      "pages/02-page-blade-of-voice.jpg",
+      "pages/03-page-diagnosis.jpg",
+      "pages/04-page-refusal.jpg",
+      "pages/05-page-cancer-journals.jpg",
+      "pages/06-page-difference-method.jpg",
+      "pages/07-page-final-light.jpg"
+    ],
+    "page_dimensions": {
+      "pages/01-page-name-the-life.jpg": [
+        720,
+        1280
+      ],
+      "pages/02-page-blade-of-voice.jpg": [
+        720,
+        1280
+      ],
+      "pages/03-page-diagnosis.jpg": [
+        720,
+        1280
+      ],
+      "pages/04-page-refusal.jpg": [
+        720,
+        1280
+      ],
+      "pages/05-page-cancer-journals.jpg": [
+        720,
+        1280
+      ],
+      "pages/06-page-difference-method.jpg": [
+        720,
+        1280
+      ],
+      "pages/07-page-final-light.jpg": [
+        720,
+        1280
+      ]
+    },
+    "sources": [
+      {
+        "name": "National Women’s History Museum",
+        "url": "https://www.womenshistory.org/education-resources/biographies/audre-lorde"
+      },
+      {
+        "name": "Smithsonian NMAAHC",
+        "url": "https://nmaahc.si.edu/audre-lorde"
+      },
+      {
+        "name": "Poetry Foundation",
+        "url": "https://www.poetryfoundation.org/poets/audre-lorde"
+      },
+      {
+        "name": "New York Times obituary",
+        "url": "https://www.nytimes.com/1992/11/20/books/audre-lorde-58-a-poet-memoirist-and-lecturer-dies.html"
+      }
+    ],
+    "pdf": "audre-lorde-cancer-journals.pdf",
+    "contact_sheet": "contact-sheet.jpg"
+  },
+  {
     "slug": "oliver-sacks-gratitude-near-the-end",
     "title": "Oliver Sacks: Gratitude Near the End",
     "person": "Oliver Sacks",
