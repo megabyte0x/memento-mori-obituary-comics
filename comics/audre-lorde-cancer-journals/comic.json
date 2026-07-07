@@ -64,5 +64,18 @@
     }
   ],
   "pdf": "audre-lorde-cancer-journals.pdf",
-  "contact_sheet": "contact-sheet.jpg"
+  "contact_sheet": "contact-sheet.jpg",
+  "citation_passage": "Audre Lorde (1934–1992) was an American poet, essayist, librarian, and feminist whose work confronted racism, sexism, homophobia, illness, and silence. After a breast-cancer diagnosis and mastectomy in 1977, she recorded the treatment, fear, anger, and isolation surrounding the experience, especially for a Black lesbian woman. Those reflections became The Cancer Journals in 1980, an illness narrative that challenged expectations that women conceal bodily loss or make recovery comfortable for others. This obituary comic follows Lorde from the public voice she built before cancer through diagnosis, surgery, writing, community, and her continuing insistence that difference could be a source of knowledge and power. It closes with her death from cancer in 1992 and the survival of her words. The account is grounded in biographies and records from the National Women’s History Museum, Smithsonian NMAAHC, Poetry Foundation, and her New York Times obituary.",
+  "page_summaries": [
+    "Audre Lorde grows from a young writer into a poet and public speaker who turns survival into language.",
+    "Lorde’s poetry confronts racism, sexism, homophobia, and enforced silence before her cancer diagnosis.",
+    "A 1977 breast-cancer diagnosis brings Lorde into treatment and makes the body part of her written record.",
+    "After mastectomy, Lorde rejects pressure to conceal loss behind a prosthesis and continues writing.",
+    "The Cancer Journals transforms private treatment and pain into a public resource for women excluded from conventional illness narratives.",
+    "Lorde teaches and speaks about difference as a source of freedom, community, and political knowledge.",
+    "After Lorde’s 1992 death from cancer, readers carry forward her insistence that survival must be spoken."
+  ],
+  "sameAs": [
+    "https://www.wikidata.org/wiki/Q463319"
+  ]
 }

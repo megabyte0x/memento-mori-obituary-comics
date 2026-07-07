@@ -1303,6 +1303,66 @@ body.reader-mode.theme-stark {
 }
 
 /* Comic Layout Containers */
+.reader-introduction {
+  padding: 112px max(24px, calc((100vw - 840px) / 2)) 38px;
+  border-bottom: 1px solid rgba(223, 177, 91, 0.16);
+  background:
+    radial-gradient(circle at 50% 0%, rgba(223, 177, 91, 0.08), transparent 42%),
+    #030302;
+  color: var(--paper);
+}
+.reader-introduction-kicker {
+  margin: 0 0 12px;
+  color: var(--gold);
+  font: 800 11px/1.4 var(--font-sans);
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+.reader-introduction h1 {
+  max-width: 760px;
+  margin: 0 0 18px;
+  color: var(--paper);
+  font-size: clamp(26px, 4vw, 44px);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+}
+.reader-introduction-passage {
+  max-width: 78ch;
+  margin: 0;
+  color: rgba(244, 235, 214, 0.88);
+  font-size: clamp(16px, 2vw, 19px);
+  line-height: 1.72;
+}
+.reader-introduction-sources {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-top: 22px;
+  font-family: var(--font-sans);
+}
+.reader-introduction-sources > span {
+  color: rgba(244, 235, 214, 0.5);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.reader-introduction-sources ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.reader-introduction-sources a,
+.reader-introduction-sources li {
+  color: rgba(244, 235, 214, 0.76);
+  font-size: 12px;
+}
+.reader-introduction-sources a:hover {
+  color: var(--gold);
+}
 .reader-pages {
   min-height: 100vh;
   padding: 100px 0 60px;
@@ -1311,6 +1371,10 @@ body.reader-mode.theme-stark {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.reader-pages.has-introduction {
+  min-height: auto;
+  padding-top: 30px;
 }
 body.theme-sepia .reader-pages {
   background: #eae0c7;
@@ -1442,6 +1506,17 @@ body.theme-stark .reader-pages {
   height: 1px;
   overflow: hidden;
   clip: rect(0 0 0 0);
+}
+
+@media (max-width: 680px) {
+  .reader-introduction {
+    padding: 96px 20px 30px;
+  }
+  .reader-introduction-sources {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+  }
 }
 
 /* Reader Page Progress Bar */

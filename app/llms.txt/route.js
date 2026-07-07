@@ -1,4 +1,4 @@
-import { getComics, sourceItems } from "../../lib/comics.js";
+import { citationPassage, getComics, sourceItems } from "../../lib/comics.js";
 import { absoluteUrl, SITE_DESCRIPTION, SITE_NAME, SUBSTACK_URL } from "../../lib/site.js";
 
 export const runtime = "nodejs";
@@ -8,6 +8,11 @@ export function GET() {
   const comics = getComics();
   const latest = comics[0];
   const latestDate = comics.reduce((max, comic) => (comic.published_at > max ? comic.published_at : max), "");
+  const latestIssueLinks = comics
+    .slice(0, 3)
+    .filter((comic) => citationPassage(comic))
+    .map((comic) => `- [${comic.person} - ${comic.title}](${absoluteUrl(`/comics/${comic.slug}/`)}): ${citationPassage(comic)}`)
+    .join("\n");
   const comicLinks = comics
     .map((comic) => {
       const sources = sourceItems(comic).map((source) => source.name).join(", ");
@@ -47,8 +52,8 @@ export function GET() {
 - [Newsletter](${absoluteUrl("/newsletter/")}): Borrowed Time Dispatch signup for new comics and source notes.
 - [Substack](${SUBSTACK_URL}): External newsletter home.
 
-## Latest issue
-${latest ? `- [${latest.person} - ${latest.title}](${absoluteUrl(`/comics/${latest.slug}/`)}): ${latest.mortality_event || latest.dek || ""}` : "- No issue is currently published."}
+## Latest issues
+${latestIssueLinks || (latest ? `- [${latest.person} - ${latest.title}](${absoluteUrl(`/comics/${latest.slug}/`)}): ${latest.mortality_event || latest.dek || ""}` : "- No issue is currently published.")}
 
 ## Comics
 ${comicLinks}

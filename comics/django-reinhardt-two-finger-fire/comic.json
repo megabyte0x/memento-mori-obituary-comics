@@ -60,5 +60,18 @@
     }
   ],
   "pdf": "django-reinhardt-two-finger-fire.pdf",
-  "contact_sheet": "contact-sheet.jpg"
+  "contact_sheet": "contact-sheet.jpg",
+  "citation_passage": "Django Reinhardt (1910–1953) was a Belgian-born Romani jazz guitarist and composer whose damaged left hand helped shape a new musical language. In October 1928, a fire swept through his caravan and badly burned him. He lost the use of the third and fourth fingers of his fretting hand, but during convalescence he relearned guitar around the two fingers that still moved freely. The resulting speed, phrasing, and chord technique became central to his unmistakable style. This obituary comic follows his caravan childhood, the fire, the hospital prognosis, the physical work of rebuilding his playing, and his later partnership with violinist Stéphane Grappelli. Together they led the all-string Quintette du Hot Club de France and helped establish the style now called gypsy jazz or jazz manouche. Reinhardt died in 1953 at forty-three. The account is grounded in Britannica, The Guardian’s history of the fire, and Fretboard Journal’s recording history.",
+  "page_summaries": [
+    "Young Django Reinhardt grows up around caravans, dances, and string music, learning to play before settling anywhere.",
+    "A 1928 caravan fire badly burns Reinhardt’s left hand and threatens his future as a musician.",
+    "During convalescence, Reinhardt faces a damaged fretting hand and a medical prognosis that his guitar playing is finished.",
+    "Reinhardt rebuilds his technique around the two fretting fingers that still move freely.",
+    "In Paris, Reinhardt and violinist Stéphane Grappelli turn the new technique into the sound of the Quintette du Hot Club de France.",
+    "Reinhardt carries his guitar through wartime danger, continuing to compose and perform amid smoke and uncertainty.",
+    "After Reinhardt’s death at forty-three, jazz manouche guitarists continue learning from the technique forged after the fire."
+  ],
+  "sameAs": [
+    "https://www.wikidata.org/wiki/Q44122"
+  ]
 }

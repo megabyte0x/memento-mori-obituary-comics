@@ -4,7 +4,7 @@ import test from "node:test";
 import { GET as llmsTxt } from "../app/llms.txt/route.js";
 import robots from "../app/robots.js";
 import sitemap from "../app/sitemap.js";
-import { comicImageMetadata, comicSchema, getComics, getLatestComic, homeSchema, sourceUrls } from "../lib/comics.js";
+import { citationPassage, comicImageMetadata, comicSchema, getComics, getLatestComic, homeSchema, sourceUrls } from "../lib/comics.js";
 import { absoluteUrl, SITE_NAME, SITE_URL } from "../lib/site.js";
 
 function graphNodes(schema) {
@@ -103,6 +103,21 @@ test("llms.txt describes canonical routes and citation policy", async () => {
   assert.match(body, /Prefer the canonical comic reader URL/);
   assert.match(body, /Do not treat panel art as a primary historical source/);
   assert.match(body, new RegExp(absoluteUrl("/newsletter/").replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
+
+  const latestComics = getComics().slice(0, 3);
+  assert.match(body, /## Latest issues/);
+  let previousIndex = -1;
+  for (const comic of latestComics) {
+    const urlIndex = body.indexOf(absoluteUrl(`/comics/${comic.slug}/`));
+    assert.ok(urlIndex > previousIndex, `${comic.slug} should appear in latest-first order`);
+    assert.ok(body.includes(comic.citation_passage), `${comic.slug} should expose its authored passage`);
+    previousIndex = urlIndex;
+  }
+});
+
+test("citationPassage normalizes authored copy and omits legacy fallbacks", () => {
+  assert.equal(citationPassage({ citation_passage: "  Authored   source-grounded passage. " }), "Authored source-grounded passage.");
+  assert.equal(citationPassage({}), "");
 });
 
 test("home schema exposes collection and publisher entities", () => {
@@ -117,7 +132,7 @@ test("home schema exposes collection and publisher entities", () => {
 });
 
 test("comic schema includes citable summary, page images, subject, and source citations", () => {
-  const comic = getComics().find((item) => sourceUrls(item).length > 0) || getLatestComic();
+  const comic = getLatestComic();
   const schema = comicSchema(comic);
   const creativeWork = findGraphNode(schema, (node) => Array.isArray(node["@type"]) && node["@type"].includes("ComicStory"));
   const webpage = findGraphNode(schema, (node) => node["@type"] === "WebPage");
@@ -126,8 +141,11 @@ test("comic schema includes citable summary, page images, subject, and source ci
   const images = comicImageMetadata(comic);
 
   assert.equal(webpage.about["@id"], subject["@id"]);
+  assert.equal(webpage.abstract, comic.citation_passage);
   assert.equal(creativeWork.publisher["@id"], `${SITE_URL}/#organization`);
+  assert.equal(creativeWork.abstract, comic.citation_passage);
   assert.equal(creativeWork.hasPart.length, comic.pages.length);
+  assert.deepEqual(subject.sameAs, comic.sameAs);
   assert.ok(summary.itemListElement.length >= 3);
   assert.ok(images[0].url.startsWith(`${SITE_URL}/media/comics/`));
 
