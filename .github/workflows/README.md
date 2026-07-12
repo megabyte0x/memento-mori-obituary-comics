@@ -1,1 +1,1 @@
-No GitHub Actions yet; cron commits comics and deploys with Vercel CLI.
+No GitHub Actions yet. Local publishing uses `scripts/deploy_latest.sh`, which uploads new media to R2 through the signed route, verifies the site, pushes the release commit, and deploys with OpenNext/Wrangler.

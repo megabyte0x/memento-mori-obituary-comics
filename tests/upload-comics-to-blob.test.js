@@ -6,14 +6,14 @@ import test from "node:test";
 
 import {
   collectComicAssets,
-  comicAssetBlobPath,
+  comicAssetR2Key,
   loadEnvFile,
-  uploadComicAssets,
-} from "../scripts/upload_comics_to_blob.js";
+  requireComicAssets,
+} from "../scripts/comic_media_assets.js";
 
-test("comicAssetBlobPath preserves the comics-relative pathname for Blob", () => {
+test("comicAssetR2Key preserves the comics-relative pathname for R2", () => {
   assert.equal(
-    comicAssetBlobPath(
+    comicAssetR2Key(
       "/repo",
       path.join("/repo", "comics", "sample", "pages", "01.jpg"),
     ),
@@ -33,7 +33,7 @@ test("collectComicAssets finds uploadable comic binaries only", async () => {
   const assets = await collectComicAssets(root);
 
   assert.deepEqual(
-    assets.map(asset => asset.blobPath),
+    assets.map(asset => asset.key),
     [
       "comics/sample/contact-sheet.png",
       "comics/sample/pages/01.jpg",
@@ -53,7 +53,7 @@ test("collectComicAssets can scope uploads to one new comic slug", async () => {
   const assets = await collectComicAssets(root, { slug: "new-comic" });
 
   assert.deepEqual(
-    assets.map(asset => asset.blobPath),
+    assets.map(asset => asset.key),
     [
       "comics/new-comic/new-comic.pdf",
       "comics/new-comic/pages/01-new-comic.jpg",
@@ -67,18 +67,12 @@ test("requireAssets fails fast when a slug has no local binaries", async () => {
   await writeFile(path.join(root, "comics", "empty-comic", "comic.json"), "{}");
 
   await assert.rejects(
-    uploadComicAssets({
-      blobClient: { put: async () => { throw new Error("should not upload"); } },
-      dryRun: true,
-      requireAssets: true,
-      rootDir: root,
-      slug: "empty-comic",
-    }),
+    Promise.resolve().then(async () => requireComicAssets(await collectComicAssets(root, { slug: "empty-comic" }), "empty-comic")),
     /No uploadable comic assets found for slug: empty-comic/,
   );
 });
 
-test("loadEnvFile reads local Blob credentials without overwriting existing env", async () => {
+test("loadEnvFile reads local deployment values without overwriting existing env", async () => {
   const root = await mkdtemp(path.join(os.tmpdir(), "memento-env-"));
   const envPath = path.join(root, ".env.local");
   const original = process.env.BLOB_READ_WRITE_TOKEN;

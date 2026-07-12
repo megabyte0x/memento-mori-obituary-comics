@@ -32,3 +32,23 @@ test("GET /api/latest-pdf returns an x402 payment challenge", async () => {
   assert.equal(decoded.accepts[0].amount, "100000");
   assert.equal(decoded.accepts[0].payTo, PAY_TO);
 });
+
+test("GET /api/latest-pdf returns a controlled error when facilitator sync fails", async (t) => {
+  t.mock.method(console, "error", () => {});
+  t.mock.method(console, "warn", () => {});
+  const app = createApp(
+    { X402_PAY_TO: PAY_TO },
+    {
+      facilitatorClient: {
+        async getSupported() {
+          throw new Error("facilitator unavailable");
+        },
+      },
+    },
+  );
+
+  const response = await app.fetch(new Request("https://example.com/api/latest-pdf"));
+
+  assert.equal(response.status, 502);
+  assert.deepEqual(await response.json(), { error: "Payment facilitator is unavailable" });
+});

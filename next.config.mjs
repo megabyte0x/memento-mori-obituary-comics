@@ -2,6 +2,9 @@
 const nextConfig = {
   trailingSlash: true,
   images: {
+    loader: "custom",
+    loaderFile: "./image-loader.js",
+    unoptimized: process.env.CLOUDFLARE_IMAGE_TRANSFORMATIONS !== "1",
     deviceSizes: [384, 640, 768, 1080, 1440, 1920],
     imageSizes: [128, 256, 384],
     localPatterns: [
@@ -19,8 +22,6 @@ const nextConfig = {
       },
     ],
     qualities: [75],
-    formats: ["image/avif", "image/webp"],
-    minimumCacheTTL: 31536000,
     contentDispositionType: "inline",
   },
   outputFileTracingIncludes: {
@@ -32,3 +33,7 @@ const nextConfig = {
 };
 
 export default nextConfig;
+
+import { initOpenNextCloudflareForDev } from "@opennextjs/cloudflare";
+
+initOpenNextCloudflareForDev();

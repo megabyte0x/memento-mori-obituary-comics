@@ -3,19 +3,17 @@ import test from "node:test";
 
 import { createApp, HEAD } from "../lib/blob-media.js";
 
-test("GET /media/comics/:path serves private Blob content through cacheable site URLs", async () => {
+test("GET /media/comics/:path serves private R2 content through cacheable site URLs", async () => {
   const calls = [];
   const app = createApp({
-    blobClient: {
-      async get(blobPath, options) {
-        calls.push({ blobPath, options });
+    bucket: {
+      async get(key) {
+        calls.push(key);
         return {
-          stream: new Blob(["image-bytes"]).stream(),
-          blob: {
-            contentType: "image/jpeg",
-            etag: "blob-etag",
-            size: 11,
-          },
+          body: new Blob(["image-bytes"]).stream(),
+          httpEtag: '"r2-etag"',
+          httpMetadata: { contentType: "image/jpeg" },
+          size: 11,
         };
       },
     },
@@ -30,29 +28,21 @@ test("GET /media/comics/:path serves private Blob content through cacheable site
   assert.equal(response.status, 200);
   assert.equal(response.headers.get("content-type"), "image/jpeg");
   assert.equal(response.headers.get("content-length"), "11");
-  assert.equal(response.headers.get("etag"), "blob-etag");
+  assert.equal(response.headers.get("etag"), '"r2-etag"');
   assert.equal(response.headers.get("cache-control"), "public, max-age=31536000, immutable");
   assert.equal(response.headers.get("cdn-cache-control"), "public, max-age=31536000, s-maxage=31536000, immutable");
-  assert.equal(response.headers.get("vercel-cdn-cache-control"), "public, max-age=31536000, s-maxage=31536000, immutable");
-  assert.deepEqual(calls, [
-    {
-      blobPath: "comics/sample/pages/01.jpg",
-      options: { access: "private", ifNoneMatch: "old-etag" },
-    },
-  ]);
+  assert.equal(response.headers.get("cloudflare-cdn-cache-control"), "public, max-age=31536000, s-maxage=31536000, immutable");
+  assert.deepEqual(calls, ["comics/sample/pages/01.jpg"]);
 });
 
 test("HEAD /media/comics/:path returns cacheable metadata without a body", async () => {
   const app = createApp({
-    blobClient: {
-      async get() {
+    bucket: {
+      async head() {
         return {
-          stream: new Blob(["image-bytes"]).stream(),
-          blob: {
-            contentType: "image/jpeg",
-            etag: "blob-etag",
-            size: 11,
-          },
+          httpEtag: '"r2-etag"',
+          httpMetadata: { contentType: "image/jpeg" },
+          size: 11,
         };
       },
     },
@@ -66,31 +56,35 @@ test("HEAD /media/comics/:path returns cacheable metadata without a body", async
   assert.equal(response.headers.get("cache-control"), "public, max-age=31536000, immutable");
 });
 
-test("GET /media/comics/:path forwards Blob 304 responses", async () => {
+test("GET /media/comics/:path returns 304 when the R2 ETag matches", async () => {
   const app = createApp({
-    blobClient: {
+    bucket: {
       async get() {
         return {
-          statusCode: 304,
-          blob: { etag: "same-etag", size: 0 },
+          body: new Blob(["image-bytes"]).stream(),
+          httpEtag: '"same-etag"',
+          httpMetadata: { contentType: "image/jpeg" },
+          size: 11,
         };
       },
     },
   });
 
-  const response = await app.fetch(new Request("https://example.com/media/comics/sample/pages/01.jpg"));
+  const response = await app.fetch(new Request("https://example.com/media/comics/sample/pages/01.jpg", {
+    headers: { "if-none-match": '"same-etag"' },
+  }));
 
   assert.equal(response.status, 304);
-  assert.equal(response.headers.get("etag"), "same-etag");
+  assert.equal(response.headers.get("etag"), '"same-etag"');
 });
 
-test("GET /media/comics/:path rejects unsafe paths before Blob access", async () => {
+test("GET /media/comics/:path rejects unsafe paths before R2 access", async () => {
   let called = false;
   const app = createApp({
-    blobClient: {
+    bucket: {
       async get() {
         called = true;
-        throw new Error("should not read Blob");
+        throw new Error("should not read R2");
       },
     },
   });

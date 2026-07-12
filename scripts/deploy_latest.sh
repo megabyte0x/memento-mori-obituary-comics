@@ -24,31 +24,29 @@ if [ ! -d "comics/$slug" ]; then
 fi
 
 # New comic binaries are intentionally gitignored. Upload them through the live
-# finalnotes.page app so the write happens inside Megabyte's Vercel project and
-# lands in the Blob store that actually backs production media.
-pnpm run blob:dry-run -- --slug "$slug" --require-assets
-pnpm run blob:upload-live -- --slug "$slug" --require-assets --base-url "$site_url"
-pnpm run blob:verify-live -- --slug "$slug" --base-url "$site_url"
+# finalnotes.page app so the Worker verifies the signature and writes the
+# stable object key into the private Cloudflare R2 bucket.
+pnpm run r2:upload-live:dry-run -- --slug "$slug" --require-assets --base-url "$site_url"
+pnpm run r2:upload-live -- --slug "$slug" --require-assets --base-url "$site_url"
+pnpm run r2:verify-live -- --slug "$slug" --base-url "$site_url"
 
 python scripts/add_comic.py --render-only
 pnpm test
 pnpm build
 
 if ! git diff --quiet || [ -n "$(git status --porcelain)" ]; then
-  git add app components lib scripts README.md vercel.json next.config.mjs .github .gitignore .vercelignore \
-    tests docs package.json pnpm-lock.yaml pnpm-workspace.yaml comics.json comics
+  git add app components lib scripts README.md next.config.mjs open-next.config.ts wrangler.jsonc image-loader.js \
+    public/_headers .github .gitignore tests docs package.json pnpm-lock.yaml pnpm-workspace.yaml comics.json comics
   git commit -m "$commit_message"
   git push origin main
 fi
 
-# finalnotes.page is served by Megabyte's Vercel project through the GitHub
-# integration. Do not deploy from the local Vercel CLI by default: this machine's
-# CLI may be linked to an old agent-owned project/scope. If manual CLI deploy is
-# deliberately needed, opt in with FINALNOTES_USE_VERCEL_CLI_DEPLOY=1.
-if [ "${FINALNOTES_USE_VERCEL_CLI_DEPLOY:-0}" = "1" ]; then
-  pnpm dlx vercel@latest deploy --prod --yes | tee /tmp/memento-mori-vercel-deploy.log
+# Cloudflare is the production runtime. Set the opt-out only when a separate
+# Workers Build pipeline will deploy the pushed commit.
+if [ "${FINALNOTES_SKIP_CLOUDFLARE_DEPLOY:-0}" = "1" ]; then
+  echo "Skipping local Cloudflare deploy; waiting for the configured Workers Build"
 else
-  echo "Skipping local Vercel CLI deploy; waiting for GitHub-linked production deploy on $site_url"
+  pnpm deploy
 fi
 
 page_url="${site_url}${comic_path}"

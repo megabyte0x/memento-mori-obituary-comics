@@ -1,4 +1,4 @@
-import { put as putBlob } from "@vercel/blob";
+import { getCloudflareContext } from "@opennextjs/cloudflare";
 
 import { assertSafeBlobPath, contentTypeForBlobPath } from "../../../../lib/blob-media.js";
 import {
@@ -15,11 +15,14 @@ function jsonError(message, status) {
   return Response.json({ error: message }, { status });
 }
 
-function publicKeyPem() {
-  return process.env.FINALNOTES_BLOB_UPLOAD_PUBLIC_KEY || DEFAULT_BLOB_UPLOAD_PUBLIC_KEY;
+function publicKeyPem(env) {
+  return env.FINALNOTES_BLOB_UPLOAD_PUBLIC_KEY || DEFAULT_BLOB_UPLOAD_PUBLIC_KEY;
 }
 
-export async function POST(request, { blobClient = { put: putBlob } } = {}) {
+export async function POST(request, options = {}) {
+  const context = options.bucket ? null : getCloudflareContext();
+  const bucket = options.bucket || context?.env.COMICS_BUCKET;
+  const env = options.env || context?.env || process.env;
   let body;
   try {
     body = await request.json();
@@ -64,19 +67,19 @@ export async function POST(request, { blobClient = { put: putBlob } } = {}) {
 
   const verified = verifyBlobUploadSignature({
     metadata,
-    publicKeyPem: publicKeyPem(),
+    publicKeyPem: publicKeyPem(env),
     signatureBase64,
   });
 
   if (!verified) return jsonError("Invalid upload signature", 401);
 
   try {
-    await blobClient.put(safeBlobPath, buffer, {
-      access: "private",
-      addRandomSuffix: false,
-      allowOverwrite: true,
-      cacheControlMaxAge: ONE_YEAR,
-      contentType: expectedContentType,
+    if (!bucket) throw new Error("COMICS_BUCKET binding is unavailable");
+    await bucket.put(safeBlobPath, buffer, {
+      httpMetadata: {
+        cacheControl: `public, max-age=${ONE_YEAR}, immutable`,
+        contentType: expectedContentType,
+      },
     });
   } catch (error) {
     console.error("signed blob upload failed", error);

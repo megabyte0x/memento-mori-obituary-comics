@@ -1,11 +1,15 @@
-import { GET as mediaGET, HEAD as mediaHEAD } from "@/lib/blob-media";
+import { getCloudflareContext } from "@opennextjs/cloudflare";
+
+import { createApp } from "@/lib/blob-media";
 
 export const runtime = "nodejs";
 
 export function GET(request) {
-  return mediaGET(request);
+  const { env } = getCloudflareContext();
+  return createApp({ bucket: env.COMICS_BUCKET }).fetch(request);
 }
 
 export function HEAD(request) {
-  return mediaHEAD(request);
+  const { env } = getCloudflareContext();
+  return createApp({ bucket: env.COMICS_BUCKET }).fetch(request);
 }

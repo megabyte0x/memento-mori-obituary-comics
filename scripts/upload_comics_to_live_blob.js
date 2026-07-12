@@ -5,7 +5,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { canonicalBlobUploadMessage, sha256Hex, signBlobUpload } from "../lib/blob-upload-auth.js";
-import { collectComicAssets, loadEnvFile } from "./upload_comics_to_blob.js";
+import { collectComicAssets, loadEnvFile, requireComicAssets } from "./comic_media_assets.js";
 
 const ROOT_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DEFAULT_BASE_URL = "https://www.finalnotes.page";
@@ -39,7 +39,7 @@ function loadPrivateKey(options) {
 async function uploadAsset({ asset, baseUrl, privateKeyPem }) {
   const buffer = readFileSync(asset.filePath);
   const metadata = {
-    blobPath: asset.blobPath,
+    blobPath: asset.key,
     contentType: asset.contentType,
     sha256: sha256Hex(buffer),
     size: buffer.length,
@@ -64,10 +64,10 @@ async function uploadAsset({ asset, baseUrl, privateKeyPem }) {
     } catch {
       detail = await response.text();
     }
-    throw new Error(`Live Blob upload failed for ${asset.blobPath}: HTTP ${response.status} ${detail}`);
+    throw new Error(`Live R2 upload failed for ${asset.key}: HTTP ${response.status} ${detail}`);
   }
 
-  console.log(`[live-uploaded] ${asset.blobPath} (${asset.contentType}, ${buffer.length} bytes)`);
+  console.log(`[live-uploaded] ${asset.key} (${asset.contentType}, ${buffer.length} bytes)`);
   return canonicalBlobUploadMessage(metadata);
 }
 
@@ -76,17 +76,13 @@ async function main() {
   const options = parseArgs(process.argv.slice(2));
   const assets = await collectComicAssets(ROOT_DIR, { slug: options.slug });
 
-  if (options.requireAssets && assets.length === 0) {
-    throw new Error(options.slug
-      ? `No uploadable comic assets found for slug: ${options.slug}`
-      : "No uploadable comic assets found");
-  }
+  if (options.requireAssets) requireComicAssets(assets, options.slug);
 
   if (options.dryRun) {
     for (const asset of assets) {
-      console.log(`[dry-run live-upload] ${asset.blobPath} (${asset.contentType}, ${asset.size} bytes)`);
+      console.log(`[dry-run live-upload] ${asset.key} (${asset.contentType}, ${asset.size} bytes)`);
     }
-    console.log(`Found ${assets.length} comic assets for live Blob upload.`);
+    console.log(`Found ${assets.length} comic assets for live R2 upload.`);
     return;
   }
 
@@ -94,7 +90,7 @@ async function main() {
   for (const asset of assets) {
     await uploadAsset({ asset, baseUrl: options.baseUrl, privateKeyPem });
   }
-  console.log(`Uploaded ${assets.length} comic assets to live Blob via ${options.baseUrl}.`);
+  console.log(`Uploaded ${assets.length} comic assets to live R2 via ${options.baseUrl}.`);
 }
 
 main().catch((error) => {

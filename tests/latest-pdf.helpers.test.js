@@ -3,6 +3,7 @@ import test from "node:test";
 
 import {
   findLatestComicWithPdf,
+  readLatestPdfFromBucket,
   resolveComicPdfBlobPath,
 } from "../lib/latest-pdf.js";
 
@@ -40,8 +41,32 @@ test("resolveComicPdfBlobPath rejects traversal PDF names", () => {
   );
 });
 
-test("resolveComicPdfBlobPath returns the expected private Blob path", () => {
+test("resolveComicPdfBlobPath returns the expected private R2 key", () => {
   const resolved = resolveComicPdfBlobPath({ slug: "safe", pdf: "comic.pdf" });
 
   assert.equal(resolved, "comics/safe/comic.pdf");
+});
+
+test("readLatestPdfFromBucket reads the latest PDF from private R2", async () => {
+  const calls = [];
+  const comics = [
+    { slug: "older", published_at: "2026-05-29", pdf: "older.pdf" },
+    { slug: "newer", published_at: "2026-05-31", pdf: "newer.pdf" },
+  ];
+  const object = {
+    body: new Blob(["pdf-bytes"]).stream(),
+    size: 9,
+  };
+  const bucket = {
+    async get(key) {
+      calls.push(key);
+      return object;
+    },
+  };
+
+  const result = await readLatestPdfFromBucket(comics, bucket);
+
+  assert.equal(result.comic.slug, "newer");
+  assert.equal(result.object, object);
+  assert.deepEqual(calls, ["comics/newer/newer.pdf"]);
 });

@@ -3,7 +3,7 @@ import { existsSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
-import { collectComicAssets } from "./upload_comics_to_blob.js";
+import { collectComicAssets, requireComicAssets } from "./comic_media_assets.js";
 
 const ROOT_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DEFAULT_BASE_URL = "https://www.finalnotes.page";
@@ -39,25 +39,25 @@ async function mapLimit(items, limit, worker) {
 }
 
 async function verifyAsset(baseUrl, asset) {
-  const url = `${baseUrl}/media/${asset.blobPath}`;
+  const url = `${baseUrl}/media/${asset.key}`;
   const response = await fetch(url, { method: "HEAD", cache: "no-store" });
   const contentType = response.headers.get("content-type") || "";
   const contentLength = Number(response.headers.get("content-length") || "0");
 
   if (!response.ok) {
-    throw new Error(`${asset.blobPath} returned HTTP ${response.status}`);
+    throw new Error(`${asset.key} returned HTTP ${response.status}`);
   }
 
   if (!contentType.toLowerCase().startsWith(asset.contentType.toLowerCase())) {
-    throw new Error(`${asset.blobPath} returned ${contentType || "no content-type"}, expected ${asset.contentType}`);
+    throw new Error(`${asset.key} returned ${contentType || "no content-type"}, expected ${asset.contentType}`);
   }
 
   if (asset.size > 0 && contentLength > 0 && contentLength !== asset.size) {
-    throw new Error(`${asset.blobPath} returned ${contentLength} bytes, expected ${asset.size}`);
+    throw new Error(`${asset.key} returned ${contentLength} bytes, expected ${asset.size}`);
   }
 
-  console.log(`[verified] ${asset.blobPath} (${contentType}, ${contentLength || "unknown"} bytes)`);
-  return asset.blobPath;
+  console.log(`[verified] ${asset.key} (${contentType}, ${contentLength || "unknown"} bytes)`);
+  return asset.key;
 }
 
 async function main() {
@@ -65,11 +65,7 @@ async function main() {
   if (!existsSync(path.join(ROOT_DIR, "comics"))) throw new Error("comics directory not found");
 
   const assets = await collectComicAssets(ROOT_DIR, { slug: options.slug });
-  if (options.requireAssets && assets.length === 0) {
-    throw new Error(options.slug
-      ? `No uploadable comic assets found for slug: ${options.slug}`
-      : "No uploadable comic assets found");
-  }
+  if (options.requireAssets) requireComicAssets(assets, options.slug);
 
   await mapLimit(assets, options.concurrency, (asset) => verifyAsset(options.baseUrl, asset));
   console.log(`Verified ${assets.length} comic assets through ${options.baseUrl}.`);

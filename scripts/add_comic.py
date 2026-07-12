@@ -2,7 +2,7 @@
 """Add or refresh an obituary comic for the Next.js app.
 
 The Next app renders pages from comics.json and serves comic media from
-private Vercel Blob storage through /media/comics/<slug>/... URLs. This script
+private Cloudflare R2 storage through /media/comics/<slug>/... URLs. This script
 updates metadata and stages local binaries under comics/<slug>/ for upload; it
 does not generate HTML, robots.txt, sitemap.xml, or llms.txt.
 """

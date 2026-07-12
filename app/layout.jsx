@@ -1,5 +1,3 @@
-import { Analytics } from "@vercel/analytics/next";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Suspense } from "react";
 
 import "@/app/globals.css";
@@ -71,8 +69,6 @@ export default function RootLayout({ children }) {
         <Suspense fallback={null}>
           <MixpanelAnalytics />
         </Suspense>
-        <Analytics />
-        <SpeedInsights />
       </body>
     </html>
   );

@@ -1,0 +1,23 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "finalnotes",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-07-08",
+  "compatibility_flags": [
+    "nodejs_compat",
+    "global_fetch_strictly_public"
+  ],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "r2_buckets": [
+    {
+      "binding": "COMICS_BUCKET",
+      "bucket_name": "finalnotes-comics"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}

@@ -1,7 +1,7 @@
 {
   "name": "memento-mori-obituary-comics",
   "private": true,
-  "description": "Next.js obituary-comics archive with a Vercel Blob media layer and x402-paid latest-PDF endpoint.",
+  "description": "Next.js obituary-comics archive on Cloudflare Workers with private R2 media and an x402-paid latest-PDF endpoint.",
   "homepage": "https://www.finalnotes.page/",
   "repository": {
     "type": "git",
@@ -14,23 +14,22 @@
     "nextjs",
     "digital-archive",
     "comics",
-    "vercel",
-    "vercel-blob",
+    "cloudflare-workers",
+    "cloudflare-r2",
     "x402",
     "agentic-web"
   ],
   "type": "module",
   "scripts": {
     "dev": "next dev --webpack",
-    "build": "node scripts/backfill_blob_from_public_media.js && next build --webpack",
+    "build": "next build --webpack",
     "start": "next start",
-    "blob:backfill": "node scripts/backfill_blob_from_public_media.js",
-    "blob:backfill:dry-run": "node scripts/backfill_blob_from_public_media.js --dry-run",
-    "blob:dry-run": "node scripts/upload_comics_to_blob.js --dry-run",
-    "blob:upload": "node scripts/upload_comics_to_blob.js",
-    "blob:upload-live": "node scripts/upload_comics_to_live_blob.js",
-    "blob:upload-live:dry-run": "node scripts/upload_comics_to_live_blob.js --dry-run",
-    "blob:verify-live": "node scripts/verify_live_blob_upload.js",
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
+    "r2:upload-live": "node scripts/upload_comics_to_live_blob.js",
+    "r2:upload-live:dry-run": "node scripts/upload_comics_to_live_blob.js --dry-run",
+    "r2:verify-live": "node scripts/verify_live_blob_upload.js",
     "test": "python3 -m unittest discover -s tests -p 'test_*.py' && node --test tests/*.test.js"
   },
   "dependencies": {
@@ -39,9 +38,6 @@
     "@radix-ui/react-dropdown-menu": "^2.1.16",
     "@radix-ui/react-slot": "^1.2.4",
     "@radix-ui/react-toggle-group": "^1.1.11",
-    "@vercel/analytics": "^2.0.1",
-    "@vercel/blob": "2.4.0",
-    "@vercel/speed-insights": "^2.0.0",
     "@x402/core": "2.13.0",
     "@x402/evm": "2.13.0",
     "@x402/hono": "2.13.0",
@@ -53,5 +49,9 @@
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "tailwind-merge": "^3.6.0"
+  },
+  "devDependencies": {
+    "@opennextjs/cloudflare": "^1.20.1",
+    "wrangler": "^4.110.0"
   }
 }

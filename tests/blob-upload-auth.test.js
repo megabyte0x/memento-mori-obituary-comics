@@ -13,7 +13,7 @@ function testKeys() {
   };
 }
 
-test("signed Blob upload metadata verifies with the matching public key", () => {
+test("signed media upload metadata verifies with the matching public key", () => {
   const { privateKeyPem, publicKeyPem } = testKeys();
   const buffer = Buffer.from("fake image bytes");
   const metadata = {
@@ -59,7 +59,7 @@ test("POST /api/admin/blob-upload accepts signed comic assets", async () => {
         signatureBase64,
       }),
     }), {
-      blobClient: {
+      bucket: {
         put: async (...args) => uploads.push(args),
       },
     });
@@ -68,8 +68,8 @@ test("POST /api/admin/blob-upload accepts signed comic assets", async () => {
     assert.equal(uploads.length, 1);
     assert.equal(uploads[0][0], metadata.blobPath);
     assert.equal(Buffer.compare(uploads[0][1], buffer), 0);
-    assert.equal(uploads[0][2].access, "private");
-    assert.equal(uploads[0][2].addRandomSuffix, false);
+    assert.equal(uploads[0][2].httpMetadata.contentType, "image/jpeg");
+    assert.equal(uploads[0][2].httpMetadata.cacheControl, "public, max-age=31536000, immutable");
   } finally {
     if (previousPublicKey === undefined) delete process.env.FINALNOTES_BLOB_UPLOAD_PUBLIC_KEY;
     else process.env.FINALNOTES_BLOB_UPLOAD_PUBLIC_KEY = previousPublicKey;
@@ -95,7 +95,7 @@ test("POST /api/admin/blob-upload rejects invalid signatures", async () => {
         signatureBase64: Buffer.from("not a real signature").toString("base64"),
       }),
     }), {
-      blobClient: { put: async () => assert.fail("should not upload") },
+      bucket: { put: async () => assert.fail("should not upload") },
     });
 
     assert.equal(response.status, 401);
