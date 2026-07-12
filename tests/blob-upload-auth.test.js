@@ -3,7 +3,13 @@ import { generateKeyPairSync } from "node:crypto";
 import test from "node:test";
 
 import { POST } from "../app/api/admin/blob-upload/route.js";
-import { sha256Hex, signBlobUpload, verifyBlobUploadSignature } from "../lib/blob-upload-auth.js";
+import {
+  sha256Hex,
+  signBlobUpload,
+  signComicPublish,
+  verifyBlobUploadSignature,
+  verifyComicPublishSignature,
+} from "../lib/blob-upload-auth.js";
 
 function testKeys() {
   const { publicKey, privateKey } = generateKeyPairSync("ed25519");
@@ -28,6 +34,24 @@ test("signed media upload metadata verifies with the matching public key", () =>
   assert.equal(verifyBlobUploadSignature({ metadata, publicKeyPem, signatureBase64 }), true);
   assert.equal(verifyBlobUploadSignature({
     metadata: { ...metadata, size: metadata.size + 1 },
+    publicKeyPem,
+    signatureBase64,
+  }), false);
+});
+
+test("signed comic metadata verifies with the matching publication key", () => {
+  const { privateKeyPem, publicKeyPem } = testKeys();
+  const metadata = {
+    slug: "ada-lovelace",
+    metadataSha256: sha256Hex(Buffer.from('{"slug":"ada-lovelace"}')),
+    metadataSize: 23,
+    timestamp: Date.now(),
+  };
+
+  const signatureBase64 = signComicPublish({ metadata, privateKeyPem });
+  assert.equal(verifyComicPublishSignature({ metadata, publicKeyPem, signatureBase64 }), true);
+  assert.equal(verifyComicPublishSignature({
+    metadata: { ...metadata, metadataSize: metadata.metadataSize + 1 },
     publicKeyPem,
     signatureBase64,
   }), false);
