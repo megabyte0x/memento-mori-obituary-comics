@@ -48,6 +48,15 @@ test("Cloudflare Worker, OpenNext, and cache configuration are committed", () =>
   assert.match(read("next.config.mjs"), /unoptimized:\s*process\.env\.CLOUDFLARE_IMAGE_TRANSFORMATIONS\s*!==\s*"1"/);
 });
 
+test("canonical domains are bound directly to the Cloudflare Worker", () => {
+  const wrangler = JSON.parse(read("wrangler.jsonc"));
+
+  assert.deepEqual(wrangler.routes, [
+    { pattern: "finalnotes.page", custom_domain: true },
+    { pattern: "www.finalnotes.page", custom_domain: true },
+  ]);
+});
+
 test("Vercel deployment files are removed", () => {
   assert.equal(existsSync(path.join(ROOT, "vercel.json")), false);
   assert.equal(existsSync(path.join(ROOT, ".vercelignore")), false);

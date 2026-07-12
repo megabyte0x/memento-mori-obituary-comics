@@ -17,6 +17,16 @@
       "bucket_name": "finalnotes-comics"
     }
   ],
+  "routes": [
+    {
+      "pattern": "finalnotes.page",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.finalnotes.page",
+      "custom_domain": true
+    }
+  ],
   "observability": {
     "enabled": true
   }
