@@ -30,6 +30,7 @@
     "r2:upload-live": "node scripts/upload_comics_to_live_blob.js",
     "r2:upload-live:dry-run": "node scripts/upload_comics_to_live_blob.js --dry-run",
     "r2:verify-live": "node scripts/verify_live_blob_upload.js",
+    "comic:seed-catalog": "node scripts/seed_r2_comic_catalog.js",
     "test": "python3 -m unittest discover -s tests -p 'test_*.py' && node --test tests/*.test.js"
   },
   "dependencies": {
