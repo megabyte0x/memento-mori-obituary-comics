@@ -61,3 +61,13 @@ test("Vercel deployment files are removed", () => {
   assert.equal(existsSync(path.join(ROOT, "vercel.json")), false);
   assert.equal(existsSync(path.join(ROOT, ".vercelignore")), false);
 });
+
+test("R2 runtime publishing scripts are documented and do not require a deploy", () => {
+  const pkg = JSON.parse(read("package.json"));
+
+  assert.ok(pkg.scripts["comic:seed-catalog"]);
+  assert.ok(pkg.scripts["comic:publish"]);
+  assert.doesNotMatch(read("scripts/deploy_latest.sh"), /pnpm deploy/);
+  assert.match(read("README.md"), /comic:seed-catalog/);
+  assert.match(read("README.md"), /comic:publish/);
+});

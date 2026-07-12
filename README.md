@@ -64,7 +64,7 @@ The app uses the Next.js App Router. Route and UI ownership is:
 
 ## Add a generated comic
 
-Comic metadata lives in `comics.json`, with per-comic source metadata under `comics/<slug>/comic.json`. New generated images and PDFs are staged under `comics/<slug>/`, ignored by git, then uploaded to the private `finalnotes-comics` R2 bucket. The rendered site serves media from `/media/comics/<slug>/...`; it does not expose an R2 public URL.
+Comic metadata lives in `comics.json`, with per-comic source metadata under `comics/<slug>/comic.json`. The checked-in archive is the local editorial record; production reads the signed `catalog/comics.json` manifest in the private `finalnotes-comics` R2 bucket. Rendered media remains behind `/media/comics/<slug>/...`; R2 is never public.
 
 ```bash
 python scripts/add_comic.py /path/to/generated-output \
@@ -83,15 +83,15 @@ Validate metadata without generating static HTML:
 python scripts/add_comic.py --render-only
 ```
 
-Upload staged media through the signed production route into private R2:
+Publish a staged comic through the signed production route and private R2:
 
 ```bash
-pnpm run r2:upload-live:dry-run -- --slug <slug> --require-assets
-pnpm run r2:upload-live -- --slug <slug> --require-assets
-pnpm run r2:verify-live -- --slug <slug>
+pnpm comic:publish -- --slug <slug>
 ```
 
-The upload command signs each object with `~/.config/finalnotes/blob-upload-ed25519.pem`. The Worker verifies it against `FINALNOTES_BLOB_UPLOAD_PUBLIC_KEY` and writes a stable R2 key such as `comics/<slug>/pages/01-<slug>.jpg`.
+The command validates metadata, uploads and verifies only that comic's media, signs the complete metadata with `~/.config/finalnotes/blob-upload-ed25519.pem`, and writes the R2 catalogue last. It then checks the reader, homepage, sitemap, and `llms.txt`. It does not rebuild or redeploy the Worker. The legacy `scripts/deploy_latest.sh /comics/<slug>/` command delegates to this publisher for compatibility.
+
+The Worker verifies the shared signing authority against `FINALNOTES_BLOB_UPLOAD_PUBLIC_KEY` and writes stable keys such as `comics/<slug>/pages/01-<slug>.jpg`. A failed or partial upload is invisible because the catalogue manifest is the final release switch.
 
 On this machine, older ignored binaries may still exist locally. Always pass `--slug` for a new release so only that comic is uploaded.
 
@@ -126,8 +126,16 @@ pnpm cf-typegen
 pnpm test
 pnpm build
 pnpm preview
+```
+
+For the one-time runtime-catalogue release, seed the existing editorial archive before deploying the Worker code that reads it:
+
+```bash
+pnpm comic:seed-catalog
 pnpm deploy
 ```
+
+After that release is live, use `pnpm comic:publish -- --slug <slug>` for future comics; do not run `pnpm deploy` for normal comic publication.
 
 Create the R2 bucket once with `pnpm exec wrangler r2 bucket create finalnotes-comics`. Set `X402_PAY_TO`, `CDP_API_KEY_ID`, `CDP_API_KEY_SECRET`, and `FINALNOTES_BLOB_UPLOAD_PUBLIC_KEY` as Worker secrets. Public `NEXT_PUBLIC_*` values must be available during the Next build and in Cloudflare Workers Builds.
 
