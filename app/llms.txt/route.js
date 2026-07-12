@@ -1,11 +1,12 @@
-import { citationPassage, getComics, sourceItems } from "../../lib/comics.js";
+import { citationPassage, sourceItems } from "../../lib/comics.js";
+import { loadRuntimeComics } from "../../lib/runtime-comics.js";
 import { absoluteUrl, SITE_DESCRIPTION, SITE_NAME, SUBSTACK_URL } from "../../lib/site.js";
 
 export const runtime = "nodejs";
-export const dynamic = "force-static";
+export const dynamic = "force-dynamic";
 
-export function GET() {
-  const comics = getComics();
+export async function GET() {
+  const comics = await loadRuntimeComics();
   const latest = comics[0];
   const latestDate = comics.reduce((max, comic) => (comic.published_at > max ? comic.published_at : max), "");
   const latestIssueLinks = comics

@@ -1,8 +1,10 @@
-import { getComics } from "../lib/comics.js";
+import { loadRuntimeComics } from "../lib/runtime-comics.js";
 import { absoluteUrl } from "../lib/site.js";
 
-export default function sitemap() {
-  const comics = getComics();
+export const dynamic = "force-dynamic";
+
+export default async function sitemap() {
+  const comics = await loadRuntimeComics();
   const latest = comics.reduce((max, comic) => (comic.published_at > max ? comic.published_at : max), new Date().toISOString().slice(0, 10));
   return [
     { url: absoluteUrl("/"), lastModified: latest, changeFrequency: "daily", priority: 1 },

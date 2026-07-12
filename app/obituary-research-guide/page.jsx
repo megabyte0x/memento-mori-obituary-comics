@@ -4,6 +4,7 @@ import { FaqSection } from "@/components/faq-section";
 import { ResourceLayout } from "@/components/resource-layout";
 import { ResourceStoryBridge } from "@/components/resource-story-bridge";
 import { comicPath, getComics, selectResearchGuideComics, sourceItems } from "@/lib/comics";
+import { loadRuntimeComics } from "@/lib/runtime-comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
 
 const description =
@@ -155,8 +156,8 @@ export const metadata = {
   },
 };
 
-export default function ObituaryResearchGuidePage() {
-  const comics = getComics();
+export default async function ObituaryResearchGuidePage() {
+  const comics = await loadRuntimeComics();
   const { featured, latest, remaining } = selectResearchGuideComics(comics, "virginia-hall-limping-lady");
   const latestDate = comics.reduce((max, comic) => (comic.published_at > max ? comic.published_at : max), "2026-06-04");
   const schema = {

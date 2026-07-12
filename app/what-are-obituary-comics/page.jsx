@@ -4,6 +4,7 @@ import { FaqSection } from "@/components/faq-section";
 import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, getLatestComic } from "@/lib/comics";
+import { loadRuntimeComics } from "@/lib/runtime-comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
 
 const description =
@@ -77,9 +78,9 @@ export const metadata = {
   },
 };
 
-export default function WhatAreObituaryComicsPage() {
-  const comics = getComics();
-  const latest = getLatestComic();
+export default async function WhatAreObituaryComicsPage() {
+  const comics = await loadRuntimeComics();
+  const latest = getLatestComic(comics);
   const latestDate = comics.reduce((max, comic) => (comic.published_at > max ? comic.published_at : max), "2026-06-04");
   const schema = {
     "@context": "https://schema.org",
@@ -182,4 +183,3 @@ export default function WhatAreObituaryComicsPage() {
     </>
   );
 }
-

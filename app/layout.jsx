@@ -4,6 +4,7 @@ import "@/app/globals.css";
 
 import { MixpanelAnalytics } from "@/components/mixpanel-analytics";
 import { comicImageMetadata, getLatestComic } from "@/lib/comics";
+import { loadRuntimeComics } from "@/lib/runtime-comics";
 import {
   SITE_CATEGORY,
   SITE_DESCRIPTION,
@@ -14,10 +15,11 @@ import {
   SITE_URL,
 } from "@/lib/site";
 
-const latestComic = getLatestComic();
-const defaultImages = comicImageMetadata(latestComic);
+export const dynamic = "force-dynamic";
 
-export const metadata = {
+export async function generateMetadata() {
+  const defaultImages = comicImageMetadata(getLatestComic(await loadRuntimeComics()));
+  return {
   metadataBase: new URL(SITE_URL),
   applicationName: SITE_NAME,
   title: {
@@ -59,7 +61,8 @@ export const metadata = {
     description: SITE_DESCRIPTION,
     images: defaultImages,
   },
-};
+  };
+}
 
 export default function RootLayout({ children }) {
   return (

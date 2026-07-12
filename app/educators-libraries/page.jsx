@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, getLatestComic, sourceItems } from "@/lib/comics";
+import { loadRuntimeComics } from "@/lib/runtime-comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
 
 const description =
@@ -60,9 +61,9 @@ export const metadata = {
   },
 };
 
-export default function EducatorsLibrariesPage() {
-  const comics = getComics();
-  const latest = getLatestComic();
+export default async function EducatorsLibrariesPage() {
+  const comics = await loadRuntimeComics();
+  const latest = getLatestComic(comics);
   const schema = {
     "@context": "https://schema.org",
     "@graph": [

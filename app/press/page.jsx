@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
+import { loadRuntimeComics } from "@/lib/runtime-comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
 
 const description =
@@ -211,8 +212,8 @@ export const metadata = {
   },
 };
 
-export default function PressPage() {
-  const comics = getComics();
+export default async function PressPage() {
+  const comics = await loadRuntimeComics();
   const latest = comics[0];
   const schema = {
     "@context": "https://schema.org",
