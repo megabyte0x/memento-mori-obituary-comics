@@ -5,40 +5,31 @@ import { LatestPanel } from "@/components/latest-panel";
 import { SiteNav } from "@/components/site-nav";
 import { SubstackSubscribe } from "@/components/substack-subscribe";
 import { Button } from "@/components/ui/button";
-import { comicImageMetadata, getComics, getLatestComic, homeSchema } from "@/lib/comics";
+import { comicImageMetadata, getLatestComic, homeSchema } from "@/lib/comics";
+import { loadRuntimeComics } from "@/lib/runtime-comics";
 import { SITE_DESCRIPTION, SITE_KEYWORDS, SITE_TITLE } from "@/lib/site";
 
-const latestComic = getLatestComic();
-const homeImages = comicImageMetadata(latestComic);
-
-export const metadata = {
-  title: SITE_TITLE,
-  description: SITE_DESCRIPTION,
-  keywords: SITE_KEYWORDS,
-  alternates: {
-    canonical: "/",
-  },
-  openGraph: {
+export async function generateMetadata() {
+  const latest = getLatestComic(await loadRuntimeComics());
+  const images = comicImageMetadata(latest);
+  return {
     title: SITE_TITLE,
     description: SITE_DESCRIPTION,
-    url: "/",
-    images: homeImages,
-  },
-  twitter: {
-    title: SITE_TITLE,
-    description: SITE_DESCRIPTION,
-    images: homeImages,
-  },
-};
+    keywords: SITE_KEYWORDS,
+    alternates: { canonical: "/" },
+    openGraph: { title: SITE_TITLE, description: SITE_DESCRIPTION, url: "/", images },
+    twitter: { title: SITE_TITLE, description: SITE_DESCRIPTION, images },
+  };
+}
 
-export default function HomePage() {
-  const comics = getComics();
-  const latest = getLatestComic();
+export default async function HomePage() {
+  const comics = await loadRuntimeComics();
+  const latest = getLatestComic(comics);
   const starterComics = comics.slice(0, 3);
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homeSchema()) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homeSchema(comics)) }} />
       <header className="home-hero">
         <SiteNav />
         <div className="home-hero-grid wrap">

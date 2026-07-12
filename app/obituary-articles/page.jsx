@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
+import { loadRuntimeComics } from "@/lib/runtime-comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
 
 const description =
@@ -114,8 +115,8 @@ export const metadata = {
   },
 };
 
-export default function ObituaryArticlesPage() {
-  const comics = getComics();
+export default async function ObituaryArticlesPage() {
+  const comics = await loadRuntimeComics();
   const latestDate = comics.reduce((max, comic) => (comic.published_at > max ? comic.published_at : max), "2026-06-04");
   const featured = comics.slice(0, 5);
   const schema = {

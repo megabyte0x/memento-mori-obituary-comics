@@ -3,33 +3,22 @@ import Link from "next/link";
 import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicImageMetadata, getLatestComic } from "@/lib/comics";
+import { loadRuntimeComics } from "@/lib/runtime-comics";
 import { publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
 
-const latestComic = getLatestComic();
 const description = "Editorial method, source standards, and publishing notes for Memento Mori Obituary Comics.";
-const images = comicImageMetadata(latestComic);
 
-export const metadata = {
-  title: "Editorial Method",
-  description,
-  alternates: {
-    canonical: "/about/",
-  },
-  openGraph: {
-    type: "website",
-    title: `Editorial Method | ${SITE_NAME}`,
-    description,
-    url: "/about/",
-    images,
-  },
-  twitter: {
-    title: `Editorial Method | ${SITE_NAME}`,
-    description,
-    images,
-  },
-};
+export async function generateMetadata() {
+  const images = comicImageMetadata(getLatestComic(await loadRuntimeComics()));
+  return {
+    title: "Editorial Method", description, alternates: { canonical: "/about/" },
+    openGraph: { type: "website", title: `Editorial Method | ${SITE_NAME}`, description, url: "/about/", images },
+    twitter: { title: `Editorial Method | ${SITE_NAME}`, description, images },
+  };
+}
 
-export default function AboutPage() {
+export default async function AboutPage() {
+  await loadRuntimeComics();
   const schema = {
     "@context": "https://schema.org",
     "@graph": [

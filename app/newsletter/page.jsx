@@ -4,33 +4,22 @@ import { SiteNav } from "@/components/site-nav";
 import { SubstackSubscribe } from "@/components/substack-subscribe";
 import { Button } from "@/components/ui/button";
 import { comicImageMetadata, getLatestComic } from "@/lib/comics";
+import { loadRuntimeComics } from "@/lib/runtime-comics";
 import { publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL, SUBSTACK_URL } from "@/lib/site";
 
-const latestComic = getLatestComic();
 const description = "A Substack dispatch for new obituary comics, source notes, and weekly memento mori reading.";
-const images = comicImageMetadata(latestComic);
 
-export const metadata = {
-  title: "Borrowed Time Dispatch",
-  description,
-  alternates: {
-    canonical: "/newsletter/",
-  },
-  openGraph: {
-    type: "website",
-    title: `Borrowed Time Dispatch | ${SITE_NAME}`,
-    description,
-    url: "/newsletter/",
-    images,
-  },
-  twitter: {
-    title: `Borrowed Time Dispatch | ${SITE_NAME}`,
-    description,
-    images,
-  },
-};
+export async function generateMetadata() {
+  const images = comicImageMetadata(getLatestComic(await loadRuntimeComics()));
+  return {
+    title: "Borrowed Time Dispatch", description, alternates: { canonical: "/newsletter/" },
+    openGraph: { type: "website", title: `Borrowed Time Dispatch | ${SITE_NAME}`, description, url: "/newsletter/", images },
+    twitter: { title: `Borrowed Time Dispatch | ${SITE_NAME}`, description, images },
+  };
+}
 
-export default function NewsletterPage() {
+export default async function NewsletterPage() {
+  await loadRuntimeComics();
   const schema = {
     "@context": "https://schema.org",
     "@graph": [

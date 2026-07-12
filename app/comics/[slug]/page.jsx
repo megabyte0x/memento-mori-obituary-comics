@@ -1,18 +1,13 @@
 import { notFound } from "next/navigation";
 
 import { ReaderShell } from "@/components/reader-shell";
-import { comicDescription, comicImageMetadata, comicKeywords, comicSchema, getComic, getComics, getNextComic } from "@/lib/comics";
+import { comicDescription, comicImageMetadata, comicKeywords, comicSchema, getComic, getNextComic } from "@/lib/comics";
+import { loadRuntimeComics } from "@/lib/runtime-comics";
 import { SITE_NAME } from "@/lib/site";
-
-export const dynamicParams = false;
-
-export function generateStaticParams() {
-  return getComics().map((comic) => ({ slug: comic.slug }));
-}
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
-  const comic = getComic(slug);
+  const comic = getComic(await loadRuntimeComics(), slug);
   if (!comic) return {};
   const title = `${comic.person} Obituary Comic - ${comic.title}`;
   const description = comicDescription(comic);
@@ -48,9 +43,10 @@ export async function generateMetadata({ params }) {
 
 export default async function ComicPage({ params }) {
   const { slug } = await params;
-  const comic = getComic(slug);
+  const comics = await loadRuntimeComics();
+  const comic = getComic(comics, slug);
   if (!comic) notFound();
-  const nextComic = getNextComic(comic.slug);
+  const nextComic = getNextComic(comics, comic.slug);
 
   return (
     <>

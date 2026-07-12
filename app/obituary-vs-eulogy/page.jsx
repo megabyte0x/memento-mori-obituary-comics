@@ -4,6 +4,7 @@ import { FaqSection } from "@/components/faq-section";
 import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
 import { comicPath, getComics, sourceItems } from "@/lib/comics";
+import { loadRuntimeComics } from "@/lib/runtime-comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
 
 const description =
@@ -116,8 +117,8 @@ export const metadata = {
   },
 };
 
-export default function ObituaryVsEulogyPage() {
-  const comics = getComics();
+export default async function ObituaryVsEulogyPage() {
+  const comics = await loadRuntimeComics();
   const latestDate = comics.reduce((max, comic) => (comic.published_at > max ? comic.published_at : max), "2026-06-05");
   const schema = {
     "@context": "https://schema.org",

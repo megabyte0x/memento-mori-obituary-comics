@@ -32,8 +32,8 @@ test("robots policy exposes sitemap and AI search crawler access", () => {
   assert.equal(rulesByAgent.get("anthropic-ai").disallow, "/");
 });
 
-test("sitemap includes canonical public routes and comic permalinks", () => {
-  const urls = sitemap().map((entry) => entry.url);
+test("sitemap includes canonical public routes and comic permalinks", async () => {
+  const urls = (await sitemap()).map((entry) => entry.url);
 
   assert.ok(urls.includes(absoluteUrl("/")));
   assert.ok(urls.includes(absoluteUrl("/obituary-stories/")));
@@ -69,7 +69,7 @@ test("sitemap includes canonical public routes and comic permalinks", () => {
 });
 
 test("llms.txt describes canonical routes and citation policy", async () => {
-  const response = llmsTxt();
+  const response = await llmsTxt();
   const body = await response.text();
 
   assert.equal(response.headers.get("content-type"), "text/plain; charset=utf-8");
