@@ -18,8 +18,11 @@ function jsonError(message, status) {
   return Response.json({ error: message }, { status });
 }
 
-function publicKeyPem(env) {
-  return env.FINALNOTES_BLOB_UPLOAD_PUBLIC_KEY || DEFAULT_BLOB_UPLOAD_PUBLIC_KEY;
+function publicKeyPems(env) {
+  return [...new Set([
+    env.FINALNOTES_BLOB_UPLOAD_PUBLIC_KEY,
+    DEFAULT_BLOB_UPLOAD_PUBLIC_KEY,
+  ].filter(Boolean))];
 }
 
 function publicationMetadata(body) {
@@ -69,11 +72,11 @@ export async function POST(request, options = {}) {
   }
 
   const signatureBase64 = String(body?.signatureBase64 || "");
-  if (!signatureBase64 || !verifyComicPublishSignature({
+  if (!signatureBase64 || !publicKeyPems(env).some((publicKeyPem) => verifyComicPublishSignature({
     metadata,
-    publicKeyPem: publicKeyPem(env),
+    publicKeyPem,
     signatureBase64,
-  })) {
+  }))) {
     return jsonError("Invalid publication signature", 401);
   }
 

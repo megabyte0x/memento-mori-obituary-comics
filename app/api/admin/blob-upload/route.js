@@ -15,8 +15,11 @@ function jsonError(message, status) {
   return Response.json({ error: message }, { status });
 }
 
-function publicKeyPem(env) {
-  return env.FINALNOTES_BLOB_UPLOAD_PUBLIC_KEY || DEFAULT_BLOB_UPLOAD_PUBLIC_KEY;
+function publicKeyPems(env) {
+  return [...new Set([
+    env.FINALNOTES_BLOB_UPLOAD_PUBLIC_KEY,
+    DEFAULT_BLOB_UPLOAD_PUBLIC_KEY,
+  ].filter(Boolean))];
 }
 
 export async function POST(request, options = {}) {
@@ -65,11 +68,11 @@ export async function POST(request, options = {}) {
     timestamp: Number(timestamp),
   };
 
-  const verified = verifyBlobUploadSignature({
+  const verified = publicKeyPems(env).some((publicKeyPem) => verifyBlobUploadSignature({
     metadata,
-    publicKeyPem: publicKeyPem(env),
+    publicKeyPem,
     signatureBase64,
-  });
+  }));
 
   if (!verified) return jsonError("Invalid upload signature", 401);
 
