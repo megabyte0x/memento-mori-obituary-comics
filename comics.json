@@ -1,5 +1,69 @@
 [
   {
+    "slug": "margaret-brown-unsinkable",
+    "title": "Margaret Brown: Unsinkable Witness",
+    "person": "Margaret Tobin Brown",
+    "years": "1867–1932",
+    "dek": "Titanic survivor who turned sudden fame into relief, suffrage, labor, and humanitarian work.",
+    "mortality_event": "Survived the 1912 Titanic sinking in Lifeboat 6, then organized survivor relief aboard the Carpathia and used her public platform for reform.",
+    "published_at": "2026-07-15",
+    "pages": [
+      "pages/01-margaret-brown-unsinkable.jpg",
+      "pages/02-margaret-brown-unsinkable.jpg",
+      "pages/03-margaret-brown-unsinkable.jpg",
+      "pages/04-margaret-brown-unsinkable.jpg",
+      "pages/05-margaret-brown-unsinkable.jpg",
+      "pages/06-margaret-brown-unsinkable.jpg",
+      "pages/07-margaret-brown-unsinkable.jpg"
+    ],
+    "page_dimensions": {
+      "pages/01-margaret-brown-unsinkable.jpg": [
+        1080,
+        1620
+      ],
+      "pages/02-margaret-brown-unsinkable.jpg": [
+        1080,
+        1620
+      ],
+      "pages/03-margaret-brown-unsinkable.jpg": [
+        1080,
+        1620
+      ],
+      "pages/04-margaret-brown-unsinkable.jpg": [
+        1080,
+        1620
+      ],
+      "pages/05-margaret-brown-unsinkable.jpg": [
+        1080,
+        1620
+      ],
+      "pages/06-margaret-brown-unsinkable.jpg": [
+        1080,
+        1620
+      ],
+      "pages/07-margaret-brown-unsinkable.jpg": [
+        1080,
+        1620
+      ]
+    },
+    "sources": [
+      {
+        "name": "Britannica",
+        "url": "https://www.britannica.com/biography/Molly-Brown"
+      },
+      {
+        "name": "State Historical Society of Missouri",
+        "url": "https://historicmissourians.shsmo.org/brown-margaret/"
+      },
+      {
+        "name": "Colorado Women’s Hall of Fame",
+        "url": "https://www.cogreatwomen.org/project/margaret-molly-tobin-brown/"
+      }
+    ],
+    "pdf": "margaret-brown-unsinkable.pdf",
+    "contact_sheet": "contact-sheet.jpg"
+  },
+  {
     "slug": "audre-lorde-cancer-journals",
     "title": "Audre Lorde: Cancer Journals",
     "person": "Audre Lorde",
