@@ -2,10 +2,11 @@ import assert from "node:assert/strict";
 import test from "node:test";
 
 import { GET as llmsTxt } from "../app/llms.txt/route.js";
+import { GET as rssFeed } from "../app/feed.xml/route.js";
 import robots from "../app/robots.js";
 import sitemap from "../app/sitemap.js";
-import { citationPassage, comicImageMetadata, comicSchema, getComics, getLatestComic, homeSchema, sourceUrls } from "../lib/comics.js";
-import { absoluteUrl, SITE_NAME, SITE_URL } from "../lib/site.js";
+import { citationPassage, comicImageMetadata, comicMetaDescription, comicMetaTitle, comicSchema, getComics, getLatestComic, homeSchema, parseYears, sourceUrls } from "../lib/comics.js";
+import { absoluteUrl, SITE_NAME, SITE_SHORT_NAME, SITE_URL } from "../lib/site.js";
 
 function graphNodes(schema) {
   return schema["@graph"] || [];
@@ -23,17 +24,26 @@ test("robots policy exposes sitemap and AI search crawler access", () => {
   assert.equal(output.host, SITE_URL);
   assert.equal(rulesByAgent.get("Googlebot").allow, "/");
   assert.equal(rulesByAgent.get("Bingbot").allow, "/");
-  assert.equal(rulesByAgent.get("GPTBot").allow, "/");
   assert.equal(rulesByAgent.get("OAI-SearchBot").allow, "/");
   assert.equal(rulesByAgent.get("ChatGPT-User").allow, "/");
-  assert.equal(rulesByAgent.get("ClaudeBot").allow, "/");
+  assert.equal(rulesByAgent.get("Claude-SearchBot").allow, "/");
+  assert.equal(rulesByAgent.get("Claude-User").allow, "/");
   assert.equal(rulesByAgent.get("PerplexityBot").allow, "/");
+  assert.equal(rulesByAgent.get("GPTBot").disallow, "/");
+  assert.equal(rulesByAgent.get("ClaudeBot").disallow, "/");
+  assert.equal(rulesByAgent.get("Google-Extended").disallow, "/");
   assert.equal(rulesByAgent.get("CCBot").disallow, "/");
   assert.equal(rulesByAgent.get("anthropic-ai").disallow, "/");
 });
 
 test("sitemap includes canonical public routes and comic permalinks", async () => {
-  const urls = (await sitemap()).map((entry) => entry.url);
+  const entries = await sitemap();
+  const urls = entries.map((entry) => entry.url);
+  const latestPublishedDate = getLatestComic().published_at;
+
+  assert.equal(entries.find((entry) => entry.url === absoluteUrl("/")).lastModified, latestPublishedDate);
+  assert.ok(entries.every((entry) => !("changeFrequency" in entry)));
+  assert.ok(entries.every((entry) => !("priority" in entry)));
 
   assert.ok(urls.includes(absoluteUrl("/")));
   assert.ok(urls.includes(absoluteUrl("/obituary-stories/")));
@@ -65,7 +75,21 @@ test("sitemap includes canonical public routes and comic permalinks", async () =
 
   for (const comic of getComics()) {
     assert.ok(urls.includes(absoluteUrl(`/comics/${comic.slug}/`)), `${comic.slug} missing from sitemap`);
+    const entry = entries.find((item) => item.url === absoluteUrl(`/comics/${comic.slug}/`));
+    assert.equal(entry.images.length, comic.pages.length, `${comic.slug} should expose every page to image search`);
   }
+});
+
+test("RSS feed exposes the newest comic permalinks and citable copy", async () => {
+  const response = await rssFeed();
+  const body = await response.text();
+  const latest = getLatestComic();
+
+  assert.equal(response.headers.get("content-type"), "application/rss+xml; charset=utf-8");
+  assert.match(body, /<rss version="2.0"/);
+  assert.match(body, new RegExp(absoluteUrl("/feed.xml").replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
+  assert.match(body, new RegExp(absoluteUrl(`/comics/${latest.slug}/`).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
+  assert.ok(body.includes(latest.citation_passage));
 });
 
 test("llms.txt describes canonical routes and citation policy", async () => {
@@ -102,7 +126,12 @@ test("llms.txt describes canonical routes and citation policy", async () => {
   assert.match(body, new RegExp(absoluteUrl("/press/").replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
   assert.match(body, /Prefer the canonical comic reader URL/);
   assert.match(body, /Do not treat panel art as a primary historical source/);
+  assert.match(body, /OAI-SearchBot/);
+  assert.match(body, /Claude-SearchBot/);
+  assert.match(body, /GPTBot/);
+  assert.match(body, /Training crawlers are blocked/);
   assert.match(body, new RegExp(absoluteUrl("/newsletter/").replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
+  assert.match(body, new RegExp(absoluteUrl("/feed.xml").replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
 
   const latestComics = getComics().slice(0, 3);
   assert.match(body, /## Latest issues/);
@@ -127,6 +156,9 @@ test("home schema exposes collection and publisher entities", () => {
   const collection = findGraphNode(schema, (node) => node["@type"] === "CollectionPage");
 
   assert.equal(organization.name, SITE_NAME);
+  assert.ok(organization.alternateName.includes(SITE_SHORT_NAME));
+  assert.equal(organization.logo.url, absoluteUrl("/assets/logo.png"));
+  assert.equal(organization.publishingPrinciples, absoluteUrl("/about/"));
   assert.equal(website.publisher["@id"], `${SITE_URL}/#organization`);
   assert.equal(collection.mainEntity.itemListElement.length, getComics().length);
 });
@@ -138,18 +170,39 @@ test("comic schema includes citable summary, page images, subject, and source ci
   const webpage = findGraphNode(schema, (node) => node["@type"] === "WebPage");
   const subject = findGraphNode(schema, (node) => node["@type"] === "Person");
   const summary = findGraphNode(schema, (node) => node["@id"]?.endsWith("#summary"));
+  const primaryImage = findGraphNode(schema, (node) => node["@id"]?.endsWith("#primary-image"));
   const images = comicImageMetadata(comic);
 
   assert.equal(webpage.about["@id"], subject["@id"]);
+  assert.equal(webpage.mainEntity["@id"], creativeWork["@id"]);
   assert.equal(webpage.abstract, comic.citation_passage);
+  assert.equal(webpage.datePublished, comic.published_at);
   assert.equal(creativeWork.publisher["@id"], `${SITE_URL}/#organization`);
+  assert.equal(creativeWork.author["@id"], `${SITE_URL}/#organization`);
   assert.equal(creativeWork.abstract, comic.citation_passage);
   assert.equal(creativeWork.hasPart.length, comic.pages.length);
+  assert.deepEqual(creativeWork.hasPart[0], { "@id": primaryImage["@id"] });
+  assert.equal(primaryImage.width, comic.page_dimensions[comic.pages[0]][0]);
+  assert.equal(primaryImage.height, comic.page_dimensions[comic.pages[0]][1]);
   assert.deepEqual(subject.sameAs, comic.sameAs);
   assert.ok(summary.itemListElement.length >= 3);
+  assert.ok(summary.itemListElement.every((item) => item.name && !("item" in item)));
   assert.ok(images[0].url.startsWith(`${SITE_URL}/media/comics/`));
 
   if (sourceUrls(comic).length > 0) {
     assert.deepEqual(creativeWork.citation, sourceUrls(comic));
   }
+});
+
+test("comic search metadata stays concise while structured descriptions remain complete", () => {
+  for (const comic of getComics()) {
+    assert.ok(comicMetaTitle(comic).length <= 60, `${comic.slug} title is too long`);
+    assert.ok(comicMetaDescription(comic).length >= 120, `${comic.slug} description is too short`);
+    assert.ok(comicMetaDescription(comic).length <= 160, `${comic.slug} description is too long`);
+  }
+});
+
+test("approximate birth years are not asserted as exact Person dates", () => {
+  assert.deepEqual(parseYears("c. 1822–1913"), { birthDate: "", deathDate: "1913" });
+  assert.deepEqual(parseYears("1934–1992"), { birthDate: "1934", deathDate: "1992" });
 });

@@ -5,7 +5,7 @@ import {
   canonicalJson,
   declaredComicAssetKeys,
   mergeComic,
-  validateComic,
+  validatePublishableComic,
 } from "../../../../lib/comic-catalog.js";
 import {
   assertFreshTimestamp,
@@ -23,7 +23,7 @@ function publicKeyPem(env) {
 }
 
 function publicationMetadata(body) {
-  const comic = validateComic(body?.comic);
+  const comic = validatePublishableComic(body?.comic);
   const metadataJson = canonicalJson(body.comic);
   const metadata = {
     slug: String(body?.slug || ""),

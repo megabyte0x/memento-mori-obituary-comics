@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 
 import { ReaderShell } from "@/components/reader-shell";
-import { comicDescription, comicImageMetadata, comicKeywords, comicSchema, getComic, getNextComic } from "@/lib/comics";
+import { comicImageMetadata, comicKeywords, comicMetaDescription, comicMetaTitle, comicSchema, getComic, getNextComic } from "@/lib/comics";
 import { loadRuntimeComics } from "@/lib/runtime-comics";
 import { SITE_NAME } from "@/lib/site";
 
@@ -9,11 +9,11 @@ export async function generateMetadata({ params }) {
   const { slug } = await params;
   const comic = getComic(await loadRuntimeComics(), slug);
   if (!comic) return {};
-  const title = `${comic.person} Obituary Comic - ${comic.title}`;
-  const description = comicDescription(comic);
+  const title = comicMetaTitle(comic);
+  const description = comicMetaDescription(comic);
   const images = comicImageMetadata(comic);
   return {
-    title,
+    title: { absolute: title },
     description,
     keywords: comicKeywords(comic),
     authors: [{ name: SITE_NAME }],
@@ -22,7 +22,7 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       type: "article",
-      title: `${title} | ${SITE_NAME}`,
+      title,
       description,
       url: `/comics/${comic.slug}/`,
       publishedTime: comic.published_at,

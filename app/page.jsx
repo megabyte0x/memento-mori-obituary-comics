@@ -13,7 +13,7 @@ export async function generateMetadata() {
   const latest = getLatestComic(await loadRuntimeComics());
   const images = comicImageMetadata(latest);
   return {
-    title: SITE_TITLE,
+    title: { absolute: SITE_TITLE },
     description: SITE_DESCRIPTION,
     keywords: SITE_KEYWORDS,
     alternates: { canonical: "/" },

@@ -137,7 +137,6 @@ export const metadata = {
 
 export default async function WhatNotToIncludeInAnObituaryPage() {
   const comics = await loadRuntimeComics();
-  const latestDate = comics.reduce((max, comic) => (comic.published_at > max ? comic.published_at : max), "2026-06-05");
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -150,12 +149,10 @@ export default async function WhatNotToIncludeInAnObituaryPage() {
         url: absoluteUrl("/what-not-to-include-in-an-obituary/"),
         description,
         inLanguage: SITE_LANGUAGE,
-        datePublished: "2026-06-05",
-        dateModified: latestDate,
         author: { "@id": `${SITE_URL}/#organization` },
         publisher: { "@id": `${SITE_URL}/#organization` },
         mainEntityOfPage: { "@id": `${SITE_URL}/what-not-to-include-in-an-obituary/#webpage` },
-        about: ["what not to include in an obituary", "obituary privacy", "obituary scams", "identity theft after death"],
+        keywords: ["what not to include in an obituary", "obituary privacy", "obituary scams", "identity theft after death"],
         mainEntity: {
           "@type": "ItemList",
           name: "Obituary details to avoid or handle carefully",

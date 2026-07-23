@@ -151,7 +151,6 @@ export const metadata = {
 
 export default async function ObituaryCostPage() {
   const comics = await loadRuntimeComics();
-  const latestDate = comics.reduce((max, comic) => (comic.published_at > max ? comic.published_at : max), "2026-06-05");
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -164,12 +163,10 @@ export default async function ObituaryCostPage() {
         url: absoluteUrl("/obituary-cost/"),
         description,
         inLanguage: SITE_LANGUAGE,
-        datePublished: "2026-06-05",
-        dateModified: latestDate,
         author: { "@id": `${SITE_URL}/#organization` },
         publisher: { "@id": `${SITE_URL}/#organization` },
         mainEntityOfPage: { "@id": `${SITE_URL}/obituary-cost/#webpage` },
-        about: ["obituary cost", "newspaper obituary cost", "paid obituary", "death notice cost"],
+        keywords: ["obituary cost", "newspaper obituary cost", "paid obituary", "death notice cost"],
         mainEntity: {
           "@type": "ItemList",
           name: "Obituary cost drivers",

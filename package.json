@@ -26,6 +26,7 @@
     "start": "next start",
     "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "deploy:images": "CLOUDFLARE_IMAGE_TRANSFORMATIONS=1 opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
     "r2:upload-live": "node scripts/upload_comics_to_live_blob.js",
     "r2:upload-live:dry-run": "node scripts/upload_comics_to_live_blob.js --dry-run",

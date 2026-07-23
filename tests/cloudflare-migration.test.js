@@ -12,6 +12,10 @@ test("package scripts build, preview, and deploy the OpenNext Worker", () => {
   assert.equal(pkg.scripts.build, "next build --webpack");
   assert.equal(pkg.scripts.preview, "opennextjs-cloudflare build && opennextjs-cloudflare preview");
   assert.equal(pkg.scripts.deploy, "opennextjs-cloudflare build && opennextjs-cloudflare deploy");
+  assert.equal(
+    pkg.scripts["deploy:images"],
+    "CLOUDFLARE_IMAGE_TRANSFORMATIONS=1 opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+  );
   assert.equal(pkg.scripts["cf-typegen"], "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts");
   assert.ok(pkg.devDependencies["@opennextjs/cloudflare"]);
   assert.ok(pkg.devDependencies.wrangler);
@@ -40,6 +44,7 @@ test("Cloudflare Worker, OpenNext, and cache configuration are committed", () =>
   const wrangler = read("wrangler.jsonc");
   assert.match(wrangler, /"main"\s*:\s*"\.open-next\/worker\.js"/);
   assert.match(wrangler, /"binding"\s*:\s*"COMICS_BUCKET"/);
+  assert.match(wrangler, /"images"\s*:\s*\{[\s\S]*"binding"\s*:\s*"IMAGES"/);
   assert.match(wrangler, /"nodejs_compat"/);
   assert.match(read("public/_headers"), /\/_next\/static\/\*/);
   assert.match(read("open-next.config.ts"), /static-assets-incremental-cache/);

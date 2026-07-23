@@ -168,7 +168,6 @@ export const metadata = {
 
 export default async function LifeStoryObituaryTemplatePage() {
   const comics = await loadRuntimeComics();
-  const latestDate = comics.reduce((max, comic) => (comic.published_at > max ? comic.published_at : max), "2026-06-04");
   const featured = comics.slice(0, 4);
   const schema = {
     "@context": "https://schema.org",
@@ -182,12 +181,10 @@ export default async function LifeStoryObituaryTemplatePage() {
         url: absoluteUrl("/life-story-obituary-template/"),
         description,
         inLanguage: SITE_LANGUAGE,
-        datePublished: "2026-06-04",
-        dateModified: latestDate,
         author: { "@id": `${SITE_URL}/#organization` },
         publisher: { "@id": `${SITE_URL}/#organization` },
         mainEntityOfPage: { "@id": `${SITE_URL}/life-story-obituary-template/#webpage` },
-        about: ["life story obituary template", "obituary template", "obituary writing", "visual obituaries"],
+        keywords: ["life story obituary template", "obituary template", "obituary writing", "visual obituaries"],
         mainEntity: {
           "@type": "ItemList",
           name: "Life story obituary template types",

@@ -70,7 +70,7 @@ export default async function ObituaryStoriesPage() {
         inLanguage: SITE_LANGUAGE,
         isPartOf: { "@id": `${SITE_URL}/#website` },
         publisher: { "@id": `${SITE_URL}/#organization` },
-        about: ["obituary stories", "obituary articles", "visual obituaries", "biographical comics"],
+        keywords: ["obituary stories", "obituary articles", "visual obituaries", "biographical comics"],
         mainEntity: {
           "@type": "ItemList",
           name: "Source-backed obituary stories",

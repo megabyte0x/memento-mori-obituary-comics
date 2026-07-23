@@ -139,7 +139,6 @@ export const metadata = {
 
 export default async function ShortObituaryExamplesPage() {
   const comics = await loadRuntimeComics();
-  const latestDate = comics.reduce((max, comic) => (comic.published_at > max ? comic.published_at : max), "2026-06-05");
   const featured = comics.slice(0, 4);
   const schema = {
     "@context": "https://schema.org",
@@ -153,12 +152,10 @@ export default async function ShortObituaryExamplesPage() {
         url: absoluteUrl("/short-obituary-examples/"),
         description,
         inLanguage: SITE_LANGUAGE,
-        datePublished: "2026-06-05",
-        dateModified: latestDate,
         author: { "@id": `${SITE_URL}/#organization` },
         publisher: { "@id": `${SITE_URL}/#organization` },
         mainEntityOfPage: { "@id": `${SITE_URL}/short-obituary-examples/#webpage` },
-        about: ["short obituary examples", "short obituary template", "simple obituary examples", "short death notice examples"],
+        keywords: ["short obituary examples", "short obituary template", "simple obituary examples", "short death notice examples"],
         mainEntity: {
           "@type": "ItemList",
           name: "Short obituary examples and templates",

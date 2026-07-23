@@ -23,6 +23,10 @@ function validComic(overrides = {}) {
     pages: ["pages/01.jpg"],
     pdf: "ada-lovelace.pdf",
     contact_sheet: "contact-sheet.jpg",
+    sources: [{ name: "Britannica", url: "https://www.britannica.com/biography/Ada-Lovelace" }],
+    citation_passage: Array.from({ length: 134 }, (_, index) => `word${index}`).join(" "),
+    page_summaries: ["Ada Lovelace writes the first published algorithm for the Analytical Engine."],
+    sameAs: ["https://www.wikidata.org/wiki/Q7259"],
     ...overrides,
   };
 }
@@ -103,5 +107,22 @@ test("POST /api/admin/comic-publish rejects an invalid signature before R2 acces
   });
 
   assert.equal(response.status, 401);
+  assert.equal(read, false);
+});
+
+test("POST /api/admin/comic-publish rejects incomplete GEO metadata before R2 access", async () => {
+  const { privateKeyPem, publicKeyPem } = testKeys();
+  let read = false;
+  const response = await POST(signedPublishRequest(validComic({ citation_passage: "too short" }), privateKeyPem), {
+    env: { FINALNOTES_BLOB_UPLOAD_PUBLIC_KEY: publicKeyPem },
+    bucket: {
+      get: async () => {
+        read = true;
+        return null;
+      },
+    },
+  });
+
+  assert.equal(response.status, 400);
   assert.equal(read, false);
 });

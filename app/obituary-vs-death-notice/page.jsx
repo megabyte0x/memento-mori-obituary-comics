@@ -147,7 +147,6 @@ export const metadata = {
 
 export default async function ObituaryVsDeathNoticePage() {
   const comics = await loadRuntimeComics();
-  const latestDate = comics.reduce((max, comic) => (comic.published_at > max ? comic.published_at : max), "2026-06-05");
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -160,12 +159,10 @@ export default async function ObituaryVsDeathNoticePage() {
         url: absoluteUrl("/obituary-vs-death-notice/"),
         description,
         inLanguage: SITE_LANGUAGE,
-        datePublished: "2026-06-05",
-        dateModified: latestDate,
         author: { "@id": `${SITE_URL}/#organization` },
         publisher: { "@id": `${SITE_URL}/#organization` },
         mainEntityOfPage: { "@id": `${SITE_URL}/obituary-vs-death-notice/#webpage` },
-        about: ["obituary vs death notice", "funeral notice", "obituary writing", "death notices"],
+        keywords: ["obituary vs death notice", "funeral notice", "obituary writing", "death notices"],
         mainEntity: {
           "@type": "ItemList",
           name: "Obituary, death notice, and funeral notice comparison",

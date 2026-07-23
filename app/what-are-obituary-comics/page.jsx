@@ -81,7 +81,6 @@ export const metadata = {
 export default async function WhatAreObituaryComicsPage() {
   const comics = await loadRuntimeComics();
   const latest = getLatestComic(comics);
-  const latestDate = comics.reduce((max, comic) => (comic.published_at > max ? comic.published_at : max), "2026-06-04");
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -94,12 +93,10 @@ export default async function WhatAreObituaryComicsPage() {
         url: absoluteUrl("/what-are-obituary-comics/"),
         description,
         inLanguage: SITE_LANGUAGE,
-        datePublished: "2026-06-04",
-        dateModified: latestDate,
         author: { "@id": `${SITE_URL}/#organization` },
         publisher: { "@id": `${SITE_URL}/#organization` },
         mainEntityOfPage: { "@id": `${SITE_URL}/what-are-obituary-comics/#webpage` },
-        about: ["obituary comics", "visual obituaries", "obituary stories", "biographical comics"],
+        keywords: ["obituary comics", "visual obituaries", "obituary stories", "biographical comics"],
       },
       {
         "@type": "WebPage",

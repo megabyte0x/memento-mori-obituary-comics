@@ -17,6 +17,9 @@
       "bucket_name": "finalnotes-comics"
     }
   ],
+  "images": {
+    "binding": "IMAGES"
+  },
   "routes": [
     {
       "pattern": "finalnotes.page",

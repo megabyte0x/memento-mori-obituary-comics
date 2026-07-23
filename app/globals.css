@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
-
 :root {
   color-scheme: dark;
   --bg: #090806;
@@ -15,9 +13,9 @@
   --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   --border-radius: 16px;
   --page-gutter: clamp(20px, 5vw, 32px);
-  --font-display: 'Cinzel', serif;
-  --font-serif: 'Cormorant Garamond', Georgia, serif;
-  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-display: var(--font-cinzel), serif;
+  --font-serif: var(--font-cormorant), Georgia, serif;
+  --font-sans: var(--font-jakarta), system-ui, -apple-system, sans-serif;
 }
 
 .theme-sepia {
@@ -3502,7 +3500,7 @@ body::before {
   margin-bottom: 0;
 }
 
-.sidebar-group h3 {
+.sidebar-group-title {
   font: 800 11px/1 var(--font-sans);
   letter-spacing: 0.1em;
   text-transform: uppercase;

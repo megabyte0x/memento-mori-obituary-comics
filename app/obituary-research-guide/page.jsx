@@ -159,7 +159,6 @@ export const metadata = {
 export default async function ObituaryResearchGuidePage() {
   const comics = await loadRuntimeComics();
   const { featured, latest, remaining } = selectResearchGuideComics(comics, "virginia-hall-limping-lady");
-  const latestDate = comics.reduce((max, comic) => (comic.published_at > max ? comic.published_at : max), "2026-06-04");
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -172,12 +171,10 @@ export default async function ObituaryResearchGuidePage() {
         url: absoluteUrl("/obituary-research-guide/"),
         description,
         inLanguage: SITE_LANGUAGE,
-        datePublished: "2026-06-04",
-        dateModified: latestDate,
         author: { "@id": `${SITE_URL}/#organization` },
         publisher: { "@id": `${SITE_URL}/#organization` },
         mainEntityOfPage: { "@id": `${SITE_URL}/obituary-research-guide/#webpage` },
-        about: ["obituary research", "genealogy", "family history", "obituary records", "life story writing"],
+        keywords: ["obituary research", "genealogy", "family history", "obituary records", "life story writing"],
         mainEntity: {
           "@type": "ItemList",
           name: "Obituary research steps",

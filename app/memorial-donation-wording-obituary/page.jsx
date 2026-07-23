@@ -163,7 +163,6 @@ export const metadata = {
 
 export default async function MemorialDonationWordingObituaryPage() {
   const comics = await loadRuntimeComics();
-  const latestDate = comics.reduce((max, comic) => (comic.published_at > max ? comic.published_at : max), "2026-06-05");
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -176,12 +175,10 @@ export default async function MemorialDonationWordingObituaryPage() {
         url: absoluteUrl("/memorial-donation-wording-obituary/"),
         description,
         inLanguage: SITE_LANGUAGE,
-        datePublished: "2026-06-05",
-        dateModified: latestDate,
         author: { "@id": `${SITE_URL}/#organization` },
         publisher: { "@id": `${SITE_URL}/#organization` },
         mainEntityOfPage: { "@id": `${SITE_URL}/memorial-donation-wording-obituary/#webpage` },
-        about: ["memorial donation wording", "in lieu of flowers", "obituary donation request", "charity memorial gifts"],
+        keywords: ["memorial donation wording", "in lieu of flowers", "obituary donation request", "charity memorial gifts"],
         mainEntity: {
           "@type": "ItemList",
           name: "Memorial donation wording options for an obituary",

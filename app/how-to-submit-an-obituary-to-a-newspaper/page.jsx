@@ -167,7 +167,6 @@ export const metadata = {
 
 export default async function NewspaperObituarySubmissionPage() {
   const comics = await loadRuntimeComics();
-  const latestDate = comics.reduce((max, comic) => (comic.published_at > max ? comic.published_at : max), "2026-06-05");
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -180,12 +179,10 @@ export default async function NewspaperObituarySubmissionPage() {
         url: absoluteUrl("/how-to-submit-an-obituary-to-a-newspaper/"),
         description,
         inLanguage: SITE_LANGUAGE,
-        datePublished: "2026-06-05",
-        dateModified: latestDate,
         author: { "@id": `${SITE_URL}/#organization` },
         publisher: { "@id": `${SITE_URL}/#organization` },
         mainEntityOfPage: { "@id": `${SITE_URL}/how-to-submit-an-obituary-to-a-newspaper/#webpage` },
-        about: ["newspaper obituary submission", "place an obituary", "death notice submission", "obituary verification"],
+        keywords: ["newspaper obituary submission", "place an obituary", "death notice submission", "obituary verification"],
         mainEntity: {
           "@type": "ItemList",
           name: "Newspaper obituary submission checklist",

@@ -130,7 +130,6 @@ export const metadata = {
 export default async function HowToWriteObituaryStoryPage() {
   const comics = await loadRuntimeComics();
   const latest = getLatestComic(comics);
-  const latestDate = comics.reduce((max, comic) => (comic.published_at > max ? comic.published_at : max), "2026-06-04");
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -143,12 +142,10 @@ export default async function HowToWriteObituaryStoryPage() {
         url: absoluteUrl("/how-to-write-an-obituary-story/"),
         description,
         inLanguage: SITE_LANGUAGE,
-        datePublished: "2026-06-04",
-        dateModified: latestDate,
         author: { "@id": `${SITE_URL}/#organization` },
         publisher: { "@id": `${SITE_URL}/#organization` },
         mainEntityOfPage: { "@id": `${SITE_URL}/how-to-write-an-obituary-story/#webpage` },
-        about: ["obituary story", "obituary writing", "life story obituary", "visual obituaries"],
+        keywords: ["obituary story", "obituary writing", "life story obituary", "visual obituaries"],
         mainEntity: {
           "@type": "ItemList",
           name: "Obituary story writing steps",

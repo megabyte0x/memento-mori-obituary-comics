@@ -81,10 +81,9 @@ export function ResourceLayout({ currentPath, kicker, title, description, childr
     "@id": `${absoluteUrl(currentPath || "/")}#breadcrumb`,
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
-      ...(activeCategory ? [{ "@type": "ListItem", position: 2, name: activeCategory.label }] : []),
       {
         "@type": "ListItem",
-        position: activeCategory ? 3 : 2,
+        position: 2,
         name: title,
         item: absoluteUrl(currentPath || "/"),
       },
@@ -120,7 +119,7 @@ export function ResourceLayout({ currentPath, kicker, title, description, childr
               <nav className="sidebar-nav" aria-label="Directory Navigation">
                 {RESOURCE_CATEGORIES.map(category => (
                   <div className="sidebar-group" key={category.id}>
-                    <h3>{category.label}</h3>
+                    <div className="sidebar-group-title">{category.label}</div>
                     <ul>
                       {category.links.map(link => {
                         const isActive = link.href === currentPath;

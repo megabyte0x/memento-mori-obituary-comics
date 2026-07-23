@@ -51,6 +51,7 @@ export async function GET() {
 - [Editorial method](${absoluteUrl("/about/")}): Source standards, subject selection, publisher notes, and AI-readable format policy.
 - [Press and review resources](${absoluteUrl("/press/")}): Link targets, story angles, subject list, and citation notes for editors, reviewers, educators, and librarians.
 - [Newsletter](${absoluteUrl("/newsletter/")}): Borrowed Time Dispatch signup for new comics and source notes.
+- [RSS feed](${absoluteUrl("/feed.xml")}): The 20 newest comic permalinks with publication dates, citable descriptions, and cover images.
 - [Substack](${SUBSTACK_URL}): External newsletter home.
 
 ## Latest issues
@@ -86,8 +87,9 @@ ${comicLinks}
 - Latest content date: ${latestDate || "not available"}.
 
 ## AI crawler access
-- Search and answer crawlers are allowed: Googlebot, Bingbot, GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, and PerplexityBot.
-- Broad training crawlers are blocked where listed in robots.txt: CCBot, anthropic-ai, Bytespider, and cohere-ai.
+- Search and answer crawlers are allowed: Googlebot, Bingbot, OAI-SearchBot, Claude-SearchBot, and PerplexityBot.
+- User-requested retrieval is allowed for ChatGPT-User and Claude-User.
+- Training crawlers are blocked where listed in robots.txt: Google-Extended, GPTBot, ClaudeBot, CCBot, anthropic-ai, Bytespider, and cohere-ai.
 
 ## Citation guidance
 - Prefer the canonical comic reader URL over direct image or PDF URLs.

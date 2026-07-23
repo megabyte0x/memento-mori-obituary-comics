@@ -1,114 +1,71 @@
-# SEO Action Plan
+# Final Notes SEO / GEO Action Plan
 
-Target: https://finalnotes.page/
-Audit date: 2026-05-31
+Updated: 2026-07-23
 
-## Implementation Status
+Target: https://www.finalnotes.page/
 
-Completed in this pass:
+## Critical — completed through 2026-07-23
 
-- Added `robots.txt`, `sitemap.xml`, and `llms.txt`.
-- Added canonical, Open Graph, Twitter card, and JSON-LD metadata to generated pages.
-- Added an `/about/` editorial method page and linked it from the homepage.
-- Added semantic reader-page `h1` headings plus crawlable `Citable Summary`, `Story Notes`, `Sources`, and `Download PDF` sections.
-- Converted source names into linked citations in `comics.json` and per-comic `comic.json` files.
-- Added page-level alt/caption summaries and image `width`/`height` attributes.
-- Added renderer tests so future generated comics keep the SEO baseline.
+1. **Deployed and verified the audited worktree.**
+   - Cloudflare Worker version `52a58ce5-c0d7-459e-8cda-f4bef9eebc1d` receives 100% of production traffic.
+   - HTTP and apex requests normalize directly to canonical HTTPS `www` URLs.
+   - Production headers omit `x-powered-by` and include the four baseline security policies.
+   - RSS and sitemap parse as XML; the sitemap exposes 68 URLs and 306 images with no ignored priority/frequency fields.
+   - All 68 sitemap URLs return direct `200` responses with exact canonicals.
+   - The live Cloudflare robots preamble agrees with the application search-versus-training policy.
+   - The Worker `IMAGES` binding serves responsive WebP candidates from private R2 media through `/optimized-image/...`.
+   - A sampled 384px Ada page is 39,478 bytes versus the 261,187-byte original JPEG, an 84.9% reduction.
+   - Browser acceptance loaded all seven Ada pages from optimized URLs with no console warnings or errors.
 
-Still open:
+## High — next 7 days
 
-- Generate WebP/AVIF display variants for comic images.
-- Add long-lived cache headers for stable static assets.
-- Replace the remaining source summaries with fuller panel transcripts if the original panel text should be indexable verbatim.
-- Deploy the updated static site to production.
+1. **Make editorial accountability explicit.**
+   - Add real author/editor names and short credentials if the publisher is comfortable doing so.
+   - Add a visible corrections/contact policy on About.
+   - Add `Person` schema only for real, visibly identified people.
 
-## Critical
+## Medium — next 30 days
 
-1. Add `robots.txt`. Completed.
-   - Include `Sitemap: https://finalnotes.page/sitemap.xml`.
-   - Explicitly allow normal search crawlers unless there is a reason not to.
-   - Decide whether AI crawlers such as GPTBot, ClaudeBot, PerplexityBot, and Google-Extended should be allowed.
+1. **Improve delivery without weakening publication freshness.**
+   - Defer reader pages below page one with reserved aspect-ratio placeholders.
+   - Pass minimal archive-card props into client islands instead of full comic records.
+   - Test a short `s-maxage`/stale-while-revalidate policy for HTML generated from the R2 catalogue.
+   - Preserve immediate correctness for newly published issue URLs.
 
-2. Add `sitemap.xml`. Completed.
-   - Include `/`.
-   - Include each comic reader page.
-   - Use `lastmod` from `published_at` or file update dates.
+2. **Improve mobile accessibility.**
+   - Raise reader toolbar, global navigation, and source-link targets toward 44–48px.
+   - Re-run the 375×812 visual pass and ensure the first comic image does not move materially farther down the viewport.
 
-3. Add canonical tags. Completed.
-   - Homepage: `https://finalnotes.page/`
-   - Comic pages: full trailing-slash reader URLs.
+3. **Harden discovery tests.**
+   - Serialize sitemap and RSS XML in integration tests.
+   - Use a production-shaped 41-comic fixture with all R2-only assets.
+   - Check XML namespaces, escaping, dates, URL count, and image count.
 
-## High
+4. **Notify indexes after successful publication.**
+   - Wire the existing IndexNow helper to run best-effort only after the manifest and public verification succeed.
+   - Add Search Console and Bing Webmaster monitoring; Google introduced separate generative-AI performance reporting in 2026.
 
-4. Add semantic headings to reader pages. Completed.
-   - Each comic page should have exactly one `h1`.
-   - Recommended text: `[Person] - [Comic Title]`.
-   - Add `h2` sections for `Comic`, `Story Notes`, `Sources`, and `Download PDF`.
+## Low — editorial growth backlog
 
-5. Add structured data. Completed.
-   - Homepage: `WebSite` plus `CollectionPage`/`ItemList`.
-   - Comic pages: `CreativeWork` or `ComicStory`, `Person`, and `BreadcrumbList`.
-   - Include publisher name, URL, image, date published, description, subject person, and source URLs.
+1. Publish unique editorial material that cannot be synthesized from generic biographies: selection rationale, source comparisons, annotated panels, and corrections history.
+2. Build authentic external discovery through relevant educators, librarians, artists, and mortality-studies communities. Do not manufacture Reddit, Wikipedia, LinkedIn, or YouTube mentions.
+3. Consider a short video or audio treatment for selected comics and link it to the same canonical subject entity.
+4. Evaluate RSL only after deciding the intended licensing policy; Cloudflare Content Signals already express `search=yes`, `ai-train=no`, and reference use at the zone layer.
 
-6. Add crawlable text for each comic. Partially completed.
-   - Minimum viable version: 3-5 paragraph story note below the reader.
-   - Better version: panel transcript or page-by-page summary.
-   - Best version: citable summary, transcript, source notes, and related works.
+## Completed and deployed in this pass
 
-7. Replace source-name-only citations with source links. Completed.
-   - Store source URLs in each `comic.json`.
-   - Render source chips as links.
-   - Prefer exact article/entity URLs over homepage-level source links.
-
-## Medium
-
-8. Add social metadata. Completed.
-   - `og:title`, `og:description`, `og:type`, `og:url`, `og:image`.
-   - `twitter:card`, `twitter:title`, `twitter:description`, `twitter:image`.
-   - Use each comic cover as the share image.
-
-9. Add `llms.txt`. Completed.
-   - Explain the site in one paragraph.
-   - List canonical pages and current comics.
-   - Include citation preference and source policy.
-
-10. Improve image delivery. Partially completed.
-   - Add `width` and `height` attributes.
-   - Generate AVIF/WebP for reader display.
-   - Keep JPEG/PDF downloads as fallbacks.
-   - Consider `fetchpriority="high"` for the first reader image.
-
-11. Improve cache headers. Not started.
-   - Give static image/PDF/CSS/JS assets long-lived cache headers.
-   - Use immutable caching only when filenames are content-stable or fingerprinted.
-
-12. Add an About / Editorial Method page. Completed.
-   - Explain authorship, publishing cadence, verification approach, source standards, and contact.
-   - Link it from the homepage and footer.
-
-## Low
-
-13. Expand title and description templates. Completed.
-   - Homepage title: `Memento Mori Obituary Comics - Daily Biographical Comics About Mortality and Work`.
-   - Comic title pattern: `[Person] Obituary Comic - [Title] | Memento Mori Obituary Comics`.
-
-14. Add breadcrumbs. Completed in JSON-LD.
-   - Homepage > Comics > Person / Comic Title.
-   - Render visually or as structured data at minimum.
-
-15. Make the homepage quote widget keyboard-accessible. Not applicable to the current local static source; the deployed page appears to include newer UI not present in this checkout.
-   - Use a `button` instead of `div onclick`.
-   - Preserve current visual styling.
-
-16. Prefer canonical comic page links in archive cards. Completed.
-   - Link card covers to `/comics/[slug]/`.
-   - Keep a secondary "Start reading" link to `#read`.
-
-## Suggested Implementation Order
-
-1. Ship discovery files: `robots.txt`, `sitemap.xml`, `llms.txt`.
-2. Add canonical/social metadata and schema generation from `comics.json`.
-3. Add reader headings and source URLs.
-4. Add transcripts or story notes.
-5. Optimize images and cache headers.
-6. Add the About / Editorial Method page.
+- Publication contract for passage length, page summaries, entity URLs, source URLs, valid dates, and XML-safe assets.
+- Post-publish cross-surface verification.
+- Accurate sitemap dates, removed ignored fields, and comic image discovery.
+- RSS feed and head autodiscovery.
+- Current-purpose search/user/training crawler policy.
+- Concise search metadata.
+- FAQ, breadcrumb, resource, comic, image, publisher, and Person schema corrections.
+- Heading source-order correction with no presentation change.
+- HTTP canonicalization and baseline response security headers.
+- Framework-hosted WOFF2 fonts with no external Google Fonts stylesheet.
+- Signed metadata-only corrections for existing R2 comics.
+- Cloudflare Workers Images binding, validated `/optimized-image/...` routes, responsive `srcset` output, immutable WebP caching, and original-byte fallback.
+- Ada Lovelace republished with a 148-word, source-grounded passage; exact text verified in the reader, RSS, and `llms.txt`.
+- IndexNow accepted the live 68-URL inventory with HTTP 200.
+- 98 passing tests, successful Next/OpenNext production builds, and live production verification.

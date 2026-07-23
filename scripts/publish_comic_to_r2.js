@@ -5,7 +5,7 @@ import path from "node:path";
 import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 
-import { canonicalJson, validateComic } from "../lib/comic-catalog.js";
+import { canonicalJson, validatePublishableComic } from "../lib/comic-catalog.js";
 import { sha256Hex, signComicPublish } from "../lib/blob-upload-auth.js";
 import { loadEnvFile } from "./comic_media_assets.js";
 
@@ -24,10 +24,15 @@ function valueAfter(argv, flag) {
 export function parseArgs(argv) {
   const slug = valueAfter(argv, "--slug");
   if (!slug) throw new Error("--slug is required");
+  const metadataFile = valueAfter(argv, "--metadata-file");
+  const metadataOnly = argv.includes("--metadata-only");
+  if (metadataOnly && !metadataFile) throw new Error("--metadata-file is required with --metadata-only");
   return {
     slug,
     baseUrl: (valueAfter(argv, "--base-url") || process.env.FINALNOTES_SITE_URL || DEFAULT_BASE_URL).replace(/\/+$/, ""),
     privateKeyPath: valueAfter(argv, "--private-key") || process.env.FINALNOTES_BLOB_UPLOAD_PRIVATE_KEY_PATH || DEFAULT_PRIVATE_KEY_PATH,
+    metadataFile,
+    metadataOnly,
   };
 }
 
@@ -54,9 +59,13 @@ function loadPrivateKey(privateKeyPath) {
   return readFileSync(privateKeyPath, "utf8");
 }
 
-function loadComic(slug) {
-  const filePath = path.join(ROOT_DIR, "comics", slug, "comic.json");
-  return validateComic(JSON.parse(readFileSync(filePath, "utf8")));
+function loadComic(slug, metadataFile = null) {
+  const filePath = metadataFile
+    ? path.resolve(metadataFile)
+    : path.join(ROOT_DIR, "comics", slug, "comic.json");
+  const comic = validatePublishableComic(JSON.parse(readFileSync(filePath, "utf8")));
+  if (comic.slug !== slug) throw new Error("--slug does not match the comic metadata file");
+  return comic;
 }
 
 async function assertResponse(response, label) {
@@ -75,6 +84,12 @@ export async function verifyPublishedComic({ baseUrl, comic }) {
   const reader = await assertResponse(await fetch(readerUrl, { cache: "no-store" }), "Published reader");
   const readerBody = await reader.text();
   if (!readerBody.includes(comic.title)) throw new Error("Published reader did not include the comic title");
+  if (!readerBody.includes(comic.citation_passage)) {
+    throw new Error("Published reader did not include the authored citation passage");
+  }
+  for (const summary of comic.page_summaries) {
+    if (!readerBody.includes(summary)) throw new Error("Published reader did not include every page summary");
+  }
 
   const canonicalUrl = `${baseUrl}/comics/${comic.slug}/`;
   for (const [label, url] of [
@@ -83,8 +98,12 @@ export async function verifyPublishedComic({ baseUrl, comic }) {
     ["llms.txt", `${baseUrl}/llms.txt`],
   ]) {
     const response = await assertResponse(await fetch(url, { cache: "no-store" }), label);
-    if (!(await response.text()).includes(canonicalUrl)) {
+    const body = await response.text();
+    if (!body.includes(canonicalUrl)) {
       throw new Error(`${label} did not include ${canonicalUrl}`);
+    }
+    if (label === "llms.txt" && !body.includes(comic.citation_passage)) {
+      throw new Error("llms.txt did not include the authored citation passage");
     }
   }
 }
@@ -92,12 +111,14 @@ export async function verifyPublishedComic({ baseUrl, comic }) {
 export async function main(argv = process.argv.slice(2)) {
   loadEnvFile();
   const options = parseArgs(argv);
-  run("python3", ["scripts/add_comic.py", "--render-only"]);
-  const comic = loadComic(options.slug);
-  const pnpmArgs = ["--", "--slug", comic.slug, "--require-assets", "--base-url", options.baseUrl];
-  run("pnpm", ["run", "r2:upload-live:dry-run", ...pnpmArgs]);
-  run("pnpm", ["run", "r2:upload-live", ...pnpmArgs]);
-  run("pnpm", ["run", "r2:verify-live", "--", "--slug", comic.slug, "--base-url", options.baseUrl]);
+  if (!options.metadataOnly) run("python3", ["scripts/add_comic.py", "--render-only"]);
+  const comic = loadComic(options.slug, options.metadataFile);
+  if (!options.metadataOnly) {
+    const pnpmArgs = ["--", "--slug", comic.slug, "--require-assets", "--base-url", options.baseUrl];
+    run("pnpm", ["run", "r2:upload-live:dry-run", ...pnpmArgs]);
+    run("pnpm", ["run", "r2:upload-live", ...pnpmArgs]);
+    run("pnpm", ["run", "r2:verify-live", "--", "--slug", comic.slug, "--base-url", options.baseUrl]);
+  }
 
   const metadata = publicationMetadata(comic);
   const response = await assertResponse(await fetch(`${options.baseUrl}/api/admin/comic-publish`, {
@@ -113,7 +134,7 @@ export async function main(argv = process.argv.slice(2)) {
   if (!result.ok || result.slug !== comic.slug) throw new Error("Comic publication returned an unexpected response");
 
   await verifyPublishedComic({ baseUrl: options.baseUrl, comic });
-  console.log(`Published ${comic.slug} to R2 without a Worker deployment.`);
+  console.log(`${options.metadataOnly ? "Updated metadata for" : "Published"} ${comic.slug} in R2 without a Worker deployment.`);
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {

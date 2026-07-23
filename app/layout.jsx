@@ -1,4 +1,5 @@
 import { Suspense } from "react";
+import { Cinzel, Cormorant_Garamond, Plus_Jakarta_Sans } from "next/font/google";
 
 import "@/app/globals.css";
 
@@ -11,9 +12,32 @@ import {
   SITE_KEYWORDS,
   SITE_LOCALE,
   SITE_NAME,
+  SITE_SHORT_NAME,
   SITE_TITLE,
   SITE_URL,
 } from "@/lib/site";
+
+const displayFont = Cinzel({
+  display: "swap",
+  subsets: ["latin"],
+  variable: "--font-cinzel",
+  weight: "variable",
+});
+
+const serifFont = Cormorant_Garamond({
+  display: "swap",
+  style: ["normal", "italic"],
+  subsets: ["latin"],
+  variable: "--font-cormorant",
+  weight: "variable",
+});
+
+const sansFont = Plus_Jakarta_Sans({
+  display: "swap",
+  subsets: ["latin"],
+  variable: "--font-jakarta",
+  weight: "variable",
+});
 
 export const dynamic = "force-dynamic";
 
@@ -24,7 +48,7 @@ export async function generateMetadata() {
   applicationName: SITE_NAME,
   title: {
     default: SITE_TITLE,
-    template: `%s | ${SITE_NAME}`,
+    template: `%s | ${SITE_SHORT_NAME}`,
   },
   description: SITE_DESCRIPTION,
   keywords: SITE_KEYWORDS,
@@ -66,7 +90,14 @@ export async function generateMetadata() {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" data-scroll-behavior="smooth">
+    <html
+      className={`${displayFont.variable} ${serifFont.variable} ${sansFont.variable}`}
+      lang="en"
+      data-scroll-behavior="smooth"
+    >
+      <head>
+        <link rel="alternate" type="application/rss+xml" title={`${SITE_NAME} RSS feed`} href="/feed.xml" />
+      </head>
       <body>
         {children}
         <Suspense fallback={null}>

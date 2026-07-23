@@ -77,7 +77,7 @@ export default async function EducatorsLibrariesPage() {
         inLanguage: SITE_LANGUAGE,
         isPartOf: { "@id": `${SITE_URL}/#website` },
         publisher: { "@id": `${SITE_URL}/#organization` },
-        about: ["graphic medicine", "grief comics", "visual biography", "obituary comics", "life writing"],
+        keywords: ["graphic medicine", "grief comics", "visual biography", "obituary comics", "life writing"],
         audience: [
           { "@type": "EducationalAudience", educationalRole: "educator" },
           { "@type": "Audience", audienceType: "librarians" },

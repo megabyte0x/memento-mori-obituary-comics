@@ -93,11 +93,9 @@ export default function ObituaryStoryWorksheetPage() {
         url: absoluteUrl("/obituary-story-worksheet/"),
         description,
         inLanguage: SITE_LANGUAGE,
-        datePublished: "2026-06-04",
-        dateModified: "2026-06-04",
         author: { "@id": `${SITE_URL}/#organization` },
         publisher: { "@id": `${SITE_URL}/#organization` },
-        about: ["obituary writing", "obituary story", "family history", "life story writing"],
+        keywords: ["obituary writing", "obituary story", "family history", "life story writing"],
         mainEntity: {
           "@type": "ItemList",
           name: "Obituary story worksheet sections",

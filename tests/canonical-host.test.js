@@ -10,6 +10,13 @@ test("apex requests permanently redirect to the canonical www host", () => {
   );
 });
 
-test("www requests are not redirected", () => {
+test("http requests permanently redirect to https on the canonical host", () => {
+  assert.equal(
+    canonicalUrlFor(new URL("http://www.finalnotes.page/about/?ref=http")).href,
+    "https://www.finalnotes.page/about/?ref=http",
+  );
+});
+
+test("canonical https requests are not redirected", () => {
   assert.equal(canonicalUrlFor(new URL("https://www.finalnotes.page/about/")), null);
 });

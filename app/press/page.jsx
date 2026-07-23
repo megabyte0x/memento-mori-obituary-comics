@@ -228,7 +228,7 @@ export default async function PressPage() {
         inLanguage: SITE_LANGUAGE,
         isPartOf: { "@id": `${SITE_URL}/#website` },
         publisher: { "@id": `${SITE_URL}/#organization` },
-        about: [
+        keywords: [
           "obituary stories",
           "obituary articles",
           "obituary comics",
