@@ -60,5 +60,18 @@
     }
   ],
   "pdf": "margaret-brown-unsinkable.pdf",
-  "contact_sheet": "contact-sheet.jpg"
+  "contact_sheet": "contact-sheet.jpg",
+  "citation_passage": "Margaret Tobin Brown (1867–1932), later widely called Molly Brown, was an American philanthropist and activist whose public life extended far beyond the Titanic legend. The State Historical Society of Missouri records that she helped passengers into Lifeboat 6 after the Titanic struck an iceberg in 1912, maintained morale while survivors waited, and helped organize relief for destitute passengers after the Carpathia rescue. Brown used wealth from her family’s Colorado mining interests to support charities, children, and social reform. The Colorado Women’s Hall of Fame notes her work for women’s suffrage, aid to families affected by the Ludlow mining disaster, and preservation in Denver. This obituary comic follows the contradiction between the famous survivor’s nickname and the larger record of organizing, advocacy, travel, and generosity. Brown died in New York City in 1932. The account draws on Britannica, the State Historical Society of Missouri, and the Colorado Women’s Hall of Fame.",
+  "page_summaries": [
+    "Margaret Tobin grows up in Hannibal, Missouri, before work and family obligations bring her to Colorado.",
+    "Marriage and the Little Jonny Mine’s wealth give Brown resources that she redirects toward civic life.",
+    "Brown becomes active in Denver reform, philanthropy, and organizations working for women and children.",
+    "The Titanic disaster places Brown in Lifeboat 6, where she helps passengers and sustains morale.",
+    "After rescue by the Carpathia, Brown helps organize relief for survivors who lack resources.",
+    "Brown uses public attention for suffrage, humanitarian aid, labor solidarity, and preservation work.",
+    "Brown dies in 1932, leaving a legacy larger than the Unsinkable Molly Brown legend."
+  ],
+  "sameAs": [
+    "https://www.wikidata.org/wiki/Q229631"
+  ]
 }
