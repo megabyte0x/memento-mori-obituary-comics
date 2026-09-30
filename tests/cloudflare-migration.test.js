@@ -45,6 +45,7 @@ test("Cloudflare Worker, OpenNext, and cache configuration are committed", () =>
   assert.match(wrangler, /"main"\s*:\s*"\.open-next\/worker\.js"/);
   assert.match(wrangler, /"binding"\s*:\s*"COMICS_BUCKET"/);
   assert.match(wrangler, /"images"\s*:\s*\{[\s\S]*"binding"\s*:\s*"IMAGES"/);
+  assert.match(wrangler, /"run_worker_first"\s*:\s*\[[\s\S]*\/media\/*/);
   assert.match(wrangler, /"nodejs_compat"/);
   assert.match(read("public/_headers"), /\/_next\/static\/\*/);
   assert.match(read("open-next.config.ts"), /static-assets-incremental-cache/);
@@ -65,6 +66,15 @@ test("canonical domains are bound directly to the Cloudflare Worker", () => {
 test("Vercel deployment files are removed", () => {
   assert.equal(existsSync(path.join(ROOT, "vercel.json")), false);
   assert.equal(existsSync(path.join(ROOT, ".vercelignore")), false);
+});
+
+test("media route reads R2 through async Cloudflare context instead of static assets", () => {
+  const route = read("app/media/[...path]/route.js");
+
+  assert.match(route, /dynamic\s*=\s*["']force-dynamic["']/);
+  assert.match(route, /getCloudflareContext\(\{\s*async:\s*true\s*\}\)/);
+  assert.match(route, /serveBlobMedia/);
+  assert.doesNotMatch(route, /ASSETS\.fetch/);
 });
 
 test("R2 runtime publishing scripts are documented and do not require a deploy", () => {

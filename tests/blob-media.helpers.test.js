@@ -16,6 +16,15 @@ test("requestPathToBlobPath maps public media URLs to private R2 keys", () => {
   );
 });
 
+test("requestPathToBlobPath strips a trailing slash from media file URLs", () => {
+  const url = new URL("https://example.com/media/comics/sample-comic/pages/01-sample-comic.jpg/");
+
+  assert.equal(
+    requestPathToBlobPath(url),
+    "comics/sample-comic/pages/01-sample-comic.jpg",
+  );
+});
+
 test("requestPathToBlobPath maps legacy rewritten query paths to private R2 keys", () => {
   const url = new URL("https://example.com/api/blob-media?path=comics/sample-comic/pages/01-sample-comic.jpg");
 
