@@ -1,0 +1,59 @@
+{
+  "catalogue_entries": 84,
+  "changed_slugs": [
+    "mary-anning-stone-and-light",
+    "maya-angelou-caged-bird-voice",
+    "solzhenitsyn-gulag-witness"
+  ],
+  "other_entries_unchanged": 81,
+  "checks": [
+    {
+      "url": "https://www.finalnotes.page/comics/mary-anning-stone-and-light/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 108,
+      "reader_images": 8,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/mary-anning-stone-and-light/",
+      "source_links": [
+        "https://www.nhm.ac.uk/discover/mary-anning-unsung-hero.html",
+        "https://www.britannica.com/biography/Mary-Anning",
+        "https://www.lymeregismuseum.co.uk/collection/mary-anning/"
+      ],
+      "published_at": "2026-06-26"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/maya-angelou-caged-bird-voice/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 104,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/maya-angelou-caged-bird-voice/",
+      "source_links": [
+        "https://mayaangelou.wfu.edu/story/family-obituary/",
+        "https://www.bbc.com/news/entertainment-arts-23514894",
+        "https://www.britannica.com/biography/Maya-Angelou",
+        "https://www.womenshistory.org/education-resources/biographies/maya-angelou"
+      ],
+      "published_at": "2026-06-22"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/solzhenitsyn-gulag-witness/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 111,
+      "reader_images": 8,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/solzhenitsyn-gulag-witness/",
+      "source_links": [
+        "https://www.britannica.com/biography/Aleksandr-Solzhenitsyn",
+        "https://www.nobelprize.org/prizes/literature/1970/solzhenitsyn/facts/",
+        "https://www.theguardian.com/books/2008/aug/04/nobelprize.russia2",
+        "https://www.solzhenitsyncenter.org/his-life-overview/biography"
+      ],
+      "published_at": "2026-06-04"
+    }
+  ],
+  "ranking_effect": "Not yet measured"
+}

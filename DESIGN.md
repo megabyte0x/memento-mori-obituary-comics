@@ -31,7 +31,7 @@
 
 ## Components
 - React components: `SiteNav`, `LatestPanel`, `ArchiveCard`, `SubstackSubscribe`, `RitualTools`, `ReaderShell`, `SupportDialog`.
-- UI primitives: shadcn-style local wrappers in `components/ui` over Radix Dialog, Radix ToggleGroup, Radix Slot, and class-variance-authority.
+- UI primitives: shadcn-style local wrappers in `components/ui` over Radix Dialog, Radix DropdownMenu, and Radix Slot, with plain CSS variant classes.
 - Token/component ownership: `app/globals.css` owns tokens and visual classes; `components/*` owns behavior; `lib/comics.js` owns archive data helpers.
 
 ## Accessibility

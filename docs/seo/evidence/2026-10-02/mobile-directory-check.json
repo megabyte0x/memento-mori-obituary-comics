@@ -1,0 +1,30 @@
+{
+  "deployment": "efbd015c-11f3-4708-8226-e83f9400f169",
+  "mobileViewport": {
+    "width": 390,
+    "height": 844
+  },
+  "closedTreeOmitsDirectory": true,
+  "escapeCheck": {
+    "dialogClosed": true,
+    "focus": "Open Resource Directory",
+    "scrollWidth": 390,
+    "width": 390
+  },
+  "closeCheck": {
+    "dialogClosed": true,
+    "focus": "Open Resource Directory"
+  },
+  "linkCheck": {
+    "dialogClosed": true,
+    "h1": "How to Write an Obituary Story",
+    "url": "https://www.finalnotes.page/how-to-write-an-obituary-story/"
+  },
+  "desktopCheck": {
+    "directoryLinks": 25,
+    "scrollWidth": 1280,
+    "sidebarDisplay": "block",
+    "triggerDisplay": "none",
+    "width": 1280
+  }
+}

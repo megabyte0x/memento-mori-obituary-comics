@@ -1,0 +1,219 @@
+Browser tab: 35, Title: "obituary comics - Google Search", URL: "https://www.google.com/search?q=obituary+comics&peek_pws=0&sxsrf=APpeQnvUWw8Bfdx5kvjNsIfAUjgZETt81Q:1790884808961".
+1 AXWebArea obituary comics - Google Search, URL: google.com/search
+	2 container gsr
+		3 container
+			4 link Skip to main content
+				5 text Skip to main content
+			6 link Description: Accessibility help, Value: support.google.com/websearch/answer/181196
+		7 container searchform
+			8 container tsf
+				9 container
+					10 link Description: Go to Google Home, Value: google.com/webhp, ID: logo
+					12 combo box (collapsed) Description: Search, Value: obituary comics, ID: ti6dpd, Secondary Actions: Expand
+					13 button Clear
+					14 button Search by voice
+					15 button Search by image
+			16 button Share
+			17 button (collapsed) Description: Google apps, Secondary Actions: Expand
+			18 pop up button (collapsed) Description: Google Account: Mega Byte (megabyte0x@gmail.com), Secondary Actions: Expand
+		19 container cnt
+			20 container
+				21 content list
+					22 link Description: AI Mode, Value: google.com/search
+					23 link (disabled) All
+						24 text All
+					25 link Description: Images, Value: google.com/search
+					26 link Description: Shopping, Value: google.com/search
+					27 link Description: Videos, Value: google.com/search
+					28 link Description: News, Value: google.com/search
+					29 link Description: Forums, Value: google.com/search
+					30 button (collapsed) More filters, Secondary Actions: Expand
+						31 container More filters
+							32 text More
+				33 button (collapsed) Tools, ID: hdtb-tls, Secondary Actions: Expand
+			34 heading Search Results, Value: 1
+				35 text Search Results
+			36 container rcnt
+				37 container oFNiHe
+					38 text These results are not personalised.
+					39 link Description: Learn more, Value: support.google.com/websearch
+				40 container Odp5De
+					41 container
+						42 container m-x-content
+							43 container
+								44 heading AI Overview, Value: 2
+									45 text AI Overview
+								46 checkbox Description: Listen, Value: 0
+							47 container
+								48 link Description: Obituary, Value: obituarycartoon.com/
+								49 text  is an 
+								50 text indie supernatural comic series created by the sibling duo Michael and Zara Barryte (The Barrytes) about a teenager named June Crocker who is raised by ghosts
+								51 text .
+								52 link Description: www.obituarycartoon.com, Value: obituarycartoon.com/
+								53 button www.obituarycartoon.com (+2) – related results
+									54 text www.obituarycartoon.com
+									55 text  +2
+								56 heading About Obituary, Value: 3
+									57 text About 
+									58 text Obituary
+								59 content list
+									60 container
+										61 AXListMarker • 
+										62 text The Story:  A supernatural coming-of-age adventure following June Crocker navigating life and the afterlife alongside her ghostly guardians from different time periods.
+										63 link Description: Kickstarter, Value: kickstarter.com/projects/michaelbarryte/obituary-volume-2
+										64 button Kickstarter (+2) – related results
+											65 text Kickstarter
+											66 text  +2
+								67 container
+									68 content list
+										69 container
+											70 link Description: Obituary Comics: Volume I | obituarycartoon. Opens in new tab., Value: obituarycartoon.com/product-page/obituary-comics-volume-i
+											71 text www.obituarycartoon.com
+											72 button Description: About this result, ID: snui-atr-0ru-aoHcEIOhseMP-_WCmAs_ghmf9n_30
+											73 text Obituary Comics: Volume I | obituarycartoon
+											74 text Contains the first 6 episodes in the Obituary comic series written by The Barrytes (Michael & Zara) -- Home Ectoplasm, Cursed, Spe...
+										75 container
+											76 link Description: Obituary - Episodes | WEBTOON. Opens in new tab., Value: webtoons.com/en/canvas/obituary-episodes/list
+											77 text Webtoon
+											78 button Description: About this result, ID: snui-atr-0ru-aoHcEIOhseMP-_WCmAs_ghmf9n_34
+											79 text Obituary - Episodes | WEBTOON
+											80 text Subscribed to your list Unsubscribed for your list You can subscribe up to 500 CANVAS series. * The Halloween JamBOOree Oct 29, 20...
+						81 button (collapsed) Description: Show more AI Overview, Secondary Actions: Expand
+							82 text Show more
+				83 container center_col
+					84 container gevUs
+						85 container rso
+							86 container
+								87 heading Web results, Value: 2
+									88 text Web results
+								89 link Description: ABOUT | obituarycartoon obituarycartoon.com https://www.obituarycartoon.com, Value: obituarycartoon.com/
+								90 button About this result
+								91 container
+									92 text Obituary is a comic series about a teen raised by ghosts  from different ... O-Bits are short comics akin to those found in the funny pages of a newspaper.
+									93 link Description: Read more, Value: obituarycartoon.com/
+							94 container
+								95 link Description: Obituary - Episodes Webtoon https://www.webtoons.com › obituary-episodes › list, Value: webtoons.com/en/canvas/obituary-episodes/list
+								96 button About this result
+								97 text Follow June Crocker in her adventures among the living and the dead
+								98 text . Are we sort of burying the lead on things? Like the fact that June's parents were crushed ...
+								99 link Description: Read more, Value: webtoons.com/en/canvas/obituary-episodes/list
+							100 container
+								101 link Description: Obituary: The Comic Series Patreon https://www.patreon.com › obituarycomic, Value: patreon.com/cw/obituarycomic
+								102 button About this result
+								103 text What is Obituary? 
+								104 text Obituary is a tale told by The Barrytes
+								105 text  about June Crocker, a teen who has been raised by ghosts, and her adventures among the living and the ...
+								106 link Description: Read more, Value: patreon.com/cw/obituarycomic
+							107 container
+								108 link Value: kickstarter.com/projects/michaelbarryte/obituary-volume-2, Description: Obituary: The Comic Series - Michael Barryte Kickstarter https://www.kickstarter.com › obituary-volume-2
+								109 button About this result
+								110 text 29 Oct 2025  —  Enjoy over 100 full-color pages of 
+								111 text Obituary
+								112 text , a supernatural coming-of-age story, now ready to adorn your shelf!
+							113 container
+								114 link Value: cartoonstock.com/directory/o/obituaries.asp, Description: Obituaries Cartoons and Comics - funny pictures from ... CartoonStock https://www.cartoonstock.com › directory › obituaries
+								115 button About this result
+								116 text Obituaries funny cartoons
+								117 text  from CartoonStock directory - the world's largest on-line collection of cartoons and comics.
+							118 container
+								119 heading Images, Value: 2
+									120 text Images
+								121 container iur
+									122 container
+										123 link Description: Obituary: Volume 2 by Michael Barryte » Obituary: Volume 2 ... Kickstarter, Value: kickstarter.com/projects/michaelbarryte/obituary-volume-2
+										124 button Obituary: Volume 2 by Michael Barryte » Obituary: Volume 2 ...
+											125 image Description: Obituary: Volume 2 by Michael Barryte » Obituary: Volume 2 ..., ID: dimg_0ru-atDkBOK6seMP7MKDcA_3
+										126 button About this result
+									127 container
+										128 link Description: Man writes his own humorous obituary with creative liberties Facebook, Value: facebook.com/61556015258426/posts/for-the-comic-about-the-man-writing-his-own-obituaryhow-about-crafting-a-legacy-/122267270996200508/
+										129 button Man writes his own humorous obituary with creative liberties
+											130 image Description: Man writes his own humorous obituary with creative liberties, ID: dimg_0ru-atDkBOK6seMP7MKDcA_7
+										131 button About this result
+									132 container
+										133 link Description: Obituary: The Cartoon Series Obituary, Value: obituarycartoon.com/home
+										134 button Obituary: The Cartoon Series
+											135 image Description: Obituary: The Cartoon Series, ID: dimg_0ru-atDkBOK6seMP7MKDcA_5
+										136 button About this result
+								137 button Show more images
+									138 text Show more images
+							139 container
+								140 heading Web results, Value: 2
+									141 text Web results
+								142 link Value: obituarycartoon.com/product-page/obituary-comics-volume-i, Description: Obituary Comics: Volume I | obituarycartoon obituarycartoon.com https://www.obituarycartoon.com › product-page › obitu...
+								143 button About this result
+								144 container
+									145 text Contains the first 6 episodes in the Obituary comic series  written by The Barrytes (Michael & Zara) -- Home Ectoplasm, Cursed, Spectre, Revamplin' Gramplin, ...
+									146 link Description: Read more, Value: obituarycartoon.com/product-page/obituary-comics-volume-i
+								147 text $19.99
+							148 container
+								149 heading People also ask, Value: 2
+									150 text People also ask
+								151 button (collapsed) Which comic artist recently passed away?, Secondary Actions: Expand
+									152 text Which comic artist recently passed away?
+								153 button (collapsed) Why is it called obituary?, Secondary Actions: Expand
+									154 text Why is it called obituary?
+								155 button (collapsed) What does "obituary" mean?, Secondary Actions: Expand
+									156 text What does "obituary" mean?
+								157 button (collapsed) What are some comics about life and death?, Secondary Actions: Expand
+									158 text What are some comics about life and death?
+							159 container
+								160 heading Web results, Value: 2
+									161 text Web results
+								162 link Description: Obituary (The Cartoon Series) YouTube https://www.youtube.com › videos, Value: youtube.com/@obituarythecartoonseries820/videos
+								163 button About this result
+								164 container
+									165 text Obituary is a cartoon series  about June Crocker, a teen who was raised by ghosts from different time periods, and her adventures among the living and the ...
+									166 link Description: Read more, Value: youtube.com/@obituarythecartoonseries820/videos
+							167 container
+								168 link Description: Obituary The Comics Journal https://www.tcj.com › topic › obituary, Value: tcj.com/topic/obituary/
+								169 button About this result
+								170 text Larry Stark, pioneer of EC Comics fandom and noted theater critic, dies at 93
+								171 text . Thommy Burns remembers EC critic and fan Larry Stark, who died on May 1.
+								172 link Description: Read more, Value: tcj.com/topic/obituary/
+					173 container
+						174 container
+							175 heading People also search for, Value: 2
+								176 text People also search for
+							177 link Description: Obituary comics free, Value: google.com/search
+							178 link Description: Obituary comics online, Value: google.com/search
+							179 link Description: Obituary webtoon, Value: google.com/search
+							180 link Description: Obituary novel, Value: google.com/search
+							181 link Description: Obituary kickstarter, Value: google.com/search
+						182 heading Page navigation, Value: 1
+							183 text Page navigation
+						184 text 1
+						185 link Description: Page 2, Value: google.com/search
+						186 link Description: Page 3, Value: google.com/search
+						187 link Description: Page 4, Value: google.com/search
+						188 link Description: Page 5, Value: google.com/search
+						189 link Description: Page 6, Value: google.com/search
+						190 link Description: Page 7, Value: google.com/search
+						191 link Description: Page 8, Value: google.com/search
+						192 link Description: Page 9, Value: google.com/search
+						193 link Description: Page 10, Value: google.com/search
+						194 heading Next, Value: 2
+							195 link Description: Next, Value: google.com/search, ID: pnnext
+			196 container sfooter
+				197 heading Footer links, Value: 1
+					198 text Footer links
+				199 container fbar
+					200 text Results are not personalised -
+					201 link Description: Try with personalisation, Value: google.com/search
+					202 container
+						203 text India
+						204 container
+							205 button Bengaluru, Karnataka  - From your IP address
+								206 container
+									207 text Bengaluru, Karnataka
+								208 container
+									209 text  -  From your IP address
+							210 text  - 
+							211 button Update location
+								212 text Update location
+					213 container fsl
+						214 link Description: Help, Value: support.google.com/websearch/
+						215 link Description: Send feedback, Value: google.com/search
+						216 link Description: Privacy, Value: policies.google.com/privacy
+						217 link Description: Terms, Value: policies.google.com/terms
+
+The focused UI element is 1 AXWebArea obituary comics - Google Search, URL: google.com/search

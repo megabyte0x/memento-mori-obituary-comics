@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-02",
+  "results": [
+    {
+      "slug": "jacques-lusseyran-light-in-darkness",
+      "passed": true,
+      "checks": [
+        "reader title",
+        "reader introduction",
+        "every page summary",
+        "homepage canonical link",
+        "sitemap canonical link",
+        "llms canonical link",
+        "latest-section passage when listed"
+      ]
+    },
+    {
+      "slug": "christy-brown-left-foot",
+      "passed": true,
+      "checks": [
+        "reader title",
+        "reader introduction",
+        "every page summary",
+        "homepage canonical link",
+        "sitemap canonical link",
+        "llms canonical link",
+        "latest-section passage when listed"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "url": "https://www.finalnotes.page/what-are-obituary-comics/",
+  "status": 200,
+  "definition_scoped_to_finalnotes": true,
+  "reading_guidance_rendered": true,
+  "fictional_series_official_link": true,
+  "search_mechanics_section_removed": true,
+  "h1_count": 1,
+  "canonical": "https://www.finalnotes.page/what-are-obituary-comics/",
+  "reader_links": [
+    "/comics/christy-brown-left-foot/",
+    "/comics/nellie-bly-ten-days/",
+    "/comics/dietrich-bonhoeffer-letters-before-dawn/",
+    "/comics/hildegard-living-light/",
+    "/comics/elizabeth-blackwell-one-eye/"
+  ],
+  "json_ld_parses": true,
+  "ineligible_faq_schema_absent": true,
+  "tests_passed": 111,
+  "ranking_effect": "Not yet measured"
+}

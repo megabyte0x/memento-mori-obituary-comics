@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { ChevronRight, Menu, X, BookOpen } from "lucide-react";
 import { SiteNav } from "@/components/site-nav";
+import { Dialog, DialogClose, DialogContent, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { absoluteUrl, SITE_URL } from "@/lib/site";
 
 export const RESOURCE_CATEGORIES = [
@@ -58,6 +59,32 @@ export const RESOURCE_CATEGORIES = [
   }
 ];
 
+function DirectoryLinks({ currentPath }) {
+  return (
+    <nav className="sidebar-nav" aria-label="Directory Navigation">
+      {RESOURCE_CATEGORIES.map(category => (
+        <div className="sidebar-group" key={category.id}>
+          <div className="sidebar-group-title">{category.label}</div>
+          <ul>
+            {category.links.map(link => (
+              <li key={link.href}>
+                <Link
+                  href={link.href}
+                  className={`sidebar-link ${link.href === currentPath ? "active" : ""}`}
+                  aria-current={link.href === currentPath ? "page" : undefined}
+                >
+                  <span>{link.label}</span>
+                  <ChevronRight className="sidebar-link-chevron" size={10} />
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </nav>
+  );
+}
+
 export function ResourceLayout({ currentPath, kicker, title, description, children }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -97,49 +124,32 @@ export function ResourceLayout({ currentPath, kicker, title, description, childr
       <div className="resource-page-wrapper">
         {/* Mobile Sidebar Toggle Button */}
         <div className="mobile-directory-bar wrap">
-          <button
-            className="mobile-directory-trigger"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            aria-expanded={mobileMenuOpen}
-            aria-label="Toggle Resource Directory"
-          >
-            {mobileMenuOpen ? <X size={16} /> : <Menu size={16} />}
-            <span>Directory Guide Hub</span>
-          </button>
+          <Dialog open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
+            <DialogTrigger asChild>
+              <button className="mobile-directory-trigger" aria-label="Open Resource Directory">
+                <Menu size={16} />
+                <span>Directory Guide Hub</span>
+              </button>
+            </DialogTrigger>
+            <DialogContent className="resource-directory-dialog" aria-describedby={undefined}>
+              <DialogTitle className="sidebar-title">Resources Directory</DialogTitle>
+              <DialogClose className="resource-directory-close" aria-label="Close Resource Directory">
+                <X size={20} />
+              </DialogClose>
+              <DirectoryLinks currentPath={currentPath} />
+            </DialogContent>
+          </Dialog>
         </div>
 
         <div className="resource-layout-grid wrap">
           {/* Sidebar Navigation */}
-          <aside className={`resource-sidebar ${mobileMenuOpen ? "is-open" : ""}`}>
+          <aside className="resource-sidebar">
             <div className="sidebar-inner">
               <div className="sidebar-title">
                 <BookOpen size={14} className="sidebar-title-icon" />
                 <span>Resources Directory</span>
               </div>
-              <nav className="sidebar-nav" aria-label="Directory Navigation">
-                {RESOURCE_CATEGORIES.map(category => (
-                  <div className="sidebar-group" key={category.id}>
-                    <div className="sidebar-group-title">{category.label}</div>
-                    <ul>
-                      {category.links.map(link => {
-                        const isActive = link.href === currentPath;
-                        return (
-                          <li key={link.href}>
-                            <Link
-                              href={link.href}
-                              className={`sidebar-link ${isActive ? "active" : ""}`}
-                              aria-current={isActive ? "page" : undefined}
-                            >
-                              <span>{link.label}</span>
-                              <ChevronRight className="sidebar-link-chevron" size={10} />
-                            </Link>
-                          </li>
-                        );
-                      })}
-                    </ul>
-                  </div>
-                ))}
-              </nav>
+              <DirectoryLinks currentPath={currentPath} />
             </div>
           </aside>
 

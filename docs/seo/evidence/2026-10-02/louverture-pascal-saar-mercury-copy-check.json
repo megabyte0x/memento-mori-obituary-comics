@@ -1,0 +1,78 @@
+{
+  "catalogue_entries": 84,
+  "changed_slugs": [
+    "toussaint-louverture-open-gate",
+    "blaise-pascal-night-of-fire",
+    "betye-saar-liberation-box",
+    "freddie-mercury-last-light"
+  ],
+  "other_entries_unchanged": 80,
+  "production_readback_matches": true,
+  "checks": [
+    {
+      "url": "https://www.finalnotes.page/comics/toussaint-louverture-open-gate/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 98,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/toussaint-louverture-open-gate/",
+      "source_links": [
+        "https://www.britannica.com/biography/Toussaint-Louverture",
+        "https://blackpast.org/global-african-history/loverture-toussaint-1743-1803/",
+        "https://www.historytoday.com/archive/feature/wrongful-death-toussaint-louverture",
+        "https://chateaudejoux.com/en/discover-the-chateau/joux-a-place-of-memories-past/"
+      ],
+      "published_at": "2026-08-21"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/blaise-pascal-night-of-fire/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 102,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/blaise-pascal-night-of-fire/",
+      "source_links": [
+        "https://www.britannica.com/biography/Blaise-Pascal",
+        "https://plato.stanford.edu/entries/pascal/",
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Pascal/"
+      ],
+      "published_at": "2026-08-18"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/betye-saar-liberation-box/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 101,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/betye-saar-liberation-box/",
+      "source_links": [
+        "https://www.britannica.com/biography/Betye-Saar",
+        "https://www.latimes.com/entertainment-arts/story/2026-07-27/betye-saar-dead-artist-assemblage-aunt-jemima-99",
+        "https://www.pbs.org/newshour/arts/artist-betye-saar-whose-work-reflects-black-identity-and-spirituality-dies-at-99",
+        "https://www.theartnewspaper.com/2026/07/29/betye-saar-obituary-legendary-los-angeles-assemblage-artist",
+        "https://betyesaar.com/news/betye-saar-1926-2026"
+      ],
+      "published_at": "2026-08-13"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/freddie-mercury-last-light/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 94,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/freddie-mercury-last-light/",
+      "source_links": [
+        "https://www.britannica.com/biography/Freddie-Mercury",
+        "https://www.queenonline.com/freddie_mercury",
+        "https://www.britannica.com/topic/Queen-British-rock-group",
+        "https://www.history.com/this-day-in-history/november-24/freddie-mercury-death-aids"
+      ],
+      "published_at": "2026-08-12"
+    }
+  ],
+  "ranking_effect": "Not yet measured"
+}

@@ -1,0 +1,78 @@
+{
+  "catalogue_entries": 84,
+  "changed_slugs": [
+    "dith-pran-killing-fields",
+    "wilma-rudolph-fastest-woman",
+    "roald-dahl-crash-and-chocolate",
+    "jean-dominique-bauby-blink-manuscript"
+  ],
+  "other_entries_unchanged": 80,
+  "production_readback_matches": true,
+  "checks": [
+    {
+      "url": "https://www.finalnotes.page/comics/dith-pran-killing-fields/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 100,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/dith-pran-killing-fields/",
+      "source_links": [
+        "https://www.nytimes.com/2008/03/31/nyregion/31dith.html",
+        "https://www.britannica.com/biography/Dith-Pran",
+        "https://www.history.com/articles/dith-pran-killing-fields-cambodia-khmer-rouge",
+        "https://www.dithpranfoundation.org/dithpran"
+      ],
+      "published_at": "2026-07-02"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/wilma-rudolph-fastest-woman/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 99,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/wilma-rudolph-fastest-woman/",
+      "source_links": [
+        "https://www.britannica.com/biography/Wilma-Rudolph",
+        "https://www.nytimes.com/1994/11/13/obituaries/wilma-rudolph-star-of-the-1960-olympics-dies-at-54.html",
+        "https://www.womenshistory.org/education-resources/biographies/wilma-rudolph"
+      ],
+      "published_at": "2026-06-21"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/roald-dahl-crash-and-chocolate/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 100,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/roald-dahl-crash-and-chocolate/",
+      "source_links": [
+        "https://www.britannica.com/biography/Roald-Dahl",
+        "https://www.roalddahl.com/about",
+        "https://www.historic-uk.com/CultureUK/The-Marvellous-Life-Of-Roald-Dahl/",
+        "https://www.thechildrenstrust.org.uk/brain-injury-information/latest/roald-dahls-revolutionary-work-in-brain-injury",
+        "https://www.rafbf.org/news-and-stories/news/roald-dahl-his-raf-career"
+      ],
+      "published_at": "2026-06-14"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/jean-dominique-bauby-blink-manuscript/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 96,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/jean-dominique-bauby-blink-manuscript/",
+      "source_links": [
+        "https://www.bookreporter.com/authors/jean-dominique-bauby",
+        "https://www.theguardian.com/film/2008/jan/27/2",
+        "https://www.britannica.com/topic/The-Diving-Bell-and-the-Butterfly-film-by-Schnabel",
+        "https://www.penguinrandomhouse.com/books/9616/the-diving-bell-and-the-butterfly-by-jean-dominique-bauby/9780375701214/"
+      ],
+      "published_at": "2026-06-07"
+    }
+  ],
+  "ranking_effect": "Not yet measured"
+}

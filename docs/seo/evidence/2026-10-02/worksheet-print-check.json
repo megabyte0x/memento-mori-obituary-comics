@@ -1,0 +1,16 @@
+{
+  "url": "https://www.finalnotes.page/obituary-story-worksheet/",
+  "status": 200,
+  "print_button_rendered": true,
+  "dead_pdf_anchor_removed": true,
+  "canonical": "https://www.finalnotes.page/obituary-story-worksheet/",
+  "h1_count": 1,
+  "json_ld_parses": true,
+  "tests": {
+    "python_passed": 7,
+    "node_passed": 104
+  },
+  "worker_version": "29ba124e-df64-4ad9-9db4-8c935961911b",
+  "browser_limit": "Click timed out during the native print flow; Escape restored page interaction. Native print preview could not be inspected by the available app control. No physical print or saved PDF was produced.",
+  "ranking_effect": "Unmeasured"
+}

@@ -1,0 +1,510 @@
+{
+  "readers_checked": 84,
+  "checks": [
+    {
+      "slug": "christy-brown-left-foot",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/christy-brown-left-foot/"
+    },
+    {
+      "slug": "nellie-bly-ten-days",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/nellie-bly-ten-days/"
+    },
+    {
+      "slug": "dietrich-bonhoeffer-letters-before-dawn",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/dietrich-bonhoeffer-letters-before-dawn/"
+    },
+    {
+      "slug": "hildegard-living-light",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/hildegard-living-light/"
+    },
+    {
+      "slug": "elizabeth-blackwell-one-eye",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/elizabeth-blackwell-one-eye/"
+    },
+    {
+      "slug": "henrietta-lacks-immortal-cells",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/henrietta-lacks-immortal-cells/"
+    },
+    {
+      "slug": "claude-monet-water-lilies",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/claude-monet-water-lilies/"
+    },
+    {
+      "slug": "horatio-nelson-trafalgar-light",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/horatio-nelson-trafalgar-light/"
+    },
+    {
+      "slug": "gene-roddenberry-desert-starship",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/gene-roddenberry-desert-starship/"
+    },
+    {
+      "slug": "randy-pausch-last-lecture",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/randy-pausch-last-lecture/"
+    },
+    {
+      "slug": "patricia-douglas-girl-27",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/patricia-douglas-girl-27/"
+    },
+    {
+      "slug": "mary-de-rachewiltz-tower-of-cantos",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/mary-de-rachewiltz-tower-of-cantos/"
+    },
+    {
+      "slug": "anna-akhmatova-requiem-queue",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/anna-akhmatova-requiem-queue/"
+    },
+    {
+      "slug": "david-bowie-blackstar-farewell",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/david-bowie-blackstar-farewell/"
+    },
+    {
+      "slug": "victor-klemperer-dresden-diaries",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/victor-klemperer-dresden-diaries/"
+    },
+    {
+      "slug": "antonio-gramsci-prison-notebooks",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/antonio-gramsci-prison-notebooks/"
+    },
+    {
+      "slug": "toussaint-louverture-open-gate",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/toussaint-louverture-open-gate/"
+    },
+    {
+      "slug": "judy-heumann-sign-504",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/judy-heumann-sign-504/"
+    },
+    {
+      "slug": "ryan-white-school-door",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/ryan-white-school-door/"
+    },
+    {
+      "slug": "blaise-pascal-night-of-fire",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/blaise-pascal-night-of-fire/"
+    },
+    {
+      "slug": "henry-dunant-solferino-memory",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/henry-dunant-solferino-memory/"
+    },
+    {
+      "slug": "betye-saar-liberation-box",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/betye-saar-liberation-box/"
+    },
+    {
+      "slug": "freddie-mercury-last-light",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/freddie-mercury-last-light/"
+    },
+    {
+      "slug": "beethoven-silence-ode",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/beethoven-silence-ode/"
+    },
+    {
+      "slug": "dorothea-lange-limp-and-lens",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/dorothea-lange-limp-and-lens/"
+    },
+    {
+      "slug": "tsutomu-yamaguchi-double-light",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/tsutomu-yamaguchi-double-light/"
+    },
+    {
+      "slug": "vaclav-havel-cell-to-castle",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/vaclav-havel-cell-to-castle/"
+    },
+    {
+      "slug": "tina-turner-private-dancer",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/tina-turner-private-dancer/"
+    },
+    {
+      "slug": "witold-pilecki-auschwitz-report",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/witold-pilecki-auschwitz-report/"
+    },
+    {
+      "slug": "frederick-douglass-stolen-thunder",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/frederick-douglass-stolen-thunder/"
+    },
+    {
+      "slug": "rani-lakshmibai-jhansi-flame",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/rani-lakshmibai-jhansi-flame/"
+    },
+    {
+      "slug": "bessie-coleman-queen-bess",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/bessie-coleman-queen-bess/"
+    },
+    {
+      "slug": "hedy-lamarr-secret-signal",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/hedy-lamarr-secret-signal/"
+    },
+    {
+      "slug": "florence-nightingale-lamp-and-ledger",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/florence-nightingale-lamp-and-ledger/"
+    },
+    {
+      "slug": "alan-turing-snow-white-machine",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/alan-turing-snow-white-machine/"
+    },
+    {
+      "slug": "buckminster-fuller-world-machine",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/buckminster-fuller-world-machine/"
+    },
+    {
+      "slug": "katharine-graham-newsroom-after-the-gun",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/katharine-graham-newsroom-after-the-gun/"
+    },
+    {
+      "slug": "dina-babbitt-painted-out-of-hell",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/dina-babbitt-painted-out-of-hell/"
+    },
+    {
+      "slug": "barbara-rubin-underground-spark",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/barbara-rubin-underground-spark/"
+    },
+    {
+      "slug": "saint-exupery-desert-star",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/saint-exupery-desert-star/"
+    },
+    {
+      "slug": "john-mccain-hanoi-sky",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/john-mccain-hanoi-sky/"
+    },
+    {
+      "slug": "roger-ebert-voice-after-silence",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/roger-ebert-voice-after-silence/"
+    },
+    {
+      "slug": "ada-lovelace-notes-before-night",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/ada-lovelace-notes-before-night/"
+    },
+    {
+      "slug": "robert-louis-stevenson-lantern-lungs",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/robert-louis-stevenson-lantern-lungs/"
+    },
+    {
+      "slug": "john-lewis-good-trouble",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/john-lewis-good-trouble/"
+    },
+    {
+      "slug": "samuel-beckett-wound-waiting",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/samuel-beckett-wound-waiting/"
+    },
+    {
+      "slug": "nancy-sheung-darkroom-light",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/nancy-sheung-darkroom-light/"
+    },
+    {
+      "slug": "robbie-basho-raga-ghost",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/robbie-basho-raga-ghost/"
+    },
+    {
+      "slug": "garrincha-bent-legged-angel",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/garrincha-bent-legged-angel/"
+    },
+    {
+      "slug": "margaret-brown-unsinkable",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/margaret-brown-unsinkable/"
+    },
+    {
+      "slug": "audre-lorde-cancer-journals",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/audre-lorde-cancer-journals/"
+    },
+    {
+      "slug": "oliver-sacks-gratitude-near-the-end",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/oliver-sacks-gratitude-near-the-end/"
+    },
+    {
+      "slug": "django-reinhardt-two-finger-fire",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/django-reinhardt-two-finger-fire/"
+    },
+    {
+      "slug": "terry-fox-marathon-of-hope",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/terry-fox-marathon-of-hope/"
+    },
+    {
+      "slug": "virginia-hall-limping-lady",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/virginia-hall-limping-lady/"
+    },
+    {
+      "slug": "dith-pran-killing-fields",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/dith-pran-killing-fields/"
+    },
+    {
+      "slug": "srinivasa-ramanujan-mock-theta",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/srinivasa-ramanujan-mock-theta/"
+    },
+    {
+      "slug": "irena-sendler-jars-of-names",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/irena-sendler-jars-of-names/"
+    },
+    {
+      "slug": "ernest-shackleton-endurance-after-ice",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/ernest-shackleton-endurance-after-ice/"
+    },
+    {
+      "slug": "paul-kalanithi-breath-becomes-air",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/paul-kalanithi-breath-becomes-air/"
+    },
+    {
+      "slug": "flannery-oconnor-lupus-and-grace",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/flannery-oconnor-lupus-and-grace/"
+    },
+    {
+      "slug": "mary-anning-stone-and-light",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/mary-anning-stone-and-light/"
+    },
+    {
+      "slug": "john-milton-darkness-visible",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/john-milton-darkness-visible/"
+    },
+    {
+      "slug": "jacques-lusseyran-light-in-darkness",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/jacques-lusseyran-light-in-darkness/"
+    },
+    {
+      "slug": "maya-angelou-caged-bird-voice",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/maya-angelou-caged-bird-voice/"
+    },
+    {
+      "slug": "wilma-rudolph-fastest-woman",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/wilma-rudolph-fastest-woman/"
+    },
+    {
+      "slug": "christopher-reeve",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/christopher-reeve/"
+    },
+    {
+      "slug": "vincent-van-gogh",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/vincent-van-gogh/"
+    },
+    {
+      "slug": "helen-keller-water-pump",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/helen-keller-water-pump/"
+    },
+    {
+      "slug": "roald-dahl-crash-and-chocolate",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/roald-dahl-crash-and-chocolate/"
+    },
+    {
+      "slug": "george-orwell-throat-of-truth",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/george-orwell-throat-of-truth/"
+    },
+    {
+      "slug": "alfred-nobel-merchant-of-death",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/alfred-nobel-merchant-of-death/"
+    },
+    {
+      "slug": "jean-dominique-bauby-blink-manuscript",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/jean-dominique-bauby-blink-manuscript/"
+    },
+    {
+      "slug": "elie-wiesel-night-witness",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/elie-wiesel-night-witness/"
+    },
+    {
+      "slug": "cervantes-captive-knight",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/cervantes-captive-knight/"
+    },
+    {
+      "slug": "solzhenitsyn-gulag-witness",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/solzhenitsyn-gulag-witness/"
+    },
+    {
+      "slug": "primo-levi",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/primo-levi/"
+    },
+    {
+      "slug": "henri-matisse-second-life",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/henri-matisse-second-life/"
+    },
+    {
+      "slug": "harriet-tubman-road-back",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/harriet-tubman-road-back/"
+    },
+    {
+      "slug": "stephen-hawking-time-under-shadow",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/stephen-hawking-time-under-shadow/"
+    },
+    {
+      "slug": "louis-zamperini-after-the-raft",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/louis-zamperini-after-the-raft/"
+    },
+    {
+      "slug": "frida-kahlo-broken-mirror",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/frida-kahlo-broken-mirror/"
+    },
+    {
+      "slug": "viktor-frankl-meaning-under-ash",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/viktor-frankl-meaning-under-ash/"
+    },
+    {
+      "slug": "dostoyevsky-borrowed-time",
+      "status": 200,
+      "exact_server_rendered_introduction": true,
+      "canonical": "https://www.finalnotes.page/comics/dostoyevsky-borrowed-time/"
+    }
+  ],
+  "ranking_effect": "Not yet measured"
+}

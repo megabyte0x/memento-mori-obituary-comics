@@ -1,0 +1,68 @@
+{
+  "coverage_report_date": "2026-09-21",
+  "coverage_totals": {
+    "indexed": 86,
+    "excluded": 44
+  },
+  "crawled_exclusion_examples": {
+    "canonical_html": 10,
+    "pdf": 4,
+    "asset_or_feed": 4
+  },
+  "discovered_examples": 6,
+  "confirmed_now": [
+    {
+      "url": "https://www.finalnotes.page/comics/frederick-douglass-stolen-thunder/",
+      "google_status": "URL is on Google; Page is indexed",
+      "previous_inspection": "Discovered - currently not indexed",
+      "evidence": "douglass-google-indexed.jpg"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/garrincha-bent-legged-angel/",
+      "google_status": "URL is on Google; Page is indexed",
+      "previous_inspection": "Discovered - currently not indexed",
+      "evidence": "garrincha-google-indexed.jpg"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/john-lewis-good-trouble/",
+      "google_status": "URL is on Google; Page is indexed",
+      "previous_inspection": "Discovered - currently not indexed",
+      "evidence": "john-lewis-google-indexed.jpg"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/margaret-brown-unsinkable/",
+      "google_status": "URL is on Google; Page is indexed",
+      "previous_inspection": "Discovered - currently not indexed",
+      "evidence": "margaret-brown-google-indexed.jpg"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/viktor-frankl-meaning-under-ash/",
+      "google_status": "URL is on Google; Page is indexed",
+      "previous_inspection": "Discovered - currently not indexed",
+      "evidence": "frankl-google-indexed.jpg"
+    },
+    {
+      "url": "https://www.finalnotes.page/obituary-lesson-plan/",
+      "google_status": "URL is on Google; Page is indexed",
+      "previous_inspection": "Crawled - currently not indexed",
+      "evidence": "lesson-plan-google-indexed.jpg"
+    },
+    {
+      "url": "https://www.finalnotes.page/about/",
+      "google_status": "URL is on Google; Page is indexed",
+      "previous_inspection": "Crawled - currently not indexed",
+      "evidence": "about-google-indexed.jpg"
+    },
+    {
+      "url": "https://www.finalnotes.page/press/",
+      "google_status": "URL is on Google; Page is indexed",
+      "previous_inspection": "Crawled - currently not indexed",
+      "evidence": "press-google-indexed.jpg"
+    }
+  ],
+  "missing_content": [
+    "https://www.finalnotes.page/comics/james-baldwin-fire-next-time/"
+  ],
+  "limits": "Indexing does not prove high ranking or causation by an indexing request. Aggregate coverage is older than individual URL Inspection.",
+  "next_action": "Eight previously excluded pages now confirmed indexed. Do not repeat indexing requests. Measure query/page performance after the reporting period advances and assess earned external discovery."
+}

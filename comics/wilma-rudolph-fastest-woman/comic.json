@@ -53,8 +53,13 @@
     {
       "name": "New York Times obituary",
       "url": "https://www.nytimes.com/1994/11/13/obituaries/wilma-rudolph-star-of-the-1960-olympics-dies-at-54.html"
+    },
+    {
+      "name": "National Women's History Museum: Wilma Rudolph",
+      "url": "https://www.womenshistory.org/education-resources/biographies/wilma-rudolph"
     }
   ],
   "pdf": "wilma-rudolph-fastest-woman.pdf",
-  "contact_sheet": "contact-sheet.jpg"
+  "contact_sheet": "contact-sheet.jpg",
+  "citation_passage": "Wilma Rudolph was an American sprinter who became the first American woman to win three track-and-field gold medals at a single Olympic Games, in Rome in 1960. Childhood polio had required her to wear a leg brace, with her family helping care for her. She first excelled at basketball before turning to track. After her Olympic success, she insisted that her hometown celebration be integrated and later worked in education and community sports. This seven-page biographical comic connects childhood illness, athletic training, and public influence. The National Women's History Museum biography offers a source for checking the historical background."
 }

@@ -1,0 +1,281 @@
+- navigation "Primary":
+  - link "Memento Mori":
+    - /url: /
+  - link "Archive":
+    - /url: /#archive
+  - link "Newsletter":
+    - /url: /newsletter/
+  - button "Open more navigation links":
+    - generic: More
+  - button "Support"
+- button "Toggle Resource Directory" [expanded] [active]:
+  - generic: Directory Guide Hub
+- complementary:
+  - generic: Resources Directory
+  - navigation "Directory Navigation":
+    - generic: Obituary Writing Guides
+    - list:
+      - link "Writing Guide":
+        - /url: /how-to-write-an-obituary-story/
+        - generic: Writing Guide
+      - link "Writing Prompts":
+        - /url: /obituary-writing-prompts/
+        - generic: Writing Prompts
+      - link "Wording Examples":
+        - /url: /obituary-wording/
+        - generic: Wording Examples
+      - link "Donation Wording":
+        - /url: /memorial-donation-wording-obituary/
+        - generic: Donation Wording
+      - link "Obituary Template":
+        - /url: /life-story-obituary-template/
+        - generic: Obituary Template
+      - link "Printable Worksheet":
+        - /url: /obituary-story-worksheet/
+        - generic: Printable Worksheet
+    - generic: Checklists & Costs
+    - list:
+      - link "Obituary Checklist":
+        - /url: /obituary-checklist/
+        - generic: Obituary Checklist
+      - link "Mistakes to Avoid":
+        - /url: /obituary-mistakes-to-avoid/
+        - generic: Mistakes to Avoid
+      - link "Obituary Cost Guide":
+        - /url: /obituary-cost/
+        - generic: Obituary Cost Guide
+      - link "Newspaper Submission":
+        - /url: /how-to-submit-an-obituary-to-a-newspaper/
+        - generic: Newspaper Submission
+      - link "Privacy Checklist":
+        - /url: /what-not-to-include-in-an-obituary/
+        - generic: Privacy Checklist
+      - link "Fake Obituary Sites":
+        - /url: /fake-obituary-sites/
+        - generic: Fake Obituary Sites
+    - generic: Explainers & Formats
+    - list:
+      - link "Obituary Comics":
+        - /url: /what-are-obituary-comics/
+        - generic: Obituary Comics
+      - link "Notice vs Obituary":
+        - /url: /obituary-vs-death-notice/
+        - generic: Notice vs Obituary
+      - link "Eulogy vs Obituary":
+        - /url: /obituary-vs-eulogy/
+        - generic: Eulogy vs Obituary
+      - link "Short Examples":
+        - /url: /short-obituary-examples/
+        - generic: Short Examples
+      - link "Standard Examples":
+        - /url: /obituary-examples/
+        - generic: Standard Examples
+      - link "Research Guide":
+        - /url: /obituary-research-guide/
+        - generic: Research Guide
+    - generic: Resources & Method
+    - list:
+      - link "Obituary Generator":
+        - /url: /free-obituary-generator/
+        - generic: Obituary Generator
+      - link "Stories Archive":
+        - /url: /obituary-stories/
+        - generic: Stories Archive
+      - link "Obituary Articles":
+        - /url: /obituary-articles/
+        - generic: Obituary Articles
+      - link "Educators & Libraries":
+        - /url: /educators-libraries/
+        - generic: Educators & Libraries
+      - link "Obituary Lesson Plan":
+        - /url: /obituary-lesson-plan/
+        - generic: Obituary Lesson Plan
+      - link "Editorial Method":
+        - /url: /about/
+        - generic: Editorial Method
+      - link "Press Resources":
+        - /url: /press/
+        - generic: Press Resources
+- main:
+  - article:
+    - generic: Memorial donation wording
+    - heading "Memorial Donation Wording For An Obituary" [level=1]
+    - paragraph: "Practical memorial donation wording for an obituary: in lieu of flowers examples, charity details to verify, donation-link safety, family-support language, and thank-you tracking."
+    - region "Quick Answer":
+      - heading "Quick Answer" [level=2]
+      - paragraph: "The clearest memorial donation wording names the person, the organization, the official donation path, and how the gift should be designated. A simple version is: In memory of [Name], memorial donations may be made to [Organization Name] at [official website or mailing address]."
+      - paragraph: Before publishing, verify the charity name, donation link, mailing address, family-notification process, and whether the request is for a registered charity, memorial fund, scholarship, or family support. Those are different gift paths, and the obituary should make the difference clear.
+      - paragraph:
+        - strong: Does in lieu of flowers mean no flowers?
+        - text: It expresses the family’s preference for a donation.
+        - link "Emily Post’s funeral etiquette guidance":
+          - /url: https://emilypost.com/advice/funeral-etiquette-donations-in-lieu-of-flowers
+        - text: says flowers may accompany a contribution; when choosing one tribute, follow the family’s request. State a no-flowers preference explicitly rather than relying on the phrase alone.
+    - region "Donation Language You Can Adapt":
+      - generic: Wording examples
+      - heading "Donation Language You Can Adapt" [level=2]
+      - heading "Simple charity request" [level=3]
+      - paragraph: In memory of [Name], memorial donations may be made to [Organization Name] at [official website or mailing address].
+      - paragraph:
+        - strong: "Use when:"
+        - text: Use this when the family has chosen one official charity or memorial-giving page.
+      - heading "Gentler in-lieu wording" [level=3]
+      - paragraph: If you wish to honor [Name]'s memory, please consider a gift to [Organization Name], a cause close to [his/her/their] heart.
+      - paragraph:
+        - strong: "Use when:"
+        - text: Use this when the phrase in lieu of flowers feels too blunt, but the family still wants to guide gifts toward a cause.
+      - heading "Flowers or donations both welcome" [level=3]
+      - paragraph: Flowers are welcome, or memorial gifts may be directed to [Organization Name] in [Name]'s memory.
+      - paragraph:
+        - strong: "Use when:"
+        - text: Use this when some relatives may want to send flowers and others may prefer a donation.
+      - heading "Favorite charity option" [level=3]
+      - paragraph: Those wishing to remember [Name] may make a donation to a charity meaningful to them, noting the gift in [Name]'s memory.
+      - paragraph:
+        - strong: "Use when:"
+        - text: Use this when the family does not want to name one organization or when the person's interests were broad.
+      - heading "Scholarship or memorial fund" [level=3]
+      - paragraph: Memorial contributions may be made to the [Fund Name], established to support [purpose]. Details are available at [official link].
+      - paragraph:
+        - strong: "Use when:"
+        - text: Use this only after the fund, school, community foundation, or fiscal sponsor is ready to receive gifts.
+      - heading "Family support or funeral expenses" [level=3]
+      - paragraph: For those who wish to help, contributions toward funeral and family expenses may be made through [official fundraiser or funeral-home link].
+      - paragraph:
+        - strong: "Use when:"
+        - text: Use this when support is going to the family rather than a registered charity, and say that clearly.
+    - region "Wording For A Donation Made In Someone’s Memory":
+      - heading "Wording For A Donation Made In Someone’s Memory" [level=2]
+      - paragraph: An obituary asks others to give; a donor’s card tells the family that a gift has already been made. Use the examples above for the request. For a card or personal note after donating, name the person you are remembering and the organization that received the gift.
+      - paragraph:
+        - strong: "Simple donor note:"
+        - text: “I have made a gift to [Organization Name] in remembrance of [Name]. I’m thinking of you and your family.”
+      - paragraph:
+        - strong: "With a personal memory:"
+        - text: “I’ll always remember [Name]’s kindness when [brief memory]. I have made a memorial gift to [Organization Name] to honor that kindness.”
+      - paragraph:
+        - text: These are original examples to adapt after the donation is complete.
+        - link "St. Jude’s memorial-card guidance":
+          - /url: https://www.stjude.org/give/memorials-and-dedications/memorial-donation-wording.html
+        - text: recommends making the message personal, identifying the cause, and proofreading the names. Check whether the charity will send its own notification so you know what the family will receive.
+    - region "Details To Confirm First":
+      - generic: Before publishing
+      - heading "Details To Confirm First" [level=2]
+      - article:
+        - heading "Use the official organization name" [level=3]
+        - paragraph: Write the charity name exactly as the organization uses it. Avoid abbreviations that could point donors to the wrong nonprofit.
+      - article:
+        - heading "Add one verified giving path" [level=3]
+        - paragraph: Use the charity's official memorial-giving link, tribute page, phone number, or mailing address. If the link is long, use the funeral home or memorial page as the single source of truth.
+      - article:
+        - heading "Say how to designate the gift" [level=3]
+        - paragraph: Tell donors whether to write the person's name in an online memorial field, check memo line, card message, or tribute form.
+      - article:
+        - heading "Check family notification" [level=3]
+        - paragraph: Many charities can send a notice to the family without sharing the gift amount. Confirm what donor and family information is needed before publishing.
+      - article:
+        - heading "Separate charity gifts from family help" [level=3]
+        - paragraph: If money is going to funeral expenses, a spouse, children, or a household, do not describe it as a charity donation. Use plain family-support language.
+      - article:
+        - heading "Keep records after publication" [level=3]
+        - paragraph: Save the obituary text, donation link, charity contact, donor notices, and thank-you list so the family can acknowledge gifts later.
+    - region "Avoid These Donation-Wording Mistakes":
+      - heading "Avoid These Donation-Wording Mistakes" [level=2]
+      - list:
+        - listitem: Do not publish an unverified donation link, shortened URL, or third-party fundraiser that the family has not approved.
+        - listitem: Do not name a charity before confirming it can receive memorial gifts in the person's name.
+        - listitem: Do not imply donations are mandatory; the wording should guide people, not pressure them.
+        - listitem: Do not mix up flowers, Mass cards, family-expense gifts, and charity donations in one unclear sentence.
+        - listitem: Do not list multiple organizations without checking spelling, addresses, and whether each link is official.
+        - listitem: Do not promise tax treatment in the obituary. Let the charity provide receipts and tax language.
+    - region "Memorial Donation Wording FAQ":
+      - generic: Questions & answers
+      - heading "Memorial Donation Wording FAQ" [level=2]
+      - generic "How do you word memorial donations in an obituary? +"
+      - paragraph: "A clear line names the charity and how to give: \"In lieu of flowers, the family requests that memorial donations be made to [charity name], [address or website].\" Add the program or fund if the gift is for a specific cause, and confirm the charity's exact legal name and donation page so readers reach the right organization."
+      - generic "What is the proper wording for in lieu of flowers? +"
+      - generic "How do you ask for donations instead of flowers? +"
+      - generic "Can you suggest donations to more than one charity? +"
+    - region "Sources And Related Memorial-Giving Guidance":
+      - generic: References
+      - heading "Sources And Related Memorial-Giving Guidance" [level=2]
+      - list:
+        - 'link "St. Jude: wording for memorial donation cards"':
+          - /url: https://www.stjude.org/give/memorials-and-dedications/memorial-donation-wording.html
+        - paragraph: Donor-card guidance on personal memories, naming the recipient charity, and checking names before sending a note.
+        - 'link "Funeral Basics: in lieu of flowers and donations"':
+          - /url: https://www.funeralbasics.org/in-lieu-of-flowers-and-donations/
+        - paragraph: Explains what in lieu of flowers means in an obituary, how donors can give, and why family wishes should guide the response.
+        - 'link "Emily Post: donations in lieu of flowers"':
+          - /url: https://emilypost.com/advice/funeral-etiquette-donations-in-lieu-of-flowers
+        - paragraph: Etiquette guidance on donation notices, memorial notes, family acknowledgement, and when flowers may still be appropriate.
+        - 'link "American Cancer Society: memorial and honor giving"':
+          - /url: https://www.cancer.org/donate/memorial-giving.html
+        - paragraph: Example of a major charity memorial-giving page with tribute fundraisers, memorial gift envelopes, and family acknowledgement options.
+        - 'link "American Heart Association: honor and memorial gifts"':
+          - /url: https://www.heart.org/en/honor-memorial
+        - paragraph: Example of a nonprofit memorial-giving page that allows donations in memory of a loved one and family notification.
+        - 'link "Alzheimer''s Association: memorial donations"':
+          - /url: https://www.alz.org/manh/about/the-giving-spirit
+        - paragraph: Example charity page with obituary verbiage, online donation instructions, and funeral-home director contact details.
+        - 'link "Funeral.com: memorial donations in lieu of flowers"':
+          - /url: https://funeral.com/blogs/the-journal/memorial-donations-in-lieu-of-flowers-how-to-request-and-manage-gifts-in-someone-s-honor
+        - paragraph: Family-facing guide on choosing a charity, wording donation requests, setting up memorial funds, and tracking thank-you notes.
+    - region "Read Source-Backed Obituary Stories":
+      - generic: Examples
+      - heading "Read Source-Backed Obituary Stories" [level=2]
+      - list:
+        - 'link "Christy Brown: Christy Brown: Left Foot, Whole Life"':
+          - /url: /comics/christy-brown-left-foot/
+        - paragraph: The Irish writer and painter who forced a full life through one controllable foot.
+        - generic: "2026-10-01 - Sources: Dictionary of Irish Biography: Brown, Christopher (“Christy”), Encyclopaedia Britannica: Christy Brown, New York Times obituary: Christy Brown, Author, Dies"
+        - 'link "Nellie Bly: Nellie Bly: Ten Days"':
+          - /url: /comics/nellie-bly-ten-days/
+        - paragraph: The undercover reporter who entered Blackwell's Island asylum, turned ten days of confinement into public evidence, and helped give investigative journalism teeth.
+        - generic: "2026-09-30 - Sources: Encyclopaedia Britannica — Nellie Bly, National Women's History Museum — Nellie Bly, New York Times archive obituary — Nellie Bly dies of pneumonia"
+        - 'link "Dietrich Bonhoeffer: Dietrich Bonhoeffer: Letters Before Dawn"':
+          - /url: /comics/dietrich-bonhoeffer-letters-before-dawn/
+        - paragraph: A German pastor and theologian entered prison under the Nazi state and sent out letters that turned confinement into one of the twentieth century’s enduring witnesses of conscience.
+        - generic: "2026-09-24 - Sources: United States Holocaust Memorial Museum — Dietrich Bonhoeffer, KZ-Gedenkstätte Flossenbürg — Dietrich Bonhoeffer, Britannica — Dietrich Bonhoeffer"
+        - 'link "Hildegard of Bingen: Hildegard of Bingen: Living Light"':
+          - /url: /comics/hildegard-living-light/
+        - paragraph: A sickly medieval visionary turned frailty into manuscripts, chants, monasteries, medicine, and a public authority that still glows nine centuries later.
+        - generic: "2026-09-08 - Sources: Britannica — St. Hildegard, Vatican — Doctor of the Church apostolic letter, Catholic Encyclopedia — Saint Hildegard"
+    - region "Related Resources":
+      - heading "Related Resources" [level=2]
+      - link "Writing Guide Turn a memory or record into a sourced life story. Read Guide →":
+        - /url: /how-to-write-an-obituary-story/
+        - heading "Writing Guide" [level=3]
+        - paragraph: Turn a memory or record into a sourced life story.
+        - generic: Read Guide →
+      - link "Writing Prompts Memory prompts and legacy interview questions. Read Guide →":
+        - /url: /obituary-writing-prompts/
+        - heading "Writing Prompts" [level=3]
+        - paragraph: Memory prompts and legacy interview questions.
+        - generic: Read Guide →
+      - link "Wording Examples Phrasing for opening lines, family lists, and services. Read Guide →":
+        - /url: /obituary-wording/
+        - heading "Wording Examples" [level=3]
+        - paragraph: Phrasing for opening lines, family lists, and services.
+        - generic: Read Guide →
+      - link "Obituary Template Copyable structures for biography-focused obituaries. Read Guide →":
+        - /url: /life-story-obituary-template/
+        - heading "Obituary Template" [level=3]
+        - paragraph: Copyable structures for biography-focused obituaries.
+        - generic: Read Guide →
+      - link "Printable Worksheet Gather facts and sketch out a life story on paper. Read Guide →":
+        - /url: /obituary-story-worksheet/
+        - heading "Printable Worksheet" [level=3]
+        - paragraph: Gather facts and sketch out a life story on paper.
+        - generic: Read Guide →
+- contentinfo:
+  - paragraph: Source-backed visual obituaries. Clean comics, verified lives, no motivational slop.
+  - link "Home Archive":
+    - /url: /
+  - generic: ·
+  - link "Editorial Method":
+    - /url: /about/
+  - generic: ·
+  - link "Press Resources":
+    - /url: /press/
+- alert

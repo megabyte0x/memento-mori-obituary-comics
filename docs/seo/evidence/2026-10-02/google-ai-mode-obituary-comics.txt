@@ -1,0 +1,185 @@
+Browser tab: 35, Title: "obituary comics - Google Search", URL: "https://www.google.com/search?q=obituary+comics&sca_esv=3cc28e5c82341c61&sxsrf=APpeQnvKOzHof6siYcmGm5KmJWr8WyEC8g%3A1790884818085&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYQR84vEJkyW62ul7Q3Bkhu9i-p_ALr7slx3OYYzZdb8IW-R1LzE5KqO0zvVKgsBns8kgMJaSh6kAHTMsDvnMCK2zFrqX3wG413nZj_zIfXTdTZb8HfTVJZEJ4tuAcusjIC770cV5fULhfIO6Gr7ULNw1zNwcA&vsint=&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwjQlanrzZmXAxViXWwGHWzhAA4Q2J8OegQIFhAD&biw=1280&bih=720&dpr=2&cq=obituary+comics&zx=1790884844149&mstk=AUtExfA8EPYAenDORzl4_Tk0_1yU1U7aV-A0p7dZCqUYLV7Aj9erbQOpFDmexBKorZd9PEdbJp_EQwWbtdKSz2P2ViUllCwB5G0Boz5M3_EeGfpV58D8f6LBu9KxPmrr3YvIJYDC7BCMabwzN3DHcJA9yDZk--xdSlm68RQsnIgausyUqbCaaElJr7zpeyMvN4I6k2z4moox5RwHGowgFTkieVhWz7yk41NjT-ft0u_iDpJYlLiCeMd8qLHVxO3E0FshyjeVdzZt_Mfrobs8s6ZFwwi2ZoW9i3QGLGJgQ1BigW8QNjdnw5vSqmCf5ZT-49x8QjTQf_CjTCUuyg&csuir=1&mtid=6Lu-ari_JOqbnesP9JzP2Qg".
+1 AXWebArea obituary comics - Google Search, URL: google.com/search?q=obituary+comics&sca_esv=3cc28e5c82341c61&sxsrf=APpeQnvKOzHof6siYcmGm5KmJWr8WyEC8g%3A1790884818085&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYQR84vEJkyW62ul7Q3Bkhu9i-p_ALr7slx3OYYzZdb8IW-R1LzE5KqO0zvVKgsBns8kgMJaSh6kAHTMsDvnMCK2zFrqX3wG413nZj_zIfXTdTZb8HfTVJZEJ4tuAcusjIC770cV5fULhfIO6Gr7ULNw1zNwcA&vsint=&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwjQlanrzZmXAxViXWwGHWzhAA4Q2J8OegQIFhAD&biw=1280&bih=720&dpr=2&cq=obituary+comics&zx=1790884844149&mstk=AUtExfA8EPYAenDORzl4_Tk0_1yU1U7aV-A0p7dZCqUYLV7Aj9erbQOpFDmexBKorZd9PEdbJp_EQwWbtdKSz2P2ViUllCwB5G0Boz5M3_EeGfpV58D8f6LBu9KxPmrr3YvIJYDC7BCMabwzN3DHcJA9yDZk--xdSlm68RQsnIgausyUqbCaaElJr7zpeyMvN4I6k2z4moox5RwHGowgFTkieVhWz7yk41NjT-ft0u_iDpJYlLiCeMd8qLHVxO3E0FshyjeVdzZt_Mfrobs8s6ZFwwi2ZoW9i3QGLGJgQ1BigW8QNjdnw5vSqmCf5ZT-49x8QjTQf_CjTCUuyg&csuir=1&mtid=6Lu-ari_JOqbnesP9JzP2Qg
+	2 container gsr
+		3 container
+			4 link Skip to main content
+				5 text Skip to main content
+			6 link Description: Accessibility help, Value: support.google.com/websearch/answer/181196?hl=en-IN
+		7 link Description: Go to Google Home, Value: google.com/webhp?hl=en&ictx=0&sa=X&ved=2ahUKEwi404f2zZmXAxXqTWcHHXTOM4sQPHoECAYQBA
+		8 container cnt
+			9 container
+				10 content list
+					11 link (disabled) AI Mode
+						12 text AI Mode
+					13 link Description: All, Value: google.com/search?q=obituary+comics&sca_esv=3cc28e5c82341c61&aep=1&cs=0&biw=1280&bih=720&prmd=ivns&sxsrf=APpeQnu0MwIVmj1LgRqYnXd_Iq5oNVrz5A:1790884840606&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYQR84vEJkyW62ul7Q3Bkhu9i-p_ALr7slx3OYYzZdb8IW-R1LzE5KqO0zvVKgsBns8kgMJaSh6kAHTMsDvnMCK2zFrqX3wG413nZj_zIfXTdTZb8HfTVJZEJ4tuAcusjIC770cV5fULhfIO6Gr7ULNw1zNwcA&sa=X&ved=2ahUKEwi404f2zZmXAxXqTWcHHXTOM4sQ0pQJegQICBAF
+					14 link Description: Images, Value: google.com/search?q=obituary+comics&sa=X&sca_esv=3cc28e5c82341c61&aep=1&cs=0&biw=1280&bih=720&sxsrf=APpeQnu0MwIVmj1LgRqYnXd_Iq5oNVrz5A:1790884840606&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYQR84vEJkyW62ul7Q3Bkhu9i-p_ALr7slx3OYYzZdb8IW-R1LzE5KqO0zvVKgsBns8kgMJaSh6kAHTMsDvnMCK2zFrqX3wG413nZj_zIfXTdTZb8HfTVJZEJ4tuAcusjIC770cV5fULhfIO6Gr7ULNw1zNwcA&ved=2ahUKEwi404f2zZmXAxXqTWcHHXTOM4sQtKgLegQICBAH
+					15 link Description: Shopping, Value: google.com/search?q=obituary+comics&sa=X&sca_esv=3cc28e5c82341c61&aep=1&cs=0&biw=1280&bih=720&sxsrf=APpeQnu0MwIVmj1LgRqYnXd_Iq5oNVrz5A:1790884840606&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYQR84vEJkyW62ul7Q3Bkhu9i-p_ALr7slx3OYYzZdb8IW-R1LzE5KqO0zvVKgsBns8kgMJaSh6kAHTMsDvnMCK2zFrqX3wG413nZj_zIfXTdTZb8HfTVJZEJ4tuAcusjIC770cV5fULhfIO6Gr7ULNw1zNwcA&ved=1t:220175&ictx=111
+					16 link Description: Videos, Value: google.com/search?q=obituary+comics&sa=X&sca_esv=3cc28e5c82341c61&aep=1&cs=0&biw=1280&bih=720&sxsrf=APpeQnu0MwIVmj1LgRqYnXd_Iq5oNVrz5A:1790884840606&udm=vids&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYQR84vEJkyW62ul7Q3Bkhu9i-p_ALr7slx3OYYzZdb8IW-R1LzE5KqO0zvVKgsBns8kgMJaSh6kAHTMsDvnMCK2zFrqX3wG413nZj_zIfXTdTZb8HfTVJZEJ4tuAcusjIC770cV5fULhfIO6Gr7ULNw1zNwcA&ved=2ahUKEwi404f2zZmXAxXqTWcHHXTOM4sQtKgLegQICBAL
+					17 button (collapsed) More filters, Secondary Actions: Expand
+						18 container More filters
+							19 text More
+				20 button (collapsed) Description: Google apps, Secondary Actions: Expand
+				21 pop up button (collapsed) Description: Google Account: Mega Byte (megabyte0x@gmail.com), Secondary Actions: Expand
+			22 container
+				23 container
+					24 container
+						25 button AI Mode history
+						26 button New thread
+							27 image
+						28 button (collapsed) Description: Settings, Secondary Actions: Expand
+							29 image
+					30 heading AI Mode conversation: obituary comics, Value: 1
+						31 text AI Mode conversation: obituary comics
+					32 container
+						33 button Copy obituary comics
+						34 button Edit obituary comics
+						35 heading obituary comics, Value: 2
+							36 text obituary comics
+					37 container
+						38 text The phrase 
+						39 text "obituary comics"
+						40 text  generally refers to three distinct concepts: 
+						41 text a specific indie supernatural webcomic series, biographical tribute comics dedicated to late industry creators, or single-panel editorial cartoons focusing on mortality
+						42 text .
+						43 link Description: The Comics Journal, Value: tcj.com/topic/obituary/
+						44 button The Comics Journal (+3) – related results
+							45 text The Comics Journal
+							46 text  +3
+						47 heading 1. Obituary: The Comic Series, Value: 3
+							48 text 1. 
+							49 button Obituary: The Comic Series
+						50 text This is an indie supernatural coming-of-age comic created by the sibling duo Michael and Zara Barryte (The Barrytes).
+						51 link Description: www.obituarycartoon.com, Value: obituarycartoon.com/
+						52 button www.obituarycartoon.com (+1) – related results
+							53 text www.obituarycartoon.com
+							54 text  +1
+						55 content list
+							56 container
+								57 AXListMarker • 
+								58 text The Plot:  It follows June Crocker, a teenager raised by a diverse group of ghosts from different historical eras, navigating her adventures among the living.
+								59 link Description: Patreon, Value: patreon.com/cw/obituarycomic
+								60 button Patreon (+1) – related results
+									61 text Patreon
+									62 text  +1
+							63 container
+								64 AXListMarker • 
+								65 text Origin:  It originally started as an animated pilot titled  "Obituary: A Grave Beginning"  in 2016 (animated by Studio Yotta) before transitioning into an indie comic format in 2018.
+								66 link Description: www.obituarycartoon.com, Value: obituarycartoon.com/
+								67 button www.obituarycartoon.com – related results
+									68 text www.obituarycartoon.com
+							69 container
+								70 AXListMarker • 
+								71 text Availability:  The series is published online via 
+								72 link Description: Obituary Episodes on WEBTOON Canvas, Value: webtoons.com/en/canvas/obituary-episodes/list?title_no=335715
+								73 text  and has been collected into physical graphic novels ( Volume 1  and  Volume 2 ) funded via successful Kickstarter campaigns.
+								74 link Description: Webtoon, Value: webtoons.com/en/canvas/obituary-episodes/list?title_no=335715
+								75 button Webtoon (+2) – related results
+									76 text Webtoon
+									77 text  +2
+						78 heading 2. Graphic Life Tributes & Creator Obituaries, Value: 3
+							79 text 2. Graphic Life Tributes & Creator Obituaries
+						80 text In the broader comic industry, "obituary comics" refers to sequential art illustrations or dedicated articles honoring the lives of deceased comic book artists, writers, and editors. Platforms like 
+						81 link Description: The Comics Journal Obituary Section, Value: tcj.com/topic/obituary/
+						82 text  and the 
+						83 link Description: 2000 AD Obituary Archives, Value: 2000ad.com/news/tag/obituary/
+						84 text  regularly feature memorial art and biographies for industry legends, such as Dave Taylor or EC Comics historian Larry Stark. Additionally, memorial graphic novels use sequential art to document real-life stories of illness, violence, or loss.
+						85 link Description: 2000 AD, Value: 2000ad.com/news/tag/obituary/
+						86 button 2000 AD (+2) – related results
+							87 text 2000 AD
+							88 text  +2
+						89 heading 3. Newspaper & Gag Cartoons, Value: 3
+							90 text 3. Newspaper & Gag Cartoons
+						91 text Many single-panel editorial cartoons use "reading the obituaries" as a classic comedic trope. These syndications—frequently archived on stock image databases like 
+						92 link Description: CartoonStock, Value: cartoonstock.com/directory/o/obituaries.asp
+						93 text —typically satirize morbid habits, afterlife commentary, or the modern transition into digital and social media memorials.
+						94 button Related results
+						95 text Which of these versions were you looking for? Let me know if you want:
+						96 content list
+							97 container
+								98 AXListMarker • 
+								99 text More details on reading  The Barrytes' webcomic series
+							100 container
+								101 AXListMarker • 
+								102 text To find a specific  comic creator's memorial tribute
+							103 container
+								104 AXListMarker • 
+								105 text Examples of  humorous newspaper gag strips  about obituaries
+						106 text AI can make mistakes, so double-check responses
+						107 button Copy text
+						108 button Share
+						109 container fbproxy1
+							110 checkbox Description: Good response, Value: 0
+								111 image
+							112 checkbox Description: Bad response, Value: 0
+								113 image
+						114 button (collapsed) Description: More options for this response, Secondary Actions: Expand
+						143 container
+							144 content list
+								145 container
+									146 link Description: Obituary - The Comics Journal. Opens in new tab., Value: tcj.com/topic/obituary/
+									147 text The Comics Journal
+									148 button Description: About this result, ID: snui-atr-6Lu-aoCDJ_ufseMP0t2vkQ8_9rbspc_13
+									149 text Obituary - The Comics Journal
+									150 text 3 Sept 2026 —  Larry Stark, pioneer of EC Comics fandom and noted theater critic, dies at 93. Thommy Burns remembers EC critic and fan Larry Star...
+								151 container
+									152 link Description: Obituary - Episodes | WEBTOON. Opens in new tab., Value: webtoons.com/en/canvas/obituary-episodes/list?title_no=335715
+									153 text Webtoon
+									154 button Description: About this result, ID: snui-atr-6Lu-aoCDJ_ufseMP0t2vkQ8_9rbspc_17
+									155 text Obituary - Episodes | WEBTOON
+									156 text You can subscribe up to 500 CANVAS series. * The Halloween JamBOOree. Parent Teacher Hauntference - Part 5 Aug 28, 2024 like51. In...
+								157 container
+									158 link Description: ABOUT | obituarycartoon. Opens in new tab., Value: obituarycartoon.com/
+									159 text www.obituarycartoon.com
+									160 button Description: About this result, ID: snui-atr-6Lu-aoCDJ_ufseMP0t2vkQ8_9rbspc_21
+									161 text ABOUT | obituarycartoon
+									162 text comic about teen raised by ghosts from different time periods. History: Conceptualized 2014. Animated pilot "Obituary: A Grave Beg...
+								163 container
+									164 link Description: Obituary: The Comic Series - Michael Barryte - Kickstarter. Opens in new tab., Value: kickstarter.com/projects/michaelbarryte/obituary-volume-2
+									165 text Kickstarter
+									166 button Description: About this result, ID: snui-atr-6Lu-aoCDJ_ufseMP0t2vkQ8_9rbspc_25
+									167 text Obituary: The Comic Series - Michael Barryte - Kickstarter
+									168 text 29 Oct 2025 —  Obituary is a supernatural coming-of-age story about a teenager raised by ghosts. 114 backers pledged $5,736 to help bring this pr...
+								169 container
+									170 link Description: Obituaries Cartoons and Comics - funny pictures from CartoonStock. Opens in new tab., Value: cartoonstock.com/directory/o/obituaries.asp
+									171 text CartoonStock
+									172 button Description: About this result, ID: snui-atr-6Lu-aoCDJ_ufseMP0t2vkQ8_9rbspc_29
+									173 text Obituaries Cartoons and Comics - funny pictures from CartoonStock
+									174 text Licensed cartoons and comic illustrations about obituaries and memorials from CartoonStock (styles range from single-panel gags to...
+								175 container
+									176 link Description: obituary Archives. Opens in new tab., Value: 2000ad.com/news/tag/obituary/
+									177 text 2000 AD
+									178 button Description: About this result, ID: snui-atr-6Lu-aoCDJ_ufseMP0t2vkQ8_9rbspc_33
+									179 text obituary Archives
+									180 text Dave Taylor 1964-2025. Our most heartfelt condolences go out to all of Dave's family. The cover to 2000 AD Prog 2416
+								181 container
+									182 link Description: OBITUARY is Back from the Dead! (Obituary Vol. 2 Kickstarter), Video, watch on YouTube, Value: youtube.com/watch?v=lbGWnUUuSD4&t=588
+									183 text YouTube · Belated Media
+									184 button Description: About this result, ID: snui-atr-6Lu-aoCDJ_ufseMP0t2vkQ8_9rbspc_36
+									185 text OBITUARY is Back from the Dead! (Obituary Vol. 2 Kickstarter)
+									186 text 3 Mar 2025 —  "Obituary" into a comic format, This led to printing "Obituary Volume 1" to create a tangible product. The 750 printed comics, eac...
+									187 button ID: vv-6Lu-aoCDJ_ufseMP0t2vkQ8_9rbspc_37, Description: OBITUARY is Back from the Dead! (Obituary Vol. 2 Kickstarter) by Belated Media on YouTube. Play on Google. - Segment Duration: 41 s - Starts at: 9:48 - Total Duration: 11:39
+										188 container
+											189 image
+											190 text 41s
+								191 container
+									192 link Description: Obituary: The Comic Series - Patreon. Opens in new tab., Value: patreon.com/cw/obituarycomic
+									193 text Patreon
+									194 button Description: About this result, ID: snui-atr-6Lu-aoCDJ_ufseMP0t2vkQ8_9rbspc_41
+									195 text Obituary: The Comic Series - Patreon
+									196 text Obituary is a tale told by The Barrytes about June Crocker, a teen who has been raised by ghosts, and her adventures among the liv...
+								197 container
+									198 link Description: What Are Obituary Comics?. Opens in new tab., Value: finalnotes.page/what-are-obituary-comics/
+									199 text www.finalnotes.page
+									200 button Description: About this result, ID: snui-atr-6Lu-aoCDJ_ufseMP0t2vkQ8_9rbspc_45
+									201 text What Are Obituary Comics?
+									202 text 8 Aug 2026 —  Obituary comics are visual obituary stories that use sequential art to tell a source-backed life story around death, illness, exil...
+							203 button Show less related results
+					136 container
+						137 link Description: Skip to previous prompt, Value: google.com/search?q=obituary+comics&sca_esv=3cc28e5c82341c61&sxsrf=APpeQnvKOzHof6siYcmGm5KmJWr8WyEC8g%3A1790884818085&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYQR84vEJkyW62ul7Q3Bkhu9i-p_ALr7slx3OYYzZdb8IW-R1LzE5KqO0zvVKgsBns8kgMJaSh6kAHTMsDvnMCK2zFrqX3wG413nZj_zIfXTdTZb8HfTVJZEJ4tuAcusjIC770cV5fULhfIO6Gr7ULNw1zNwcA&vsint=&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwjQlanrzZmXAxViXWwGHWzhAA4Q2J8OegQIFhAD&biw=1280&bih=720&dpr=2&cq=obituary+comics&zx=1790884844149&mstk=AUtExfA8EPYAenDORzl4_Tk0_1yU1U7aV-A0p7dZCqUYLV7Aj9erbQOpFDmexBKorZd9PEdbJp_EQwWbtdKSz2P2ViUllCwB5G0Boz5M3_EeGfpV58D8f6LBu9KxPmrr3YvIJYDC7BCMabwzN3DHcJA9yDZk--xdSlm68RQsnIgausyUqbCaaElJr7zpeyMvN4I6k2z4moox5RwHGowgFTkieVhWz7yk41NjT-ft0u_iDpJYlLiCeMd8qLHVxO3E0FshyjeVdzZt_Mfrobs8s6ZFwwi2ZoW9i3QGLGJgQ1BigW8QNjdnw5vSqmCf5ZT-49x8QjTQf_CjTCUuyg&csuir=1&mtid=6Lu-ari_JOqbnesP9JzP2Qg#
+						138 text entry area (settable) Ask anything
+						139 pop up button (collapsed) Description: Add files, tools, and select a model, Secondary Actions: Expand
+						140 container
+							141 button Microphone
+		142 text AI Mode response is ready
+
+The focused UI element is 146 link Description: Obituary - The Comics Journal. Opens in new tab., URL: tcj.com/topic/obituary/

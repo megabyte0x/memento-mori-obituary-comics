@@ -1,0 +1,75 @@
+{
+  "catalogue_entries": 84,
+  "changed_slugs": [
+    "christopher-reeve",
+    "vincent-van-gogh",
+    "alfred-nobel-merchant-of-death",
+    "louis-zamperini-after-the-raft"
+  ],
+  "other_entries_unchanged": 80,
+  "checks": [
+    {
+      "url": "https://www.finalnotes.page/comics/christopher-reeve/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 97,
+      "reader_images": 6,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/christopher-reeve/",
+      "source_links": [
+        "https://www.christopherreeve.org/community/about-us/about-christopher-reeve/",
+        "https://www.britannica.com/biography/Christopher-Reeve",
+        "https://people.com/christopher-reeve-death-legacy-what-to-know-11984108"
+      ],
+      "published_at": "2026-06-18"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/vincent-van-gogh/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 107,
+      "reader_images": 8,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/vincent-van-gogh/",
+      "source_links": [
+        "https://en.wikipedia.org/wiki/Vincent_van_Gogh",
+        "https://www.vangoghmuseum.nl/en",
+        "https://www.britannica.com/biography/Van-Gogh",
+        "https://www.vangoghmuseum.nl/en/art-and-stories/stories/vincents-illness-and-the-healing-power-of-art"
+      ],
+      "published_at": "2026-06-17"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/alfred-nobel-merchant-of-death/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 100,
+      "reader_images": 8,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/alfred-nobel-merchant-of-death/",
+      "source_links": [
+        "https://en.wikipedia.org/wiki/Alfred_Nobel",
+        "https://www.britannica.com/biography/Alfred-Nobel",
+        "https://www.nobelprize.org/alfred-nobel",
+        "https://www.nobelpeaceprize.org/nobel-peace-prize/history/alfred-nobel-s-will"
+      ],
+      "published_at": "2026-06-08"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/louis-zamperini-after-the-raft/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 97,
+      "reader_images": 8,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/louis-zamperini-after-the-raft/",
+      "source_links": [
+        "https://www.war.gov/News/Feature-Stories/Story/Article/2304075/sports-heroes-who-served-olympic-runner-louis-zamperini/"
+      ],
+      "published_at": "2026-05-31"
+    }
+  ],
+  "ranking_effect": "Not yet measured",
+  "nobel_final_story_notes_verified": true,
+  "final_catalogue_readback_exact_match": true
+}

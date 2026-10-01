@@ -139,15 +139,17 @@ After that release is live, use `pnpm comic:publish -- --slug <slug>` for future
 
 Create the R2 bucket once with `pnpm exec wrangler r2 bucket create finalnotes-comics`. Set `X402_PAY_TO`, `CDP_API_KEY_ID`, `CDP_API_KEY_SECRET`, and `FINALNOTES_BLOB_UPLOAD_PUBLIC_KEY` as Worker secrets. Public `NEXT_PUBLIC_*` values must be available during the Next build and in Cloudflare Workers Builds.
 
-Keep the R2 bucket private; original image bytes are served by the application `/media` route. The fail-safe `pnpm deploy` command emits original R2 image URLs so production and `workers.dev` previews remain complete. Use `pnpm deploy:images` for production responsive delivery: the Worker `IMAGES` binding transforms streamed R2 objects into WebP through `/optimized-image/<width>/75/...`, while the route falls back to the original R2 bytes if transformation is unavailable.
+Keep the R2 bucket private; original image bytes are served by the application `/media` route. The standard `pnpm deploy` command enables production responsive delivery: the Worker `IMAGES` binding transforms streamed R2 objects into WebP through `/optimized-image/<width>/75/...`, while the route falls back to the original R2 bytes if transformation is unavailable. `pnpm deploy:images` remains an alias for this command. Both deployment modes preserve existing Worker variables.
 
-After every optimized deployment, probe a generated URL for `Content-Type: image/webp`, `X-Finalnotes-Image-Transform: images-binding`, and immutable cache headers, then confirm homepage and reader HTML contain responsive `/optimized-image/...` candidates. If the binding path fails, deploy with the fail-safe `pnpm deploy` command while investigating.
+After every optimized deployment, probe a generated URL for `Content-Type: image/webp`, `X-Finalnotes-Image-Transform: images-binding`, and immutable cache headers, then confirm homepage and reader HTML contain responsive `/optimized-image/...` candidates. If the binding path fails, use `pnpm deploy:originals` to emit original R2 image URLs while investigating. Local `pnpm preview` also emits original URLs.
 
 For a source-reviewed metadata correction to a comic that already exists in R2, use a signed metadata-only publication. The API revalidates the full GEO contract and checks every declared asset before replacing the catalogue entry:
 
 ```bash
 pnpm comic:publish -- --slug <slug> --metadata-file /absolute/path/to/comic.json --metadata-only
 ```
+
+Publication verification checks the reader's title, authored introduction and every page summary, plus its canonical link on the homepage, sitemap and `llms.txt`. Full introductions in `llms.txt` are required for comics listed under Latest issues; older comics remain discoverable through their archive links without duplicating the complete reader introduction.
 
 ## Paid agent PDF endpoint
 

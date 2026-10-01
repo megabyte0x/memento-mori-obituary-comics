@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://www.finalnotes.page/comics/jacques-lusseyran-light-in-darkness/",
+    "status": 200,
+    "canonical": "https://www.finalnotes.page/comics/jacques-lusseyran-light-in-darkness/",
+    "intro_matches": true,
+    "schema_abstract_matches": true,
+    "published_date_preserved": true,
+    "h1_count": 1,
+    "responsive_images": 8,
+    "source_count": 3,
+    "first_image_status": 200
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/frida-kahlo-broken-mirror/",
+    "status": 200,
+    "canonical": "https://www.finalnotes.page/comics/frida-kahlo-broken-mirror/",
+    "intro_matches": true,
+    "schema_abstract_matches": true,
+    "published_date_preserved": true,
+    "h1_count": 1,
+    "responsive_images": 9,
+    "source_count": 4,
+    "first_image_status": 200
+  }
+]

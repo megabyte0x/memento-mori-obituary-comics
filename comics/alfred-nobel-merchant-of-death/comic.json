@@ -3,8 +3,8 @@
   "title": "The Merchant of Death",
   "person": "Alfred Nobel",
   "years": "1833–1896",
-  "dek": "Swedish chemist who invented dynamite, read his own premature obituary, and rewrote his legacy by founding the Nobel Prizes.",
-  "mortality_event": "1864 Heleneborg explosion killed brother Emil; 1888 premature obituary called him 'merchant of death' — twin hinges that led to the Nobel Prizes.",
+  "dek": "Swedish inventor and industrialist whose 1895 will established the foundation for the Nobel Prizes.",
+  "mortality_event": "The comic pairs family loss with a commonly retold premature-obituary story to explore mortality and legacy; the documented 1895 will funds the Nobel Prizes.",
   "published_at": "2026-06-08",
   "pages": [
     "pages/01-alfred-nobel-merchant-of-death.jpg",
@@ -62,8 +62,17 @@
     {
       "name": "NobelPrize.org",
       "url": "https://www.nobelprize.org/alfred-nobel"
+    },
+    {
+      "name": "Norwegian Nobel Institute — Alfred Nobel's will",
+      "url": "https://www.nobelpeaceprize.org/nobel-peace-prize/history/alfred-nobel-s-will"
     }
   ],
   "pdf": "alfred-nobel-merchant-of-death.pdf",
-  "contact_sheet": "contact-sheet.jpg"
+  "contact_sheet": "contact-sheet.jpg",
+  "citation_passage": "Alfred Nobel (1833–1896) was a Swedish inventor and industrialist whose fortune became the basis of the Nobel Prizes. His final will, signed in Paris on November 27, 1895, directed income from a fund toward prizes in physics, chemistry, physiology or medicine, literature, and peace. He asked that recipients be chosen without regard to nationality. The first prizes were awarded in 1901, after disputes over the will were resolved. This eight-page comic considers mortality and legacy through a premature-obituary story. That story's influence on his decision is not established here; the will itself documents the lasting institutions he intended to fund.",
+  "story_notes": [
+    "The comic uses a premature-obituary account to explore Nobel's legacy. The sources checked for this introduction establish the contents of his will, but do not establish that an obituary caused his decision.",
+    "Nobel's final will specifies five prize fields and asks that recipients be chosen without regard to nationality. The Norwegian Nobel Institute documents the will, the disputes over it, and the first awards in 1901."
+  ]
 }

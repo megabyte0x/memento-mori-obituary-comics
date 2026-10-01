@@ -62,8 +62,13 @@
     {
       "name": "Britannica",
       "url": "https://www.britannica.com/biography/Van-Gogh"
+    },
+    {
+      "name": "Van Gogh Museum — Illness and the Healing Power of Art",
+      "url": "https://www.vangoghmuseum.nl/en/art-and-stories/stories/vincents-illness-and-the-healing-power-of-art"
     }
   ],
   "pdf": "vincent-van-gogh-tormented-light.pdf",
-  "contact_sheet": "contact-sheet.jpg"
+  "contact_sheet": "contact-sheet.jpg",
+  "citation_passage": "Vincent van Gogh (1853–1890) was a Dutch artist whose paintings, drawings, and letters record sustained work amid periods of serious illness. After a crisis in Arles in December 1888, he experienced further attacks and hospital stays. In May 1889 he voluntarily entered Saint-Paul-de-Mausole in Saint-Rémy, where he used a room as a studio and painted when well enough. His brother Theo remained an important source of support. The exact nature of his illness remains uncertain. This eight-page biographical comic focuses on the relationship between illness and artistic work, with the museum's account and his letters providing context for a life often reduced to its most dramatic incidents."
 }

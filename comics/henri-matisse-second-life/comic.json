@@ -56,7 +56,20 @@
     "Musée Matisse Nice",
     "Encyclopaedia Britannica",
     "Centre Pompidou",
-    "Saint Louis Art Museum"
+    "Saint Louis Art Museum",
+    {
+      "name": "MoMA — The Cut-Outs: technique and development",
+      "url": "https://www.moma.org/interactives/exhibitions/2014/matisse/the-cut-outs.html"
+    },
+    {
+      "name": "MoMA — About Matisse",
+      "url": "https://www.moma.org/interactives/exhibitions/2014/matisse/about-matisse.html"
+    },
+    {
+      "name": "Musée des Beaux-Arts de Lyon — Henri Matisse, le laboratoire intérieur",
+      "url": "https://www.mba-lyon.fr/en/fiche-programmation/exhibition-henri-matisse-le-laboratoire-interieur"
+    }
   ],
-  "closing_line": "The reprieve was one moment. The work was the rest of his life."
+  "closing_line": "The reprieve was one moment. The work was the rest of his life.",
+  "citation_passage": "Henri Matisse (1869–1954) was a French artist whose late cut-outs combined painted paper, scissors, and arrangements of vivid shapes. In 1941 he underwent surgery for duodenal cancer in Lyon. His subsequent work continued a long exploration of color and line: he had used cut paper for designs well before the operation, and the technique developed into an independent medium during his final years. Studio assistants painted sheets with gouache; Matisse cut the forms and directed their placement, including large compositions on his studio walls. Works from this period include Jazz (1947) and designs for the Chapel of the Rosary in Vence. This eight-page biographical comic follows his serious illness and the artistic work of his final years."
 }

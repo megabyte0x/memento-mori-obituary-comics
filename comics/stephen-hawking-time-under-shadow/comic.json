@@ -50,7 +50,16 @@
   "sources": [
     "Hawking Estate",
     "Encyclopaedia Britannica",
-    "Space.com"
+    "Space.com",
+    {
+      "name": "University of Cambridge: Stephen Hawking 1942–2018",
+      "url": "https://www.maths.cam.ac.uk/internal/faculty/stephen-hawking-1942-2018"
+    },
+    {
+      "name": "Gonville & Caius: Hawking on the support for his working life",
+      "url": "https://www.cai.cam.ac.uk/stephen-hawking-caius-speech"
+    }
   ],
-  "closing_line": "The reprieve was one moment. The work was the rest of his life."
+  "closing_line": "The reprieve was one moment. The work was the rest of his life.",
+  "citation_passage": "Stephen Hawking was a British theoretical physicist and cosmologist who studied black holes and the origins of the universe at Cambridge. His work showed that black holes produce radiation, now known as Hawking radiation. A Brief History of Time, published in 1988, brought cosmology to a broad readership. He lived with motor neurone disease for decades, using a wheelchair and a computerized voice as his disability progressed. This seven-page biographical comic considers scientific work alongside uncertain time and the support needed to continue it. Cambridge's faculty tribute and Hawking's own speech at Caius provide context for his research and working life."
 }

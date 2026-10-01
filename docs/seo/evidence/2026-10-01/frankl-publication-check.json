@@ -1,0 +1,28 @@
+{
+  "catalogSize": 84,
+  "unchangedOtherEntries": true,
+  "correctedEntryMatches": true,
+  "originalPublicationDate": "2026-05-30",
+  "reader_status": 200,
+  "canonical": "https://www.finalnotes.page/comics/viktor-frankl-meaning-under-ash/",
+  "visible_introduction_matches": true,
+  "schema_abstract_matches": true,
+  "old_error_absent": true,
+  "page_summary_count": 8,
+  "responsive_images": 9,
+  "discovery_links": {
+    "home": {
+      "status": 200,
+      "canonical_present": true
+    },
+    "sitemap": {
+      "status": 200,
+      "canonical_present": true
+    },
+    "llms": {
+      "status": 200,
+      "canonical_present": true
+    }
+  },
+  "publisher_verifier_note": "Existing verifier expects every passage in llms.txt; that file intentionally includes passages only for the latest three issues. All comic canonical links are listed. Frankl is an older issue."
+}

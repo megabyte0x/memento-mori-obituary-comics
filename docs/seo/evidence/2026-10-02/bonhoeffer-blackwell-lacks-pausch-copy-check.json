@@ -1,0 +1,76 @@
+{
+  "catalogue_entries": 84,
+  "changed_slugs": [
+    "dietrich-bonhoeffer-letters-before-dawn",
+    "elizabeth-blackwell-one-eye",
+    "henrietta-lacks-immortal-cells",
+    "randy-pausch-last-lecture"
+  ],
+  "other_entries_unchanged": 80,
+  "production_readback_matches": true,
+  "checks": [
+    {
+      "url": "https://www.finalnotes.page/comics/dietrich-bonhoeffer-letters-before-dawn/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 97,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/dietrich-bonhoeffer-letters-before-dawn/",
+      "source_links": [
+        "https://encyclopedia.ushmm.org/content/en/article/dietrich-bonhoeffer",
+        "https://www.gedenkstaette-flossenbuerg.de/en/history/prisoners/dietrich-bonhoeffer",
+        "https://www.britannica.com/biography/Dietrich-Bonhoeffer"
+      ],
+      "published_at": "2026-09-24"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/elizabeth-blackwell-one-eye/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 100,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/elizabeth-blackwell-one-eye/",
+      "source_links": [
+        "https://www.britannica.com/biography/Elizabeth-Blackwell",
+        "https://www.nlm.nih.gov/exhibition/changing-the-face-of-medicine/physicians/biography_elizabeth_blackwell.html",
+        "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1912_supplement/Blackwell,_Elizabeth"
+      ],
+      "published_at": "2026-09-07"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/henrietta-lacks-immortal-cells/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 101,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/henrietta-lacks-immortal-cells/",
+      "source_links": [
+        "https://www.britannica.com/biography/Henrietta-Lacks",
+        "https://www.hopkinsmedicine.org/henrietta-lacks",
+        "https://www.hopkinsmedicine.org/news/articles/2016/05/the-complicated-legacy-of-henrietta-lacks",
+        "https://osp.od.nih.gov/hela-cells/"
+      ],
+      "published_at": "2026-09-02"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/randy-pausch-last-lecture/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 102,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/randy-pausch-last-lecture/",
+      "source_links": [
+        "https://web.archive.org/web/20200423040931/https://www.cmu.edu/news/archive/2008/July/july25_pausch.shtml",
+        "https://etc.cmu.edu/about/last-lecture",
+        "https://archive.nytimes.com/well.blogs.nytimes.com/2008/07/25/last-lecture-professor-randy-pausch-dies-at-47/",
+        "https://www.theguardian.com/science/2008/jul/28/psychology.healthandwellbeing"
+      ],
+      "published_at": "2026-08-29"
+    }
+  ],
+  "ranking_effect": "Not yet measured"
+}

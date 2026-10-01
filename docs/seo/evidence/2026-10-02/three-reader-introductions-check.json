@@ -1,0 +1,60 @@
+{
+  "catalogue_entries": 84,
+  "changed_slugs": [
+    "ernest-shackleton-endurance-after-ice",
+    "john-milton-darkness-visible",
+    "dostoyevsky-borrowed-time"
+  ],
+  "other_entries_unchanged": 81,
+  "checks": [
+    {
+      "url": "https://www.finalnotes.page/comics/ernest-shackleton-endurance-after-ice/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 110,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/ernest-shackleton-endurance-after-ice/",
+      "source_links": [
+        "https://www.britannica.com/biography/Ernest-Henry-Shackleton",
+        "https://www.rmg.co.uk/stories/maritime-history/sir-ernest-shackleton",
+        "https://www.rmg.co.uk/stories/maritime-history/shackletons-death-legacy"
+      ],
+      "published_at": "2026-06-29"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/john-milton-darkness-visible/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 110,
+      "reader_images": 8,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/john-milton-darkness-visible/",
+      "source_links": [
+        "https://www.britannica.com/biography/John-Milton",
+        "https://www.poetryfoundation.org/poets/john-milton",
+        "https://www.historyextra.com/period/stuart/john-milton-life-guide-paradise-lost/",
+        "https://poets.org/poet/john-milton"
+      ],
+      "published_at": "2026-06-25"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/dostoyevsky-borrowed-time/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 102,
+      "reader_images": 14,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/dostoyevsky-borrowed-time/",
+      "source_links": [
+        "https://www.britannica.com/biography/Fyodor-Dostoyevsky/Political-activity-and-arrest",
+        "https://www.themarginalian.org/2024/09/01/dostyevsky-general-letter/",
+        "https://www.gutenberg.org/ebooks/37536",
+        "https://lithub.com/on-the-terrifying-hoax-execution-that-haunted-dostoevskys-writing/",
+        "https://www.gutenberg.org/cache/epub/37536/pg37536-images.html"
+      ],
+      "published_at": "2026-05-30"
+    }
+  ],
+  "ranking_effect": "Not yet measured"
+}

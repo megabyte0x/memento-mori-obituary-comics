@@ -40,6 +40,10 @@
     {
       "name": "Literary Hub",
       "url": "https://lithub.com/on-the-terrifying-hoax-execution-that-haunted-dostoevskys-writing/"
+    },
+    {
+      "name": "Project Gutenberg — The House of the Dead: text and historical introduction",
+      "url": "https://www.gutenberg.org/cache/epub/37536/pg37536-images.html"
     }
   ],
   "citable_summary": [
@@ -126,5 +130,6 @@
       768,
       1408
     ]
-  }
+  },
+  "citation_passage": "Fyodor Dostoyevsky (1821–1881) was a Russian novelist whose writing returned to punishment, freedom, and the value of a human life. Sentenced to death in 1849, he received a reprieve and was sent to imprisonment in Siberia. The House of the Dead drew on that experience, portraying prison life through a fictional narrator rather than presenting a simple personal diary. This fourteen-page biographical comic follows the arrest, threatened execution, reprieve, and imprisonment, then turns to the literary work that followed. Its title, Borrowed Time, frames survival as a continuing question about how to live and what to make after an encounter with death."
 }

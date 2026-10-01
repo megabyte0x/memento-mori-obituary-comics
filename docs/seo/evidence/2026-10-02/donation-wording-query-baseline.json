@@ -1,0 +1,19 @@
+{
+  "observed": "2026-10-02",
+  "source": "Google Search Console Web performance",
+  "period": {
+    "start": "2026-09-01",
+    "end": "2026-09-28"
+  },
+  "query": "donation in memory of wording",
+  "page": "https://www.finalnotes.page/memorial-donation-wording-obituary/",
+  "clicks": 0,
+  "impressions": 6,
+  "ctr": 0,
+  "average_position": 30,
+  "query_filtered_page_rows": 1,
+  "country_filter": null,
+  "device_filter": null,
+  "limitation": "Small sample; position is an aggregate and does not prove a stable rank. New content requires a meaningful subsequent measurement period.",
+  "primary_source": "https://www.stjude.org/give/memorials-and-dedications/memorial-donation-wording.html"
+}

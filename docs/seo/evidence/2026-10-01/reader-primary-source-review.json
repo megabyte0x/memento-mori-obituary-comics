@@ -1,0 +1,25 @@
+{
+  "checked_on": "2026-10-01",
+  "purpose": "Primary-source review before improving missing introductions on crawled-but-not-indexed reader pages.",
+  "frida": {
+    "source": "https://nmwa.org/art/artists/frida-kahlo/",
+    "supported_points": [
+      "1907\u20131954; began a pre-medical programme before her accident",
+      "Severe bus-accident injuries and a prolonged recovery",
+      "Started painting in oils during recovery",
+      "Self-portraits and Mexican folk-art influences",
+      "First solo exhibition in New York in 1938"
+    ],
+    "constraint": "Describe the comic separately from museum biography; do not imply the museum endorses the comic."
+  },
+  "lusseyran": {
+    "source": "https://www.buchenwald.de/en/geschichte/biografien/ltg-ausstellung/jacques-lusseyran",
+    "supported_points": [
+      "French resistance organiser born in 1924",
+      "Blind following a childhood accident",
+      "Student resistance group later joined D\u00e9fense de la France",
+      "Distributed the underground newspaper"
+    ],
+    "source_conflict": "Page heading gives October 19, 1924; biography body gives September 19, 1924. Do not add an exact birthday from this source without resolving the discrepancy."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "checked_on": "2026-10-01",
+  "service": "Perplexity",
+  "signed_in": false,
+  "prompt": "Where can I read source-backed biographical comics about historical people, mortality, and the work they left behind? Please cite useful sources.",
+  "answer_url": "https://www.perplexity.ai/search/69510051-dc82-4168-9cce-7e580e2bf5f0",
+  "source_count": 10,
+  "finalnotes_cited": true,
+  "cited_canonical": "https://www.finalnotes.page/",
+  "presentation": "First named recommendation under Primary site matching your description.",
+  "scope": "One specific core-topic prompt; not generic-query rankings or a platform-wide citation rate.",
+  "visibility_limitation": "The answer completed and its DOM contains the recommendation and citation; a sign-up overlay obscures the screenshot. No account was created and the gate was not bypassed.",
+  "citation_href_verified": "https://www.finalnotes.page/"
+}

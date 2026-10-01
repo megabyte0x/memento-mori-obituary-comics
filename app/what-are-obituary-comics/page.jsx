@@ -2,8 +2,7 @@ import Link from "next/link";
 
 import { FaqSection } from "@/components/faq-section";
 import { ResourceLayout } from "@/components/resource-layout";
-import { Button } from "@/components/ui/button";
-import { comicPath, getComics, getLatestComic } from "@/lib/comics";
+import { comicPath } from "@/lib/comics";
 import { loadRuntimeComics } from "@/lib/runtime-comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
 
@@ -14,22 +13,22 @@ const faqs = [
   {
     question: "What are obituary comics?",
     answer:
-      "Obituary comics are visual obituary stories that use sequential art to tell a source-backed life story around death, illness, exile, violence, or loss. The format sits between an obituary article, a short biography comic, and a grief comic: it remembers a life while showing the pressure point that made that life meaningful, supported by dates, sources, and structured data.",
+      "At Final Notes, an obituary comic is a short biographical story told through sequential art, with a written introduction and linked sources. Each story explores a life through death, illness, exile, violence, grief, or loss. The term describes the format used by this archive; readers may also encounter it in other contexts.",
   },
   {
     question: "How are obituary comics different from a normal obituary?",
     answer:
-      "A normal obituary moves quickly through birth, work, family, survivors, and services, often flattening a person into a list. An obituary comic instead chooses one meaningful moment, gives it visual rhythm, and lets readers feel the shape of a decision or loss. It pairs image-first storytelling with crawlable text and citations.",
+      "An obituary article tells a life story in prose and may include death and service details. A comic uses a sequence of images, captions, and scenes. At Final Notes, the focus is a biographical episode and its place in the subject's life, rather than announcing a recent death or arranging a funeral.",
   },
   {
     question: "Are obituary comics real biographies or fiction?",
     answer:
-      "They are nonfiction. The artwork can be interpretive, but each obituary comic is built on verified facts: dates, places, events, and named sources linked on the page. The goal is a checkable life story, not invention, so readers, researchers, and AI systems can confirm the factual frame around the visual narrative.",
+      "Final Notes comics are based on real people and historical sources. Artwork, scene selection, and judgments about a life are interpretive. A listed source does not independently verify every detail in a panel; compare specific claims with the linked material and distinguish the historical record from the comic's framing.",
   },
   {
     question: "Who reads obituary comics?",
     answer:
-      "Readers include people drawn to biography, history, and mortality, plus teachers, librarians, students, and researchers who use them as accessible, source-backed life stories. Because each comic pairs visual storytelling with citations and structured data, it works both as a reflective daily read and as classroom or reference material.",
+      "The archive is intended for readers interested in biography, history, and mortality. Educators and librarians can use the introductions and source links as starting points for discussion and further research. Suitability for a class depends on the subject matter and the teacher's review; classroom testing or endorsement is not implied.",
   },
 ];
 
@@ -47,8 +46,8 @@ const sections = [
     text: "Illness, exile, imprisonment, violence, grief, and late-career reinvention are difficult to compress into a generic tribute. Sequential art can slow the reader down without turning the subject into a slogan.",
   },
   {
-    title: "They are useful to readers and crawlers",
-    text: "Images create the reading experience, while structured text, citations, and JSON-LD help search engines, AI answer systems, librarians, teachers, and editors understand the factual frame.",
+    title: "They give readers a path to further research",
+    text: "The introduction explains who the subject was and what the comic follows. Linked sources let readers examine the record and pursue questions beyond the artwork.",
   },
 ];
 
@@ -80,7 +79,6 @@ export const metadata = {
 
 export default async function WhatAreObituaryComicsPage() {
   const comics = await loadRuntimeComics();
-  const latest = getLatestComic(comics);
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -123,10 +121,10 @@ export default async function WhatAreObituaryComicsPage() {
         <section className="explainer-body" aria-labelledby="definition" style={{ margin: "0 0 34px" }}>
           <h2 id="definition">Definition</h2>
           <p>
-            Obituary comics are visual obituary stories. They use sequential art to tell a source-backed life story around death, illness, exile, violence, grief, or another encounter with mortality. The format sits between an obituary article, a short biography comic, and a grief comic: it remembers a life, but it also shows the pressure point that made the life legible.
+            At Final Notes, an obituary comic is a short biographical story told through sequential art, accompanied by a written introduction and linked sources. These visual life stories explore death, illness, exile, violence, grief, or another encounter with mortality. The comic selects episodes from a real person's life and interprets their significance. Some stories concern events long before the subject's death, rather than a recent death announcement.
           </p>
           <p>
-            A conventional obituary often moves quickly through birth, education, work, family, survivors, and services. That structure can be useful, but it can also flatten the person into a list. An obituary comic has a different job. It chooses a meaningful moment, gives it visual rhythm, and lets the reader feel the shape of a decision, wound, recovery, or final work.
+            Prose obituaries and comics can both tell a life story. Sequential art adds a visual rhythm through scenes, captions, and recurring objects. That interpretation needs to be read alongside the historical record: an evocative panel is not itself evidence that an event happened exactly as drawn.
           </p>
         </section>
 
@@ -145,13 +143,20 @@ export default async function WhatAreObituaryComicsPage() {
           </div>
         </section>
 
-        <section className="explainer-body" aria-labelledby="why-search" style={{ margin: "34px 0" }}>
-          <h2 id="why-search">Why It Matters For Search And Citation</h2>
+        <section className="explainer-body" aria-labelledby="check-story" style={{ margin: "34px 0" }}>
+          <h2 id="check-story">Read The Story And Check The Sources</h2>
           <p>
-            Obituary comics can fail online when the artwork carries all the meaning and the page gives search engines only a title and a gallery. A useful reader page needs both: image-first storytelling for humans, and text-first evidence for crawlers, researchers, AI search, teachers, and editors.
+            Start with the reader introduction, then follow the comic pages. Use the source list to check names, dates, events, and historical context. Museums, archives, reference works, and reporting can offer different kinds of evidence; compare the specific claim with what a source actually says.
           </p>
           <p>
-            Memento Mori Obituary Comics uses stable reader URLs, citable summaries, source trails, captions, PDF access, sitemap entries, canonical metadata, and structured data. That gives each visual obituary a better chance of being understood as an obituary story rather than a loose image post.
+            Story notes explain the comic's chosen turning point. Connections between an episode and later work may be interpretation rather than a documented cause. For research or classroom use, cite the underlying source for historical claims and the comic for its visual treatment. The <Link href="/about/">editorial method</Link> explains the archive's source approach.
+          </p>
+        </section>
+
+        <section className="explainer-body" aria-labelledby="fictional-series" style={{ margin: "34px 0" }}>
+          <h2 id="fictional-series">Looking For Obituary, The Fictional Series?</h2>
+          <p>
+            <a href="https://www.obituarycartoon.com/">Obituary by Michael and Zara Barryte</a> follows a teenager raised by ghosts. Its official site links to the episodes. This page explains the biographical format used at Final Notes.
           </p>
         </section>
 

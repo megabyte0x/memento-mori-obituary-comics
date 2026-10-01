@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "obituary-cost",
+    "status": 200,
+    "canonical": "https://www.finalnotes.page/obituary-cost/",
+    "checked_date_present": true,
+    "source_link_present": true,
+    "worked_cost_present": true,
+    "old_typical_range_removed": true
+  },
+  {
+    "slug": "how-to-submit-an-obituary-to-a-newspaper",
+    "status": 200,
+    "canonical": "https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/",
+    "checked_date_present": true,
+    "source_link_present": true,
+    "worked_cost_present": false,
+    "old_typical_range_removed": true
+  }
+]

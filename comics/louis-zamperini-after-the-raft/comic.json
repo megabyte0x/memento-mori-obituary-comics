@@ -56,7 +56,12 @@
     "TIME obituary",
     "National Archives",
     "U.S. Air Force Veterans in Blue",
-    "Legacy/AP obituary mirror"
+    "Legacy/AP obituary mirror",
+    {
+      "name": "DOD News historical feature — Olympic Runner Louis Zamperini",
+      "url": "https://www.war.gov/News/Feature-Stories/Story/Article/2304075/sports-heroes-who-served-olympic-runner-louis-zamperini/"
+    }
   ],
-  "closing_line": "The reprieve was one moment. The work was the rest of his life."
+  "closing_line": "The reprieve was one moment. The work was the rest of his life.",
+  "citation_passage": "Louis Zamperini (1917–2014) was an American Olympic runner and wartime airman whose survival extended from a Pacific crash to imprisonment. He competed in the 1936 Berlin Olympics before joining the Army Air Corps. When his B-24 crashed in 1943, he survived 47 days at sea before Japanese forces captured him. He endured prisoner-of-war camps and returned home after the war. His later account described a religious conversion and efforts to forgive former captors. This eight-page biographical comic follows the crash, raft, captivity, and life afterward, treating survival as a continuing story rather than an ending at rescue."
 }

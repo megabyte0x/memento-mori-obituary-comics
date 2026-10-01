@@ -1,0 +1,33 @@
+{
+  "observed_date": "2026-10-02",
+  "source": "Authenticated Google Search Console Links report",
+  "reported_external_links": 4,
+  "top_linked_pages": [
+    {
+      "url": "https://www.finalnotes.page/",
+      "links": 3
+    },
+    {
+      "url": "https://www.finalnotes.page/obituary-stories/",
+      "links": 1
+    }
+  ],
+  "top_linking_sites": [
+    {
+      "domain": "github.com",
+      "links": 2
+    },
+    {
+      "domain": "reddit.com",
+      "links": 1
+    },
+    {
+      "domain": "substack.com",
+      "links": 1
+    }
+  ],
+  "reported_internal_links": 171,
+  "evidence": "search-console-links.jpg",
+  "limits": "This is Google\u2019s reported link sample, not a complete backlink census or a causal explanation of rankings. It does not establish endorsement or source quality.",
+  "next_priority": "Assess genuinely useful resources for earned discovery beyond the homepage and stories hub. No outreach or posting is authorized; prepare reviewable work locally before requesting any external communication."
+}

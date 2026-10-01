@@ -391,3 +391,16 @@ It may fit sections on graphic medicine, grief comics, visual biography, obituar
 
 Best,
 [name]
+
+
+## docs(seo): qualify educational discovery before submission (October 2)
+
+The existing lesson sequence and worksheet are candidates for educational review, not validated classroom resources. No named educator review, classroom trial, or explicit redistribution/adaptation licence was found in the reviewed lesson, worksheet, educator, About, and Press pages. Free access and the ability to print do not establish an open licence. Preserve the owner's anonymous-attribution preference; do not invent credentials or issue a licence on their behalf.
+
+OER Commons is **not a qualified outreach target under the current facts**. Its [AI guidance](https://help.oercommons.org/support/solutions/articles/42000118367-oer-commons-guidance-on-ai-use-for-oer-creation), effective August 2026, requires disclosure and meaningful review, rejects primarily AI-created sites lacking verifiable human involvement, and explicitly rejects submissions made solely for search visibility by people otherwise uninvolved in education. Any future consideration requires real educational participation and review, not cosmetic bylines or generated endorsements.
+
+[MERLOT's contribution instructions](https://info.merlot.org/merlothelp/Add_a_Material.htm) describe member-submitted online OER with a stable URL. The lesson is accessible at a stable URL, but this does not prove open-resource eligibility or approval. Defer submission while authorship/review and reuse terms are unverified. Do not describe inclusion as peer review, endorsement, or a guaranteed backlink.
+
+For existing SchoolJournalism, JEA, and Share My Lesson candidates, directory/topic fit alone does not establish an invitation to upload or redistribute. Before any authorized contact, prepare one specific resource and accurate AI/process disclosure, confirm the destination's current contribution rules, and state that it has not been classroom-tested. No messages, accounts, uploads, or submissions were made in this audit.
+
+The worksheet's print action previously pointed to an absent `#worksheet-pdf` anchor. The implementation now opens browser printing using the existing print stylesheet and hides the action itself in printed output. This usability repair supports the actual resource experience; it is not evidence of ranking gains.

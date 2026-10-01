@@ -57,8 +57,13 @@
     {
       "name": "Britannica",
       "url": "https://www.britannica.com/topic/The-Diving-Bell-and-the-Butterfly-film-by-Schnabel"
+    },
+    {
+      "name": "Penguin Random House: The Diving Bell and the Butterfly",
+      "url": "https://www.penguinrandomhouse.com/books/9616/the-diving-bell-and-the-butterfly-by-jean-dominique-bauby/9780375701214/"
     }
   ],
   "pdf": "jean-dominique-bauby-blink-manuscript.pdf",
-  "contact_sheet": "contact-sheet.jpg"
+  "contact_sheet": "contact-sheet.jpg",
+  "citation_passage": "Jean-Dominique Bauby was a French journalist and editor of Elle who wrote The Diving Bell and the Butterfly after a brainstem stroke in 1995. Living with locked-in syndrome, he communicated by blinking his left eyelid to select letters as someone recited the alphabet. That collaborative method allowed him to dictate a memoir about hospital life, family, memory, and imagination. He died in 1997, two days after the book's French publication. This seven-page biographical comic follows the practical effort of making a manuscript under severe physical limits. The publisher's account provides background on Bauby and the memoir."
 }

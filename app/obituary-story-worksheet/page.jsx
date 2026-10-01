@@ -1,7 +1,7 @@
 import Link from "next/link";
+import { PrintWorksheetButton } from "@/components/print-worksheet-button";
 
 import { ResourceLayout } from "@/components/resource-layout";
-import { Button } from "@/components/ui/button";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
 
 const description =
@@ -129,10 +129,8 @@ export default function ObituaryStoryWorksheetPage() {
         title="Obituary Story Worksheet"
         description={description}
       >
-        <div className="stories-actions" style={{ marginBottom: "32px" }}>
-          <Button asChild variant="primary">
-            <Link href="/obituary-story-worksheet/#worksheet-pdf">Print worksheet</Link>
-          </Button>
+        <div className="stories-actions worksheet-actions" style={{ marginBottom: "32px" }}>
+          <PrintWorksheetButton />
         </div>
 
           <section className="explainer-body" aria-labelledby="worksheet-purpose">

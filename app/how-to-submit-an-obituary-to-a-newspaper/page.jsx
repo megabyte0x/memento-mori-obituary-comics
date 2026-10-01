@@ -19,7 +19,7 @@ const faqs = [
   {
     question: "How much does it cost to put an obituary in a newspaper?",
     answer:
-      "Newspaper obituaries typically cost between $200 and $600, though large metro papers can charge $1,000 or more. Pricing is usually per line, per word, or per column inch, and adding a photo or running on weekends costs extra. Small-town papers are cheaper, and some print short death notices at little or no charge.",
+      "There is no price that applies to every newspaper. Ask the chosen publication for a quote using your final text, photo, print dates, and online placement. Some publishers charge by word, line, or column inch, with separate photo or online fees. Check the dated newspaper-policy example on this page rather than treating a general price range as a quote.",
   },
   {
     question: "Can you submit an obituary yourself, or must a funeral home do it?",
@@ -29,7 +29,7 @@ const faqs = [
   {
     question: "How long does it take for an obituary to be published?",
     answer:
-      "Most newspapers publish an obituary one to three days after submission, provided it meets the deadline and the death is verified. Deadlines are often 24 to 48 hours before the print date, and weekend or Sunday editions usually close earlier. Online obituaries can appear within hours once the paper confirms payment and proof of death.",
+      "The publication's cutoff determines when an obituary can run; there is no universal 24- or 48-hour deadline. Ask for the cutoff time, time zone, verification and payment requirements, and separate weekend or holiday rules. The Gazette, for example, lists a 1 p.m. submission cutoff for the next day's print edition, with Sunday notices due Friday at 1 p.m. Confirm the current policy before scheduling services around publication.",
   },
   {
     question: "What information do newspapers require to publish an obituary?",
@@ -225,6 +225,11 @@ export default async function NewspaperObituarySubmissionPage() {
             </p>
             <p>
               The safest workflow is to check the newspaper's rules before writing the final version. Confirm the deadline, price, word or line limit, photo format, verification requirement, proofing process, and whether the funeral home should submit on the family's behalf. If the paper has a tight word limit, start with the <Link href="/short-obituary-examples/">short obituary examples</Link>. For proofing errors before approval, use the <Link href="/obituary-mistakes-to-avoid/">obituary mistakes checklist</Link>. For quote questions before payment, use the <Link href="/obituary-cost/">obituary cost guide</Link>.
+            </p>
+            <p>
+              <strong>Newspaper-policy example, checked October 1, 2026:</strong>{" "}
+              <a href="https://www.thegazette.com/obituaries/submit-an-obituary/">The Gazette's submission policy</a>{" "}
+              lists a 1 p.m. cutoff for next-day print publication and a Friday 1 p.m. cutoff for Sunday. It also requires prepayment and funeral-home or crematory contact details for verification. These are that newspaper's rules; check your chosen publisher's current requirements.
             </p>
           </section>
 

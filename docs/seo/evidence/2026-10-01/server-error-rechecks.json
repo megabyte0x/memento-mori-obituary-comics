@@ -1,0 +1,126 @@
+[
+  {
+    "url": "http://www.finalnotes.page/",
+    "status": 200,
+    "redirects": [
+      {
+        "status": 308,
+        "location": "https://www.finalnotes.page/"
+      }
+    ],
+    "final_url": "https://www.finalnotes.page/",
+    "content_type": "text/html; charset=utf-8",
+    "pdf_signature": null
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/hedy-lamarr-secret-signal/",
+    "status": 200,
+    "redirects": [],
+    "final_url": "https://www.finalnotes.page/comics/hedy-lamarr-secret-signal/",
+    "content_type": "text/html; charset=utf-8",
+    "pdf_signature": null
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/ada-lovelace-notes-before-night/",
+    "status": 200,
+    "redirects": [],
+    "final_url": "https://www.finalnotes.page/comics/ada-lovelace-notes-before-night/",
+    "content_type": "text/html; charset=utf-8",
+    "pdf_signature": null
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/virginia-hall-limping-lady/",
+    "status": 200,
+    "redirects": [],
+    "final_url": "https://www.finalnotes.page/comics/virginia-hall-limping-lady/",
+    "content_type": "text/html; charset=utf-8",
+    "pdf_signature": null
+  },
+  {
+    "url": "https://www.finalnotes.page/obituary-checklist/",
+    "status": 200,
+    "redirects": [],
+    "final_url": "https://www.finalnotes.page/obituary-checklist/",
+    "content_type": "text/html; charset=utf-8",
+    "pdf_signature": null
+  },
+  {
+    "url": "https://www.finalnotes.page/media/comics/irena-sendler-jars-of-names/irena-sendler-jars-of-names.pdf",
+    "status": 200,
+    "redirects": [],
+    "final_url": "https://www.finalnotes.page/media/comics/irena-sendler-jars-of-names/irena-sendler-jars-of-names.pdf",
+    "content_type": "application/pdf",
+    "pdf_signature": true
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/victor-klemperer-dresden-diaries/",
+    "status": 200,
+    "redirects": [],
+    "final_url": "https://www.finalnotes.page/comics/victor-klemperer-dresden-diaries/",
+    "content_type": "text/html; charset=utf-8",
+    "pdf_signature": null
+  },
+  {
+    "url": "https://www.finalnotes.page/obituary-vs-eulogy/",
+    "status": 200,
+    "redirects": [],
+    "final_url": "https://www.finalnotes.page/obituary-vs-eulogy/",
+    "content_type": "text/html; charset=utf-8",
+    "pdf_signature": null
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/horatio-nelson-trafalgar-light/",
+    "status": 200,
+    "redirects": [],
+    "final_url": "https://www.finalnotes.page/comics/horatio-nelson-trafalgar-light/",
+    "content_type": "text/html; charset=utf-8",
+    "pdf_signature": null
+  },
+  {
+    "url": "https://finalnotes.page/comics/frida-kahlo-broken-mirror/",
+    "status": 200,
+    "redirects": [
+      {
+        "status": 308,
+        "location": "https://www.finalnotes.page/comics/frida-kahlo-broken-mirror/"
+      }
+    ],
+    "final_url": "https://www.finalnotes.page/comics/frida-kahlo-broken-mirror/",
+    "content_type": "text/html; charset=utf-8",
+    "pdf_signature": null
+  },
+  {
+    "url": "https://www.finalnotes.page/media/comics/george-orwell-throat-of-truth/george-orwell-throat-of-truth.pdf",
+    "status": 200,
+    "redirects": [],
+    "final_url": "https://www.finalnotes.page/media/comics/george-orwell-throat-of-truth/george-orwell-throat-of-truth.pdf",
+    "content_type": "application/pdf",
+    "pdf_signature": true
+  },
+  {
+    "url": "https://finalnotes.page/comics/henri-matisse-second-life/",
+    "status": 200,
+    "redirects": [
+      {
+        "status": 308,
+        "location": "https://www.finalnotes.page/comics/henri-matisse-second-life/"
+      }
+    ],
+    "final_url": "https://www.finalnotes.page/comics/henri-matisse-second-life/",
+    "content_type": "text/html; charset=utf-8",
+    "pdf_signature": null
+  },
+  {
+    "url": "https://www.finalnotes.page/obituary-research-guide",
+    "status": 200,
+    "redirects": [
+      {
+        "status": 308,
+        "location": "/obituary-research-guide/"
+      }
+    ],
+    "final_url": "https://www.finalnotes.page/obituary-research-guide/",
+    "content_type": "text/html; charset=utf-8",
+    "pdf_signature": null
+  }
+]

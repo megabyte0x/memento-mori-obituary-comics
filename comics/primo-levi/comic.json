@@ -58,7 +58,12 @@
     "Boston Review",
     "Primo Levi Center",
     "LA Times",
-    "NY Review of Books"
+    "NY Review of Books",
+    {
+      "name": "Centro Internazionale di Studi Primo Levi: Biography",
+      "url": "https://www.primolevi.it/en/biography"
+    }
   ],
-  "closing_line": "The reprieve was one moment. The work was the rest of his life."
+  "closing_line": "The reprieve was one moment. The work was the rest of his life.",
+  "citation_passage": "Primo Levi was an Italian Jewish chemist, writer, and Holocaust survivor from Turin. Arrested after joining a partisan group, he was deported to Auschwitz in 1944 and imprisoned at Monowitz. His chemical training led to work in a camp laboratory; help from the Italian civilian Lorenzo Perrone also mattered to his survival. After returning to Italy, he wrote If This Is a Man while rebuilding his working and family life. This eight-page biographical comic considers survival, testimony, and the responsibility of describing what happened. The Primo Levi study center's chronology connects his experience with his later writing."
 }

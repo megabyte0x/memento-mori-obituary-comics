@@ -1,0 +1,78 @@
+{
+  "catalogue_entries": 84,
+  "changed_slugs": [
+    "tsutomu-yamaguchi-double-light",
+    "buckminster-fuller-world-machine",
+    "saint-exupery-desert-star",
+    "samuel-beckett-wound-waiting"
+  ],
+  "other_entries_unchanged": 80,
+  "production_readback_matches": true,
+  "checks": [
+    {
+      "url": "https://www.finalnotes.page/comics/tsutomu-yamaguchi-double-light/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 103,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/tsutomu-yamaguchi-double-light/",
+      "source_links": [
+        "https://www.theguardian.com/world/2010/jan/06/hiroshima-nagasaki-survivor-dies",
+        "https://www.npr.org/2010/01/06/122291007/only-survivor-of-both-atomic-bombs-dies",
+        "https://www.nytimes.com/2010/01/07/world/asia/07yamaguchi.html",
+        "https://www.history.com/articles/the-man-who-survived-two-atomic-bombs",
+        "https://www.abc.net.au/news/2009-05-19/two-time-a-bomb-survivor-longs-for-nuclear-free/1687372"
+      ],
+      "published_at": "2026-08-08"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/buckminster-fuller-world-machine/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 95,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/buckminster-fuller-world-machine/",
+      "source_links": [
+        "https://www.bfi.org/about-fuller/biography/",
+        "https://www.britannica.com/biography/R-Buckminster-Fuller",
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Fuller/",
+        "https://www.nytimes.com/1983/07/03/obituaries/r-buckminster-fuller-futurist-inventor-dies-at-87.html"
+      ],
+      "published_at": "2026-07-29"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/saint-exupery-desert-star/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 104,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/saint-exupery-desert-star/",
+      "source_links": [
+        "https://www.nationalww2museum.org/war/articles/the-little-prince-antoine-de-saint-exupery",
+        "https://www.britannica.com/biography/Antoine-de-Saint-Exupery",
+        "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/saint-exupery-antoine-de-1900-1944"
+      ],
+      "published_at": "2026-07-25"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/samuel-beckett-wound-waiting/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 104,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/samuel-beckett-wound-waiting/",
+      "source_links": [
+        "https://samuelbeckettsociety.org/biography/",
+        "https://www.nobelprize.org/prizes/literature/1969/beckett/facts/",
+        "https://www.the-independent.com/arts-entertainment/books/features/samuel-beckett-stabbing-death-anniversary-suzanne-dechevaux-dumesnil-a9244221.html",
+        "https://www.britannica.com/biography/Samuel-Beckett"
+      ],
+      "published_at": "2026-07-19"
+    }
+  ],
+  "ranking_effect": "Not yet measured"
+}

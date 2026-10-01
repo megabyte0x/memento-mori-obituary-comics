@@ -1,0 +1,81 @@
+{
+  "catalogue_entries": 84,
+  "changed_slugs": [
+    "beethoven-silence-ode",
+    "dorothea-lange-limp-and-lens",
+    "vaclav-havel-cell-to-castle",
+    "tina-turner-private-dancer"
+  ],
+  "other_entries_unchanged": 80,
+  "production_readback_matches": true,
+  "checks": [
+    {
+      "url": "https://www.finalnotes.page/comics/beethoven-silence-ode/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 99,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/beethoven-silence-ode/",
+      "source_links": [
+        "https://www.britannica.com/biography/Ludwig-van-Beethoven",
+        "https://www.britannica.com/biography/Ludwig-van-Beethoven/Approaching-deafness",
+        "https://www.kennedy-center.org/education/resources-for-educators/classroom-resources/media-and-interactives/artists/beethoven-ludwig-van/",
+        "https://guides.loc.gov/beethoven/",
+        "https://www.beethoven.de/en/glossar/view/6642245373526016/Mit%20Beethovens%20Ohr%20geh%C3%B6rt"
+      ],
+      "published_at": "2026-08-11"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/dorothea-lange-limp-and-lens/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 96,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/dorothea-lange-limp-and-lens/",
+      "source_links": [
+        "https://www.britannica.com/biography/Dorothea-Lange",
+        "https://www.pbs.org/wnet/americanmasters/dorothea-lange-biography-with-photo-gallery/3097/",
+        "https://www.moma.org/collection/artists/3373",
+        "https://www.moma.org/calendar/exhibitions/5079"
+      ],
+      "published_at": "2026-08-09"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/vaclav-havel-cell-to-castle/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 105,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/vaclav-havel-cell-to-castle/",
+      "source_links": [
+        "https://www.britannica.com/biography/Vaclav-Havel",
+        "https://www.theguardian.com/world/2011/dec/18/vaclav-havel",
+        "https://www.bbc.com/news/world-europe-13845327",
+        "https://www.vaclavhavel.cz/en/vaclav-havel/dissident",
+        "https://www.vaclavhavel.cz/en/vaclav-havel/president"
+      ],
+      "published_at": "2026-08-07"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/tina-turner-private-dancer/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 100,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/tina-turner-private-dancer/",
+      "source_links": [
+        "https://www.britannica.com/biography/Tina-Turner",
+        "https://www.theguardian.com/music/2023/may/24/tina-turner-obituary",
+        "https://www.bbc.com/news/entertainment-arts-29036876",
+        "https://people.com/music/tina-turner-tried-to-kill-herself-ike-turner-abuse/",
+        "https://lcweb2.loc.gov/static/programs/national-recording-preservation-board/documents/PrivateDancer.pdf"
+      ],
+      "published_at": "2026-08-06"
+    }
+  ],
+  "ranking_effect": "Not yet measured"
+}

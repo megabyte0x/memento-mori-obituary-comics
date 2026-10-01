@@ -1,0 +1,64 @@
+{
+  "checked_on": "2026-10-01",
+  "service": "Perplexity",
+  "signed_in": false,
+  "prompt": "How should a family word a memorial donation request in an obituary, including in lieu of flowers? Please cite useful sources.",
+  "answer_url": "https://www.perplexity.ai/search/e018fe86-739a-4c62-b861-3b0f35976c51",
+  "source_count": 10,
+  "finalnotes_cited": false,
+  "scope": "One neutral prompt and one anonymous answer; not a platform-wide citation rate.",
+  "sources": [
+    {
+      "label": "memorials",
+      "url": "https://www.memorials.com/info/how-to-write-an-obituary"
+    },
+    {
+      "label": "beyond-memories",
+      "url": "https://beyond-memories.com/blogs/beyond-memories/donations-in-lieu-of-flowers-wording-guide"
+    },
+    {
+      "label": "lovetoknow",
+      "url": "https://www.lovetoknow.com/life/grief-loss/how-ask-donations-funeral-expenses-appropriately"
+    },
+    {
+      "label": "memorialsHow to Write an Obituary: A Step-by-Step Guide for FamiliesLearn how to write an obituary with our step-by-step guide. Includes what to include, format tips, short examples, and where to publish.",
+      "url": "https://www.memorials.com/info/how-to-write-an-obituary"
+    },
+    {
+      "label": "funeralHow to Ask for Donations Instead of Flowers: Clear, Respectful ...Clear, respectful “donations instead of flowers” wording for obituaries, invitations, and social posts—plus scripts for multiple charities or family funds and gentle planning tips.",
+      "url": "https://funeral.com/blogs/the-journal/how-to-ask-for-donations-instead-of-flowers-clear-respectful-language"
+    },
+    {
+      "label": "funeral“In Lieu of Flowers” Wording: Donation Language That Feels WarmThe phrase “in lieu of flowers” is small, and yet it often ends up carrying a surprising amount of emotion. Families use it because they are trying to make the moment feel meaningful and practical at the same time: they want people to have a clear way to show love, but they may not want dozens of arrangements arriving",
+      "url": "https://funeral.com/blogs/the-journal/in-lieu-of-flowers-wording-donation-language-that-feels-warm"
+    },
+    {
+      "label": "lovetoknowUnderstanding 'In Lieu of Flowers': Alternative Memorial RequestsDelve into the etiquette of 'in lieu of flowers' and explore alternatives for expressing sympathy in obituaries. Learn how to honor the deceased in meaningful ways.",
+      "url": "https://www.lovetoknow.com/life/grief-loss/lieu-flowers-wording-ideas-etiquette"
+    },
+    {
+      "label": "memorialsIn Lieu of Flowers: What It Means, What to Send - Memorials.comWhat in lieu of flowers means, whether it forbids flowers, how much to give, and what to send instead — plus wording for families writing the notice.",
+      "url": "https://www.memorials.com/info/sympathy-condolence-guide/in-lieu-of-flowers"
+    },
+    {
+      "label": "beyond-memories\"In Lieu of Flowers\": How to Word a Donation Request (15 Templates)How to word an 'in lieu of flowers' donation request: 15 ready-to-use templates for obituaries and funeral programs, plus etiquette and charity-choice guidance.",
+      "url": "https://beyond-memories.com/blogs/beyond-memories/donations-in-lieu-of-flowers-wording-guide"
+    },
+    {
+      "label": "lovetoknowHow & Where to Ask for Donations for Funeral ExpensesLosing a loved one is difficult, even without the financial stress of paying for a funeral. We have details on how to set up a memorial fund & ask for help.",
+      "url": "https://www.lovetoknow.com/life/grief-loss/how-ask-donations-funeral-expenses-appropriately"
+    },
+    {
+      "label": "funeralMemorial Donations in Lieu of Flowers: How to Request and ...Learn how to request memorial donations in lieu of flowers, choose meaningful charities, share clear wording, and track and thank donors with confidence and care.",
+      "url": "https://funeral.com/blogs/the-journal/memorial-donations-in-lieu-of-flowers-how-to-request-and-manage-gifts-in-someone-s-honor"
+    },
+    {
+      "label": "stillwithMemorial donations in lieu of flowers - StillwithEulogies, obituaries, and memorial pages. Made gently, with AI that listens. Free to begin.",
+      "url": "https://stillwith.io/resources/memorial-donations"
+    },
+    {
+      "label": "funeralDonations in Lieu of Flowers: Environmental Charities to Honor a LifeFlowers have a way of arriving before you are ready. They are beautiful, traditional, and comforting in the first raw days of grief—but they can also feel temporary when what you are holding is a permanent loss. When someone loved the outdoors, cared deeply about wildlife, or spent years worrying about the future of th",
+      "url": "https://funeral.com/blogs/the-journal/donations-in-lieu-of-flowers-environmental-charities-to-honor-a-life-with-wording-scripts"
+    }
+  ]
+}

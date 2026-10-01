@@ -1,0 +1,42 @@
+{
+  "deployment": "50124ff3-a85c-4630-8bae-75029c668bf0",
+  "command": "pnpm deploy",
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "canonical": "https://www.finalnotes.page/",
+      "responsive_images": 85,
+      "introduction_present": false
+    },
+    {
+      "path": "/comics/christy-brown-left-foot/",
+      "status": 200,
+      "canonical": "https://www.finalnotes.page/comics/christy-brown-left-foot/",
+      "responsive_images": 8,
+      "introduction_present": true
+    },
+    {
+      "path": "/comics/frida-kahlo-broken-mirror/",
+      "status": 200,
+      "canonical": "https://www.finalnotes.page/comics/frida-kahlo-broken-mirror/",
+      "responsive_images": 9,
+      "introduction_present": true
+    },
+    {
+      "path": "/comics/jacques-lusseyran-light-in-darkness/",
+      "status": 200,
+      "canonical": "https://www.finalnotes.page/comics/jacques-lusseyran-light-in-darkness/",
+      "responsive_images": 8,
+      "introduction_present": true
+    }
+  ],
+  "image": {
+    "url": "https://www.finalnotes.page/optimized-image/256/75/comics/christy-brown-left-foot/pages/01-christy-brown-left-foot.jpg",
+    "status": 200,
+    "content_type": "image/webp",
+    "transform": "images-binding",
+    "cache_control": "public, max-age=31536000, immutable",
+    "bytes": 15212
+  }
+}

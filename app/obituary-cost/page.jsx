@@ -210,6 +210,10 @@ export default async function ObituaryCostPage() {
             <p>
               The safest way to control the cost is to ask for a formatted quote before approval. If the print quote is high, use a short paid newspaper notice for the essential facts and publish the fuller life story online, where length and photos may be handled differently.
             </p>
+            <h3>Worked newspaper quote example</h3>
+            <p>
+              <a href="https://www.thegazette.com/obituaries/submit-an-obituary/">The Gazette's published pricing</a>, checked October 1, 2026, lists $25 for online placement plus $0.50 per word, with photos charged separately. At that listed rate, a 200-word notice without a photo works out to $25 + (200 × $0.50) = $125. This calculation uses one publisher's policy; it is not a national average. Confirm the final quote and any additional charges with the newspaper.
+            </p>
           </section>
 
           <section className="explainer-principles" aria-labelledby="drivers">
@@ -308,10 +312,10 @@ export default async function ObituaryCostPage() {
             heading="Obituary Cost FAQ"
             path="/obituary-cost/"
             items={[
-              { question: "How much does an obituary cost?", answer: "A paid newspaper obituary typically costs between $200 and $1,000, depending on the publication's size and the length of the notice. Major metro papers can charge $450 or more for a standard obituary, while small local papers may run under $100. Photos, logos, and extra days each add to the price." },
-              { question: "Why are newspaper obituaries so expensive?", answer: "Newspapers charge for obituaries by the line, word, or column inch, the same way they price classified advertising, and rates are highest at large metro dailies. A long narrative, a photograph, special formatting, and running the notice for multiple days each raise the cost, which is why many families keep print short and publish the full story online." },
-              { question: "Are online obituaries free?", answer: "Funeral-home websites and many memorial platforms host obituaries at no extra charge as part of their services, so the online version is often effectively free. Some standalone memorial sites charge a fee or upsell guest books and keepsakes, so confirm what is included before you publish." },
-              { question: "Who pays for the obituary?", answer: "The family of the deceased usually pays for the obituary, often through the funeral home, which places the notice and adds the newspaper's charge to the final bill as a \"cash advance\" item. Always ask for the per-line rate and a total estimate before approving, since funeral-home markups vary." },
+              { question: "How much does an obituary cost?", answer: "There is no universal obituary price. Request a quote for your exact text, photo, publication dates, and print or online placement. A publisher may charge by word, line, or column inch, plus separate placement or photo fees. The worked newspaper example above shows how one published rate produces a quote; it is not an average or a price promise." },
+              { question: "Why are newspaper obituaries so expensive?", answer: "A paid obituary can include charges for space, length, placement, photos, and repeat publication. Ask which of those apply to your quote rather than assuming all newspapers use the same model. Compare a shorter print notice with a fuller online story, including any online fee, before choosing." },
+              { question: "Are online obituaries free?", answer: "Some funeral homes or memorial platforms include an online obituary in their service, while others charge separately or offer paid additions. Ask whether posting, photos, the guest book, and continued hosting are included. A newspaper's online obituary may also have a placement fee; an online format alone does not make it free." },
+              { question: "Who pays for the obituary?", answer: "Confirm who is responsible for payment when arranging publication. If a funeral home places the notice, ask for the newspaper's charge and any separate funeral-home service fee in an itemized quote. If you submit directly, check the publisher's payment deadline and approve the final total before it runs." },
             ]}
           />
 

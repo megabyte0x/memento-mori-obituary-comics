@@ -1,0 +1,2000 @@
+[
+  {
+    "url": "https://www.finalnotes.page/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/",
+    "seconds": 1.43,
+    "bytes": 526782,
+    "title": "Memento Mori Obituary Comics - Daily Biographical Comics About Mortality and Work",
+    "description": "Source-backed obituary comics about people who faced death, illness, exile, or loss and made work that outlived them.",
+    "canonical": "https://www.finalnotes.page/",
+    "h1": [
+      "Obituary Comics"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 0
+  },
+  {
+    "url": "https://www.finalnotes.page/obituary-stories/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/obituary-stories/",
+    "seconds": 1.15,
+    "bytes": 198430,
+    "title": "Obituary Stories and Articles | Final Notes",
+    "description": "Source-backed obituary stories and obituary articles told as short visual biographies, with comic reader pages, source trails, and citation notes.",
+    "canonical": "https://www.finalnotes.page/obituary-stories/",
+    "h1": [
+      "Obituary Stories"
+    ],
+    "robots": "index, follow",
+    "schema_count": 2,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 0
+  },
+  {
+    "url": "https://www.finalnotes.page/obituary-articles/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/obituary-articles/",
+    "seconds": 1.08,
+    "bytes": 64524,
+    "title": "Obituary Articles and Visual Life Stories | Final Notes",
+    "description": "Obituary articles as reported life stories: how obituary journalism differs from a notice, eulogy, or template, with source-backed visual obituary examples.",
+    "canonical": "https://www.finalnotes.page/obituary-articles/",
+    "h1": [
+      "Obituary Articles"
+    ],
+    "robots": "index, follow",
+    "schema_count": 2,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/obituary-lesson-plan/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/obituary-lesson-plan/",
+    "seconds": 1.45,
+    "bytes": 58427,
+    "title": "Obituary Lesson Plan for Journalism and ELA | Final Notes",
+    "description": "An obituary lesson plan for journalism, ELA, media writing, and family-history classes, with source-backed visual obituary examples and assessment prompts.",
+    "canonical": "https://www.finalnotes.page/obituary-lesson-plan/",
+    "h1": [
+      "Obituary Lesson Plan"
+    ],
+    "robots": "index, follow",
+    "schema_count": 2,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/obituary-research-guide/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/obituary-research-guide/",
+    "seconds": 0.94,
+    "bytes": 72507,
+    "title": "Obituary Research Guide for Genealogy and Family History | Final Notes",
+    "description": "An obituary research guide for genealogy, library, and family-history searches: where to look, what facts to verify, and how to turn an obituary record into a sourced life story.",
+    "canonical": "https://www.finalnotes.page/obituary-research-guide/",
+    "h1": [
+      "Obituary Research Guide"
+    ],
+    "robots": "index, follow",
+    "schema_count": 2,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/obituary-vs-death-notice/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/obituary-vs-death-notice/",
+    "seconds": 0.85,
+    "bytes": 66998,
+    "title": "Obituary vs Death Notice: What Is the Difference? | Final Notes",
+    "description": "A practical comparison of obituary, death notice, and funeral notice formats: what each one does, what to include, and when a family should use a short notice or a fuller life story.",
+    "canonical": "https://www.finalnotes.page/obituary-vs-death-notice/",
+    "h1": [
+      "Obituary vs Death Notice"
+    ],
+    "robots": "index, follow",
+    "schema_count": 2,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/obituary-vs-eulogy/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/obituary-vs-eulogy/",
+    "seconds": 1.34,
+    "bytes": 63548,
+    "title": "Obituary vs Eulogy: What Is the Difference? | Final Notes",
+    "description": "A practical comparison of an obituary and a eulogy: what each one is for, what to include, which comes first, and how to turn facts into a spoken or written tribute.",
+    "canonical": "https://www.finalnotes.page/obituary-vs-eulogy/",
+    "h1": [
+      "Obituary vs Eulogy"
+    ],
+    "robots": "index, follow",
+    "schema_count": 2,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/what-not-to-include-in-an-obituary/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/what-not-to-include-in-an-obituary/",
+    "seconds": 0.91,
+    "bytes": 68152,
+    "title": "What Not to Include in an Obituary: Privacy Checklist | Final Notes",
+    "description": "A privacy-first checklist for what not to include in an obituary: sensitive identity details, home addresses, exact service timing, financial information, private medical facts, and unverified family conflict.",
+    "canonical": "https://www.finalnotes.page/what-not-to-include-in-an-obituary/",
+    "h1": [
+      "What Not to Include in an Obituary"
+    ],
+    "robots": "index, follow",
+    "schema_count": 2,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 7
+  },
+  {
+    "url": "https://www.finalnotes.page/fake-obituary-sites/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/fake-obituary-sites/",
+    "seconds": 0.86,
+    "bytes": 68352,
+    "title": "Fake Obituary Sites: How to Spot Obituary Piracy | Final Notes",
+    "description": "A practical checklist for spotting fake obituary sites, obituary piracy, copied death notices, fake donation links, and scam memorial pages before you share or click.",
+    "canonical": "https://www.finalnotes.page/fake-obituary-sites/",
+    "h1": [
+      "Fake Obituary Sites"
+    ],
+    "robots": "index, follow",
+    "schema_count": 2,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/",
+    "seconds": 0.96,
+    "bytes": 68405,
+    "title": "How to Submit an Obituary to a Newspaper | Final Notes",
+    "description": "A practical checklist for submitting or placing an obituary in a newspaper: where to send it, proof of death, deadlines, costs, photos, funeral-home verification, and final proof review.",
+    "canonical": "https://www.finalnotes.page/how-to-submit-an-obituary-to-a-newspaper/",
+    "h1": [
+      "How To Submit An Obituary To A Newspaper"
+    ],
+    "robots": "index, follow",
+    "schema_count": 2,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 7
+  },
+  {
+    "url": "https://www.finalnotes.page/obituary-cost/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/obituary-cost/",
+    "seconds": 0.89,
+    "bytes": 70672,
+    "title": "Obituary Cost Guide: Newspaper and Online Prices | Final Notes",
+    "description": "A practical obituary cost guide for families comparing newspaper obituary prices, online memorials, photos, line fees, funeral-home cash advances, and ways to keep a public notice affordable.",
+    "canonical": "https://www.finalnotes.page/obituary-cost/",
+    "h1": [
+      "Obituary Cost Guide"
+    ],
+    "robots": "index, follow",
+    "schema_count": 2,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 7
+  },
+  {
+    "url": "https://www.finalnotes.page/obituary-checklist/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/obituary-checklist/",
+    "seconds": 0.94,
+    "bytes": 66622,
+    "title": "Obituary Checklist: What To Gather Before Writing | Final Notes",
+    "description": "A practical obituary checklist for families gathering names, dates, service details, life-story notes, donation wording, newspaper requirements, costs, and privacy checks before publication.",
+    "canonical": "https://www.finalnotes.page/obituary-checklist/",
+    "h1": [
+      "Obituary Checklist"
+    ],
+    "robots": "index, follow",
+    "schema_count": 2,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/obituary-mistakes-to-avoid/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/obituary-mistakes-to-avoid/",
+    "seconds": 0.8,
+    "bytes": 71241,
+    "title": "Obituary Mistakes To Avoid Before Publishing | Final Notes",
+    "description": "Common obituary mistakes to avoid before publishing: wrong names, missing service details, generic wording, unsafe private details, broken donation links, price surprises, and skipped proof review.",
+    "canonical": "https://www.finalnotes.page/obituary-mistakes-to-avoid/",
+    "h1": [
+      "Obituary Mistakes To Avoid"
+    ],
+    "robots": "index, follow",
+    "schema_count": 2,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 7
+  },
+  {
+    "url": "https://www.finalnotes.page/short-obituary-examples/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/short-obituary-examples/",
+    "seconds": 0.92,
+    "bytes": 70503,
+    "title": "Short Obituary Examples and Templates | Final Notes",
+    "description": "Short obituary examples and templates for newspaper notices, funeral-home pages, death announcements, private services, memorial donations, and longer online follow-up stories.",
+    "canonical": "https://www.finalnotes.page/short-obituary-examples/",
+    "h1": [
+      "Short Obituary Examples"
+    ],
+    "robots": "index, follow",
+    "schema_count": 2,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/free-obituary-generator/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/free-obituary-generator/",
+    "seconds": 0.85,
+    "bytes": 65450,
+    "title": "Free Obituary Generator and Draft Builder | Final Notes",
+    "description": "A free obituary generator that turns verified facts, family names, service details, memorial donation wording, and one life-story detail into a private draft you can edit before publication.",
+    "canonical": "https://www.finalnotes.page/free-obituary-generator/",
+    "h1": [
+      "Free Obituary Generator"
+    ],
+    "robots": "index, follow",
+    "schema_count": 2,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 8
+  },
+  {
+    "url": "https://www.finalnotes.page/obituary-wording/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/obituary-wording/",
+    "seconds": 0.95,
+    "bytes": 68680,
+    "title": "Obituary Wording Examples and Phrases | Final Notes",
+    "description": "Obituary wording examples and phrases for opening lines, family lists, service details, memorial donations, cause-of-death privacy, and final proof review.",
+    "canonical": "https://www.finalnotes.page/obituary-wording/",
+    "h1": [
+      "Obituary Wording Examples"
+    ],
+    "robots": "index, follow",
+    "schema_count": 2,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/memorial-donation-wording-obituary/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/memorial-donation-wording-obituary/",
+    "seconds": 0.93,
+    "bytes": 66132,
+    "title": "Memorial Donation Wording for an Obituary | Final Notes",
+    "description": "Practical memorial donation wording for an obituary: in lieu of flowers examples, charity details to verify, donation-link safety, family-support language, and thank-you tracking.",
+    "canonical": "https://www.finalnotes.page/memorial-donation-wording-obituary/",
+    "h1": [
+      "Memorial Donation Wording For An Obituary"
+    ],
+    "robots": "index, follow",
+    "schema_count": 2,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/how-to-write-an-obituary-story/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/how-to-write-an-obituary-story/",
+    "seconds": 0.8,
+    "bytes": 59286,
+    "title": "How to Write an Obituary Story | Final Notes",
+    "description": "A practical guide to writing an obituary story: gather evidence, choose the life-shaping moment, avoid generic praise, and turn a death notice into a sourced life story.",
+    "canonical": "https://www.finalnotes.page/how-to-write-an-obituary-story/",
+    "h1": [
+      "How to Write an Obituary Story"
+    ],
+    "robots": "index, follow",
+    "schema_count": 2,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 0
+  },
+  {
+    "url": "https://www.finalnotes.page/obituary-writing-prompts/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/obituary-writing-prompts/",
+    "seconds": 1.0,
+    "bytes": 72102,
+    "title": "Obituary Writing Prompts and Legacy Questions | Final Notes",
+    "description": "Obituary writing prompts and legacy interview questions for gathering facts, scenes, memories, records, and privacy notes before writing a life story.",
+    "canonical": "https://www.finalnotes.page/obituary-writing-prompts/",
+    "h1": [
+      "Obituary Writing Prompts"
+    ],
+    "robots": "index, follow",
+    "schema_count": 2,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/life-story-obituary-template/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/life-story-obituary-template/",
+    "seconds": 0.88,
+    "bytes": 68303,
+    "title": "Life Story Obituary Template | Final Notes",
+    "description": "A life story obituary template for writing a warmer obituary: short, full-length, family-history, and visual obituary structures with privacy and source checks.",
+    "canonical": "https://www.finalnotes.page/life-story-obituary-template/",
+    "h1": [
+      "Life Story Obituary Template"
+    ],
+    "robots": "index, follow",
+    "schema_count": 2,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/obituary-examples/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/obituary-examples/",
+    "seconds": 0.96,
+    "bytes": 60046,
+    "title": "Obituary Examples and Story Patterns | Final Notes",
+    "description": "Obituary examples that show how a death notice can become a sourced life story, with visual obituary examples, article structures, and writing notes.",
+    "canonical": "https://www.finalnotes.page/obituary-examples/",
+    "h1": [
+      "Obituary Examples"
+    ],
+    "robots": "index, follow",
+    "schema_count": 2,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 0
+  },
+  {
+    "url": "https://www.finalnotes.page/what-are-obituary-comics/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/what-are-obituary-comics/",
+    "seconds": 0.91,
+    "bytes": 49564,
+    "title": "What Are Obituary Comics? | Final Notes",
+    "description": "A plain-language explainer on obituary comics: how visual obituaries differ from death notices, memorial pages, biography comics, and grief comics.",
+    "canonical": "https://www.finalnotes.page/what-are-obituary-comics/",
+    "h1": [
+      "What Are Obituary Comics?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 2,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 0
+  },
+  {
+    "url": "https://www.finalnotes.page/educators-libraries/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/educators-libraries/",
+    "seconds": 0.9,
+    "bytes": 48107,
+    "title": "Obituary Comics for Educators and Libraries | Final Notes",
+    "description": "A classroom and library resource page for using source-backed obituary comics in visual biography, grief comics, graphic medicine, and life-writing contexts.",
+    "canonical": "https://www.finalnotes.page/educators-libraries/",
+    "h1": [
+      "Obituary Comics for Educators and Libraries"
+    ],
+    "robots": "index, follow",
+    "schema_count": 2,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 0
+  },
+  {
+    "url": "https://www.finalnotes.page/press/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/press/",
+    "seconds": 1.34,
+    "bytes": 177645,
+    "title": "Obituary Stories Resource Page for Journalists and Reviewers | Final Notes",
+    "description": "Link targets, story angles, source-request topics, subject notes, and citation guidance for journalists, editors, reviewers, educators, and librarians covering obituary stories and comics.",
+    "canonical": "https://www.finalnotes.page/press/",
+    "h1": [
+      "Obituary Stories And Comics Resource Page"
+    ],
+    "robots": "index, follow",
+    "schema_count": 2,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 0
+  },
+  {
+    "url": "https://www.finalnotes.page/obituary-story-worksheet/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/obituary-story-worksheet/",
+    "seconds": 0.79,
+    "bytes": 49004,
+    "title": "Printable Obituary Story Worksheet | Final Notes",
+    "description": "A printable obituary story worksheet for gathering facts, memories, records, scenes, and citations before writing a sourced life story.",
+    "canonical": "https://www.finalnotes.page/obituary-story-worksheet/",
+    "h1": [
+      "Obituary Story Worksheet"
+    ],
+    "robots": "index, follow",
+    "schema_count": 2,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 0
+  },
+  {
+    "url": "https://www.finalnotes.page/about/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/about/",
+    "seconds": 0.94,
+    "bytes": 34405,
+    "title": "Editorial Method | Final Notes",
+    "description": "Editorial method, source standards, and publishing notes for Memento Mori Obituary Comics.",
+    "canonical": "https://www.finalnotes.page/about/",
+    "h1": [
+      "About Memento Mori Obituary Comics"
+    ],
+    "robots": "index, follow",
+    "schema_count": 2,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 0
+  },
+  {
+    "url": "https://www.finalnotes.page/newsletter/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/newsletter/",
+    "seconds": 1.14,
+    "bytes": 22700,
+    "title": "Borrowed Time Dispatch | Final Notes",
+    "description": "A Substack dispatch for new obituary comics, source notes, and weekly memento mori reading.",
+    "canonical": "https://www.finalnotes.page/newsletter/",
+    "h1": [
+      "Borrowed Time Dispatch"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 0
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/christy-brown-left-foot/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/christy-brown-left-foot/",
+    "seconds": 1.06,
+    "bytes": 61421,
+    "title": "Christy Brown Obituary Comic | Final Notes",
+    "description": "Christy Brown obituary comic: The Irish writer and painter who forced a full life through one controllable foot. A source-backed visual biography about morta...",
+    "canonical": "https://www.finalnotes.page/comics/christy-brown-left-foot/",
+    "h1": [
+      "Who was Christy Brown , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/nellie-bly-ten-days/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/nellie-bly-ten-days/",
+    "seconds": 1.03,
+    "bytes": 60132,
+    "title": "Nellie Bly: Ten Days Obituary Comic | Final Notes",
+    "description": "Nellie Bly obituary comic: The undercover reporter who entered Blackwell's Island asylum, turned ten days of confinement into public evidence, and helped giv...",
+    "canonical": "https://www.finalnotes.page/comics/nellie-bly-ten-days/",
+    "h1": [
+      "Who was Nellie Bly , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/dietrich-bonhoeffer-letters-before-dawn/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/dietrich-bonhoeffer-letters-before-dawn/",
+    "seconds": 0.82,
+    "bytes": 60139,
+    "title": "Dietrich Bonhoeffer Obituary Comic | Final Notes",
+    "description": "Dietrich Bonhoeffer obituary comic: A German pastor and theologian entered prison under the Nazi state and sent out letters that turned confinement into one...",
+    "canonical": "https://www.finalnotes.page/comics/dietrich-bonhoeffer-letters-before-dawn/",
+    "h1": [
+      "Who was Dietrich Bonhoeffer , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/hildegard-living-light/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/hildegard-living-light/",
+    "seconds": 0.95,
+    "bytes": 62156,
+    "title": "Hildegard of Bingen Obituary Comic | Final Notes",
+    "description": "Hildegard of Bingen obituary comic: A sickly medieval visionary turned frailty into manuscripts, chants, monasteries, medicine, and a public authority that s...",
+    "canonical": "https://www.finalnotes.page/comics/hildegard-living-light/",
+    "h1": [
+      "Who was Hildegard of Bingen , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/elizabeth-blackwell-one-eye/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/elizabeth-blackwell-one-eye/",
+    "seconds": 1.09,
+    "bytes": 61083,
+    "title": "Elizabeth Blackwell Obituary Comic | Final Notes",
+    "description": "Elizabeth Blackwell obituary comic: The first woman in the United States to receive an M.D. lost one eye while training in Paris, then turned a closed surgic...",
+    "canonical": "https://www.finalnotes.page/comics/elizabeth-blackwell-one-eye/",
+    "h1": [
+      "Who was Elizabeth Blackwell , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/henrietta-lacks-immortal-cells/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/henrietta-lacks-immortal-cells/",
+    "seconds": 1.41,
+    "bytes": 61782,
+    "title": "Henrietta Lacks: Immortal Cells Obituary Comic | Final Notes",
+    "description": "Henrietta Lacks obituary comic: A young mother died of cervical cancer at thirty-one; cells taken without her consent became HeLa, a hidden engine of modern...",
+    "canonical": "https://www.finalnotes.page/comics/henrietta-lacks-immortal-cells/",
+    "h1": [
+      "Who was Henrietta Lacks , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 8
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/claude-monet-water-lilies/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/claude-monet-water-lilies/",
+    "seconds": 0.77,
+    "bytes": 58285,
+    "title": "Claude Monet Obituary Comic | Final Notes",
+    "description": "Claude Monet obituary comic: When cataracts clouded the painter of light, Monet answered with the vast Water Lilies \u2014 a garden turned into a room where fadin...",
+    "canonical": "https://www.finalnotes.page/comics/claude-monet-water-lilies/",
+    "h1": [
+      "Who was Claude Monet , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 8
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/horatio-nelson-trafalgar-light/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/horatio-nelson-trafalgar-light/",
+    "seconds": 0.9,
+    "bytes": 59289,
+    "title": "Horatio Nelson: Trafalgar Light Obituary Comic | Final Notes",
+    "description": "Horatio Nelson obituary comic: Before Trafalgar made him a monument, Nelson kept commanding through a damaged eye, an empty sleeve, and the knowledge that vi...",
+    "canonical": "https://www.finalnotes.page/comics/horatio-nelson-trafalgar-light/",
+    "h1": [
+      "Who was Horatio Nelson , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/gene-roddenberry-desert-starship/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/gene-roddenberry-desert-starship/",
+    "seconds": 0.98,
+    "bytes": 59699,
+    "title": "Gene Roddenberry Obituary Comic | Final Notes",
+    "description": "Gene Roddenberry obituary comic: Before Star Trek imagined crews surviving the unknown together, Gene Roddenberry walked away from war and a burning 1947 des...",
+    "canonical": "https://www.finalnotes.page/comics/gene-roddenberry-desert-starship/",
+    "h1": [
+      "Who was Gene Roddenberry , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 8
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/randy-pausch-last-lecture/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/randy-pausch-last-lecture/",
+    "seconds": 0.87,
+    "bytes": 62307,
+    "title": "Randy Pausch: The Last Lecture Obituary Comic | Final Notes",
+    "description": "Randy Pausch obituary comic: A Carnegie Mellon professor faced pancreatic cancer and turned a terminal deadline into a lecture about childhood dreams, teachi...",
+    "canonical": "https://www.finalnotes.page/comics/randy-pausch-last-lecture/",
+    "h1": [
+      "Who was Randy Pausch , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 8
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/patricia-douglas-girl-27/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/patricia-douglas-girl-27/",
+    "seconds": 0.9,
+    "bytes": 60820,
+    "title": "Patricia Dorothy Douglas Obituary Comic | Final Notes",
+    "description": "Patricia Dorothy Douglas obituary comic: A young dancer challenged MGM after a 1937 assault. Hollywood tried to reduce her to a file number; history had to l...",
+    "canonical": "https://www.finalnotes.page/comics/patricia-douglas-girl-27/",
+    "h1": [
+      "Who was Patricia Dorothy Douglas , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/mary-de-rachewiltz-tower-of-cantos/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/mary-de-rachewiltz-tower-of-cantos/",
+    "seconds": 0.98,
+    "bytes": 61208,
+    "title": "Mary de Rachewiltz Obituary Comic | Final Notes",
+    "description": "Mary de Rachewiltz obituary comic: Ezra Pound\u2019s daughter spent a century inside a difficult inheritance: preserving poetry, translating The Cantos, and refus...",
+    "canonical": "https://www.finalnotes.page/comics/mary-de-rachewiltz-tower-of-cantos/",
+    "h1": [
+      "Who was Mary de Rachewiltz , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/anna-akhmatova-requiem-queue/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/anna-akhmatova-requiem-queue/",
+    "seconds": 0.97,
+    "bytes": 60213,
+    "title": "Anna Akhmatova: Requiem Queue Obituary Comic | Final Notes",
+    "description": "Anna Akhmatova obituary comic: In Stalin\u2019s prison lines, Akhmatova turned a mother\u2019s terror into Requiem \u2014 a secret poem carried by memory until history coul...",
+    "canonical": "https://www.finalnotes.page/comics/anna-akhmatova-requiem-queue/",
+    "h1": [
+      "Who was Anna Akhmatova , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/david-bowie-blackstar-farewell/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/david-bowie-blackstar-farewell/",
+    "seconds": 0.89,
+    "bytes": 60946,
+    "title": "David Bowie: Blackstar Farewell Obituary Comic | Final Notes",
+    "description": "David Bowie obituary comic: Facing cancer privately, Bowie turned his final album into a controlled farewell \u2014 art released on his birthday, two days before...",
+    "canonical": "https://www.finalnotes.page/comics/david-bowie-blackstar-farewell/",
+    "h1": [
+      "Who was David Bowie , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 8
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/victor-klemperer-dresden-diaries/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/victor-klemperer-dresden-diaries/",
+    "seconds": 0.82,
+    "bytes": 62986,
+    "title": "Victor Klemperer Obituary Comic | Final Notes",
+    "description": "Victor Klemperer obituary comic: The Dresden philologist who survived Nazi persecution and firestorm, leaving diaries that caught tyranny entering daily life...",
+    "canonical": "https://www.finalnotes.page/comics/victor-klemperer-dresden-diaries/",
+    "h1": [
+      "Who was Victor Klemperer , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 8
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/antonio-gramsci-prison-notebooks/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/antonio-gramsci-prison-notebooks/",
+    "seconds": 0.84,
+    "bytes": 62065,
+    "title": "Antonio Francesco Gramsci Obituary Comic | Final Notes",
+    "description": "Antonio Francesco Gramsci obituary comic: The imprisoned Sardinian thinker whose frail body broke under Fascism while his notebooks escaped into the future o...",
+    "canonical": "https://www.finalnotes.page/comics/antonio-gramsci-prison-notebooks/",
+    "h1": [
+      "Who was Antonio Francesco Gramsci , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/toussaint-louverture-open-gate/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/toussaint-louverture-open-gate/",
+    "seconds": 0.9,
+    "bytes": 59671,
+    "title": "Fran\u00e7ois-Dominique Toussaint Louverture Obituary Comic |...",
+    "description": "Fran\u00e7ois-Dominique Toussaint Louverture obituary comic: The formerly enslaved strategist who helped turn revolt in Saint-Domingue into the road toward the fi...",
+    "canonical": "https://www.finalnotes.page/comics/toussaint-louverture-open-gate/",
+    "h1": [
+      "Who was Fran\u00e7ois-Dominique Toussaint Louverture , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/judy-heumann-sign-504/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/judy-heumann-sign-504/",
+    "seconds": 0.96,
+    "bytes": 62587,
+    "title": "Judith Ellen \u201cJudy\u201d Heumann Obituary Comic | Final Notes",
+    "description": "Judith Ellen \u201cJudy\u201d Heumann obituary comic: The wheelchair-using organizer who turned a childhood school-door exclusion into a national demand for disability...",
+    "canonical": "https://www.finalnotes.page/comics/judy-heumann-sign-504/",
+    "h1": [
+      "Who was Judith Ellen \u201cJudy\u201d Heumann , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/ryan-white-school-door/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/ryan-white-school-door/",
+    "seconds": 0.88,
+    "bytes": 56941,
+    "title": "Ryan Wayne White Obituary Comic | Final Notes",
+    "description": "Ryan Wayne White obituary comic: The Indiana teenager who survived long enough to make AIDS panic face a classroom door \u2014 and left his name on care instead o...",
+    "canonical": "https://www.finalnotes.page/comics/ryan-white-school-door/",
+    "h1": [
+      "Who was Ryan Wayne White , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/blaise-pascal-night-of-fire/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/blaise-pascal-night-of-fire/",
+    "seconds": 0.94,
+    "bytes": 60676,
+    "title": "Blaise Pascal: Night of Fire Obituary Comic | Final Notes",
+    "description": "Blaise Pascal obituary comic: The frail mathematician who made pressure, machines, chance, and faith visible \u2014 then carried a private fire into the fragments...",
+    "canonical": "https://www.finalnotes.page/comics/blaise-pascal-night-of-fire/",
+    "h1": [
+      "Who was Blaise Pascal , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/henry-dunant-solferino-memory/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/henry-dunant-solferino-memory/",
+    "seconds": 0.81,
+    "bytes": 61043,
+    "title": "Henry Dunant: Solferino Memory Obituary Comic | Final Notes",
+    "description": "Henry Dunant obituary comic: The businessman who walked into Solferino\u2019s wounded aftermath and turned battlefield pity into the Red Cross, neutral aid, and t...",
+    "canonical": "https://www.finalnotes.page/comics/henry-dunant-solferino-memory/",
+    "h1": [
+      "Who was Henry Dunant , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/betye-saar-liberation-box/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/betye-saar-liberation-box/",
+    "seconds": 1.08,
+    "bytes": 61525,
+    "title": "Betye Saar: Liberation Box Obituary Comic | Final Notes",
+    "description": "Betye Saar obituary comic: The assemblage artist who made discarded objects testify, turning racist souvenirs into resistance and memory into charged rooms...",
+    "canonical": "https://www.finalnotes.page/comics/betye-saar-liberation-box/",
+    "h1": [
+      "Who was Betye Saar , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 8
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/freddie-mercury-last-light/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/freddie-mercury-last-light/",
+    "seconds": 0.87,
+    "bytes": 57854,
+    "title": "Freddie Mercury: Last Light Obituary Comic | Final Notes",
+    "description": "Freddie Mercury obituary comic: The Queen frontman whose private final clock became a public echo for music, AIDS awareness, and grief turned useful. A sourc...",
+    "canonical": "https://www.finalnotes.page/comics/freddie-mercury-last-light/",
+    "h1": [
+      "Who was Freddie Mercury , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 8
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/beethoven-silence-ode/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/beethoven-silence-ode/",
+    "seconds": 0.9,
+    "bytes": 59002,
+    "title": "Ludwig van Beethoven Obituary Comic | Final Notes",
+    "description": "Ludwig van Beethoven obituary comic: The composer who lost the outer world of sound and answered with an inner orchestra that still shakes concert halls. A s...",
+    "canonical": "https://www.finalnotes.page/comics/beethoven-silence-ode/",
+    "h1": [
+      "Who was Ludwig van Beethoven , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 8
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/dorothea-lange-limp-and-lens/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/dorothea-lange-limp-and-lens/",
+    "seconds": 0.91,
+    "bytes": 60606,
+    "title": "Dorothea Lange: Limp and Lens Obituary Comic | Final Notes",
+    "description": "Dorothea Lange obituary comic: The documentary photographer whose childhood limp and Depression-era camera made poverty, displacement, and public policy look...",
+    "canonical": "https://www.finalnotes.page/comics/dorothea-lange-limp-and-lens/",
+    "h1": [
+      "Who was Dorothea Lange , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 8
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/tsutomu-yamaguchi-double-light/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/tsutomu-yamaguchi-double-light/",
+    "seconds": 1.02,
+    "bytes": 58258,
+    "title": "Tsutomu Yamaguchi: Double Light Obituary Comic | Final Notes",
+    "description": "Tsutomu Yamaguchi obituary comic: The Japanese marine engineer who survived both atomic bombings, then turned the memory of two white suns into a warning aga...",
+    "canonical": "https://www.finalnotes.page/comics/tsutomu-yamaguchi-double-light/",
+    "h1": [
+      "Who was Tsutomu Yamaguchi , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 8
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/vaclav-havel-cell-to-castle/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/vaclav-havel-cell-to-castle/",
+    "seconds": 0.87,
+    "bytes": 59495,
+    "title": "V\u00e1clav Havel: Cell to Castle Obituary Comic | Final Notes",
+    "description": "V\u00e1clav Havel obituary comic: The imprisoned Czech playwright who helped turn moral dissent into a peaceful revolution, then carried it into the presidency. A...",
+    "canonical": "https://www.finalnotes.page/comics/vaclav-havel-cell-to-castle/",
+    "h1": [
+      "Who was V\u00e1clav Havel , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/tina-turner-private-dancer/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/tina-turner-private-dancer/",
+    "seconds": 0.82,
+    "bytes": 60480,
+    "title": "Tina Turner: Private Dancer Obituary Comic | Final Notes",
+    "description": "Tina Turner obituary comic: The Queen of Rock \u2019n\u2019 Roll who escaped violence, rebuilt from almost nothing, and made middle age sound like ignition. A source-b...",
+    "canonical": "https://www.finalnotes.page/comics/tina-turner-private-dancer/",
+    "h1": [
+      "Who was Tina Turner , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 8
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/witold-pilecki-auschwitz-report/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/witold-pilecki-auschwitz-report/",
+    "seconds": 1.03,
+    "bytes": 61896,
+    "title": "Witold Pilecki Obituary Comic | Final Notes",
+    "description": "Witold Pilecki obituary comic: The Polish resistance officer who voluntarily entered Auschwitz so truth could get out. A source-backed visual biography about...",
+    "canonical": "https://www.finalnotes.page/comics/witold-pilecki-auschwitz-report/",
+    "h1": [
+      "Who was Witold Pilecki , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/frederick-douglass-stolen-thunder/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/frederick-douglass-stolen-thunder/",
+    "seconds": 1.07,
+    "bytes": 60942,
+    "title": "Frederick Douglass Obituary Comic | Final Notes",
+    "description": "Frederick Douglass obituary comic: The escaped slave who turned forbidden literacy into a voice America could not bury. A source-backed visual biography abou...",
+    "canonical": "https://www.finalnotes.page/comics/frederick-douglass-stolen-thunder/",
+    "h1": [
+      "Who was Frederick Douglass , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/rani-lakshmibai-jhansi-flame/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/rani-lakshmibai-jhansi-flame/",
+    "seconds": 1.04,
+    "bytes": 58997,
+    "title": "Rani Lakshmibai: Jhansi Flame Obituary Comic | Final Notes",
+    "description": "Rani Lakshmibai obituary comic: The queen of Jhansi who turned annexation, siege, and death near Gwalior into one of India\u2019s fiercest images of courage. A so...",
+    "canonical": "https://www.finalnotes.page/comics/rani-lakshmibai-jhansi-flame/",
+    "h1": [
+      "Who was Rani Lakshmibai , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/bessie-coleman-queen-bess/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/bessie-coleman-queen-bess/",
+    "seconds": 0.93,
+    "bytes": 65046,
+    "title": "Bessie Coleman Obituary Comic | Final Notes",
+    "description": "Bessie Coleman obituary comic: The aviator who crossed an ocean for the license America denied her, survived a crash, and kept opening the sky. A source-back...",
+    "canonical": "https://www.finalnotes.page/comics/bessie-coleman-queen-bess/",
+    "h1": [
+      "Who was Bessie Coleman , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 8
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/hedy-lamarr-secret-signal/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/hedy-lamarr-secret-signal/",
+    "seconds": 0.92,
+    "bytes": 60198,
+    "title": "Hedy Lamarr: Secret Signal Obituary Comic | Final Notes",
+    "description": "Hedy Lamarr obituary comic: The film star who escaped being watched and helped invent a signal built to evade capture. A source-backed visual biography about...",
+    "canonical": "https://www.finalnotes.page/comics/hedy-lamarr-secret-signal/",
+    "h1": [
+      "Who was Hedy Lamarr , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/florence-nightingale-lamp-and-ledger/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/florence-nightingale-lamp-and-ledger/",
+    "seconds": 0.9,
+    "bytes": 63585,
+    "title": "Florence Nightingale Obituary Comic | Final Notes",
+    "description": "Florence Nightingale obituary comic: The nurse remembered for a lamp also used ledgers, statistics, and training to fight preventable death. A source-backed...",
+    "canonical": "https://www.finalnotes.page/comics/florence-nightingale-lamp-and-ledger/",
+    "h1": [
+      "Who was Florence Nightingale , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 8
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/alan-turing-snow-white-machine/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/alan-turing-snow-white-machine/",
+    "seconds": 0.97,
+    "bytes": 61146,
+    "title": "Alan Mathison Turing Obituary Comic | Final Notes",
+    "description": "Alan Mathison Turing obituary comic: The codebreaker who helped invent modern computation was destroyed by the state that needed his mind. A source-backed vi...",
+    "canonical": "https://www.finalnotes.page/comics/alan-turing-snow-white-machine/",
+    "h1": [
+      "Who was Alan Mathison Turing , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/buckminster-fuller-world-machine/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/buckminster-fuller-world-machine/",
+    "seconds": 0.94,
+    "bytes": 60927,
+    "title": "Richard Buckminster Fuller Obituary Comic | Final Notes",
+    "description": "Richard Buckminster Fuller obituary comic: After a 1927 crisis at Lake Michigan, the failed builder turned his life into a design experiment for humanity. A...",
+    "canonical": "https://www.finalnotes.page/comics/buckminster-fuller-world-machine/",
+    "h1": [
+      "Who was Richard Buckminster Fuller , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 8
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/katharine-graham-newsroom-after-the-gun/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/katharine-graham-newsroom-after-the-gun/",
+    "seconds": 0.83,
+    "bytes": 64122,
+    "title": "Katharine Meyer Graham Obituary Comic | Final Notes",
+    "description": "Katharine Meyer Graham obituary comic: After her husband\u2019s suicide, the accidental publisher learned power in public and kept The Washington Post standing wh...",
+    "canonical": "https://www.finalnotes.page/comics/katharine-graham-newsroom-after-the-gun/",
+    "h1": [
+      "Who was Katharine Meyer Graham , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 8
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/dina-babbitt-painted-out-of-hell/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/dina-babbitt-painted-out-of-hell/",
+    "seconds": 0.99,
+    "bytes": 64156,
+    "title": "Dina Gottliebov\u00e1 Babbitt Obituary Comic | Final Notes",
+    "description": "Dina Gottliebov\u00e1 Babbitt obituary comic: The Auschwitz survivor whose pencil became a lifeline, then a lifelong argument over stolen art and dignity. A sourc...",
+    "canonical": "https://www.finalnotes.page/comics/dina-babbitt-painted-out-of-hell/",
+    "h1": [
+      "Who was Dina Gottliebov\u00e1 Babbitt , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 8
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/barbara-rubin-underground-spark/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/barbara-rubin-underground-spark/",
+    "seconds": 0.85,
+    "bytes": 60493,
+    "title": "Barbara Rubin Obituary Comic | Final Notes",
+    "description": "Barbara Rubin obituary comic: The teenage filmmaker who turned borrowed 16mm equipment into an underground shockwave, connected poets, pop art, and rock, the...",
+    "canonical": "https://www.finalnotes.page/comics/barbara-rubin-underground-spark/",
+    "h1": [
+      "Who was Barbara Rubin , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/saint-exupery-desert-star/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/saint-exupery-desert-star/",
+    "seconds": 0.8,
+    "bytes": 59592,
+    "title": "Antoine de Saint-Exup\u00e9ry Obituary Comic | Final Notes",
+    "description": "Antoine de Saint-Exup\u00e9ry obituary comic: The aviator-writer who survived the Sahara, turned crash and thirst into moral imagination, wrote The Little Prince...",
+    "canonical": "https://www.finalnotes.page/comics/saint-exupery-desert-star/",
+    "h1": [
+      "Who was Antoine de Saint-Exup\u00e9ry , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/john-mccain-hanoi-sky/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/john-mccain-hanoi-sky/",
+    "seconds": 0.91,
+    "bytes": 56962,
+    "title": "John McCain: Hanoi Sky Obituary Comic | Final Notes",
+    "description": "John McCain obituary comic: The naval aviator who fell into Hanoi, survived five and a half years as a prisoner of war, and carried the argument about duty i...",
+    "canonical": "https://www.finalnotes.page/comics/john-mccain-hanoi-sky/",
+    "h1": [
+      "Who was John McCain , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 8
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/roger-ebert-voice-after-silence/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/roger-ebert-voice-after-silence/",
+    "seconds": 0.94,
+    "bytes": 59457,
+    "title": "Roger Ebert Obituary Comic | Final Notes",
+    "description": "Roger Ebert obituary comic: The film critic who lost his speaking voice to cancer and made the keyboard his second mouth. A source-backed visual biography ab...",
+    "canonical": "https://www.finalnotes.page/comics/roger-ebert-voice-after-silence/",
+    "h1": [
+      "Who was Roger Ebert , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/ada-lovelace-notes-before-night/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/ada-lovelace-notes-before-night/",
+    "seconds": 0.94,
+    "bytes": 58742,
+    "title": "Ada Lovelace Obituary Comic | Final Notes",
+    "description": "Ada Lovelace obituary comic: The young mathematician who saw a symbolic computer in brass gears before the computer existed. A source-backed visual biography...",
+    "canonical": "https://www.finalnotes.page/comics/ada-lovelace-notes-before-night/",
+    "h1": [
+      "Who was Ada Lovelace , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/robert-louis-stevenson-lantern-lungs/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/robert-louis-stevenson-lantern-lungs/",
+    "seconds": 0.84,
+    "bytes": 62323,
+    "title": "Robert Louis Stevenson Obituary Comic | Final Notes",
+    "description": "Robert Louis Stevenson obituary comic: The frail Scottish writer who carried maps, doubles, ships, and lanterns through a life lived on borrowed air. A sourc...",
+    "canonical": "https://www.finalnotes.page/comics/robert-louis-stevenson-lantern-lungs/",
+    "h1": [
+      "Who was Robert Louis Stevenson , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/john-lewis-good-trouble/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/john-lewis-good-trouble/",
+    "seconds": 0.92,
+    "bytes": 61164,
+    "title": "John Lewis: Good Trouble Obituary Comic | Final Notes",
+    "description": "John Lewis obituary comic: The civil-rights leader who left Selma with a fractured skull and spent the rest of his life crossing the bridge again. A source-b...",
+    "canonical": "https://www.finalnotes.page/comics/john-lewis-good-trouble/",
+    "h1": [
+      "Who was John Lewis , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 10
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/samuel-beckett-wound-waiting/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/samuel-beckett-wound-waiting/",
+    "seconds": 0.91,
+    "bytes": 59730,
+    "title": "Samuel Beckett: Wound Waiting Obituary Comic | Final Notes",
+    "description": "Samuel Beckett obituary comic: The writer who survived a knife near the heart and later made waiting into modern theatre. A source-backed visual biography ab...",
+    "canonical": "https://www.finalnotes.page/comics/samuel-beckett-wound-waiting/",
+    "h1": [
+      "Who was Samuel Beckett , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 8
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/nancy-sheung-darkroom-light/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/nancy-sheung-darkroom-light/",
+    "seconds": 0.87,
+    "bytes": 61054,
+    "title": "Nancy Sheung: Darkroom Light Obituary Comic | Final Notes",
+    "description": "Nancy Sheung obituary comic: The Hong Kong photographer who made women own the frame. A source-backed visual biography about mortality, work, and what remains.",
+    "canonical": "https://www.finalnotes.page/comics/nancy-sheung-darkroom-light/",
+    "h1": [
+      "Who was Nancy Sheung , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 10
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/robbie-basho-raga-ghost/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/robbie-basho-raga-ghost/",
+    "seconds": 0.97,
+    "bytes": 58979,
+    "title": "Robbie Basho: Raga Ghost Obituary Comic | Final Notes",
+    "description": "Robbie Basho obituary comic: The steel-string mystic who made the guitar feel like prayer. A source-backed visual biography about mortality, work, and what r...",
+    "canonical": "https://www.finalnotes.page/comics/robbie-basho-raga-ghost/",
+    "h1": [
+      "Who was Robbie Basho , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 8
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/garrincha-bent-legged-angel/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/garrincha-bent-legged-angel/",
+    "seconds": 0.89,
+    "bytes": 62864,
+    "title": "Manoel Francisco dos Santos (Garrincha) Obituary Comic |...",
+    "description": "Manoel Francisco dos Santos (Garrincha) obituary comic: The Brazilian winger whose bent legs became football joy. A source-backed visual biography about mort...",
+    "canonical": "https://www.finalnotes.page/comics/garrincha-bent-legged-angel/",
+    "h1": [
+      "Who was Manoel Francisco dos Santos (Garrincha) , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 8
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/margaret-brown-unsinkable/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/margaret-brown-unsinkable/",
+    "seconds": 0.8,
+    "bytes": 57592,
+    "title": "Margaret Tobin Brown Obituary Comic | Final Notes",
+    "description": "Margaret Tobin Brown obituary comic: Titanic survivor who turned sudden fame into relief, suffrage, labor, and humanitarian work. A source-backed visual biog...",
+    "canonical": "https://www.finalnotes.page/comics/margaret-brown-unsinkable/",
+    "h1": [
+      "Who was Margaret Tobin Brown , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/audre-lorde-cancer-journals/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/audre-lorde-cancer-journals/",
+    "seconds": 0.89,
+    "bytes": 58165,
+    "title": "Audre Lorde: Cancer Journals Obituary Comic | Final Notes",
+    "description": "Audre Lorde obituary comic: The poet who made illness, identity, and survival impossible to keep private. A source-backed visual biography about mortality, w...",
+    "canonical": "https://www.finalnotes.page/comics/audre-lorde-cancer-journals/",
+    "h1": [
+      "Who was Audre Lorde , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 8
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/oliver-sacks-gratitude-near-the-end/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/oliver-sacks-gratitude-near-the-end/",
+    "seconds": 1.4,
+    "bytes": 60205,
+    "title": "Oliver Sacks Obituary Comic | Final Notes",
+    "description": "Oliver Sacks obituary comic: The neurologist who made case histories human, then met terminal cancer with attention and gratitude. A source-backed visual bio...",
+    "canonical": "https://www.finalnotes.page/comics/oliver-sacks-gratitude-near-the-end/",
+    "h1": [
+      "Who was Oliver Sacks , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 8
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/django-reinhardt-two-finger-fire/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/django-reinhardt-two-finger-fire/",
+    "seconds": 0.81,
+    "bytes": 56111,
+    "title": "Django Reinhardt Obituary Comic | Final Notes",
+    "description": "Django Reinhardt obituary comic: The guitarist whose burned hand helped invent jazz manouche. A source-backed visual biography about mortality, work, and wha...",
+    "canonical": "https://www.finalnotes.page/comics/django-reinhardt-two-finger-fire/",
+    "h1": [
+      "Who was Django Reinhardt , and what is this comic about?"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/terry-fox-marathon-of-hope/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/terry-fox-marathon-of-hope/",
+    "seconds": 0.92,
+    "bytes": 47483,
+    "title": "Terry Fox: Marathon of Hope Obituary Comic | Final Notes",
+    "description": "Terry Fox obituary comic: The young runner who turned an amputated leg and an unfinished road into a living cancer-research movement. A source-backed visual...",
+    "canonical": "https://www.finalnotes.page/comics/terry-fox-marathon-of-hope/",
+    "h1": [
+      "Terry Fox - Terry Fox: Marathon of Hope"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 3
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/virginia-hall-limping-lady/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/virginia-hall-limping-lady/",
+    "seconds": 0.82,
+    "bytes": 49039,
+    "title": "Virginia Hall: The Limping Lady Obituary Comic | Final Notes",
+    "description": "Virginia Hall obituary comic: The spy who turned a wooden leg, a radio, and a network into Allied resistance. A source-backed visual biography about mortalit...",
+    "canonical": "https://www.finalnotes.page/comics/virginia-hall-limping-lady/",
+    "h1": [
+      "Virginia Hall - Virginia Hall: The Limping Lady"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 4
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/dith-pran-killing-fields/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/dith-pran-killing-fields/",
+    "seconds": 0.87,
+    "bytes": 44127,
+    "title": "Dith Pran: Killing Fields Obituary Comic | Final Notes",
+    "description": "Dith Pran obituary comic: The Cambodian photojournalist who survived genocide and turned memory into witness. A source-backed visual biography about mortalit...",
+    "canonical": "https://www.finalnotes.page/comics/dith-pran-killing-fields/",
+    "h1": [
+      "Dith Pran - Dith Pran: Killing Fields"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 3
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/srinivasa-ramanujan-mock-theta/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/srinivasa-ramanujan-mock-theta/",
+    "seconds": 0.83,
+    "bytes": 46695,
+    "title": "Srinivasa Ramanujan: Mock Theta Obituary Comic | Final Notes",
+    "description": "Srinivasa Ramanujan obituary comic: The dying mathematician whose last formulas kept opening doors. A source-backed visual biography about mortality, work, a...",
+    "canonical": "https://www.finalnotes.page/comics/srinivasa-ramanujan-mock-theta/",
+    "h1": [
+      "Srinivasa Ramanujan - Srinivasa Ramanujan: Mock Theta"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 3
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/irena-sendler-jars-of-names/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/irena-sendler-jars-of-names/",
+    "seconds": 0.88,
+    "bytes": 47662,
+    "title": "Irena Sendler: Jars of Names Obituary Comic | Final Notes",
+    "description": "Irena Sendler obituary comic: The Polish social worker who helped smuggle children from the Warsaw ghetto \u2014 and hid their real names in jars. A source-backed...",
+    "canonical": "https://www.finalnotes.page/comics/irena-sendler-jars-of-names/",
+    "h1": [
+      "Irena Sendler - Irena Sendler: Jars of Names"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 3
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/ernest-shackleton-endurance-after-ice/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/ernest-shackleton-endurance-after-ice/",
+    "seconds": 0.86,
+    "bytes": 50514,
+    "title": "Ernest Shackleton Obituary Comic | Final Notes",
+    "description": "Ernest Shackleton obituary comic: The Antarctic explorer whose failed crossing became one of history\u2019s clearest studies in leadership: when Endurance sank, h...",
+    "canonical": "https://www.finalnotes.page/comics/ernest-shackleton-endurance-after-ice/",
+    "h1": [
+      "Ernest Shackleton - Ernest Shackleton: Endurance After Ice"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 3
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/paul-kalanithi-breath-becomes-air/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/paul-kalanithi-breath-becomes-air/",
+    "seconds": 0.9,
+    "bytes": 49279,
+    "title": "Paul Kalanithi Obituary Comic | Final Notes",
+    "description": "Paul Kalanithi obituary comic: Stanford neurosurgeon and writer whose posthumous memoir turned a terminal diagnosis into a lucid witness on medicine, mortali...",
+    "canonical": "https://www.finalnotes.page/comics/paul-kalanithi-breath-becomes-air/",
+    "h1": [
+      "Paul Kalanithi - Paul Kalanithi: Breath Becomes Air"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 3
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/flannery-oconnor-lupus-and-grace/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/flannery-oconnor-lupus-and-grace/",
+    "seconds": 0.84,
+    "bytes": 49076,
+    "title": "Flannery O'Connor Obituary Comic | Final Notes",
+    "description": "Flannery O'Connor obituary comic: The Southern Gothic writer who made a shortened life speak in hard comic grace. A source-backed visual biography about mort...",
+    "canonical": "https://www.finalnotes.page/comics/flannery-oconnor-lupus-and-grace/",
+    "h1": [
+      "Flannery O'Connor - Flannery O'Connor: Lupus and Grace"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 3
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/mary-anning-stone-and-light/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/mary-anning-stone-and-light/",
+    "seconds": 0.91,
+    "bytes": 46700,
+    "title": "Mary Anning: Stone and Light Obituary Comic | Final Notes",
+    "description": "Mary Anning obituary comic: The fossil hunter who survived lightning and taught science to read deep time. A source-backed visual biography about mortality...",
+    "canonical": "https://www.finalnotes.page/comics/mary-anning-stone-and-light/",
+    "h1": [
+      "Mary Anning - Mary Anning: Stone and Light"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 3
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/john-milton-darkness-visible/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/john-milton-darkness-visible/",
+    "seconds": 0.82,
+    "bytes": 47077,
+    "title": "John Milton: Darkness Visible Obituary Comic | Final Notes",
+    "description": "John Milton obituary comic: The blind poet who dictated Paradise Lost after sight failed. A source-backed visual biography about mortality, work, and what re...",
+    "canonical": "https://www.finalnotes.page/comics/john-milton-darkness-visible/",
+    "h1": [
+      "John Milton - John Milton: Darkness Visible"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 3
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/jacques-lusseyran-light-in-darkness/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/jacques-lusseyran-light-in-darkness/",
+    "seconds": 0.81,
+    "bytes": 48588,
+    "title": "Jacques Lusseyran Obituary Comic | Final Notes",
+    "description": "Jacques Lusseyran obituary comic: Blind French Resistance organizer, Buchenwald survivor, and author of And There Was Light. A source-backed visual biography...",
+    "canonical": "https://www.finalnotes.page/comics/jacques-lusseyran-light-in-darkness/",
+    "h1": [
+      "Jacques Lusseyran - Jacques Lusseyran: Light in Darkness"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 3
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/maya-angelou-caged-bird-voice/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/maya-angelou-caged-bird-voice/",
+    "seconds": 1.01,
+    "bytes": 48609,
+    "title": "Maya Angelou: Caged Bird Voice Obituary Comic | Final Notes",
+    "description": "Maya Angelou obituary comic: The poet who turned years of silence into a public language of survival. A source-backed visual biography about mortality, work...",
+    "canonical": "https://www.finalnotes.page/comics/maya-angelou-caged-bird-voice/",
+    "h1": [
+      "Maya Angelou - Maya Angelou: Caged Bird Voice"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 4
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/wilma-rudolph-fastest-woman/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/wilma-rudolph-fastest-woman/",
+    "seconds": 0.91,
+    "bytes": 46152,
+    "title": "Wilma Glodean Rudolph Obituary Comic | Final Notes",
+    "description": "Wilma Glodean Rudolph obituary comic: A child marked by polio became the first American woman to win three track-and-field gold medals at one Olympics. A sou...",
+    "canonical": "https://www.finalnotes.page/comics/wilma-rudolph-fastest-woman/",
+    "h1": [
+      "Wilma Glodean Rudolph - Wilma Rudolph: The Girl Who Outran the Brace"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 2
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/christopher-reeve/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/christopher-reeve/",
+    "seconds": 0.82,
+    "bytes": 46468,
+    "title": "Christopher Reeve Obituary Comic | Final Notes",
+    "description": "Christopher Reeve obituary comic: American actor and disability advocate who turned life after a 1995 spinal-cord injury into a public fight for paralysis re...",
+    "canonical": "https://www.finalnotes.page/comics/christopher-reeve/",
+    "h1": [
+      "Christopher Reeve - The Man Who Moved After Stillness"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 3
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/vincent-van-gogh/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/vincent-van-gogh/",
+    "seconds": 0.91,
+    "bytes": 45398,
+    "title": "Vincent van Gogh Obituary Comic | Final Notes",
+    "description": "Vincent van Gogh obituary comic: Dutch Post-Impressionist painter who created over 2,000 artworks in a decade, most in the final years before his death at 37...",
+    "canonical": "https://www.finalnotes.page/comics/vincent-van-gogh/",
+    "h1": [
+      "Vincent van Gogh - The Tormented Light"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 3
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/helen-keller-water-pump/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/helen-keller-water-pump/",
+    "seconds": 0.77,
+    "bytes": 46717,
+    "title": "Helen Keller Obituary Comic | Final Notes",
+    "description": "Helen Keller obituary comic: A fever closed sight and sound; touch reopened the world. A source-backed visual biography about mortality, work, and what remains.",
+    "canonical": "https://www.finalnotes.page/comics/helen-keller-water-pump/",
+    "h1": [
+      "Helen Keller - Helen Keller: The Hand That Found Water"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 3
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/roald-dahl-crash-and-chocolate/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/roald-dahl-crash-and-chocolate/",
+    "seconds": 0.78,
+    "bytes": 46349,
+    "title": "Roald Dahl: Crash and Chocolate Obituary Comic | Final Notes",
+    "description": "Roald Dahl obituary comic: The pilot who survived the desert and gave children dangerous stories. A source-backed visual biography about mortality, work, and...",
+    "canonical": "https://www.finalnotes.page/comics/roald-dahl-crash-and-chocolate/",
+    "h1": [
+      "Roald Dahl - Roald Dahl: Crash and Chocolate"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 4
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/george-orwell-throat-of-truth/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/george-orwell-throat-of-truth/",
+    "seconds": 0.89,
+    "bytes": 46578,
+    "title": "George Orwell Obituary Comic | Final Notes",
+    "description": "George Orwell obituary comic: The writer who survived a bullet through the throat and gave power a name. A source-backed visual biography about mortality, wo...",
+    "canonical": "https://www.finalnotes.page/comics/george-orwell-throat-of-truth/",
+    "h1": [
+      "George Orwell - George Orwell: The Throat of Truth"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 3
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/alfred-nobel-merchant-of-death/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/alfred-nobel-merchant-of-death/",
+    "seconds": 0.8,
+    "bytes": 48505,
+    "title": "Alfred Nobel Obituary Comic | Final Notes",
+    "description": "Alfred Nobel obituary comic: Swedish chemist who invented dynamite, read his own premature obituary, and rewrote his legacy by founding the Nobel Prizes. A s...",
+    "canonical": "https://www.finalnotes.page/comics/alfred-nobel-merchant-of-death/",
+    "h1": [
+      "Alfred Nobel - The Merchant of Death"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 3
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/jean-dominique-bauby-blink-manuscript/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/jean-dominique-bauby-blink-manuscript/",
+    "seconds": 0.98,
+    "bytes": 47781,
+    "title": "Jean-Dominique Bauby Obituary Comic | Final Notes",
+    "description": "Jean-Dominique Bauby obituary comic: French Elle editor who dictated a landmark memoir one eyelid blink at a time. A source-backed visual biography about mor...",
+    "canonical": "https://www.finalnotes.page/comics/jean-dominique-bauby-blink-manuscript/",
+    "h1": [
+      "Jean-Dominique Bauby - Blink Manuscript"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 3
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/elie-wiesel-night-witness/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/elie-wiesel-night-witness/",
+    "seconds": 0.8,
+    "bytes": 47562,
+    "title": "Elie Wiesel Obituary Comic | Final Notes",
+    "description": "Elie Wiesel obituary comic: Romanian-born Jewish writer, Holocaust survivor, professor, and Nobel Peace Prize laureate whose Night made survivor testimony im...",
+    "canonical": "https://www.finalnotes.page/comics/elie-wiesel-night-witness/",
+    "h1": [
+      "Elie Wiesel - The Night That Kept Speaking"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 5
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/cervantes-captive-knight/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/cervantes-captive-knight/",
+    "seconds": 0.83,
+    "bytes": 49503,
+    "title": "Miguel de Cervantes Saavedra Obituary Comic | Final Notes",
+    "description": "Miguel de Cervantes Saavedra obituary comic: Spanish soldier, captive, playwright, and novelist whose Don Quixote helped invent the modern novel. A source-ba...",
+    "canonical": "https://www.finalnotes.page/comics/cervantes-captive-knight/",
+    "h1": [
+      "Miguel de Cervantes Saavedra - The Captive Who Wrote the Knight"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 4
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/solzhenitsyn-gulag-witness/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/solzhenitsyn-gulag-witness/",
+    "seconds": 0.95,
+    "bytes": 50398,
+    "title": "Aleksandr Isayevich Solzhenitsyn Obituary Comic | Final N...",
+    "description": "Aleksandr Isayevich Solzhenitsyn obituary comic: Russian novelist and historian who exposed the Soviet Gulag. A source-backed visual biography about mortalit...",
+    "canonical": "https://www.finalnotes.page/comics/solzhenitsyn-gulag-witness/",
+    "h1": [
+      "Aleksandr Isayevich Solzhenitsyn - The Man Who Wrote the Camps"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 4
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/primo-levi/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/primo-levi/",
+    "seconds": 0.77,
+    "bytes": 44037,
+    "title": "Primo Levi Obituary Comic | Final Notes",
+    "description": "Primo Levi obituary comic: Italian Jewish chemist, Auschwitz survivor, and writer who turned survival into literature. A source-backed visual biography about...",
+    "canonical": "https://www.finalnotes.page/comics/primo-levi/",
+    "h1": [
+      "Primo Levi - The Chemist Who Witnessed"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 0
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/henri-matisse-second-life/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/henri-matisse-second-life/",
+    "seconds": 0.86,
+    "bytes": 47009,
+    "title": "Henri Matisse: The Second Life Obituary Comic | Final Notes",
+    "description": "Henri Matisse obituary comic: French modernist painter who turned illness into a final language of color and scissors. A source-backed visual biography about...",
+    "canonical": "https://www.finalnotes.page/comics/henri-matisse-second-life/",
+    "h1": [
+      "Henri Matisse - Henri Matisse: The Second Life"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 0
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/harriet-tubman-road-back/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/harriet-tubman-road-back/",
+    "seconds": 0.92,
+    "bytes": 48744,
+    "title": "Harriet Tubman: The Road Back Obituary Comic | Final Notes",
+    "description": "Harriet Tubman obituary comic: Underground Railroad conductor, abolitionist, Union scout, and suffragist. A source-backed visual biography about mortality, w...",
+    "canonical": "https://www.finalnotes.page/comics/harriet-tubman-road-back/",
+    "h1": [
+      "Harriet Tubman - Harriet Tubman: The Road Back"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 0
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/stephen-hawking-time-under-shadow/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/stephen-hawking-time-under-shadow/",
+    "seconds": 0.98,
+    "bytes": 48447,
+    "title": "Stephen William Hawking Obituary Comic | Final Notes",
+    "description": "Stephen William Hawking obituary comic: Theoretical physicist and public explainer who kept thinking about black holes, time, and the universe after a termin...",
+    "canonical": "https://www.finalnotes.page/comics/stephen-hawking-time-under-shadow/",
+    "h1": [
+      "Stephen William Hawking - Time Under Shadow"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 0
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/louis-zamperini-after-the-raft/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/louis-zamperini-after-the-raft/",
+    "seconds": 0.81,
+    "bytes": 51526,
+    "title": "Louis Zamperini: After the Raft Obituary Comic | Final Notes",
+    "description": "Louis Zamperini obituary comic: Olympic runner, World War II airman, survivor, and public witness to endurance after the Pacific nearly erased him. A source-...",
+    "canonical": "https://www.finalnotes.page/comics/louis-zamperini-after-the-raft/",
+    "h1": [
+      "Louis Zamperini - After the Raft"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 0
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/frida-kahlo-broken-mirror/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/frida-kahlo-broken-mirror/",
+    "seconds": 0.86,
+    "bytes": 55900,
+    "title": "Frida Kahlo: The Broken Mirror Obituary Comic | Final Notes",
+    "description": "Frida Kahlo obituary comic: Mexican painter whose self-portraits made pain, identity, the body, and death modern art's evidence. A source-backed visual biogr...",
+    "canonical": "https://www.finalnotes.page/comics/frida-kahlo-broken-mirror/",
+    "h1": [
+      "Frida Kahlo - The Broken Mirror"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 8
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/viktor-frankl-meaning-under-ash/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/viktor-frankl-meaning-under-ash/",
+    "seconds": 0.88,
+    "bytes": 54846,
+    "title": "Viktor Emil Frankl Obituary Comic | Final Notes",
+    "description": "Viktor Emil Frankl obituary comic: Austrian neurologist, psychiatrist, Holocaust survivor, and founder of logotherapy. A source-backed visual biography about...",
+    "canonical": "https://www.finalnotes.page/comics/viktor-frankl-meaning-under-ash/",
+    "h1": [
+      "Viktor Emil Frankl - Meaning Under Ash"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 6
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/dostoyevsky-borrowed-time/",
+    "status": 200,
+    "final_url": "https://www.finalnotes.page/comics/dostoyevsky-borrowed-time/",
+    "seconds": 0.92,
+    "bytes": 61928,
+    "title": "Fyodor Mikhailovich Dostoyevsky Obituary Comic | Final Notes",
+    "description": "Fyodor Mikhailovich Dostoyevsky obituary comic: Russian novelist. Survivor of a staged execution. A source-backed visual biography about mortality, work, and...",
+    "canonical": "https://www.finalnotes.page/comics/dostoyevsky-borrowed-time/",
+    "h1": [
+      "Fyodor Mikhailovich Dostoyevsky - Borrowed Time"
+    ],
+    "robots": "index, follow",
+    "schema_count": 1,
+    "valid_jsonld": true,
+    "responsive_images": 0,
+    "source_links": 8
+  }
+]

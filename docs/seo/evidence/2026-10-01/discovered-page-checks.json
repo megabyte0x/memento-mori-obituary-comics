@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://www.finalnotes.page/comics/frederick-douglass-stolen-thunder/",
+    "status": 200,
+    "canonical": "https://www.finalnotes.page/comics/frederick-douglass-stolen-thunder/",
+    "title": "Frederick Douglass Obituary Comic | Final Notes",
+    "main_words": 126,
+    "comic_schema": true,
+    "abstract_words": 136,
+    "citations": 3
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/garrincha-bent-legged-angel/",
+    "status": 200,
+    "canonical": "https://www.finalnotes.page/comics/garrincha-bent-legged-angel/",
+    "title": "Manoel Francisco dos Santos (Garrincha) Obituary Comic |...",
+    "main_words": 118,
+    "comic_schema": true,
+    "abstract_words": 139,
+    "citations": 4
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/james-baldwin-fire-next-time/",
+    "status": 404,
+    "canonical": null,
+    "title": "Memento Mori Obituary Comics - Daily Biographical Comics About Mortality and Work",
+    "main_words": 12,
+    "comic_schema": false,
+    "abstract_words": 0,
+    "citations": 0
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/john-lewis-good-trouble/",
+    "status": 200,
+    "canonical": "https://www.finalnotes.page/comics/john-lewis-good-trouble/",
+    "title": "John Lewis: Good Trouble Obituary Comic | Final Notes",
+    "main_words": 116,
+    "comic_schema": true,
+    "abstract_words": 136,
+    "citations": 5
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/margaret-brown-unsinkable/",
+    "status": 200,
+    "canonical": "https://www.finalnotes.page/comics/margaret-brown-unsinkable/",
+    "title": "Margaret Tobin Brown Obituary Comic | Final Notes",
+    "main_words": 106,
+    "comic_schema": true,
+    "abstract_words": 134,
+    "citations": 3
+  },
+  {
+    "url": "https://www.finalnotes.page/comics/viktor-frankl-meaning-under-ash/",
+    "status": 200,
+    "canonical": "https://www.finalnotes.page/comics/viktor-frankl-meaning-under-ash/",
+    "title": "Viktor Emil Frankl Obituary Comic | Final Notes",
+    "main_words": 85,
+    "comic_schema": true,
+    "abstract_words": 0,
+    "citations": 3
+  }
+]

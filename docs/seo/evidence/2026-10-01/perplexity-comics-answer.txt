@@ -1,0 +1,258 @@
+Browser tab: 8, Title: "Where can I read source-backed biographical comics about historical people,...", URL: "https://www.perplexity.ai/search/69510051-dc82-4168-9cce-7e580e2bf5f0".
+0 AXWebArea Where can I read source-backed biographical comics about historical people,..., URL: perplexity.ai/search/69510051-dc82-4168-9cce-7e580e2bf5f0
+	1 container
+		2 container root
+			3 container Main
+				4 container
+					5 container
+						6 link Description: Perplexity, Value: perplexity.ai/
+						7 button Collapse sidebar
+					8 container
+						9 link Description: New, Value: perplexity.ai/
+						10 text New
+						11 text ⌘K
+					12 container
+						13 container
+							14 link Description: Computer, Value: perplexity.ai/computer/tasks
+							15 text Computer
+						16 container
+							17 link Description: Automations, Value: perplexity.ai/computer/automations
+							18 text Automations
+						19 container
+							20 link Description: Artefacts, Value: perplexity.ai/computer/artifacts
+							21 text Artefacts
+						22 container
+							23 link Description: Customise, Value: perplexity.ai/computer/connectors
+							24 text Customise
+						25 container
+							26 link Description: Projects, Value: perplexity.ai/projects
+							27 text Projects
+							28 button Create project
+							29 pop up button (collapsed) Description: Filter projects, Secondary Actions: Expand
+							30 button (expanded) Description: Collapse Projects, Secondary Actions: Collapse
+						38 text No projects
+						31 container
+							32 link Description: Sessions, Value: perplexity.ai/library
+							33 text Sessions
+							34 button (expanded) Description: Collapse Sessions, Secondary Actions: Collapse
+						72 container
+							73 link Value: perplexity.ai/search/69510051-dc82-4168-9cce-7e580e2bf5f0, Description: Where can I read source-backed biographical comics about historical people, mortality, and the work they left behind? Please cite useful sources.
+							74 text Where can I read source-backed biographical comics about historical people, mortality, and the work they left behind? Please cite useful sources.
+							75 container
+								76 pop up button (collapsed) Description: Session actions, Secondary Actions: Expand
+				36 splitter Description: Resize sidebar, Value: 240
+			37 container
+				39 tab group Answer mode tabs
+					40 tab (selected, settable, boolean) Answer, Value: 1, ID: radix-_r_2j_-trigger-default
+					77 tab (selectable, settable, boolean) Links, Value: 0, ID: radix-_r_2j_-trigger-sources
+					78 tab (selectable, settable, boolean) Images, Value: 0, ID: radix-_r_2j_-trigger-images
+				79 container
+					197 pop up button (collapsed) Description: Session actions, Secondary Actions: Expand
+					80 pop up button (collapsed) Share, Secondary Actions: Expand
+						81 text Share
+					82 button Download Comet
+						83 text Download Comet
+				84 container
+					85 container
+						86 text 23:16
+						87 button Edit query
+						88 button Copy query
+						89 text Where can I read source-backed biographical comics about historical people, mortality, and the work they left behind? Please cite useful sources.
+						90 button (collapsed) Researched, Secondary Actions: Expand
+							91 text Researched
+							92 image
+						93 container
+							94 text You can read source-backed biographical comics about historical people, mortality, and their legacy on  Memento Mori Obituary Comics  (finalnotes.page), a site dedicated to daily, cited visual obituaries. For broader libraries of graphic biographies (many with scholarly or archival backing), university library guides and curated databases are also useful.
+							95 image Trusted domain
+							96 text guides.lib.umich +3
+						97 heading Primary site matching your description, Value: 2, ID: primary-site-matching-your-description
+							98 text Primary site matching your description
+						99 content list
+							100 container
+								101 AXListMarker • 
+								102 text Memento Mori Obituary Comics
+								103 text  – 
+								104 container Memento Mori Obituary Comics - Daily Biographical Comics About Mortality and Work
+									105 link Description: https://www.finalnotes.page/, Value: finalnotes.page/
+								106 content list
+									107 container
+										108 AXListMarker • 
+										109 text Publishes compact, 
+										110 text source-backed visual biographies
+										111 text  focused on people whose work was shaped by encounters with 
+										112 text death, illness, exile, violence, or loss
+										113 text .
+										114 container Memento Mori Obituary Comics - Daily Biographical Comics About Mortality and Work
+											115 link Description: finalnotes, Value: finalnotes.page/
+									116 container
+										117 AXListMarker • 
+										118 text Each entry keeps the 
+										119 text comic pages as the primary reading experience
+										120 text , then adds 
+										121 text dated context, source links, PDF access, and structured data
+										122 text  so readers can verify claims and follow references.
+										123 container Memento Mori Obituary Comics - Daily Biographical Comics About Mortality and Work
+											124 link Description: finalnotes, Value: finalnotes.page/
+									125 container
+										126 AXListMarker • 
+										127 text Topics explicitly include 
+										128 text mortality and the work left behind
+										129 text , which aligns closely with your request.
+										130 container Memento Mori Obituary Comics - Daily Biographical Comics About Mortality and Work
+											131 link Description: finalnotes, Value: finalnotes.page/
+						132 heading Other useful places to find source-backed or well-researched graphic biographies, Value: 2, ID: other-useful-places-to-find-source-backed-or-well
+							133 text Other useful places to find source-backed or well-researched graphic biographies
+						134 text These don’t always label themselves as “mortality-focused,” but many titles are heavily researched, authorized, or tied to archives and foundations:
+						135 content list
+							136 container
+								137 AXListMarker • 
+								138 text University/library research guides to biography & memoir in comics
+								139 content list
+									140 container
+										141 AXListMarker • 
+										142 text Example: University of Michigan’s guide lists authorized or archive-based works like 
+										143 text Anne Frank: The Anne Frank House Authorized Graphic Biography
+										144 text  and other historically grounded titles.
+										145 container Biography and Memoir - Comic Books and Graphic Novels
+											146 link Description: Trusted domain guides.lib.umich, Value: guides.lib.umich.edu/comics/biography-memoir
+									147 container
+										148 AXListMarker • 
+										149 text Such guides often include call numbers and notes on 
+										150 text authorization, archival sources, or foundation approval
+										151 text , which signal strong sourcing.
+										152 container
+											153 image Trusted domain
+											154 text guides.lib.umich +1
+							155 container
+								156 AXListMarker • 
+								157 text Curated lists of biographical graphic novels
+								158 content list
+									159 container
+										160 AXListMarker • 
+										161 text Goodreads’ “Best Biographical Comics” and similar lists surface titles like 
+										162 text The Photographer
+										163 text  (Guibert/Lefèvre/Lemercier), which explicitly documents sources and photographic evidence in the narrative.
+										198 container
+											199 image Trusted domain
+											200 text imagetextjournal +1
+									201 container
+										202 AXListMarker • 
+										203 text Academic discussions of “comics as historiography” highlight works that 
+										204 text explain their sources and visual material
+										205 text  in-text (e.g., noting photo provenance, interviews, archives).
+										206 container Comics as Historiography
+											207 link Description: Trusted domain imagetextjournal, Value: imagetextjournal.com/comics-as-historiography/
+							208 container
+								209 AXListMarker • 
+								210 text Authorized or foundation-backed graphic biographies
+								211 content list
+									212 container
+										213 AXListMarker • 
+										214 text Examples include 
+										215 text Nelson Mandela: The Authorized Comic Book
+										216 text  (Nelson Mandela Foundation) and 
+										217 text Anne Frank
+										218 text  graphic biographies tied to the Anne Frank House or Foundation.
+										219 container Comic Bios & Autobios - Graphic Novels & Comics
+											220 link Description: library.ric, Value: library.ric.edu/graphic_novels/bio_autobio
+									221 container
+										222 AXListMarker • 
+										223 text These are often good models of 
+										224 text source-backed storytelling
+										225 text  because they draw on official archives and vetted materials.
+										226 container Comic Bios & Autobios - Graphic Novels & Comics
+											227 link Description: library.ric, Value: library.ric.edu/graphic_novels/bio_autobio
+						228 heading How to spot “source-backed” when browsing, Value: 2, ID: how-to-spot-source-backed-when-browsing
+							229 text How to spot “source-backed” when browsing
+						230 text When you’re on a site or looking at a specific graphic biography, look for:
+						231 content list
+							232 container
+								233 AXListMarker • 
+								234 text Explicit 
+								235 text source notes, bibliographies, or endmatter
+								236 text .
+							237 container
+								238 AXListMarker • 
+								239 text Mentions of 
+								240 text archives, foundations, or authorized access
+								241 text  (e.g., “Anne Frank House authorized”).
+								242 container
+									243 image Trusted domain
+									244 text guides.lib.umich +1
+							245 container
+								246 AXListMarker • 
+								247 text In-text explanations of where images or quotes come from (a hallmark of historiographic comics).
+								248 container Comics as Historiography
+									249 link Description: Trusted domain imagetextjournal, Value: imagetextjournal.com/comics-as-historiography/
+							250 container
+								251 AXListMarker • 
+								252 text Companion pages with 
+								253 text links to primary sources, dated context, or PDFs
+								254 text —the pattern used by Memento Mori Obituary Comics.
+								255 container Memento Mori Obituary Comics - Daily Biographical Comics About Mortality and Work
+									256 link Description: finalnotes, Value: finalnotes.page/
+						257 text If you tell me a few historical figures or themes you’re most interested in (e.g., scientists, artists, activists; specific causes of death or types of legacy), I can suggest specific titles or entries that fit.
+						258 button Copy
+						259 pop up button (collapsed) Description: Share, Secondary Actions: Expand
+						260 button Helpful
+						261 button Not helpful
+						262 button Fork
+						263 button 10 sources
+							264 image
+							265 image
+							266 text 10 sources
+						267 pop up button (collapsed) Description: More actions, Secondary Actions: Expand
+						268 button I am mostly interested in artists and writers who faced chronic illness
+						269 button I prefer scientists and inventors who worked during times of crisis
+						270 button Show me political figures and dissidents who experienced exile
+						271 button I would love to explore historical witnesses and activists
+						272 button Let us look at musicians and performers who left behind a legacy
+						164 button Collapse pane
+				49 container
+					50 button (expanded) Sources, Secondary Actions: Collapse
+						51 text Sources
+						52 image
+					165 container
+						166 link Value: finalnotes.page/, Description: finalnotes Memento Mori Obituary Comics - Daily Biographical Comics About Mortality and Work Source-backed obituary comics about people who faced death, illness, exile, or loss and made work that outlived them.
+						167 link Value: guides.lib.umich.edu/comics/biography-memoir, Description: guides.lib.umich Trusted domain Biography and Memoir - Comic Books and Graphic Novels Provides useful information about comic books and graphic novels as topics of academic research at the University of Michigan.
+						168 link Value: ualresearchonline.arts.ac.uk/id/eprint/18036/1/PhD%20thesis_Yu-Kiener_FINAL_SUBMISSION.pdf, Description: ualresearchonline.arts.ac Trusted domain European Biographical Graphic Novels about Canonical Painters: Extensive archival research, physical as well as online, forms the research’s second pillar. Findings from the online archives COMICBOOK+, Grand Comics Database (GCD), and the Digital Collections of the University Libraries of the Catholic University of America have led to the discovery of many biographical comics about canonical visual artists, allowing for the scoping as well as the tracing of the aftermath of the First Boom.9 Research at the British Library, examining the British...
+						169 link Value: library.ric.edu/graphic_novels/bio_autobio, Description: library.ric Comic Bios & Autobios - Graphic Novels & Comics James P. Adams Library: Graphic Novels & Comics: Comic Bios & Autobios
+						170 link Value: imagetextjournal.com/comics-as-historiography/, Description: imagetextjournal Trusted domain Comics as Historiography For instance, in *Le photographe* Emanuel Guibert, Didier Lefèvre, and Frederic Lemercier simply explain the origin of its narration and the source of its pictorial material—mainly the sequences of photographs included—in plain written text, detailing provenience of visual material and of the narratives behind the production of it. ... A strikingly different approach is taken by ... The anthology contains research papers on various aspects of the school’s activities that blend text and images,...
+						171 link Value: goodreads.com/list/show/504.Best_Biographical_Comics?page=2, Description: goodreads Best Biographical Comics (265 books) - Goodreads 265 books based on 103 votes: The Photographer by Emmanuel Guibert, The Hospital Suite by John Porcellino, Stuck Rubber Baby by Howard Cruse, The Fire Ne...
+						172 link Value: teachersinstitute.yale.edu/curriculum/units/2012/2/12.02.01/21, Description: teachersinstitute.yale Trusted domain The Art of Biography Louis Riel: A Comic–Strip Biography . Montreal: Drawn & Quarterly, 2006. The graphic biography of Louis Riel, who led the Metis Revolt in Midwest Canada during the 1880s.
+						173 link Description: flex.flinders.edu Trusted domain [PDF] “NEW BIOGRAPHY” IN THE EARLY TWENTY-FIRST CENTURY Scott’s work, Comics and Conflict, but also on an analysis of the useful online archive of nonfiction comics, Comic Plus., Value: flex.flinders.edu.au/file/e1359773-3a79-430f-be94-13ae74fe642f/1/ReviewingTheLivesOfOthers_Graham_2016OA.pdf
+						174 link Value: globalcomix.com/browse/comics/biographies/, Description: globalcomix Read Biographies Comics Online | GlobalComix Read Biographies Comics online on GlobalComix. Read, subscribe, and discuss Biographies Comics in your own language of choice for free!
+						175 link Value: grafiati.com/en/literature-selections/biographical-comic-books-strips/journal/, Description: grafiati Journal articles: 'Biographical comic books, strips' – Grafiati List of journal articles on the topic 'Biographical comic books, strips'. Scholarly publications with full text pdf download. Related research topic ideas.
+				176 container
+					177 button Scroll to end
+						178 image
+					179 container
+						180 text entry area (settable) ID: ask-input, Value: 
+
+						181 pop up button (collapsed) Description: Add files or tools, Secondary Actions: Expand
+						182 checkbox Search, Value: 1, ID: radix-_r_49_
+						183 checkbox Computer, Value: 0
+						184 pop up button (collapsed) Description: Model, Secondary Actions: Expand
+							185 text Model
+						273 button Dictation
+						274 button (disabled) Submit
+		63 container
+			187 text Sign up below to unlock the full potential of Perplexity
+			64 container
+				188 text By continuing, you agree to our 
+				65 link Description: privacy policy, Value: perplexity.ai/hub/legal/privacy-policy
+				189 text .
+			66 button Back home
+				190 text Back home
+			67 button Continue with Google
+				191 text Continue with Google
+			68 button Continue with Apple
+				192 text Continue with Apple
+			69 container
+				70 text field (settable)
+			193 button (disabled) Continue with email
+				194 text Continue with email
+			71 button Single sign-on (SSO)
+				195 text Single sign-on (SSO)
+
+The focused UI element is 0 AXWebArea Where can I read source-backed biographical comics about historical people,..., URL: perplexity.ai/search/69510051-dc82-4168-9cce-7e580e2bf5f0

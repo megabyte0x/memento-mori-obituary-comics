@@ -52,7 +52,7 @@
     },
     {
       "name": "Roald Dahl official site",
-      "url": "https://www.roalddahl.com/roald-dahl/about"
+      "url": "https://www.roalddahl.com/about"
     },
     {
       "name": "Historic UK",
@@ -61,8 +61,13 @@
     {
       "name": "The Children Trust",
       "url": "https://www.thechildrenstrust.org.uk/brain-injury-information/latest/roald-dahls-revolutionary-work-in-brain-injury"
+    },
+    {
+      "name": "RAF Benevolent Fund: Roald Dahl’s RAF career",
+      "url": "https://www.rafbf.org/news-and-stories/news/roald-dahl-his-raf-career"
     }
   ],
   "pdf": "roald-dahl-crash-and-chocolate.pdf",
-  "contact_sheet": "contact-sheet.jpg"
+  "contact_sheet": "contact-sheet.jpg",
+  "citation_passage": "Roald Dahl was a British writer whose career included wartime service as a Royal Air Force pilot. In September 1940, unable to find his destination airstrip, he crash-landed in the North African desert and escaped his burning aircraft. After hospital treatment and rehabilitation, he returned to flying. His account of the ordeal later reached the Saturday Evening Post, and he went on to write children's stories including Charlie and the Chocolate Factory. This seven-page biographical comic considers danger, recovery, and storytelling. The RAF Benevolent Fund describes his military career; the official biography also acknowledges the harm of his antisemitic remarks."
 }

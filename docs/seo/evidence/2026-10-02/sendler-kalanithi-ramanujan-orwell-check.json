@@ -1,0 +1,73 @@
+{
+  "catalogue_entries": 84,
+  "changed_slugs": [
+    "srinivasa-ramanujan-mock-theta",
+    "irena-sendler-jars-of-names",
+    "paul-kalanithi-breath-becomes-air",
+    "george-orwell-throat-of-truth"
+  ],
+  "other_entries_unchanged": 80,
+  "checks": [
+    {
+      "url": "https://www.finalnotes.page/comics/srinivasa-ramanujan-mock-theta/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 101,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/srinivasa-ramanujan-mock-theta/",
+      "source_links": [
+        "https://www.britannica.com/biography/Srinivasa-Ramanujan",
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Ramanujan/",
+        "https://www.ams.org/notices/201011/rtx101101410p.pdf"
+      ],
+      "published_at": "2026-07-01"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/irena-sendler-jars-of-names/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 108,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/irena-sendler-jars-of-names/",
+      "source_links": [
+        "https://www.ushmm.org/information/press/in-memoriam/irena-sendler-1910-2008",
+        "https://jwa.org/thisweek/oct/20/1943/this-week-in-history-irena-sendler-saves-jewish-children-from-warsaw-ghetto",
+        "https://www.nytimes.com/2008/05/13/world/europe/13sendler.html"
+      ],
+      "published_at": "2026-06-30"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/paul-kalanithi-breath-becomes-air/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 102,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/paul-kalanithi-breath-becomes-air/",
+      "source_links": [
+        "https://med.stanford.edu/news/all-news/2015/03/stanford-neurosurgeon-writer-paul-kalanithi-dies-at-37.html",
+        "https://www.pulitzer.org/finalists/late-paul-kalanithi",
+        "https://med.stanford.edu/news/insights/2025/07/paul-kalanithi-book-legacy-when-breath-becomes-air.html"
+      ],
+      "published_at": "2026-06-28"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/george-orwell-throat-of-truth/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 99,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/george-orwell-throat-of-truth/",
+      "source_links": [
+        "https://www.britannica.com/biography/George-Orwell",
+        "https://www.orwellfoundation.com/the-orwell-foundation/orwell/biography/",
+        "https://www.neh.gov/article/george-orwell-outdoorsman"
+      ],
+      "published_at": "2026-06-12"
+    }
+  ],
+  "ranking_effect": "Not yet measured"
+}

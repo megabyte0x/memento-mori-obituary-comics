@@ -19,7 +19,7 @@ const faqs = [
   {
     question: "What is the proper wording for in lieu of flowers?",
     answer:
-      "Common phrasings include \"In lieu of flowers, memorial contributions may be made to [charity],\" or the softer \"The family suggests donations to [charity] in [name]'s memory.\" Use \"in lieu of flowers\" when you want to redirect gifts entirely, or \"in addition to flowers\" if some floral tributes are still welcome.",
+      "Common phrasings include \"In lieu of flowers, memorial contributions may be made to [charity],\" or the softer \"The family suggests donations to [charity] in [name]'s memory.\" The phrase expresses a preference for donations. If the family wants no flowers, say that explicitly; if both are welcome, use \"Flowers or memorial donations are welcome.\"",
   },
   {
     question: "How do you ask for donations instead of flowers?",
@@ -103,6 +103,11 @@ const mistakes = [
 ];
 
 const referenceLinks = [
+  {
+    label: "St. Jude: wording for memorial donation cards",
+    href: "https://www.stjude.org/give/memorials-and-dedications/memorial-donation-wording.html",
+    note: "Donor-card guidance on personal memories, naming the recipient charity, and checking names before sending a note.",
+  },
   {
     label: "Funeral Basics: in lieu of flowers and donations",
     href: "https://www.funeralbasics.org/in-lieu-of-flowers-and-donations/",
@@ -222,6 +227,9 @@ export default async function MemorialDonationWordingObituaryPage() {
             <p>
               Before publishing, verify the charity name, donation link, mailing address, family-notification process, and whether the request is for a registered charity, memorial fund, scholarship, or family support. Those are different gift paths, and the obituary should make the difference clear.
             </p>
+            <p>
+              <strong>Does in lieu of flowers mean no flowers?</strong> It expresses the family’s preference for a donation. <a href="https://emilypost.com/advice/funeral-etiquette-donations-in-lieu-of-flowers">Emily Post’s funeral etiquette guidance</a> says flowers may accompany a contribution; when choosing one tribute, follow the family’s request. State a no-flowers preference explicitly rather than relying on the phrase alone.
+            </p>
           </section>
 
           <section className="worksheet-grid" aria-labelledby="wording">
@@ -238,6 +246,18 @@ export default async function MemorialDonationWordingObituaryPage() {
                 </section>
               ))}
             </div>
+          </section>
+
+          <section className="explainer-body" aria-labelledby="donor-card-wording">
+            <h2 id="donor-card-wording">Wording For A Donation Made In Someone’s Memory</h2>
+            <p>
+              An obituary asks others to give; a donor’s card tells the family that a gift has already been made. Use the examples above for the request. For a card or personal note after donating, name the person you are remembering and the organization that received the gift.
+            </p>
+            <p><strong>Simple donor note:</strong> “I have made a gift to [Organization Name] in remembrance of [Name]. I’m thinking of you and your family.”</p>
+            <p><strong>With a personal memory:</strong> “I’ll always remember [Name]’s kindness when [brief memory]. I have made a memorial gift to [Organization Name] to honor that kindness.”</p>
+            <p>
+              These are original examples to adapt after the donation is complete. <a href="https://www.stjude.org/give/memorials-and-dedications/memorial-donation-wording.html">St. Jude’s memorial-card guidance</a> recommends making the message personal, identifying the cause, and proofreading the names. Check whether the charity will send its own notification so you know what the family will receive.
+            </p>
           </section>
 
           <section className="explainer-principles" aria-labelledby="details">

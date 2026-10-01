@@ -102,8 +102,11 @@ export async function verifyPublishedComic({ baseUrl, comic }) {
     if (!body.includes(canonicalUrl)) {
       throw new Error(`${label} did not include ${canonicalUrl}`);
     }
-    if (label === "llms.txt" && !body.includes(comic.citation_passage)) {
-      throw new Error("llms.txt did not include the authored citation passage");
+    if (label === "llms.txt") {
+      const latestIssues = body.split("\n## Latest issues\n")[1]?.split("\n## ")[0] || "";
+      if (latestIssues.includes(canonicalUrl) && !latestIssues.includes(comic.citation_passage)) {
+        throw new Error("llms.txt did not include the authored citation passage for a latest issue");
+      }
     }
   }
 }

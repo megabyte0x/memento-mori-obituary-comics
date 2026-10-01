@@ -11,10 +11,14 @@ test("package scripts build, preview, and deploy the OpenNext Worker", () => {
 
   assert.equal(pkg.scripts.build, "next build --webpack");
   assert.equal(pkg.scripts.preview, "opennextjs-cloudflare build && opennextjs-cloudflare preview");
-  assert.equal(pkg.scripts.deploy, "opennextjs-cloudflare build && opennextjs-cloudflare deploy");
   assert.equal(
-    pkg.scripts["deploy:images"],
-    "CLOUDFLARE_IMAGE_TRANSFORMATIONS=1 opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    pkg.scripts.deploy,
+    "CLOUDFLARE_IMAGE_TRANSFORMATIONS=1 opennextjs-cloudflare build && opennextjs-cloudflare deploy --keep-vars",
+  );
+  assert.equal(pkg.scripts["deploy:images"], "pnpm run deploy");
+  assert.equal(
+    pkg.scripts["deploy:originals"],
+    "CLOUDFLARE_IMAGE_TRANSFORMATIONS=0 opennextjs-cloudflare build && opennextjs-cloudflare deploy --keep-vars",
   );
   assert.equal(pkg.scripts["cf-typegen"], "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts");
   assert.ok(pkg.devDependencies["@opennextjs/cloudflare"]);

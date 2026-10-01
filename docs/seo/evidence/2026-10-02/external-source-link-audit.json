@@ -1,0 +1,2829 @@
+{
+  "unique_urls": 283,
+  "method": "GET with original TLS validation; response sampled up to 256 KiB; 403/429 and network failures are inconclusive, not dead-link proof",
+  "checks": [
+    {
+      "url": "https://afb.org/about-afb/history/helen-keller/biography-and-chronology/biography",
+      "readers": [
+        "helen-keller-water-pump"
+      ],
+      "status": 200,
+      "final_url": "https://afb.org/about-afb/history/helen-keller/biography-and-chronology/biography",
+      "title": "Biography | American Foundation for the Blind",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://airandspace.si.edu/explore/stories/bessie-coleman",
+      "readers": [
+        "bessie-coleman-queen-bess"
+      ],
+      "status": 200,
+      "final_url": "https://airandspace.si.edu/explore/stories/bessie-coleman",
+      "title": "Bessie Coleman | National Air and Space Museum",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://angelusnews.com/news/world/jacques-lusseyran-blind-hero-of-the-french-resistance/",
+      "readers": [
+        "jacques-lusseyran-light-in-darkness"
+      ],
+      "status": 200,
+      "final_url": "https://angelusnews.com/news/world/jacques-lusseyran-blind-hero-of-the-french-resistance/",
+      "title": "Jacques Lusseyran: Blind hero of the French Resistance",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://apnews.com/article/john-lewis-us-news-ap-top-news-mitch-mcconnell-immigration-89dac7a5b1e404e49b58bef127186759",
+      "readers": [
+        "john-lewis-good-trouble"
+      ],
+      "status": 403,
+      "final_url": "https://apnews.com/article/john-lewis-us-news-ap-top-news-mitch-mcconnell-immigration-89dac7a5b1e404e49b58bef127186759",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://archive.nytimes.com/well.blogs.nytimes.com/2008/07/25/last-lecture-professor-randy-pausch-dies-at-47/",
+      "readers": [
+        "randy-pausch-last-lecture"
+      ],
+      "status": 200,
+      "final_url": "https://archive.nytimes.com/well.blogs.nytimes.com/2008/07/25/last-lecture-professor-randy-pausch-dies-at-47/",
+      "title": "'Last Lecture' Professor Randy Pausch, 47, Dies - The New York Times",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://archive.nytimes.com/www.nytimes.com/learning/general/onthisday/bday/0512.html",
+      "readers": [
+        "florence-nightingale-lamp-and-ledger"
+      ],
+      "status": 200,
+      "final_url": "https://archive.nytimes.com/www.nytimes.com/learning/general/onthisday/bday/0512.html",
+      "title": "Miss Nightingale Dies, Aged Ninety",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://arolsen-archives.org/en/news/dinah-babbitt/",
+      "readers": [
+        "dina-babbitt-painted-out-of-hell"
+      ],
+      "status": 200,
+      "final_url": "https://arolsen-archives.org/en/news/dinah-babbitt/",
+      "title": "Dina Babbitt: Painting her way out of hell | Arolsen Archives",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://barbararubinmovie.com/",
+      "readers": [
+        "barbara-rubin-underground-spark"
+      ],
+      "status": 200,
+      "final_url": "https://barbararubinmovie.com/",
+      "title": "Barbara Rubin and The Exploding NY Underground",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://blackpast.org/global-african-history/garrincha-manoel-francisco-dos-santos-1933-1983/",
+      "readers": [
+        "garrincha-bent-legged-angel"
+      ],
+      "status": 403,
+      "final_url": "https://blackpast.org/global-african-history/garrincha-manoel-francisco-dos-santos-1933-1983/",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://blackpast.org/global-african-history/loverture-toussaint-1743-1803/",
+      "readers": [
+        "toussaint-louverture-open-gate"
+      ],
+      "status": 403,
+      "final_url": "https://blackpast.org/global-african-history/loverture-toussaint-1743-1803/",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://collection.sciencemuseumgroup.org.uk/people/cp38764/ada-lovelace",
+      "readers": [
+        "ada-lovelace-notes-before-night"
+      ],
+      "status": 429,
+      "final_url": "https://collection.sciencemuseumgroup.org.uk/people/cp38764/ada-lovelace"
+    },
+    {
+      "url": "https://collections.ushmm.org/search/catalog/irn37287",
+      "readers": [
+        "dina-babbitt-painted-out-of-hell"
+      ],
+      "status": 200,
+      "final_url": "https://collections.ushmm.org/search/catalog/irn37287",
+      "title": "Collections Search - United States Holocaust Memorial Museum",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://cup.columbia.edu/book/prison-notebooks/9780231139441/",
+      "readers": [
+        "antonio-gramsci-prison-notebooks"
+      ],
+      "status": 200,
+      "final_url": "https://cup.columbia.edu/book/prison-notebooks/9780231139441/",
+      "title": "Prison Notebooks | Columbia University Press",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Alfred_Nobel",
+      "readers": [
+        "alfred-nobel-merchant-of-death"
+      ],
+      "status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/Alfred_Nobel",
+      "title": "Alfred Nobel - Wikipedia",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Jacques_Lusseyran",
+      "readers": [
+        "jacques-lusseyran-light-in-darkness"
+      ],
+      "status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/Jacques_Lusseyran",
+      "title": "Jacques Lusseyran - Wikipedia",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Vincent_van_Gogh",
+      "readers": [
+        "vincent-van-gogh"
+      ],
+      "status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/Vincent_van_Gogh",
+      "title": "Vincent van Gogh - Wikipedia",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1912_supplement/Blackwell,_Elizabeth",
+      "readers": [
+        "elizabeth-blackwell-one-eye"
+      ],
+      "status": 200,
+      "final_url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1912_supplement/Blackwell,_Elizabeth",
+      "title": "Dictionary of National Biography, 1912 supplement/Blackwell, Elizabeth - Wikisource, the free online library",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://encyclopedia.ushmm.org/content/en/article/dietrich-bonhoeffer",
+      "readers": [
+        "dietrich-bonhoeffer-letters-before-dawn"
+      ],
+      "status": 200,
+      "final_url": "https://encyclopedia.ushmm.org/content/en/article/dietrich-bonhoeffer",
+      "title": "Dietrich Bonhoeffer | Holocaust Encyclopedia",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://eng.ipn.gov.pl/en/news/11272,The-76th-anniversary-of-Witold-Pilecki039s-death.html",
+      "readers": [
+        "witold-pilecki-auschwitz-report"
+      ],
+      "status": 200,
+      "final_url": "https://eng.ipn.gov.pl/en/news/11272,The-76th-anniversary-of-Witold-Pilecki039s-death.html",
+      "title": "The 76th anniversary of Witold Pilecki's death - News Institute of National Remembrance",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://guides.loc.gov/beethoven/",
+      "readers": [
+        "beethoven-silence-ode"
+      ],
+      "status": 200,
+      "final_url": "https://guides.loc.gov/beethoven/",
+      "title": "Introduction - Beethoven: A Guide to Primary and Secondary Resources at the Library of Congress - Research Guides at Library of Congress",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://historicmissourians.shsmo.org/brown-margaret/",
+      "readers": [
+        "margaret-brown-unsinkable"
+      ],
+      "status": 200,
+      "final_url": "https://historicmissourians.shsmo.org/brown-margaret/",
+      "title": "Molly Brown - SHSMO Historic Missourians",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://history.house.gov/People/Detail/16948",
+      "readers": [
+        "john-lewis-good-trouble"
+      ],
+      "status": 200,
+      "final_url": "https://history.house.gov/People/Detail/16948",
+      "title": "LEWIS, John R.         |     \r\n\r\n    \r\n    US House of Representatives: History, Art & Archives",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://hmd.org.uk/resource/witold-pilecki/",
+      "readers": [
+        "witold-pilecki-auschwitz-report"
+      ],
+      "status": 200,
+      "final_url": "https://hmd.org.uk/resource/witold-pilecki/",
+      "title": "Holocaust Memorial Day Trust | Witold Pilecki",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://hundredheroines.org/historical-heroines/nancy-sheung/",
+      "readers": [
+        "nancy-sheung-darkroom-light"
+      ],
+      "status": 200,
+      "final_url": "https://hundredheroines.org/historical-heroines/nancy-sheung/",
+      "title": "Nancy Sheung - Chinese Photographer - Hundred Heroines",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://judithheumann.com/project/about/",
+      "readers": [
+        "judy-heumann-sign-504"
+      ],
+      "status": 200,
+      "final_url": "https://judithheumann.com/project/about/",
+      "title": "Judy Heumann | Advocate For Rights Of Disabled People | judithheumann",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://judithheumann.com/the-world-mourns-the-passing-of-judy-heumann-disability-rights-activist/",
+      "readers": [
+        "judy-heumann-sign-504"
+      ],
+      "status": 200,
+      "final_url": "https://judithheumann.com/the-world-mourns-the-passing-of-judy-heumann-disability-rights-activist/",
+      "title": "The World Mourns the Passing of Judy Heumann, Disability Rights Activist - Judy Heumann",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://jwa.org/thisweek/oct/20/1943/this-week-in-history-irena-sendler-saves-jewish-children-from-warsaw-ghetto",
+      "readers": [
+        "irena-sendler-jars-of-names"
+      ],
+      "status": 200,
+      "final_url": "https://jwa.org/thisweek/oct/20/1943/this-week-in-history-irena-sendler-saves-jewish-children-from-warsaw-ghetto",
+      "title": "Irena Sendler saves Jewish children from the Warsaw Ghetto",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://lithub.com/on-the-terrifying-hoax-execution-that-haunted-dostoevskys-writing/",
+      "readers": [
+        "dostoyevsky-borrowed-time"
+      ],
+      "status": 200,
+      "final_url": "https://lithub.com/on-the-terrifying-hoax-execution-that-haunted-dostoevskys-writing/",
+      "title": "Literary Hub \u00bb On the terrifying hoax execution that haunted Dostoevsky\u2019s writing.",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Fuller/",
+      "readers": [
+        "buckminster-fuller-world-machine"
+      ],
+      "status": 200,
+      "final_url": "https://mathshistory.st-andrews.ac.uk/Biographies/Fuller/",
+      "title": "R Buckminster Fuller  (1895 - 1983) - Biography - MacTutor History of Mathematics",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Pascal/",
+      "readers": [
+        "blaise-pascal-night-of-fire"
+      ],
+      "status": 200,
+      "final_url": "https://mathshistory.st-andrews.ac.uk/Biographies/Pascal/",
+      "title": "Blaise Pascal  (1623 - 1662) - Biography - MacTutor History of Mathematics",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Ramanujan/",
+      "readers": [
+        "srinivasa-ramanujan-mock-theta"
+      ],
+      "status": 200,
+      "final_url": "https://mathshistory.st-andrews.ac.uk/Biographies/Ramanujan/",
+      "title": "Srinivasa Ramanujan  (1887 - 1920) - Biography - MacTutor History of Mathematics",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Turing/",
+      "readers": [
+        "alan-turing-snow-white-machine"
+      ],
+      "status": 200,
+      "final_url": "https://mathshistory.st-andrews.ac.uk/Biographies/Turing/",
+      "title": "Alan Turing  (1912 - 1954) - Biography - MacTutor History of Mathematics",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://mayaangelou.wfu.edu/story/family-obituary/",
+      "readers": [
+        "maya-angelou-caged-bird-voice"
+      ],
+      "status": 200,
+      "final_url": "https://mayaangelou.wfu.edu/story/family-obituary/",
+      "title": "Family Obituary - Remembering Dr. Maya Angelou",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://med.stanford.edu/news/all-news/2015/03/stanford-neurosurgeon-writer-paul-kalanithi-dies-at-37.html",
+      "readers": [
+        "paul-kalanithi-breath-becomes-air"
+      ],
+      "status": 200,
+      "final_url": "https://med.stanford.edu/news/all-news/2015/03/stanford-neurosurgeon-writer-paul-kalanithi-dies-at-37.html",
+      "title": "Paul Kalanithi, writer and neurosurgeon, dies at 37",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://med.stanford.edu/news/insights/2025/07/paul-kalanithi-book-legacy-when-breath-becomes-air.html",
+      "readers": [
+        "paul-kalanithi-breath-becomes-air"
+      ],
+      "status": 200,
+      "final_url": "https://med.stanford.edu/news/insights/2025/07/paul-kalanithi-book-legacy-when-breath-becomes-air.html",
+      "title": "The Kalanithi legacy: \u2018Paul wanted his life to have meaning\u2019",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://museocasanataldecervantes.org/meet-cervantes/",
+      "readers": [
+        "cervantes-captive-knight"
+      ],
+      "status": 200,
+      "final_url": "https://museocasanataldecervantes.org/meet-cervantes/",
+      "title": "Meet Cervantes - Museo Casa Natal de Cervantes",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://nmaahc.si.edu/audre-lorde",
+      "readers": [
+        "audre-lorde-cancer-journals"
+      ],
+      "status": 403,
+      "final_url": "https://nmaahc.si.edu/audre-lorde",
+      "title": "Smithsonian request verification",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://nmwa.org/art/artists/frida-kahlo/",
+      "readers": [
+        "frida-kahlo-broken-mirror"
+      ],
+      "status": 200,
+      "final_url": "https://nmwa.org/art/artists/frida-kahlo/",
+      "title": "Frida Kahlo | Artist Profile | National Museum of Women in the Arts",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://openlibrary.org/works/OL33647113W/Man%27s_search_for_meaning",
+      "readers": [
+        "viktor-frankl-meaning-under-ash"
+      ],
+      "status": 200,
+      "final_url": "https://openlibrary.org/verify_human?next=/works/OL33647113W/Man%27s_search_for_meaning",
+      "title": "Human Verification | Open Library",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://osp.od.nih.gov/hela-cells/",
+      "readers": [
+        "henrietta-lacks-immortal-cells"
+      ],
+      "status": 403,
+      "final_url": "https://osp.od.nih.gov/hela-cells/",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://people.com/christopher-reeve-death-legacy-what-to-know-11984108",
+      "readers": [
+        "christopher-reeve"
+      ],
+      "status": 200,
+      "final_url": "https://people.com/christopher-reeve-death-legacy-what-to-know-11984108",
+      "title": "What to Know About Christopher Reeve's Life-Altering Accident and 2004 Death",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://people.com/music/tina-turner-tried-to-kill-herself-ike-turner-abuse/",
+      "readers": [
+        "tina-turner-private-dancer"
+      ],
+      "status": 200,
+      "final_url": "https://people.com/music/tina-turner-tried-to-kill-herself-ike-turner-abuse/",
+      "title": "Tina Turner Reveals She Tried to Kill Herself to Escape Ike's Violence",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://photographyofchina.com/author/nancy-sheung",
+      "readers": [
+        "nancy-sheung-darkroom-light"
+      ],
+      "status": 200,
+      "final_url": "https://photographyofchina.com/author/nancy-sheung",
+      "title": "Nancy Sheung - Nancy Sheung was a pioneering Hong Kong photographer whose work often centered on women, marked by a bold use of patterns and lines.",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://plato.stanford.edu/entries/gramsci/",
+      "readers": [
+        "antonio-gramsci-prison-notebooks"
+      ],
+      "status": 200,
+      "final_url": "https://plato.stanford.edu/entries/gramsci/",
+      "title": "Antonio Gramsci (Stanford Encyclopedia of Philosophy)",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://plato.stanford.edu/entries/pascal/",
+      "readers": [
+        "blaise-pascal-night-of-fire"
+      ],
+      "status": 200,
+      "final_url": "https://plato.stanford.edu/entries/pascal/",
+      "title": "Blaise Pascal (Stanford Encyclopedia of Philosophy)",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://poets.org/poet/anna-akhmatova",
+      "readers": [
+        "anna-akhmatova-requiem-queue"
+      ],
+      "status": 200,
+      "final_url": "https://poets.org/poet/anna-akhmatova",
+      "title": "About Anna Akhmatova | Academy of American Poets",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://poets.org/poet/john-milton",
+      "readers": [
+        "john-milton-darkness-visible"
+      ],
+      "status": 200,
+      "final_url": "https://poets.org/poet/john-milton",
+      "title": "About John Milton | Academy of American Poets",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9801534/",
+      "readers": [
+        "florence-nightingale-lamp-and-ledger"
+      ],
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/9801534/",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://rmc.library.cornell.edu/EAD/htmldocs/RMM08612.html",
+      "readers": [
+        "barbara-rubin-underground-spark"
+      ],
+      "status": 200,
+      "final_url": "https://rmc.library.cornell.edu/findingaids.html",
+      "title": "Page Has Moved",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://ryanwhite.hrsa.gov/about/ryan-white",
+      "readers": [
+        "ryan-white-school-door"
+      ],
+      "status": 403,
+      "final_url": "https://ryanwhite.hrsa.gov/about/ryan-white",
+      "title": "Access Denied",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://samoaglobalnews.com/today-in-history-3rd-december-1894-robert-louis-stevenson-dies/",
+      "readers": [
+        "robert-louis-stevenson-lantern-lungs"
+      ],
+      "status": 200,
+      "final_url": "https://samoaglobalnews.com/today-in-history-3rd-december-1894-robert-louis-stevenson-dies/",
+      "title": "Today in History 3rd December 1894: Robert Louis Stevenson Dies - Samoa Global News",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://samuelbeckettsociety.org/biography/",
+      "readers": [
+        "samuel-beckett-wound-waiting"
+      ],
+      "status": 200,
+      "final_url": "https://samuelbeckettsociety.org/biography/",
+      "title": "Biography \u2013 The Samuel Beckett Society",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://sciencehistory.org/stories/magazine/could-claude-monet-see-like-a-bee/",
+      "readers": [
+        "claude-monet-water-lilies"
+      ],
+      "status": 200,
+      "final_url": "https://www.sciencehistory.org/stories/magazine/could-claude-monet-see-like-a-bee/",
+      "title": "Could Claude Monet See Like a Bee? | Science History Institute",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://shop.ushmm.org/products/i-will-bear-witness-a-diary-of-the-nazi-years-1933-1941",
+      "readers": [
+        "victor-klemperer-dresden-diaries"
+      ],
+      "status": 200,
+      "final_url": "https://shop.ushmm.org/products/i-will-bear-witness-a-diary-of-the-nazi-years-1933-1941",
+      "title": "I Will Bear Witness: A Diary of the Nazi Years, 1933-1941 \u2013 United States Holocaust Memorial Museum Deanie and Jay Stein Museum Shop",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://spartacus-educational.com/GERklemper.htm",
+      "readers": [
+        "victor-klemperer-dresden-diaries"
+      ],
+      "status": 200,
+      "final_url": "https://spartacus-educational.com/GERklemper.htm",
+      "title": "Victor Klemperer : Nazi Germany",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://terryfox.org/terrys-story/",
+      "readers": [
+        "terry-fox-marathon-of-hope"
+      ],
+      "status": 200,
+      "final_url": "https://terryfox.org/terrys-story/",
+      "title": "Learn about Terry Fox",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://thecanadianencyclopedia.ca/en/article/terry-fox",
+      "readers": [
+        "terry-fox-marathon-of-hope"
+      ],
+      "status": 403,
+      "final_url": "https://thecanadianencyclopedia.ca/en/article/terry-fox",
+      "title": "ERROR: The request could not be satisfied",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://web.archive.org/web/20200423040931/https://www.cmu.edu/news/archive/2008/July/july25_pausch.shtml",
+      "readers": [
+        "randy-pausch-last-lecture"
+      ],
+      "status": 200,
+      "final_url": "https://web.archive.org/web/20200423040931/https://www.cmu.edu/news/archive/2008/July/july25_pausch.shtml",
+      "title": "July 25: In Memoriam: Randy Pausch, Innovative Computer Scientist at Carnegie Mellon, Launched Education Initiatives, Gained Worldwide Acclaim for Last Lecture - Carnegie Mellon University | CMU",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://womenshistory.si.edu/exhibitions/one-life-katharine-graham",
+      "readers": [
+        "katharine-graham-newsroom-after-the-gun"
+      ],
+      "status": 403,
+      "final_url": "https://womenshistory.si.edu/exhibitions/one-life-katharine-graham",
+      "title": "Smithsonian request verification",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.allmusic.com/artist/robbie-basho-mn0000830321",
+      "readers": [
+        "robbie-basho-raga-ghost"
+      ],
+      "status": 403,
+      "final_url": "https://www.allmusic.com/artist/robbie-basho-mn0000830321",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.ams.org/notices/201011/rtx101101410p.pdf",
+      "readers": [
+        "srinivasa-ramanujan-mock-theta"
+      ],
+      "status": 200,
+      "final_url": "https://www.ams.org/notices/201011/rtx101101410p.pdf"
+    },
+    {
+      "url": "https://www.archives.gov/exhibits/eyewitness/html.php?section=2",
+      "readers": [
+        "john-lewis-good-trouble"
+      ],
+      "status": 200,
+      "final_url": "https://www.archives.gov/exhibits/eyewitness/html.php?section=2",
+      "title": "Eyewitness",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.auschwitz.org/en/education/e-learning/podcast/story-of-witold-pilecki-co-founder-of-resistance-in-auschwitz/",
+      "readers": [
+        "witold-pilecki-auschwitz-report"
+      ],
+      "status": 200,
+      "final_url": "https://www.auschwitz.org/en/education/e-learning/podcast/story-of-witold-pilecki-co-founder-of-resistance-in-auschwitz/",
+      "title": "Story of Witold Pilecki, co-founder of resistance in Auschwitz / Podcast / E-learning / Education / Auschwitz-Birkenau",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.bbc.co.uk/history/historic_figures/nelson_admiral_horatio_lord.shtml",
+      "readers": [
+        "horatio-nelson-trafalgar-light"
+      ],
+      "status": 200,
+      "final_url": "https://www.bbc.co.uk/history/historic_figures/nelson_admiral_horatio_lord.shtml",
+      "title": "BBC - History - Admiral Horatio Lord Nelson",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.bbc.com/culture/article/20160421-when-cervantes-was-captured-by-pirates",
+      "readers": [
+        "cervantes-captive-knight"
+      ],
+      "status": 200,
+      "final_url": "https://www.bbc.com/culture/article/20160421-when-cervantes-was-captured-by-pirates",
+      "title": "When Cervantes was captured by pirates",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.bbc.com/news/entertainment-arts-23514894",
+      "readers": [
+        "maya-angelou-caged-bird-voice"
+      ],
+      "status": 200,
+      "final_url": "https://www.bbc.com/news/entertainment-arts-23514894",
+      "title": "Obituary: Maya Angelou - BBC News",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.bbc.com/news/entertainment-arts-29036876",
+      "readers": [
+        "tina-turner-private-dancer"
+      ],
+      "status": 200,
+      "final_url": "https://www.bbc.com/news/entertainment-arts-29036876",
+      "title": "Tina Turner obituary: Pop legend who overcame abuse to become global star - BBC News",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.bbc.com/news/world-europe-13845327",
+      "readers": [
+        "vaclav-havel-cell-to-castle"
+      ],
+      "status": 200,
+      "final_url": "https://www.bbc.com/news/world-europe-13845327",
+      "title": "Obituary: Vaclav Havel - BBC News",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.berkeleyside.org/2020/12/03/guitarist-robbie-basho-a-rare-bird-in-berkeley",
+      "readers": [
+        "robbie-basho-raga-ghost"
+      ],
+      "status": 200,
+      "final_url": "https://www.berkeleyside.org/2020/12/03/guitarist-robbie-basho-a-rare-bird-in-berkeley",
+      "title": "A new Robbie Basho box set offers window into music of brilliant artist. Plus: Destini Wolf",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.bfi.org/about-fuller/biography/",
+      "readers": [
+        "buckminster-fuller-world-machine"
+      ],
+      "status": 200,
+      "final_url": "https://www.bfi.org/about-fuller/biography/",
+      "title": "Biography \u2013 Buckminster Fuller Institute",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.bletchleypark.org.uk/our-story/10-things-to-know-about-alan-turing/",
+      "readers": [
+        "alan-turing-snow-white-machine"
+      ],
+      "status": 200,
+      "final_url": "https://www.bletchleypark.org.uk/our-story/10-things-to-know-about-alan-turing/",
+      "title": "10 things to know about Alan Turing | Bletchley Park",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.bookreporter.com/authors/jean-dominique-bauby",
+      "readers": [
+        "jean-dominique-bauby-blink-manuscript"
+      ],
+      "status": 200,
+      "final_url": "https://www.bookreporter.com/authors/jean-dominique-bauby",
+      "title": "Jean-Dominique Bauby | Bookreporter.com",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Ada-Lovelace",
+      "readers": [
+        "ada-lovelace-notes-before-night"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Ada-Lovelace",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Alan-Turing",
+      "readers": [
+        "alan-turing-snow-white-machine"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Alan-Turing",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Aleksandr-Solzhenitsyn",
+      "readers": [
+        "solzhenitsyn-gulag-witness"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Aleksandr-Solzhenitsyn",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Alfred-Nobel",
+      "readers": [
+        "alfred-nobel-merchant-of-death"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Alfred-Nobel",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Anna-Akhmatova",
+      "readers": [
+        "anna-akhmatova-requiem-queue"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Anna-Akhmatova",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Antoine-de-Saint-Exupery",
+      "readers": [
+        "saint-exupery-desert-star"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Antoine-de-Saint-Exupery",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Antonio-Gramsci",
+      "readers": [
+        "antonio-gramsci-prison-notebooks"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Antonio-Gramsci",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Bessie-Coleman",
+      "readers": [
+        "bessie-coleman-queen-bess"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Bessie-Coleman",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Betye-Saar",
+      "readers": [
+        "betye-saar-liberation-box"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Betye-Saar",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Blaise-Pascal",
+      "readers": [
+        "blaise-pascal-night-of-fire"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Blaise-Pascal",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Christopher-Reeve",
+      "readers": [
+        "christopher-reeve"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Christopher-Reeve",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Christy-Brown",
+      "readers": [
+        "christy-brown-left-foot"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Christy-Brown",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Claude-Monet",
+      "readers": [
+        "claude-monet-water-lilies"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Claude-Monet",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/David-Bowie",
+      "readers": [
+        "david-bowie-blackstar-farewell"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/David-Bowie",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Dietrich-Bonhoeffer",
+      "readers": [
+        "dietrich-bonhoeffer-letters-before-dawn"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Dietrich-Bonhoeffer",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Dith-Pran",
+      "readers": [
+        "dith-pran-killing-fields"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Dith-Pran",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Django-Reinhardt",
+      "readers": [
+        "django-reinhardt-two-finger-fire"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Django-Reinhardt",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Dorothea-Lange",
+      "readers": [
+        "dorothea-lange-limp-and-lens"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Dorothea-Lange",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Elizabeth-Blackwell",
+      "readers": [
+        "elizabeth-blackwell-one-eye"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Elizabeth-Blackwell",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Ernest-Henry-Shackleton",
+      "readers": [
+        "ernest-shackleton-endurance-after-ice"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Ernest-Henry-Shackleton",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Flannery-OConnor",
+      "readers": [
+        "flannery-oconnor-lupus-and-grace"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Flannery-OConnor",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Florence-Nightingale",
+      "readers": [
+        "florence-nightingale-lamp-and-ledger"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Florence-Nightingale",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Freddie-Mercury",
+      "readers": [
+        "freddie-mercury-last-light"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Freddie-Mercury",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Frederick-Douglass",
+      "readers": [
+        "frederick-douglass-stolen-thunder"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Frederick-Douglass",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Frida-Kahlo",
+      "readers": [
+        "frida-kahlo-broken-mirror"
+      ],
+      "status": 200,
+      "final_url": "https://www.britannica.com/biography/Frida-Kahlo",
+      "title": "Frida Kahlo | Biography, Paintings, Self-Portrait, Accident, Husband, & Facts | Britannica",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Fyodor-Dostoyevsky/Political-activity-and-arrest",
+      "readers": [
+        "dostoyevsky-borrowed-time"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Fyodor-Dostoyevsky/Political-activity-and-arrest",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Garrincha",
+      "readers": [
+        "garrincha-bent-legged-angel"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Garrincha",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Gene-Roddenberry",
+      "readers": [
+        "gene-roddenberry-desert-starship"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Gene-Roddenberry",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/George-Orwell",
+      "readers": [
+        "george-orwell-throat-of-truth"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/George-Orwell",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Hedy-Lamarr",
+      "readers": [
+        "hedy-lamarr-secret-signal"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Hedy-Lamarr",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Helen-Keller",
+      "readers": [
+        "helen-keller-water-pump"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Helen-Keller",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Henri-Dunant",
+      "readers": [
+        "henry-dunant-solferino-memory"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Henri-Dunant",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Henrietta-Lacks",
+      "readers": [
+        "henrietta-lacks-immortal-cells"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Henrietta-Lacks",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Horatio-Nelson",
+      "readers": [
+        "horatio-nelson-trafalgar-light"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Horatio-Nelson",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/John-Lewis-American-civil-rights-leader-and-politician",
+      "readers": [
+        "john-lewis-good-trouble"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/John-Lewis-American-civil-rights-leader-and-politician",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/John-McCain",
+      "readers": [
+        "john-mccain-hanoi-sky"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/John-McCain",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/John-Milton",
+      "readers": [
+        "john-milton-darkness-visible"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/John-Milton",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Katharine-Graham",
+      "readers": [
+        "katharine-graham-newsroom-after-the-gun"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Katharine-Graham",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Lakshmi-Bai",
+      "readers": [
+        "rani-lakshmibai-jhansi-flame"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Lakshmi-Bai",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Ludwig-van-Beethoven",
+      "readers": [
+        "beethoven-silence-ode"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Ludwig-van-Beethoven",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Ludwig-van-Beethoven/Approaching-deafness",
+      "readers": [
+        "beethoven-silence-ode"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Ludwig-van-Beethoven/Approaching-deafness",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Mary-Anning",
+      "readers": [
+        "mary-anning-stone-and-light"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Mary-Anning",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Maya-Angelou",
+      "readers": [
+        "maya-angelou-caged-bird-voice"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Maya-Angelou",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Miguel-de-Cervantes",
+      "readers": [
+        "cervantes-captive-knight"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Miguel-de-Cervantes",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Molly-Brown",
+      "readers": [
+        "margaret-brown-unsinkable"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Molly-Brown",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Nellie-Bly",
+      "readers": [
+        "nellie-bly-ten-days"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Nellie-Bly",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/R-Buckminster-Fuller",
+      "readers": [
+        "buckminster-fuller-world-machine"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/R-Buckminster-Fuller",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Roald-Dahl",
+      "readers": [
+        "roald-dahl-crash-and-chocolate"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Roald-Dahl",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Robert-Louis-Stevenson",
+      "readers": [
+        "robert-louis-stevenson-lantern-lungs"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Robert-Louis-Stevenson",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Roger-Ebert",
+      "readers": [
+        "roger-ebert-voice-after-silence"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Roger-Ebert",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Ryan-White",
+      "readers": [
+        "ryan-white-school-door"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Ryan-White",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Saint-Hildegard",
+      "readers": [
+        "hildegard-living-light"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Saint-Hildegard",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Samuel-Beckett",
+      "readers": [
+        "samuel-beckett-wound-waiting"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Samuel-Beckett",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Srinivasa-Ramanujan",
+      "readers": [
+        "srinivasa-ramanujan-mock-theta"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Srinivasa-Ramanujan",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Terry-Fox",
+      "readers": [
+        "terry-fox-marathon-of-hope"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Terry-Fox",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Tina-Turner",
+      "readers": [
+        "tina-turner-private-dancer"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Tina-Turner",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Toussaint-Louverture",
+      "readers": [
+        "toussaint-louverture-open-gate"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Toussaint-Louverture",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Vaclav-Havel",
+      "readers": [
+        "vaclav-havel-cell-to-castle"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Vaclav-Havel",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Van-Gogh",
+      "readers": [
+        "vincent-van-gogh"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Van-Gogh",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Viktor-Frankl",
+      "readers": [
+        "viktor-frankl-meaning-under-ash"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Viktor-Frankl",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/biography/Wilma-Rudolph",
+      "readers": [
+        "wilma-rudolph-fastest-woman"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/biography/Wilma-Rudolph",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/topic/Queen-British-rock-group",
+      "readers": [
+        "freddie-mercury-last-light"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/topic/Queen-British-rock-group",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.britannica.com/topic/The-Diving-Bell-and-the-Butterfly-film-by-Schnabel",
+      "readers": [
+        "jean-dominique-bauby-blink-manuscript"
+      ],
+      "status": 403,
+      "final_url": "https://www.britannica.com/topic/The-Diving-Bell-and-the-Butterfly-film-by-Schnabel",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.buchenwald.de/en/geschichte/biografien/ltg-ausstellung/jacques-lusseyran",
+      "readers": [
+        "jacques-lusseyran-light-in-darkness"
+      ],
+      "status": 200,
+      "final_url": "https://www.buchenwald.de/en/geschichte/biografien/ltg-ausstellung/jacques-lusseyran",
+      "title": "Jacques Lusseyran - Buchenwald Memorial",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.cai.cam.ac.uk/stephen-hawking-caius-speech",
+      "readers": [
+        "stephen-hawking-time-under-shadow"
+      ],
+      "status": 200,
+      "final_url": "https://www.cai.cam.ac.uk/stephen-hawking-caius-speech",
+      "title": "Professor Hawking pays tribute to Caius after 50 years as a Fellow | Gonville & Caius",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.christopherreeve.org/community/about-us/about-christopher-reeve/",
+      "readers": [
+        "christopher-reeve"
+      ],
+      "status": 200,
+      "final_url": "https://www.christopherreeve.org/community/about-us/about-christopher-reeve/",
+      "title": "Christopher Reeve | Reeve Foundation",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.cia.gov/stories/story/virginia-hall-the-courage-and-daring-of-the-limping-lady/",
+      "readers": [
+        "virginia-hall-limping-lady"
+      ],
+      "status": 200,
+      "final_url": "https://www.cia.gov/stories/story/virginia-hall-the-courage-and-daring-of-the-limping-lady/",
+      "title": null,
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.cmu.edu/randyslecture/story/index.html",
+      "readers": [
+        "randy-pausch-last-lecture"
+      ],
+      "status": 200,
+      "final_url": "https://etc.cmu.edu/about/last-lecture",
+      "title": "The Last Lecture | Entertainment Technology Center",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.cogreatwomen.org/project/margaret-molly-tobin-brown/",
+      "readers": [
+        "margaret-brown-unsinkable"
+      ],
+      "status": 200,
+      "final_url": "https://www.cogreatwomen.org/project/margaret-molly-tobin-brown/",
+      "title": "Margaret \"Molly\" Brown - Colorado Women's Hall of Fame",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.computerhistory.org/babbage/adalovelace/",
+      "readers": [
+        "ada-lovelace-notes-before-night"
+      ],
+      "status": 200,
+      "final_url": "https://www.computerhistory.org/babbage/adalovelace/",
+      "title": "Ada Lovelace |  Babbage Engine | Computer History Museum",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.dib.ie/biography/brown-christopher-christy-a1005",
+      "readers": [
+        "christy-brown-left-foot"
+      ],
+      "status": 307,
+      "final_url": "https://www.dib.ie/biography/brown-christopher-christy-a1005",
+      "title": "You are being redirected...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.discogs.com/artist/304770-Robbie-Basho",
+      "readers": [
+        "robbie-basho-raga-ghost"
+      ],
+      "status": 403,
+      "final_url": "https://www.discogs.com/artist/304770-Robbie-Basho",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.dithpranfoundation.org/dithpran",
+      "readers": [
+        "dith-pran-killing-fields"
+      ],
+      "status": 200,
+      "final_url": "https://www.dithpranfoundation.org/dithpran",
+      "title": "About Dith Pran \u2014 The Dith Pran Foundation",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.economist.com/obituary/2026/08/20/mary-de-rachewiltz-devoted-her-life-to-defending-ezra-pound",
+      "readers": [
+        "mary-de-rachewiltz-tower-of-cantos"
+      ],
+      "status": 403,
+      "final_url": "https://www.economist.com/obituary/2026/08/20/mary-de-rachewiltz-devoted-her-life-to-defending-ezra-pound",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.encyclopedia.com/arts/encyclopedias-almanacs-transcripts-and-maps/klemperer-victor",
+      "readers": [
+        "victor-klemperer-dresden-diaries"
+      ],
+      "status": 200,
+      "final_url": "https://www.encyclopedia.com/arts/encyclopedias-almanacs-transcripts-and-maps/klemperer-victor",
+      "title": "Klemperer, Victor | Encyclopedia.com",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/saint-exupery-antoine-de-1900-1944",
+      "readers": [
+        "saint-exupery-desert-star"
+      ],
+      "status": 200,
+      "final_url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/saint-exupery-antoine-de-1900-1944",
+      "title": "Saint-Exup\u00e9ry, Antoine de (1900\u20131944) | Encyclopedia.com",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/garrincha-death-funeral-brazil-rio-de-janeiro",
+      "readers": [
+        "garrincha-bent-legged-angel"
+      ],
+      "status": 200,
+      "final_url": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/garrincha-death-funeral-brazil-rio-de-janeiro",
+      "title": null,
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.fretboardjournal.com/features/django-reinhardt-life-record/",
+      "readers": [
+        "django-reinhardt-two-finger-fire"
+      ],
+      "status": 200,
+      "final_url": "https://www.fretboardjournal.com/features/django-reinhardt-life-record/",
+      "title": "Django Reinhardt\u2019s Life on Record - Fretboard Journal",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.fridakahlo.org/frida-kahlo-biography.jsp",
+      "readers": [
+        "frida-kahlo-broken-mirror"
+      ],
+      "status": 200,
+      "final_url": "https://www.fridakahlo.org/frida-kahlo-biography.jsp",
+      "title": "Frida Kahlo biography",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.gedenkstaette-flossenbuerg.de/en/history/prisoners/dietrich-bonhoeffer",
+      "readers": [
+        "dietrich-bonhoeffer-letters-before-dawn"
+      ],
+      "status": 200,
+      "final_url": "https://www.gedenkstaette-flossenbuerg.de/en/history/prisoners/dietrich-bonhoeffer",
+      "title": "Dietrich Bonhoeffer | KZ-Gedenkst\u00e4tte Flossenb\u00fcrg",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.georgiaencyclopedia.org/articles/arts-culture/flannery-oconnor/",
+      "readers": [
+        "flannery-oconnor-lupus-and-grace"
+      ],
+      "status": 200,
+      "final_url": "https://www.georgiaencyclopedia.org/articles/arts-culture/flannery-oconnor/",
+      "title": "Flannery O'Connor - New Georgia Encyclopedia",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.gutenberg.org/cache/epub/37536/pg37536-images.html",
+      "readers": [
+        "dostoyevsky-borrowed-time"
+      ],
+      "status": 200,
+      "final_url": "https://www.gutenberg.org/cache/epub/37536/pg37536-images.html",
+      "title": "The House Of The Dead | Project Gutenberg",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.gutenberg.org/ebooks/37536",
+      "readers": [
+        "dostoyevsky-borrowed-time"
+      ],
+      "status": 200,
+      "final_url": "https://www.gutenberg.org/ebooks/37536",
+      "title": "The house of the dead :  or, Prison life in Siberia by Fyodor Dostoyevsky | Project Gutenberg",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.historic-uk.com/CultureUK/The-Marvellous-Life-Of-Roald-Dahl/",
+      "readers": [
+        "roald-dahl-crash-and-chocolate"
+      ],
+      "status": 200,
+      "final_url": "https://www.historic-uk.com/CultureUK/The-Marvellous-Life-Of-Roald-Dahl/",
+      "title": "The Marvellous Life of Roald Dahl - Historic UK",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.history.com/articles/dith-pran-killing-fields-cambodia-khmer-rouge",
+      "readers": [
+        "dith-pran-killing-fields"
+      ],
+      "status": 200,
+      "final_url": "https://www.history.com/articles/dith-pran-killing-fields-cambodia-khmer-rouge",
+      "title": "How Dith Pran's Remarkable Survival Story Exposed Cambodia's Killing Fields | HISTORY",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.history.com/articles/the-man-who-survived-two-atomic-bombs",
+      "readers": [
+        "tsutomu-yamaguchi-double-light"
+      ],
+      "status": 200,
+      "final_url": "https://www.history.com/articles/the-man-who-survived-two-atomic-bombs",
+      "title": "The Man Who Survived Two Atomic Bombs | HISTORY",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.history.com/this-day-in-history/november-24/freddie-mercury-death-aids",
+      "readers": [
+        "freddie-mercury-last-light"
+      ],
+      "status": 200,
+      "final_url": "https://www.history.com/this-day-in-history/november-24/freddie-mercury-death-aids",
+      "title": "Freddie Mercury succumbs to AIDS | November 24, 1991 | HISTORY",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.historyextra.com/period/stuart/john-milton-life-guide-paradise-lost/",
+      "readers": [
+        "john-milton-darkness-visible"
+      ],
+      "status": 200,
+      "final_url": "https://www.historyextra.com/period/stuart/john-milton-life-guide-paradise-lost/",
+      "title": "John Milton: Your Guide To The Life & Work of 'Paradise Lost' Author | HistoryExtra",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.historyextra.com/period/victorian/manikarnika-who-was-rani-lakshmibai-hero-queen/",
+      "readers": [
+        "rani-lakshmibai-jhansi-flame"
+      ],
+      "status": 200,
+      "final_url": "https://www.historyextra.com/period/victorian/manikarnika-who-was-rani-lakshmibai-hero-queen/",
+      "title": "Manikarnika: The Real Story Of Rani Lakshmibai \u2013 India's 'Joan Of Arc' | HistoryExtra",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.historytoday.com/archive/feature/wrongful-death-toussaint-louverture",
+      "readers": [
+        "toussaint-louverture-open-gate"
+      ],
+      "status": 403,
+      "final_url": "https://www.historytoday.com/archive/feature/wrongful-death-toussaint-louverture",
+      "title": "Establishing a secure connection ...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/how-a-hollywood-studio-got-away-rape-1937-1057432/",
+      "readers": [
+        "patricia-douglas-girl-27"
+      ],
+      "status": 200,
+      "final_url": "https://www.hollywoodreporter.com/movies/movie-news/how-a-hollywood-studio-got-away-rape-1937-1057432/",
+      "title": "How a Hollywood Studio Got Away With Rape in 1937",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.hopkinsmedicine.org/henrietta-lacks",
+      "readers": [
+        "henrietta-lacks-immortal-cells"
+      ],
+      "status": 403,
+      "final_url": "https://www.hopkinsmedicine.org/henrietta-lacks",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.hopkinsmedicine.org/news/articles/2016/05/the-complicated-legacy-of-henrietta-lacks",
+      "readers": [
+        "henrietta-lacks-immortal-cells"
+      ],
+      "status": 403,
+      "final_url": "https://www.hopkinsmedicine.org/news/articles/2016/05/the-complicated-legacy-of-henrietta-lacks",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.icrc.org/en/document/founding-and-early-years-icrc-1863-1914",
+      "readers": [
+        "henry-dunant-solferino-memory"
+      ],
+      "status": 200,
+      "final_url": "https://www.icrc.org/en/document/founding-and-early-years-icrc-1863-1914",
+      "title": "Founding and early years of the ICRC (1863-1914) | International Committee of the Red Cross",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.independent.co.uk/news/people/david-bowie-publicist-s-statement-in-full-a6805421.html",
+      "readers": [
+        "david-bowie-blackstar-farewell"
+      ],
+      "status": 200,
+      "final_url": "https://www.independent.co.uk/news/people/david-bowie-publicist-s-statement-in-full-a6805421.html",
+      "title": "David Bowie: publicist's statement in full | The Independent | The Independent",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.kennedy-center.org/education/resources-for-educators/classroom-resources/media-and-interactives/artists/beethoven-ludwig-van/",
+      "readers": [
+        "beethoven-silence-ode"
+      ],
+      "status": 403,
+      "final_url": "https://www.kennedy-center.org/education/resources-for-educators/classroom-resources/media-and-interactives/artists/beethoven-ludwig-van/",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.latimes.com/entertainment-arts/story/2026-07-27/betye-saar-dead-artist-assemblage-aunt-jemima-99",
+      "readers": [
+        "betye-saar-liberation-box"
+      ],
+      "status": 200,
+      "final_url": "https://www.latimes.com/entertainment-arts/story/2026-07-27/betye-saar-dead-artist-assemblage-aunt-jemima-99",
+      "title": "Betye Saar dead: Assemblage artist 'liberated' Aunt Jemima - Los Angeles Times",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.latimes.com/nation/la-me-dina-babbitt1-2009aug01-story.html",
+      "readers": [
+        "dina-babbitt-painted-out-of-hell"
+      ],
+      "status": 200,
+      "final_url": "https://www.latimes.com/nation/la-me-dina-babbitt1-2009aug01-story.html",
+      "title": "Dina Gottliebova Babbitt dies at 86; Auschwitz survivor fought to regain portraits she painted there - Los Angeles Times",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.loc.gov/collections/frederick-douglass-papers/about-this-collection/",
+      "readers": [
+        "frederick-douglass-stolen-thunder"
+      ],
+      "status": 403,
+      "final_url": "https://www.loc.gov/collections/frederick-douglass-papers/about-this-collection/",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.loudersound.com/news/tony-visconti-on-the-making-of-david-bowies-blackstar",
+      "readers": [
+        "david-bowie-blackstar-farewell"
+      ],
+      "status": 200,
+      "final_url": "https://www.loudersound.com/news/tony-visconti-on-the-making-of-david-bowies-blackstar",
+      "title": "\u201cThere were days he couldn\u2019t come in. But when he got in front of the microphone, he sang his balls off\": Tony Visconti on the making of David Bowie's final album Blackstar | Louder",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.lumenvisum.org/en/exhibitions/rare-encounters-nancy-sheungs-portraits-of-hong-kong-women-in-the-1960s/",
+      "readers": [
+        "nancy-sheung-darkroom-light"
+      ],
+      "status": 200,
+      "final_url": "https://www.lumenvisum.org/en/exhibitions/rare-encounters-nancy-sheungs-portraits-of-hong-kong-women-in-the-1960s/",
+      "title": "RARE ENCOUNTERS: Nancy Sheung\u2019s Portraits of Hong Kong Women in the 1960s \u2013 Lumenvisum \u5149\u5f71\u4f5c\u574a",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.lymeregismuseum.co.uk/collection/mary-anning/",
+      "readers": [
+        "mary-anning-stone-and-light"
+      ],
+      "status": 200,
+      "final_url": "https://www.lymeregismuseum.co.uk/about-us/the-mary-anning-experts/",
+      "title": "The Mary Anning Experts - Lyme Regis Museum",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.maths.cam.ac.uk/internal/faculty/stephen-hawking-1942-2018",
+      "readers": [
+        "stephen-hawking-time-under-shadow"
+      ],
+      "status": 200,
+      "final_url": "https://www.maths.cam.ac.uk/internal/faculty/stephen-hawking-1942-2018",
+      "title": "Stephen Hawking 1942 - 2018 | Faculty Board",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.mba-lyon.fr/en/fiche-programmation/exhibition-henri-matisse-le-laboratoire-interieur",
+      "readers": [
+        "henri-matisse-second-life"
+      ],
+      "status": 200,
+      "final_url": "https://www.mba-lyon.fr/en/fiche-programmation/exhibition-henri-matisse-le-laboratoire-interieur",
+      "title": "Exhibition Henri Matisse, le laboratoire int\u00e9rieur | Mus\u00e9e des Beaux Arts",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.moma.org/artists/4058-claude-monet",
+      "readers": [
+        "claude-monet-water-lilies"
+      ],
+      "status": 403,
+      "final_url": "https://www.moma.org/artists/4058-claude-monet",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.moma.org/calendar/exhibitions/5079",
+      "readers": [
+        "dorothea-lange-limp-and-lens"
+      ],
+      "status": 403,
+      "final_url": "https://www.moma.org/calendar/exhibitions/5079",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.moma.org/collection/artists/3373",
+      "readers": [
+        "dorothea-lange-limp-and-lens"
+      ],
+      "status": 403,
+      "final_url": "https://www.moma.org/collection/artists/3373",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.moma.org/interactives/exhibitions/2014/matisse/about-matisse.html",
+      "readers": [
+        "henri-matisse-second-life"
+      ],
+      "status": 403,
+      "final_url": "https://www.moma.org/interactives/exhibitions/2014/matisse/about-matisse.html",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.moma.org/interactives/exhibitions/2014/matisse/the-cut-outs.html",
+      "readers": [
+        "henri-matisse-second-life"
+      ],
+      "status": 403,
+      "final_url": "https://www.moma.org/interactives/exhibitions/2014/matisse/the-cut-outs.html",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny",
+      "readers": [
+        "rani-lakshmibai-jhansi-flame"
+      ],
+      "status": 200,
+      "final_url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny",
+      "title": "Decisive events of the Indian Rebellion | National Army Museum",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nationalarchives.gov.uk/explore-the-collection/stories/virginia-hall/",
+      "readers": [
+        "virginia-hall-limping-lady"
+      ],
+      "status": 200,
+      "final_url": "https://www.nationalarchives.gov.uk/explore-the-collection/stories/virginia-hall/",
+      "title": "Virginia Hall - The National Archives",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nationalww2museum.org/war/articles/hedy-lamarrs-wwii-invention-helped-shape-modern-tech",
+      "readers": [
+        "hedy-lamarr-secret-signal"
+      ],
+      "status": 200,
+      "final_url": "https://www.nationalww2museum.org/war/articles/hedy-lamarrs-wwii-invention-helped-shape-modern-tech",
+      "title": "Hedy Lamarr\u2019s WWII Invention Helped Shape Modern Tech | The National WWII Museum | New Orleans",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nationalww2museum.org/war/articles/the-little-prince-antoine-de-saint-exupery",
+      "readers": [
+        "saint-exupery-desert-star"
+      ],
+      "status": 200,
+      "final_url": "https://www.nationalww2museum.org/war/articles/the-little-prince-antoine-de-saint-exupery",
+      "title": "The Little Prince's Last Flight: The Story of Antoine de Saint-Exup\u00e9ry | The National WWII Museum | New Orleans",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.neh.gov/article/george-orwell-outdoorsman",
+      "readers": [
+        "george-orwell-throat-of-truth"
+      ],
+      "status": 200,
+      "final_url": "https://www.neh.gov/article/george-orwell-outdoorsman",
+      "title": "George Orwell, Outdoorsman | National Endowment for the Humanities",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.neh.gov/humanities/2015/julyaugust/feature/treasure-island-author-robert-louis-stevenson-was-sickly-man-robu",
+      "readers": [
+        "robert-louis-stevenson-lantern-lungs"
+      ],
+      "status": 200,
+      "final_url": "https://www.neh.gov/humanities/2015/julyaugust/feature/treasure-island-author-robert-louis-stevenson-was-sickly-man-robu",
+      "title": "Treasure Island Author Robert Louis Stevenson Was a Sickly Man with a Robus | National Endowment for the Humanities",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.newadvent.org/cathen/07351a.htm",
+      "readers": [
+        "hildegard-living-light"
+      ],
+      "status": 200,
+      "final_url": "https://www.newadvent.org/cathen/07351a.htm",
+      "title": "CATHOLIC ENCYCLOPEDIA: Saint Hildegard",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nhm.ac.uk/discover/mary-anning-unsung-hero.html",
+      "readers": [
+        "mary-anning-stone-and-light"
+      ],
+      "status": 200,
+      "final_url": "https://www.nhm.ac.uk/discover/mary-anning-unsung-hero.html",
+      "title": "Mary Anning: The unsung hero of fossil discovery | Natural History Museum",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nlm.nih.gov/exhibition/changing-the-face-of-medicine/physicians/biography_elizabeth_blackwell.html",
+      "readers": [
+        "elizabeth-blackwell-one-eye"
+      ],
+      "status": 200,
+      "final_url": "https://www.nlm.nih.gov/exhibition/changing-the-face-of-medicine/physicians/biography_elizabeth_blackwell.html",
+      "title": "Biography - Dr. Elizabeth Blackwell",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nmrn.org.uk/news/trafalgar-day-vice-admiral-lord-horatio-nelson",
+      "readers": [
+        "horatio-nelson-trafalgar-light"
+      ],
+      "status": 200,
+      "final_url": "https://www.royalnavymuseums.org.uk/news/trafalgar-day-vice-admiral-lord-horatio-nelson",
+      "title": "Trafalgar Day: Vice-Admiral Lord Horatio Nelson | Royal Navy Museums",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nobelpeaceprize.org/nobel-peace-prize/history/alfred-nobel-s-will",
+      "readers": [
+        "alfred-nobel-merchant-of-death"
+      ],
+      "status": 200,
+      "final_url": "https://www.nobelpeaceprize.org/nobel-peace-prize/history/alfred-nobel-s-will",
+      "title": "Alfred Nobel's will - Nobel Peace Prize",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nobelprize.org/alfred-nobel",
+      "readers": [
+        "alfred-nobel-merchant-of-death"
+      ],
+      "status": 200,
+      "final_url": "https://www.nobelprize.org/alfred-nobel",
+      "title": "NobelPrize.org",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/literature/1969/beckett/facts/",
+      "readers": [
+        "samuel-beckett-wound-waiting"
+      ],
+      "status": 200,
+      "final_url": "https://www.nobelprize.org/prizes/literature/1969/beckett/facts/",
+      "title": "Samuel Beckett \u2013 Facts - NobelPrize.org",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/literature/1970/solzhenitsyn/facts/",
+      "readers": [
+        "solzhenitsyn-gulag-witness"
+      ],
+      "status": 200,
+      "final_url": "https://www.nobelprize.org/prizes/literature/1970/solzhenitsyn/facts/",
+      "title": "Aleksandr Solzhenitsyn \u2013 Facts - NobelPrize.org",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/peace/1901/dunant/biographical/",
+      "readers": [
+        "henry-dunant-solferino-memory"
+      ],
+      "status": 200,
+      "final_url": "https://www.nobelprize.org/prizes/peace/1901/dunant/biographical/",
+      "title": "Henry Dunant \u2013 Biographical - NobelPrize.org",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.npr.org/2010/01/06/122291007/only-survivor-of-both-atomic-bombs-dies",
+      "readers": [
+        "tsutomu-yamaguchi-double-light"
+      ],
+      "status": 200,
+      "final_url": "https://www.npr.org/2010/01/06/122291007/only-survivor-of-both-atomic-bombs-dies",
+      "title": "Only Survivor Of Both Atomic Bombs Dies : NPR",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.npr.org/2020/07/17/792579944/rep-john-lewis-a-force-in-the-civil-rights-movement-dead-at-80",
+      "readers": [
+        "john-lewis-good-trouble"
+      ],
+      "status": 200,
+      "final_url": "https://www.npr.org/2020/07/17/792579944/rep-john-lewis-a-force-in-the-civil-rights-movement-dead-at-80",
+      "title": "John Lewis, A Force In The Civil Rights Movement, Dead At 80 : NPR",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nps.gov/frdo/learn/historyculture/frederickdouglass.htm",
+      "readers": [
+        "frederick-douglass-stolen-thunder"
+      ],
+      "status": 200,
+      "final_url": "https://www.nps.gov/frdo/learn/historyculture/frederickdouglass.htm",
+      "title": "Frederick Douglass - Frederick Douglass National Historic Site (U.S. National Park Service)",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nps.gov/hatu/learn/historyculture/htubman.htm",
+      "readers": [
+        "harriet-tubman-road-back"
+      ],
+      "status": 200,
+      "final_url": "https://www.nps.gov/hatu/learn/historyculture/htubman.htm",
+      "title": "HTubman - Harriet Tubman Underground Railroad National Historical Park (U.S. National Park Service)",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nytimes.com/1922/01/28/archives/nellie-bly-journalist-dies-of-pneumonia-famous-for-rapid-trip.html",
+      "readers": [
+        "nellie-bly-ten-days"
+      ],
+      "status": 200,
+      "final_url": "https://www.nytimes.com/1922/01/28/archives/nellie-bly-journalist-dies-of-pneumonia-famous-for-rapid-trip.html",
+      "title": "NELLIE BLY, JOURNALIST, DIES OF PNEUMONIA; Famous for Rapid Trip Around the World in 1889 and Other Daring Exploits. - The New York Times",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nytimes.com/1981/09/08/obituaries/christy-brown-author-dies-crippled-he-wrote-with-toe.html",
+      "readers": [
+        "christy-brown-left-foot"
+      ],
+      "status": 403,
+      "final_url": "https://www.nytimes.com/1981/09/08/obituaries/christy-brown-author-dies-crippled-he-wrote-with-toe.html",
+      "title": "nytimes.com",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nytimes.com/1982/07/14/obituaries/virginia-goillot-dead-agent-in-world-war-ii.html",
+      "readers": [
+        "virginia-hall-limping-lady"
+      ],
+      "status": 403,
+      "final_url": "https://www.nytimes.com/1982/07/14/obituaries/virginia-goillot-dead-agent-in-world-war-ii.html",
+      "title": "nytimes.com",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nytimes.com/1983/07/03/obituaries/r-buckminster-fuller-futurist-inventor-dies-at-87.html",
+      "readers": [
+        "buckminster-fuller-world-machine"
+      ],
+      "status": 403,
+      "final_url": "https://www.nytimes.com/1983/07/03/obituaries/r-buckminster-fuller-futurist-inventor-dies-at-87.html",
+      "title": "nytimes.com",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nytimes.com/1991/10/26/movies/gene-roddenberry-star-trek-creator-dies-at-70.html",
+      "readers": [
+        "gene-roddenberry-desert-starship"
+      ],
+      "status": 403,
+      "final_url": "https://www.nytimes.com/1991/10/26/movies/gene-roddenberry-star-trek-creator-dies-at-70.html",
+      "title": "nytimes.com",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nytimes.com/1992/11/20/books/audre-lorde-58-a-poet-memoirist-and-lecturer-dies.html",
+      "readers": [
+        "audre-lorde-cancer-journals"
+      ],
+      "status": 403,
+      "final_url": "https://www.nytimes.com/1992/11/20/books/audre-lorde-58-a-poet-memoirist-and-lecturer-dies.html",
+      "title": "nytimes.com",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nytimes.com/1994/11/13/obituaries/wilma-rudolph-star-of-the-1960-olympics-dies-at-54.html",
+      "readers": [
+        "wilma-rudolph-fastest-woman"
+      ],
+      "status": 403,
+      "final_url": "https://www.nytimes.com/1994/11/13/obituaries/wilma-rudolph-star-of-the-1960-olympics-dies-at-54.html",
+      "title": "nytimes.com",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nytimes.com/2008/03/31/nyregion/31dith.html",
+      "readers": [
+        "dith-pran-killing-fields"
+      ],
+      "status": 403,
+      "final_url": "https://www.nytimes.com/2008/03/31/nyregion/31dith.html",
+      "title": "nytimes.com",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nytimes.com/2008/05/13/world/europe/13sendler.html",
+      "readers": [
+        "irena-sendler-jars-of-names"
+      ],
+      "status": 403,
+      "final_url": "https://www.nytimes.com/2008/05/13/world/europe/13sendler.html",
+      "title": "nytimes.com",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nytimes.com/2009/08/02/arts/02babbitt.html",
+      "readers": [
+        "dina-babbitt-painted-out-of-hell"
+      ],
+      "status": 403,
+      "final_url": "https://www.nytimes.com/2009/08/02/arts/02babbitt.html",
+      "title": "nytimes.com",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nytimes.com/2010/01/07/world/asia/07yamaguchi.html",
+      "readers": [
+        "tsutomu-yamaguchi-double-light"
+      ],
+      "status": 403,
+      "final_url": "https://www.nytimes.com/2010/01/07/world/asia/07yamaguchi.html",
+      "title": "nytimes.com",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nytimes.com/2015/08/31/science/oliver-sacks-dies-at-82-neurologist-and-author-explored-the-brains-quirks.html",
+      "readers": [
+        "oliver-sacks-gratitude-near-the-end"
+      ],
+      "status": 403,
+      "final_url": "https://www.nytimes.com/2015/08/31/science/oliver-sacks-dies-at-82-neurologist-and-author-explored-the-brains-quirks.html",
+      "title": "nytimes.com",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nytimes.com/2018/08/25/obituaries/john-mccain-dead.html",
+      "readers": [
+        "john-mccain-hanoi-sky"
+      ],
+      "status": 403,
+      "final_url": "https://www.nytimes.com/2018/08/25/obituaries/john-mccain-dead.html",
+      "title": "nytimes.com",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nytimes.com/2026/05/29/obituaries/nancy-sheung-overlooked.html",
+      "readers": [
+        "nancy-sheung-darkroom-light"
+      ],
+      "status": 403,
+      "final_url": "https://www.nytimes.com/2026/05/29/obituaries/nancy-sheung-overlooked.html",
+      "title": "nytimes.com",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nytimes.com/2026/06/19/obituaries/robbie-basho-overlooked.html",
+      "readers": [
+        "robbie-basho-raga-ghost"
+      ],
+      "status": 200,
+      "final_url": "https://www.nytimes.com/2026/06/19/obituaries/robbie-basho-overlooked.html",
+      "title": "Overlooked No More: Robbie Basho, Guitar Mystic Who Sought Enlightenment in Sound - The New York Times",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nytimes.com/2026/07/10/obituaries/garrincha-overlooked.html",
+      "readers": [
+        "garrincha-bent-legged-angel"
+      ],
+      "status": 403,
+      "final_url": "https://www.nytimes.com/2026/07/10/obituaries/garrincha-overlooked.html",
+      "title": "nytimes.com",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nytimes.com/2026/07/24/obituaries/barbara-rubin-overlooked.html",
+      "readers": [
+        "barbara-rubin-underground-spark"
+      ],
+      "status": 403,
+      "final_url": "https://www.nytimes.com/2026/07/24/obituaries/barbara-rubin-overlooked.html",
+      "title": "nytimes.com",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nytimes.com/2026/08/03/books/mary-de-rachewiltz-dead.html",
+      "readers": [
+        "mary-de-rachewiltz-tower-of-cantos"
+      ],
+      "status": 200,
+      "final_url": "https://www.nytimes.com/2026/08/03/books/mary-de-rachewiltz-dead.html",
+      "title": "Mary de Rachewiltz, Ezra Pound\u2019s Daughter and Defender, Dies at 101 - The New York Times",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.nytimes.com/2026/08/21/obituaries/patricia-douglas-overlooked.html",
+      "readers": [
+        "patricia-douglas-girl-27"
+      ],
+      "status": 403,
+      "final_url": "https://www.nytimes.com/2026/08/21/obituaries/patricia-douglas-overlooked.html",
+      "title": "nytimes.com",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.oliversacks.com/about-oliver-sacks/",
+      "readers": [
+        "oliver-sacks-gratitude-near-the-end"
+      ],
+      "status": 200,
+      "final_url": "https://www.oliversacks.com/about-oliver-sacks/",
+      "title": "Oliver Sacks Author | Biography, Life and Books by Neurologist",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.oliversacks.com/oliver-sacks-books/gratitude/",
+      "readers": [
+        "oliver-sacks-gratitude-near-the-end"
+      ],
+      "status": 200,
+      "final_url": "https://www.oliversacks.com/oliver-sacks-books/gratitude/",
+      "title": "Gratitude | Oliver Sacks",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/biography/",
+      "readers": [
+        "george-orwell-throat-of-truth"
+      ],
+      "status": 200,
+      "final_url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/biography/",
+      "title": "Biography | The Orwell Foundation",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.pbs.org/newshour/arts/artist-betye-saar-whose-work-reflects-black-identity-and-spirituality-dies-at-99",
+      "readers": [
+        "betye-saar-liberation-box"
+      ],
+      "status": 200,
+      "final_url": "https://www.pbs.org/newshour/arts/artist-betye-saar-whose-work-reflects-black-identity-and-spirituality-dies-at-99",
+      "title": "Artist Betye Saar, whose work reflects Black identity and spirituality, dies at 99 | PBS News",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.pbs.org/wnet/americanmasters/dorothea-lange-biography-with-photo-gallery/3097/",
+      "readers": [
+        "dorothea-lange-limp-and-lens"
+      ],
+      "status": 200,
+      "final_url": "https://www.pbs.org/wnet/americanmasters/dorothea-lange-biography-with-photo-gallery/3097/",
+      "title": "Dorothea Lange | Dorothea Lange Biography with Photo Gallery | American Masters | PBS",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.pbs.org/wnet/americanmasters/how-did-flannery-oconnors-writing-reflect-her-disability/17614/",
+      "readers": [
+        "flannery-oconnor-lupus-and-grace"
+      ],
+      "status": 200,
+      "final_url": "https://www.pbs.org/wnet/americanmasters/how-did-flannery-oconnors-writing-reflect-her-disability/17614/",
+      "title": "How did Flannery O'Connor's writing reflect her disability? | American Masters | PBS",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/9616/the-diving-bell-and-the-butterfly-by-jean-dominique-bauby/9780375701214/",
+      "readers": [
+        "jean-dominique-bauby-blink-manuscript"
+      ],
+      "status": 200,
+      "final_url": "https://www.penguinrandomhouse.com/books/9616/the-diving-bell-and-the-butterfly-by-jean-dominique-bauby/9780375701214/",
+      "title": "The Diving Bell and the Butterfly by Jean-Dominique Bauby: 9780375701214 | PenguinRandomHouse.com: Books",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.perkins.org/resource/helen-keller-timeline/",
+      "readers": [
+        "helen-keller-water-pump"
+      ],
+      "status": 200,
+      "final_url": "https://www.perkins.org/resource/helen-keller-timeline/",
+      "title": "Helen Keller timeline \u2013 Perkins School for the Blind",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.poetryfoundation.org/poets/anna-akhmatova",
+      "readers": [
+        "anna-akhmatova-requiem-queue"
+      ],
+      "status": 200,
+      "final_url": "https://www.poetryfoundation.org/poets/anna-akhmatova",
+      "title": "Anna Akhmatova | The Poetry Foundation",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.poetryfoundation.org/poets/audre-lorde",
+      "readers": [
+        "audre-lorde-cancer-journals"
+      ],
+      "status": 200,
+      "final_url": "https://www.poetryfoundation.org/poets/audre-lorde",
+      "title": "Audre Lorde | The Poetry Foundation",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.poetryfoundation.org/poets/john-milton",
+      "readers": [
+        "john-milton-darkness-visible"
+      ],
+      "status": 200,
+      "final_url": "https://www.poetryfoundation.org/poets/john-milton",
+      "title": "John Milton | The Poetry Foundation",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.primolevi.it/en/biography",
+      "readers": [
+        "primo-levi"
+      ],
+      "status": 200,
+      "final_url": "https://www.primolevi.it/en/biography",
+      "title": "Biography | Centro Internazionale di Studi Primo Levi",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.publicbooks.org/i-am-the-face-of-aids-ryan-white-and-the-politics-of-innocence-in-the-history-of-hiv-aids/",
+      "readers": [
+        "ryan-white-school-door"
+      ],
+      "status": 200,
+      "final_url": "https://www.publicbooks.org/i-am-the-face-of-aids-ryan-white-and-the-politics-of-innocence-in-the-history-of-hiv-aids/",
+      "title": "\u201cI Am the Face of AIDS\u201d: Ryan White and the Politics of Innocence in the History of HIV/AIDS - Public Books",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.pulitzer.org/finalists/late-paul-kalanithi",
+      "readers": [
+        "paul-kalanithi-breath-becomes-air"
+      ],
+      "status": 403,
+      "final_url": "https://www.pulitzer.org/finalists/late-paul-kalanithi",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.pulitzer.org/winners/katharine-graham",
+      "readers": [
+        "katharine-graham-newsroom-after-the-gun"
+      ],
+      "status": 403,
+      "final_url": "https://www.pulitzer.org/winners/katharine-graham",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.queenonline.com/freddie_mercury",
+      "readers": [
+        "freddie-mercury-last-light"
+      ],
+      "status": 200,
+      "final_url": "https://www.queenonline.com/freddie_mercury",
+      "title": "QueenOnline.com - Freddie Mercury",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.rafbf.org/news-and-stories/news/roald-dahl-his-raf-career",
+      "readers": [
+        "roald-dahl-crash-and-chocolate"
+      ],
+      "status": 200,
+      "final_url": "https://www.rafbf.org/news-and-stories/news/roald-dahl-his-raf-career",
+      "title": "Roald Dahl: His RAF career | RAF Benevolent Fund",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.rmg.co.uk/stories/maritime-history/shackletons-death-legacy",
+      "readers": [
+        "ernest-shackleton-endurance-after-ice"
+      ],
+      "status": 200,
+      "final_url": "https://www.rmg.co.uk/stories/maritime-history/shackletons-death-legacy",
+      "title": "Ernest Shackleton's death and legacy \u2013 100 years on",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.rmg.co.uk/stories/maritime-history/sir-ernest-shackleton",
+      "readers": [
+        "ernest-shackleton-endurance-after-ice"
+      ],
+      "status": 200,
+      "final_url": "https://www.rmg.co.uk/stories/maritime-history/sir-ernest-shackleton",
+      "title": "Sir Ernest Shackleton | Royal Museums Greenwich",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.roalddahl.com/about",
+      "readers": [
+        "roald-dahl-crash-and-chocolate"
+      ],
+      "status": 200,
+      "final_url": "https://www.roalddahl.com/about",
+      "title": "About Roald Dahl | Roald Dahl",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.roddenberry.com/bios/",
+      "readers": [
+        "gene-roddenberry-desert-starship"
+      ],
+      "status": 200,
+      "final_url": "https://www.roddenberry.com/bios/",
+      "title": "Corporate Bios \u00ab  Roddenberry",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.rogerebert.com/roger-ebert/a-leave-of-presence",
+      "readers": [
+        "roger-ebert-voice-after-silence"
+      ],
+      "status": 403,
+      "final_url": "https://www.rogerebert.com/roger-ebert/a-leave-of-presence",
+      "title": "Just a moment...",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.rollingstone.com/music/music-features/david-bowie-death-10-years-on-final-act-1235496612/",
+      "readers": [
+        "david-bowie-blackstar-farewell"
+      ],
+      "status": 200,
+      "final_url": "https://www.rollingstone.com/music/music-features/david-bowie-death-10-years-on-final-act-1235496612/",
+      "title": "Remembering David Bowie's Final Act, 10 Years After His Death",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.senate.gov/artandhistory/history/common/generic/Senator_McCain.htm",
+      "readers": [
+        "john-mccain-hanoi-sky"
+      ],
+      "status": 403,
+      "final_url": "https://www.senate.gov/artandhistory/history/common/generic/Senator_McCain.htm",
+      "title": "Access Denied",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.smithsonianmag.com/history/amaze-yourself-unbelievable-story-bessie-coleman-black-aviator-wowed-nation-high-flying-achievements-180986564/",
+      "readers": [
+        "bessie-coleman-queen-bess"
+      ],
+      "status": 200,
+      "final_url": "https://www.smithsonianmag.com/history/amaze-yourself-unbelievable-story-bessie-coleman-black-aviator-wowed-nation-high-flying-achievements-180986564/",
+      "title": "Amaze Yourself With the Unbelievable Story of Bessie Coleman, the Black Aviator Who Wowed the Nation With Her High-Flying Achievements",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.smithsonianmag.com/history/wanted-the-limping-lady-146541513/",
+      "readers": [
+        "virginia-hall-limping-lady"
+      ],
+      "status": 200,
+      "final_url": "https://www.smithsonianmag.com/history/wanted-the-limping-lady-146541513/",
+      "title": "WANTED: The Limping Lady",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.snopes.com/fact-check/roddenberry-plane-crash/",
+      "readers": [
+        "gene-roddenberry-desert-starship"
+      ],
+      "status": 200,
+      "final_url": "https://www.snopes.com/fact-check/roddenberry-plane-crash/",
+      "title": "Star Wreck | Snopes.com",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.solzhenitsyncenter.org/his-life-overview/biography",
+      "readers": [
+        "solzhenitsyn-gulag-witness"
+      ],
+      "status": 200,
+      "final_url": "https://www.solzhenitsyncenter.org/his-life-overview/biography",
+      "title": "Aleksandr Solzhenitsyn Center \u2014 Biography",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.spiegel.de/international/victor-klemperer-s-dresden-diaries-surviving-the-firestorm-a-341230.html",
+      "readers": [
+        "victor-klemperer-dresden-diaries"
+      ],
+      "status": 200,
+      "final_url": "https://www.spiegel.de/international/victor-klemperer-s-dresden-diaries-surviving-the-firestorm-a-341230.html",
+      "title": "Victor Klemperer's Dresden Diaries: Surviving the Firestorm - DER SPIEGEL",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.telegraph.co.uk/obituaries/2026/07/28/mary-de-rachewiltz-daughter-of-ezra-pound-died-obituary/",
+      "readers": [
+        "mary-de-rachewiltz-tower-of-cantos"
+      ],
+      "status": 402,
+      "final_url": "https://www.telegraph.co.uk/obituaries/2026/07/28/mary-de-rachewiltz-daughter-of-ezra-pound-died-obituary/",
+      "title": null,
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.the-independent.com/arts-entertainment/books/features/samuel-beckett-stabbing-death-anniversary-suzanne-dechevaux-dumesnil-a9244221.html",
+      "readers": [
+        "samuel-beckett-wound-waiting"
+      ],
+      "status": 200,
+      "final_url": "https://www.the-independent.com/arts-entertainment/books/features/samuel-beckett-stabbing-death-anniversary-suzanne-dechevaux-dumesnil-a9244221.html",
+      "title": "The night Samuel Beckett was nearly stabbed to death by a pimp | The Independent | The Independent",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.theartnewspaper.com/2026/07/29/betye-saar-obituary-legendary-los-angeles-assemblage-artist",
+      "readers": [
+        "betye-saar-liberation-box"
+      ],
+      "status": 200,
+      "final_url": "https://www.theartnewspaper.com/2026/07/29/betye-saar-obituary-legendary-los-angeles-assemblage-artist",
+      "title": "Betye Saar, assemblage artist who reframed racist and sexist imagery, has died, aged 99 - The Art Newspaper - International art news and events",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.thechildrenstrust.org.uk/brain-injury-information/latest/roald-dahls-revolutionary-work-in-brain-injury",
+      "readers": [
+        "roald-dahl-crash-and-chocolate"
+      ],
+      "status": 200,
+      "final_url": "https://www.thechildrenstrust.org.uk/brain-injury-information/latest/roald-dahls-revolutionary-work-in-brain-injury",
+      "title": "Roald Dahl\u2019s revolutionary work in brain injury | The Children's Trust",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.theguardian.com/artanddesign/2020/apr/28/feet-what-do-i-need-you-for-how-lockdown-fired-up-frida-kahlo",
+      "readers": [
+        "frida-kahlo-broken-mirror"
+      ],
+      "status": 200,
+      "final_url": "https://www.theguardian.com/artanddesign/2020/apr/28/feet-what-do-i-need-you-for-how-lockdown-fired-up-frida-kahlo",
+      "title": "'Feet, what do I need you for?' How lockdown fired up Frida Kahlo | Frida Kahlo | The Guardian",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.theguardian.com/books/2003/dec/13/classics.miguelcervantes",
+      "readers": [
+        "cervantes-captive-knight"
+      ],
+      "status": 200,
+      "final_url": "https://www.theguardian.com/books/2003/dec/13/classics.miguelcervantes",
+      "title": "The knight in the mirror | Books | The Guardian",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.theguardian.com/books/2008/aug/04/nobelprize.russia2",
+      "readers": [
+        "solzhenitsyn-gulag-witness"
+      ],
+      "status": 200,
+      "final_url": "https://www.theguardian.com/books/2008/aug/04/nobelprize.russia2",
+      "title": "Russia's literary light who illuminated dark world of Soviet regime | Aleksandr Solzhenitsyn | The Guardian",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.theguardian.com/books/2015/aug/30/oliver-sacks",
+      "readers": [
+        "oliver-sacks-gratitude-near-the-end"
+      ],
+      "status": 200,
+      "final_url": "https://www.theguardian.com/books/2015/aug/30/oliver-sacks",
+      "title": "Oliver Sacks obituary | Oliver Sacks | The Guardian",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.theguardian.com/century/1910-1919/Story/0,,126410,00.html",
+      "readers": [
+        "florence-nightingale-lamp-and-ledger"
+      ],
+      "status": 200,
+      "final_url": "https://www.theguardian.com/century/1910-1919/Story/0,,126410,00.html",
+      "title": "Death of Miss Florence Nightingale. |  1910-1919 | Guardian Century",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.theguardian.com/culture/gallery/2021/oct/15/discovering-hong-kong-photographer-nancy-sheung-in-pictures",
+      "readers": [
+        "nancy-sheung-darkroom-light"
+      ],
+      "status": 200,
+      "final_url": "https://www.theguardian.com/culture/gallery/2021/oct/15/discovering-hong-kong-photographer-nancy-sheung-in-pictures",
+      "title": "Discovering Hong Kong photographer Nancy Sheung \u2013 in pictures | Culture | The Guardian",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.theguardian.com/film/2008/jan/27/2",
+      "readers": [
+        "jean-dominique-bauby-blink-manuscript"
+      ],
+      "status": 200,
+      "final_url": "https://www.theguardian.com/film/2008/jan/27/2",
+      "title": "A story told in the blink of an eye | Film | The Guardian",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.theguardian.com/film/2013/apr/04/roger-ebert",
+      "readers": [
+        "roger-ebert-voice-after-silence"
+      ],
+      "status": 200,
+      "final_url": "https://www.theguardian.com/film/2013/apr/04/roger-ebert",
+      "title": "Roger Ebert obituary | Roger Ebert | The Guardian",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.theguardian.com/music/2011/jun/17/django-reinhardts-caravan-catches-fire",
+      "readers": [
+        "django-reinhardt-two-finger-fire"
+      ],
+      "status": 200,
+      "final_url": "https://www.theguardian.com/music/2011/jun/17/django-reinhardts-caravan-catches-fire",
+      "title": "Django reinhardt's caravan catches fire | Jazz | The Guardian",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.theguardian.com/music/2023/may/24/tina-turner-obituary",
+      "readers": [
+        "tina-turner-private-dancer"
+      ],
+      "status": 200,
+      "final_url": "https://www.theguardian.com/music/2023/may/24/tina-turner-obituary",
+      "title": "Tina Turner obituary | Pop and rock | The Guardian",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.theguardian.com/science/2008/jul/28/psychology.healthandwellbeing",
+      "readers": [
+        "randy-pausch-last-lecture"
+      ],
+      "status": 200,
+      "final_url": "https://www.theguardian.com/science/2008/jul/28/psychology.healthandwellbeing",
+      "title": "Randy Pausch | Psychology | The Guardian",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.theguardian.com/us-news/2018/aug/25/john-mccain-obituary",
+      "readers": [
+        "john-mccain-hanoi-sky"
+      ],
+      "status": 200,
+      "final_url": "https://www.theguardian.com/us-news/2018/aug/25/john-mccain-obituary",
+      "title": "John McCain obituary | John McCain | The Guardian",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.theguardian.com/world/2010/jan/06/hiroshima-nagasaki-survivor-dies",
+      "readers": [
+        "tsutomu-yamaguchi-double-light"
+      ],
+      "status": 200,
+      "final_url": "https://www.theguardian.com/world/2010/jan/06/hiroshima-nagasaki-survivor-dies",
+      "title": "Hiroshima and Nagasaki survivor dies aged 93 | Japan | The Guardian",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.theguardian.com/world/2011/dec/18/vaclav-havel",
+      "readers": [
+        "vaclav-havel-cell-to-castle"
+      ],
+      "status": 200,
+      "final_url": "https://www.theguardian.com/world/2011/dec/18/vaclav-havel",
+      "title": "V\u00e1clav Havel obituary | V\u00e1clav Havel | The Guardian",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.themarginalian.org/2024/09/01/dostyevsky-general-letter/",
+      "readers": [
+        "dostoyevsky-borrowed-time"
+      ],
+      "status": 200,
+      "final_url": "https://www.themarginalian.org/2024/09/01/dostyevsky-general-letter/",
+      "title": "From the Labor Camp to the Literary Canon: How Dostoyevsky Became a Writer \u2013 The Marginalian",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.ushmm.org/information/press/in-memoriam/irena-sendler-1910-2008",
+      "readers": [
+        "irena-sendler-jars-of-names"
+      ],
+      "status": 200,
+      "final_url": "https://www.ushmm.org/information/press/in-memoriam/irena-sendler-1910-2008",
+      "title": "Irena Sendler (1910\u20132008) - United States Holocaust Memorial Museum",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.vangoghmuseum.nl/en",
+      "readers": [
+        "vincent-van-gogh"
+      ],
+      "status": 200,
+      "final_url": "https://www.vangoghmuseum.nl/en",
+      "title": "The Museum about Vincent van Gogh in Amsterdam - Van Gogh Museum",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.vangoghmuseum.nl/en/art-and-stories/stories/vincents-illness-and-the-healing-power-of-art",
+      "readers": [
+        "vincent-van-gogh"
+      ],
+      "status": 200,
+      "final_url": "https://www.vangoghmuseum.nl/en/art-and-stories/stories/vincents-illness-and-the-healing-power-of-art",
+      "title": "Vincent's Illness and the Healing Power of Art - Van Gogh Museum",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.vanityfair.com/news/2003/04/mgm200304",
+      "readers": [
+        "patricia-douglas-girl-27"
+      ],
+      "status": 200,
+      "final_url": "https://www.vanityfair.com/news/2003/04/mgm200304",
+      "title": "It Happened One Night . . . at MGM | Vanity Fair",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.vatican.va/content/benedict-xvi/en/apost_letters/documents/hf_ben-xvi_apl_20121007_ildegarda-bingen.html",
+      "readers": [
+        "hildegard-living-light"
+      ],
+      "status": 200,
+      "final_url": "https://www.vatican.va/content/benedict-xvi/en/apost_letters/documents/hf_ben-xvi_apl_20121007_ildegarda-bingen.html",
+      "title": "Apostolic Letter proclaiming Hildegard of Bingen as a Doctor of the Church (October 7, 2012)",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.viktorfrankl.org/biography.html",
+      "readers": [
+        "viktor-frankl-meaning-under-ash"
+      ],
+      "status": 200,
+      "final_url": "https://www.viktorfrankl.org/biography.html",
+      "title": "VFI \u2013 Viktor Frankl - Biography",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.vmuseum.fr/en/artist/monet-en/claude-monet-1840-1926-a-life-dedicated-to-light-2044.html",
+      "readers": [
+        "claude-monet-water-lilies"
+      ],
+      "status": 200,
+      "final_url": "https://www.vmuseum.fr/en/artist/monet-en/claude-monet-1840-1926-a-life-dedicated-to-light-2044.html",
+      "title": "Biography: Claude Monet (1840-1926), Light as Method - VMuseum",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.war.gov/News/Feature-Stories/Story/Article/2304075/sports-heroes-who-served-olympic-runner-louis-zamperini/",
+      "readers": [
+        "louis-zamperini-after-the-raft"
+      ],
+      "status": 403,
+      "final_url": "https://www.war.gov/News/Feature-Stories/Story/Article/2304075/sports-heroes-who-served-olympic-runner-louis-zamperini/",
+      "title": "Access Denied",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.washingtonpost.com/archive/politics/2001/07/18/katharine-graham-dies-at-84/6182825e-caa2-4a1e-b582-f94ac9764bfc/",
+      "readers": [
+        "katharine-graham-newsroom-after-the-gun"
+      ],
+      "error": "ReadTimeout"
+    },
+    {
+      "url": "https://www.womenshistory.org/education-resources/biographies/audre-lorde",
+      "readers": [
+        "audre-lorde-cancer-journals"
+      ],
+      "status": 200,
+      "final_url": "https://www.womenshistory.org/education-resources/biographies/audre-lorde",
+      "title": "Audre Lorde",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.womenshistory.org/education-resources/biographies/bessie-coleman",
+      "readers": [
+        "bessie-coleman-queen-bess"
+      ],
+      "status": 200,
+      "final_url": "https://www.womenshistory.org/education-resources/biographies/bessie-coleman",
+      "title": "Biography: Bessie Coleman",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.womenshistory.org/education-resources/biographies/hedy-lamarr",
+      "readers": [
+        "hedy-lamarr-secret-signal"
+      ],
+      "status": 200,
+      "final_url": "https://www.womenshistory.org/education-resources/biographies/hedy-lamarr",
+      "title": "Hedy Lamarr",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.womenshistory.org/education-resources/biographies/judith-heumann",
+      "readers": [
+        "judy-heumann-sign-504"
+      ],
+      "status": 200,
+      "final_url": "https://www.womenshistory.org/education-resources/biographies/judith-heumann",
+      "title": "Judith Heumann | National Women's History Museum",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.womenshistory.org/education-resources/biographies/maya-angelou",
+      "readers": [
+        "maya-angelou-caged-bird-voice"
+      ],
+      "status": 200,
+      "final_url": "https://www.womenshistory.org/education-resources/biographies/maya-angelou",
+      "title": "Biography: Maya Angelou",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.womenshistory.org/education-resources/biographies/nellie-bly-0",
+      "readers": [
+        "nellie-bly-ten-days"
+      ],
+      "status": 200,
+      "final_url": "https://www.womenshistory.org/education-resources/biographies/nellie-bly-0",
+      "title": "Nellie Bly | National Women's History Museum",
+      "possible_soft_404": false
+    },
+    {
+      "url": "https://www.womenshistory.org/education-resources/biographies/wilma-rudolph",
+      "readers": [
+        "wilma-rudolph-fastest-woman"
+      ],
+      "status": 200,
+      "final_url": "https://www.womenshistory.org/education-resources/biographies/wilma-rudolph",
+      "title": "Wilma Rudolph | National Women's History Museum",
+      "possible_soft_404": false
+    }
+  ]
+}

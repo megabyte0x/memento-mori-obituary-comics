@@ -56,7 +56,12 @@
     "National Park Service",
     "Encyclopaedia Britannica",
     "National Women’s History Museum",
-    "National Park Service — Harriet Tubman National Historical Park"
+    "National Park Service — Harriet Tubman National Historical Park",
+    {
+      "name": "National Park Service — Harriet Tubman life and work",
+      "url": "https://www.nps.gov/hatu/learn/historyculture/htubman.htm"
+    }
   ],
-  "closing_line": "The reprieve was one moment. The work was the rest of his life."
+  "closing_line": "The reprieve was one moment. The work was the rest of her life.",
+  "citation_passage": "Harriet Tubman (c. 1822–1913) was an American abolitionist who escaped slavery and repeatedly returned to help others reach freedom. While enslaved in Maryland, she survived a severe head injury after an overseer threw an iron weight. She escaped to Philadelphia in 1849, then made about thirteen return journeys and guided approximately seventy relatives and friends out of slavery. Her knowledge of terrain and underground networks also supported her work for the Union during the Civil War. Afterward she lived in Auburn, New York, and worked for equality and women's voting rights. This eight-page comic follows injury, escape, and the repeated choice to return for others."
 }

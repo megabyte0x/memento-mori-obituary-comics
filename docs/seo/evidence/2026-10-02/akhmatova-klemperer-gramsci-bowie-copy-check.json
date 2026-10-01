@@ -1,0 +1,79 @@
+{
+  "catalogue_entries": 84,
+  "changed_slugs": [
+    "anna-akhmatova-requiem-queue",
+    "david-bowie-blackstar-farewell",
+    "victor-klemperer-dresden-diaries",
+    "antonio-gramsci-prison-notebooks"
+  ],
+  "other_entries_unchanged": 80,
+  "production_readback_matches": true,
+  "checks": [
+    {
+      "url": "https://www.finalnotes.page/comics/anna-akhmatova-requiem-queue/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 98,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/anna-akhmatova-requiem-queue/",
+      "source_links": [
+        "https://www.britannica.com/biography/Anna-Akhmatova",
+        "https://www.poetryfoundation.org/poets/anna-akhmatova",
+        "https://poets.org/poet/anna-akhmatova"
+      ],
+      "published_at": "2026-08-26"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/david-bowie-blackstar-farewell/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 98,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/david-bowie-blackstar-farewell/",
+      "source_links": [
+        "https://www.britannica.com/biography/David-Bowie",
+        "https://www.independent.co.uk/news/people/david-bowie-publicist-s-statement-in-full-a6805421.html",
+        "https://www.loudersound.com/news/tony-visconti-on-the-making-of-david-bowies-blackstar",
+        "https://www.rollingstone.com/music/music-features/david-bowie-death-10-years-on-final-act-1235496612/",
+        "https://www.davidbowie.com/2016/2016/01/11/january-10-2016",
+        "https://www.davidbowie.com/blackstar"
+      ],
+      "published_at": "2026-08-25"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/victor-klemperer-dresden-diaries/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 103,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/victor-klemperer-dresden-diaries/",
+      "source_links": [
+        "https://www.encyclopedia.com/arts/encyclopedias-almanacs-transcripts-and-maps/klemperer-victor",
+        "https://spartacus-educational.com/GERklemper.htm",
+        "https://shop.ushmm.org/products/i-will-bear-witness-a-diary-of-the-nazi-years-1933-1941",
+        "https://www.spiegel.de/international/victor-klemperer-s-dresden-diaries-surviving-the-firestorm-a-341230.html"
+      ],
+      "published_at": "2026-08-24"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/antonio-gramsci-prison-notebooks/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 100,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/antonio-gramsci-prison-notebooks/",
+      "source_links": [
+        "https://www.britannica.com/biography/Antonio-Gramsci",
+        "https://plato.stanford.edu/entries/gramsci/",
+        "https://cup.columbia.edu/book/prison-notebooks/9780231139441/"
+      ],
+      "published_at": "2026-08-23"
+    }
+  ],
+  "ranking_effect": "Not yet measured",
+  "bowie_description_and_story_notes_consistent": true
+}

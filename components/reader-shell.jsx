@@ -98,7 +98,7 @@ export function ReaderShell({ comic, nextComic }) {
                 loading={index === 0 ? undefined : "lazy"}
                 fetchPriority={index === 0 ? "high" : undefined}
               />
-              <figcaption>{summary || `Page ${index + 1}`}</figcaption>
+              <figcaption className={summary ? "reader-page-summary" : undefined}>{summary || `Page ${index + 1}`}</figcaption>
             </figure>
           );
         })}

@@ -1,0 +1,75 @@
+{
+  "catalogue_entries": 84,
+  "changed_slugs": [
+    "judy-heumann-sign-504",
+    "ryan-white-school-door",
+    "henry-dunant-solferino-memory",
+    "barbara-rubin-underground-spark"
+  ],
+  "other_entries_unchanged": 80,
+  "production_readback_matches": true,
+  "checks": [
+    {
+      "url": "https://www.finalnotes.page/comics/judy-heumann-sign-504/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 100,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/judy-heumann-sign-504/",
+      "source_links": [
+        "https://judithheumann.com/project/about/",
+        "https://www.womenshistory.org/education-resources/biographies/judith-heumann",
+        "https://judithheumann.com/the-world-mourns-the-passing-of-judy-heumann-disability-rights-activist/",
+        "https://dredf.org/short-history-of-the-504-sit-in/"
+      ],
+      "published_at": "2026-08-20"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/ryan-white-school-door/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 102,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/ryan-white-school-door/",
+      "source_links": [
+        "https://ryanwhite.hrsa.gov/about/ryan-white",
+        "https://www.britannica.com/biography/Ryan-White",
+        "https://www.publicbooks.org/i-am-the-face-of-aids-ryan-white-and-the-politics-of-innocence-in-the-history-of-hiv-aids/"
+      ],
+      "published_at": "2026-08-19"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/henry-dunant-solferino-memory/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 101,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/henry-dunant-solferino-memory/",
+      "source_links": [
+        "https://www.nobelprize.org/prizes/peace/1901/dunant/biographical/",
+        "https://www.icrc.org/en/document/founding-and-early-years-icrc-1863-1914",
+        "https://www.britannica.com/biography/Henri-Dunant"
+      ],
+      "published_at": "2026-08-17"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/barbara-rubin-underground-spark/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 103,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/barbara-rubin-underground-spark/",
+      "source_links": [
+        "https://archives.library.cornell.edu/repositories/2/resources/2097",
+        "https://barbararubinmovie.com/",
+        "https://www.nytimes.com/2026/07/24/obituaries/barbara-rubin-overlooked.html"
+      ],
+      "published_at": "2026-07-26"
+    }
+  ],
+  "ranking_effect": "Not yet measured"
+}

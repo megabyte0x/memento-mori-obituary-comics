@@ -1,5 +1,7 @@
 # Final Notes GEO Analysis
 
+October 1, 2026 update: [measured Google and GEO baseline](docs/seo/seo-geo-baseline-2026-10-01.md) supersedes the unverified visibility assumptions below. Search Console shows 18 Web clicks, 891 Web impressions, and 50 Google generative AI feature impressions for September 1–28. Responsive image delivery has been restored and verified live. The July readiness scores below are historical heuristics, not ranking measurements or citation share.
+
 Audit date: 2026-07-23
 
 Target: https://www.finalnotes.page/

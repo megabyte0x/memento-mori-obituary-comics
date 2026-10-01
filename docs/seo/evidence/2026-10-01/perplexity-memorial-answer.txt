@@ -1,0 +1,197 @@
+Browser tab: 5, Title: "How should a family word a memorial donation request in an obituary, including...", URL: "https://www.perplexity.ai/search/e018fe86-739a-4c62-b861-3b0f35976c51".
+0 AXWebArea How should a family word a memorial donation request in an obituary, including..., URL: perplexity.ai/search/e018fe86-739a-4c62-b861-3b0f35976c51
+	1 container
+		2 container root
+			3 container Main
+				4 container
+					5 container
+						6 link Description: Perplexity, Value: perplexity.ai/
+						7 button Collapse sidebar
+					8 container
+						9 link Description: New, Value: perplexity.ai/
+						10 text New
+						11 text ⌘K
+					12 container
+						13 container
+							14 link Description: Computer, Value: perplexity.ai/computer/tasks
+							15 text Computer
+						16 container
+							17 link Description: Automations, Value: perplexity.ai/computer/automations
+							18 text Automations
+						19 container
+							20 link Description: Artefacts, Value: perplexity.ai/computer/artifacts
+							21 text Artefacts
+						22 container
+							23 link Description: Customise, Value: perplexity.ai/computer/connectors
+							24 text Customise
+						25 container
+							26 link Description: Projects, Value: perplexity.ai/projects
+							27 text Projects
+							28 button Create project
+							29 pop up button (collapsed) Description: Filter projects, Secondary Actions: Expand
+							30 button (expanded) Description: Collapse Projects, Secondary Actions: Collapse
+						31 text No projects
+						32 container
+							33 link Description: Sessions, Value: perplexity.ai/library
+							34 text Sessions
+							35 button (expanded) Description: Collapse Sessions, Secondary Actions: Collapse
+						55 container
+							56 link Value: perplexity.ai/search/e018fe86-739a-4c62-b861-3b0f35976c51, Description: How should a family word a memorial donation request in an obituary, including in lieu of flowers? Please cite useful sources.
+							57 text How should a family word a memorial donation request in an obituary, including in lieu of flowers? Please cite useful sources.
+							58 container
+								59 pop up button (collapsed) Description: Session actions, Secondary Actions: Expand
+					37 container
+						38 button Sign In
+							39 container
+								40 image
+								41 text Sign In
+				42 splitter Description: Resize sidebar, Value: 240
+			43 container
+				44 tab group Answer mode tabs
+					45 tab (selected, settable, boolean) Answer, Value: 1, ID: radix-_r_4d_-trigger-default
+					60 tab (selectable, settable, boolean) Links, Value: 0, ID: radix-_r_4d_-trigger-sources
+					61 tab (selectable, settable, boolean) Images, Value: 0, ID: radix-_r_4d_-trigger-images
+				102 container
+					103 pop up button (collapsed) Description: Session actions, Secondary Actions: Expand
+					104 pop up button (collapsed) Share, Secondary Actions: Expand
+						105 text Share
+				64 container
+					65 container
+						66 text 23:09
+						67 button Edit query
+						68 button Copy query
+						69 text How should a family word a memorial donation request in an obituary, including in lieu of flowers? Please cite useful sources.
+						70 button (collapsed) Researched 1s, Secondary Actions: Expand
+							71 text Researched
+							72 text 1s
+							73 image
+						74 container
+							75 text A memorial donation request should be  warm, optional, and specific . State whether donations are preferred instead of flowers, name the organization or fund exactly, and include a donation link or mailing instructions.
+						76 heading Simple wording, Value: 2, ID: simple-wording
+							77 text Simple wording
+						78 container
+							79 text In lieu of flowers, the family welcomes memorial donations to [Organization Name] in memory of [Full Name]. Gifts may be made at [donation link].
+							80 button Copy
+						81 container
+							82 text This follows the standard obituary formula: “In lieu of flowers, memorial donations may be made to [Organization Name],” with the organization’s full name and, ideally, its website or mailing address.
+							83 container How to Write an Obituary: A Step-by-Step Guide for Families
+								84 link Description: memorials, Value: memorials.com/info/how-to-write-an-obituary
+						85 heading Gentler alternatives, Value: 2, ID: gentler-alternatives
+							86 text Gentler alternatives
+						87 text If “requests” sounds too forceful, use “welcomes,” “suggests,” or “those who wish may”:
+						106 container
+							107 text Those who wish to honor [First Name] may make a memorial donation to [Organization Name] in their memory: [donation link].
+							108 button Copy
+						109 container
+							110 text The family suggests memorial contributions to [Organization Name] in lieu of flowers. Please indicate that the gift is in memory of [Full Name].
+							111 button Copy
+						112 container
+							113 text To honor [First Name]’s love of [cause or organization], the family welcomes donations to [Organization Name] instead of flowers. Donations may be made at [link].
+							114 button Copy
+						115 container
+							116 text Using language such as “those who wish may” or “the family welcomes” makes the request feel invitational rather than demanding. funeral +1
+						117 heading If flowers are also welcome, Value: 2, ID: if-flowers-are-also-welcome
+							118 text If flowers are also welcome
+						119 text If the family does not want to discourage flowers entirely, say so explicitly:
+						120 container
+							121 text Flowers are appreciated, and those who prefer may make a memorial donation to [Organization Name] in honor of [Full Name].
+							122 button Copy
+						123 text Or:
+						124 container
+							125 text Floral tributes are welcome. Memorial donations may also be made to [Organization Name] at [link].
+							126 button Copy
+						127 container
+							128 text This avoids confusion because “in lieu of flowers” generally means that the family prefers donations or another gesture instead of flowers. lovetoknow +1
+						129 heading For two charities, Value: 2, ID: for-two-charities
+							130 text For two charities
+						131 container
+							132 text In lieu of flowers, memorial donations may be made to either [Charity 1] or [Charity 2] in memory of [Full Name]. Donation information is available at [link 1] and [link 2].
+							133 button Copy
+						134 container
+							135 text It is usually clearest to name one or two organizations and provide each charity’s full name, website, or mailing address.
+							136 container "In Lieu of Flowers": How to Word a Donation Request (15 Templates)
+								137 link Description: beyond-memories, Value: beyond-memories.com/blogs/beyond-memories/donations-in-lieu-of-flowers-wording-guide
+						138 heading For funeral expenses or a family fund, Value: 2, ID: for-funeral-expenses-or-a-family-fund
+							139 text For funeral expenses or a family fund
+						140 container
+							141 text In lieu of flowers, the family welcomes contributions to a memorial fund established to help with [Name]’s final expenses. Donations may be made at [link] or sent to [instructions].
+							142 button Copy
+						143 container
+							144 text If donations are going directly to an individual or family member rather than a registered nonprofit, make the recipient and purpose clear. A funeral-expense request can use wording such as “donations to the memorial fund to help pay for final expenses.”
+							145 container How & Where to Ask for Donations for Funeral Expenses
+								146 link Description: lovetoknow, Value: lovetoknow.com/life/grief-loss/how-ask-donations-funeral-expenses-appropriately
+						147 heading Best-practice checklist, Value: 2, ID: best-practice-checklist
+							148 text Best-practice checklist
+						149 content list
+							150 container
+								151 AXListMarker • 
+								152 text Use the deceased person’s full name and the organization’s official name.
+							153 container
+								154 AXListMarker • 
+								155 text Include a working donation link or complete mailing instructions.
+							156 container
+								157 AXListMarker • 
+								158 text Say whether gifts should be marked “In memory of [Name].”
+							159 container
+								160 AXListMarker • 
+								161 text Briefly explain the connection if it is meaningful: “To honor her lifelong commitment to animal rescue…”
+							162 container
+								163 AXListMarker • 
+								164 text Make the choice feel voluntary: “Those who wish may…” or “The family welcomes…”
+							165 container
+								166 AXListMarker • 
+								167 text Add “Your presence and support mean the most” if the family wants to reduce any sense of obligation.
+						168 text A polished all-purpose version would be:
+						169 container
+							170 text In lieu of flowers, those who wish to honor [Full Name] may make a memorial donation to [Organization Name], a cause that was meaningful to [him/her/them]. Gifts may be made at [donation link]. The family is grateful for your love and support.
+							171 button Copy
+						172 button Copy
+						173 pop up button (collapsed) Description: Share, Secondary Actions: Expand
+						174 button Helpful
+						175 button Not helpful
+						176 button Fork
+						177 button 10 sources
+							178 image
+							179 image
+							180 text 10 sources
+						181 pop up button (collapsed) Description: More actions, Secondary Actions: Expand
+						182 button How to divide donations between multiple charities in an obituary
+						183 button Etiquette for tracking and acknowledging memorial donation contributors
+						184 button How to set up a dedicated memorial fund instead of a charity
+						185 button What to include when asking for donations for funeral expenses
+						186 button How to write an obituary for someone who wanted no service
+						88 button Collapse pane
+				191 container
+					192 button (expanded) Sources, Secondary Actions: Collapse
+						193 text Sources
+						194 image
+					195 container
+						196 link Value: memorials.com/info/how-to-write-an-obituary, Description: memorials How to Write an Obituary: A Step-by-Step Guide for Families Learn how to write an obituary with our step-by-step guide. Includes what to include, format tips, short examples, and where to publish.
+						197 link Value: funeral.com/blogs/the-journal/how-to-ask-for-donations-instead-of-flowers-clear-respectful-language, Description: funeral How to Ask for Donations Instead of Flowers: Clear, Respectful ... Clear, respectful “donations instead of flowers” wording for obituaries, invitations, and social posts—plus scripts for multiple charities or family funds and gentle planning tips.
+						198 link Value: funeral.com/blogs/the-journal/in-lieu-of-flowers-wording-donation-language-that-feels-warm, Description: funeral “In Lieu of Flowers” Wording: Donation Language That Feels Warm The phrase “in lieu of flowers” is small, and yet it often ends up carrying a surprising amount of emotion. Families use it because they are trying to make the moment feel meaningful and practical at the same time: they want people to have a clear way to show love, but they may not want dozens of arrangements arriving
+						199 link Value: lovetoknow.com/life/grief-loss/lieu-flowers-wording-ideas-etiquette, Description: lovetoknow Understanding 'In Lieu of Flowers': Alternative Memorial Requests Delve into the etiquette of 'in lieu of flowers' and explore alternatives for expressing sympathy in obituaries. Learn how to honor the deceased in meaningful ways.
+						200 link Value: memorials.com/info/sympathy-condolence-guide/in-lieu-of-flowers, Description: memorials In Lieu of Flowers: What It Means, What to Send - Memorials.com What in lieu of flowers means, whether it forbids flowers, how much to give, and what to send instead — plus wording for families writing the notice.
+						201 link Value: beyond-memories.com/blogs/beyond-memories/donations-in-lieu-of-flowers-wording-guide, Description: beyond-memories "In Lieu of Flowers": How to Word a Donation Request (15 Templates) How to word an 'in lieu of flowers' donation request: 15 ready-to-use templates for obituaries and funeral programs, plus etiquette and charity-choice guidance.
+						202 link Value: lovetoknow.com/life/grief-loss/how-ask-donations-funeral-expenses-appropriately, Description: lovetoknow How & Where to Ask for Donations for Funeral Expenses Losing a loved one is difficult, even without the financial stress of paying for a funeral. We have details on how to set up a memorial fund & ask for help.
+						203 link Description: funeral Memorial Donations in Lieu of Flowers: How to Request and ... Learn how to request memorial donations in lieu of flowers, choose meaningful charities, share clear wording, and track and thank donors with confidence and care., Value: funeral.com/blogs/the-journal/memorial-donations-in-lieu-of-flowers-how-to-request-and-manage-gifts-in-someone-s-honor
+						204 link Value: stillwith.io/resources/memorial-donations, Description: stillwith Memorial donations in lieu of flowers - Stillwith Eulogies, obituaries, and memorial pages. Made gently, with AI that listens. Free to begin.
+						205 link Description: funeral Donations in Lieu of Flowers: Environmental Charities to Honor a Life Flowers have a way of arriving before you are ready. They are beautiful, traditional, and comforting in the first raw days of grief—but they can also feel temporary when what you are holding is a permanent loss. When someone loved the outdoors, cared deeply about wildlife, or spent years worrying about the future of th, Value: funeral.com/blogs/the-journal/donations-in-lieu-of-flowers-environmental-charities-to-honor-a-life-with-wording-scripts
+				90 container
+					187 button Scroll to end
+						188 image
+					91 text Sign in to save your history and access more features
+					92 button Sign in
+						93 text Sign in
+					94 button Dismiss
+					95 container
+						96 text entry area (settable) ID: ask-input, Value: 
+
+						97 pop up button (collapsed) Description: Add files or tools, Secondary Actions: Expand
+						98 checkbox Search, Value: 1, ID: radix-_r_63_
+						99 checkbox Computer, Value: 0
+						100 pop up button (collapsed) Description: Model, Secondary Actions: Expand
+							101 text Model
+						189 button Dictation
+						190 button (disabled) Submit
+
+The focused UI element is 177 button 10 sources

@@ -1,0 +1,72 @@
+{
+  "catalogue_entries": 84,
+  "changed_slugs": [
+    "virginia-hall-limping-lady",
+    "flannery-oconnor-lupus-and-grace",
+    "primo-levi",
+    "stephen-hawking-time-under-shadow"
+  ],
+  "other_entries_unchanged": 80,
+  "production_readback_matches": true,
+  "checks": [
+    {
+      "url": "https://www.finalnotes.page/comics/virginia-hall-limping-lady/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 97,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/virginia-hall-limping-lady/",
+      "source_links": [
+        "https://www.cia.gov/stories/story/virginia-hall-the-courage-and-daring-of-the-limping-lady/",
+        "https://www.nationalarchives.gov.uk/explore-the-collection/stories/virginia-hall/",
+        "https://www.smithsonianmag.com/history/wanted-the-limping-lady-146541513/",
+        "https://www.nytimes.com/1982/07/14/obituaries/virginia-goillot-dead-agent-in-world-war-ii.html"
+      ],
+      "published_at": "2026-07-03"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/flannery-oconnor-lupus-and-grace/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 96,
+      "reader_images": 8,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/flannery-oconnor-lupus-and-grace/",
+      "source_links": [
+        "https://www.britannica.com/biography/Flannery-OConnor",
+        "https://www.georgiaencyclopedia.org/articles/arts-culture/flannery-oconnor/",
+        "https://www.pbs.org/wnet/americanmasters/how-did-flannery-oconnors-writing-reflect-her-disability/17614/"
+      ],
+      "published_at": "2026-06-27"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/primo-levi/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 97,
+      "reader_images": 8,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/primo-levi/",
+      "source_links": [
+        "https://www.primolevi.it/en/biography"
+      ],
+      "published_at": "2026-06-03"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/stephen-hawking-time-under-shadow/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 101,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/stephen-hawking-time-under-shadow/",
+      "source_links": [
+        "https://www.maths.cam.ac.uk/internal/faculty/stephen-hawking-1942-2018",
+        "https://www.cai.cam.ac.uk/stephen-hawking-caius-speech"
+      ],
+      "published_at": "2026-05-31"
+    }
+  ],
+  "ranking_effect": "Not yet measured"
+}

@@ -1,0 +1,75 @@
+{
+  "catalogue_entries": 84,
+  "changed_slugs": [
+    "helen-keller-water-pump",
+    "elie-wiesel-night-witness",
+    "cervantes-captive-knight",
+    "harriet-tubman-road-back"
+  ],
+  "other_entries_unchanged": 80,
+  "checks": [
+    {
+      "url": "https://www.finalnotes.page/comics/helen-keller-water-pump/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 107,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/helen-keller-water-pump/",
+      "source_links": [
+        "https://www.britannica.com/biography/Helen-Keller",
+        "https://www.perkins.org/resource/helen-keller-timeline/",
+        "https://afb.org/about-afb/history/helen-keller/biography-and-chronology/biography"
+      ],
+      "published_at": "2026-06-15"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/elie-wiesel-night-witness/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 99,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/elie-wiesel-night-witness/",
+      "source_links": [
+        "https://encyclopedia.ushmm.org/content/en/article/elie-wiesel",
+        "https://www.nobelprize.org/prizes/peace/1986/wiesel/biographical/",
+        "https://www.britannica.com/biography/Elie-Wiesel",
+        "https://www.theguardian.com/world/2016/jul/03/elie-wiesel-obituary",
+        "https://eliewieselfoundation.org/about-elie-wiesel/"
+      ],
+      "published_at": "2026-06-06"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/cervantes-captive-knight/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 101,
+      "reader_images": 8,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/cervantes-captive-knight/",
+      "source_links": [
+        "https://www.britannica.com/biography/Miguel-de-Cervantes",
+        "https://museocasanataldecervantes.org/meet-cervantes/",
+        "https://www.bbc.com/culture/article/20160421-when-cervantes-was-captured-by-pirates",
+        "https://www.theguardian.com/books/2003/dec/13/classics.miguelcervantes"
+      ],
+      "published_at": "2026-06-05"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/harriet-tubman-road-back/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 105,
+      "reader_images": 8,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/harriet-tubman-road-back/",
+      "source_links": [
+        "https://www.nps.gov/hatu/learn/historyculture/htubman.htm"
+      ],
+      "published_at": "2026-06-01"
+    }
+  ],
+  "tubman_corrected_closing_line_visible": true,
+  "ranking_effect": "Not yet measured"
+}

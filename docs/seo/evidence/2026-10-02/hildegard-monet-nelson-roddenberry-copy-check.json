@@ -1,0 +1,77 @@
+{
+  "catalogue_entries": 84,
+  "changed_slugs": [
+    "hildegard-living-light",
+    "claude-monet-water-lilies",
+    "horatio-nelson-trafalgar-light",
+    "gene-roddenberry-desert-starship"
+  ],
+  "other_entries_unchanged": 80,
+  "production_readback_matches": true,
+  "checks": [
+    {
+      "url": "https://www.finalnotes.page/comics/hildegard-living-light/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 96,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/hildegard-living-light/",
+      "source_links": [
+        "https://www.britannica.com/biography/Saint-Hildegard",
+        "https://www.vatican.va/content/benedict-xvi/en/apost_letters/documents/hf_ben-xvi_apl_20121007_ildegarda-bingen.html",
+        "https://www.newadvent.org/cathen/07351a.htm"
+      ],
+      "published_at": "2026-09-08"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/claude-monet-water-lilies/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 98,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/claude-monet-water-lilies/",
+      "source_links": [
+        "https://www.britannica.com/biography/Claude-Monet",
+        "https://sciencehistory.org/stories/magazine/could-claude-monet-see-like-a-bee/",
+        "https://www.vmuseum.fr/en/artist/monet-en/claude-monet-1840-1926-a-life-dedicated-to-light-2044.html",
+        "https://www.moma.org/artists/4058-claude-monet",
+        "https://www.moma.org/collection/works/80220"
+      ],
+      "published_at": "2026-09-01"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/horatio-nelson-trafalgar-light/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 98,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/horatio-nelson-trafalgar-light/",
+      "source_links": [
+        "https://www.britannica.com/biography/Horatio-Nelson",
+        "https://www.bbc.co.uk/history/historic_figures/nelson_admiral_horatio_lord.shtml",
+        "https://www.royalnavymuseums.org.uk/news/trafalgar-day-vice-admiral-lord-horatio-nelson"
+      ],
+      "published_at": "2026-08-31"
+    },
+    {
+      "url": "https://www.finalnotes.page/comics/gene-roddenberry-desert-starship/",
+      "status": 200,
+      "server_rendered_introduction": true,
+      "words": 106,
+      "reader_images": 7,
+      "h1_count": 1,
+      "canonical": "https://www.finalnotes.page/comics/gene-roddenberry-desert-starship/",
+      "source_links": [
+        "https://www.roddenberry.com/bios/",
+        "https://www.britannica.com/biography/Gene-Roddenberry",
+        "https://www.snopes.com/fact-check/roddenberry-plane-crash/",
+        "https://www.nytimes.com/1991/10/26/movies/gene-roddenberry-star-trek-creator-dies-at-70.html"
+      ],
+      "published_at": "2026-08-30"
+    }
+  ],
+  "ranking_effect": "Not yet measured"
+}

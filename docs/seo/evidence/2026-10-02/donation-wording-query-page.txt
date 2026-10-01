@@ -1,0 +1,145 @@
+- banner:
+  - button "Main menu":
+  - link "Google Search Console":
+    - /url: ./search-console?resource_id=sc-domain%3Afinalnotes.page
+  - search:
+    - button "Search":
+  - button "Help":
+    - generic: help_outline
+  - tooltip: Help
+  - button "User settings":
+    - generic: manage_accounts
+  - tooltip: User settings
+  - 'button "Unread messages: 4"':
+    - generic: notifications
+  - tooltip: Messages
+  - generic: "4"
+  - button "Google apps":
+  - 'button "Google Account: Mega Byte (megabyte0x@gmail.com)"':
+- navigation "Breadcrumbs":
+  - heading "Performance" [level=1]
+- button "EXPORT":
+  - generic: 
+  - generic: EXPORT
+- radiogroup "Select time range":
+  - radio "24 hours":
+    - generic: 24 hours
+  - radio "7 days":
+    - generic: 7 days
+  - radio "28 days" [checked]:
+    - generic: 28 days
+  - radio "3 months":
+    - generic: 3 months
+- button "More time ranges":
+  - generic: More
+  - generic: arrow_drop_down
+- list:
+  - 'button "Search type: Web (text)"':
+    - generic: "Search type: Web (text)"
+    - generic: arrow_drop_down
+  - tooltip: "Search type: Web (text)"
+  - 'button "Query: donation in memory of wording"':
+    - generic: "Query: donation in memory of wording"
+  - tooltip: "Query: donation in memory of wording"
+  - 'button "Remove Query: donation in memory of wording"':
+    - generic: close
+  - button "Add filter":
+    - generic: add
+    - generic: Add filter
+  - tooltip: Add filter
+  - button "Customize your Performance report using AI":
+    - generic: filter_list_spark
+  - tooltip: Customize your Performance report using AI
+  - button "Reset filters":
+    - generic: Reset filters
+  - tooltip: Reset filters
+- generic: "Last update: 9.5 hours ago"
+- main:
+  - button "Total clicks 0":
+    - generic "Total clicks":
+      - generic: 
+      - generic: Total clicks
+    - generic "0"
+  - button "null":
+    - generic: 
+  - button "Total impressions 6":
+    - generic "Total impressions":
+      - generic: 
+      - generic: Total impressions
+    - generic "6"
+  - button "null":
+    - generic: 
+  - button "Average CTR 0%":
+    - generic "Average CTR":
+      - generic: Average CTR
+    - generic "0%"
+  - button "null":
+    - generic: 
+  - button "Average position 30":
+    - generic "Average position":
+      - generic: Average position
+    - generic "30"
+  - button "null":
+    - generic: 
+  - 'button "Selected Time Granularity: Daily"':
+    - generic: Daily
+  - generic: Clicks
+  - generic: Impressions
+  - application "chart":
+    - generic: Chart, containing counts of Total clicks, Total impressions, Average CTR, and Average position from September 1, 2026 to September 28, 2026
+  - generic: info
+  - generic: Get more details on your site’s performance in generative AI features on Google Search
+  - generic: Open report
+  - generic: chevron_forward
+  - link "Open the Google Search generative AI features performance report.":
+    - /url: ./search-console/performance/search-analytics/ai?resource_id=sc-domain%3Afinalnotes.page
+  - tablist:
+    - tab "Queries":
+      - generic: Queries
+    - tab "Pages" [selected]:
+      - generic: Pages
+    - tab "Countries":
+      - generic: Countries
+    - tab "Devices":
+      - generic: Devices
+    - tab "Search appearance":
+      - generic: Search appearance
+    - tab "Days":
+      - generic: Days
+  - tabpanel:
+    - button "Filter table rows":
+      - generic: 
+    - table:
+      - rowgroup:
+        - row "Top pages Sort Top pages Sort Clicks Clicks Sort Impressions Impressions":
+          - columnheader "Top pages Sort Top pages":
+            - generic: Top pages
+            - button "Sort Top pages":
+          - columnheader "Sort Clicks Clicks":
+            - button "Sort Clicks":
+            - generic: Clicks
+          - columnheader "Sort Impressions Impressions":
+            - button "Sort Impressions":
+            - generic: Impressions
+      - rowgroup:
+        - row "https://www.finalnotes.page/memorial-donation-wording-obituary/ 0 6":
+          - cell "https://www.finalnotes.page/memorial-donation-wording-obituary/":
+            - generic: https://www.finalnotes.page/memorial-donation-wording-obituary/
+          - cell "0":
+            - generic: "0"
+          - cell "6":
+            - generic: "6"
+    - generic: "Rows per page:"
+    - listbox "Number of rows per page":
+      - option "5"
+      - option "10" [selected]
+      - option "25"
+      - option "50"
+      - option "100"
+      - option "250"
+      - option "500"
+    - generic: 1-1 of 1
+    - button "Previous page" [disabled]:
+    - tooltip: Previous page
+    - button "Next page" [disabled]:
+    - tooltip: Next page

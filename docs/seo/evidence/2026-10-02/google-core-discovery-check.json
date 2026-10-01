@@ -1,0 +1,35 @@
+{
+  "observed_date": "2026-10-02",
+  "query": "obituary comics",
+  "google_web": {
+    "region": "India; Bengaluru reported from IP",
+    "personalization": "Results are not personalised (visible Google label)",
+    "finalnotes_on_first_results_page": false,
+    "scope": "First results page only; no exact deeper rank inferred",
+    "dominant_intent": "Barrytes supernatural fiction series; secondary cartoons and creator obituaries",
+    "evidence": [
+      "google-obituary-comics.txt",
+      "google-obituary-comics.jpg"
+    ]
+  },
+  "google_ai_overview": {
+    "visible_finalnotes_reference": false,
+    "scope": "Visible collapsed overview only"
+  },
+  "google_ai_mode": {
+    "signed_in": true,
+    "private_content_apps_connected": false,
+    "finalnotes_in_expanded_sources": true,
+    "finalnotes_source_url": "https://www.finalnotes.page/what-are-obituary-comics/",
+    "source_list_position": 9,
+    "source_list_total": 9,
+    "visible_inline_finalnotes_link": false,
+    "visible_finalnotes_brand_mention": false,
+    "evidence": [
+      "google-ai-mode-obituary-comics.txt",
+      "google-ai-mode-obituary-comics.jpg"
+    ]
+  },
+  "limits": "A single dated, regional observation. Source-list position is not a Google ranking. AI Mode personalization state is not assumed from Web Search\u2019s label. No causal improvement, query volume, global ranking, repeated recommendation, or citation share established.",
+  "next_action": "Preserve this exact query as a broad discovery check. Evaluate biography-intent prompts separately without treating them as replacements for the original broad-query target. Avoid changing copy to compete with the unrelated fictional series."
+}
