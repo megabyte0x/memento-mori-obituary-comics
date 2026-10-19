@@ -3508,6 +3508,11 @@ body::before {
 .reader-faq-item p {
   margin: 0;
 }
+.reader-faq-source {
+  color: #f0d184;
+  font-size: 13px;
+  text-underline-offset: 3px;
+}
 .theme-chips {
   display: flex;
   flex-wrap: wrap;

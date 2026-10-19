@@ -41,7 +41,7 @@ Existing fields (`slug`, `title`, `person`, `years`, `dek`, `mortality_event`,
 | Field | Required | Content |
 | --- | --- | --- |
 | `page_transcripts` | yes | One string per page, same order as `pages`. Start with `Caption: <lettered text, verbatim>`, then a blank line, then one `Panel N: <what the panel shows>` line per panel, taken from the storyline. Plain language, no interpretation the art does not show. This is the text search engines and screen readers get instead of the image. |
-| `faq` | yes | 3–8 `{ "question", "answer" }` objects. Use questions people actually search: "How did X die?", "How old was X when they died?", "What did X do after <event>?", "Why is X important?". Answers are 1–3 sentences, factual, and supported by the listed `sources`. |
+| `faq` | yes | 3–8 `{ "question", "answer", "source_url" }` objects (`source_url` optional; shown as a "Source" link). Use questions people actually search: "How did X die?", "How old was X when they died?", "What did X do after <event>?", "Why is X important?". Answers are 1–3 sentences, factual, and supported by the listed `sources`. |
 | `themes` | yes | 1–4 slugs from `lib/themes.js`, most important first (the first is the breadcrumb): `cancer`, `illness`, `blindness`, `disability`, `holocaust`, `prison`, `war`, `artists`, `writers`, `musicians`, `scientists`, `civil-rights`, `athletes-explorers`, `faith`, `women`. |
 | `death_date` | yes | `YYYY-MM-DD`. Filled by `pnpm comic:enrich`. |
 | `birth_date` | when known | `YYYY-MM-DD`. Filled by `pnpm comic:enrich`. |
@@ -91,7 +91,9 @@ pnpm comic:publish -- --slug <slug> --metadata-file /path/to/comic.json --metada
 ```
 
 Themes and exact dates for the comics published before this contract live in
-`data/comic-enrichment.json`; values in the catalogue override that file.
+`data/comic-enrichment.json`, and their page transcripts and FAQs in
+`data/comic-reader-text.json`. Values in the catalogue override both files, so
+republishing a comic with its own fields replaces the backfill.
 
 ## 5. Social distribution
 

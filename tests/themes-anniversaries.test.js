@@ -30,6 +30,17 @@ test("enrichment fills missing fields without overriding catalogue values", () =
   assert.deepEqual(authored.sameAs, ["https://www.wikidata.org/wiki/Q1"]);
 });
 
+test("backfilled transcripts apply only when the page count still matches", () => {
+  const text = { ada: { page_transcripts: ["one", "two"], faq: [{ question: "Q?", answer: "A." }] } };
+  const [matching] = applyEnrichment([{ slug: "ada", pages: ["1.jpg", "2.jpg"] }], {}, text);
+  assert.deepEqual(matching.page_transcripts, ["one", "two"]);
+  assert.equal(matching.faq.length, 1);
+  const [changed] = applyEnrichment([{ slug: "ada", pages: ["1.jpg", "2.jpg", "3.jpg"] }], {}, text);
+  assert.equal(changed.page_transcripts, undefined);
+  const [authored] = applyEnrichment([{ slug: "ada", pages: ["1.jpg", "2.jpg"], faq: [{ question: "Own?", answer: "Yes." }] }], {}, text);
+  assert.equal(authored.faq[0].question, "Own?");
+});
+
 test("related comics rank by shared themes, then primary theme, then recency", () => {
   const comic = { slug: "a", themes: ["cancer", "writers"] };
   const comics = [

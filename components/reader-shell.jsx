@@ -186,7 +186,17 @@ function ReaderFooter({ comic, nextComic, themes, related }) {
             {faq.map((item) => (
               <div className="reader-faq-item" key={item.question}>
                 <h3>{item.question}</h3>
-                <p>{item.answer}</p>
+                <p>
+                  {item.answer}
+                  {item.sourceUrl && !item.sourceUrl.includes(`/comics/${comic.slug}/`) ? (
+                    <>
+                      {" "}
+                      <a className="reader-faq-source" href={item.sourceUrl} rel="noopener noreferrer" target="_blank">
+                        Source
+                      </a>
+                    </>
+                  ) : null}
+                </p>
               </div>
             ))}
           </section>
