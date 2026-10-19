@@ -51,6 +51,28 @@ pnpm build
 pnpm preview
 ```
 
+### Amp orbs
+
+Fresh orbs run `.agents/setup` to install Node.js from `.node-version`,
+install the pinned pnpm version and locked dependencies, and copy `.env.example`
+to `.env.local` only when it does not exist. Python 3 is installed if missing;
+the Python tests use only the standard library. Setup refreshes the local-only R2
+catalogue from `comics.json` so archive pages work without Cloudflare authentication.
+Setup is safe to rerun; it replaces local catalogue edits with checked-in metadata.
+
+Start the supervised development server and get its authenticated portal URL:
+
+```bash
+amp orb services ensure
+```
+
+The service in `.amp/services.yaml` listens on Amp's assigned port and checks
+the homepage for readiness. No resume hook is needed: Amp supervises the service.
+Generated portal URLs are ignored by Git. Setup does not authenticate Cloudflare,
+publish comics, or deploy the Worker. The example environment contains placeholders,
+not working credentials; private R2 media binaries are not downloaded or seeded. Media and
+paid endpoints need separately configured local data and credentials.
+
 The app uses the Next.js App Router. Route and UI ownership is:
 
 - `app/page.jsx` for the archive homepage.

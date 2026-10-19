@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+cd "$(dirname "${BASH_SOURCE[0]}")/.."
+
+echo "Checking orb toolchain..."
+node_version="$(cat .node-version)"
+if [[ "$(node --version)" != "v$node_version" ]]; then
+  npm install --global n@11.0.0
+  n "$node_version"
+  hash -r
+fi
+if ! command -v python3 >/dev/null 2>&1; then
+  sudo apt-get update
+  sudo apt-get install -y python3
+fi
+
+pnpm_version="$(node --input-type=module -e 'import pkg from "./package.json" with { type: "json" }; console.log(pkg.packageManager.split("@")[1]);')"
+if ! command -v pnpm >/dev/null 2>&1 || [[ "$(pnpm --version)" != "$pnpm_version" ]]; then
+  npm install --global "pnpm@$pnpm_version"
+fi
+node --version
+pnpm --version
+python3 --version
+
+echo "Installing locked dependencies..."
+time pnpm install --frozen-lockfile
+
+echo "Preparing local environment (preserving existing values)..."
+if [[ ! -f .env.local ]]; then
+  cp -- .env.example .env.local
+fi
+
+echo "Seeding the local-only R2 catalogue from checked-in metadata..."
+time pnpm exec wrangler r2 object put finalnotes-comics/catalog/comics.json \
+  --local --file comics.json --content-type application/json
+
+echo "Orb setup ready. Run pnpm test, pnpm build, or amp orb services ensure."

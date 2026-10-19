@@ -1,0 +1,7 @@
+services:
+  web:
+    command: pnpm dev --hostname 0.0.0.0 --port "$PORT"
+    health: /
+    portal:
+      title: Finalnotes development
+      description: Archive preview with locally seeded metadata. Private media binaries and paid endpoints need separate configuration.

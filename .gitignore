@@ -1,4 +1,5 @@
 .vercel
+.amp/portals/
 .next
 .open-next
 .wrangler

@@ -1,6 +1,7 @@
 {
   "name": "memento-mori-obituary-comics",
   "private": true,
+  "packageManager": "pnpm@12.0.0",
   "description": "Next.js obituary-comics archive on Cloudflare Workers with private R2 media and an x402-paid latest-PDF endpoint.",
   "homepage": "https://www.finalnotes.page/",
   "repository": {

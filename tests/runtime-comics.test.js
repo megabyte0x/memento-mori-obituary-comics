@@ -6,7 +6,9 @@ import { loadRuntimeComics } from "../lib/runtime-comics.js";
 test("loadRuntimeComics reads and normalizes catalog/comics.json from R2", async () => {
   const bucket = {
     get: async () => ({
-      body: new Blob(["[]"]).stream(),
+      get body() {
+        throw new Error("Do not transfer the body stream before calling json()");
+      },
       json: async () => [{
         slug: "r2",
         person: "R2 Person",
