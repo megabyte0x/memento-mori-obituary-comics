@@ -5,9 +5,11 @@ import { LatestPanel } from "@/components/latest-panel";
 import { SiteNav } from "@/components/site-nav";
 import { SubstackSubscribe } from "@/components/substack-subscribe";
 import { Button } from "@/components/ui/button";
-import { comicImageMetadata, getLatestComic, homeSchema } from "@/lib/comics";
+import { anniversaryLabel, upcomingAnniversaries } from "@/lib/anniversaries";
+import { comicImageMetadata, comicPath, getLatestComic, homeSchema } from "@/lib/comics";
 import { loadRuntimeComics } from "@/lib/runtime-comics";
 import { SITE_DESCRIPTION, SITE_KEYWORDS, SITE_TITLE } from "@/lib/site";
+import { themePath, themesWithComics } from "@/lib/themes";
 
 export async function generateMetadata() {
   const latest = getLatestComic(await loadRuntimeComics());
@@ -22,10 +24,28 @@ export async function generateMetadata() {
   };
 }
 
+// LatestPanel is a client component; send it only the cover and text it renders.
+function latestPanelComic(comic) {
+  if (!comic) return null;
+  const cover = comic.pages[0];
+  return {
+    slug: comic.slug,
+    person: comic.person,
+    title: comic.title,
+    years: comic.years,
+    dek: comic.dek,
+    published_at: comic.published_at,
+    pages: [cover],
+    page_dimensions: { [cover]: comic.page_dimensions?.[cover] },
+  };
+}
+
 export default async function HomePage() {
   const comics = await loadRuntimeComics();
   const latest = getLatestComic(comics);
   const starterComics = comics.slice(0, 3);
+  const themes = themesWithComics(comics);
+  const anniversaries = upcomingAnniversaries(comics, { days: 30 }).slice(0, 6);
 
   return (
     <>
@@ -73,7 +93,7 @@ export default async function HomePage() {
               </section>
             ) : null}
           </section>
-          <LatestPanel comic={latest} />
+          <LatestPanel comic={latestPanelComic(latest)} />
         </div>
       </header>
 
@@ -90,6 +110,48 @@ export default async function HomePage() {
         </div>
       </main>
 
+      {themes.length ? (
+        <section className="wrap section home-themes" aria-labelledby="home-themes-title">
+          <div className="section-head">
+            <div>
+              <div className="kicker">Browse by theme</div>
+              <h2 id="home-themes-title">Find a life by what they faced</h2>
+            </div>
+            <p>
+              <Link href="/themes/">All themes</Link>
+            </p>
+          </div>
+          <ul className="theme-chips theme-chips--large">
+            {themes.map(({ theme, comics: list }) => (
+              <li key={theme.slug}>
+                <Link href={themePath(theme)}>
+                  {theme.name} <span>({list.length})</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
+
+      {anniversaries.length ? (
+        <section className="wrap section home-anniversaries" aria-labelledby="home-anniversaries-title">
+          <div className="section-head">
+            <div>
+              <div className="kicker">Coming up</div>
+              <h2 id="home-anniversaries-title">Anniversaries in the next 30 days</h2>
+            </div>
+          </div>
+          <ul className="anniversary-list">
+            {anniversaries.map((item) => (
+              <li key={`${item.comic.slug}-${item.kind}`}>
+                <time dateTime={item.date}>{item.date}</time>
+                <Link href={comicPath(item.comic)}>{anniversaryLabel(item)}</Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
+
       <section className="wrap section definition-section" aria-labelledby="what-are-obituary-comics">
         <div className="section-head">
           <div>
@@ -99,7 +161,7 @@ export default async function HomePage() {
           <p>Short visual biographies built for readers and crawlers.</p>
         </div>
         <p>
-          Memento Mori Obituary Comics publishes compact, source-backed stories about artists, thinkers, athletes, and witnesses whose work was shaped by a direct encounter with mortality. Each entry keeps the comic pages as the primary reading experience, then adds crawlable summaries, dated context, source links, PDF access, and structured data so search engines and AI systems can understand the subject without relying on image OCR. Start with the <Link href="/obituary-stories/">obituary stories and articles index</Link>, or read <Link href="/what-are-obituary-comics/">what obituary comics are</Link>.
+          Final Notes publishes compact, source-backed stories about artists, thinkers, athletes, and witnesses whose work was shaped by a direct encounter with mortality. Each entry keeps the comic pages as the primary reading experience, then adds crawlable summaries, dated context, source links, PDF access, and structured data so search engines and AI systems can understand the subject without relying on image OCR. Start with the <Link href="/obituary-stories/">obituary stories and articles index</Link>, or read <Link href="/what-are-obituary-comics/">what obituary comics are</Link>.
         </p>
       </section>
 

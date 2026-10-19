@@ -1,0 +1,947 @@
+{
+  "ada-lovelace-notes-before-night": {
+    "wikidata": "https://www.wikidata.org/wiki/Q7259",
+    "birth_date": "1815-12-10",
+    "death_date": "1852-11-27",
+    "themes": [
+      "scientists",
+      "women",
+      "cancer",
+      "illness"
+    ]
+  },
+  "akira-kurosawa-after-the-cut": {
+    "wikidata": "https://www.wikidata.org/wiki/Q8006",
+    "birth_date": "1910-03-23",
+    "death_date": "1998-09-06",
+    "themes": [
+      "artists",
+      "illness"
+    ]
+  },
+  "alan-turing-snow-white-machine": {
+    "wikidata": "https://www.wikidata.org/wiki/Q7251",
+    "birth_date": "1912-06-23",
+    "death_date": "1954-06-07",
+    "themes": [
+      "scientists",
+      "war",
+      "civil-rights"
+    ]
+  },
+  "alfred-nobel-merchant-of-death": {
+    "wikidata": "https://www.wikidata.org/wiki/Q23810",
+    "birth_date": "1833-10-21",
+    "death_date": "1896-12-10",
+    "themes": [
+      "scientists"
+    ]
+  },
+  "andree-de-jongh-comet-line": {
+    "wikidata": "https://www.wikidata.org/wiki/Q461027",
+    "birth_date": "1916-11-30",
+    "death_date": "2007-10-13",
+    "themes": [
+      "war",
+      "women"
+    ]
+  },
+  "anna-akhmatova-requiem-queue": {
+    "wikidata": "https://www.wikidata.org/wiki/Q80440",
+    "birth_date": "1889-06-23",
+    "death_date": "1966-03-05",
+    "themes": [
+      "writers",
+      "prison",
+      "women"
+    ]
+  },
+  "antonio-gramsci-prison-notebooks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q83003",
+    "birth_date": "1891-01-22",
+    "death_date": "1937-04-27",
+    "themes": [
+      "prison",
+      "writers",
+      "illness"
+    ]
+  },
+  "audre-lorde-cancer-journals": {
+    "wikidata": "https://www.wikidata.org/wiki/Q463319",
+    "birth_date": "1934-02-18",
+    "death_date": "1992-11-17",
+    "themes": [
+      "cancer",
+      "writers",
+      "civil-rights",
+      "women"
+    ]
+  },
+  "barbara-rubin-underground-spark": {
+    "wikidata": "https://www.wikidata.org/wiki/Q807610",
+    "birth_date": "1945-06-08",
+    "themes": [
+      "artists",
+      "women"
+    ]
+  },
+  "beethoven-silence-ode": {
+    "wikidata": "https://www.wikidata.org/wiki/Q255",
+    "birth_date": "1770-12-16",
+    "death_date": "1827-03-26",
+    "themes": [
+      "musicians",
+      "disability"
+    ]
+  },
+  "bessie-coleman-queen-bess": {
+    "wikidata": "https://www.wikidata.org/wiki/Q254376",
+    "birth_date": "1892-01-26",
+    "death_date": "1926-04-30",
+    "themes": [
+      "athletes-explorers",
+      "civil-rights",
+      "women"
+    ]
+  },
+  "betye-saar-liberation-box": {
+    "wikidata": "https://www.wikidata.org/wiki/Q2900288",
+    "birth_date": "1926-07-30",
+    "death_date": "2026-07-26",
+    "themes": [
+      "artists",
+      "civil-rights",
+      "women"
+    ]
+  },
+  "blaise-pascal-night-of-fire": {
+    "wikidata": "https://www.wikidata.org/wiki/Q1290",
+    "birth_date": "1623-06-19",
+    "death_date": "1662-08-19",
+    "themes": [
+      "scientists",
+      "faith",
+      "illness"
+    ]
+  },
+  "buckminster-fuller-world-machine": {
+    "wikidata": "https://www.wikidata.org/wiki/Q102289",
+    "birth_date": "1895-07-12",
+    "death_date": "1983-07-01",
+    "themes": [
+      "scientists"
+    ]
+  },
+  "cervantes-captive-knight": {
+    "wikidata": "https://www.wikidata.org/wiki/Q5682",
+    "death_date": "1616-04-22",
+    "themes": [
+      "prison",
+      "writers",
+      "war"
+    ]
+  },
+  "charlotte-delbo-auschwitz-and-after": {
+    "wikidata": "https://www.wikidata.org/wiki/Q452272",
+    "birth_date": "1913-08-10",
+    "death_date": "1985-03-01",
+    "themes": [
+      "holocaust",
+      "writers",
+      "women"
+    ]
+  },
+  "christopher-reeve": {
+    "wikidata": "https://www.wikidata.org/wiki/Q174311",
+    "birth_date": "1952-09-25",
+    "death_date": "2004-10-10",
+    "themes": [
+      "disability"
+    ]
+  },
+  "christy-brown-left-foot": {
+    "wikidata": "https://www.wikidata.org/wiki/Q529336",
+    "birth_date": "1932-06-05",
+    "death_date": "1981-09-07",
+    "themes": [
+      "disability",
+      "writers",
+      "artists"
+    ]
+  },
+  "clara-barton-red-cross-lamp": {
+    "wikidata": "https://www.wikidata.org/wiki/Q188039",
+    "birth_date": "1821-12-25",
+    "death_date": "1912-04-12",
+    "themes": [
+      "war",
+      "women"
+    ]
+  },
+  "claude-monet-water-lilies": {
+    "wikidata": "https://www.wikidata.org/wiki/Q296",
+    "birth_date": "1840-11-14",
+    "death_date": "1926-12-05",
+    "themes": [
+      "artists",
+      "blindness"
+    ]
+  },
+  "corrie-ten-boom-hiding-place": {
+    "wikidata": "https://www.wikidata.org/wiki/Q241097",
+    "birth_date": "1892-04-15",
+    "death_date": "1983-04-15",
+    "themes": [
+      "holocaust",
+      "faith",
+      "prison",
+      "women"
+    ]
+  },
+  "david-bowie-blackstar-farewell": {
+    "wikidata": "https://www.wikidata.org/wiki/Q5383",
+    "birth_date": "1947-01-08",
+    "death_date": "2016-01-10",
+    "themes": [
+      "musicians",
+      "cancer"
+    ]
+  },
+  "dietrich-bonhoeffer-letters-before-dawn": {
+    "wikidata": "https://www.wikidata.org/wiki/Q76326",
+    "birth_date": "1906-02-04",
+    "death_date": "1945-04-09",
+    "themes": [
+      "faith",
+      "prison",
+      "holocaust"
+    ]
+  },
+  "dina-babbitt-painted-out-of-hell": {
+    "wikidata": "https://www.wikidata.org/wiki/Q449160",
+    "birth_date": "1923-01-21",
+    "death_date": "2009-07-29",
+    "themes": [
+      "holocaust",
+      "artists",
+      "women"
+    ]
+  },
+  "dith-pran-killing-fields": {
+    "wikidata": "https://www.wikidata.org/wiki/Q469846",
+    "birth_date": "1942-09-23",
+    "death_date": "2008-03-30",
+    "themes": [
+      "war",
+      "artists"
+    ]
+  },
+  "django-reinhardt-two-finger-fire": {
+    "wikidata": "https://www.wikidata.org/wiki/Q44122",
+    "birth_date": "1910-01-23",
+    "death_date": "1953-05-16",
+    "themes": [
+      "musicians",
+      "disability"
+    ]
+  },
+  "dorothea-lange-limp-and-lens": {
+    "wikidata": "https://www.wikidata.org/wiki/Q230673",
+    "birth_date": "1895-05-26",
+    "death_date": "1965-10-11",
+    "themes": [
+      "artists",
+      "disability",
+      "women"
+    ]
+  },
+  "dostoyevsky-borrowed-time": {
+    "wikidata": "https://www.wikidata.org/wiki/Q991",
+    "birth_date": "1821-11-11",
+    "death_date": "1881-02-09",
+    "themes": [
+      "writers",
+      "prison"
+    ]
+  },
+  "edvard-munch-spanish-flu": {
+    "wikidata": "https://www.wikidata.org/wiki/Q41406",
+    "birth_date": "1863-12-12",
+    "death_date": "1944-01-23",
+    "themes": [
+      "artists",
+      "illness"
+    ]
+  },
+  "elie-wiesel-night-witness": {
+    "wikidata": "https://www.wikidata.org/wiki/Q18391",
+    "birth_date": "1928-09-30",
+    "death_date": "2016-07-02",
+    "themes": [
+      "holocaust",
+      "writers"
+    ]
+  },
+  "elizabeth-blackwell-one-eye": {
+    "wikidata": "https://www.wikidata.org/wiki/Q234572",
+    "birth_date": "1821-02-03",
+    "death_date": "1910-05-31",
+    "themes": [
+      "scientists",
+      "blindness",
+      "women"
+    ]
+  },
+  "ernest-shackleton-endurance-after-ice": {
+    "wikidata": "https://www.wikidata.org/wiki/Q957543",
+    "birth_date": "1874-02-15",
+    "death_date": "1922-01-05",
+    "themes": [
+      "athletes-explorers"
+    ]
+  },
+  "etty-hillesum-heart-at-westerbork": {
+    "wikidata": "https://www.wikidata.org/wiki/Q126400",
+    "birth_date": "1914-01-15",
+    "death_date": "1943-11-30",
+    "themes": [
+      "holocaust",
+      "writers",
+      "faith",
+      "women"
+    ]
+  },
+  "flannery-oconnor-lupus-and-grace": {
+    "wikidata": "https://www.wikidata.org/wiki/Q234579",
+    "birth_date": "1925-03-25",
+    "death_date": "1964-08-03",
+    "themes": [
+      "writers",
+      "illness",
+      "faith",
+      "women"
+    ]
+  },
+  "florence-nightingale-lamp-and-ledger": {
+    "wikidata": "https://www.wikidata.org/wiki/Q37103",
+    "birth_date": "1820-05-12",
+    "death_date": "1910-08-13",
+    "themes": [
+      "scientists",
+      "war",
+      "women",
+      "illness"
+    ]
+  },
+  "freddie-mercury-last-light": {
+    "wikidata": "https://www.wikidata.org/wiki/Q15869",
+    "birth_date": "1946-09-05",
+    "death_date": "1991-11-24",
+    "themes": [
+      "musicians",
+      "illness"
+    ]
+  },
+  "frederick-douglass-stolen-thunder": {
+    "wikidata": "https://www.wikidata.org/wiki/Q215562",
+    "birth_date": "1818-02-14",
+    "death_date": "1895-02-20",
+    "themes": [
+      "civil-rights",
+      "writers"
+    ]
+  },
+  "frida-kahlo-broken-mirror": {
+    "wikidata": "https://www.wikidata.org/wiki/Q5588",
+    "birth_date": "1907-07-06",
+    "death_date": "1954-07-13",
+    "themes": [
+      "artists",
+      "disability",
+      "women"
+    ]
+  },
+  "garrincha-bent-legged-angel": {
+    "wikidata": "https://www.wikidata.org/wiki/Q180642",
+    "birth_date": "1933-10-28",
+    "death_date": "1983-01-20",
+    "themes": [
+      "athletes-explorers",
+      "disability"
+    ]
+  },
+  "gene-roddenberry-desert-starship": {
+    "wikidata": "https://www.wikidata.org/wiki/Q191716",
+    "birth_date": "1921-08-19",
+    "death_date": "1991-10-24",
+    "themes": [
+      "writers",
+      "war"
+    ]
+  },
+  "george-orwell-throat-of-truth": {
+    "wikidata": "https://www.wikidata.org/wiki/Q3335",
+    "birth_date": "1903-06-25",
+    "death_date": "1950-01-21",
+    "themes": [
+      "writers",
+      "war",
+      "illness"
+    ]
+  },
+  "hannah-arendt-thinking-after-flight": {
+    "wikidata": "https://www.wikidata.org/wiki/Q60025",
+    "birth_date": "1906-10-14",
+    "death_date": "1975-12-04",
+    "themes": [
+      "writers",
+      "holocaust",
+      "women"
+    ]
+  },
+  "harriet-tubman-road-back": {
+    "wikidata": "https://www.wikidata.org/wiki/Q102870",
+    "death_date": "1913-03-10",
+    "themes": [
+      "civil-rights",
+      "women",
+      "war"
+    ]
+  },
+  "hedy-lamarr-secret-signal": {
+    "wikidata": "https://www.wikidata.org/wiki/Q49034",
+    "birth_date": "1914-11-09",
+    "death_date": "2000-01-19",
+    "themes": [
+      "scientists",
+      "women",
+      "war"
+    ]
+  },
+  "helen-keller-water-pump": {
+    "wikidata": "https://www.wikidata.org/wiki/Q38203",
+    "birth_date": "1880-06-27",
+    "death_date": "1968-06-01",
+    "themes": [
+      "blindness",
+      "disability",
+      "civil-rights",
+      "women"
+    ]
+  },
+  "henri-matisse-second-life": {
+    "wikidata": "https://www.wikidata.org/wiki/Q5589",
+    "birth_date": "1869-12-31",
+    "death_date": "1954-11-03",
+    "themes": [
+      "artists",
+      "cancer"
+    ]
+  },
+  "henrietta-lacks-immortal-cells": {
+    "wikidata": "https://www.wikidata.org/wiki/Q1647793",
+    "birth_date": "1920-08-01",
+    "death_date": "1951-10-04",
+    "themes": [
+      "cancer",
+      "women",
+      "civil-rights"
+    ]
+  },
+  "henry-dunant-solferino-memory": {
+    "wikidata": "https://www.wikidata.org/wiki/Q12091",
+    "birth_date": "1828-05-08",
+    "death_date": "1910-10-30",
+    "themes": [
+      "war"
+    ]
+  },
+  "hildegard-living-light": {
+    "wikidata": "https://www.wikidata.org/wiki/Q70991",
+    "themes": [
+      "faith",
+      "musicians",
+      "illness",
+      "women"
+    ]
+  },
+  "horatio-nelson-trafalgar-light": {
+    "wikidata": "https://www.wikidata.org/wiki/Q83235",
+    "birth_date": "1758-09-29",
+    "death_date": "1805-10-21",
+    "themes": [
+      "war",
+      "blindness",
+      "disability"
+    ]
+  },
+  "irena-sendler-jars-of-names": {
+    "wikidata": "https://www.wikidata.org/wiki/Q151932",
+    "birth_date": "1910-10-20",
+    "death_date": "2008-05-12",
+    "themes": [
+      "holocaust",
+      "women"
+    ]
+  },
+  "jacques-lusseyran-light-in-darkness": {
+    "wikidata": "https://www.wikidata.org/wiki/Q567372",
+    "birth_date": "1924-09-19",
+    "death_date": "1971-07-27",
+    "themes": [
+      "blindness",
+      "holocaust",
+      "war",
+      "writers"
+    ]
+  },
+  "james-stockdale-hanoi-stoic": {
+    "wikidata": "https://www.wikidata.org/wiki/Q496264",
+    "birth_date": "1923-12-23",
+    "death_date": "2005-07-05",
+    "themes": [
+      "prison",
+      "war"
+    ]
+  },
+  "jean-dominique-bauby-blink-manuscript": {
+    "wikidata": "https://www.wikidata.org/wiki/Q317730",
+    "birth_date": "1952-04-23",
+    "death_date": "1997-03-09",
+    "themes": [
+      "disability",
+      "writers"
+    ]
+  },
+  "john-lewis-good-trouble": {
+    "wikidata": "https://www.wikidata.org/wiki/Q45380",
+    "birth_date": "1940-02-21",
+    "death_date": "2020-07-17",
+    "themes": [
+      "civil-rights"
+    ]
+  },
+  "john-mccain-hanoi-sky": {
+    "wikidata": "https://www.wikidata.org/wiki/Q10390",
+    "birth_date": "1936-08-29",
+    "death_date": "2018-08-25",
+    "themes": [
+      "prison",
+      "war"
+    ]
+  },
+  "john-milton-darkness-visible": {
+    "wikidata": "https://www.wikidata.org/wiki/Q79759",
+    "birth_date": "1608-12-09",
+    "death_date": "1674-11-08",
+    "themes": [
+      "blindness",
+      "writers"
+    ]
+  },
+  "josephine-baker-resistance-rhythm": {
+    "wikidata": "https://www.wikidata.org/wiki/Q151972",
+    "birth_date": "1906-06-03",
+    "death_date": "1975-04-12",
+    "themes": [
+      "war",
+      "musicians",
+      "civil-rights",
+      "women"
+    ]
+  },
+  "jrr-tolkien-somme-shire": {
+    "wikidata": "https://www.wikidata.org/wiki/Q892",
+    "birth_date": "1892-01-03",
+    "death_date": "1973-09-02",
+    "themes": [
+      "writers",
+      "war"
+    ]
+  },
+  "judy-heumann-sign-504": {
+    "wikidata": "https://www.wikidata.org/wiki/Q6303462",
+    "birth_date": "1947-12-18",
+    "death_date": "2023-03-04",
+    "themes": [
+      "disability",
+      "civil-rights",
+      "women"
+    ]
+  },
+  "junko-tabei-after-avalanche": {
+    "wikidata": "https://www.wikidata.org/wiki/Q234491",
+    "birth_date": "1939-09-22",
+    "death_date": "2016-10-20",
+    "themes": [
+      "athletes-explorers",
+      "women"
+    ]
+  },
+  "katharine-graham-newsroom-after-the-gun": {
+    "wikidata": "https://www.wikidata.org/wiki/Q435203",
+    "birth_date": "1917-06-16",
+    "death_date": "2001-07-17",
+    "themes": [
+      "writers",
+      "women"
+    ]
+  },
+  "louis-braille-six-dot-night": {
+    "wikidata": "https://www.wikidata.org/wiki/Q93182",
+    "birth_date": "1809-01-04",
+    "death_date": "1852-01-06",
+    "themes": [
+      "blindness",
+      "disability",
+      "scientists"
+    ]
+  },
+  "louis-zamperini-after-the-raft": {
+    "wikidata": "https://www.wikidata.org/wiki/Q11762840",
+    "birth_date": "1917-01-26",
+    "death_date": "2014-07-02",
+    "themes": [
+      "athletes-explorers",
+      "prison",
+      "war"
+    ]
+  },
+  "margaret-brown-unsinkable": {
+    "wikidata": "https://www.wikidata.org/wiki/Q229631",
+    "birth_date": "1867-07-18",
+    "death_date": "1932-10-26",
+    "themes": [
+      "civil-rights",
+      "women"
+    ]
+  },
+  "mary-anning-stone-and-light": {
+    "wikidata": "https://www.wikidata.org/wiki/Q230491",
+    "birth_date": "1799-05-21",
+    "death_date": "1847-03-09",
+    "themes": [
+      "scientists",
+      "women"
+    ]
+  },
+  "mary-de-rachewiltz-tower-of-cantos": {
+    "wikidata": "https://www.wikidata.org/wiki/Q137683",
+    "birth_date": "1925-07-09",
+    "death_date": "2026-07-24",
+    "themes": [
+      "writers",
+      "women"
+    ]
+  },
+  "maya-angelou-caged-bird-voice": {
+    "wikidata": "https://www.wikidata.org/wiki/Q19526",
+    "birth_date": "1928-04-04",
+    "death_date": "2014-05-28",
+    "themes": [
+      "writers",
+      "civil-rights",
+      "women"
+    ]
+  },
+  "nancy-sheung-darkroom-light": {
+    "wikidata": "https://www.wikidata.org/wiki/Q113575002",
+    "death_date": "1979-01-17",
+    "themes": [
+      "artists",
+      "women"
+    ]
+  },
+  "nellie-bly-ten-days": {
+    "wikidata": "https://www.wikidata.org/wiki/Q230299",
+    "birth_date": "1864-05-05",
+    "death_date": "1922-01-27",
+    "themes": [
+      "writers",
+      "women"
+    ]
+  },
+  "oliver-sacks-gratitude-near-the-end": {
+    "wikidata": "https://www.wikidata.org/wiki/Q258662",
+    "birth_date": "1933-07-09",
+    "death_date": "2015-08-30",
+    "themes": [
+      "cancer",
+      "scientists",
+      "writers"
+    ]
+  },
+  "patricia-douglas-girl-27": {
+    "wikidata": "https://www.wikidata.org/wiki/Q105862435",
+    "birth_date": "1917-03-05",
+    "death_date": "2003-11-11",
+    "themes": [
+      "women",
+      "civil-rights"
+    ]
+  },
+  "paul-kalanithi-breath-becomes-air": {
+    "wikidata": "https://www.wikidata.org/wiki/Q22087287",
+    "birth_date": "1977-04-01",
+    "death_date": "2015-03-09",
+    "themes": [
+      "cancer",
+      "scientists",
+      "writers"
+    ]
+  },
+  "primo-levi": {
+    "wikidata": "https://www.wikidata.org/wiki/Q153670",
+    "death_date": "1987-04-11",
+    "themes": [
+      "holocaust",
+      "writers",
+      "scientists"
+    ]
+  },
+  "randy-pausch-last-lecture": {
+    "wikidata": "https://www.wikidata.org/wiki/Q49828",
+    "birth_date": "1960-10-23",
+    "death_date": "2008-07-25",
+    "themes": [
+      "cancer",
+      "scientists"
+    ]
+  },
+  "rani-lakshmibai-jhansi-flame": {
+    "wikidata": "https://www.wikidata.org/wiki/Q181878",
+    "birth_date": "1828-11-19",
+    "death_date": "1858-06-17",
+    "themes": [
+      "war",
+      "women"
+    ]
+  },
+  "roald-dahl-crash-and-chocolate": {
+    "wikidata": "https://www.wikidata.org/wiki/Q25161",
+    "birth_date": "1916-09-13",
+    "death_date": "1990-11-23",
+    "themes": [
+      "writers",
+      "war"
+    ]
+  },
+  "robbie-basho-raga-ghost": {
+    "wikidata": "https://www.wikidata.org/wiki/Q3938177",
+    "birth_date": "1940-08-30",
+    "death_date": "1986-02-28",
+    "themes": [
+      "musicians"
+    ]
+  },
+  "robert-louis-stevenson-lantern-lungs": {
+    "wikidata": "https://www.wikidata.org/wiki/Q1512",
+    "birth_date": "1850-11-13",
+    "death_date": "1894-12-03",
+    "themes": [
+      "writers",
+      "illness"
+    ]
+  },
+  "roger-ebert-voice-after-silence": {
+    "wikidata": "https://www.wikidata.org/wiki/Q212173",
+    "birth_date": "1942-06-18",
+    "death_date": "2013-04-04",
+    "themes": [
+      "cancer",
+      "writers",
+      "disability"
+    ]
+  },
+  "ryan-white-school-door": {
+    "wikidata": "https://www.wikidata.org/wiki/Q320163",
+    "birth_date": "1971-12-06",
+    "death_date": "1990-04-08",
+    "themes": [
+      "illness",
+      "civil-rights"
+    ]
+  },
+  "saint-exupery-desert-star": {
+    "wikidata": "https://www.wikidata.org/wiki/Q2908",
+    "birth_date": "1900-06-29",
+    "death_date": "1944-07-31",
+    "themes": [
+      "writers",
+      "athletes-explorers",
+      "war"
+    ]
+  },
+  "samuel-beckett-wound-waiting": {
+    "wikidata": "https://www.wikidata.org/wiki/Q37327",
+    "birth_date": "1906-04-13",
+    "death_date": "1989-12-22",
+    "themes": [
+      "writers",
+      "war"
+    ]
+  },
+  "simone-weil-affliction-and-attention": {
+    "wikidata": "https://www.wikidata.org/wiki/Q157309",
+    "birth_date": "1909-02-03",
+    "death_date": "1943-08-24",
+    "themes": [
+      "faith",
+      "writers",
+      "illness",
+      "women"
+    ]
+  },
+  "solzhenitsyn-gulag-witness": {
+    "wikidata": "https://www.wikidata.org/wiki/Q34474",
+    "birth_date": "1918-12-11",
+    "death_date": "2008-08-03",
+    "themes": [
+      "prison",
+      "writers",
+      "cancer"
+    ]
+  },
+  "srinivasa-ramanujan-mock-theta": {
+    "wikidata": "https://www.wikidata.org/wiki/Q83163",
+    "birth_date": "1887-12-22",
+    "death_date": "1920-04-26",
+    "themes": [
+      "scientists",
+      "illness"
+    ]
+  },
+  "stephen-hawking-time-under-shadow": {
+    "wikidata": "https://www.wikidata.org/wiki/Q17714",
+    "birth_date": "1942-01-08",
+    "death_date": "2018-03-14",
+    "themes": [
+      "scientists",
+      "disability"
+    ]
+  },
+  "takashi-nagai-bells-after-bomb": {
+    "wikidata": "https://www.wikidata.org/wiki/Q1337364",
+    "birth_date": "1908-02-03",
+    "death_date": "1951-05-01",
+    "themes": [
+      "war",
+      "cancer",
+      "faith",
+      "scientists"
+    ]
+  },
+  "terry-fox-marathon-of-hope": {
+    "wikidata": "https://www.wikidata.org/wiki/Q295053",
+    "birth_date": "1958-07-28",
+    "death_date": "1981-06-28",
+    "themes": [
+      "cancer",
+      "athletes-explorers",
+      "disability"
+    ]
+  },
+  "tina-turner-private-dancer": {
+    "wikidata": "https://www.wikidata.org/wiki/Q131814",
+    "birth_date": "1939-11-26",
+    "death_date": "2023-05-24",
+    "themes": [
+      "musicians",
+      "women"
+    ]
+  },
+  "toussaint-louverture-open-gate": {
+    "wikidata": "https://www.wikidata.org/wiki/Q205783",
+    "birth_date": "1743-05-20",
+    "death_date": "1803-04-07",
+    "themes": [
+      "civil-rights",
+      "war",
+      "prison"
+    ]
+  },
+  "tsutomu-yamaguchi-double-light": {
+    "wikidata": "https://www.wikidata.org/wiki/Q17579",
+    "birth_date": "1916-03-16",
+    "death_date": "2010-01-04",
+    "themes": [
+      "war"
+    ]
+  },
+  "vaclav-havel-cell-to-castle": {
+    "wikidata": "https://www.wikidata.org/wiki/Q36233",
+    "birth_date": "1936-10-05",
+    "death_date": "2011-12-18",
+    "themes": [
+      "prison",
+      "writers",
+      "civil-rights"
+    ]
+  },
+  "vasili-arkhipov-nuclear-silence": {
+    "wikidata": "https://www.wikidata.org/wiki/Q1395757",
+    "birth_date": "1926-01-30",
+    "death_date": "1998-08-19",
+    "themes": [
+      "war"
+    ]
+  },
+  "victor-klemperer-dresden-diaries": {
+    "wikidata": "https://www.wikidata.org/wiki/Q57442",
+    "birth_date": "1881-10-09",
+    "death_date": "1960-02-11",
+    "themes": [
+      "holocaust",
+      "writers"
+    ]
+  },
+  "viktor-frankl-meaning-under-ash": {
+    "wikidata": "https://www.wikidata.org/wiki/Q154723",
+    "birth_date": "1905-03-26",
+    "death_date": "1997-09-02",
+    "themes": [
+      "holocaust",
+      "scientists",
+      "writers"
+    ]
+  },
+  "vincent-van-gogh": {
+    "wikidata": "https://www.wikidata.org/wiki/Q5582",
+    "birth_date": "1853-03-30",
+    "death_date": "1890-07-29",
+    "themes": [
+      "artists",
+      "illness"
+    ]
+  },
+  "virginia-hall-limping-lady": {
+    "wikidata": "https://www.wikidata.org/wiki/Q2198070",
+    "birth_date": "1906-04-06",
+    "death_date": "1982-07-08",
+    "themes": [
+      "war",
+      "disability",
+      "women"
+    ]
+  },
+  "wilma-rudolph-fastest-woman": {
+    "wikidata": "https://www.wikidata.org/wiki/Q31083",
+    "birth_date": "1940-06-23",
+    "death_date": "1994-11-12",
+    "themes": [
+      "athletes-explorers",
+      "disability",
+      "women"
+    ]
+  },
+  "witold-pilecki-auschwitz-report": {
+    "wikidata": "https://www.wikidata.org/wiki/Q315691",
+    "birth_date": "1901-05-13",
+    "death_date": "1948-05-25",
+    "themes": [
+      "holocaust",
+      "war",
+      "prison"
+    ]
+  }
+}

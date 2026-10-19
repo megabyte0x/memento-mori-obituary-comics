@@ -15,10 +15,11 @@ export function SiteNav() {
   return (
     <nav className="site-nav wrap" aria-label="Primary">
       <Link className="site-brand" href="/">
-        Memento Mori
+        Final Notes
       </Link>
       <div className="site-nav-links">
         <Link href="/#archive">Archive</Link>
+        <Link href="/themes/">Themes</Link>
         <Link href="/newsletter/">Newsletter</Link>
         <DropdownMenu>
           <DropdownMenuTrigger className="site-nav-more-trigger" aria-label="Open more navigation links">

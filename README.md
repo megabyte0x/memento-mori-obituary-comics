@@ -90,6 +90,8 @@ The app uses the Next.js App Router. Route and UI ownership is:
 
 - `app/page.jsx` for the archive homepage.
 - `app/comics/[slug]/page.jsx` and `components/reader-shell.jsx` for the reader.
+- `app/themes/` and `lib/themes.js` for theme hub pages; `data/comic-enrichment.json` for themes and life dates of comics published before the agent emitted them.
+- `app/share-card/[file]/route.js` for 1200×630 social preview images composed from each cover.
 - `app/media/[...path]/route.js` for private R2 media delivery through stable `/media/comics/...` URLs.
 - `app/about/page.jsx` for editorial method.
 - `app/press/page.jsx` for editors, reviewers, backlink outreach, and citation resources.
@@ -129,6 +131,14 @@ The command validates metadata, uploads and verifies only that comic's media, si
 The Worker verifies the shared signing authority against `FINALNOTES_BLOB_UPLOAD_PUBLIC_KEY` and writes stable keys such as `comics/<slug>/pages/01-<slug>.jpg`. A failed or partial upload is invisible because the catalogue manifest is the final release switch.
 
 On this machine, older ignored binaries may still exist locally. Always pass `--slug` for a new release so only that comic is uploaded.
+
+Comics published from 2026-10-20 must also carry page transcripts, an FAQ, theme slugs, and exact life dates. The publishing agent's full field list, subject-timing rules, backfill workflow, and social kit are in [the publishing agent contract](docs/agent-publishing-contract.md). Related commands:
+
+```bash
+pnpm comic:enrich -- --metadata-file comic.json   # Wikidata ID and exact birth/death dates
+pnpm comic:audit                                  # live comics still missing transcripts or FAQ
+pnpm comic:social -- --metadata-file comic.json   # carousel, pin, and short-post copy
+```
 
 ## Substack newsletter
 

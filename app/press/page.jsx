@@ -267,7 +267,7 @@ export default async function PressPage() {
           <div>
             <div className="kicker">Canonical link targets</div>
             <h2 id="link-targets">What To Link</h2>
-            <p>Use descriptive anchors that fit the sentence naturally: Memento Mori Obituary Comics, obituary comics archive, source-backed visual biographies, or the subject name on an individual reader page.</p>
+            <p>Use descriptive anchors that fit the sentence naturally: Final Notes, obituary comics archive, source-backed visual biographies, or the subject name on an individual reader page.</p>
           </div>
           <div className="press-link-list">
             {linkTargets.map((target) => (

@@ -6,7 +6,7 @@ import { comicImageMetadata, getLatestComic } from "@/lib/comics";
 import { loadRuntimeComics } from "@/lib/runtime-comics";
 import { publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
 
-const description = "Editorial method, source standards, and publishing notes for Memento Mori Obituary Comics.";
+const description = "Editorial method, source standards, and publishing notes for Final Notes, an archive of obituary comics.";
 
 export async function generateMetadata() {
   const images = comicImageMetadata(getLatestComic(await loadRuntimeComics()));
@@ -26,7 +26,7 @@ export default async function AboutPage() {
       {
         "@type": "AboutPage",
         "@id": `${SITE_URL}/about/#about`,
-        name: "About Memento Mori Obituary Comics",
+        name: "About Final Notes",
         url: `${SITE_URL}/about/`,
         description,
         inLanguage: SITE_LANGUAGE,
@@ -41,12 +41,12 @@ export default async function AboutPage() {
       <ResourceLayout
         currentPath="/about/"
         kicker="Editorial method"
-        title="About Memento Mori Obituary Comics"
+        title="About Final Notes"
         description={description}
       >
         <div className="about-grid">
           <div className="about-column">
-            <p>Memento Mori Obituary Comics is a static visual archive of short biographical comics about people who faced death, illness, violence, exile, or loss and still made work that survived them.</p>
+            <p>Final Notes (formerly Memento Mori Obituary Comics) is a visual archive of short biographical comics about people who faced death, illness, violence, exile, or loss and still made work that survived them.</p>
             <div className="about-card">
               <h2>How subjects are selected</h2>
               <p>Each subject needs a clear mortality pressure point and a body of work or thought that changed after, survived beyond, or was clarified by that encounter.</p>

@@ -68,6 +68,10 @@ function loadComic(slug, metadataFile = null) {
   return comic;
 }
 
+function escapeHtml(value) {
+  return String(value).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#x27;");
+}
+
 async function assertResponse(response, label) {
   if (response.ok) return response;
   let detail = "";
@@ -90,6 +94,12 @@ export async function verifyPublishedComic({ baseUrl, comic }) {
   for (const summary of comic.page_summaries) {
     if (!readerBody.includes(summary)) throw new Error("Published reader did not include every page summary");
   }
+  for (const item of comic.faq || []) {
+    if (!readerBody.includes(escapeHtml(item.question))) throw new Error("Published reader did not include every FAQ question");
+  }
+  if ((comic.page_transcripts || []).some(Boolean) && !readerBody.includes("reader-page-transcript")) {
+    throw new Error("Published reader did not include the page transcripts");
+  }
 
   const canonicalUrl = `${baseUrl}/comics/${comic.slug}/`;
   for (const [label, url] of [
@@ -109,6 +119,26 @@ export async function verifyPublishedComic({ baseUrl, comic }) {
       }
     }
   }
+}
+
+// URLs whose content changes when a comic is published: the reader, the
+// homepage archive, and every theme hub that lists it.
+export function changedUrls(baseUrl, comic) {
+  return [
+    `${baseUrl}/comics/${comic.slug}/`,
+    `${baseUrl}/`,
+    ...(Array.isArray(comic.themes) && comic.themes.length
+      ? [`${baseUrl}/themes/`, ...comic.themes.map((theme) => `${baseUrl}/themes/${theme}/`)]
+      : []),
+  ];
+}
+
+// Bing (and ChatGPT search, which uses Bing's index) picks up IndexNow pings
+// within minutes. A failed ping must not fail an otherwise good publication.
+function notifySearchEngines(baseUrl, comic) {
+  const args = ["scripts/submit_indexnow.mjs", ...changedUrls(baseUrl, comic).flatMap((url) => ["--url", url])];
+  const result = spawnSync("node", args, { cwd: ROOT_DIR, stdio: "inherit", env: { ...process.env, FINALNOTES_SITE_URL: baseUrl } });
+  if (result.status !== 0) console.warn("IndexNow submission failed; the sitemap will still be recrawled.");
 }
 
 export async function main(argv = process.argv.slice(2)) {
@@ -137,6 +167,7 @@ export async function main(argv = process.argv.slice(2)) {
   if (!result.ok || result.slug !== comic.slug) throw new Error("Comic publication returned an unexpected response");
 
   await verifyPublishedComic({ baseUrl: options.baseUrl, comic });
+  notifySearchEngines(options.baseUrl, comic);
   console.log(`${options.metadataOnly ? "Updated metadata for" : "Published"} ${comic.slug} in R2 without a Worker deployment.`);
 }
 

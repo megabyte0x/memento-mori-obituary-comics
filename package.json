@@ -35,6 +35,10 @@
     "r2:verify-live": "node scripts/verify_live_blob_upload.js",
     "comic:seed-catalog": "node scripts/seed_r2_comic_catalog.js",
     "comic:publish": "node scripts/publish_comic_to_r2.js",
+    "comic:enrich": "node scripts/enrich_comic_entities.mjs",
+    "comic:social": "node scripts/comic_social_kit.mjs",
+    "comic:audit": "node scripts/audit_comic_seo.mjs",
+    "indexnow": "node scripts/submit_indexnow.mjs",
     "test": "python3 -m unittest discover -s tests -p 'test_*.py' && node --test tests/*.test.js"
   },
   "dependencies": {

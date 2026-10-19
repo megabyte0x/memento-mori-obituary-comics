@@ -9,12 +9,19 @@ import { ComicSubscribeDialog } from "@/components/comic-subscribe-dialog";
 import { trackActivity } from "@/components/mixpanel-analytics";
 import { PdfSupportGate } from "@/components/pdf-support-gate";
 import { Button } from "@/components/ui/button";
-import { citationPassage, citableSummary, comicDescription, firstImagePath, imageSize, mediaPath, pageSummary, sourceItems, storyNotes } from "@/lib/comic-presenters";
+import {
+  citationPassage, citableSummary, comicDescription, comicFaq, imageSize, lifeFacts, mediaPath, pageSummary,
+  pageTranscript, sourceItems, storyNotes, storyTitle,
+} from "@/lib/comic-presenters";
 
-export function ReaderShell({ comic, nextComic }) {
+export function ReaderShell({ comic, nextComic, themes = [], related = [] }) {
   const pages = comic.pages || [];
   const passage = citationPassage(comic);
   const sources = sourceItems(comic);
+  const story = storyTitle(comic);
+  const heading = story ? `${comic.person}: ${story}` : comic.person;
+  const facts = lifeFacts(comic);
+  const primary = themes[0];
 
   useEffect(() => {
     trackActivity("comic_reader_loaded", {
@@ -40,7 +47,7 @@ export function ReaderShell({ comic, nextComic }) {
           <Link href="/">← Archive</Link>
         </Button>
         <div className="reader-title">
-          {comic.person} · {comic.title}
+          {heading}
         </div>
         <div className="reader-actions">
           <ComicShareButton comic={comic} surface="reader_toolbar" text="Share" titlePrefix="Share this comic" variant="reader" />
@@ -50,13 +57,28 @@ export function ReaderShell({ comic, nextComic }) {
         </div>
       </nav>
 
-      {passage ? (
-        <section className="reader-introduction" aria-labelledby="reader-introduction-title">
-          <p className="reader-introduction-kicker">
-            <time dateTime={comic.published_at}>Published {comic.published_at}</time>
-          </p>
-          <h1 id="reader-introduction-title">Who was {comic.person}, and what is this comic about?</h1>
-          <p className="reader-introduction-passage">{passage}</p>
+      <section className="reader-introduction" aria-labelledby="reader-introduction-title">
+        <nav className="reader-breadcrumb" aria-label="Breadcrumb">
+          <ol>
+            <li><Link href="/">Home</Link></li>
+            {primary ? <li><Link href={primary.href}>{primary.name}</Link></li> : null}
+            <li aria-current="page">{comic.person}</li>
+          </ol>
+        </nav>
+        <p className="reader-introduction-kicker">
+          Illustrated biography comic{facts.years ? ` · ${facts.years}` : ""}{pages.length ? ` · ${pages.length} pages` : ""} ·{" "}
+          <time dateTime={comic.published_at}>Published {comic.published_at}</time>
+        </p>
+        <h1 id="reader-introduction-title">{heading}</h1>
+        {comic.dek ? <p className="reader-introduction-dek">{comic.dek}</p> : null}
+        <LifeFacts comic={comic} facts={facts} />
+        {passage ? (
+          <>
+            <h2 className="reader-introduction-question">Who was {comic.person}?</h2>
+            <p className="reader-introduction-passage">{passage}</p>
+          </>
+        ) : null}
+        {sources.length ? (
           <div className="reader-introduction-sources">
             <span>Sources</span>
             <ul>
@@ -73,18 +95,13 @@ export function ReaderShell({ comic, nextComic }) {
               ))}
             </ul>
           </div>
-        </section>
-      ) : (
-        <div className="sr-only">
-          <h1>
-            {comic.person} - {comic.title}
-          </h1>
-        </div>
-      )}
+        ) : null}
+      </section>
 
-      <main id="read" className={`reader-pages layout-vertical${passage ? " has-introduction" : ""}`} aria-label="Comic pages">
+      <main id="read" className="reader-pages layout-vertical has-introduction" aria-label="Comic pages">
         {pages.map((src, index) => {
           const summary = pageSummary(comic, index + 1);
+          const transcript = pageTranscript(comic, index + 1);
           const size = imageSize(comic, src);
           return (
             <figure className="reader-page" id={`page-${String(index + 1).padStart(2, "0")}`} key={src}>
@@ -99,18 +116,47 @@ export function ReaderShell({ comic, nextComic }) {
                 fetchPriority={index === 0 ? "high" : undefined}
               />
               <figcaption className={summary ? "reader-page-summary" : undefined}>{summary || `Page ${index + 1}`}</figcaption>
+              {transcript ? (
+                <details className="reader-page-transcript">
+                  <summary>Page {index + 1} text and panel descriptions</summary>
+                  {transcript.split(/\n{2,}|\n/).filter(Boolean).map((line, lineIndex) => (
+                    <p key={lineIndex}>{line}</p>
+                  ))}
+                </details>
+              ) : null}
             </figure>
           );
         })}
       </main>
 
-      <ReaderFooter comic={comic} nextComic={nextComic} />
+      <ReaderFooter comic={comic} nextComic={nextComic} themes={themes} related={related} />
     </>
   );
 }
 
-function ReaderFooter({ comic, nextComic }) {
+function LifeFacts({ comic, facts }) {
+  const rows = [
+    facts.born ? ["Born", facts.born] : null,
+    facts.died ? ["Died", `${facts.died}${facts.age !== null ? ` (aged ${facts.age})` : ""}`] : null,
+    !facts.born && !facts.died && facts.years ? ["Lived", facts.years] : null,
+    comic.mortality_event ? ["Turning point", comic.mortality_event] : null,
+  ].filter(Boolean);
+  if (!rows.length) return null;
+  return (
+    <dl className="reader-facts">
+      {rows.map(([label, value]) => (
+        <div key={label}>
+          <dt>{label}</dt>
+          <dd>{value}</dd>
+        </div>
+      ))}
+    </dl>
+  );
+}
+
+function ReaderFooter({ comic, nextComic, themes, related }) {
   const sources = sourceItems(comic);
+  const faq = comicFaq(comic);
   const closingLine = String(comic.closing_line || "").trim();
   return (
     <footer className="reader-footer">
@@ -134,6 +180,17 @@ function ReaderFooter({ comic, nextComic }) {
       ) : null}
       <section className="reader-context" aria-label="Comic notes and sources">
         <p className="reader-source-line">{comicDescription(comic)}</p>
+        {faq.length ? (
+          <section className="reader-faq" aria-labelledby="reader-faq-title">
+            <h2 id="reader-faq-title">Questions about {comic.person}</h2>
+            {faq.map((item) => (
+              <div className="reader-faq-item" key={item.question}>
+                <h3>{item.question}</h3>
+                <p>{item.answer}</p>
+              </div>
+            ))}
+          </section>
+        ) : null}
         <h2>Citable Summary</h2>
         <ul className="summary-list">
           {citableSummary(comic).map((item) => (
@@ -175,16 +232,47 @@ function ReaderFooter({ comic, nextComic }) {
         </p>
       </section>
       <ComicSubscribeDialog comic={comic} />
+      {related.length ? (
+        <section className="related-lives" aria-labelledby="related-lives-title">
+          <div className="next-kicker">More lives like this</div>
+          <h2 id="related-lives-title">If {comic.person}&rsquo;s story stayed with you</h2>
+          {themes.length ? (
+            <ul className="theme-chips" aria-label="Themes">
+              {themes.map((theme) => (
+                <li key={theme.slug}>
+                  <Link href={theme.href}>{theme.name}</Link>
+                </li>
+              ))}
+            </ul>
+          ) : null}
+          <ul className="related-lives-grid">
+            {related.map((item) => (
+              <li key={item.slug}>
+                <Link href={`/comics/${item.slug}/`} className="related-life">
+                  {item.cover ? (
+                    <Image src={item.cover} alt="" width={item.width} height={item.height} sizes="(max-width: 760px) 30vw, 140px" loading="lazy" />
+                  ) : null}
+                  <span className="related-life-copy">
+                    <strong>{item.person}</strong>
+                    {item.years ? <span className="related-life-years">{item.years}</span> : null}
+                    <span>{item.dek}</span>
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
       {nextComic ? (
         <div className="next-comic-teaser">
           <div className="next-kicker">Up Next</div>
           <Link href={`/comics/${nextComic.slug}/#read`} className="next-comic-link">
             <div className="next-cover">
               <Image
-                src={firstImagePath(nextComic)}
+                src={nextComic.cover}
                 alt={`${nextComic.person} cover`}
-                width={imageSize(nextComic, nextComic.pages?.[0] || "").width}
-                height={imageSize(nextComic, nextComic.pages?.[0] || "").height}
+                width={nextComic.width}
+                height={nextComic.height}
                 sizes="(max-width: 760px) 45vw, 220px"
                 loading="lazy"
               />

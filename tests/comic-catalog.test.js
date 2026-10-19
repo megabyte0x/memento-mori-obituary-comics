@@ -77,6 +77,27 @@ test("validatePublishableComic enforces the SEO and GEO publishing contract", ()
   );
 });
 
+test("comics published from the SEO cutoff must ship transcripts, FAQ, themes, and a death date", () => {
+  const legacy = publishableComic({ published_at: "2026-10-19" });
+  assert.equal(validatePublishableComic(legacy).slug, "comic");
+
+  const current = publishableComic({ published_at: "2026-10-20" });
+  assert.throws(() => validatePublishableComic(current), /page_transcripts.*faq.*themes.*death_date/s);
+
+  const complete = {
+    ...current,
+    page_transcripts: ["Caption: A line.\n\nPanel 1: A scene."],
+    faq: [1, 2, 3].map((n) => ({ question: `Question ${n}?`, answer: `Answer ${n}.` })),
+    themes: ["cancer"],
+    birth_date: "1958-07-28",
+    death_date: "1981-06-28",
+  };
+  assert.equal(validatePublishableComic(complete).slug, "comic");
+  assert.throws(() => validatePublishableComic({ ...complete, themes: ["not-a-theme"] }), /known theme slugs/);
+  assert.throws(() => validatePublishableComic({ ...complete, death_date: "1981-02-30" }), /death_date must be an ISO/);
+  assert.throws(() => validatePublishableComic({ ...complete, page_transcripts: ["a", "b"] }), /one entry per page/);
+});
+
 test("declaredComicAssetKeys includes pages, PDF, and contact sheet files", () => {
   assert.deepEqual(
     declaredComicAssetKeys({

@@ -11,10 +11,12 @@ export function ArchiveCard({ comic, priority = false }) {
   const size = imageSize(comic, image);
   const titleLength = comic.person.length;
   const titleSizeClass = titleLength > 28 ? "archive-card--very-long-name" : titleLength > 22 ? "archive-card--long-name" : "";
+  // Client buttons only need these fields; passing the full record bloats every page's payload.
+  const shareComic = { slug: comic.slug, person: comic.person, dek: comic.dek || "" };
 
   return (
     <article className={`archive-card ${titleSizeClass}`.trim()} data-comic-slug={comic.slug}>
-      <Link className="archive-card-link" href={`/comics/${comic.slug}/#read`} aria-label={`Read ${comic.person} obituary comic`} />
+      <Link className="archive-card-link" href={`/comics/${comic.slug}/#read`} aria-label={`Read the ${comic.person} biography comic`} />
       <div className="archive-cover" aria-hidden="true">
         <Image
           src={cover}
@@ -34,9 +36,9 @@ export function ArchiveCard({ comic, priority = false }) {
         <h3>{comic.person}</h3>
         <p>{comic.dek}</p>
         <div className="archive-actions">
-          <ComicShareButton comic={comic} surface="archive_card" />
+          <ComicShareButton comic={shareComic} surface="archive_card" />
           {comic.pdf ? (
-            <PdfSupportGate href={mediaPath(comic, comic.pdf)} comic={comic} surface="archive_card_pdf" />
+            <PdfSupportGate href={mediaPath(comic, comic.pdf)} comic={shareComic} surface="archive_card_pdf" />
           ) : null}
         </div>
       </div>

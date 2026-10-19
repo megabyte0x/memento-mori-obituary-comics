@@ -7,6 +7,7 @@
 // Usage:
 //   node scripts/submit_indexnow.mjs                # submit live sitemap URLs
 //   node scripts/submit_indexnow.mjs --dry-run      # print URLs, do not submit
+//   node scripts/submit_indexnow.mjs --url <url> [--url <url>]  # submit only these URLs
 //
 // The IndexNow key must already be live at https://<host>/<key>.txt. The key
 // file lives in public/ and ships with the normal deploy.
@@ -58,14 +59,18 @@ function postJson(url, payload) {
   });
 }
 
-// Pull the canonical URL list straight from the live sitemap so it never drifts.
-const sitemap = await get(`${HOST}/sitemap.xml`);
-if (sitemap.status !== 200) {
-  console.error(`Could not fetch ${HOST}/sitemap.xml (HTTP ${sitemap.status}).`);
-  process.exit(1);
+const explicitUrls = process.argv.flatMap((arg, index, all) => (arg === "--url" && all[index + 1] ? [all[index + 1]] : []));
+let urlList = explicitUrls;
+if (!urlList.length) {
+  // Pull the canonical URL list straight from the live sitemap so it never drifts.
+  const sitemap = await get(`${HOST}/sitemap.xml`);
+  if (sitemap.status !== 200) {
+    console.error(`Could not fetch ${HOST}/sitemap.xml (HTTP ${sitemap.status}).`);
+    process.exit(1);
+  }
+  urlList = [...sitemap.body.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1].trim());
 }
-const urlList = [...sitemap.body.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1].trim());
-console.log(`Found ${urlList.length} URLs in sitemap. Key: ${key}`);
+console.log(`Submitting ${urlList.length} URLs. Key: ${key}`);
 
 if (dryRun) {
   urlList.forEach((u) => console.log("  " + u));

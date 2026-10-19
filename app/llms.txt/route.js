@@ -1,6 +1,7 @@
 import { citationPassage, sourceItems } from "../../lib/comics.js";
 import { loadRuntimeComics } from "../../lib/runtime-comics.js";
 import { absoluteUrl, SITE_DESCRIPTION, SITE_NAME, SUBSTACK_URL } from "../../lib/site.js";
+import { themePath, themesWithComics } from "../../lib/themes.js";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -19,6 +20,9 @@ export async function GET() {
       const sources = sourceItems(comic).map((source) => source.name).join(", ");
       return `- [${comic.person} - ${comic.title}](${absoluteUrl(`/comics/${comic.slug}/`)}): ${comic.dek || ""} Published ${comic.published_at || "undated"}. Sources: ${sources || "listed on the reader page"}.`;
     })
+    .join("\n");
+  const themeLinks = themesWithComics(comics)
+    .map(({ theme, comics: members }) => `- [${theme.title}](${absoluteUrl(themePath(theme))}): ${members.length} comics. ${theme.description}`)
     .join("\n");
   const body = `# ${SITE_NAME}
 > ${SITE_DESCRIPTION}
@@ -53,6 +57,9 @@ export async function GET() {
 - [Newsletter](${absoluteUrl("/newsletter/")}): Borrowed Time Dispatch signup for new comics and source notes.
 - [RSS feed](${absoluteUrl("/feed.xml")}): The 20 newest comic permalinks with publication dates, citable descriptions, and cover images.
 - [Substack](${SUBSTACK_URL}): External newsletter home.
+
+## Themes
+${themeLinks}
 
 ## Latest issues
 ${latestIssueLinks || (latest ? `- [${latest.person} - ${latest.title}](${absoluteUrl(`/comics/${latest.slug}/`)}): ${latest.mortality_event || latest.dek || ""}` : "- No issue is currently published.")}

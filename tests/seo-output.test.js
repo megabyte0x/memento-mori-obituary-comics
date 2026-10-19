@@ -5,7 +5,7 @@ import { GET as llmsTxt } from "../app/llms.txt/route.js";
 import { GET as rssFeed } from "../app/feed.xml/route.js";
 import robots from "../app/robots.js";
 import sitemap from "../app/sitemap.js";
-import { citationPassage, comicImageMetadata, comicMetaDescription, comicMetaTitle, comicSchema, getComics, getLatestComic, homeSchema, parseYears, sourceUrls } from "../lib/comics.js";
+import { citationPassage, comicFaq, comicImageMetadata, comicMetaDescription, comicMetaTitle, comicSchema, firstSentence, getComics, getLatestComic, homeSchema, lifeFacts, parseYears, sourceUrls } from "../lib/comics.js";
 import { absoluteUrl, SITE_NAME, SITE_SHORT_NAME, SITE_URL } from "../lib/site.js";
 
 function graphNodes(schema) {
@@ -156,7 +156,8 @@ test("home schema exposes collection and publisher entities", () => {
   const collection = findGraphNode(schema, (node) => node["@type"] === "CollectionPage");
 
   assert.equal(organization.name, SITE_NAME);
-  assert.ok(organization.alternateName.includes(SITE_SHORT_NAME));
+  assert.equal(SITE_NAME, SITE_SHORT_NAME);
+  assert.ok(organization.alternateName.includes("Memento Mori Obituary Comics"));
   assert.equal(organization.logo.url, absoluteUrl("/assets/logo.png"));
   assert.equal(organization.publishingPrinciples, absoluteUrl("/about/"));
   assert.equal(website.publisher["@id"], `${SITE_URL}/#organization`);
@@ -187,7 +188,10 @@ test("comic schema includes citable summary, page images, subject, and source ci
   assert.deepEqual(subject.sameAs, comic.sameAs);
   assert.ok(summary.itemListElement.length >= 3);
   assert.ok(summary.itemListElement.every((item) => item.name && !("item" in item)));
-  assert.ok(images[0].url.startsWith(`${SITE_URL}/media/comics/`));
+  assert.deepEqual(
+    { url: images[0].url, width: images[0].width, height: images[0].height },
+    { url: `${SITE_URL}/share-card/${comic.slug}.jpg`, width: 1200, height: 630 },
+  );
 
   if (sourceUrls(comic).length > 0) {
     assert.deepEqual(creativeWork.citation, sourceUrls(comic));
@@ -205,4 +209,60 @@ test("comic search metadata stays concise while structured descriptions remain c
 test("approximate birth years are not asserted as exact Person dates", () => {
   assert.deepEqual(parseYears("c. 1822–1913"), { birthDate: "", deathDate: "1913" });
   assert.deepEqual(parseYears("1934–1992"), { birthDate: "1934", deathDate: "1992" });
+});
+
+test("comic titles fall back to shorter forms instead of cutting a name mid-word", () => {
+  const garrincha = { person: "Manoel Francisco dos Santos (Garrincha)", title: "Bent-Legged Angel", years: "1933–1983" };
+  assert.equal(comicMetaTitle(garrincha), "Manoel Francisco dos Santos (Garrincha) | Biography Comic");
+  assert.equal(comicMetaTitle({ person: "Terry Fox", title: "Terry Fox: Marathon of Hope" }), "Terry Fox: Marathon of Hope | Biography Comic");
+  assert.equal(comicMetaTitle({ ...garrincha, seo_title: "How Garrincha Played On" }), "How Garrincha Played On");
+});
+
+test("meta descriptions lead with the first full sentence, past abbreviations and initials", () => {
+  assert.equal(
+    firstSentence("Harriet Tubman (c. 1822–1913) was an abolitionist. She escaped slavery."),
+    "Harriet Tubman (c. 1822–1913) was an abolitionist.",
+  );
+  assert.equal(firstSentence("J. R. R. Tolkien wrote. Then he fought."), "J. R. R. Tolkien wrote.");
+  const description = comicMetaDescription({ person: "X", citation_passage: "Harriet Tubman (c. 1822–1913) was an American abolitionist who escaped slavery. More." });
+  assert.ok(description.startsWith("Harriet Tubman (c. 1822–1913) was an American abolitionist who escaped slavery. "));
+  assert.ok(description.length <= 160);
+});
+
+test("life facts compute age at death across the birthday boundary", () => {
+  // Died one month before his 23rd birthday: 22, not 23.
+  assert.equal(lifeFacts({ birth_date: "1958-07-28", death_date: "1981-06-28" }).age, 22);
+  assert.equal(lifeFacts({ birth_date: "1958-07-28", death_date: "1981-07-28" }).age, 23);
+  assert.equal(lifeFacts({ birth_date: "1958-07-28", death_date: "1981-07-27" }).age, 22);
+  assert.equal(lifeFacts({ birth_date: "1958-07-28", death_date: "1981-06-28" }).died, "June 28, 1981");
+  assert.equal(lifeFacts({ years: "1958–1981" }).age, null);
+});
+
+test("authored FAQ wins; derived FAQ only states structured, dated facts", () => {
+  const authored = [{ question: "How did Terry Fox die?", answer: "Of cancer." }];
+  assert.deepEqual(comicFaq({ faq: authored, death_date: "1981-06-28" }), authored);
+
+  const derived = comicFaq({ person: "Terry Fox", birth_date: "1958-07-28", death_date: "1981-06-28", pages: ["a", "b"], mortality_event: "Cancer stopped his run." });
+  assert.equal(derived[0].answer, "Terry Fox died on June 28, 1981, at the age of 22. Terry Fox was born on July 28, 1958.");
+  assert.match(derived[1].answer, /This 2-page illustrated biography centers on one turning point: Cancer stopped his run\.$/);
+  assert.deepEqual(comicFaq({ person: "Nobody", years: "1900–1950" }), []);
+});
+
+test("comic schema exposes exact life dates, theme breadcrumb, and FAQ when available", () => {
+  const comic = {
+    ...getLatestComic(),
+    birth_date: "1892-04-15",
+    death_date: "1983-04-15",
+    themes: ["holocaust", "faith"],
+    faq: [{ question: "Q?", answer: "A." }],
+  };
+  const schema = comicSchema(comic);
+  const subject = findGraphNode(schema, (node) => node["@type"] === "Person");
+  const breadcrumb = findGraphNode(schema, (node) => node["@type"] === "BreadcrumbList");
+  const faq = findGraphNode(schema, (node) => node["@type"] === "FAQPage");
+  assert.equal(subject.birthDate, "1892-04-15");
+  assert.equal(subject.deathDate, "1983-04-15");
+  assert.deepEqual(breadcrumb.itemListElement.map((item) => item.name), ["Home", "The Holocaust", comic.person]);
+  assert.equal(breadcrumb.itemListElement[1].item, `${SITE_URL}/themes/holocaust/`);
+  assert.equal(faq.mainEntity[0].acceptedAnswer.text, "A.");
 });
