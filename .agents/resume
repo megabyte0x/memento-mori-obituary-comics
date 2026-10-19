@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+cd "$(dirname "${BASH_SOURCE[0]}")/.."
+
+# Snapshots retain the toolchain and dependencies; never reinstall on wake.
+if [[ "$(node --version)" != "v$(cat .node-version)" ]] ||
+  [[ "pnpm@$(pnpm --version)" != "$(node -p 'require("./package.json").packageManager')" ]] ||
+  ! command -v python3 >/dev/null 2>&1 ||
+  [[ ! -f node_modules/next/package.json ]]; then
+  echo "Orb prerequisites are missing or outdated. Run .agents/setup to repair them." >&2
+  exit 1
+fi
+
+echo "Orb prerequisites ready; no installation needed. Services are managed by Amp."

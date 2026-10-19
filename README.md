@@ -59,6 +59,19 @@ to `.env.local` only when it does not exist. Python 3 is installed if missing;
 the Python tests use only the standard library. Setup refreshes the local-only R2
 catalogue from `comics.json` so archive pages work without Cloudflare authentication.
 Setup is safe to rerun; it replaces local catalogue edits with checked-in metadata.
+Installations are non-interactive, and setup reports timings for the toolchain,
+dependencies, and local catalogue seed.
+
+After successful setup, Amp snapshots the installed toolchain, dependencies, and
+local data. New orbs using an exact project snapshot skip setup; a stale snapshot
+keeps those caches while setup checks the updated repository's pins and lockfile.
+No separate dependency cache marker is needed: pnpm's warm frozen-lockfile install
+already checks restored dependencies quickly without downloading them again.
+The fast `.agents/resume` hook checks the pinned tools and installed Next.js on
+activation and wake; it never installs packages or authenticates services. If it
+reports missing or outdated prerequisites, run `.agents/setup` to repair them.
+These lifecycle files must reach the project's default branch before future orbs
+can use changes to them.
 
 Start the supervised development server and get its authenticated portal URL:
 
@@ -67,7 +80,7 @@ amp orb services ensure
 ```
 
 The service in `.amp/services.yaml` listens on Amp's assigned port and checks
-the homepage for readiness. No resume hook is needed: Amp supervises the service.
+the homepage for readiness. Amp supervises the service; the resume hook does not start it.
 Generated portal URLs are ignored by Git. Setup does not authenticate Cloudflare,
 publish comics, or deploy the Worker. The example environment contains placeholders,
 not working credentials; private R2 media binaries are not downloaded or seeded. Media and
