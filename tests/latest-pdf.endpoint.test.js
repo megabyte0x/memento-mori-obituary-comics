@@ -1,5 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
+import { FacilitatorResponseError } from "@x402/core/server";
 
 import { createApp } from "../lib/latest-pdf.js";
 
@@ -41,7 +42,8 @@ test("GET /api/latest-pdf returns a controlled error when facilitator sync fails
     {
       facilitatorClient: {
         async getSupported() {
-          throw new Error("facilitator unavailable");
+          // The SDK now distinguishes facilitator failures from unexpected application errors.
+          throw new FacilitatorResponseError("Payment facilitator is unavailable");
         },
       },
     },
