@@ -1260,8 +1260,7 @@ body.reader-mode {
 
 /* Comic Layout Containers */
 .reader-introduction {
-  padding: 112px max(24px, calc((100vw - 840px) / 2)) 38px;
-  border-bottom: 1px solid rgba(223, 177, 91, 0.16);
+  padding: 100px max(24px, calc((100vw - 840px) / 2)) 20px;
   background:
     radial-gradient(circle at 50% 0%, rgba(223, 177, 91, 0.08), transparent 42%),
     #030302;
@@ -1276,48 +1275,11 @@ body.reader-mode {
 }
 .reader-introduction h1 {
   max-width: 760px;
-  margin: 0 0 18px;
+  margin: 0;
   color: var(--paper);
   font-size: clamp(26px, 4vw, 44px);
   line-height: 1.08;
   letter-spacing: -0.025em;
-}
-.reader-introduction-passage {
-  max-width: 78ch;
-  margin: 0;
-  color: rgba(244, 235, 214, 0.88);
-  font-size: clamp(16px, 2vw, 19px);
-  line-height: 1.72;
-}
-.reader-introduction-sources {
-  display: flex;
-  align-items: baseline;
-  gap: 12px;
-  margin-top: 22px;
-  font-family: var(--font-sans);
-}
-.reader-introduction-sources > span {
-  color: rgba(244, 235, 214, 0.5);
-  font-size: 11px;
-  font-weight: 800;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-.reader-introduction-sources ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 7px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.reader-introduction-sources a,
-.reader-introduction-sources li {
-  color: rgba(244, 235, 214, 0.76);
-  font-size: 12px;
-}
-.reader-introduction-sources a:hover {
-  color: var(--gold);
 }
 .reader-pages {
   min-height: 100vh;
@@ -1330,12 +1292,12 @@ body.reader-mode {
 }
 .reader-pages.has-introduction {
   min-height: auto;
-  padding-top: 30px;
+  padding-top: 0;
 }
 
 /* 1. Continuous Scroll Layout (Default) */
 .reader-pages.layout-vertical {
-  gap: 24px;
+  gap: 12px;
 }
 .reader-pages.layout-vertical .reader-page {
   width: min(840px, 94vw);
@@ -1352,29 +1314,11 @@ body.reader-mode {
   display: block;
 }
 
-.reader-page figcaption:not(.reader-page-summary) {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-}
 
-.reader-page-summary {
-  padding: 16px 20px;
-  color: var(--muted);
-  font-size: 14px;
-  line-height: 1.6;
-}
 
 @media (max-width: 680px) {
   .reader-introduction {
-    padding: 96px 20px 30px;
-  }
-  .reader-introduction-sources {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 8px;
+    padding: 88px 20px 16px;
   }
 }
 
@@ -1388,70 +1332,8 @@ body.reader-mode {
   z-index: 10;
 }
 
-.epilogue-card {
-  max-width: 780px;
-  margin: 0 auto 40px;
-  background: var(--panel);
-  border: 1px solid var(--gold);
-  border-radius: var(--border-radius);
-  padding: 40px 32px;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
-  position: relative;
-}
-.epilogue-card::before {
-  content: "⏳";
-  position: absolute;
-  top: -16px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: var(--bg);
-  padding: 0 16px;
-  font-size: 20px;
-  color: var(--gold);
-}
 
-.epilogue-quote {
-  font-size: clamp(20px, 3.5vw, 26px);
-  line-height: 1.5;
-  font-style: italic;
-  font-weight: 600;
-  color: var(--paper);
-  margin-bottom: 24px;
-  letter-spacing: 0.01em;
-}
 
-.epilogue-sources {
-  font-family: var(--font-sans);
-  font-size: 11px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--muted);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 8px;
-  margin-top: 16px;
-}
-.source-chip {
-  background: rgba(223, 177, 91, 0.08);
-  border: 1px solid var(--line);
-  padding: 4px 10px;
-  border-radius: 99px;
-  color: var(--paper);
-  text-decoration: none;
-  transition: var(--transition);
-  max-width: 100%;
-  overflow-wrap: anywhere;
-}
-.source-chip:hover {
-  border-color: var(--gold);
-  background: rgba(223, 177, 91, 0.15);
-}
-.source-chip:focus-visible {
-  outline: 2px solid var(--gold);
-  outline-offset: 3px;
-}
 
 /* Next Comic Engagement Preview */
 .next-comic-teaser {
@@ -1646,18 +1528,6 @@ body.reader-mode {
   }
 }
 
-@media (max-width: 560px) {
-  .epilogue-sources {
-    gap: 10px;
-  }
-
-  .source-chip {
-    width: 100%;
-    padding: 10px 14px;
-    text-align: center;
-    line-height: 1.45;
-  }
-}
 
 @media (max-width: 420px) {
   .reader-toolbar {
@@ -1693,8 +1563,22 @@ body.reader-mode {
 .reader-source-line { max-width: 780px; margin: 0 auto; }
 .reader-context {
   max-width: 820px;
-  margin: 0 auto;
+  margin: 0 auto 32px;
   text-align: left;
+}
+.reader-context > summary {
+  cursor: pointer;
+  color: var(--muted);
+  font: 700 13px/1.4 var(--font-sans);
+  letter-spacing: 0.08em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.reader-context > summary:hover {
+  color: var(--gold);
+}
+.reader-context[open] > summary {
+  margin-bottom: 20px;
 }
 .reader-context h2 {
   margin: 30px 0 10px;
@@ -1974,9 +1858,6 @@ body.reader-mode {
   }
   .btn {
     text-align: center;
-  }
-  .epilogue-card {
-    padding: 24px 16px;
   }
   .about-page {
     padding-top: 48px;
@@ -3436,12 +3317,6 @@ body::before {
 .reader-breadcrumb a:hover {
   color: var(--gold);
 }
-.reader-introduction-dek {
-  max-width: 70ch;
-  margin: -6px 0 22px;
-  color: rgba(244, 235, 214, 0.78);
-  font: italic 500 clamp(18px, 2.2vw, 22px)/1.45 var(--font-serif);
-}
 .reader-facts {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -3470,35 +3345,6 @@ body::before {
   margin: 0;
   color: rgba(244, 235, 214, 0.9);
   font: 15px/1.55 var(--font-sans);
-}
-.reader-introduction-question {
-  margin: 0 0 10px;
-  color: #ead39d;
-  font: 700 clamp(19px, 2.4vw, 24px)/1.2 var(--font-display);
-  letter-spacing: 0.02em;
-}
-.reader-page-transcript {
-  border-top: 1px solid rgba(223, 177, 91, 0.12);
-  padding: 0 20px;
-  font-family: var(--font-sans);
-}
-.reader-page-transcript summary {
-  min-height: 44px;
-  display: flex;
-  align-items: center;
-  color: var(--gold);
-  font-size: 13px;
-  font-weight: 700;
-  cursor: pointer;
-}
-.reader-page-transcript p {
-  margin: 0 0 12px;
-  color: #d8cbb1;
-  font-size: 15px;
-  line-height: 1.65;
-}
-.reader-page-transcript[open] {
-  padding-bottom: 8px;
 }
 .reader-faq-item h3 {
   margin: 18px 0 6px;

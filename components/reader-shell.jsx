@@ -10,18 +10,15 @@ import { trackActivity } from "@/components/mixpanel-analytics";
 import { PdfSupportGate } from "@/components/pdf-support-gate";
 import { Button } from "@/components/ui/button";
 import {
-  citationPassage, citableSummary, comicDescription, comicFaq, imageSize, lifeFacts, mediaPath, pageSummary,
+  citationPassage, citableSummary, comicFaq, imageSize, lifeFacts, mediaPath, pageSummary,
   pageTranscript, sourceItems, storyNotes, storyTitle,
 } from "@/lib/comic-presenters";
 
 export function ReaderShell({ comic, nextComic, themes = [], related = [] }) {
   const pages = comic.pages || [];
-  const passage = citationPassage(comic);
-  const sources = sourceItems(comic);
   const story = storyTitle(comic);
   const heading = story ? `${comic.person}: ${story}` : comic.person;
   const facts = lifeFacts(comic);
-  const primary = themes[0];
 
   useEffect(() => {
     trackActivity("comic_reader_loaded", {
@@ -57,46 +54,12 @@ export function ReaderShell({ comic, nextComic, themes = [], related = [] }) {
         </div>
       </nav>
 
-      <section className="reader-introduction" aria-labelledby="reader-introduction-title">
-        <nav className="reader-breadcrumb" aria-label="Breadcrumb">
-          <ol>
-            <li><Link href="/">Home</Link></li>
-            {primary ? <li><Link href={primary.href}>{primary.name}</Link></li> : null}
-            <li aria-current="page">{comic.person}</li>
-          </ol>
-        </nav>
+      <header className="reader-introduction">
         <p className="reader-introduction-kicker">
-          Illustrated biography comic{facts.years ? ` · ${facts.years}` : ""}{pages.length ? ` · ${pages.length} pages` : ""} ·{" "}
-          <time dateTime={comic.published_at}>Published {comic.published_at}</time>
+          {[facts.years, pages.length ? `${pages.length} pages` : ""].filter(Boolean).join(" · ")}
         </p>
-        <h1 id="reader-introduction-title">{heading}</h1>
-        {comic.dek ? <p className="reader-introduction-dek">{comic.dek}</p> : null}
-        <LifeFacts comic={comic} facts={facts} />
-        {passage ? (
-          <>
-            <h2 className="reader-introduction-question">Who was {comic.person}?</h2>
-            <p className="reader-introduction-passage">{passage}</p>
-          </>
-        ) : null}
-        {sources.length ? (
-          <div className="reader-introduction-sources">
-            <span>Sources</span>
-            <ul>
-              {sources.map((source) => (
-                <li key={source.name}>
-                  {source.url ? (
-                    <a href={source.url} rel="noopener noreferrer" target="_blank">
-                      {source.name}
-                    </a>
-                  ) : (
-                    source.name
-                  )}
-                </li>
-              ))}
-            </ul>
-          </div>
-        ) : null}
-      </section>
+        <h1>{heading}</h1>
+      </header>
 
       <main id="read" className="reader-pages layout-vertical has-introduction" aria-label="Comic pages">
         {pages.map((src, index) => {
@@ -107,7 +70,7 @@ export function ReaderShell({ comic, nextComic, themes = [], related = [] }) {
             <figure className="reader-page" id={`page-${String(index + 1).padStart(2, "0")}`} key={src}>
               <Image
                 src={mediaPath(comic, src)}
-                alt={`Page ${index + 1} of ${comic.person}: ${comic.title}${summary ? ` - ${summary}` : ""}`}
+                alt={`Page ${index + 1} of ${comic.person}: ${storyTitle(comic) || comic.title}${summary ? ` - ${summary}` : ""}`}
                 width={size.width}
                 height={size.height}
                 sizes="(max-width: 900px) 100vw, 900px"
@@ -115,15 +78,11 @@ export function ReaderShell({ comic, nextComic, themes = [], related = [] }) {
                 loading={index === 0 ? undefined : "lazy"}
                 fetchPriority={index === 0 ? "high" : undefined}
               />
-              <figcaption className={summary ? "reader-page-summary" : undefined}>{summary || `Page ${index + 1}`}</figcaption>
-              {transcript ? (
-                <details className="reader-page-transcript">
-                  <summary>Page {index + 1} text and panel descriptions</summary>
-                  {transcript.split(/\n{2,}|\n/).filter(Boolean).map((line, lineIndex) => (
-                    <p key={lineIndex}>{line}</p>
-                  ))}
-                </details>
-              ) : null}
+              {/* The words are printed on the page; keep a text equivalent for screen readers only. */}
+              <figcaption className="sr-only">
+                {summary || `Page ${index + 1}`}
+                {transcript ? <span className="reader-page-transcript">{transcript}</span> : null}
+              </figcaption>
             </figure>
           );
         })}
@@ -157,57 +116,43 @@ function LifeFacts({ comic, facts }) {
 function ReaderFooter({ comic, nextComic, themes, related }) {
   const sources = sourceItems(comic);
   const faq = comicFaq(comic);
-  const closingLine = String(comic.closing_line || "").trim();
+  const passage = citationPassage(comic);
+  const primary = themes[0];
   return (
     <footer className="reader-footer">
-      {closingLine ? (
-        <div className="epilogue-card">
-          <div className="epilogue-quote">“{closingLine}”</div>
-          <div className="epilogue-sources">
-            {sources.map((source) => (
-              source.url ? (
-                <a className="source-chip" href={source.url} rel="noopener noreferrer" target="_blank" key={source.name}>
-                  {source.name}
-                </a>
-              ) : (
-                <span className="source-chip" key={source.name}>
-                  {source.name}
-                </span>
-              )
-            ))}
+      <details className="reader-context">
+        <summary>About this story &amp; sources</summary>
+        <nav className="reader-breadcrumb" aria-label="Breadcrumb">
+          <ol>
+            <li><Link href="/">Home</Link></li>
+            {primary ? <li><Link href={primary.href}>{primary.name}</Link></li> : null}
+            <li aria-current="page">{comic.person}</li>
+          </ol>
+        </nav>
+        {comic.dek ? <p>{comic.dek}</p> : null}
+        <LifeFacts comic={comic} facts={lifeFacts(comic)} />
+        {passage ? <p>{passage}</p> : null}
+        {faq.map((item) => (
+          <div className="reader-faq-item" key={item.question}>
+            <h3>{item.question}</h3>
+            <p>
+              {item.answer}
+              {item.sourceUrl && !item.sourceUrl.includes(`/comics/${comic.slug}/`) ? (
+                <>
+                  {" "}
+                  <a className="reader-faq-source" href={item.sourceUrl} rel="noopener noreferrer" target="_blank">
+                    Source
+                  </a>
+                </>
+              ) : null}
+            </p>
           </div>
-        </div>
-      ) : null}
-      <section className="reader-context" aria-label="Comic notes and sources">
-        <p className="reader-source-line">{comicDescription(comic)}</p>
-        {faq.length ? (
-          <section className="reader-faq" aria-labelledby="reader-faq-title">
-            <h2 id="reader-faq-title">Questions about {comic.person}</h2>
-            {faq.map((item) => (
-              <div className="reader-faq-item" key={item.question}>
-                <h3>{item.question}</h3>
-                <p>
-                  {item.answer}
-                  {item.sourceUrl && !item.sourceUrl.includes(`/comics/${comic.slug}/`) ? (
-                    <>
-                      {" "}
-                      <a className="reader-faq-source" href={item.sourceUrl} rel="noopener noreferrer" target="_blank">
-                        Source
-                      </a>
-                    </>
-                  ) : null}
-                </p>
-              </div>
-            ))}
-          </section>
-        ) : null}
-        <h2>Citable Summary</h2>
+        ))}
         <ul className="summary-list">
           {citableSummary(comic).map((item) => (
             <li key={item}>{item}</li>
           ))}
         </ul>
-        <h2>Story Notes</h2>
         {storyNotes(comic).map((item) => (
           <p key={item}>{item}</p>
         ))}
@@ -225,36 +170,12 @@ function ReaderFooter({ comic, nextComic, themes, related }) {
             </li>
           ))}
         </ul>
-        {comic.pdf ? (
-          <>
-            <h2>Download PDF</h2>
-            <p>
-              <PdfSupportGate href={mediaPath(comic, comic.pdf)} comic={comic} surface="reader_footer_pdf" variant="miniPrimary" label="Download the PDF" />
-            </p>
-          </>
-        ) : null}
-        <h2>Share This Story</h2>
-        <p>
-          Pass the canonical reader link into a group chat, Reddit thread, or note-taking tool without making people hunt through raw image URLs.
-        </p>
-        <p>
-          <ComicShareButton comic={comic} surface="reader_footer" text="Share the reader link" titlePrefix="Share this comic" variant="miniPrimary" />
-        </p>
-      </section>
+        <p>Published <time dateTime={comic.published_at}>{comic.published_at}</time></p>
+      </details>
       <ComicSubscribeDialog comic={comic} />
       {related.length ? (
         <section className="related-lives" aria-labelledby="related-lives-title">
-          <div className="next-kicker">More lives like this</div>
-          <h2 id="related-lives-title">If {comic.person}&rsquo;s story stayed with you</h2>
-          {themes.length ? (
-            <ul className="theme-chips" aria-label="Themes">
-              {themes.map((theme) => (
-                <li key={theme.slug}>
-                  <Link href={theme.href}>{theme.name}</Link>
-                </li>
-              ))}
-            </ul>
-          ) : null}
+          <h2 id="related-lives-title">More lives like this</h2>
           <ul className="related-lives-grid">
             {related.map((item) => (
               <li key={item.slug}>
@@ -265,7 +186,6 @@ function ReaderFooter({ comic, nextComic, themes, related }) {
                   <span className="related-life-copy">
                     <strong>{item.person}</strong>
                     {item.years ? <span className="related-life-years">{item.years}</span> : null}
-                    <span>{item.dek}</span>
                   </span>
                 </Link>
               </li>
@@ -289,7 +209,6 @@ function ReaderFooter({ comic, nextComic, themes, related }) {
             </div>
             <div className="next-info">
               <h4>{nextComic.person}</h4>
-              <p>{nextComic.dek}</p>
             </div>
           </Link>
         </div>
