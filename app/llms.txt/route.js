@@ -1,4 +1,4 @@
-import { citationPassage, sourceItems } from "../../lib/comics.js";
+import { citationPassage, sourceItems, storyTitle } from "../../lib/comics.js";
 import { loadRuntimeComics } from "../../lib/runtime-comics.js";
 import { absoluteUrl, SITE_DESCRIPTION, SITE_NAME, SUBSTACK_URL } from "../../lib/site.js";
 import { themePath, themesWithComics } from "../../lib/themes.js";
@@ -13,12 +13,12 @@ export async function GET() {
   const latestIssueLinks = comics
     .slice(0, 3)
     .filter((comic) => citationPassage(comic))
-    .map((comic) => `- [${comic.person} - ${comic.title}](${absoluteUrl(`/comics/${comic.slug}/`)}): ${citationPassage(comic)}`)
+    .map((comic) => `- [${comic.person}: ${storyTitle(comic) || comic.title}](${absoluteUrl(`/comics/${comic.slug}/`)}): ${citationPassage(comic)}`)
     .join("\n");
   const comicLinks = comics
     .map((comic) => {
       const sources = sourceItems(comic).map((source) => source.name).join(", ");
-      return `- [${comic.person} - ${comic.title}](${absoluteUrl(`/comics/${comic.slug}/`)}): ${comic.dek || ""} Published ${comic.published_at || "undated"}. Sources: ${sources || "listed on the reader page"}.`;
+      return `- [${comic.person}: ${storyTitle(comic) || comic.title}](${absoluteUrl(`/comics/${comic.slug}/`)}): ${comic.dek || ""} Published ${comic.published_at || "undated"}. Sources: ${sources || "listed on the reader page"}.`;
     })
     .join("\n");
   const themeLinks = themesWithComics(comics)

@@ -3,6 +3,7 @@ import {
   comicDescription,
   comicUrl,
   firstImageUrl,
+  storyTitle,
 } from "../../lib/comics.js";
 import { loadRuntimeComics } from "../../lib/runtime-comics.js";
 import {
@@ -35,7 +36,7 @@ export async function GET() {
     const url = comicUrl(comic);
     const imageUrl = firstImageUrl(comic);
     return `<item>
-  <title>${escapeXml(`${comic.person} - ${comic.title}`)}</title>
+  <title>${escapeXml(`${comic.person}: ${storyTitle(comic) || comic.title}`)}</title>
   <link>${escapeXml(url)}</link>
   <guid isPermaLink="true">${escapeXml(url)}</guid>
   <pubDate>${escapeXml(publicationDate(comic.published_at))}</pubDate>

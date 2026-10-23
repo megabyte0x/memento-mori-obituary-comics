@@ -2,7 +2,7 @@ import Link from "next/link";
 
 import { ResourceLayout } from "@/components/resource-layout";
 import { Button } from "@/components/ui/button";
-import { comicPath, getComics, sourceItems } from "@/lib/comics";
+import { comicPath, getComics, sourceItems, storyTitle } from "@/lib/comics";
 import { loadRuntimeComics } from "@/lib/runtime-comics";
 import { absoluteUrl, publisherSchema, SITE_LANGUAGE, SITE_NAME, SITE_URL } from "@/lib/site";
 
@@ -162,7 +162,7 @@ export default async function ObituaryArticlesPage() {
             "@type": "ListItem",
             position: index + 1,
             url: absoluteUrl(comicPath(comic)),
-            name: `${comic.person} - ${comic.title}`,
+            name: `${comic.person}: ${storyTitle(comic) || comic.title}`,
             description: comic.dek || comic.mortality_event || "",
           })),
         },

@@ -215,6 +215,8 @@ test("comic titles fall back to shorter forms instead of cutting a name mid-word
   const garrincha = { person: "Manoel Francisco dos Santos (Garrincha)", title: "Bent-Legged Angel", years: "1933–1983" };
   assert.equal(comicMetaTitle(garrincha), "Manoel Francisco dos Santos (Garrincha) | Biography Comic");
   assert.equal(comicMetaTitle({ person: "Terry Fox", title: "Terry Fox: Marathon of Hope" }), "Terry Fox: Marathon of Hope | Biography Comic");
+  assert.equal(comicMetaTitle({ person: "Margaret Tobin Brown", title: "Margaret Brown: Unsinkable Witness" }), "Margaret Tobin Brown: Unsinkable Witness | Biography Comic");
+  assert.equal(comicMetaTitle({ person: "Ada Lovelace", title: "Babbage: A Friend" }), "Ada Lovelace: Babbage: A Friend | Biography Comic");
   assert.equal(comicMetaTitle({ ...garrincha, seo_title: "How Garrincha Played On" }), "How Garrincha Played On");
 });
 
